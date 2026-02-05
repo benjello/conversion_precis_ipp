@@ -43,5 +43,4 @@ Les sections vides dans la source reçoivent automatiquement un indicateur *[À 
   - `true` (défaut) : tableau généré depuis [OpenFisca-France](https://github.com/openfisca/openfisca-france).
   - `false` : tableau statique (fichier `tables/tva_historique_static.md`, issu du .tex).
 - **Tous les autres tableaux** du livre (aperçu fiscalité, carburants, tabac, alcools, assurances, etc.) utilisent **toujours** la conversion LaTeX (contenu des .qmd) ; OpenFisca ne s’applique pas à eux.
-- **Pour le mode OpenFisca (TVA)** : installer les dépendances, définir `QUARTO_PYTHON` sur le venv, puis `quarto render` (voir étape 2 ci‑dessus).
-- Pour un rendu hors ligne ou des paramètres personnalisés, voir `parameters/README.md`.
+- **Pour le mode OpenFisca (TVA)** : installer les dépendances (openfisca-france, pyyaml, pandas), définir `QUARTO_PYTHON` sur le venv, puis `quarto render` (voir étape 2 ci‑dessus). Les paramètres sont lus depuis le paquet openfisca-france installé.

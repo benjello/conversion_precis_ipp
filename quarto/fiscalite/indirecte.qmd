@@ -229,19 +229,31 @@ tableau [Evolution des taux de TVA en France depuis 1972.](#table:historique-ta
 au cours des vingt dernières années en matière de taxation sur la valeur
 ajoutée.
 
-::: tab
-Évolution des taux de TVA en France depuis 1972. []{#table:historique-taux-tva}
+```{python}
+#| label: historique-taux-tva
+#| tbl-cap: "Évolution des taux de TVA en France depuis 1972."
+#| cap-location: top
+#| echo: false
+import os
+from pathlib import Path
+import pandas as pd
 
-  Type de taux        1972    1977    1982    1988   1989   1990   1992   1995   2000   2012   2014\*
-  ------------------ ------- ------- ------- ------ ------ ------ ------ ------ ------ ------ --------
-  Super réduit         \-      \-      5,5    5,5    2,1    2,1    2,1    2,1    2,1    2,1     2,1
-  Réduit                7       7       7      7     5,5    5,5    5,5    5,5    5,5    5,5      5
-  Réduit supérieur     \-      \-      \-      \-     \-     \-     \-     \-     \-     7       10
-  Normal               20     17,6    18,6    18,6   18,6   18,6   18,6   20,6   19,6   19,6     20
-  Majoré              33,33   33,33   33,33    28     25     22     \-     \-     \-     \-      \-
-
-*Note:* \* Applicable au 1janvier 2014.
-:::
+use_openfisca = os.environ.get("QUARTO_PARAM_USE_OPENFISCA_TABLES", "true").lower() in ("true", "1", "yes")
+if use_openfisca:
+    from openfisca_tables import table_tva_historique_df
+    df = table_tva_historique_df()
+else:
+    text = Path("tables/tva_historique_static.md").read_text(encoding="utf-8")
+    lines = [l.strip() for l in text.strip().split("\n") if l.strip() and not l.strip().startswith("*")]
+    rows = []
+    for line in lines:
+        if line.startswith("|"):
+            cells = [c.strip() for c in line.split("|")[1:-1]]
+            if cells and not all(c == "" or set(c) <= set("-") for c in cells):
+                rows.append(cells)
+    df = pd.DataFrame(rows[1:], columns=rows[0]) if rows else pd.DataFrame()
+df.style.hide(axis="index")
+```
 
 ## Droits et taxes sur les carburants
 
