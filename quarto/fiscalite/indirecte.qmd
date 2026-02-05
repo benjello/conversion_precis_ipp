@@ -1,0 +1,676 @@
+---
+title: "La fiscalité indirecte"
+---
+
+La fiscalité indirecte est habituellement définie comme l'ensemble des
+impôts collectés auprès d'agents économiques qui ne sont pas ceux
+assujettis à l'impôt, alors que la fiscalité directe regroupe les impôts
+collectés directement auprès des personnes morales et physiques qui y
+sont assujetties. Par exemple, la taxe sur la valeur ajoutée (TVA) est
+un impôt qui porte sur la consommation des ménages, mais collectée par
+le biais des entreprises.
+
+Toutefois, cette définition fondée sur le mode de prélèvement n'est pas
+nécessairement la plus pertinente d'un point de vue économique. Une
+meilleure façon de distinguer la fiscalité indirecte de la fiscalité
+directe consiste à remarquer que cette dernière (impôt sur le revenu,
+impôt sur le patrimoine, etc.) peut être adaptée à la capacité
+contributive et aux caractéristiques sociales et économiques des
+contribuables, ce qui n'est pas le cas de la fiscalité indirecte car
+elle porte sur des transactions anonymes.
+
+La fiscalité indirecte se décompose elle-même en deux types de taxes:
+des taxes *ad valorem*, dont le taux est proportionnel au prix hors taxe
+du produit auquel elle s'applique, et des accises qui sont des taxes qui
+portent sur la quantité et non sur la valeur des biens. En 2013, la
+fiscalité indirecte française comporte cinq grands groupes de taxes:
+
+-   la taxe sur la valeur ajoutée, avec quatre taux différents (et
+    certains produits non-assujettis) ;
+
+-   la taxe intérieure de consommation sur les produits énergétiques
+    (TICPE, qui remplace l'ancienne TIPP);
+
+-   le droit de consommation sur les tabacs;
+
+-   les droits de circulation et les droits de consommation sur les
+    boissons alcoolisées;
+
+-   les taxes sur les conventions d'assurance.
+
+Ces différents groupes de taxes sont décrits en détail dans la suite du
+chapitre.
+
+Le
+tableau [Aperçu de la fiscalité indirecte française en 2010.](#table:apercu_fiscalité-indirecte){reference-type="ref" reference="table:apercu_fiscalité-indirecte"} donne un aperçu de
+l'importance de ces différentes taxes.
+
+::: tab
+Aperçu de la fiscalité indirecte française en 2010. []{#table:apercu_fiscalité-indirecte}
+
+  ------------------------------ ------------------------------------------------------------- --------------------------- ----------------------------------------------- ------------------------------------------------------
+         **Type de taxe**         **Part de la consommation hors loyer soumise à cette taxe**   **Part dans le prix TTC**   **Montant annuel moyen par ménage, en euros**   **Produit de la taxe en 2010, en milliards d'euros**
+               TVA                                           87,7%                                        11,9%                                 3755                                               127,29
+     Taxe sur les carburants                                 4,0%                                         40,3%                                  574                                                14,2
+       Taxes sur les tabacs                                  1,8%                                         62,4%                                  400                                                9,75
+   Taxes sur les vins et cidres                              1,3%                                         1,2%                                    6                                                 0,12
+       Taxes sur les bières                                  0,2%                                         24,4%                                  20                                                 0,38
+   Taxes sur les alcools forts                               0,5%                                         53,0%                                  94                                                 2,70
+   Taxes sur les assurances^a^                               7,6%                                         14,3%                                  349                                                8,91
+  ------------------------------ ------------------------------------------------------------- --------------------------- ----------------------------------------------- ------------------------------------------------------
+
+*Sources:* Enquête Budget des Familles 2005 calée sur les masses de
+consommation agrégée de 2010, projet de loi de finances 2012 et calculs
+des auteurs.\
+*Lecture:* En 2010, 87,7 % de la consommation hors loyer des ménages est
+soumise à la taxe sur la valeur ajoutée; celle-ci représente en moyenne
+11,9 % du prix TTC des biens qui y sont soumis. En 2010, les ménages ont
+payé un montant moyen de TVA de 3 755 euros, et les recettes totales de
+TVA de l'État ont été de 127,29 milliards d'euros.\
+^a^ Cette ligne regroupe l'ensemble des taxes sur les conventions
+d'assurance. Voir page  pour le détail. La part des assurances dans la
+consommation des ménages et la part des taxes sur les assurances dans la
+consommation totale d'assurances sont calculées à partir des données
+*non calées* de l'enquête Budget des Familles 2005, car la définition de
+la consommation d'assurance utilisée en comptabilité nationale est
+différente de celle servant à calculer les montants de taxes (on ne peut
+donc pas calculer cette part à partir des données de comptabilité
+nationale). Cette part correspond donc à l'année 2005.
+:::
+
+## La taxe sur la valeur ajoutée (TVA)
+
+*[À rédiger.]*
+
+
+### Historique
+
+La taxe sur la valeur ajoutée est un impôt indirect proportionnel
+inventé en 1954 par Maurice Lauré, haut fonctionnaire à la direction
+générale des impôts. Conçue comme un impôt moderne devant remplacer à
+terme les divers impôts sur la consommation, elle est créée par la loi
+du 10 avril 1954[^1] et progressivement généralisée jusqu'en 1968. Elle
+est rapidement adoptée par d'autres pays membres de la Communauté
+Économique Européenne, comme le Danemark dès 1967, puis imposée à
+l'ensemble des États-membres à partir du 1^er^ janvier 1974 [^2].
+Aujourd'hui, tous les pays développés, à l'exception des États-Unis, qui
+appliquent un système de *sales taxes*[^3] (taxes sur la vente),
+disposent d'une TVA.
+
+### Mode de calcul
+
+Contrairement aux *sales taxes*, la TVA n'est pas calculée sur le
+montant des ventes mais sur la valeur ajoutée à chaque stade du
+processus productif. Les opérateurs assujettis à la TVA la perçoivent en
+majorant leurs prix de vente hors taxe du taux de TVA applicable aux
+biens vendus. Le montant de TVA versé à l'administration fiscale par
+chaque opérateur assujetti correspond à la différence entre le montant
+de TVA qu'il a perçu sur ses ventes, c'est-à-dire payé par les
+consommateurs (ménages et entreprises), et le montant de TVA qu'il a
+payé sur ses consommations intermédiaires.
+
+### Base d'imposition
+
+Un certain nombre de secteurs ne sont pas assujettis à la TVA: les
+agents économiques concernés paient la TVA sur leurs consommations
+intermédiaires mais ne perçoivent pas de TVA. Ils n'acquittent donc pas
+la TVA auprès de l'administration fiscale mais sont soumis en
+contrepartie à la taxe sur les salaires, calculée sur les rémunérations
+versées au cours de l'année par application d'un barème progressif.
+
+L'article 256 du code général des impôts prévoit que toutes les
+livraisons de biens et prestations de services effectuées à titre
+onéreux sont soumises à la taxe sur la valeur ajoutée. Cependant,
+certaines opérations sont exonérées de TVA. C'est le cas notamment des
+activités de pêche maritime,des activités médicales et paramédicales,
+des activités d'enseignement, de certains types de location, des
+activités du commerce extérieur intracommunautaire [^4].
+
+La base d'imposition sur laquelle le montant de la TVA est calculé
+comprend le prix hors taxe du produit ainsi que tous les impôts, taxes,
+droits et prélèvements de toute nature à l'exception de la taxe sur la
+valeur ajoutée elle-même. En notant $\tau$ le taux de TVA applicable, le
+montant de la TVA se calcule ainsi:
+$$TVA = \tau \left( p_{HT}+\sum \mbox{taxes} \right)$$ Le montant de TVA
+acquitté sur un produit peut également se calculer à partir du prix
+toutes taxes comprises: $$TVA =  \frac{\tau}{1+\tau}~p_{TTC}$$.
+
+### Les taux applicables en métropole au 31 décembre 2012
+
+Au 31 décembre 2012, il existait en France métropolitaine quatre taux de
+TVA [^5]:
+
+-   le **taux normal**, fixé à 19,6% s'applique à toutes les opérations
+    de ventes de biens ou de services à l'exception de celles soumises à
+    un autre taux;
+
+-   un nouveau **taux réduit**, créé par l'article 13 de la loi de
+    finances rectificative n° 2011-1978 de décembre 2011 et fixé à 7%
+    s'applique à tous les biens et prestations qui relevaient du taux
+    réduit à 5,5% avant le 1^er^ janvier 2012. Il s'agit de la
+    restauration et de l'hôtellerie, des services d'aide à la personne,
+    des travaux immobiliers, des médicaments non remboursables par la
+    Sécurité Sociale, des transports publics de voyageurs et des biens
+    culturels hors livres et spectacles vivants;
+
+-   le deuxième **taux réduit**, maintenu à 5,5%, s'applique à la
+    plupart des produits alimentaires, aux équipements et services pour
+    handicapés, aux abonnements de gaz et d'électricité, aux livres et
+    spectacles ainsi qu'aux cantines scolaires;
+
+-   le **taux super-réduit**, fixé à 2,1%, concerne les médicaments
+    remboursés par la Sécurité Sociale, les publications de presse, la
+    redevance audiovisuelle et les représentations théâtrales ou de
+    cirque.\
+    Le taux majoré, qui s'appliquait notamment à certains produits de
+    luxe, aux voitures, aux disques et instruments de musique, a été
+    supprimé en 1992 dans le cadre de l'harmonisation européenne des
+    taxes. Son taux a oscillé entre 33,33% (de 1970 à 1982) et 20%, en
+    1968.
+
+### Les taux applicables hors métropole au 31 décembre 2012
+
+La TVA s'applique également hors de la France métropolitaine. Les DOM et
+la Corse sont soumis à des taux différents. En Guyane et à Mayotte,
+aucun taux de TVA ne s'applique.
+
+En Corse, le taux normal de TVA est le même qu'en métropole. Toutefois,
+des taux particuliers s'appliquent. Ce taux est de 13% pour les produits
+pétroliers, de 8% pour les travaux immobiliers et les ventes à consommer
+sur place. La plupart des produits taxés au taux réduit de 5,5% en
+métropole est soumise à un taux de 2,1% en Corse. De même, une partie
+des produits relevant du taux super-réduit est taxée à 0,90%. Il faut
+également noter que les transports maritimes et aériens entre la France
+continentale et la Corse sont totalement exonérés de TVA.
+
+Dans les DOM (Martinique, Guadeloupe et Réunion), le taux normal est de
+8,5%, et le taux réduit est de 2,1% au lieu de 5,5%. Une partie des
+produits assujettis au taux super-réduit est taxée à hauteur de 1,05%.
+
+### Réformes récentes
+
+Les changements intervenus depuis 1995 ont consisté à changer le taux
+associé à une catégorie de TVA ou bien à modifier le type de TVA
+applicable à certaines catégories de produits. Les principaux
+changements intervenus devenus 1995 sont les suivants :
+
+-   hausse de deux points du taux normal en août 1995 (de 18,6% à 20,6%)
+    ;
+
+-   application du taux réduit aux services d'aide à la personne en mars
+    1999 ;
+
+-   application du taux réduit aux travaux portant sur les locaux
+    d'habitation en septembre 1999 ;
+
+-   baisse d'un point du taux normal en avril 2000 (de 20,6% à 19,6%) ;
+
+-   application du taux réduit à la restauration sur la place depuis
+    juillet 2009.\
+
+Dans le cadre du plan Fillon II de novembre 2011 et en accord avec le
+droit fiscal communautaire, un deuxième taux réduit de TVA de 7% entre
+en vigueur le 1^er^ janvier 2012. Il se substitue à l'ancien taux réduit
+de TVA de 5,5% qui reste en vigueur pour certains biens jugés de
+première nécessité.
+
+Le gouvernement Fillon envisageait d'augmenter le taux normal de TVA de
+1,6 point (de 19,6% à 21,2%) au 1^er^ octobre 2012, pour compenser une
+baisse des cotisations familiales patronales sur les bas salaires
+(dispositif dit de TVA anti-délocalisations). Ce projet a été abandonné
+par la gouvernement Ayrault, qui prévoit une nouvelle réforme des taux
+de TVA en vigueur à partir du 1^er^ janvier 2014[^6]. Le taux normal de
+TVA doit atteindre 20%, le premier taux réduit devient un taux
+intermédiaire de 10%, et le taux réduit est abaissé de 5,5% à 5%. Le
+taux super-réduit reste inchangé à 2,1%.
+
+Le
+tableau [Evolution des taux de TVA en France depuis 1972.](#table:historique-taux-tva){reference-type="ref" reference="table:historique-taux-tva"} résume les changements intervenus
+au cours des vingt dernières années en matière de taxation sur la valeur
+ajoutée.
+
+::: tab
+Évolution des taux de TVA en France depuis 1972. []{#table:historique-taux-tva}
+
+  Type de taux        1972    1977    1982    1988   1989   1990   1992   1995   2000   2012   2014\*
+  ------------------ ------- ------- ------- ------ ------ ------ ------ ------ ------ ------ --------
+  Super réduit         \-      \-      5,5    5,5    2,1    2,1    2,1    2,1    2,1    2,1     2,1
+  Réduit                7       7       7      7     5,5    5,5    5,5    5,5    5,5    5,5      5
+  Réduit supérieur     \-      \-      \-      \-     \-     \-     \-     \-     \-     7       10
+  Normal               20     17,6    18,6    18,6   18,6   18,6   18,6   20,6   19,6   19,6     20
+  Majoré              33,33   33,33   33,33    28     25     22     \-     \-     \-     \-      \-
+
+*Note:* \* Applicable au 1janvier 2014.
+:::
+
+## Droits et taxes sur les carburants
+
+Les carburants sont soumis à deux taxes:
+
+-   la taxe intérieure de consommation sur les produits énergétiques
+    (TICPE, anciennement nommée taxe intérieure sur les produits
+    pétroliers) (son montant est noté $T$ par la suite);
+
+-   la taxe sur la valeur ajoutée au taux plein (dont le taux normal est
+    noté $\tau$).
+
+La TICPE est une accise dont le montant est fixé par hectolitre (ou pour
+100 kg de carburant dans le cas du GPL) et qui s'ajoute au prix hors
+taxe du carburant. La relation entre le prix hors taxe et le prix toutes
+taxes comprises du carburant X s'écrit donc:
+$$p_{ttc}^X = (p_{ht}^X + T^X) (1 + \tau)$$ Dans cette expression,
+$\tau$ désigne le taux plein de TVA et T le montant de la TICPE
+applicable au carburant considéré. Le
+tableau [Fiscalité applicable aux carburants en moyenne sur l'année 2012.](#table:taxes-carburants){reference-type="ref" reference="table:taxes-carburants"} donne un aperçu de la fiscalité des
+carburants.
+
+::: tab
+Fiscalité applicable aux carburants en moyenne sur l'année 2012. []{#table:taxes-carburants}
+
+  --------------------------------- ------------ ---------------- ------------------------ ----------------------
+             **Type de**              **Taux**    **Montant de**     **Prix moyen par**      **Part des taxes**
+            **carburant**            **de TVA**    **la TICPE**    **hectolitre en 2011**   **dans le prix TTC**
+   Super sans plomb (SP95 et SP98)     19,60%       60,69 €/hl             159,20                  54,3%
+               Gazole                  19,60%       42,84 €/hl             139,58                  47,2%
+                 GPL                   19,60%       10,76 €/hl             88,23                   23,2%
+  --------------------------------- ------------ ---------------- ------------------------ ----------------------
+
+*Sources*: Article 265 du Code des douanes; base de données publique sur
+les prix de vente moyens des carburants, du fioul domestique et des
+fiouls lourds en France, en euros, DGEC, MEDDTL. *Note*: Le prix moyen
+des supercarburants sans plomb est une moyenne non-pondérée des prix
+moyens du SP 95 et du SP 98.\
+:::
+
+Il est à noter que la TICPE a été réduite temporairement de 3€/hl sur
+les super-carburants et le gazole, entre le 29 août 2012 et le 30
+novembre 2012. Cela explique pourquoi la part des taxes dans le prix TTC
+est légèrement inférieur en 2012 par rapport à 2011 pour les
+supercarburants et le gazole.
+
+## Droits et taxes sur les cigarettes
+
+En 2013, la fiscalité indirecte applicable aux cigarettes se compose de
+deux taxes [^7]:
+
+-   le droit de consommation (noté $DC$);
+
+-   la taxe sur la valeur ajoutée au taux plein (dont le taux normal est
+    noté $\tau$).
+
+Le
+tableau [Fiscalité applicable aux tabacs au 1er janvier 2013.](#table:taxes-tabac){reference-type="ref" reference="table:taxes-tabac"} donne un aperçu de la charge fiscale
+portant sur les tabacs.\
+
+::: tab
+Fiscalité applicable aux tabacs au 1er janvier 2013. []{#table:taxes-tabac}
+
+  ------------------- ----------------- ------------------------------------------ -------------------------------------
+  **Type de tabac**    **Taux de TVA**   **Taux normal du droit de consommation**   **Part des taxes dans le prix TTC**
+  Cigarettes               19,60%                         64,25%                                  80,64%
+  Cigares                  19,60%                         28,00%                                  44,39%
+  Tabac à rouler           19,60%                         60,00%                                  76,39%
+  ------------------- ----------------- ------------------------------------------ -------------------------------------
+
+*Source*: Article 575 du Code général des impôts.\
+*Note*: La part des taxes dans le prix TTC des cigarettes n'est exacte
+que pour les cigarettes vendues au prix de référence.
+:::
+
+Dans le cadre de la loi de financement de la Sécurité Sociale, les taux
+normaux pour les cigarettes et le tabac à rouler seront revalorisés au
+1^er^ juillet 2013 à 64,70% et 62% respectivement. Le taux spécifique
+pour les cigarettes sera également réévalué de 12,5% à 15%.
+
+### Mode de calcul du droit de consommation sur les cigarettes
+
+La méthode de calcul du droit de consommation sur les cigarettes est
+relativement complexe. Il se calcule en fonction d'un prix de référence
+des cigarettes [^8] et comporte deux parts:
+
+-   une part spécifique qui est un droit d'accise;
+
+-   une part proportionnelle au prix de détail (taxe *ad valorem*).
+
+##### Calcul du droit de consommation pour des cigarettes vendues au prix de référence.
+
+Le droit de consommation total dû sur un paquet de cigarettes vendu au
+prix de référence (noté $DC^{ref}$) est égal au produit du prix TTC du
+paquet et du taux normal du droit de consommation (noté TN)[^9]:\
+$$DC^{ref} = TN~p^{ref}_{ttc}$$
+
+##### Calcul du droit de consommation pour des cigarettes vendues à un autre prix.
+
+La part spécifique du droit de consommation (notée $PS$) due sur les
+cigarettes vendues à un prix différent du prix de référence est égale à
+12% de la charge fiscale totale afférente aux cigarettes vendues au prix
+de référence.[^10]\
+$$PS = 0,12~\Big(\underbrace{TN . p^{ref}_{ttc}}_{\makebox[0pt][c]{\shortstack{\\ \\ Droit de \\ consommation}}} + \underbrace{\frac{\tau}{1 + \tau} ~ p^{ref}_{ttc}}_{\makebox[0pt][c]{\shortstack{\\ TVA}}}\Big)$$
+La part proportionnelle due sur les cigarettes vendues au prix
+$p^{X}_{ttc}$ (notée $PP^{X}$) se calcule comme ceci:\
+$$PP^{X} = p^{X}_{ttc} \frac{DC^{ref} - PS}{p^{ref}_{ttc}} = p^{X}_{ttc} \left(TN - 0,12~\left(TN + \frac{\tau}{1 + \tau}\right)\right)$$
+Le droit de consommation total pour les cigarettes vendues au prix
+$p^{X}_{ttc}$ s'élève donc à:
+
+$$DC^{X} = PS + PP^{X} =  p^{X}_{ttc}~TN + 0.12~\Big(TN + \frac{\tau}{1 + \tau}\Big)\Big(p^{ref}_{ttc} - p^{X}_{ttc}\Big)$$
+
+##### Calcul de la taxe sur la valeur ajoutée.
+
+Le montant de la taxe sur la valeur ajoutée se calcule comme ceci:
+$$TVA = \tau (p_{ht} + DC^{X}) = \frac{\tau}{1 + \tau}~p^{X}_{ttc}$$
+
+### Taxes sur les cigares et sur le tabac à rouler
+
+Le droit de consommation sur les tabacs manufacturés autres que les
+cigarettes (cigares, tabac à rouler, à chiquer, à mâcher, à priser) se
+calcule en appliquant un taux normal (défini pour chaque type de tabac)
+sur leur prix de vente TTC:
+$$DC^{cigares} = TN^{cigares}~p^{cigares}_{ttc}$$ La TVA se calcule de
+la même façon que pour les cigarettes.
+
+## Droits et taxes sur les alcools et boissons alcoolisées
+
+La législation fiscale divise les alcools et boissons alcoolisées en
+quatre catégories:
+
+-   les vins, vins mousseux, cidres et poirés;
+
+-   les bières;
+
+-   les produits intermédiaires: boissons dont le titre alcoométrique
+    est compris entre 1.2% et 22%, et qui ne sont ni des vins ni des
+    bières (le Porto, par exemple);
+
+-   les alcools, dont le titre alcoométrique est supérieur à 22% (dont
+    les alcools éthyliques).\
+
+Ces produits peuvent être assujettis à quatre droits et taxes
+indirectes:
+
+-   un **droit de circulation** qui est une accise fixée par hectolitre;
+
+-   un **droit de consommation** qui est une accise fixée par hectolitre
+    d'alcool pur;
+
+-   une **cotisation sur les boissons alcooliques** qui est une accise
+    fixée par hectolitre et qui ne s'applique qu'aux boissons dont la
+    teneur en alcool est supérieure à 18%;
+
+-   la **taxe sur la valeur ajoutée**.\
+
+Le
+tableau [Fiscalité applicable aux alcools au 1er janvier 2013.](#table:taxes-alcools){reference-type="ref" reference="table:taxes-alcools"} présente les principaux droits
+indirects et taxes applicables aux boissons alcoolisées au 1^er^ janvier
+2013.\
+Par rapport à la fiscalité en vigueur en 2012, le seul changement
+notable concerne les droits de consommation sur les bières, relevés dans
+le cadre de la loi de financement de la Sécurité Sociale pour 2013.
+
+En raison de la complexité de cette fiscalité, il est difficile de
+donner une estimation précise de la part des taxes indirectes dans le
+prix de vente TTC des boissons alcoolisées. Cependant, il est possible
+d'estimer la part des taxes dans la consommation agrégée de boissons
+alcoolisées, à partir de la comptabilité nationale et des rentrées
+fiscales. Ces estimations sont présentées dans le
+tableau [Charge fiscale pesant sur les alcools en 2010.](#table:taxes-alcools2){reference-type="ref" reference="table:taxes-alcools2"}.
+
+::: tab
+Charge fiscale pesant sur les alcools en 2010. []{#table:taxes-alcools2}
+
+          **Type de boisson**           **Consommation annuelle**   **Taxes et droits indirects (sauf TVA)**   **TVA**   **Part des taxes dans la consommation annuelle**
+  ------------------------------------ --------------------------- ------------------------------------------ --------- --------------------------------------------------
+             Vins et cidres                       9497                                119                      1556,4                         17,6%
+                 Bières                           1540                                375                       252,4                         40,7%
+   Alcools et produits intermédiaires             5155                                2734                      844,9                         69,4%
+
+*Note:* Tous les montants sont en milliards d'euros.\
+*Sources*: Comptabilité nationale, Insee, pour la consommation; projet
+de loi de finances 2012, Évaluation des voies et moyens, pour les droits
+de consommation
+(<http://www.performance-publique.budget.gouv.fr/farandole/2012/pap/pdf/VMT1-2012.pdf>);
+calcul des auteurs pour la TVA. La comptabilité nationale ne distingue
+pas les alcools et les produits intermédiaires.
+:::
+
+## Taxes et contributions sur les conventions d'assurance
+
+*[À rédiger.]*
+
+
+### La fiscalité sur les conventions d'assurance {#subsec:taxes_assurances}
+
+Les conventions d'assurance sont exonérées de la TVA, mais sont soumises
+à la taxe spéciale sur les conventions d'assurance (TSCA) dont le taux
+dépend du type d'assurance souscrit. La taxe est perçue sur le montant
+des sommes versées à l'assureur par l'assuré. Par ailleurs, les
+assurances automobiles sont soumises à deux taxes supplémentaires: une
+contribution prévue par le code de la Sécurité Sociale, et une
+contribution au fonds de garantie des assurances obligatoires de
+dommages. Le
+tableau [Fiscalité applicable aux conventions d'assurance au 1er janvier 2013.](#table:taxes_assurances){reference-type="ref" reference="table:taxes_assurances"} donne un aperçu des différentes
+taxes sur les assurances.
+
+::: tab
+Fiscalité applicable aux conventions d'assurance au 1janvier 2013. []{#table:taxes_assurances}
+
+         **Type de convention d'assurance**          **TSCA**     **Contribution prévue par le code de la Sécurité Sociale**   **Contribution aux fonds de garantie^$a$^**   **Taxe CMU**   **Total des taxes**
+  ------------------------------------------------ ------------- ------------------------------------------------------------ --------------------------------------------- -------------- ---------------------
+   Assurances automobiles (pour les particuliers)       18%                                  15%                                                  1,2%                            \-               34,2%
+    Assurances incendie (pour les particuliers)         30%                                   \-                                           3,30€  par contrat                     \-            30% + 3,30€
+                  Assurances santé                      7%                                    \-                                                   \-                           6,27%             13,27%
+               Assurances dépendance                Exonération                          Exonération                                           Exonération                        \-            Exonération
+                 Autres assurances                      9%                                    \-                                           3,30€  par contrat                     \-            9% + 3,30€
+
+^$a$^ Il s'agit du fonds de garantie des assurances obligatoires pour
+les assurances automobile et du fonds de garantie contre les actes de
+terrorisme et autres infractions pour les autres types de contrats.\
+*Source:* Article A421-3 du code des assurances, article L137-6 du code
+de la Sécurité Sociale, article 1001 du code général des impôts.
+:::
+
+Les recettes générées par la taxe spéciale sur les conventions
+d'assurance s'élevaient en 2010 à 6,016 milliards d'euros, soit une
+hausse de 45% sur dix ans. Entre 2001 et 2003, une partie des recettes
+de TSCA ont été affectées au fonds de financement de la réforme des
+cotisations patronales de sécurité sociales (FOREC), créé par la loi de
+financement de la sécurité sociale pour 2000. Ce fonds, supprimé en
+2004, avait pour objet d'encaisser des recettes afin de compenser le
+manque à gagner pour les régimes sociaux résultant des exonérations de
+cotisations de sécurité sociales sur les bas salaires. Depuis 2005, les
+départements perçoivent des reliquats de TSCA en compensation des
+transferts de compétences induits par les lois de décentralisation de
+2004 (gestion des personnels ATOSS de l'éducation nationale et du réseau
+routier notamment). La
+tableau [Recettes de la taxe spéciale sur les conventions d'assurance (TSCA) depuis 2000 en millions d'euros.](#table:serie_tsca){reference-type="ref" reference="table:serie_tsca"} dresse les recettes de TSCA depuis 2000
+pour l'Etat, les départements et la sécurité sociale.\
+
+::: tab
+Recettes de la taxe spéciale sur les conventions d'assurance (TSCA)
+depuis 2000 en millions d'euros. []{#table:serie_tsca}
+
+   **Année**   **Recettes pour l'Etat**   **Recettes pour les départements**   **Recettes pour la sécurité sociale**   **Total**
+  ----------- -------------------------- ------------------------------------ --------------------------------------- -----------
+     2000                4230                             \-                                    \-                       4230
+     2001                3353                             \-                                   1050                      4403
+     2002                3314                             \-                                   1460                      4774
+     2003                2799                             \-                                   2194                      4993
+     2004                5214                             \-                                    \-                       5214
+     2005                4339                            1037                                   \-                       5376
+     2006                4339                            1124                                   \-                       5463
+     2007                3520                            2043                                   \-                       5563
+     2008                2710                            3086                                   \-                       5796
+     2009                2752                            3127                                   \-                       5879
+     2010                2810                            3206                                   \-                       6016
+     2011                 97                             6264                                  1064                      7425
+
+*Sources:* Rapports sur les prélèvements obligatoires de 2003 à 2013,
+Voies et moyens des PLF 2000, 2001, 2002.
+:::
+
+### La taxation des contrats d'assurance santé: réformes récentes
+
+La taxation des contrats d'assurance santé a fait l'objet de nombreuses
+réformes au cours de la dernière décennie, résumées dans le
+tableau [Evolution de la taxation des différents types de contrats d'assurance santé depuis 1995.](#table:historique-taxes-sante){reference-type="ref" reference="table:historique-taxes-sante"}. Deux taxes s'appliquent aux
+contrats d'assurance santé: la taxe spéciale sur les conventions
+d'assurance, perçue sur *le montant des sommes stipulées au profit de
+l'assureur et de tous les accessoires dont celui-ci bénéficie
+directement ou indirectement du fait de l'assuré*   et la taxe de
+solidarité [^11] destinée à financer la couverture maladie universelle
+complémentaire. Initialement fixé à 1,75%, le taux de cette dernière est
+passé à 2,5% en 2006, puis à 5,9% en 2009 et enfin à 6,27% en 2011
+(cette hausse étant justifiée par une réduction de l'assiette de la
+nouvelle taxe: alors qu'elle était assise sur le chiffre d'affaire
+réalisé par les organismes d'assurance, la taxe de solidarité l'est
+désormais sur les cotisations payées par les assurés).
+
+::: tab
+Evolution de la taxation des différents types de contrats d'assurance
+santé depuis 1995. []{#table:historique-taxes-sante}
+
+                                      1995   1999   2002   2006   2009   2011   2012\*  
+  ---------------------------------- ------ ------ ------ ------ ------ ------ -------- --
+  **Droit commun**                                                                      
+  Taxe CMU                             \-    1,75   1,75   2,5    5,9    6,27    6,27   
+  TSCA                                 7      7      7      7      7      7       9     
+  **Solidarité et responsabilité**                                                      
+  Taxe CMU                             \-    1,75   1,75   2,5    5,9    6,27    6,27   
+  TSCA                                 \-     \-     \-     \-     \-    3,5      7     
+
+\* Appliqué en réalité à partir du 1^er^ octobre 2011.
+:::
+
+Par ailleurs, les contrats d'assurance maladie complémentaires
+solidaires [^12]   ont bénéficié d'une exonération totale de TSCA entre
+octobre 2003 et janvier 2006, date à laquelle l'exonération a été
+restreinte aux seuls contrats d'assurance maladie complémentaires dits
+solidaires et responsables [^13] . Cette mesure, qui visait à encourager
+la souscription de contrats solidaires et responsables , a rempli son
+objectif puisqu'en 2008, la part des contrats de ce type était estimée à
+98% par la direction de la recherche, des études, de l'évaluation et des
+statistiques (DRESS), ce qui a encouragé le gouvernement à remplacer en
+janvier 2011 l'exonération totale par l'application d'un taux réduit à
+3,5%. Ce taux réduit est supprimé le 1^er^ octobre 2011: la TSCA à 7%
+s'applique désormais aux contrats d'assurance maladie complémentaires
+solidaires et responsables   tandis que les contrats de droit commun  
+ou ordinaires   sont taxés à un taux majoré fixé à 9%. Ces mesures
+devraient rapporter 1,1 milliard d'euros en année pleine, comme
+l'illustre le
+tableau [Effets de la réforme d'octobre 2011 sur les recettes de taxe spéciale sur les conventions d'assurance santé.](#table:tsca_2012){reference-type="ref" reference="table:tsca_2012"}.
+
+::: tab
+Effets de la réforme d'octobre 2011 sur les recettes de taxe spéciale
+sur les conventions d'assurance santé. []{#table:tsca_2012}
+
+           Type de contrat            Recettes avant réforme   Recettes après réforme   Recettes générées par un point de taxe supplémentaire
+  ---------------------------------- ------------------------ ------------------------ -------------------------------------------------------
+   **Solidarité et responsabilité**          1100 M€                  2200 M€                                  314 M€
+           **Droit commun**                   80 M€                    103 M€                                   11 M€
+
+*Sources:* Lettre rectificative au projet de loi 3713 de finances
+rectificative pour 2011.
+:::
+
+## Les autres taxes indirectes
+
+Enfin, il existe un certain nombre d'autres taxes indirectes [^14] parmi
+lesquelles on peut citer:
+
+-   la taxe spéciale sur les activités polluantes;
+
+-   la taxe spéciale sur certains véhicules routiers (taxe à l'essieu);
+
+-   la taxe spéciale sur la publicité télévisée;
+
+-   les redevances sanitaires d'abattage et de découpage;
+
+-   la taxe sur l'aviation civile;
+
+-   la taxe sur les jeux exploités par la Française des jeux;
+
+-   la taxe sur les produits des jeux dans les casinos;
+
+-   la taxe sur le produit brut des paris hippiques.
+
+L'ensemble des taxes précédemment mentionnées a rapporté en 2010 près de
+3,5 milliards à l'État. Certains impôts indirects rapportent moins d'un
+million d'euros par an à l'État: la taxe sur les installations
+nucléaires de base, la taxe sur les achats de viande ou la cotisation à
+la production sur les sucres.
+
+Deux projets de nouvelles taxes indirectes sont actuellement en cours
+d'élaboration.
+
+-   Le premier concerne l'alourdissement de la fiscalité sur les
+    produits alimentaires dans la composition desquels entre l'huile de
+    palme.
+
+-   Le second vise à créer un droit de consommation sur les boissons
+    énergisantes, en plus de la TVA.
+
+[^1]: Edgar Faure est alors Ministre des Finances et des Affaires
+    économiques au sein du gouvernement de Joseph Laniel.
+
+[^2]: Le Conseil des ministres de la CEE adopte la directive 67/227/CEE
+    établissant les fondements et principes du système communautaire des
+    taxes sur le chiffre d'affaire le 11 avril 1967. Entrée en vigueur
+    le 1^er^ janvier 1970, elle n'est cependant applicable à tous les
+    États-membres qu'à partir de 1974.
+
+[^3]: Cette taxe indirecte sur la consommation est calculée en
+    multipliant le prix de vente par un taux fixé par chaque État,
+    allant de 0% à 12%. La moyenne nationale est d'environ 6% et les
+    produits alimentaires sont rarement soumis à cette taxe. Seul le
+    consommateur final la paie.
+
+[^4]: Une liste exhaustive est disponible sur le site impots.gouv.fr.
+
+[^5]: Une liste exhaustive des produits par taux de TVA est disponible
+    sur le site
+    <http://vosdroits.service-public.fr/professionnels-entreprises/F23567.xhtml#N100C8>
+
+[^6]: Référence législative: article 68 de la 3^ème^ loi de finances
+    rectificative pour 2012 (novembre 2012).
+
+[^7]: Les tabacs ont été assujettis entre 1959 et 2004 à une troisième
+    taxe perçue au profit du budget annexe des prestations sociales
+    agricoles (taxe BAPSA), dont le taux était assez faible (environ
+    0.5%). Cette taxe a été supprimée en 2004.
+
+[^8]: Dans le Code général des Impôts, ce prix de référence est appelé
+    classe de prix de référence   et est égal à la moyenne pondérée des
+    prix de vente TTC des cigarettes.
+
+[^9]: Le taux normal est donné dans l'article 575A du Code général des
+    Impôts.
+
+[^10]: Ce taux était plus faible dans les années 1990, et était de 9%
+    jusqu'au 31 décembre 2011.
+
+[^11]: La contribution à la couverture maladie universelle créée par la
+    loi du 27 juillet 1999 [@loi1999] a été transformée en taxe de solidarité par
+    larticle 190 de la loi 2010-1657 [@loi2010-1657] du 29 décembre 2010 [@loi2010-1657] de finances
+    pour 2011.
+
+[^12]: Créés en 2002, les contrats d'assurance maladie complémentaires
+    sont dits solidaires   lorsque les cotisations ou primes ne sont pas
+    fixées en fonction de l'état de santé de l'assuré.
+
+[^13]: Créés en 2004, ils encouragent le respect du parcours de soins
+    défini par l'assurance maladie.
+
+[^14]: Une liste de l'ensemble des impôts indirects est disponible dans
+    le Rapport sur les prélèvements obligatoires et leur évolution,
+    annexé au projet de loi de finances pour 2012.
+<!-- Selon la Fédération Française des Spiritueux, un litre de
+\footnote{Fiches Repères 2010, disponible sur \url{http://www.spiritueux.fr/maj/phototheque/photos/pdf/ffs_reperes2010.pdf}.} -->
+<!-- \begin{landscape} -->
+<!-- \subsubsection{Méthode de calcul utilisée dans le simulateur}
+Les données disponibles sur la consommation de cigarettes des ménages\footnote{Il s'agit des enquêtes \emph{Budget des Familles} réalisées par l'INSEE.} ne permettent pas de calculer précisément le droit de consommation correspondant, car nous ne connaissons pas les prix auxquels les ménages ont acheté leurs cigarettes. C'est pourquoi nous faisons l'hypothèse simplificatrice que toutes les cigarettes sont achetées par les ménages au prix de référence de l'année considérée. Cette hypothèse est une approximation acceptable si les prix des cigarettes sont suffisamment homogènes d'une marque à l'autre, ce qui est le cas depuis le milieu des années 2000. Sous cette hypothèse, la relation entre prix HT et prix TTC des cigarettes peut s'écrire:\\
+$$ p^{ref}_{ttc} = p^{ref}_{ht} \frac{(1+t)}{1 - TN(1+t)} $$ \\
+$$ p^{ref}_{ttc} = p^{ref}_{ht} \frac{(1+t)(1+b)}{1 - TN(1+t)(1+b)} $$ \\
+Le volume total de taxes payées sur les cigarettes est donc proportionnel à la dépense de cigarettes. La même formule vaut aussi pour les autres types de tabac.
+$$ p^{cigares}_{ttc} = p^{cigares}_{ht} \frac{(1+t)(1+b)}{1 - TN(1+t)(1+b)} $$ \\ -->
+<!-- La formule précédente montre que le droit de consommation sur les cigarettes est une fonction croissante du prix TTC fixé par le détaillant. Toutefois, le droit de consommation ne peut être inférieur à un minimum de perception.\footnote{Ce minimum de perception est fixé par l'article 575A du Code général des Impôts.} -->
+<!-- La TVA applicable au carburant~X se calcule comme ceci:
+$$ TVA = \tau (\underbrace{p_{ht} + TPE^{X}}_{\makebox[0pt][c]{\scriptsize \shortstack{prix hors taxes \\ et toutes taxes sauf TVA}}}) = \frac{\tau}{1 + \tau}~p^{X}_{ttc} $$ -->

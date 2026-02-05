@@ -1,0 +1,212 @@
+
+Comme expliqué ci-dessus, le calcul des cotisations requiert de déterminer l'assiette ainsi que, dans le cas des cotisations plafonnées, le plafond permettant de définir quels taux doivent être appliqués. Le présent chapitre se propose de présenter en détails les règles servant à la détermination de l'assiette ou base imposable utilisable pour le calcul des prélèvements sociaux.
+
+\section{Détermination du plafond}
+
+\subsection{Fixation du plafond périodique}
+
+\textbf {Cas \no 1: Périodicité de paie régulière}
+\begin{itemize}
+\item \underline{Cas général :} période de paie correspondant au mois civil. Le plafond utilisé est le plafond mensuel.
+\item \underline{Cas particuliers :} pour les VRP, c'est le plafond semestriel qui est utilisé. Dans certaines entreprises de travail temporaire, il est parfois fait référence au plafond hebdomadaire, lorsque la rémunération est versée chaque semaine. \\
+\end{itemize}
+
+\textbf{Cas \no 2: Périodicité de paie irrégulière}
+\begin{itemize}
+\item  \underline{Cas général:} lorsque la rémunération est versée de façon occasionnelle ou à des intervalles irréguliers, le plafond est déterminé en décomposant la période à laquelle s'applique le versement de la rémunération, en mois, quinzaines civiles, semaines civiles, jours ouvrables et heures. C'est alors la \textit{somme} d'un nombre donné de plafonds mensuels, de quinzaine, hebdomadaires, journaliers et horaires qui s'applique.
+\item \underline{Cas particulier 1:} la rémunération est explicitement fixée en \textbf{jours}. L'employeur peut choisir de ne pas appliquer le plafond journalier et de comptabiliser le plafond comme autant de trentièmes du plafond mensuel que la période de travail compte de jours (ouvrables ou non), dans la limite de 30 trentièmes.
+\item \underline{Cas particulier 2:} la rémunération est explicitement exprimée en \textbf{heures}. Dans ce cas, la règle suivante s'applique:
+    \begin{eqnarray*} \nonumber
+    PP=PM \times \frac{NBHR}{151,67}
+    \end{eqnarray*}
+    où $PP$ désigne le plafond de la période, $PM$ le plafond mensuel, $NBHR$ le nombre d'heures rémunérées au cours de la période de travail, et 151,67 correspond au nombre d'heures rémunérées dans le mois pour un salarié à temps plein. \\
+\end{itemize}
+
+Ces règles ne s'appliquent pas à certaines professions à régime particulier (artistes, professions médicales, etc.). \newline
+
+\texttt{Références législatives:} {art.  L241-3 al. 1 et art. R242-2 al. 1 du CSS.}
+
+\subsection{Régularisation annuelle}
+
+Afin de prendre en compte les variations de salaire d'un mois à l'autre, les cotisations versées par l'employeur au titre des rémunérations versées à un même salarié au cours d'une année civile sont calculées sur la base d'un plafond \textit{annualisé}. Pour déterminer dans quelle tranche le salarié se trouve au regard de l'ensemble des rémunérations qu'il a reçu au cours de l'année (d'un même employeur), il est fait la somme de toutes ces rémunérations. Ce montant est ensuite comparé au plafond calculé comme la somme des plafonds correspond aux périodes d'emploi du salarié, et permet ainsi de déterminer les cotisations qui auraient dû être versées dans l'année.
+
+L'assiette de la régularisation annuelle est égale à la différence entre le plafond à appliquer au terme de l'année civile (dit \og plafond applicable \fg) et la somme des plafonds sur lesquels il a été effectivement cotisé. Lorsque cette différence est positive, l'employeur doit verser des cotisations additionnelles; au contraire, lorsque la base de la régularisation est négative, c'est aux Urssaf de restituer une partie des cotisations versées dans l'année.
+
+\underline{Nota Bene:} L'annualisation des cotisations n'a un impact éventuel que sur les cotisations plafonnées, les prélèvements calculés sur la totalité de la rémunération ne faisant par définition pas référence au plafond de la Sécurité sociale. Elle n'a pas non plus d'impact sur les salariés dont la rémunération est restée la même tout au long de l'année. \newline
+
+\textbf{\textit{Exemple de régularisation annuelle}:}
+
+On suppose un salarié employé dans la même entreprise toute l'année 2014, et gagnant un salaire mensuel brut de 2700 euros. En juillet et en décembre toutefois, son employeur lui a versé en plus des primes de vacances et de résultats. Comme il est payé au mois, c'est le plafond mensuel qui fait référence pour le calcul des cotisations sociales, ainsi que le montre le tableau \ref{tab:emple_1}.
+
+\begin{table}\label{tab:exemple_1}
+\centering
+\caption{Exemple de régularisation annuelle des cotisations sociales: plafond périodique applicable.}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Périodes    & Salaire brut versé & Plafond périodique \\
+d'emploi    & chaque mois   & retenu chaque mois  \\
+\hline
+Janvier     & 2700  & 3129 \\
+Février     & 2700  & 3129 \\
+Mars        & 2700  & 3129 \\
+Avril       & 2700  & 3129 \\
+Mai         & 2700  & 3129 \\
+Juin        & 2700  & 3129 \\
+Juillet     & 3400  & 3129 \\
+Août        & 2700  & 3129 \\
+Septembre   & 2700  & 3129 \\
+Octobre     & 2700  & 3129 \\
+Novembre    & 2700  & 3129 \\
+Décembre    & 3700  & 3129 \\
+\hline
+Total       & 34100 & 37548  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Sa rémunération ayant dépassé à deux reprises (en juillet et en décembre) le PSS mensuel, il a cotisé sur la tranche 2 (c'est-à-dire sur la partie de son salaire qui dépassait le PSS). Or, au vu de sa rémunération sur l'ensemble de l'année civile (34 100 euros), il est en dessous du PSS annuel (37 548 euros): il n'a donc pas à cotiser en tranche 2, mais seulement en tranche 1.
+
+Si on suppose que le taux de cotisations (employeur et employé) sur la part des salaires inférieure au PSS est de 60~\% et que le taux de cotisations sur le montant des salaires au-delà du PSS est de 35~\%, les cotisations versées chaque mois seront telles que détaillées au tableau \ref{ta:exemple_2}.
+
+\begin{table}\label{tab:exemple_2}
+\centering
+\caption{Exemple de régularisation annuelle des cotisations sociales: détail mensuel des cotisations versées.}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Périodes & Cotisations versées & Cotisations versées & Total des \\
+d'emploi & sur la tranche 1 & sur la tranche 2 & cotisations versées \\
+\hline
+Janvier     & 1620  & 0     & 1620  \\
+Février     & 1620  & 0     & 1620  \\
+Mars        & 1620  & 0     & 1620  \\
+Avril       & 1620  & 0     & 1620  \\
+Mai         & 1620  & 0     & 1620  \\
+Juin        & 1620  & 0     & 1620  \\
+Juillet     & 1877,4 & 94,85 & 1972,25 \\
+Août        & 1620  & 0     & 1620  \\
+Septembre   & 1620  & 0     & 1620  \\
+Octobre     & 1620  & 0     & 1620  \\
+Novembre    & 1620  & 0     & 1620  \\
+Décembre    & 1877,4  & 199,85 & 20249,5 \\
+\hline
+Total       & 19954,8 & 294,7 & 20249,5 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Les 294,7 euros de cotisations versées sur la deuxième tranche doivent être remboursées. En revanche, 20460 euros ($0.6 \times 34100$) de cotisations auraient dû être versées sur le salaire en dessous d'un PSS, alors que seulement 19954,8 euros l'ont été. La régularisation annuelle est donc de + 210,5 euros (soit $(20460-19954,8)-294,7$), que l'employeur et le salarié doivent payer en sus des cotisations versées tout au long de l'année.
+
+Les employeurs peuvent également choisir de mettre en \oe uvre une régularisation progressive, mois par mois.\newline
+
+\texttt{Références législatives:} {art. R243-10 et R243-11 du CSS}
+
+\subsection{Réduction et neutralisation du plafond}
+
+\subsubsection{Salariés à temps partiel}
+
+Une proratisation du plafond est opérée pour les salariés à temps partiel, en fonction des heures effectuées relativement à un horaire de travail à temps plein.
+Dans certains cas, comme lors du passage d'un temps plein à un temps partiel, les cotisations sociales (notamment celles versées aux régimes de retraite complémentaire) peuvent être calculées sur une assiette supérieure à la rémunération brute. \newline
+
+\texttt{Références législatives:} {art. R242-7 du CSS}
+
+\subsubsection{Embauches et départs en cours d'année}
+
+Les salariés présents seulement une partie de l'année se voient appliquer un plafond de la Sécurité sociale proratisé en fonction de la durée de leur période d'emploi. A titre d'exemple, un salarié présent dans une entreprise donnée trois mois deux semaines et deux jours se verra appliquer un plafond égal à 3 fois le PSS mensuel $+$ 2 fois le PSS hebdomadaire $+$ 2 fois le PSS journalier.
+
+\section{Smic et assiette minimum}
+
+La base de calcul des cotisations sociales ne peut être inférieure au Smic horaire multiplié par le nombre d'heures travaillées:
+
+\begin{equation}\nonumber
+Assiette~minimum=SMIC~horaire \times NBH
+\end{equation}
+
+où $NBH$ désigne le nombre d'heures travaillées.
+
+En particulier, pour les salariés rémunérés aux alentours du Smic horaire et faisant face à des frais professionnels, l'employeur doit vérifier que l'assiette de cotisation n'est pas inférieure à l'assiette minimum. Cela pourrait se produire par exemple dans le cas où l'employeur choisit d'appliquer la déduction forfaitaire pour frais professionnels de 10~\%.
+
+\textbf{A DETAILLER!}
+
+
+\section{Nombre d'heures rémunérées}
+
+\subsection{Cas général}
+
+Le nombre d'heures rémunérées dans le mois ou dans l'année est utilisé pour calculer le nombre d'heures supplémentaires réalisées et vérifier que l'employeur respecte la législation sociale relative au temps de travail. Depuis le 1\up{er} janvier 2000 (1\up{er} janvier 2002 pour les entreprises de 20 salariés et moins) la durée légale du travail étant de 35 heures hebdomadaires, toute heure de travail à partir de la 36\up{ème} heure hebdomadaire doit donner lieu à une rémunération horaire majorée. Cette majoration dépend du nombre d'heures supplémentaires effectuées.
+
+Par ailleurs, le nombre d'heures rémunérées intervient dans le calcul de certains abattements de charges sur les bas salaires (réduction Fillon notamment).
+
+\subsection{Salariés au forfait}
+
+Il existe une catégorie de salariés non rémunérés en fonction des heures effectivement travaillées mais sur la base d'un nombre d'heures forfaitaires déterminé à l'avance par accord entre le salarié et l'employeur. Ces salariés, dits \og au forfait \fg, sont pour la majorité des cadres, dont l'autonomie de travail et les responsabilités rendent fréquentes les heures supplémentaires tout en rendant difficiles le décompte du temps de travail effectif.
+
+Le contrat de travail de ces salariés prévoit un forfait d'un nombre défini d'heures ou de jours de travail à réaliser sur le mois ou l'année. Afin de déterminer le nombre officiel d'heures rémunérées, des formules de conversion sont définies par le droit social. \newline
+
+\underline{Salariés au forfait en \emph{jours} sur l'année:}
+
+\begin{equation} \nonumber
+NBHR = 151,67 \times \Big[\frac{NBJF}{218}\Big] \times \Big[\frac{52}{12}\Big]
+\end{equation}
+
+où NBHR est le nombre d'heures rémunérées dans le mois et NBJF le nombre de jours prévus au forfait (pour l'ensemble de l'année). \newline
+
+\underline{Salariés au forfait en \emph{heures} sur l'année:}
+
+\begin{equation} \nonumber
+NBHR = 151,67 \times \Big[\frac{NBHF}{45,7}\Big] \times \Big[\frac{52}{12}\Big]
+\end{equation}
+
+où NBHR est le nombre d'heures rémunérées dans le mois et NBHF le nombre d'heures prévues au forfait (pour l'ensemble de l'année). \newline
+
+Dans les deux cas, lors que pour cause d'embauche ou de départ en cours de mois la période d'emploi du salarié ne couvre qu'une partie du mois civil, le nombre d'heures rémunérées calculé grâce aux formules ci-dessus doit être proratisé.
+
+\begin{equation} \nonumber
+NBHR_{pro} = NBHR \times \Big[\frac{NBJPE}{30}\Big]
+\end{equation}
+
+où $ NBHR_{pro} $ correspond au nombre d'heures rémunérées après proratisation, NBHR correspond au nombre d'heures rémunérées obtenues avant proratisation et NBJPE est le nombre de jours calendaires correspondant à la période d'emploi.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Des assiettes différentes selon les prélèvements}
+
+\subsection{Une convergence des assiettes?}
+
+Si les différents prélèvements sociaux présentés ici ont tous en commun d'être assis sur les sommes versées en qualité de rémunération salariale, les définitions de leurs assiettes diffèrent. La variabilité des assiettes s'observe à plusieurs niveaux.
+
+Au niveau du salarié, certains éléments de rémunération peuvent être assujettis à un prélèvement, d'autres non. Au niveau d'une entreprise, certains salariés peuvent être assujettis à un prélèvement social et d'autres non (salariés en CDD \textit{vs} salariés en CDI, salariés domiciliés en France \textit{vs} salariés résidant à l'étranger, etc.). Enfin, des entreprises vont être assujetties à des prélèvements (comme la taxe sur les salaires et le versement transport) alors que d'autres n'y seront pas soumises.
+
+On peut distinguer cinq assiettes de prélèvements sociaux:
+\begin{enumerate}
+\item L'assiette des cotisations de Sécurité sociale et des régimes de retraite complémentaire;
+\item L'assiette des cotisations à l'assurance-chômage;
+\item L'assiette des contributions sociales CSG-CRDS;
+\item L'assiette des taxes et participations sur les salaires, hors taxe sur les salaires;
+\item L'assiette de la taxe sur les salaires.
+\end{enumerate}
+
+La définition d'assiettes distinctes peut se révéler fondée en théorie, dans la mesure où les prélèvements servent à financer des droits sociaux spécifiques, à abonder le budget général de l'Etat, ou alternativement à financer des actions économiques et sociales définies (développement de l'apprentissage, construction, etc.).
+
+En pratique toutefois, afin de limiter les incitations des employeurs et des salariés à substituer certaines formes de rémunération partiellement taxées à d'autres plus lourdement assujetties, les assiettes ont été progressivement alignées les unes sur les autres:
+\begin{itemize}
+\item 1\up{er} février 1991: lors de la création de la CSG, une circulaire ministérielle (\texttt{Circ. DSS 16-1-1991}) établit que \og pour les revenus salariaux [l'assiette de la CSG] est la même que celle retenue pour les cotisations dues au régime général \fg;
+\item 1\up{er} janvier 1996: alignement de l'assiette des participations formation, construction et apprentissage sur l'assiette des cotisations de Sécurité sociale;
+\item 1\up{er} janvier 2002: alignement de l'assiette de la taxe sur les salaires sur l'assiette des cotisations de Sécurité sociale;
+\item 1\up{er} janvier 2014: alignement de l'assiette de la taxe sur les salaires sur l'assiette de la CSG.
+\end{itemize}
+
+Toutefois, en dépit du principe légal d'unicité des assiettes, il existe des exonérations et règles spécifiques à certains prélèvements \footnote{A titre d'exemple, les entreprises payant la TVA restent exemptées de la taxe sur les salaires.}.
+
+\subsection{Régime social et régime fiscal}
+
+L'assujettissement d'un élément de rémunération à un prélèvement social détermine son \textbf{régime social}, mais ne dit rien de son \textbf{régime fiscal}, c'est-à-dire de son statut au regard de l'impôt sur le revenu (IR), selon le principe d'autonomie des règles fiscale et sociale. Même si nous nous concentrerons sur le statut des différents éléments dits \og accessoires \fg{}au salaire vis-à-vis des cotisations sociales et des autres prélèvements assis sur les salaires, nous donnerons toutefois des informations sur le régime fiscal de chaque catégorie de rémunération. Pour comprendre les tenants et les aboutissants des débats et des mesures relatifs aux cotisations sociales, il est en effet important de comprendre que le taux effectif d'imposition d'une rémunération dépend à la fois du taux auquel il est taxé au titre des cotisations sociales et du taux auquel il est imposé comme élément du revenu imposable. Du point de vue des finances publiques comme des contribuables, l'imbrication des régimes social et fiscal a des conséquences importantes, qui sont trop souvent ignorés.
+
+
+\subsection{Les contributions sur les rémunérations non imposées à la CSG}
+
+Malgré le rapprochement de l'assiette CSG-CRDS et de l'assiette des cotisations de sécurité sociale, il existe toujours certains types de rémunérations directes ou indirectes qui ne sont pas soumis à la CSG. Afin d'augmenter les ressources de la Sécurité sociale, plusieurs contributions assises sur les éléments soumis aux cotisations sociales mais exonérés de CSG ont été mises en place dans les années 2000. La réduction des \og niches sociales\fg{}créées par les exonérations, commencée avec la convergence des assiettes, s'est donc poursuivie par la création de nouveaux prélèvements, dont les taux ont été progressivement relevés. Ces prélèvements dont l'assiette est explicitement définie comme l'écart entre deux bases imposables seront présentés en détails au chapitre suivant.

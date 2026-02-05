@@ -1,0 +1,18 @@
+% Pages de couverture : PDFs issus de source/Fiscalité/Couverture/
+% Début : couverture1, couverture2. Fin : couverture3, couverture4.
+% Chemin relatif depuis le répertoire du projet quarto/fiscalite (../../ = ipp)
+\usepackage{pdfpages}
+\newcommand{\coverpath}{../../source/Fiscalité/Couverture}
+\makeatletter
+% Début de document : couvertures 1 et 2
+\renewcommand{\maketitle}{%
+  \includepdf[pages={1}]{\coverpath/couverture1.pdf}%
+  \includepdf[pages={1}]{\coverpath/couverture2.pdf}%
+  \clearpage
+}
+% Fin de document : couvertures 3 et 4 (couverture3.pdf absent dans source/Fiscalité/Couverture ; ajouter la ligne si créé)
+\newcommand{\coverback}{%
+  \clearpage
+  \includepdf[pages={1}]{\coverpath/couverture4.pdf}%
+}
+\makeatother

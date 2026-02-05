@@ -1,0 +1,634 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{0}
+\chapter{\label{Chapitre1}Le secteur public}
+\else \fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+C'est au sein du secteur public, pour les fonctionnaires de l'État, qu'un système de retraite a émergé pour la première fois en France. Ce développement précoce explique pourquoi en 1945 les fonctionnaires ont préféré rester hors du \og régime général \fg{}. Par ailleurs, de nombreuses caractéristiques actuelles du régime de la fonction publique remontent à sa conception au XIX\eme{} siècle et n'ont pratiquement pas évolué jusqu'à la réforme de 2003.
+
+Pour autant, le système de retraite du secteur public est loin d'être aujourd'hui unifié et homogène. On distingue trois grands groupes principaux: les agents de la fonction publique, qui bénéficient du régime des pensions civiles et militaires, les agents non-titulaires de l'État et des collectivités territoriales, qui relèvent du régime général, et enfin les régimes spéciaux propres à certaines entreprises publiques. Au sein des fonctionnaires, il faut distinguer les fonctionnaires de l'État (civils et militaires), dont le régime est géré par le Service des retraites (SRE) du ministère du Budget, et les fonctionnaires hospitaliers et territoriaux qui sont affiliés à la Caisse nationale de retraites des agents des collectivités locales (CNRACL) gérée par la Caisse des dépôts et consignations (CDC). Contrairement aux salariés du secteur privé, les régimes des fonctionnaires offrent une retraite de base et complémentaire intégrée, mais uniquement sur la base du traitement. Les primes ont été largement exclues du calcul des droits à la retraite, jusqu'à la mise en place du régime de la Retraite additionnelle de la fonction publique (RAFP). Les agents non-titulaires bénéficient eux du régime complémentaire Ircantec. A la fin 2012, on dénombrait 2 millions de cotisants au régime des fonctionnaires d'État, 2,2 millions à la CNRACL et 2,8 millions à l'Ircantec.
+
+Ce chapitre présente les règles de calcul des pensions pour les salariés du secteur public, en commençant par un rapide historique du régime des fonctionnaires (partie \ref{historique}), puis une présentation en détail des pensions des fonctionnaires (partie \ref{CPCM}), des régimes complémentaires du secteur public (partie \ref{Comp-pu}) et enfin des régimes spécifiques de certaines entreprises publiques (partie \ref{regspec}).
+
+\section{Historique des pensions civiles et militaires \label{historique}}
+
+Cette partie vise à présenter de façon très succincte l'historique du régime des pensions civiles et militaires, avec un rapide survol des origines anciennes du régime et une présentation du système tel qu'il est fixé par la loi du 9 juin 1853. Pour une présentation historique plus complète, nous renvoyons à \cite{Thuillier1994}, \cite{KesslerMoniolle2000} et aux volumes de \textit{La Sécurité sociale. Son histoire à travers les textes} (\citeyear{SecuriteSociale1994,SecuriteSociale1996,SecuriteSociale1988}).
+
+\subsection{Les prodomes des retraites des fonctionnaires}
+
+Les origines des retraites du secteur public se trouvent dans les dispositions de l'Ancien Régime
+pour protéger les plus fidèles serviteurs de l'État des affres de l'invalidité ou de la vieillesse: ce sont ainsi
+les militaires et les agents des finances publiques qui en bénéficient les premiers. C'est d'abord l'invalidité qui sert de motivation à l'instauration d'une assistance publique aux militaires blessés au combat. En 1670, Louis XIV construit ainsi l'Hôtel des Invalides pour les vétérans de l'armée, victimes de guerre. En 1673 est créée une Caisse des invalides de la marine royale: des retenues sur soldes servent à financer des hospices. Mais ces précurseurs d'un système de protection sociale sont encore loin d'être des dispositifs visant à prendre en charge réellement le risque vieillesse. Il faut attendre le dispositif mis en place par la Ferme générale (1768), puis l'émergence au XIX\eme{} siècle des caisses de retenues des fonctionnaires pour voir les premiers systèmes de retraite émerger dans la fonction publique.
+
+\subsubsection{La Ferme générale (1768)}
+
+En 1768, la Ferme Générale\footnote{Cette institution fondée par Colbert versait au
+Trésor royal le montant des impôts et était chargée ensuite de récupérer la somme sur les
+assujettis aux impôts.} institue une caisse de retraite pour ses personnels. Avec une retenue de
+2,5~\% sur leurs appointements, les bénéficiaires pouvaient, sous condition de 25 ans de service et
+d'être dans l'incapacité physique de continuer à travailler, recevoir une aide financière des
+fermiers généraux.
+
+\subsubsection{La Révolution et la loi du 22 août 1790}
+
+La loi du 22 août 1790 porte sur la création d'un régime de retraite pour les fonctionnaires de
+l'État. Elle prévoit une retraite gratuite, sans prélèvement sur traitement et entièrement financée
+par le budget de l'État. L'esprit de la loi est d'affirmer une retraite \og récompense \fg\ qui ne
+vise que les fonctionnaires qui ont bien mérité de l'État et qui se sont distingués au service du
+bien public: \og La nation doit aussi payer aux citoyens le prix des sacrifices qu'ils ont fait à l'utilité publique\fg. Il ne s'agit donc pas d'un droit à pension pour tous les fonctionnaires, pas plus d'une garantie de pension à un âge donné. La loi fixe un montant maximum de dépenses (12 millions de livres pour 1790) et envisage que lorsque les demandes excéderont le budget alloué, les nouveaux pensionnés devront attendre le décès des agents déjà pensionnés.
+
+La loi de 1790 précise néanmoins des éléments du calcul de la pension: pour trente ans de service, une pension égale à 25~\% du traitement à 50 ans, augmentant de 3,75~\% pour chaque année supplémentaire (\og une augmentation progressive du vingtième des trois quarts\fg), soit une pension de 100~\% du traitement pour 50 ans de service.
+
+Le Consulat et l'Empire vont venir réduire encore l'ampleur de la loi de 1790. La loi du 15 germinal an XI (5 avril 1802) et le décret du 13 septembre 1806 fixent le régime des pensions payés sur le budget: pension limitée à 6000 francs, pension de un sixième du traitement pour 30 ans de service (16,6~\%), âge minimum de 60 ans, augmentation de 2,7~\% par année supplémentaire de service, soit 71,5\% pour 50 ans de service (ou 100~\% pour 60 ans de service).
+
+A la Restauration, la loi du 25 mars 1817 centralise tous les crédits de pension, devant être financés par le trésor et stipule l'institution d'une liste unique de tous les pensionnaires de l'État. Une loi du 15 mai 1818 confirme cette centralisation.
+
+\subsubsection{La multiplication des caisses de retenues \label{caissesXIX}}
+
+Comme l'application de la loi de 1790 reste finalement limitée, les administrations créent leur propre caisse de retraite, de façon indépendante du budget de l'État \citep{Thiveaud1995}. Elles fonctionnent sur le modèle de la caisse de la Ferme générale, et pratiquent les retenues sur salaire pour financer les pensions qu'elles versent. On observe ainsi une multiplication des caisses des diverses administrations: l'administration de l'enregistrement et des domaines (décret du 4 brumaire an IV), la régie des douanes (loi du 26 germinal an V), les Affaires étrangères (23 avril 1800), les ingénieurs des Ponts et Chaussées (décret du 7 fructidor an XII, 25 août 1804), les employés des haras et des écoles vétérinaires (avril 1810), les ingénieurs des mines (18 novembre 1810), le ministère des Manufactures et du Commerce (22 mars 1813), et la Magistrature (23 septembre 1814). Sept caisses sont créées entre 1795 et 1804 pour l'administration des finances.
+
+Avec la loi de finances du 28 avril 1816, les fonds des caisses de retenue des fonctionnaires sont déposés à la Caisse des dépôts, dont l'objectif est de gérer et placer en rente ces retenues. Les difficultés financières des caisses se multiplient: souvent déficitaires, les caisses demandent des subventions à l'État qui complètent les retenues pour l'équilibre des comptes.
+
+Pendant la première moitié du XIX\eme{} siècle, les caisses de retraite de fonctionnaires continuent à se
+multiplier\footnote{On compte ainsi plus de 3500 caisses pour les établissements hospitaliers et les collectivités territoriales.} et les tentatives d'unification échouent les unes après les autres. Avant l'unification de 1853, le paysage des pensions des fonctionnaires est extrêmement morcelé, avec d'un côté les pensions payées sur les fonds généraux du trésor, et de l'autres la multitude de caisses de retenues propre à chaque administration.
+
+\subsection{La loi fondatrice du 9 juin 1853}
+
+C'est le Second Empire qui procède à l'unification des régimes civils de retraite avec la loi
+fondatrice du 9 juin 1853\footnote{Il faut néanmoins noter que les militaires reçoivent les premiers un droit à pension par les lois des 11 et 18 avril 1831.}. Cette loi suit plusieurs décennies de débat et propositions sur le rôle de l'État dans l'organisation des pensions de ses agents \citep{Thiveaud1995}. L'idée qui domine alors est que la pension du fonctionnaire est une forme de \og traitement différé \fg{}, qui garantit \og le zèle et la fidélité \fg{} du fonctionnaire.
+
+\subsubsection{La budgétisation}
+
+Le premier point de la loi de 1853 a été de supprimer 25 caisses de retenue existantes et de transférer au
+Trésor public les actifs de ces caisses en s'engageant à honorer les pensions à payer (art. 1)\footnote{Plusieurs caisses de retenues sont exemptées de la loi et continuent d'être gérées par la Caisse des dépôts: l'Assistance publique, l'Imprimerie nationale, le Mont-de-Piété, Octrois de Paris, Théâtre national de l'Opéra, Préfecture du département de la Seine, Préfecture de police et la Caisse générale des retraites ecclésiastiques.}.
+
+\begin{tab}[15cm]{Caisses de retraite supprimées par la loi du 9 juin 1853. \label{caisses1853}}
+{\begin{tabular}{|c|l|}
+    \hline
+\textbf{Départements ministériels}  & \textbf{Désignation des caisses de retraite} \\
+    \hline
+Ministère d'État      & Caisse de retraite des employés de la Légion d'honneur.\\
+Justice               & -- de la magistrature des bureaux du ministère et du Conseil d'État.\\
+Affaires étrangères   & -- du ministère des affaires étrangères \\
+Instruction publique  & -- des fonctionnaires et professeurs de l'université et des employés des bureaux du ministère.\\
+                      & -- des fonctionnaires et des principaux et régents des collèges communaux.\\
+Intérieur,            & -- des employés des bureaux des cultes.\\
+agriculture et        & --  des employés des ministères de l'intérieur, de l'agriculture et du commerce,\\                   commerce,             & et de la police générale.\\
+et police             & -- des professeurs et employés du Conservatoire impérial de musique.\\
+générale.             & -- des employés du service des prisons.\\
+                      & -- des employés des haras, dépôts d'étalons et écoles vétérinaires.\\
+                      & -- des vérificateurs et employés du service des poids et mesures.\\
+                      & -- des professeurs et employés des écoles d'arts et métiers.\\
+                      & -- des agents de l'intendance sanitaire de Marseille.\\
+Travaux publics       & -- des fonctionnaires et employés des ponts et chaussées et des mines.\\
+Guerre                & -- des employés des bureaux du ministère de la guerre et des commis entretenus\\
+                      & pour le service des bureaux de l'intendance militaire.\\
+                      & -- des écoles militaires.\\
+                      & -- des poudres et salpêtres.\\
+                      & -- des écoles d'artillerie et du génie et des contrôleurs et réviseurs d'armes.\\
+                      & -- de l'École polytechnique.\\
+Ministères            & -- des fonctionnaires et employés des ministères d'État et de la maison de \\
+d'État et de          & l'Empereur et des finances.\\
+la maison de          & -- des greffe et archives de la Cour des comptes.\\
+l'Empereur et         & -- des caisses d'amortissement et des dépôts et consignations.\\
+                      & -- des courriers des postes.\\
+                      & -- des employés de l'ancienne chambre des pairs.\\
+    \hline
+  \end{tabular}}
+{\textsc{Source:}~Loi du 9 juin 1853, annexe de l'article 1.}
+\end{tab}
+
+
+C'est donc un retour à l'esprit de la loi du 22 août 1790 avec la budgétisation des pensions des
+fonctionnaires.\footnote{Voir l'article de Jean-Marie Thiveaud \textit{op. cit.} sur le débat
+répartition-capitalisation qui agite la première moitié du XIX\eme{} siècle avant la \og
+budgétisation \fg\ des retraites des fonctionnaires.} C'est aussi un exemple d'une transition d'un
+système par capitalisation à un système par répartition, l'État récupérant dans le budget 1854
+l'actif des caisses supprimées\footnote{En fait l'actif des caisses de retraite des
+fonctionnaires, conséquent en 1830, a progressivement fondu pour atteindre 71~000 francs en 1853,
+contre une dépense de l'État en 1854 de 23 millions de francs \cite{Colonjon1890}.}.
+
+La justification avancée de cette budgétisation est la notion de \og retraite récompense \fg\ qui
+permettrait d'exiger du fonctionnaire un service même à l'heure de la retraite (secret d'État...)
+et ce contrôle théorique nécessiterait une pension que l'on puisse réduire ou supprimer en cas de
+manquement du retraité. Néanmoins, des retenues sur pension sont prélevées sur les traitements des agents comme condition de validation des annuités. Le taux est fixé à 5~\% à partir du 1\er{} janvier 1854.
+
+\subsubsection{Le droit à pension}
+
+Le droit à pension n'est défini que pour les fonctionnaires d'État, et les fonctionnaires territoriaux sont donc exclus du régime mis en place en 1853. Pour ces derniers, les caisses de retenue continuent d'être gérées par la caisse des dépôts. Par contre, le droit à pension est étendu aux fonctionnaires de l'État qui n'en bénéficiaient pas jusqu'alors (instituteurs et facteurs). Au total 158~227 fonctionnaires rétribués par l'État bénéficient de ce nouveau régime, dont 77~474 anciens tributaires des caisses de retenue, et 80~753 nouveaux bénéficiaires.
+
+Le droit à pension est acquis à 60 ans, après 30 ans de services accomplis. Néanmoins, les
+fonctionnaires ayant occupé certains emplois, dits de service actif, peuvent prendre leur retraite à
+55 ans, après 25 ans de services effectifs\footnote{Il s'agit par exemple des facteurs, chargeurs
+de malle, gardes forestiers, agents des douanes ou préposés en chef des postes d'octroi (art. 5 de la loi du 9 juin 1853).}. Une disposition spéciale s'applique aux fonctionnaires qui ont
+risqué leurs jours pour sauver la vie d'un de leurs concitoyens ou qui se trouvent hors d'état de
+continuer leur service après avoir été blessés dans l'exercice de leur fonction : ces agents de
+l'État peuvent exceptionnellement obtenir pension quels que soient leur âge et la durée de leur
+activité.
+
+La pension est basée sur la moyenne des traitements soumis à retenue, dont l'ayant droit a
+bénéficié pendant les six dernières années d'exercice. Le montant s'élève à un soixantième de ce traitement
+moyen par année de service sédentaire (un cinquantième en cas de service actif). Une double condition doit
+être remplie pour faire valoir ses droits: 30 ans minimum de carrière (25 ans pour les actifs) et
+un âge minimum de 60 ans (55 ans pour les actifs) pour faire valoir ses droits, faute de quoi le
+bénéfice des retenues est perdu. Un maximum de pension est fixé au trois-quart du traitement et à des maxima de pension précisés en annexe de la loi. La pension est par ailleurs indexée sur les prix.
+
+La formule de calcul de la pension ($P$) est donc la suivante: $$ P=
+\alpha*A*W_{ref}$$ avec l'annuité $\alpha$ égale à 1,7~\% pour les sédentaires et à 2~\%
+pour les actifs, la durée de carrière $A$ en années et $W_{ref}$ le salaire de référence.
+
+La loi de 1853 met aussi en place des pensions de réversion en accordant aux veuves des fonctionnaires une pension d'un tiers du montant de la pension de l'agent décédé.
+
+
+\subsection{Les modifications ultérieures}
+
+Le texte de 1853 est fondateur car la plupart des dispositions de la retraite des fonctionnaires va rester durablement influencée par celui-ci. On note néanmoins plusieurs inflexions législatives, en 1924, 1932, 1948 et 1964 qui vont aboutir au Code des pensions civiles et militaires (CPCM) qui fixe aujourd'hui le droit à pension dans la fonction publique.
+
+\subsubsection{Un régime commun pour les fonctionnaires d'État (1924)}
+
+La loi du 14 avril 1924 instaure un régime commun aux fonctionnaires civils et militaires, qui bénéficiaient jusqu'alors de régimes séparés. On retrouve là encore les principales caractéristiques des pensions des fonctionnaires jusqu'en 2003. La retenue sur pension est fixée à 6~\% du traitement. Les principales modifications sont le calcul du salaire de référence sur les trois dernières années (et non les six dernières). Point important, l'indexation des pensions est fixée sur la hausse des traitements et non plus sur l'inflation, ce qui a été appelé à l'époque \og péréquation des pensions \fg.
+
+La loi prévoit en outre une pension pour les femmes fonctionnaires, mariées ou mères de famille, ayant accompli 15 ans de service effectif. Les pensions de réversion sont fixées à 50~\% de la retraite d'ancienneté.
+
+Avec la loi du 31 mars 1932, le classement entre catégorie A (pour les emplois \og
+sédentaire\fg) et la catégorie B (pour les emplois dits de \og service actif \fg) est précisé\footnote{Art.
+75 de la loi du 31 mars 1932.}.
+
+\subsubsection{La création de la CNRACL (1945)}
+
+Les fonctionnaires des collectivités locales et les fonctionnaires hospitaliers sont restés hors du champ d'application des lois de 1853 et 1924. De multiples caisses locales sont mises en place depuis le début du XIX\eme{} siècle, avec des conditions très variables. La loi de 1924 annonce une commission pour étudier la mise en place d'une caisse unique mais aucun projet concret n'en sort. En 1937 on dénombre ainsi 627 caisses de retraites locales versant 77~000 pensions.
+
+C'est en 1945, que l'ordonnance 45-993 du 17 mai 1945 institue une caisse unique, la Caisse nationale de retraite des agents des collectivités locales (CNRACL)\footnote{L'organisation et le fonctionnement de la CNRACL sont définis par le décret 47-1846 du 19 septembre 1947; les règles de droits à pension par le décret du 49-1416 du 6 octobre 1949, puis décret 65-773 du 9 septembre 1965.}. La CNRACL reprend les actifs et passifs des caisses particulières et incorpore les anciens et nouveaux affiliés au régime.
+
+\subsubsection{De la loi de 1948 au Code des pensions civiles et militaires}
+
+La loi 48-1450 du 20 septembre 1948 instaure un maximum des pensions à 37,5 annuités de 2~\%, soit
+75~\% du traitement d'activité (art. 18-I). Un minimum est fixé à 80~\% du traitement de l'indice 100. La loi
+de 1948 modifie encore le calcul du salaire de référence $W_{ref}$ qui devient le traitement perçu
+dans les six derniers mois (art. 17). Enfin, le plafond de la pension, avec bonification, est porté à 80~\%
+du salaire de référence. Les bonifications pour enfants sont instaurées à raison de 10~\% pour trois enfants et 5~\% par enfant supplémentaire (art. 18-V) et la possibilité pour les mères de trois enfants de liquider leur retraite sans condition d'âge (art. 24-I). La loi prévoit aussi des dispositions relatives à la déchéance du droit à pension, par exemple en cas de malversation, ou de condamnations (art. 46 et 47). Le principe de péréquation des pensions sur l'évolution des traitements est confirmé.
+
+La liste des fonctionnaires appartenant à la catégorie active est précisée en 1954\footnote{En annexe du décret 54-832 du 13 août 1954.}: on trouve les personnels chargés de missions de sécurité (policiers, douaniers de la branche de la surveillance, surveillants pénitentiaires), les personnels d'exploitation de l'équipement, certains personnels de La Poste et les instituteurs.
+
+Le Code des pensions civiles et militaires de retraite (CPCM) est institué en 1964\footnote{Loi 64-1339 du 26 décembre 1964. Elle fut complétée par deux décrets d'application, 66-809 et 66-810 du 28 octobre 1966.}. La loi de 1964 reprend largement les termes de la loi de 1948. Elle abolit néanmoins les dispositions relatives à la déchéance du droit à pension.
+
+\section{Les pensions civiles et militaires \label{CPCM}}
+
+Les pensions civiles et militaires désignent donc les pensions des fonctionnaires titulaires basées sur leur traitement indiciaire. Elles sont définies par le CPCM mentionné ci-dessus, largement inspirée des dispositions d'origine de la loi de 1853. Cette partie vise à préciser ces droits à pension dans leur forme actuelle.
+
+Trois réformes majeures ont récemment modifié substantiellement le droit à pension des fonctionnaires: en août 2003, la réforme dite Fillon, du nom du ministre des Affaires Sociales de l'époque, modifie de façon substantielle la formule de calcul des pensions en introduisant décote, surcote et une référence à une durée d'assurance tous régimes\footnote{La réforme est définie
+par la loi 2003-775 du 21 août 2003. On pourra aussi consulter utilement le document \emph{Aux
+sources de la loi: Réforme des retraites} \cy{JO2003}.}. En novembre 2010, la réforme dite Woerth, du nom du ministre du Travail de l'époque, modifie les bornes d'âge pour la liquidation de la pension, pour les salariés du secteur privé comme les fonctionnaires\footnote{Loi 2010-1330 du 9 novembre 2010.}.
+
+La pension ($P$) des fonctionnaires civils de l'État se compose d'une pension de base ($P_0$) qui peut être majorée par un certain nombre de dispositions accessoires ($A$): $$ P = P_0 + A $$
+
+La formule de calcul de la pension de base est celle d'un régime fonctionnant en annuités, dont le taux d'annuité a été historiquement de 2~\% permettant d'obtenir un taux de remplacement de 75~\% pour 37,5 ans de service, sur la base du dernier traitement. On peut présenter la formule de calcul de la pension de base $P_0$ comme dépendant du taux de liquidation $\tau$, du coefficient de proratisation $CP$ et d'un traitement de référence $W_{ref}$:
+
+\begin{equation}\label{pension-pu}
+   P_0 = \tau \times CP\times W_{ref}
+\end{equation}
+
+On détaille chaque composante de cette formule en commençant par les conditions du droit à pension (section \ref{condpension}), puis le taux de liquidation (section \ref{tauxpension}), le coefficient de proratisation (section \ref{cppension}), les rémunérations prises en compte (section \ref{remupension}) et enfin les avantages accessoires (section \ref{apension}). On effectue finalement un point sur les différences spécifiques aux fonctionnaires militaires (section \ref{legi_mi}).
+
+\subsection{Les conditions du droit à pension \label{condpension}}
+
+Il existe deux conditions essentielles au droit à pension dans la fonction publique: i) une condition d'âge minimum et maximum et ii) une condition de durée de service.
+
+\subsubsection{L'âge d'ouverture des droits \label{AOD}}
+
+La condition d'âge est avant tout une condition d'âge d'ouverture des droits (AOD) qui détermine l'âge auquel l'agent peut au plus tôt bénéficier de son droit à pension. Cet âge minimal dépend de la catégorie à laquelle appartient l'agent et était avant la réforme de 2010 de:
+\begin{itemize}
+  \item 60 ans pour les fonctionnaires dits sédentaires;
+  \item 55 ans pour les fonctionnaires justifiants de 15 ans de service actif\footnote{Ces services sont définis au décret \no 54-832 du 13 août 1954.} ou de la catégorie B;
+  \item 50 ans pour les fonctionnaires justifiant de 15 ans de service actif et titulaires d'un mandat parlementaire\footnote{Article L. 75 du code des pensions civiles et militaires et l'article 6 de la loi \no 79-563 du 6 juillet 1979 relative à l'indemnité des représentants au Parlement européen.};
+  \item 50 ans pour les fonctionnaires justifiant de 25 ans de service actif dans la police nationale\footnote{Loi \no 57-444 du 8 avril 1957 instituant un régime particulier de retraite en faveur des personnels actifs de la police.}, l'administration pénitentiaire\footnote{Loi \no 96-452 du 28 mai 1996 portant diverses mesures d'ordre sanitaire, social et statutaire.} et le contrôle de la navigation aérienne\footnote{Loi \no 89-1007 du 31 décembre 1989.};
+  \item 50 ans pour les fonctionnaires justifiant de 15 ans de service actif dans le corps de contrôle de la navigation aérienne\footnote{Loi \no 89-1007 du 31 décembre 1989.};
+  \item Sans limite d'âge pour les fonctionnaires admis à la retraite suite à une invalidité;
+  \item Sans limite d'âge pour les femmes fonctionnaires ayant élevé au moins trois enfants.
+\end{itemize}
+
+La réforme de 2003 ne modifie pas l'AOD, à l'exception des dispositifs de l'article L.75 du CPCM permettant aux fonctionnaires parlementaires de bénéficier d'un AOD de 50 ans, qui sont supprimés. Au contraire, la réforme de 2010 touche principalement à cette condition en prévoyant le relèvement progressif de l'âge légal de départ à la retraite. Ainsi l'AOD pour les fonctionnaires de catégorie sédentaire passe de 60 ans pour les individus nés en 1950 à 62 ans pour les individus nés en 1955. En parallèle, l'AOD pour les fonctionnaires de catégorie active est également décalé de deux ans, passant de 55 à 57 ans ou de 50 à 52 ans, selon la catégorie (avec un calendrier de montée en charge par génération décalé: pour les générations 1955 à 1960 pour les actifs et 1960 à 1965 pour les super actifs).
+
+La réforme de 2010 a mis fin au dispositif de départ anticipé des parents de trois enfants et ce à partir du 1\er janvier 2012. Les parents validant les conditions du dispositif de départ anticipé avant le 1\er janvier 2012 peuvent en bénéficier sans limitation de durée mais avec l'application des règles générales de calcul de retraite (en particulier la durée requise d'assurance liée à leur année de naissance). Un régime transitoire a été mis en place permettant à ces agents, jusqu'au 1\er juillet 2011, de partir de façon anticipée avec les anciennes règles. Ce dispositif transitoire a incité à un surcroît de départ en 2011\footnote{Bien documenté dans le \textit{Rapport sur les pensions de retraite de la fonction publique}, annexé au PLF pour 2013, pages 113-121.}.
+
+\subsubsection{La limite d'âge \label{la}}
+
+La limite d'âge (LA) détermine l'âge maximum auquel un agent de la FPE peut partir en retraite. C'est un paramètre important qui contraste avec la plus grande liberté de choix possible dans le secteur privé. Les LA sont généralement définies comme l'AOD plus cinq ans: par exemple 65 ans pour un fonctionnaire sédentaire avant la réforme de 2010 (67 ans après).
+
+Néanmoins, l'agent peut demander un maintien en fonction ou un report de la LA pour plusieurs motifs: pour enfants, pour carrière incomplète et en cas d'emploi de direction. Ainsi, si l'agent a encore un ou plusieurs enfants à charge lorsqu'il atteint la LA, il peut poursuivre son activité à raison d'un an supplémentaire par enfant dans la limite de trois ans. Par ailleurs, si à la date de son 50\eme anniversaire, il était parent d'au moins trois enfants vivants, il peut poursuivre son activité professionnelle au delà de la LA, dans la limite de 10 trimestres et dans la limite de la durée d'assurance requise. Enfin, le dernier motif permet aux personnels dans des postes de direction de repousser de deux ans leur départ en retraite si l'intérêt du service l'exige -- il s'agit d'une décision du gouvernement, à titre exceptionnel, et non d'une possibilité offerte à tous les agents.
+
+Il existe un certain nombre d'exceptions à ces règles générales: par exemple les professeurs d'université bénéficient d'une LA de 68 ans, et les professeurs au Collège de France d'une LA de 70 ans.
+
+\subsubsection{La condition de service}
+
+La condition de service impose une durée minimale de service, appelée aussi \og clause de stage\fg, de 15 ans avant la réforme de 2010, faute de quoi l'agent ne peut bénéficier d'une pension au titre du CPCM. L'agent est rétabli dans la situation qu'il aurait eue s'il avait été affilié au régime général (CNAV) et au régime complémentaire des non-titulaires (IRCANTEC), avec un transfert des périodes d'assurance et le versement de cotisations rétroactives (cotisation employeur et salarié). Les services qui permettent une validation de cette condition doivent être effectifs et n'incluent donc pas les bonifications.
+
+La réforme de 2010 réduit, pour la fonction publique civile, cette condition de 15 ans à deux ans, mais elle reste à 15 ans pour les militaires (Décret 2010-1740 du 30 décembre 2010). En revanche, la condition de durée de service en catégorie active augmente de deux ans, passant de 15 ans pour la génération 1955 à 17 ans pour la génération 1960, ou de 25 à 27 ans pour les catégories dites super-actives.
+
+\subsection{Le taux de liquidation \label{tauxpension}}
+
+Depuis 1948, le régime de retraite des fonctionnaires offre un taux de liquidation de référence de 75~\% pour 37,5 ans de service. C'est un régime dit \og en annuité\fg{}, avec un taux d'annuité de 2~\%. La réforme de 2003 modifie la situation en incorporant décote, surcote et une durée d'assurance tous régimes, dans la perspective d'un rapprochement avec la formule de pension du régime général.
+
+Le taux de liquidation $\tau$ s'écrit alors de la façon suivante:
+
+\begin{equation}\label{tau-pu-2003} \begin{split}
+\tau =
+0,75*\Bigg[1 - \delta
+* \max\bigg\{0,\min\Big[(AAD-AGE),\frac{N-D}{4}\Big]\bigg\} \\+ s*\max\bigg\{0,\min\Big[(AGE-AOD),\tilde{D}\Big]\bigg\}\Bigg]
+\end{split}
+\end{equation}
+
+où $N$ est la durée requise d'assurance, incluant la durée de service et les durées cotisées dans les autres régimes, $AAD$ l'âge
+d'annulation de la décote, $AOD$ l'âge d'ouverture des droits et $AGE$ l'âge de la liquidation, $D$  la durée d'assurance tous régime et $\tilde{D}$ la durée d'assurance effectivement cotisée au delà de la durée requise $N$.
+
+L'introduction de la décote ($\delta$) prend effet en 2006, et est progressivement augmentée. Elle est fixée à 0,5~\% pour
+chaque année manquante (par rapport à $N$) et puis augmentée de 0,5 point de pourcentage à chaque
+génération jusqu'à atteindre 5~\% en 2015 pour être égale à la décote dans le régime général. Cette
+décote ne s'applique pas lorsque le fonctionnaire atteint \og l'âge d'annulation de la décote \fg\ ($AAD$). La réforme s'applique progressivement, non seulement avec le montant de la décote mais aussi avec l'augmentation progressive de l'âge AAD. On peut retrouver au
+tableau~\ref{parametre2003pu} les paramètres en vigueur pendant la période de transition.
+
+\begin{tab}[13cm]{Paramètres de la période de transition de la réforme Fillon pour les
+fonctionnaires. \label{parametre2003pu}}
+{\begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Date d'effet & Génération & N & $\delta$ par trimestre & AGE d'annulation de décote \\
+    \hline
+    2004 & 1944 & 152 &          & LA                 \\
+    2005 & 1945 & 154 &          & LA                 \\
+    2006 & 1946 & 156 & 0,125~\% & LA - 16 trimestres \\
+    2007 & 1947 & 158 & 0,250~\% & LA - 14 trimestres \\
+    2008 & 1948 & 160 & 0,375~\% & LA - 12 trimestres \\
+    2009 & 1949 & 161 & 0,500~\% & LA - 11 trimestres \\
+    2010 & 1950 & 162 & 0,625~\% & LA - 10 trimestres \\
+    2011 & 1951 & 163 & 0,750~\% & LA - 9 trimestres  \\
+    2012 & 1952 & 164 & 0,875~\% & LA - 8 trimestres  \\
+    2013 & 1953 & 164 & 1,000~\% & LA - 7 trimestres  \\
+    2014 & 1954 & 165 & 1,125~\% & LA - 6 trimestres  \\
+    2015 & 1955 & 165 & 1,250~\% & LA - 5 trimestres  \\
+    2016 & 1956 & 166 & 1,250~\% & LA - 4 trimestres  \\
+    2017 & 1957 & 166 & 1,250~\% & LA - 3 trimestres  \\
+    2018 & 1958 & 167 & 1,250~\% & LA - 2 trimestres  \\
+    2019 & 1959 & 167 & 1,250~\% & LA - 1 trimestre   \\
+    \hline
+  \end{tabular}}
+{\emph{Note:}~$N$ est la durée requise de cotisation;
+$\delta$ est la décote exprimée par trimestre manquant; $LA$ est la limite d'âge qui peut être
+différente selon le statut du fonctionnaire.}
+\end{tab}
+
+Une surcote ($s$) est également introduite en 2004, comme dans le secteur privé. Elle consiste en un bonus de 3~\% par année de service supplémentaire et est réservé aux fonctionnaires civils en catégorie sédentaire. Les fonctionnaires de la catégorie active qui bénéficient d'un âge limite de 55 et 60 ans ne peuvent donc pas profiter de ce bonus qui est restreint aux personnes de plus de 60 ans qui ont déjà la durée requise de cotisation. En 2009\footnote{Loi \no 2008-1330 du 17 décembre 2008 de financement de la sécurité sociale pour 2009}, le dispositif de la surcote dans la fonction publique est modifié: le taux de surcote est porté à 5~\% par année supplémentaire. A partir de 2013\footnote{Article 86 de la loi no 2011-1906 du 21 décembre 2011 du financement de la sécurité sociale pour 2012.} seules les bonifications et majorations de durées d'assurance accordées au titre des enfants et du handicap sont prises en compte pour l'obtention de la surcote.
+
+Après la réforme de 2010, la formule générale de calcul du taux de liquidation ($\tau$) ne change pas mais va réagir à l'augmentation progressive de l'AOD et de l'AAD.
+
+
+\subsection{Coefficient de proratisation \label{cppension}}
+
+Le coefficient de proratisation ($CP$) se définit comme le ratio de la durée de service à la durée requise pour le taux plein -- $N$ -- avec deux bornes maximales, l'une calculée avec les seules années de service effectif, et l'autre incluant les bonifications. En d'autres termes, le taux maximal de pension est de 75~\%, pouvant être porté à 80~\% du fait des bonifications. Formellement, le coefficient de proratisation se définit comme:
+
+ \begin{equation}\label{cp_pu}
+    CP = \max{\Bigg(\min{\bigg[1;\frac{D_1+D_3}{N}\bigg]};\min{\bigg[\frac{80}{75};\frac{\max{\Big(D_1;N\Big) + D_2}}{N}}\bigg]\Bigg)}
+\end{equation}
+
+avec $D_1$ la durée de service effective, $D_2$ la durée de bonification au titre de l'article L.12 du CPCM et $D_3$ les bonifications au titre du cinquième.
+
+\subsubsection{La durée de service effective}
+
+La durée de service effective correspond à la durée, comptabilisée en trimestres, de services effectifs. Les périodes de temps partiel sont prises en compte au prorata de la fraction du temps de travail hebdomadaire effectivement réalisé (art. L11 du CPCM). Pour la durée d'assurance pour obtenir le taux plein, par contre, les périodes de temps partiel sont pris en compte intégralement.
+
+\subsubsection{Les bonifications et majoration de durée}
+
+Il existe deux types de dispositifs permettant d'augmenter la durée d'assurance validée, outre les services effectifs: la bonification de durée et la majoration d'assurance. Contrairement au régime général, dans la fonction publique, bonifications et majoration de durée n'ont pas le même effet sur la pension: en effet, si les bonifications de durée augmentent à la fois la durée d'assurance (qui sert à estimer le taux de liquidation $\tau$) et le coefficient de proratisation ($CP$), les majorations de durée ne sont pas prises en compte dans le calcul du coefficient de proratisation.
+
+Les bonifications offertes aux fonctionnaires civils au titre de l'article L12 du CPCM comprennent aujourd'hui\footnote{Les bonifications de l'art. L12 incluaient à l'origine des bonifications pour les périodes passées en déportation, ou pour les fonctionnaires demeurés dans les régions envahies ou les localités bombardées au cours de la guerre 1914-1918.}:
+\begin{itemize}
+  \item les bonifications pour enfants pour les femmes fonctionnaires (une année par enfant né avant le 1\er{} janvier 2004);
+  \item les bonifications de dépaysement (pour les services hors d'Europe, +25~\%, +33~\% ou +50~\% selon le lieu).
+\end{itemize}
+
+Suite à la décision \og Griesmar \fg{} de la Cour de justice de l'Union européenne (CJUE), les bonifications de service d'un an, réservées aux femmes jusqu'en 2003, ont été jugées contraire au principe d'égalité entre hommes et femmes. La réforme des retraites de 2003 a ainsi modifié les dispositifs de bonifications pour enfants, en distinguant le cas des enfants nés avant et après le 1\er janvier 2004:
+\begin{itemize}
+  \item pour les enfants nés avant le 1\er{} janvier 2004, la bonification pour enfant est étendue aux hommes sous condition d'une interruption de carrière d'au moins deux mois ;
+  \item pour les enfants nés après le 1\er{} janvier 2004, la bonification est remplacée par une majoration de durée d'assurance de deux trimestres liée à l'accouchement (donc pour les mères uniquement) et par un dispositif de validation des périodes d'interruption pour les mères et les pères, et ce dans la limite de trois ans.
+\end{itemize}
+
+Les bonifications dites du cinquième\footnote{Ces bonifications ne sont pas prévues par l'article L12 du CPCM, mais par des textes particuliers, cités dans la section consacrée à l'âge d'ouverture des droits (cf. page \pageref{AOD}).} correspondent à des bonifications de 20~\% de la durée de service, dans la limite de 5 ans, pour les catégories des contrôleurs aériens, des policiers et des surveillants pénitentiaires, en lien avec leur statut de \og super-actif \fg{} leur donnant accès à un âge d'ouverture des droits dès 50 ans. Formellement, $D_3 = \min{\Big(\frac{D_1}{5};5\Big)}$, impliquant qu'un agent avec une durée de service de 32,5 peut partir dès 50 ans au taux plein. Ces bonifications du cinquième ne permettent pas de dépasser le taux maximal de 75~\%.
+
+Une bonification était aussi accordée aux professeurs d'enseignement technique au titre du stage professionnel exigé pour avoir le droit de se présenter aux concours. La réforme de 2010 a supprimé ce dispositif.
+
+Il est à noter que les bonifications sont en parties liées à la durée de service, impliquant une accélération de l'acquisition des droits pour les agents en bénéficiant.
+
+
+\subsection{Les rémunérations prises en compte \label{remupension}}
+
+Les rémunérations des agents de la FPE se décomposent de façon générale en un traitement indiciaire, des primes ou indemnités qui entrent dans la rémunération prise en compte pour le calcul de la pension de retraite et des primes et indemnités qui ne donnent pas lieu à droit à pension. A partir de la réforme de 2004, ces rémunérations exclues du droit à pension, donnent lieu à des cotisations au régime additionnel de la fonction publique (RAFP).
+
+\subsubsection{Le traitement de référence}
+
+Le traitement de référence $W_{ref}$ est défini comme \og le traitement ou la solde soumis à retenue afférents à l'indice correspondant à l'emploi, grade, classe et échelon effectivement détenus depuis six mois\fg{} (art. L.15 du CPCM). Le traitement de référence est calculé comme le produit de l'indice majoré $(INDM)$ détenu au moins six mois et la valeur du point de service $(VP)$ au moment de la radiation des cadres.
+
+\begin{equation}\label{traitement}
+    W_{ref} = INDM \times VP
+\end{equation}
+
+Plusieurs remarques sont utiles sur cette formule: i) la référence diffère du traitement moyen des six derniers mois, puisque l'augmentation de la valeur du point aura un impact immédiat sur le traitement de référence -- même si l'agent ne reste pas en poste pendant six mois après la revalorisation du point; ii) il peut se trouver une différence entre la date de radiation des cadres (qui détermine la VP) et la date de jouissance de la pension.
+
+\subsubsection{Primes et indemnités}
+
+Le traitement de référence exclut par définition les primes et indemnités, sauf pour un certain nombre d'exceptions:
+\begin{itemize}
+  \item l'indemnité de sujétion spéciale (ISS) pour les policiers\footnote{Art. 95 de la loi de finances pour 1983 \no 82-1126 du 29 décembre 1982.};
+  \item l'indemnité de sujétion spéciale (ISS) pour les gendarmes\footnote{Art. 131 de la loi de finances pour 1984 \no 83-1179 du 29 décembre 1983.};
+  \item l'indemnité de sujétion spéciale (ISS) pour les surveillants pénitentiaires\footnote{Art. 76 de la loi de finances pour 1986 \no 85-1403 du 30 décembre 1985 et art. 87 de la loi de finances pour 2001 pour les services administratifs.};
+  \item l'indemnité risque (IR) pour les personnels de la douane\footnote{Art. 127 de la loi de finances \no 89-935 du 26 décembre 1989.}.
+\end{itemize}
+
+Les indemnités de type ISS sont ainsi inclues dans l'INDM, même si elles ne font pas partie du traitement indiciaire proprement dit. Cela a des implications pour la bonne prise en compte d'un taux de prime moyen (cf. chapitre \ref{data}). Le cas de l'IR est plus complexe encore, puisque cette indemnité est incorporé à l'INDM uniquement à la radiation des cadres et implique une distinction plus nette entre l'évolution propre de l'INDM et celle de l'IR.
+
+\subsection{Les droits accessoires \label{apension}}
+
+Les droits accessoires $A$ se rajoutent à la pension de base pour constituer la pension totale, même si ceux-ci peuvent être écrêtés s'ils dépassent un certain montant ou taux de remplacement.
+
+La liste des accessoires est la suivante:
+\begin{description}
+\item[Majoration pour enfants:] La majoration pour trois enfants ou plus offre une bonification du montant de la pension pour les fonctionnaires, hommes ou femmes, ayant élevé trois enfants ou plus. Cette majoration s'élève à 10~\% pour trois enfants et à 5~\% par enfant supplémentaire (soit 20~\% pour quatre enfants, 30~\% pour six enfants, etc.). La majoration est plafonnée à 100~\% du traitement de référence utilisé dans le calcul de la pension.
+\item[Majoration Handicap:] Les fonctionnaires reconnus travailleurs handicapés ou ayant atteint un taux d'invalidité de 80~\% bénéficient d'une majoration de pension égale à un tiers du ratio entre la durée des services effectués en étant en invalidité et la durée de service admise pour liquidation. La majoration de pension ne peut pas permettre de dépasser le taux de liquidation de 75~\%.
+\item[Majoration pour tierce personne:] Le fonctionnaire titulaire d'une pension d'invalidité qui doit recourir à l'assistance d'une tierce personne reçoit une majoration spéciale égale à l'indice majoré 227 au 1\er janvier 2004, soit 1156,90 euros mensuel.
+\item[Rente viagère d'invalidité:] Dans le cas où l'invalidité résulte de l'exercice de ses fonctions, le fonctionnaire atteint d'une invalidité permanente peut recevoir une rente viagère d'invalidité en plus de sa pension pour invalidité.
+\item[Majoration NBI:] La majoration NBI est égale à la moyenne annuelle de la NBI perçue fois le ratio de la durée de perception de cette bonification rapportée à la durée d'assurance requise.
+\item[Majoration IMT:] l'indemnité mensuelle de technicité (IMT) pour les personnels du ministère des finances\footnote{Art. 126 de la loi de finances \no 89-935 du 26 décembre 1989.};
+\item[Majoration gendarmes]
+\item[Majoration pour les sapeurs-pompiers:] Une majoration de pension pour les sapeurs pompiers militaires (dite aussi prime de feu) permet de majorer la pension de 0,5~\% par année d'activité, sans pour autant dépasser 100~\% de la solde de référence.
+\item[Indemnité temporaire de retraite (ITR):] L'ITR permet de majorer la pension des fonctionnaires résidant dans les territoires de La Réunion, Saint-Pierre-et-Miquelon, la Nouvelle Calédonie, Wallis-et-Futuna, la Polynésie française et Mayotte. Son montant s'échelonnait de 35~\% à La Réunion à 75~\% en Polynésie française avant sa mise en extinction progressive\footnote{Institué par le décret \no 52-1050 du 10 septembre 1952, ce dispositif a été mis en extinction progressive par l'art. 137 de la loi de finances rectificative \no 2008-1443.}.
+\end{description}
+
+Un point important à préciser est que les droits accessoires sont calculés sur le montant principal de la pension après décote, surcote et minimum garanti.
+
+\subsection{Départs anticipés}
+
+Le départ anticipé pour carrière longue a été introduit par la réforme de 2003, permettant aux salariés du privé et du public, de partir dès 59 ans, puis 58 ans, sous condition d'une durée d'assurance supérieure de deux ans à la durée d'assurance requise pour le taux plein.
+
+Le dispositif de départ pour carrière longue a été étendu par la loi du 9 novembre 2010. Les agents ayant commencé à travailler à 14 et 15 ans peuvent partir dès 58 et 59 ans et ceux ayant commencé à travailler dès 16 ans peuvent partir à 60 ans.
+
+La réforme de 2010 aussi mis fin aux Cessations progressive d'activité (CPA).
+
+\subsection{Le minimum garanti}
+
+Le minimum garanti offre une pension minimale aux fonctionnaires, s'élevant :
+\begin{itemize}
+  \item au traitement brut de l'indice majoré 204 si le fonctionnaire justifie 25 années de services;
+  \item 4~\% du traitement brut de l'indice majoré 204 par année de service si le fonctionnaire ne justifie pas 25 années de services.
+\end{itemize}
+
+Le minimum garanti était avant 2010 sensiblement différent du minimum contributif en vigueur dans le régime général pour les salariés du secteur privé -- il était accessible sans condition d'âge ni de durée d'assurance. La réforme de 2010 prévoit la mise en place progressive de conditions similaires d'obtention du minimum garanti dans la fonction publique: soit avoir validé une durée d'assurance pour une retraite à taux plein, soit avoir atteint d'âge d'annulation de la décote\footnote{Un dispositif de plafonnement entre pension du secteur privé et public est aussi prévu par la loi du 9 novembre 2010. Par ailleurs, le minimum garanti reste différent du minimum contributif: il est plus élevé et son montant n'est pas strictement proportionnel à la durée de service.}.
+
+\subsection{La revalorisation des pensions}
+
+La réforme de 2003 a aussi modifié le mode de revalorisation des pensions des fonctionnaires. A partir du 1\er{} janvier 2004, celles-ci sont revalorisées suivant l'évolution des prix hors tabac, la revalorisation ayant lieu au 1\er{} janvier. A partir de 2009, la revalorisation a lieu le 1\er{} avril\footnote{Loi 2008-1330 du 17 décembre 2008 de financement de la sécurité sociale pour 2009.}.
+
+Un point important à souligner est le fait que toutes les pensions liquidées à la date de revalorisation en bénéficient, impliquant ainsi une pension plus élevée pour les fonctionnaires liquidant juste avant la date de revalorisation, plutôt que juste après. Cela explique qu'il est possible qu'un report de liquidation se traduise par une baisse du montant de pension simulé.
+
+\subsection{Les fonctionnaires militaires \label{legi_mi}}
+
+Le droit à pension pour les militaires s'inscrit dans le CPMC et est défini de façon très similaire au droit pour les fonctionnaires civils. Néanmoins, des différences majeures, notamment pour les conditions d'obtention d'une pension, rendent ce droit de nature très différente, en grande partie conçu pour permettre une transition des militaires vers une seconde carrière. On précise ici l'essentiel des points d'écart avec les civils.
+
+\subsubsection{Les conditions du droit à pension}
+
+\paragraph{L'âge d'ouverture des droits}
+
+Un militaire peut liquider sa pension sans condition d'âge (pas d'AOD) à partir d'une certaine durée de services. Cette condition de durée service \og pour jouissance immédiate\fg{} est de 27 ans pour les officiers et 17 ans pour les non-officiers (respectivement 25 et 15 avant la réforme de 2010).
+
+\paragraph{La limite d'âge}
+
+L'âge limite dépend du grade (sous officier, officier) et de la formation de rattachement\footnote{voir article L4139-16 du CPCMR.}. Pour les officiers, l'âge limite varie de 52 ans (officiers de l'armée de l'air) à 67 ans (certains généraux). Pour les non officiers, l'âge limite peut varier de 47 ans (sergents) à 59 ans (majors).
+
+La réforme de 2010 (puis 2011) a décalé l'âge limite de 2 ans pour tous les militaires.
+
+\paragraph{La condition de service}
+
+Une durée minimale de services de 15 ans, ou clause de stage, est requise pour pouvoir bénéficier d'une pension militaire, et ce même après la réforme de 2010. En-deçà de cette durée minimale, les périodes validées sont reversées au régime général et à l'Ircantec, avec transfert des périodes d'assurances et des cotisations afférentes (employeur et salarié).
+
+La réforme de 2013 réduit pour les militaires la clause de stage de 15 à 2 ans, comme cela avait été fait pour les civils en 2010. L'application de la mesure est par contre très progressive puisqu'elle ne concerne que les militaires dont le premier engagement est postérieur au 1\er{} janvier 2014.
+
+\subsubsection{Le taux de liquidation}
+
+Les règle de la décote pour les militaire sont définies à l'article L14 (alinéa II) du CPCMR. Il y a deux cas de figure principaux:
+\begin{itemize}
+\item  Si le départ en retraite s'effectue à partir de 52 ans (50 ans avant la réforme de 2010), la décote fonctionne de la même manière que pour les civils (avec une même durée cible pour le taux plein).
+\item  Si le départ a lieu avant 52 ans, le départ s'effectue sans décote si la durée de service est au moins égale à la durée de services minimale pour bénéficier d'une pension, majorée de 10 trimestres (29,5 ans pour les officiers, 19,5 ans pour les non officiers, après la réforme de 2010). Si la durée de service est inférieure à cette durée cible, un taux de décote de 1,25~\% par trimestre manquant s'applique dans la limite de 10 trimestres. Notons que le nombre de trimestre manquant se calcule comme le minimum entre (i) l'écart entre la durée de service effectuée et la durée de service nécessaire pour l'annulation de la décote et (ii) l'écart entre la durée d'assurance et la durée d'assurance cible pour le taux plein.
+\end{itemize}
+\vspace{0.3cm}
+Par ailleurs, il n'y a pas de surcote pour les militaires.
+
+\subsubsection{Coefficient de proratisation}
+
+Les militaires bénéficient de bonifications spécifiques \footnote{Articles R10 à R25 du CPCMR} pour leur durée de service qui leur permettent de réduire notablement l'effet de la proratisation:
+\begin{description}
+  \item[Les bonifications au titre des campagnes militaires :] c'est le pendant de la bonification pour dépaysement pour les fonctionnaires civils. Les militaires bénéficient de bonifications pour les campagnes militaires. La durée de la bonification peut être égal au double, au total, ou à la moitié de la durée effective de la campagne en fonction des conditions de celle-ci (temps de guerre, de paix, lieu de la compagne, conditions de vie, etc.).
+  \item[Les bonifications du cinquième:] comme les fonctionnaire civils \og super-actifs\fg, les militaires bénéficient tous d'une bonification au cinquième, dite parfois \og cinquième des militaires\fg\footnote{Les bonifications du cinquième pour les militaires sont prévues à l'art. L12 du CPCM, contrairement aux bonifications pour les \og super-actifs\fg.}. Leur durée de service est ainsi majorée de 1 an tous les 5 ans, dans la limite de 5 ans.
+  \item[Les bonifications pour services aériens ou subaquatiques:] La durée des bonifications dépend de la durée passée dans les airs ou sous l'eau, pondérée par un coefficient dépendant des conditions de vol ou de plongée. Ces bonifications sont limitées à deux ans par année civile de service.
+\end{description}
+
+\section{Les régimes complémentaires du secteur public \label{Comp-pu}}
+
+Si le régime des pensions civiles et militaires offre une pension nettement plus importante que le régime de base des salariés du secteur privé, il n'en reste pas moins que seul le traitement donne lieu à pension, laissant de côté une part de plus en plus importante de la rémunération des fonctionnaires, les indemnités et autres primes. C'est ainsi qu'un régime complémentaire de la fonction publique a été créé en 2003 dans la perspective de prendre en compte les primes dans le droit à pension.
+
+Par ailleurs, les non-titulaires de la fonction publique, bien que salariés du secteur public, ne sont pas affiliés au régime des pensions civiles et militaires. Ils sont donc affiliés au régime général du secteur privé (CNAV) pour leur régime de base, et bénéficient d'un régime complémentaire, l'Ircantec.
+
+\subsection{La Retraite additionnelle de la fonction publique (RAFP)}
+
+La réforme de 2003 avait prévu d'instaurer un nouveau régime pour les fonctionnaires afin de
+mettre en place une couverture de la partie du salaire non concernée par les cotisations de base:
+c'est-à-dire les primes et les avantages en nature, qui sont fiscalisés mais qui, jusqu'alors, ne
+donnaient pas lieu à cotisation ni à droits de retraite.
+
+\subsubsection{Un régime pour les primes des fonctionnaires}
+
+Le décret 2004-569 du 18 juin 2004 crée ainsi un nouveau régime, la Retraite additionnelle de la fonction publique (RAFP), qui concerne ces rémunérations additionnelles. L'assiette des cotisations est l'ensemble des rémunérations soumises à la CSG, non prises en compte dans l'assiette des cotisations du régime de base, sous un plafond de 20~\% du traitement indiciaire brut. Deux exceptions à cette règle doivent être précisées: L'indemnité de garantie individuelle de pouvoir d'achat (GIPA) est intégralement soumise au taux de cotisation RAFP sans limite de durée (décret 2014-452 du 2 mai 2014) et les jours inscrits sur le Compte Épargne-Temps (CET) bénéficient d'une prise en compte particulière\footnote{Décrets 2009-1065 du 28 août 2009
+relatif à la FPE, 2010-531 du 20 mai 2010 relatif à la FPT et 2012-1366 du 6 décembre 2012 relatif à la FPH.}; En fonction de la catégorie statutaire du fonctionnaire, il est fixé une indemnité forfaitaire par jour CET. Cette indemnité est alors convertie par en points RAFP par application de la valeur d'acquisition du point de l'année de versement.
+
+Le taux de cotisation est de 10~\%, dont la moitié est à charge de l'employeur, c'est-à-dire les administrations publiques.
+
+Les droits ouverts par ce régime nécessitent d'avoir l'âge d'ouverture des droits (initialement 60 ans) et sont augmentés de façon actuarielle pour tout report après 60 ans. Il s'agit d'un régime en points, où la rente est déterminée par le nombre de points accumulés et par la valeur du point. Aucun point gratuit n'est accordé. La prestation est versée sous la forme d'un capital si le nombre de points acquis est inférieur à 5125 points. Le montant de ce capital est déterminé par application d'un barème de conversion en capital. Jusqu'en 2009, la totalité des prestations de retraite additionnelle a été versée sous forme de capital.
+
+\subsubsection{Un fonds de pension public}
+
+la gestion du régime de retraite additionnelle de la fonction publique (RAFP) a été confiée à un établissement public à caractère administratif placé sous la tutelle de l'Etat, l'Établissement de retraite additionnelle de la fonction publique (ERAFP).
+
+Le mode de financement du RAFP est la capitalisation, bien que le nouveau régime ait été décrit à sa création comme fonctionnant en \og répartition provisionnée \fg. Ce fonds de pension public investit ainsi les cotisations collectées dans des actifs financiers avant de les redistribuer sous forme de prestations de retraite. Au 31 décembre 2013, le régime pouvait compter sur 15,3 milliards d'actifs.
+
+\subsection{L'Ircantec, le régime complémentaire des non-titulaires}
+
+De manière similaire à ce que l'on a pu observer dans le privé, se sont dans un premier temps les cadres non-titulaires de l'administration et des collectivités publiques qui ont accédé à un régime complémentaire de retraite avec la création de l'Institution de prévoyance des agents contractuels et temporaires de l'État (IPACTE) en 1949. Alors que les agents non-cadres ont dû attendre la création de l'Institution générale de retraite des agents non titulaires de l'État (IGRANTE) en 1960 pour pouvoir bénéficier d'un tel système.
+
+\subsubsection{Des affiliés divers}
+
+Créé en décembre 1970\footnote{Décret 70-1277 du 23 décembre 1970.} suite à la fusion des régimes de l'Ipacte et de l'Igrante, l'Institut de retraite complémentaire des agents non titulaires de l'État et des collectivités publiques (IRCANTEC) connaît un croissance importante de son effectif de cotisants qui a quasiment triplé au cours des 40 dernières années passant d'environ 1,1 millions en 1971 à 2,8 millions en 2011. Ce régime complémentaire de la fonction publique s'adresse naturellement aux agents non titulaires, sans pour autant s'y limiter.
+
+En effet, suite à la loi du 29 décembre 1972 rendant obligatoire l'adhésion à un régime complémentaire, l'Ircantec a connu une expansion importante de son champs d'application \footnote{Décret du 27 mars 1973.}, à la frontière entre emploi public et privé. On y retrouve ainsi différentes catégories de cotisants parmi lesquelles: les agents titulaires à temps partiel ou sans droit à pension, les praticiens hospitaliers, ainsi que de nombreux employés d'organismes publics et parapublics (EDF, la Banque de France, La Poste, France Telecom, les EPIC, etc.). Depuis 1973, l'Ircantec est également le régime complémentaire des élus locaux.
+
+L'Ircantec a la particularité d'avoir des cotisants particulièrement jeunes (l'âge médian des cotisants entrés en 2011 était de 23 ans), qui connaîtront pour la plupart plusieurs courts épisodes de cotisations. Cette mobilité particulièrement élevée des cotisants conduit à un renouvellement important des effectifs qui s'explique par le rôle temporaire des emplois non-titulaires qui n'ont, par définition, pas vocation à être permanents. On retrouve toutefois parmi ces cotisants quelques individus qui, du fait de compétences spécifiques ou de l'absence de corps de fonctionnaires, passeront l'essentiel de leur carrière à l'Ircantec.
+\subsubsection{Un système en points}
+
+L'Ircantec est un régime par point. Il comporte deux assiettes de cotisation (tranche A et tranche B) dont les plafonds sont respectivement de 1 et de 8 PSS. La partie des rémunérations supérieure à 8 PSS ne donne lieu à aucun prélèvement de cotisation et n'ouvre aucun droit. Au 31 décembre 2012, les taux de cotisation salariales s'élevaient à 2,35 \% pour la tranche A et 6,10 \% pour la tranche B. Ces taux étaient respectivement de 3,53 \% et 11,7 \% pour les cotisations patronales. Le calcul du nombre de points est quant à lui adossé sur des taux théoriques, légèrement inférieurs aux taux de cotisation. Il est donné par la relation:
+\begin{eqnarray*}
+\mathrm{Points}= \frac{\mathrm{Assiette\ A} \times \mathrm{taux\ théorique}_A + \mathrm{Assiette\ B} \times \mathrm{taux\ theorique}_B}{\mathrm{valeur\ d'achat\ du\ point}}
+\end{eqnarray*}
+Où la valeur d'achat du point est égale au salaire de référence (3 904 \euro \ en 2012) qui est revalorisé chaque année dans les mêmes conditions que les pensions de vieillesse du régime général de la sécurité sociale.
+
+\subsubsection{Des avantages non-contributifs}
+
+Outre l'achat de points, les pensions des cotisants peuvent également se voir augmenter via l'attribution de points gratuits.
+Initialement, seules les périodes de maladie et de guerre permettaient l'attribution de ces points. Cependant, l'évolution de la législation a étendu leur attribution à d'autres périodes d'interruption de travail. Ainsi, dès lors qu'un cotisant est contraint d'interrompre son activité professionnelle relevant de l'Ircantec, il peut bénéficier sous certaines conditions de l'attribution de points gratuits au titre:
+\begin{itemize}
+\item du service militaire: le nombre de points gratuits est proportionnel à la moyenne annuelle des points acquis par les intéressés pour l'ensemble de leurs services pris en compte par le régime ($\mathrm{points\ gratuits} = \frac{\mathrm{points\ acquis}\ \times \ \mathrm{duree\ service\ militaire}}{\mathrm{duree\ des\ services\ a\ l'Ircantec}}$);
+\item de maladie, d'invalidité, de maternité ou accident de travail: les points gratuits sont calculés sur la partie de traitement non versée à l'agent du fait de son arrêt de travail et sur laquelle il n'a donc pas pu cotiser;
+\item des soins aux tuberculeux ou de contamination à l'amiante: les points sont attribués en fonction des traitements perçus lors des périodes de contamination. En ce qui concerne les soins aux tuberculeux, lorsque la période d'indemnisation est postérieure à l'activité relevant du régime, le nombre de points gratuits est calculé en fonction du dernier traitement perçu par l'agent à la date d'interruption de son activité. Lorsque la période d'indemnisation est antérieure à l'activité relevant de l'Ircantec, le nombre de points gratuits est calculé en fonction du premier traitement perçu;
+\item d'une interruption d'activité pour élever ses enfants: le nombre de points gratuits est égal à la moyenne annuelle des points acquis par l'agent pour l'ensemble de ses services, proratisée en fonction de la durée de l'interruption d'activité professionnelle (dans la limite d'une année). C'est-à-dire $\mathrm{points\ gratuits} = \frac{\mathrm{points\ acquis}\ \times \ \mathrm{duree\ interruption}}{\mathrm{duree\ des\ services\ à\ l'Ircantec}}$
+\item d'une cessation anticipée d'activité: le nombre annuel de points gratuits est égal au nombre de points acquis par l'agent au cours du meilleur des trois derniers exercices civils précédant sa cessation anticipée d'activité;
+\item de chômage: les points acquis lors d'une période de chômage sont indexés sur le Smic: $\mathrm{points\ gratuits}= \frac{\mathrm{Smic} \times \mathrm{taux\ theorique}_A}{\mathrm{valeur\ d'achat\ du\ point}}$.
+\end{itemize}
+
+\`A cela peut également s'ajouter une majoration pour enfants. Auquel cas, le nombre de points est alors augmenté d'un pourcentage dépendant du nombre d'enfants élevés par le cotisant. Cette majoration s'étendait en 2012 de 10 \% pour trois enfants à 30 \% à partir du septième enfant.
+
+Finalement, l'Ircantec connaît également une monté en charge du nombre d'allocataires qui est passé de 1,1 millions en 1991 à 1,9 millions en 2011. En 2011, ces allocataires détenaient, en moyenne, 2 492 points.
+
+\section{Les régimes spéciaux \label{regspec}}
+
+Les \og régimes spéciaux\fg{} prennent naissance au XIX\eme{} siècle avec l'apparition, dans la plupart des
+administrations, de caisses particulières qui sont vite déficitaires et doivent recevoir une subvention de l'État (voir la partie \ref{caissesXIX}, page \pageref{caissesXIX}). Ainsi une caisse est créée à la Banque de France en 1806, à la Comédie Française en 1812 et à l'Imprimerie Nationale en 1824.
+
+La loi du 1853, en instituant une caisse unique pour les fonctionnaires d'État, laisse de côté un certain nombre de caisses particulières, et ces régimes particuliers continuent leur existence séparée. D'autres caisses se créent dans le secteur privé, en 1855 pour les cheminots et 1894 pour les mineurs.
+
+À la Libération, ces régimes spécifiques à des entreprises publiques ou para-publiques, refusent -- comme les régimes de la fonction publique -- de rejoindre le régime général, moins avantageux, et restent ainsi comme des exceptions au cas général. Épargnés par la réforme de 2003, les \og régimes spéciaux \fg\ restent ainsi à l'écart des mouvements de convergence entre public et privé. On compte de nombreuses caisses, mais les plus importantes sont celles de la SNCF (150~000 cotisants), d'EDF-GDF (150 000 cotisants), les ouvriers de l'État (60 000 cotisants) et les invalides de la marine (60 000 cotisants).
+
+En 2008, une série de réformes touche le droit à la retraite dans la plupart de ces régimes spéciaux, qui constitue le premier effort de convergence -- limitée -- vers les dispositifs des autres régimes de retraite.
+
+\subsection{Le régime de la SNCF}
+
+Le régime spécial des chemins de fer remonte à 1855, mais il est consacré par la loi du 21 juillet 1909
+sur les retraites des cheminots, complétée par une loi du 28 décembre 1911. Le régime spécial est géré actuellement par la Caisse de prévoyance et de retraite du personnel de la SNCF (CPRPSNCF).
+
+La caisse de retraite est alimentée par une retenue de 7,85~\% sur
+le traitement des agents, une cotisation de la SNCF  de 28,44~\% sur la même base (financée en
+grande partie par une participation de l'État), soit un taux de cotisation de 36,29~\%. À ce taux,
+il faut ajouter la cotisation implicite de la SNCF qui finance les avantages supplémentaires
+accordés à ses agents (1,6~\% en 1995).
+
+Le calcul de la pension est égal à 2~\% par année de service du dernier traitement (6 mois au
+moins). Les droits sont ouverts à partir de 55 ans, ou 50 ans pour les agents affectés à la
+conduite des trains. Les annuités liquidables peuvent être bonifiées de 3 mois par année de
+conduite (bonification de traction).
+
+\subsection{Le régime des gaziers et électriciens (IEG)}
+
+Le régime des gaziers et électriciens (IEG) date de la nationalisation de 1946\footnote{Décret
+46-1541 du 22 juin 1946.} et il concerne tous les salariés du secteur (nationalisé ou non, et
+donc y compris les entreprises privées qui ont vocation à rentrer sur le marché de l'énergie suite
+à l'ouverture à la concurrence). Il est financé essentiellement par des cotisations, avec une
+retenue de 7,85~\% sur le traitement des agents et un versement de l'entreprise. Ce versement est
+calculé comme l'application d'un taux moyen général (TMG) à la masse salariale hors prime. Le TMG
+correspond à 60~\% pour 2000, 61,8~\% pour 2003 et 63,43\% pour 2004. En 1946, la contribution
+patronale était de 15,52~\% seulement et a progressivement augmenté pour rejoindre les chiffres
+précités. Le calcul de la pension est similaire à celui des fonctionnaires (avant la réforme 2003)
+avec une annuité de 2~\%, sous condition de 25 ans de service, un minimum de 60 ans pour les
+sédentaires et 55 ans pour les actifs. Les années en service actif comptent pour 14 mois et celles
+en service insalubre pour 16 mois.
+
+À partir de 2005, il a été décidé d'adosser le régime de retraite de l'entreprise à celle du régime
+général (tout en laissant inchangées les spécificités du régime) en échange du versement d'une
+soulte à la Cnav et aux régimes complémentaires. La soulte se monte à 9 milliards d'euros versés
+par les Industries électriques et gazières (IEG) (7,7 milliards) et par le Fonds de solidarité
+vieillesse (FSV) (1,3 milliard). Une partie est versée directement au fonds de réserve des
+retraites (40~\%) et le reste sera payé à la Cnav au cours d'une période de 20 ans.
+
+Le 1\er{} janvier 2005 a été créée la Caisse Nationale des Industries électriques et gazières
+(CNIEG). Il s'agit en fait du service interne des pensions des IEG qui devient un organisme de
+sécurité sociale. Les droits de base (régimes général et complémentaires) sont distingués des
+droits spécifiques du régime. Pour les droits passés spécifiques (jusqu'au 31 décembre 2004), le
+financement est assuré à la CNIEG par la Contribution tarifaire d'acheminement prélevé sur les
+clients des services des IEG et par une contribution des entreprises de la branche. Pour les droits
+à compter du 1\er{} janvier 2005, les risques vieillesse (ainsi qu'accident, invalidité, etc.) sont pris
+en charge par une cotisation des entreprises IEG d'un montant de 6,5~\% en 2005.
+
+\subsection{Les ouvriers des établissements industriels de l'État}
+La couverture vieillesse de ces agents de la Défense, de l'Équipement et des Monnaies et médailles
+est assurée par le fonds de retraite FSPOEIE,\footnote{Créé par la loi du 21 mars 1928, aménagé par
+les décrets du 24 septembre 1965 et du 18 août 1967.} géré par la Caisse des Dépôts et
+Consignation. L'effectif des cotisants est en diminution constante et avoisine les 60~000 personnes
+en 2003. Le calcul de la pension est similaire à ceux des fonctionnaires (annuité de 2~\%) avec
+néanmoins des âges de départ en retraite possibles plus variés, notamment pour les ouvriers de la
+Défense (Giat Industries et Arsenaux) dès 52 ans, puis 55 ans.\footnote{Décrets \no 98-358 et
+\no 98-359 du 12 mai 1998, puis \no 99-328 du 29 avril 1999.} Les besoins de financement du FSPOEIE
+sont couverts par les cotisations comprenant les retenues à la charge des ouvriers au taux de 7,85
+\% et les contributions des établissements employeurs au taux de 24 \% (en 2004). Une subvention
+d'équilibre est inscrite chaque année au budget général par la Direction du budget.
+
+\subsection{La RATP}
+Les agents de la RATP bénéficient aussi d'un régime spécial\footnote{Créé par le décret \no 50-1566
+du 23 décembre 1950.} dans lequel les cotisations ne couvrent que 12~\% des prestations. Celles-ci
+se répartissent en une part salariale (7,85 \% du traitement) et une part patronale (15,34 \%). Le
+reste est financé par l'indemnité compensatrice versée par l'État. D'après la Cour des Comptes
+\cy{CdCSS1997}, l'effort contributif s'établit au total à 54,48~\%.
+
+L'âge de la retraite dans le régime RATP est de 60 ans pour les sédentaires (15 \% des effectifs),
+de 55 ans pour les actifs A et de 50 ans pour les actifs B. Pour le reste, les règles suivent
+celles des autres fonctions publiques.
+
+\subsection{Caisse de retraite de l'Opéra de Paris}
+
+Parmi les régimes de sécurité sociale, l'un des plus anciens est celui des artistes de l’Opéra dont l'institution remonte à 1698. Un premier règlement avait en 1714 précisé les droits à pension des artistes.
+En 1856, une caisse de pensions viagères de l’Opéra a été créée pour tenir compte des spécificités des professions exercées au sein de l’Opéra et accorder aux assurés des droits particuliers en matière de retraite. Le décret loi du 28 octobre 1935 (article 23) et l'ordonnance du 4 octobre 1945 (article 17) confirment parmi les régimes de sécurité sociale l'existence du régime spécial de l’Opéra.
+
+
+Un régime spécial modifié à diverses reprises, notamment par les décrets: du 17 février 1900, du 28 février 1923, du 26 septembre 1931 et du 14 octobre 1931, du 19 novembre 1941, du 27 novembre 1946 modifié
+le décret du 28 février 1923 qui reconnaît la Caisse de retraites du personnel du Théâtre national de l’Opéra comme « établissement d’utilité publique », le décret du 27 novembre 1946 modifié qui fixe notamment les prestations.
+
+Ce statut a été modernisé par le décret du 5 avril 1968 modifié notamment par les décrets n° 95-982 du 25.08.1995, n° 2002-347 du 12.03.2002, n°2004-407 du 12.05.2004, n°2005-436 du 09.05.2005, 2006-346 du 23.03.2006, n°2006-640 du 01.06.2006, n°2006-1115 du 05.09.2006, n°2008-240 du 06.03.2008, n°2008-659 du 02.07.2008 et n°2008-1497 du 22.12.2008, réformé par les décrets n°2009-1387 du 11 novembre 2009, n°2010-14 du 7 janvier 2010 et le décret n°2011-953 du 10 août 2011.
+
+La gestion de ce régime est assurée par la « Caisse de retraites des personnels de l'Opéra national de Paris » qui dispose d’une autonomie juridique et financière.
+
+
+\subsection{Port autonome de Strasbourg}
+
+Régime spécial créé en 1873. Aujourd'hui 156 cotisants.
+
+\subsection{Régime des mines}
+
+Régime spécial de la sécurité sociale, créé en 1946. 4000 cotisants.
+
+\subsection{Régime des clercs et employés de notaires}
+
+Caisse de retraite et de prévoyance des clercs et employés de notaires (CRPCEN), créée en 1937.
+
+\subsection{La Banque de France}
+
+Régime spécial de sécurité sociale, Date de création : 1808.
+
+Réforme du régime spécial en 2007:
+rapport d'activité bdF 2017 (p. 131) le décret 2007-262 du 27 février 2007, entré en vigueur le 1 avril 2007, modifié par les décrets 2008-1514, 2012-701, 2012-847 et 2014-1702,
+
+\subsection{Invalides de la marine (Enim)}
+
+Établissement national des invalides de la marine (Enim). 1670 pour l'origine du régime, 1930 pour la création de l'Enim. 27000 cotisants
+
+\subsection{Le régime des parlementaires}
+
+Le régime des parlementaires est assez mal connu du fait du manque de transparence des règles qui le régissent. On se réfère ici à la documentation rassemblée par \cite{BozioPiketty2008}. La caisse de pensions des députés, créée par une résolution de la Chambre des députés du 23 décembre 1904, est alimentée par une cotisation prélevée sur l'indemnité parlementaire et par une subvention inscrite au budget de l’Assemblée.
+
+En théorie, les parlementaires sont soumis aux mêmes règles que les fonctionnaires. Le taux de cotisation salariale prélevé chaque mois sur l'indemnité parlementaire (5 400 euros bruts) est de 7,85~\%, la durée de cotisations requise pour une retraite à taux plein est de 40 années, et chaque année de cotisation rapporte un pourcentage fixe en termes de taux de remplacement. Comme souvent pour les régimes spéciaux, ce sont des " détails " aux implications importantes qui rendent le régime des parlementaires nettement plus généreux que celui des fonctionnaires :
+(1) Le taux de remplacement apporté par une année de cotisation est de 2,11~\% et non de 1,875~\%, si bien que le taux de remplacement associé à une retraite à plein taux est de 84,4~\% (40 x 2,11~\% = 84,4~\%) et non de 75~\% (40 x 1,875~\% = 75~\%).
+(2) Le taux de cotisations comme le taux de remplacement s'appliquent non pas au traitement brut, mais à un salaire de référence égal à 136~\% de l'indemnité parlementaire de 5 400 euros, soit 7 344 euros. Cette règle pourrait sembler relativement neutre, dans la mesure où les cotisations versés et les droits à la retraites augmentent proportionnellement. En réalité, elle est extrêmement avantageuse, car de la même façon que dans la fonction publique les cotisations salariales ne financent qu'une part très faible des retraites en question (à peine plus de 10~\%).  Autrement dit, les augmentations de cotisations impliquées par cette règle ne financent que 10~\% des augmentations correspondantes de droits à la retraite, les 90~\% restants étant par définition à la charge du budget de l'État.
+(3) Les parlementaires bénéficient d'un système de cotisation double (15,7~\% au lieu de 7,85~\%) pendant les 15 premières années de mandat, et d'une cotisation et demie pendant les 5 années suivantes, de façon à pouvoir atteindre les 40 années de cotisations au bout de 22,5 années de mandat. Là encore, compte tenu du fait que les cotisations salariales ne financent qu'une faible part des retraites correspondantes, le système est extrêmement avantageux : ce sont surtout les contribuables qui cotisent double.
+	En combinant ces trois règles, on aboutit à un système sensiblement plus avantageux que le régime des fonctionnaires (et a fortiori que le régime général du privé). Au bout de 22,5 années de mandat, un parlementaire obtient une retraite à plein taux d'environ 6 200 euros par mois.  Au bout de 5 années de mandat, le droit à la retraite est d'environ 1 550 euros par mois,  ce qui correspond à un excellent rendement par comparaison aux cotisations versées.
+	Ce régime dérogatoire est souvent justifié en évoquant la précarité particulière de la fonction parlementaire et l'insuffisance du montant de l'indemnité. Force est pourtant de constater que la précarité n'est guère une spécificité parlementaire : nombre de salariés du privé font face à une précarité de l'emploi au moins aussi importante, et il n'est clairement pas viable de concevoir un régime spécial de retraite pour chacune des professions concernées. Il nous semblerait largement préférable d'appliquer aux parlementaires le même régime que celui des autres travailleurs, quitte à augmenter le montant de leur indemnité.
+	Il est intéressant de noter qu'un alignement pur et simple sur le régime de la fonction publique serait insatisfaisant, compte tenu des rigidités de ce régime : impossibilité de toucher une retraite de la fonction publique au dessous de 15 années de cotisations, et plus généralement manque général de lisibilité des droits ouverts aux poly-pensionnés (et en particulier aux parlementaires aux carrières souvent complexes). Cela illustre le fait que la meilleure façon de remettre à plat les régimes spéciaux est de mettre en place une refonte générale de l'ensemble du système des retraites, dans le cadre d'un système unifié de comptes individuels de cotisations, plus transparent, plus efficace et socialement plus juste.
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-guide}
+\end{document}
+\else \fi
+

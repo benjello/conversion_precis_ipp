@@ -1,0 +1,138 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                              PARAM�TRES � D�FINIR ICI                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Pr�ciser si on veut la version pour impression (avec marges int�rieures plus larges) ou la version pour la mise en ligne (avec marges sym�triques)
+% Mettre "print" pour la version impression et "online" pour la version en ligne (valeur par d�faut)
+\def\version{online}
+%\def\version{print}
+
+% Indiquer ici le titre qui s'affichera dans l'en-t�te des pages paires
+\newcommand{\entetegauche}{Syst\`eme d'indemnisation ch\^omage en France}
+
+% Indiquer ici les meta-donn�es du pdf (titre, auteur)
+\newcommand{\pdftitle}{Précis législatif du système d'indemnisation chômage}
+\newcommand{\auteurs}{Institut des politiques publiques}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         CHARGEMENT DES PACKAGES ET MACROS                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\isEmbedded}{true}
+
+% Chargement des packages
+\input{Style/ipp-packages}
+
+% Chargement des macros
+\input{Style/ipp-macros}
+
+% Meta-donn�es du PDF
+\usepackage[pdftitle={\pdftitle},
+            pdfauthor={\auteurs},
+            colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}  %pour que le fichier PDF contiennent des liens hypertexte mais sans couleur
+
+% Chargement de la charte graphique
+\input{Style/ipp-charte}
+
+% Chargement du style de la bibliographie
+\bibliographystyle{Style/ipp-bibliostyle}
+
+\begin{document}
+
+% Profondeur de la num�rotation des sections (sous-sous sections)
+\setcounter{secnumdepth}{3}
+% Profondeur de la table des mati�res (sous-sections)
+\setcounter{tocdepth}{2}
+
+% Pour changer la couleur des bullets dans les liste � puce %
+\renewcommand{\labelitemi}{${\color{ippdark}\bullet}$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                       COUVERTURE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion des deux pages de couverture du Precis %
+\includepdf[pages=1]{Couverture/couverture1.pdf}
+\pagevide
+
+\includepdf[pages=1]{Couverture/couverture2.pdf}
+\pagevide
+
+\includepdf[pages=1]{Couverture/couverture1b.pdf}
+%\pagevide
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                      SOMMAIRE                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Sommaire} \setstretch{1.2}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                CHAPITRES DU PRECIS                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\setstretch{1.2}
+\addcontentsline{toc}{chapter}{Introduction}
+\entetetwo{\entetegauche}{Introduction}
+\cfchapter*{\label{Introduction}Introduction}{Sections/1-Introduction}{1-Introduction.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~1 -- Financement}
+\cfchapter{\label{Chapitre1}Financement du syst\`eme d'indemnisation ch\^omage}{Sections/2-Financement}{2-Financement.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~2 -- Allocations d'assurance}
+\cfchapter{\label{Chapitre2}Allocations d'assurance}{Sections/3-Allocations_assurance}{3-Allocations_assurance.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~3 -- Allocations d'assistance}
+\cfchapter{\label{Chapitre3}Allocations d'assistance}{Sections/4-Allocations_assistance}{4-Allocations_assistance.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~4 -- Aides \`a la reprise d'activit\'e}
+\cfchapter{\label{Chapitre4}Aides \`a la reprise d'activit\'e}{Sections/5-Aides_reprise_activite}{5-Aides_reprise_activite.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    BIBLIOGRAPHIE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\phantomsection
+\entetetwo{\entetegauche}{R\'ef\'erences}
+\addcontentsline{toc}{chapter}{R\'ef\'erences}
+%\bibliography{Biblio/biblio-precis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                LISTE DES TABLEAUX                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\phantomsection
+\entetetwo{\entetegauche}{Liste des tableaux}
+\addcontentsline{toc}{chapter}{Liste des tableaux}
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                LISTE DES FIGURES                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Liste des figures}
+\entetetwo{\entetegauche}{Liste des figures}
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    4E de COUV                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagevide \pagevide
+% Inclusion du dos de la couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture4.pdf}
+
+\end{document}

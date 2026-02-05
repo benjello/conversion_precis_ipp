@@ -1,0 +1,1104 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{0}
+\chapter{\label{Chapitre1}Titre du chapitre 1}
+\else \fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Comparé au Code des pensions de la fonction publique, le système de retraite du secteur privé est d'inspiration plus récente. Il date essentiellement de la Libération et avait vocation, dans l'esprit de ses concepteurs, à remplacer tous les régimes pour devenir général à tous les Français -- d'où son nom de régime général.
+
+La difficulté pour comparer l'évolution de la législation du mode de calcul des retraites tient au fait que le législateur n'a pas seulement modifié des paramètres déterminant la pension, mais aussi introduit de nouvelles références (comme la décote par rapport à l'âge et à la durée de cotisation en 1982). L'ambiguïté vient souvent de la notion de \og retraite à taux plein\fg, qui sert de référence pour l'expression de la décote et de la surcote. Avant la réforme de 1982, la référence était le taux de remplacement à l'âge de 65 ans, après celle-ci le \og taux plein\fg\ devient le
+taux maximal.
+
+Ce chapitre a pour objectif de présenter présenter la formule du calcul des pensions la plus générale possible, dans un cadre conceptuel homogène au cours du temps. Après avoir évoqué brièvement les origines du systèmes de retraite du secteur privé, nous décrirons successivement la législation du régime général (Cnav) puis celle des régimes complémentaires (Arrco et Agirc). Nous nous sommes appuyés sur les publications de ces régimes\footnote{Voir en particulier le très complet site Internet de législation de la Cnav, \texttt{www.legislation.cnav.fr}. Nous avons aussi interrogé le personnel des caisses de retraite complémentaire sur les barèmes anciens qui n'avaient pas donné lieu à
+publication.}, sur les volumes III et VI de l'ouvrage \emph{La Sécurité sociale -- son histoire à travers les textes} \citep{SecuriteSociale1988,Brocas2005} et sur la consultation systématique du \emph{Journal officiel}.
+
+\section{Les origines (1910-1945)}
+
+Nous ne reprenons pas ici le détail des dispositifs qui ont précédé le régime général, mais retraçons rapidement les ancêtres (plus ou moins glorieux) du système de retraite du secteur privé en France\footnote{On pourra lire l'article de Jean-Marie Thiveaud \cyp{Thiveaud1997} sur la construction des systèmes de retraite de 1750 à 1945, l'ouvrage d'Anne Reimat \cyp{Reimat1997} sur les retraites au XIX\eme siècle et celui de Bruno Dumons et Gilles Pollet \cyp{DumonsPollet1994} sur la mise en place des retraites ouvrières et paysannes, et les tomes I et II de \emph{La Sécurité sociale -- son histoire à travers les textes} \cyp{SecuriteSociale1994,SecuriteSociale1996} sur
+les dispositifs qui ont précédé la mise en place de l'assurance vieillesse.}.
+
+La première tentative vient de la loi du 5 avril 1910 sur les retraites ouvrières et paysannes. Le dispositif est obligatoire, financé par capitalisation et le départ en retraite est possible à partir de 65 ans. L'échec de ces retraites ouvrières et paysannes s'explique de plusieurs façons: les prélèvements faibles (sur de faibles salaires) ont donné lieu à de faibles pensions; l'âge de la retraite dépassait largement l'espérance de vie de l'époque\footnote{L'espérance de vie pour les hommes en 1910 était de 50 ans à la naissance, de 35 ans à 30 ans et de 13 ans à 60 ans, selon les travaux de Jacques Vallin et France Meslé \cyp{VallinMesle2001}.} et on a rapidement moqué le système comme \og une retraite pour les morts \fg ; enfin et surtout l'inflation qui suit la guerre a réduit considérablement les montants épargnés\footnote{On se rappelle en particulier la caricature sur les retraites \og Le
+charivari\fg\ qui a été souvent représenté dans les livres d'histoire des lycéens comme illustration des méfaits de la capitalisation. On y voit une foule d'ouvriers faire la queue à un guichet pour cotiser, \og Par l'obligation tout le monde paie\fg, puis en dessous seuls trois vieillards viennent recevoir la pension \og par capitalisation quelques uns touchent peu, les autres sont morts\fg.}.
+
+La seconde tentative vient des assurances sociales instaurées par les lois des 5 avril 1928 et 30 avril 1930. L'assurance est obligatoire pour tous ceux qui ont des salaires inférieurs à un certain plafond. Un système par capitalisation est à nouveau introduit avec un taux de cotisation de 8~\% donnant droit après 30 ans de cotisation à 40~\% du salaire moyen\footnote{Le taux de cotisation inclut les cotisations pour les autres risques. La loi de 1930 évalue à la moitié la part de la vieillesse, mais il ne semble pas que les caisses aient été séparées dans les faits.}. Contrairement aux retraites ouvrières et paysannes, la couverture des assurances sociales est beaucoup plus large. Avec la guerre et l'érosion monétaire, les rentes fondent totalement et le régime de Vichy consacre avec la loi du 4 mars 1941, le financement des assurances sociales par la répartition.
+
+À la Libération, le projet de la Résistance de l'instauration d'une sécurité sociale universelle et unique prend corps avec l'ordonnance du 4 octobre 1945. Les différents risques sont intégrés et le texte prévoit une caisse unique. L'ordonnance du 19 octobre 1945 détermine l'assurance vieillesse dans le cadre du régime général. Le choix est fait d'un financement par répartition au vu de la nécessité à la fois de la reconstruction et de la couverture des personnes âgées, qui ont vu leur épargne disparaître avec l'inflation. Le préambule de l'ordonnance ne fait pas pour autant du mode de financement un choix positif et rappelle les contraintes du moment:
+\begin{quotation} \label{Ordonnance1945}
+\small
+\og Ce régime, tel qu'il est défini par la présente ordonnance, repose sur le principe de la
+répartition. La situation présente ne permet pas de faire une place à la capitalisation dans le
+système à établir. D'autres part les circonstances économiques ne permettent pas, avant
+longtemps, de faire appel à ce dernier régime qui suppose, en effet, le prélèvement sur les
+cotisations d'une année à la fois de la charge du service des pensions déjà concédées et des
+sommes destinées à être capitalisées pour couvrir le service des pensions futures.
+
+Il n'est pas douteux que le régime de la répartition est plus onéreux que celui de la
+capitalisation.\fg\ (Préambule à l'ordonnance du 19 octobre 1945)
+\end{quotation}
+
+Au départ, le régime général était conçu pour être le régime unique de tous les Français, salariés
+ou non, travaillant dans le public ou le privé. Mais très vite, au moment de la mise en place du
+système, les salariés du public préférèrent conserver leurs régimes spéciaux plus favorables. À
+l'inverse, les non-salariés préférèrent établir leurs propres régimes de retraite apportant une
+couverture moindre avec des taux de cotisation inférieurs.
+
+\section{Le régime général}
+
+En 1945, c'est la caisse de sécurité sociale qui gère l'assurance vieillesse de façon intégrée aux
+autres risques. Avec la réforme de 1967, cette caisse unique est éclatée et la Caisse nationale d'assurance
+vieillesse des travailleurs salariés (CNAVTS) prend en charge le risque vieillesse de façon
+autonome. Lorsqu'en 1973, les non-salariés rejoignent le régime général, la CNAVTS se renomme
+Caisse nationale d'assurance vieillesse (CNAV).
+
+\subsection{La formule générale de la pension}
+
+La formule de la pension définit le niveau de pension en fonction de la série des salaires passés, du déroulement de la carrière, de l'âge de liquidation et d'autres paramètres du système. Cette sous-partie détaille de la façon la plus cohérente possible cette formule et l'évolution de ses paramètres depuis 1945.
+
+
+La formule de base pour définir le montant de la pension P est la même que pour le secteur public
+(équation \eqref{pension-pu}, page \pageref{pension-pu}):
+     \begin{equation} P = \tau \times CP \times W_{ref} \label{pension}
+\end{equation}
+\begin{center} avec $MIN\leq P \leq MAX$
+\end{center}
+
+où l'on peut définir les cinq variables suivantes: $\tau$ le taux de liquidation, $CP$ le
+coefficient de proratisation, $W_{ref}$ le salaire annuel de référence, $MIN$
+est le minimum de pension (cf. partie 5), qui peut être soit le minimum contributif (depuis 1983), soit le minimum
+vieillesse (depuis 1956), et enfin $MAX$ qui est la pension plafond.
+
+\paragraph*{Le taux de liquidation $\mathbf{\tau}$}
+
+Le taux de liquidation $\tau$, est fonction de l'âge de liquidation $AGE$, de la durée d'assurance tous régimes $D_1$, de la durée d'assurance requise pour obtenir le taux plein $N_1$ et de deux paramètres augmentant ou diminuant le taux de référence, la décote $\delta$ et la surcote $s$.
+
+\begin{equation}\label{pension}
+\tau = f(AGE, D_1, N_1, \delta, s) 
+\end{equation}
+
+La décote et la surcote ne peuvent être définies que par rapport à la définition du taux plein (que
+l'on minore ou majore). En fait, on peut définir la décote ou la surcote soit par rapport à l'âge,
+soit par rapport à la durée de cotisation, soit par rapport aux deux (comme après la réforme de
+1982). Après la réforme de 1982, le taux plein est le taux maximum, mais sa définition est moins
+aisée pour les périodes précédentes. Soit on compare les taux à un même âge, comme 60 ans (et on
+qualifie le taux maximum à 60 ans de taux plein), soit on appelle taux plein, ce qui fait référence
+dans la législation, c'est-à-dire le taux maximum à 65 ans avant 1982 et le taux maximum à 60 ans
+après 1983.
+
+Par ailleurs, on trouve dans la législation le concept de coefficient de minoration (ou coefficient
+de majoration) qui correspond à une formulation spécifique et est parfois confondu avec les termes
+décotes et surcotes. Nous cherchons ici à clarifier les termes conceptuellement et non à reprendre
+une définition juridique homogène qui ne semble pas exister.
+
+On choisit donc de représenter le taux de référence par rapport à l'âge comme étant celui à 65
+ans, les départs entre 60 et 65 ans étant anticipés et sont minorés par la décote, tandis que les
+départs après 65 ans sont majorés par la surcote.
+
+On peut ainsi préciser $\tau$ comme la fonction suivante:
+
+\begin{equation} \tau =
+\theta_{\text{taux plein}}\times\Big[1 - \delta_1 \times g(AGE, D_1, N_1) + s_1\times h(AGE, D_1,
+N_1)\Big] \label{tau}
+\end{equation}
+
+Une autre façon de présenter $\tau$ dans la législation est d'exprimer les décote/surcote comme des
+réductions du taux plein (en points de pourcentage) et non comme des réductions en pourcentage de
+la pension:\footnote{La première version est préférée par les économistes car elle a plus de sens,
+mais les textes officiels évoquent plutôt une décote comme une réduction du taux plein en points de
+pourcentage.}
+
+\begin{equation} 
+\tau = \theta_{\text{taux plein}} - \delta_2
+\times g(AGE, D_1, N_1) + s_2\times h(AGE, D_1, N_1) \label{tau2}
+\end{equation}
+
+\paragraph*{Le coefficient de proratisation $\mathbf{CP}$:} Le coefficient de proratisation $CP$ dépend de la
+durée de cotisation au seul régime général $D_2$ et de la durée de proratisation $N_2$ nécessaire
+pour obtenir un coefficient de proratisation unitaire: \begin{equation}
+  CP = \min{\Big\{1,\frac{\widetilde{D_2}}{N_2}\Big\}} \label{proratisation}
+\end{equation}
+La réforme de 1982 introduit une modification de $D_2$ après 65 ans, sous la dénomination de \og
+durée d'assurance corrigée\fg, $\widetilde{D_2}$. Avant 1983, $\widetilde{D_2}=D_2$.
+
+\paragraph*{Décompte de la durée d'assurance:}
+
+Dans le régime général, la notion de trimestre de cotisations ne dépend pas de la durée réelle d'activité mais de la rémunération annuelle soumise à cotisations. Elle est donc indépendante (bien que corrélée) de la durée de travail effectif.  Depuis 1972, sont validés autant de trimestres que le salaire annuel représente de fois 200 heures de travail rémunérées au Smic (au trimestre près), avec un maximum de 4 trimestres par année civile\footnote{ Voir les textes de loi : L.351-2 et R. 351-9 CSS}. On peut ainsi préciser le nombre de trimestres validés pour le régime général :
+
+\[
+D^i_{cot} = \sum_{t = T_0}^{R} \min \left( \floor*{\frac{Sal^i_t}{Sal^{min}_t}}, 4 \right) 
+\]
+
+Avec :
+\begin{center}
+\small
+\begin{tabular}{ll p{10cm}}
+$D^i_{cot}$ &:& Durée de cotisation de l'individu $i$ \\
+$T_0$ &:& Année de début de la carrière individuelle \\
+$R$ &:& Année de liquidation \\
+$Sal^i_t$ &:& Salaire annuel de l'individu $i$ à l'année $t$  côtisé au sein du régime général\\
+$Sal^{min}_t$ &:& Salaire trimestriel minimum de référence à l'année $t$.
+\end{tabular}
+\end{center}
+\textsl{Remarque} : $Sal^{min}_t$ correspond au montant de 200h/SMIC après 1972. Avant 1972, le montant est indexé sur l'AVTS (1949-1971) ou d'autres montants de référence \footnote{Voir article R351-9 de la sécurité social.}. 
+
+Notons que des durées d'assurance peuvent-être validées sans versement de cotisation, on parle alors de périodes assimilées, intégrées au décompte de la durée d'assurance (cf. chapitre \ref{Chapitre5} consacré aux avantages non contributifs). 
+
+\paragraph*{Maximum de pension $\text{\textbf{MAX}}$:}
+Tout au long de la période, $\text{MAX}$ dépend du plafond du salaire soumis à cotisation, le plafond dit
+de la Sécurité sociale. Entre 1945
+et 1971,  $\text{MAX}$ correspond à 40~\% du plafond de la Sécurité sociale, puis après la réforme Boulin à
+50~\% de ce même plafond. Ce plafond a quelque peu perdu son sens à partir de 1983, puisque le taux
+de la pension atteint lui-même un plafond, mais avant cette date il était possible d'imaginer un
+taux plus élevé que le taux plein pour compenser un salaire de référence plus faible que le plafond
+de Sécurité sociale.
+
+\paragraph*{Le salaire de référence $\mathbf{W_{ref}}$:}
+Le salaire de référence $W_{ref}$, aussi appelé Salaire annuel moyen de base (SAMB), est un paramètre clé de la formule de pension. Il dépend du nombre d'années de salaire pris en compte et du mode de revalorisation de ces salaires. Les salaires qui rentrent dans ce calcul du salaire de référence sont les salaires sous plafond portés aux comptes.
+
+Dans la suite de cette partie, nous allons reprendre l'historique de l'évolution du régime et préciser à chaque fois les formules et les valeurs des paramètres.
+
+\subsection{L'évolution des paramètres de calcul de la pension}
+
+\subsubsection{La fondation du régime (1945-1948)\label{fondation1945-48}}
+
+Le système des pensions vieillesse est mis en place au début de l'année 1947 suite aux textes de la
+fin de l'année 1945, en particulier l'ordonnance fondatrice du 19 octobre 1945\footnote{Notamment
+les articles 63 à 72 de l'ordonnance \no 45-2454 du 19 octobre 1945 ainsi que le décret \no 45-0179 du
+29 décembre 1945.}. Le montant des pensions est fixé à un taux modeste. Dans l'esprit du législateur
+de l'époque, ce faible taux de remplacement est susceptible d'évoluer au fur et à mesure que le
+développement économique le permet. Il comporte aussi une incitation à repousser le départ en
+retraite le plus possible. Si le droit à pension est ouvert à 60 ans, le taux à cet âge n'est que
+de 20~\% du salaire de référence. Chaque année donne droit à une augmentation de quatre points de
+pourcentage (soit une décote de 10~\%) pour atteindre 40~\% à 65 ans. Les conditions pour obtenir
+une pension sont importantes. Il faut avoir cotisé pendant 15 ans, soit 60 trimestres. Pour les
+personnes ayant cotisé pendant moins de 15 ans, mais plus de cinq ans, les textes prévoient une
+rente de 10~\% des cotisations versées entre le 1\er juillet 1930 et le 31 décembre 1935 et 50~\%
+de l'ensemble des cotisations versées à leur sujet à partir du 1\er janvier 1936.
+
+Le régime est consolidé avec deux lois du 23 août 1948\footnote{Lois \no 48-1306 et \no 48-1307 du 23
+août 1948, JO du 24 août 1948.}. Il s'agit d'abord d'intégrer les cadres au régime général en
+validant les périodes du 1\er juillet 1930 au 1\er janvier 1947. En effet, les salariés qui
+dépassaient le plafond d'assujettissement aux assurances sociales ne pouvaient jusqu'alors valider
+ces années là. Cette validation entraîne la nécessité de racheter les cotisations antérieures ou,
+s'ils avaient cotisé à des institutions spécifiques, le reversement de celles-ci au régime général.
+
+La réforme de 1948 consolide aussi le régime général en fixant les règles de revalorisation des
+pensions en fonction de l'évolution des salaires. C'est une caractéristique majeure du régime
+général qui va perdurer jusqu'en 1987 (et légalement jusqu'en 1993) et qui explique une large part
+du rattrapage des pensions au fur et à mesure que les salaires vont progresser. Les coefficients de
+revalorisation des salaires sont utilisés à la fois pour le calcul du salaire de référence et pour
+la revalorisation des pensions déjà versées.
+
+En 1945 le salaire de référence $W_{ref}$ est défini comme la moyenne des salaires des dix
+dernières années de travail précédant l'âge de soixante ans, dans la limite du plafond de la
+Sécurité Sociale et revalorisés selon la croissance des salaires. En 1948, on rend possible le
+choix entre les dix dernières années avant 60 ans ou avant l'âge d'entrée en jouissance. Par
+ailleurs, la loi de 1948 prévoit de réduire de moitié la durée manquante pour appliquer la
+proratisation.
+
+\paragraph*{Les paramètres}
+
+Le taux plein retenu (par l'usage) est obtenu à 65 ans et la formule qui définit $\tau$ ne dépend
+que de l'âge et non pas de la durée de cotisation.
+
+$$ \left\{\begin{array}{c @{=} c @{=} c}
+\theta_{\text{taux plein}} & ~\theta_{\text{65 ans}}~ & 40 \% \\
+g(AGE, D_1, N_1) & \multicolumn{2}{c}{\max\big\{0,(65-AGE)\big\}}\\
+h(AGE, D_1, N_1) & \multicolumn{2}{c}{\max\big\{0,(AGE-65)\big\}} \\
+N_1 & N_2 & \text{30 ans} \\
+\delta_1 & s_1 & 10~\% \\
+\delta_2 & s_2 & 4~\%
+\end{array} \right.  $$
+
+On peut ainsi réécrire l'équation \eqref{tau} de la façon suivante: \begin{equation} \tau =
+0,40\times \Big[1 - 0,1 \times \max\big\{0,(65-AGE)\big\} + 0,1\times
+\max\big\{0,(AGE-65)\big\}\Big]\label{tau45}
+\end{equation}
+
+ou encore de la façon suivante (deuxième version): \begin{equation} \tau = 0,40 - 0,04 \times
+\max\{0,(65-AGE)\} + 0,04\times \max\{0,(AGE-65)\}\label{tau45b}\end{equation}
+
+et le coefficient de proratisation s'exprime naturellement (en trimestres) comme: \begin{equation}
+  CP = \min{\Big\{1,\frac{D_2}{120}\Big\}}
+\end{equation}
+et depuis 1948, comme:
+\begin{equation}
+  CP = \min{\Big\{1,\frac{D_2+\frac{(120-D_2)}{2}}{120}\Big\}}
+\end{equation}
+
+\paragraph*{Exemples:} Si une personne part en retraite à 65 ans avec plus de 120 trimestres de
+cotisation, elle va donc toucher le taux plein (40~\%) fois un coefficient de proratisation
+unitaire. Si elle décide de partir 5 ans plus tôt à 60 ans, elle applique la décote et obtient un
+taux de 20~\%. Au contraire, si cette personne décide de repousser d'un an son départ en retraite,
+elle obtient une majoration de sa pension de 10~\% par année supplémentaire. Ainsi, le taux passe à
+60~\% à 70 ans et à 100~\% à 80 ans comme on peut le constater au tableau \ref{table-tau4571}, qui
+récapitule les taux aux différents âges. Ces taux ne permettent pas pour autant d'améliorer le
+niveau de la pension de façon illimitée puisque le montant de celle-ci est limité par la pension
+maximum.
+
+\begin{tab}[13cm]{Taux de liquidation ($\tau$) pour la période
+  1945-1971\label{table-tau4571}}
+  {\begin{tabular}{|c|ccccccccc|}
+    \hline
+    Age & 60 & 61 & 62 & 63 & 64 & 65 & 70 & 75 & 80 \\
+    \hline
+    $\tau$ & 20~\% & 24~\% & 28~\% & 32~\% & 36~\% & 40~\% & 60~\% & 80~\% & 100~\% \\
+    \hline
+  \end{tabular}}
+{}
+\end{tab}
+
+
+\subsubsection{Le rapport Laroque}
+
+En 1960 est créée une commission d'étude des problèmes de la vieillesse, présidée par Pierre
+Laroque. Ce rapport constitue le premier d'une longue série aux réformes potentielles du système de
+retraite français. Il discute la question de la vieillesse dans un cadre très général, liant la
+question du vieillissement à celle de l'activité et des incitations du système de retraite.
+
+\begin{quotation}
+\small
+ \og Un souci principal se manifeste au travers du rapport: éviter la ségrégation des personnes âgées
+  et les maintenir dans la vie actuelle et dans la société là où elles ont un rôle utile à jouer.
+  Dans le même sens, la commission est favorable à une poursuite adaptée de l'activité en vue
+  d'éviter les conséquences d'un vieillissement prématuré et pour tenir compte par ailleurs des
+  perspectives démographiques.\fg\ (\emph{La Sécurité sociale. Son histoire à travers les textes}
+  \cyp{SecuriteSociale1988})
+\end{quotation}
+
+Le rapport préconise ainsi le maintien de l'âge de la retraite à 65 ans et une politique active
+d'adaptation à l'emploi: par exemple une politique d'éducation permanente devrait pouvoir favoriser
+les changements d'emploi en fonction du vieillissement et de la modification des aptitudes. Sur le
+lien entre retraite et chômage, il tranche nettement par rapport aux solutions qui seront proposées
+par la suite. Le rapport conclut ainsi sur la nécessité de supprimer les obstacles qui \og
+s'opposent à l'emploi ou au maintien en activité des personnes âgées\fg. Les limites d'âge doivent
+être supprimées, les travailleurs âgés doivent être protégés contre les licenciements, le maintien
+des salariés âgés doit être privilégié dans le cadre des licenciements collectifs et les conditions
+de travail des salariés doivent être améliorées.
+
+Sur la question du niveau des pensions, le rapport propose d'abord l'instauration d'un minimum de
+ressources qui devrait dépendre du niveau du salaire minimum. Il devrait être financé par l'impôt
+et remplacer toutes les allocations existantes à l'époque\footnote{Voir la partie
+\ref{minimum_vieillesse} sur le minimum vieillesse à la page \pageref{minimum_vieillesse}.}. Les
+recommandations du rapport seront sur ce point partiellement suivies avec une revalorisation plus
+fortes des minimums, sans pour autant réaliser l'harmonisation espérée.
+
+D'autre part, le rapport Laroque remarque que le calcul du salaire de référence sur les dix
+dernières années désincite à la poursuite d'activité: pour éviter une baisse du montant de sa
+pension, le salarié a intérêt à demander la liquidation de sa pension dès qu'il ne peut plus voir
+progresser fortement son salaire. La commission propose ainsi de calculer le salaire de référence
+sur l'ensemble de la carrière salariale et d'augmenter la durée requise de cotisation de 30 à 45
+ans en offrant après 30 ans le même taux de remplacement (40~\%) et après 45 ans d'activité 60~\%.
+Les salariés souhaitant travailler au-delà devant bénéficier d'un taux plus élevé, ce dernier taux
+ne devait pas devenir une limite.
+
+Le rapport préconise en outre de passer à un système de point pour favoriser l'harmonisation du
+régime général avec les régimes complémentaires en appelant de ses v\oe ux à une harmonisation de
+la valeur du point et du salaire de référence\footnote{Il faudra donc attendre 1999, soit 37 ans,
+pour que soit partiellement pris en compte cette recommandation du rapport Laroque avec
+l'harmonisation des paramètres du régime Arrco.}.
+
+\begin{quotation}
+\small
+\og Enfin, et surtout, la généralisation à l'ensemble des régimes du système des points
+  pourrait constituer le moyen de réaliser une certaine unification de ces régimes, s'il était
+  possible de réaliser une valeur uniforme du point de retraite pour l'ensemble des régimes de
+  vieillesse (...) Cette généralisation permettrait d'établir un dénominateur commun à tous les
+  régimes et de résoudre en même temps les problèmes de coordination, qui s'effectueraient alors
+  par simple addition des droits obtenus dans chaque régime.\fg\ (\emph{La Sécurité sociale. Son histoire à travers les textes} \cyp{SecuriteSociale1988})
+\end{quotation}
+
+Le rapport est salué pour l'importance du travail réalisé, mais les propositions visant à maintenir
+en activité les salariés après l'âge d'ouverture des droits ne remportent pas les suffrages de la
+CFTC ni de la CGT.
+
+\subsubsection{La réforme de 1971, dite loi Boulin}
+
+En 1971 un débat a lieu à l'Assemblée Nationale sur \og l'abaissement de l'âge de la retraite à 60
+ans\fg. La lecture des débats parlementaires\footnote{Journal officiel de l'Assemblée nationale,
+séance du 19 mai 1971, pages 1980 à 1997.} est très instructive car elle met en évidence le c\oe
+ur des débats futurs sur le système de retraite. Les arguments en faveur d'une telle réforme sont
+variés et peuvent se ranger en trois catégories: soit une mesure sociale (l'usure de certains
+salariés après 60 ans), soit une mesure d'arbitrage revenu/loisir (les gains de productivité
+permettent de consommer plus de retraite), soit enfin la thématique de l'emploi pour faire de la
+place aux jeunes (l'arrivée des babyboomers sur le marché du travail). Le député M. Berthelot
+déclare ainsi:
+\begin{quotation}
+\small
+  \og Avancer l'âge de la retraite, c'est aussi donner à la masse des jeunes gens et jeunes filles
+  la perspective de trouver plus facilement un emploi, dans une période où ils forment une partie
+  non négligeable de la masse des chômeurs. (...)
+  Et puis, en admettant que ces 800.000 travailleurs décident tous de partir en retraite à soixante ans (...) ce ne
+  serait certainement pas un drame pour l'économie national: leurs places ne resteraient pas
+  vacantes, puisqu'il y a, chiffres officiels à l'appui, 416.000 personnes disponibles pour un
+  emploi, sans compter la main d'oeuvre féminine qui aspire à trouver du travail.\fg
+\end{quotation}
+
+Le ministre Robert Boulin s'y oppose en raison du poids croissant des personnes de plus de 60 ans
+et préfère une réforme visant à l'amélioration du niveau des pensions. Il s'oppose aussi à l'idée
+de libération d'emploi: \og De plus, il est faux de parler de remplacement par des femmes ou par
+des jeunes, car il se pose aussi un problème qualitatif.\fg
+
+On pourrait aussi citer un député du Nord, M. Jean Durieux, qui pose une question intéressante
+lorsqu'on considère l'évolution qui va suivre: \begin{quotation}  \small \og Et, dans ces
+conditions, en décidant un abaissement généralisé de l'âge de la retraite, ne risque-t-on pas, dans
+de nombreux cas, d'avancer simplement de cinq ans l'âge du ``rejet" et de l'inutilité si pénibles
+pour ceux qui les subissent ?\fg
+\end{quotation}
+
+La réforme Boulin\footnote{Loi \no 71-1132 du 31 décembre 1971 ; décret \no 72-78 du 28 janvier 1972 ;
+décret \no 72-1229 du 29 décembre 1972; arrêté du 28 janvier 1972 ; loi 3 janvier 1975 ; circulaire
+CNAV \no 2/72 du 31 janvier 1972.} ne change pas le mode de calcul des pensions, mais change les
+paramètres de la formule du taux de liquidation et la durée de proratisation. Pour ne pas
+défavoriser les longues carrières, notamment les plus modestes, la durée requise de cotisation
+passe de 30 à 37,5 ans. Le calcul du salaire de référence $W_{ref}$ passe des dix dernières années
+au dix meilleures années. Cette modification fait écho aux préoccupations du rapport Laroque sur
+l'incitation des salariés à poursuivre leur carrière quand leurs salaires stagnent après 60 ans.
+Dans l'esprit du législateur, la revendication de la retraite à taux plein à 60 ans pouvait
+apparaître comme une conséquence du manque d'incitation à poursuivre son activité après cet âge
+\citep{SecuriteSociale1988}.
+
+Quelques années plus tard, dans la continuité de la loi Boulin, est intervenue la simplification
+des conditions d'ouverture des droits.\footnote{Loi \no 75-3 du 3 janvier 1975.} Jusqu'alors les
+conditions de durée de cotisation (5 ans pour une rente, 15 ans pour la pension proportionnelle)
+étaient très restrictives pour les salariés susceptibles de mobilité. La loi de 1975 fixe à un
+trimestre la durée de cotisation minimale pour pouvoir liquider une pension.
+
+\paragraph*{Les paramètres}
+Ainsi, les paramètres deviennent les suivants: hausse du taux plein, hausse de la durée de
+proratisation, et décote inchangée.
+
+$$ \left\{\begin{array}{c @{=} c @{=} c}
+\theta_{\text{taux plein}} &  ~\theta_{\text{65 ans}}~ & 50~\% \\
+g(AGE, D_1, N_1) & \multicolumn{2}{c}{\max\big\{0,(65-AGE)\big\}}\\
+h(AGE, D_1, N_1) & \multicolumn{2}{c}{\max\big\{0,(AGE-65)\big\}} \\
+N_1 & N_2 & \text{37,5 ans} \\
+\delta_1 & s_1 & 10~\% \\
+\delta_2 & s_2 & 5~\%
+\end{array} \right.  $$
+
+On peut ainsi réécrire l'équation \eqref{tau} de la façon suivante:
+\begin{equation} \tau =
+0,50\times\Big[1 - 0,1 \times \max\big\{0,(65-AGE)\big\} +
+0,1\times\max\big\{0,(AGE-65)\big\}\Big]\label{tau71}
+\end{equation}
+
+ou encore de la façon suivante (deuxième version): \begin{equation} \tau = 0,50 - 0,05 \times
+\max\{0,(65-AGE)\} + 0,05\times\max\{0,(AGE-65)\}\label{tau71b}\end{equation}
+
+et le coefficient de proratisation s'exprime comme précédemment (en trimestres) comme:
+\begin{equation}
+  CP = \min{\Big\{1,\frac{\widetilde{D_2}}{150}\Big\}}
+\end{equation}
+
+\begin{table}[htb]
+  \centering
+  \caption{Taux de liquidation ($\tau$) pour la période
+  1971-1982}\label{table-tau-7182} \footnotesize
+\vspace*{0.2cm}
+  \begin{tabular}{|c|ccccccccc|}
+    \hline
+    Age & 60 & 61 & 62 & 63 & 64 & 65 & 70 & 75 & 80 \\
+    \hline
+    $\tau$ & 25~\% & 30~\% & 35~\% & 40~\% & 45~\% & 50~\% & 75~\% & 100~\% & 125~\% \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\paragraph*{Exemples:} Si une personne part en retraite à 65 ans avec plus de 150 trimestres de
+cotisation, elle va donc toucher le taux plein (50~\%) fois un coefficient de proratisation
+unitaire. Si elle décide de partir 5 ans plus tôt à 60 ans (avec 150 trimestres), elle applique la
+décote et obtient un taux de 25~\%. Au contraire, si cette personne décide de repousser d'un an son
+départ en retraite, elle obtient une majoration de sa pension de 10~\% par année supplémentaire.
+Ainsi, le taux passe à 75~\% à 70 ans et à 100~\% à 75 ans comme on peut le constater au tableau
+\ref{table-tau-7182}. Comme précédemment, il n'y a pas de limites à l'ajournement, mais seulement
+une limite avec la pension maximum (50~\% du plafond de la Sécurité sociale).
+
+\subsubsection{Les réformes spécifiques avant 1982}
+Depuis 1945, une série de mesures a permis d'établir au sein du régime général des dérogations par
+rapport à l'âge de départ \og à taux plein\fg\ de 65 ans. Les départs anticipés dès 60 ans se sont
+développés en particulier pendant les années soixante-dix. \begin{description}
+    \item[Les anciens déportés et internés politiques (1965)]
+Le décret de 1965\footnote{Décret 65-315 du 23 avril 1965 puis loi \no 68-690 du 31 juillet 1968,
+confirmée par la loi \no 77-773 du 12 juillet 1973.} permet aux anciens déportés et internés
+politiques (résistants) de prendre leur retraite à 60 ans au taux plein, celui auquel ils auraient
+eu droit à 65 ans (c'est-à-dire 40~\% entre 1965 et 1971 et 50~\% après).
+\item[L'inaptitude (1971)]
+L'inaptitude permet de liquider à 60 ans une pension à taux plein. Deux catégories de travailleurs
+étaient au départ concernés: soit les salariés reconnus inaptes au travail (diminution des 2/3 de
+la capacité de travail) soit les salariés ayant exercé pendant 20 ans une activité pénible dont la
+liste est déterminée par décret.
+
+La loi Boulin de 1971 redéfinit l'inaptitude comme une incapacité de travail de 50~\% reconnue
+médicalement et permet aux bénéficiaires d'une pension invalidité de bénéficier à 60 ans d'une
+pension pour inaptitude\footnote{Loi \no 71-1132 du 31 décembre 1971 et décret \no 72-433 du 17 mai
+1972.}.
+
+    \item[Les anciens combattants et prisonniers de guerre (1973)]
+Une loi de 1973 permet aux anciens combattants et prisonniers de guerre de bénéficier dès 60 ans du
+taux de pension qu'ils auraient obtenu à 65 ans\footnote{Loi \no 73-1051 du 21 novembre 1973.}. L'âge
+minimum pour bénéficier de ce droit dépend du temps passé sous les drapeaux ou du temps passé en
+camps de prisonniers (il faut 54 mois d'emprisonnement pour partir à 60 ans ou s'être évadé). Cette
+mesure est appliquée progressivement: en 1974, les anciens combattants peuvent partir à 63 ans; en
+1975 à partir de 60 ans\footnote{Décret \no 74-1194 du 31 décembre 1974.}.
+
+    \item[Les travailleurs manuels et les mères de famille ouvrières (1975)]
+Une loi de décembre 1975 permet aux travailleurs manuels (travaux en continu, en semi-continu, à la
+chaîne, au four ou exposés aux intempéries) qui ont validés 42 ans de cotisation et aux mères de
+famille ayant exercé un travail manuel ouvrier de part dès 60 ans au taux plein\footnote{Loi \no 75-1279 du 30 décembre 1975 et décret \no 76-404 du 10 mai 1976.}. Les pensions qui ont été validées avant 1976 à un taux réduit
+(parce que avant 65 ans) sont majorées (entre 5 et 25 \% selon l'âge de départ en retraite).
+
+    \item[L'abaissement de l'âge de la retraite pour les femmes (1977)]
+Le gouvernement de Raymond Barre, avec Simone Veil à la Santé et à la sécurité sociale, met en
+place en 1977\footnote{Loi \no 77-774 du 12 juillet 1977, JO du 13 juillet 1977.} un \og abaissement de
+l'âge de la retraite \fg\ pour les femmes. Pour les salariées qui justifient de 37,5 ans d'assurance
+dans le régime général ou dans celui des salariés agricoles, le taux plein est accordé dès l'âge de
+63 ans pour une liquidation au 1\er janvier 1978 et dès l'âge de 60 ans pour les liquidations au
+1\er janvier 1979. Il s'agit donc bien de l'équivalent de la réforme de 1982 pour les femmes. Le
+caractère limité de l'impact de la réforme de 1977 tient au fait que seule une minorité de femmes
+pouvait faire valoir à 60 ans la durée de cotisation requise.
+\end{description}
+
+\subsubsection{La réforme de 1982, dite de \og l'abaissement de l'âge de la retraite\fg \label{reforme82}}
+
+C'est depuis les années soixante que l'on discute d'un éventuel abaissement de l'âge de la
+retraite. Jusqu'au début des années soixante-dix, l'amélioration des conditions de vie des
+retraites reste prioritaire et un départ anticipé n'est d'actualité ni dans les milieux syndicaux
+ni au sein des instances gouvernementales. Paul Hecquet \cy{Hecquet1969} cherche ainsi à montrer
+dans \emph{Droit Social} que la mise à la retraite anticipée ne favorise pas l'emploi. Il met en
+avant l'arrivée massive de travailleurs de l'Est en Allemagne de l'Ouest et l'arrivée des pieds
+noirs en France comme des contre-exemple à l'idée que le nombre d'emploi est fixé:
+\begin{quotation}
+ \og \small  Le chômage est apparu dans ces deux pays non pas à cause d'une arrivée massive d'hommes, mais à
+cause d'un fléchissement du taux de croissance économique.\fg
+\end{quotation}
+L'idée que le partage du travail puisse apporter une solution au problème de l'emploi n'est guère
+plus favorisée.
+\begin{quotation}
+ \og \small En résumé, il convient de renoncer à la notion d'un nombre d'emplois limité de même
+qu'au caractère interchangeable des hommes appelés à les occuper. (...) Il paraît plus opportun
+d'accroître le pouvoir d'achat des retraités que leur nombre.\fg
+\end{quotation}
+
+On a vu précédemment que c'est avec le débat à l'Assemblée nationale en 1971 que la question d'un
+abaissement de l'âge de la retraite voit le jour véritablement dans le débat public. La
+revendication de l'abaissement de l'âge de la retraite apparaît dans le programme commun de la
+gauche en 1972 sur la base d'un abaissement à 60 ans pour les hommes et 55 ans pour les femmes
+\cite{Brocas2005}. Dans le programme de 1977, l'interdiction du cumul retraite et activité salariée
+est évoquée ainsi que l'augmentation du taux de remplacement à 75~\%. Pour autant, la mesure n'est
+pas considérée qu'à gauche. En 1975 le gouvernement de M. Jacques Chirac envisage officiellement
+d'accorder à 60 ans la même retraite qu'à 65 ans\footnote{Voir par exemple l'article de J-P.
+Dumont dans \emph{Le Monde} du 25 septembre 1975.}.
+
+La réforme de 1982 est mieux connue sous le nom d'abaissement de l'âge de la retraite à 60
+ans\footnote{Ordonnance \no 82-270 du 26 mars 1982 ; décret \no 82-628 du 21 juillet 1982 ; loi
+\no 83-430 du 31 mai 1983 ; circulaire CNAV \no 22/83 du 16 février 1983.}. Si c'est plutôt à François
+Mitterrand que l'on attribue la paternité de la réforme de 1982, le ministre qui l'a mise en place
+est Nicole Questiaux, sous l'autorité de Pierre Mauroy. L'idée qui a prévalu est la généralisation
+des mesures particulières d'abaissement d'âge de la retraite qui avaient été mis en place
+auparavant par les différents systèmes de préretraite.
+\begin{quotation}
+\small \og L'abaissement de l'âge de la retraite est une aspiration sociale ancienne qui n'a pas
+reçu jusqu'à présent une réponse satisfaisante. Certes, le service à soixante ans d'une pension
+calculée au taux prévu à soixante-cinq ans a été accordé à quelques catégories d'assurés (...)
+
+Parallèlement et à défaut d'une volonté politique de réaliser pleinement l'abaissement de l'âge de
+la retraite, des mesures conventionnelles temporairement reconduites et destinées à remédier aux
+conséquences de la crise économique ont permis à certains salariés de démissionner de leur emploi à
+partir de soixante ans en bénéficiant jusqu'à la liquidation de leur pension d'une ``garantie de
+ressources". Dans d'autres cas, où le retrait de l'activité est la conséquence d'une privation
+involontaire de l'emploi, le maintien d'une ``garantie de ressources" pour licenciement d'un
+montant équivalent a été prévu.
+
+Ni ces retraites anticipées, ni ces ``préretraites" souhaitées ou subies qui ne garantissent aucun
+droit durable à ceux qui sont susceptibles d'en bénéficier ne concernent la totalité des salariés.
+Elles ne peuvent tenir lieu du véritable droit au repos que les travailleurs sont fondés à
+revendiquer en contrepartie des services rendus à la collectivité à l'issue d'une durée de carrière
+normale.\fg\ (Préambule à l'ordonnance du 26 mars 1982)
+\end{quotation}
+
+Techniquement, comme on l'a vu plus haut, il était possible de partir à la retraite avant 65 ans,
+avec un taux de liquidation relativement bas. La réforme de 1982 a donc consisté à augmenter le
+taux plein à 60 ans à la valeur de 50~\%, qui était avant réservée aux salariés ayant cotisé
+jusqu'à l'âge de 65 ans, mais en introduisant une condition de durée de cotisation.
+
+La réforme est néanmoins plus complexe que cette modification que l'on retient ordinairement. Il
+était aussi question pour les promoteurs de la réforme de lutter contre le chômage et ainsi de ne
+pas inciter les travailleurs âgés de plus de 60 ans à rester sur le marché du travail. Le premier
+ministre Pierre Mauroy présente la réforme de l'assurance vieillesse comme s'inscrivant dans le
+cadre de la lutte contre le chômage par la réduction des temps de travail\footnote{Déclaration de
+politique générale à l'Assemblée générale le 8 juillet 1981.}.
+
+Au cours du débat parlementaire\footnote{Assemblée nationale, séance du 9 décembre 1981.}. il est
+intéressant de noter que l'effet positif sur l'emploi de retirer des salariés âgés du marché du
+travail n'est contesté par personne. Le député communiste M. Legrand y voit ainsi une évidence :
+
+\begin{quotation}
+\small
+\og D'emblée je dirai que mieux vaut payer un retraité qu'un chômeur. Ce slogan plein de bon sens
+recouvre le vécu quotidien de millions et de millions de travailleuses et de travailleurs de notre
+pays. (...) Le départ en retraite dans de bonnes conditions de centaines de milliers de personnes
+permettrait de dégager autant d'emploi...\fg
+\end{quotation}
+
+Mais les députés de l'opposition, s'ils s'opposent à l'abaissement de l'âge de la retraite sur le
+principe que c'est une mesure plus difficilement réversible que les dispositifs de préretraite, ne
+contestent pas la logique de la mesure. Ainsi M. Barrot s'interroge:
+\begin{quotation} \label{Barrot}
+\small \og Je serais, moi, tenté de poser la question suivante: pourquoi ne pas choisir de parfaire
+le système de la garantie de ressources pour soulager le marché de l'emploi et faciliter l'arrivée
+des jeunes ?\fg. \end{quotation}
+
+Attaquée sur le manque d'ambition de la réforme pour libérer des emplois, la ministre de la
+Solidarité nationale, Nicole Questiaux, se défend:
+\begin{quotation}
+\small \og En ce qui concerne l'âge de la retraite, il y aura bien création d'emplois. Les systèmes
+de garantie de ressources existants seront maintenus en 1982, mais d'autres dispositions
+permettront la cessation d'activité entre soixante et soixante-cinq ans dans des cas non couverts
+par la garantie de ressources, et même avant soixante ans dans le cadre des contrats de
+solidarité.\fg
+\end{quotation}
+
+Ces préoccupations de politique de l'emploi se traduisent particulièrement dans la fin des
+incitations à poursuivre son activité au-delà du taux plein.
+
+\begin{quotation}
+\small Le but poursuivi est en effet de permettre l'acquisition d'une pension complète, mais non
+d'encourager la poursuite de l'activité après 65 ans. (Préambule à l'ordonnance du 26 mars 1982)
+\end{quotation}
+
+Ainsi, le mécanisme de surcote est supprimé et il devient impossible d'obtenir un taux plus élevé
+que celui du taux plein. Toute poursuite d'activité au-delà du taux plein (après 37,5 ans de
+cotisation ou 65 ans) est donc découragée. Il est introduit par ailleurs une modification de la
+durée d'assurance après 65 ans pour faciliter l'obtention d'un coefficient de proratisation
+unitaire ($\widetilde{D_2}$).
+
+Plus précisément la réforme de 1982 instaure une double référence pour la décote, par rapport à
+l'âge et, c'est nouveau, par rapport à la durée de cotisation.
+
+\paragraph*{Paramètres}
+
+On peut reprendre nos paramètres et les modifier de la façon suivante:
+
+$$ \left\{\begin{array}{c @{=} c @{=} c c c}
+\theta_{\text{taux plein}} & ~\theta_{\text{65 ans}}~ & 50 \% & & \\
+g(AGE, D_1, N_1) & \multicolumn{4}{c}{\max\bigg\{0,\min\Big[(65-AGE),\frac{N_1-D_1}{4}\Big]\bigg\}}\\
+h(AGE, D_1, N_1) & \multicolumn{2}{l}{0}  & \\
+N_1 & N_2 & ~\text{37,5 ans} & & \\
+\delta_1 & \multicolumn{2}{l}{10~\%} & & \\
+\delta_2 & \multicolumn{2}{l}{5~\%} & & \\
+s_1 & s_2 & 0 & \\
+\end{array} \right.  $$
+
+On peut ainsi réécrire l'équation \eqref{tau} de la façon suivante: \begin{equation} \tau =
+0,50\times\Big[1 - 0,1 \times
+\max\bigg\{0,\min\Big[(65-AGE),\frac{150-D_1}{4}\Big]\bigg\}\Big]\label{tau82}
+\end{equation}
+
+ou encore de la façon suivante (deuxième version): \begin{equation} \tau = 0,50 - 0,05 \times
+\max\bigg\{0,\min\Big[(65-AGE),\frac{150-D_1}{4}\Big]\bigg\}\label{tau82b}
+\end{equation}
+
+\paragraph*{Exemples:} Une personne avec 61 ans et 140 trimestres de durée d'assurance a besoin de
+10 trimestres pour en avoir 150, et doit attendre 16 trimestres pour fêter ses 65 ans. Elle utilise
+donc l'écart le plus faible (10) et calcule sa minoration à raison de 1,25~\% par trimestre, soit
+12,5~\%. Cela lui donne un taux de liquidation de 37,5~\%. Si cette personne travaille un an de
+plus son taux de liquidation passe à 42,5~\% (soit 10~\% d'augmentation par rapport au taux plein
+et plus de 13~\% par rapport à son taux initial de 37,5~\%). On résume ces dispositions au tableau
+\ref{table-tau82} en précisant le taux selon l'âge et la durée de cotisation.
+
+\begin{table}[htb]
+\begin{center}
+  \caption{Taux de liquidation ($\tau$) pour la période 1983-1993}\label{table-tau82}
+\vspace*{0.2cm} \footnotesize
+  \begin{tabular}{|c|ccccccccc|}
+    \hline
+    \backslashbox{$D_1$}{AGE} & 60 & 61 & 62 & 63 & 64 & 65 & 70 & 75 & 80 \\
+    \hline
+100 & 25~\% & 30~\% & 35~\% & 40~\% & 45~\% & 50~\% & 50~\% & 50~\% & 50~\% \\
+120 & 25~\% & 30~\% & 35~\% & 40~\% & 45~\% & 50~\% & 50~\% & 50~\% & 50~\% \\
+130 & 25~\% & 30~\% & 35~\% & 40~\% & 45~\% & 50~\% & 50~\% & 50~\% & 50~\% \\
+140 & 37,5~\% & 37,5~\% & 37,5~\% & 40~\% & 45~\% & 50~\% & 50~\% & 50~\% & 50~\% \\
+150 & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% \\
+160 & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% & 50~\% \\
+    \hline
+  \end{tabular}
+   \end{center}
+  \footnotesize{\textsc{Note:} $D_1$ est la durée d'assurance tous régimes confondus, exprimée en trimestre.}
+\end{table}
+
+Le coefficient de proratisation est inchangé à l'exception de la définition de la durée de
+proratisation après 65 ans ($\widetilde{D_2}$). \begin{equation}
+  CP = \min{\Big\{1,\frac{\widetilde{D_2}}{150}\Big\}}
+\end{equation}
+
+Des coefficients de majoration de la durée d'assurance\footnote{Voir article 70-6 du décret du 29
+décembre 1945 modifié par le décret \no 82-638 du 21 juillet 1982.} sont prévus pour ceux qui
+liquident leur pension après 65 ans et qui ne disposent pas des trimestres manquants (une
+majoration de 2,5\% par trimestre de report, la durée totale étant arrondie au chiffre supérieur).
+Ceci se traduit par la formule suivante pour exprimer $\widetilde{D_2}$, la durée d'assurance \og
+corrigée\fg.
+
+\begin{equation}
+\widetilde{D_2}=\min\left[150,D_2\times\bigg\{\Big(4\times\max(AGE-65,0)\Big)\times\frac{2,5}{100}\bigg\}+D_2\right]\label{dureemaj}
+\end{equation}
+
+\subsubsection{La réforme de 1993, dite réforme Balladur \label{reforme1993}}
+
+La problématique de l'impact des évolutions démographiques sur le système de retraite a vu le jour
+pour le grand public avec le \emph{Livre blanc} sur les retraites, préfacé par M. Michel Rocard
+\cite{Livreblanc91}. D'autres rapports l'ont pourtant précédé \cite{TabahRuellan86} et suivi. Cette
+période de recours aux experts est le début d'un long débat dans l'opinion sur la nécessité ou non
+de procéder à une réforme des systèmes de retraite. Les analyses sur l'évolution démographique ne
+font pas tout de suite l'objet d'un consensus \cite{Blanchet2002a} et le débat se fixe dès la
+publication du \emph{Livre blanc} sur le choix du financement, entre répartition et capitalisation.
+
+Les réformes de l'assurance vieillesse préconisées par le \emph{Livre blanc} visent à favoriser un
+départ retardé en retraite et à réduire les mécanismes régressifs présents dans le système:
+allongement de la durée de cotisation requise à 168 trimestres et élargissement de la période de
+référence pour le calcul du salaire moyen.
+
+C'est finalement la réforme de M. Edouard Balladur en 1993\footnote{Loi \no 93-936 du 22 juillet 1993
+et les décrets \no 93-1022 et \no 93-1024 du 27 août 1993 ; circulaire CNAV \no 103/93 du 30 décembre
+1993.} qui va mettre en place une partie des propositions du \emph{Livre blanc}. La réforme est
+faite au cours de l'été, sans bruit, presque sans opposition. Elle est progressive dans sa mise en
+place puisqu'elle ne sera complète qu'en 2008 et ne touche directement qu'une minorité de salarié.
+Elle ne concerne pas le secteur public ni les régimes spéciaux, les plus susceptibles de
+mobilisation.
+
+La réforme de 1993 consiste en trois modifications principales. Il s'agit avant tout de
+l'augmentation de la durée de cotisation requise pour obtenir le taux plein. La réforme fait une
+distinction nouvelle entre $N_{1}$, le nombre de trimestres requis pour bénéficier de la pension à
+taux plein et $N_{2}$ le nombre de trimestres utilisés dans le calcul du coefficient de
+proratisation. La réforme de 1993 ne modifie pas $N_{2}$ (toujours à 150 trimestres) mais augmente
+$N_{1}$ de 150 à 160 trimestres, soit 40 ans (mise en place progressive au rythme de un trimestre
+par an entre 1994 et 2003, i.e. pour les générations 1934 à 1943).
+
+Le salaire de référence $W_{ref}$ passe des dix meilleures années aux 25 meilleures (mise en place
+progressive au rythme de une année supplémentaire par an entre 1994 et 2008). À partir du 1\er
+janvier 2008, la règle des 25 meilleures années sera imposée à tout le monde quel que soit sa date
+de naissance. La modification est plus progressive pour le régime des artisans, commerçants et
+industriels, pour lesquels l'augmentation est d'un trimestre toutes les deux générations jusqu'au
+1\er janvier 2013.
+
+La revalorisation des pensions est fixée sur l'indice des prix et non pas sur la progression des
+salaires (c'était le cas en pratique depuis le milieu des années quatre-vingt). Comme les prix progressent de manière générale moins vite que les salaires, cela conduit à une baisse importante des pensions sur l'ensemble de la durée de la retraite. La revalorisation des salaires portés au compte est également fixé sur l'inflation, ce qui a pour effet de baisser les pensions à liquidation. 
+
+\paragraph*{Paramètres}
+Pour reprendre nos paramètres, la réforme établit:
+
+$$ \left\{\begin{array}{c @{=} c @{=} c c c}
+\theta_{\text{taux plein}} & ~\theta_{\text{65 ans}}~ & ~50~\% & & \\
+g(AGE, D_1, N_1) & \multicolumn{4}{c}{\max\bigg\{0,\min\Big[(65-AGE),\frac{N_1-D_1}{4}\Big]\bigg\}}\\
+h(AGE, D_1, N_1) & \multicolumn{2}{l}{0}  & \\
+N_1 &  \multicolumn{2}{l}{\text{40 ans}}  & & \\
+N_2 &  \multicolumn{2}{l}{\text{37,5 ans}} & & \\
+\delta_1 & \multicolumn{2}{l}{10~\%} & & \\
+\delta_2 & \multicolumn{2}{l}{5~\%} & & \\
+s_1 & s_2 & 0 & \\
+\end{array} \right.  $$
+
+La conséquence immédiate du nouveau calcul du salaire de référence est de baisser le niveau de la
+pension relativement à celui qui aurait prévalu sans la réforme. En effet, le calcul précédent
+reposant sur les meilleures années, l'augmentation du nombre de celles à prendre en compte baisse
+forcément la moyenne. L'ampleur de la baisse dépend néanmoins de la pente de la courbe de salaire
+et l'impact incitatif de cette mesure dépend de la croissance (ou décroissance) des salaires en fin
+de carrière. Si les salaires sont décroissants en fin de carrière, la mesure introduit une
+incitation au départ anticipé. Si au contraire les salaires sont croissants (ou stables) en fin de
+carrière, la mesure peut inciter à repousser son départ en retraite. La Cnav \cy{Cnav2002} a
+réalisé un double calcul des pensions, avec l'ancien salaire de référence et le nouveau et évalue
+la baisse des pensions entre 1~\% et 6~\% selon la génération. Ces résultats sont reproduits au
+tableau \ref{Doublecalcul}\footnote{Il s'agit d'un double calcul des droits sans prendre en compte
+les changements possibles de comportements. C'est donc une approximation de la minoration entraînée
+par le changement de calcul. Par ailleurs, étant donné que la réforme est très progressive dans son
+application, cela ne veut pas dire forcément que les pensions payées aux générations plus jeunes
+seront plus faibles.}.
+
+\begin{tab}[13cm]{Réduction moyenne des pensions due à la réforme de 1993. \label{Doublecalcul}}
+{\begin{tabular}{|c|c|c|c|}
+    \hline
+    Génération & Comptes reçus & Pension moyenne & Variation avec/sans réforme  \\
+    \hline
+    1934 & 355~133 & 429,14 \euro & -0,94~\% \\
+    1935 & 441~346 & 475,64 \euro & -1,81~\% \\
+    1936 & 428~897 & 486,16 \euro & -2,71~\% \\
+    1937 & 347~095 & 531,28 \euro & -3,63~\% \\
+    1938 & 328~420 & 543,33 \euro & -4,50~\% \\
+    1939 & 317~883 & 550,04 \euro & -5,33~\% \\
+    1940 & 278~887 & 558,88 \euro & -6,16~\% \\
+    1941 & 225~385 & 593,94 \euro & -6,87~\% \\
+    1942 &  26~343 & 687,24 \euro & -7,26~\% \\
+    \hline
+  \end{tabular}}
+{\emph{Note:} Il s'agit de la variation entre le calcul selon l'ancienne formule et la nouvelle formule en prenant la durée de cotisation et l'âge de départ constatés après la réforme. Ce calcul ne prend donc pas en compte les changements de comportements de liquidation. \vspace{0.1cm}\\
+\emph{Sources:} CNAV, \og Réforme 1993 de l'assurance vieillesse: Bilan à fin
+  2001\fg\ (2002), p 10. Consolidation des 2~749~389 comptes \og fichier carrière\fg\ reçus depuis le 2\eme
+trimestre 1994 jusqu'au 31 décembre 2001.}
+\end{tab}
+
+
+\subsubsection{La réforme de 2003, dite réforme Fillon}
+
+Suite à la réforme Balladur, le plan Juppé prévoit en 1995 d'étendre la réforme au secteur public, mais après les manifestations de novembre 1995, le projet est retiré. Si la réforme Fillon est la grande réforme du secteur public, celle-ci touche aussi le secteur privé sur un certain nombre de points importants\footnote{Loi \no 2003-775 du 21 août 2003 ; décret \no 2004-144 du 13 février 2004 (proratisation, surcote); décret \no 2003-1036 du 30 octobre 2003 (carrières longues); décret \no 2004-156 du 16 février 2004 (allégement décote).}.
+
+Pour le régime général la réforme de 2003 consiste en modifications de la formule de pension : augmentation de la durée de cotisation, réduction de la décote et introduction de la surcote.
+\begin{enumerate}[label=\roman*)]
+  \item La durée de cotisation qui entre dans le calcul de proratisation, $N_{2}$, passe de 150 trimestres à 160 trimestres. La transition est progressive, au rythme de deux trimestres par génération (150 trimestres pour la génération 1943, 152 pour la génération 1944, 154 pour la génération 1945, etc.). La distinction entre $N_1$ et $N_{2}$ disparaîtra à partir de la génération 1948. La réforme prévoit un allongement progressif de la durée d'assurance pour le taux plein par génération ($N_{1}=N$ une fois que les durées cibles ont convergé), en fonction des gains d'espérance de vie (cf. infra).
+  \item La décote $\delta$ est abaissée à 5 points de pourcentage par année manquante, ceci de façon progressive, au rythme de 0,5 point de pourcentage par génération.
+  \item Une surcote est introduite. Elle correspond, pour les personnes ayant déjà atteint la durée requise pour l'obtention du taux plein, à une majoration supplémentaire du taux de pension pour les périodes cotisées au-delà de cette durée.
+\end{enumerate}
+
+\begin{tab}[12cm]{Durée d'assurance cible, durée de proratisation et taux de décote, selon la cohorte\label{param2003}}
+{\begin{tabular}{|r|c|c|c|}
+  \hline
+Cohorte     & Trimestres pour le taux plein & Trimestres de proratisation & Taux de décote $\delta$ par trimestre manquant  \\
+  \hline
+      1943  & 160                           & 150			              & 2,5~\%                                           \\
+      1944  & 160                           & 152		     	          & 2,375~\%                                         \\
+      1945  & 160                           & 154			              & 2,25~\%                                          \\
+      1946  & 160                           & 156		                  & 2,125~\%                                         \\
+      1947  & 160                           & 158		                  & 2~\%                                             \\
+      1948  & 160                           & 160		                  & 1,875~\%                                         \\
+      1949  & 161                           & 161                         & 1,75~\%                                           \\
+      1950  & 162                           & 162                         & 1,625~\%                                             \\
+      1951  & 163                           & 163                         & 1,5~\%                                              \\
+      1952  & 164                           & 164                         & 1,375~\%                                            \\
+      1953  & 165                           & 165                         & 1,25~\%                                         \\
+      1954  & 165                           & 165                         & 1,25~\%                                         \\
+      1955  & 166                           & 166                         & 1,25~\%                                          \\
+      1956  & 166                           & 166                         & 1,25~\%                                           \\
+      1957  & 166                           & 166                         & 1,25~\%                                          \\
+      1958  & 167\footnotemark[1]           & 167\footnotemark[1]         & 1,25~\%                                 \\
+      1959  & 167\footnotemark[1]           & 167\footnotemark[1]         & 1,25~\%                                 \\
+      1960  & 167\footnotemark[1]           & 167\footnotemark[1]         & 1,25~\%                                 \\
+ \hline
+\end{tabular}}
+{\footnotesize ~~~~  1.~~ Projection en juillet 2012}
+\end{tab}
+
+Pour l'évolution à long-terme du système, la loi de 2003 (article 5) prévoit de maintenir constant, jusqu'en 2020, le rapport entre la durée d'assurance requise pour le taux plein et la durée de retraite. La durée. Il est important de noter que ce principe général d'évolution de la durée d'assurance ne se traduit pas par une évolution législative de long terme, mais plutôt par une évolution au fil de l'eau des paramètres du système\footnote{Du coup, une certaine ambiguïté apparaît sur les paramètres à prendre en compte dans les projections des régimes de retraite à long terme (durée d'assurance effective ou durée d'assurance prévue en cas d'application du principe de l'article 5 de la loi de 2003).}. Après la convergence des durées cibles pour le public et le privé et le rattrapage de la durée de référence pour le coefficient de proratisation (génération 1943 à 1948), la nouvelle durée d'assurance est fixé sur avis de la Commission de garantie des retraites pour les générations 1949 à 1951, mais suit de fait un calendrier prévu par la réforme de 2003 prévoyant une augmentation d'un trimestre par génération jusqu'à 41 ans (164 trimestres pour la génération 1952). A partir de 2013 (pour la génération 1953 et suivante), la durée d'assurance est fixée par décret, après avis technique du COR.
+A titre indicatif, d'après les prévisions du COR l'application de la loi jusqu'en 2020 établirait une durée d'assurance de 41,75 ans pour la génération 1960 (COR, \citeyear{C0R2012}).
+
+La diminution du taux de décote se fait à un rythme très lent, passant de 10~\% à 5~\%  par année manquante (2.5~\% à 1.25~\% par trimestre manquant\footnote{Correspondant à une diminution du taux de 50~\%*1.25=0.725 pp.}) de la génération 1943 à 1952.
+Le tableau \ref{param2003} présente l'évolution de la durée d'assurance cible $D_{cib}$, de la durée cible pour le coefficient de proratisation $D_{prorat}$, et du taux de décote $\delta$, en fonction de l'année de naissance, d'après la réforme de 2003. \\
+
+La montée en charge du dispositif de surcote suit une logique légèrement différente: celle-ci s'applique à toutes les périodes \og{surcotées}\fg{} (c'est à dire effectivement cotisées après 60 ans et au delà de la durée cible pour le taux plein) à partir du 1er janvier 2004. Le dispositif a été modifié par deux fois par la suite et 2006 et 2009\footnote{Décrets n°2006-1611 et n°2008-1509.} dans le sens d'une augmentation du taux de surcote (voir tableau \ref{surcote}): en 2006, le taux est augmenté pour les périodes validés au delà de 1 an de surcote et pour les périodes surcotées au delà de 65 ans. A partir du 1er janvier 2009, le taux de surcote est de 1.25~\% par trimestre\footnote{Correspondant à une augmentation du taux de pension de 50~\%*1.25=0.725 pp.}, soit un niveau comparable à celui de la décote. Autre modification de la réforme de 2006: la surcote s'applique après le maximum de pension, et non avant comme précédemment. Le dispositif permet donc de dépasser le plafond de pension.
+
+
+\begin{tab}[10cm]{Taux de surcote selon la législation et la date de cotisation\label{surcote}}
+{\begin{tabular}{|r|c|c|c|}
+  \hline
+           & Avant 01/01/2003 & 01/01/2004    & 01/01/2009 \\
+  \hline
+01/04/2009 & 0~\%                 & 0,75~\%\footnotemark[1]	1~\%\footnotemark[2]	1,25~\%\footnotemark[3] & 1,25~\%\\
+01/01/2007 & 0~\%                 & 0,75~\%\footnotemark[1]	1~\%\footnotemark[2]	1,25~\%\footnotemark[3] &  \\
+01/01/2004 & 0~\%             & 0,75~\%     &          \\
+ \hline
+\end{tabular}}
+{\scriptsize  1.~ Pour les 4 premiers trimestres de surcote.\\
+ \scriptsize  2.~ Au delà de 4 trimestres de surcote.\\
+ \scriptsize  3.~ Pour les trimestres surcotés à partir de 65 ans.}
+\end{tab}
+
+\paragraph*{Paramètres}
+Pour reprendre nos paramètres, la réforme établit (avec $D_{2004}$ le nombre d'année depuis la mise en place de la réforme):
+
+$$ \left\{\begin{array}{c @{=} c @{=} c c c}
+\theta_{\text{taux plein}} & ~\theta_{\text{65 ans}}~ & ~50~\% & & \\
+g(AGE, D_1, N_1) & \multicolumn{4}{c}{\max\bigg\{0,\min\Big[(65-AGE),\frac{N_1-D_1}{4}\Big]\bigg\}}\\
+h(AGE, D_1, N_1) & \multicolumn{4}{c}{\max\bigg\{0,\min\Big[(AGE-60),\frac{N_1-D_1}{4}, D_{2004}\Big]\bigg\}}   \\
+N_1 & N_2 & \multicolumn{2}{c}{\text{40 ans puis 41 ans, puis 42 ans}} & \\
+\delta_1 & \multicolumn{4}{l}{\text{10~\% puis progressivement 5~\%}} \\
+\delta_2 & \multicolumn{4}{l}{\text{5~\% puis progressivement 2,5~\%}} \\
+s_1 & \multicolumn{4}{l}{\text{3~\%}} \\
+s_2 & \multicolumn{4}{l}{\text{1,5~\%}} \\
+\end{array} \right.  $$
+
+On peut ainsi réécrire l'équation \eqref{tau} de la façon suivante :
+\begin{equation} \scriptsize  \tau = 0,50\times\Bigg[1 - 0,05 \times \max\big\{0,(65-AGE)\big\} +
+0,03\times\max\bigg\{0,\min\Big[(AGE-60),\frac{N_1-164}{4}, 9\Big]\bigg\}\Bigg]
+ \label{tau03}
+\end{equation}-
+
+ou encore de la façon suivante (deuxième version): \begin{equation} \scriptsize \tau = 0,50 - 0,025
+\times \max\big\{0,(65-AGE)\big\} + 0,015\times\max\bigg\{0,\min\Big[(AGE-60),\frac{N_1-164}{4},
+9\Big]\bigg\}
+ \label{tau03b}
+\end{equation}
+
+La loi de 2003 prévoit un certain nombre d'autres mesures (dispositifs de départ anticipé pour carrière longue, limitation des préretraites, assouplissement de la contribution Delalande, facilité de cumul de pension et d'emploi, recul de l'âge auquel un employeur peut forcer un salarié à partir en retraite, rachat d'annuités manquantes) qui sont détaillées plus loin (voir partie \ref{dispositifsannexes} page \pageref{dispositifsannexes}).
+
+
+
+
+
+
+\subsubsection{La réforme de 2010, dite réforme W\oe rth}
+
+La loi de 2003 avait prévu une clause de rendez-vous tous les quatre ans, mais rien n'a eu lieu en 2008 à part la confirmation de la hausse de la durée requise de cotisation prévue dans la loi de 2003. Avec la crise financière de 2008-2009, le déséquilibre des finances publiques devient une des préoccupations majeures du gouvernement, qui décide de mettre en place rapidement une réforme des retraites sous l'égide du ministre du Travail, de la Solidarité et de la Fonction publique M. Éric W\oe rth.
+
+La loi de 2010 portant réforme des retraites\footnote{Loi \no 2010-1330 du 9 novembre 2010.} a donc pour principal objectif de ramener le système de retraite à l'équilibre à l'horizon 2018 et l'instrument privilégié pour le faire est l'augmentation de \og l'âge légal\fg\ de la retraite. En ce sens, la grande modification apportée par la réforme de 2010 pour le régime général est le relèvement de deux ans de l'âge d'ouverture des droits (de 60 à 62 ans)
+et de l'âge du taux plein (de 65 à 67 ans).
+
+L'augmentation est progressive mais rapide, la montée en régime de la réforme ayant même été accélérée en 2011\footnote{Décret \no 2011-2103 du 30 décembre 2011.}. L'âge d'ouverture des droits (et d'accès à la surcote) augmente donc d'environ cinq mois pour chaque génération, et passe de 60 ans pour les individus nés en 1950 à 62 ans pour les individus nés en 1955. Le relèvement de l'âge d'annulation de la décote de 65 à 67 ans suit le même rythme.
+
+\begin{tab}[13cm]{Relèvement de l'âge d'ouverture des droits et de l'âge du taux plein. \label{relevage}}
+{\begin{tabular}{|l|l|l|}
+\hline
+Date de naissance                       & Age d'ouverture des droits     & Age du taux plein    \\
+\hline
+Avant le 1\er juillet 1951            & 60 ans                                      & 65 ans	           \\
+Du 1\er juillet au 31 déc. 1951   & 60 ans et 4 mois	                  & 65 ans et 4 mois      \\
+En 1952                                      & 60 ans et 9 mois                       & 65 ans et 9 mois      \\
+En 1953                                      & 61 ans et 2 mois                       & 66 ans et 2 mois      \\
+En 1954                                      & 61 ans et 7 mois	                  & 66 ans et 7 mois      \\
+Après 1954                                & 62 ans                                       & 67 ans                     \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+La loi ne prévoit pas d'augmentation des cotisations, le besoin de financement devant être comblé par des mesures fiscales et le rebasculement des cotisations chômage en cas de baisse importante du chômage.
+
+La loi de 2010 (article 17) modifie par contre le mode révision de la durée d'assurance. Elle supprime les rendez-vous quadriennaux et prévoit que chaque assuré connaisse sa durée d'assurance à l'âge de 56 ans. L'article 9 du décret \no 2010-1734 du 30 décembre 2010 prévoit ainsi une augmentation de la durée d'assurance à 165 trimestres pour les assurés nés en 1953 et 1954, puis en 2011 la durée d'assurance applicable aux assurés nés en 1955 est portée à 166 trimestres par le décret \no 2011-916 du 1\er août 2011.
+
+\paragraph*{Paramètres}
+Pour reprendre nos paramètres, la réforme ne change pas la formule mais implique de remplacer les âges du taux plein et
+d'ouverture des droits, fixés respectivement à 65 et 60 précédemment, par des paramètres pouvant varier au cours du temps
+($AAD$ pour l'âge d'annulation de la décôte et $AOD$ pour l'âge d'ouverture des droits)
+On peut ainsi réécrire l'équation \eqref{tau} de la façon suivante :
+
+\begin{equation} \scriptsize  \tau = 0,50\times\Bigg[1 - 0,05 \times \max\big\{0,(AAD-AGE)\big\} +
+0,03\times\max\bigg\{0,\min\Big[(AGE-AOD),\frac{N_1-164}{4}, 9\Big]\bigg\}\Bigg]
+ \label{tau03}
+\end{equation}
+
+ou encore de la façon suivante (deuxième version): \begin{equation} \scriptsize \tau = 0,50 - 0,025
+\times \max\big\{0,(AAD-AGE)\big\} + 0,015\times\max\bigg\{0,\min\Big[(AGE-AOD),\frac{N_1-164}{4},
+9\Big]\bigg\}
+ \label{tau03b}
+\end{equation}
+
+\subsubsection{La réforme de 2014}
+
+
+La principale mesure de la loi de 2014 portant réforme des retraites\footnote{Loi \no 2014-40 du 20 janvier 2014.} est la prolongation de l'augmentation de la durée d'assurance requise pour le taux plein au delà de l'horizon de 2020 prévu par la réforme de 2003. La loi prévoit donc une augmentation d'un trimestre tous les trois ans jusqu'en 2035, pour atteindre 43 ans pour la génération née en 1973 (tableau \ref{DA2003}). La formule du calcul des droits de retraite et la valeur des autres paramètres reste inchangée.
+
+
+
+\begin{tab}[8cm]{Durée d'assurance requise pour le taux plein (en trimestres) \label{DA2003}}
+{\begin{tabular}{|c|c|}
+\hline
+Année de naissance                & Durée d'assurance    \\
+\hline
+1958-1960                         & 167          \\
+1961-1963                         & 168          \\
+1964-1966                         & 169          \\
+1967-1969                         & 170          \\
+1970-1972                         & 171          \\
+A partir de 1973                  & 172          \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+
+
+
+\subsection{Financement et indexation}
+
+\subsubsection{Le financement}
+La réforme Jeanneney de 1967 sépare les risques des assurances sociales et que les taux de
+cotisation sont différenciés selon les branches (vieillesse, maladie, invalidité, maternité, décès
+et veuvage). Les cotisations ne sont appliquées (sauf exceptions) que pour la partie du salaire inférieure au
+plafond de la Sécurité Sociale. Pour le salaire qui dépasse le plafond, ce sont les régimes
+complémentaires qui prélèvent des cotisations et fournissent des prestations.
+
+Ce mode de financement introduit le plafond de la Sécurité sociale comme un élément important de la
+part que prend le régime général dans le système de retraite français. Les organisations de cadres
+ont souvent insisté pour ne pas augmenter le plafond qui réduit mécaniquement la part des régimes
+complémentaires.
+
+La figure \ref{cotisation} reproduit les taux de cotisation totaux (régime général et régimes
+complémentaires) des salariés du secteur privé selon différents niveaux de salaire. En 1967, les
+taux de cotisation sur les hauts salaires sont relativement bas et vont progressivement converger
+vers les taux de cotisation sous plafond.
+
+%\begin{figure}[htb] \caption{Taux de cotisation retraite des salariés du privé (1967-2004)}
+%\label{cotisation}
+%\includegraphics[width=14cm,height=8cm]{cotisation}\\
+%\footnotesize{\textsc{Légende}: \textcolor{Magenta}{$\square $} Non-cadre PSS max
+%\textcolor{RoyalBlue}{$\blacklozenge$} Non-cadre PSS min \textcolor{OliveGreen}{$\blacktriangle$}
+%Non-cadre 2 PSS \textcolor{red}{$\circ$} Cadres 4 PSS \textcolor{Fuchsia}{$\divideontimes$}
+%Cadres 8 PSS  \vspace{0.2cm}\\
+%\textsc{Note:} Il s'agit des taux de cotisation totaux incluant la part salariale et la part
+%patronale. Les taux de cotisation sont exprimés en pourcentage du salaire brut. Sont exclues les
+%cotisations pour ASF/AGF versées à l'Unedic mais servant en partie à financer l'abaissement de
+%l'âge de la retraite dans les régimes complémentaires (l'autre partie servant à financer les
+%garanties de ressources). Ne sont pas inclues les différentes mesures de baisses de charge. PSS =
+%Plafond de Sécurité Sociale.\vspace{0.2cm}\\
+%\textsc{Sources:} Cnav, Arrco, Agirc, calculs de l'auteur. Les taux par régime sont reproduits en
+%annexe au tableau \ref{txcotisation} (page \pageref{txcotisation}) et aux tableaux
+%\ref{txcotisationArrco} à \ref{txcotisationAGIRC-4795} (page \pageref{txcotisationArrco} et
+%suivantes).}
+%\end{figure}
+
+Au cours du temps, le financement des dépenses de retraite s'est grandement diversifié. ++ cf. Marino Dubois
+
+
+\subsubsection{La revalorisation et l'indexation des pensions}
+Les règles de revalorisation des pension ont été assez différentes depuis la fondation du régime.
+Avant 1974, il n'y a pas de règles légales, mais chaque année un décret fixe les modalités de
+revalorisation pour l'année. Tous les 1\er avril, la revalorisation est calculée en fonction de
+l'évolution du salaire moyen plafonné des assurés, apprécié au cours des deux années précédant la
+date de la revalorisation. À partir de 1974, la revalorisation intervient deux fois par an au 1\er
+janvier et au 1\er juillet. Puis dès 1982\footnote{Décret \no 82-1083 du 21 décembre 1982.} la
+revalorisation a lieu en fonction de l'évolution prévisionnelle du salaire brut moyen par tête des
+entreprises non financières et non agricoles, avec ajustement entre le taux prévisionnel et le taux
+constaté au 1\er janvier de l'année suivante.
+
+Dès 1986 la revalorisation est basée sur l'indice prévisionnel des prix, mais il est maintenu un
+ajustement en fonction de l'évolution des salaires nets. À partir de 1987, revalorisation et
+ajustement se font en fonction de l'évolution des prix à la consommation. Avec la réforme de 1993,
+l'indice des prix à la consommation devient officiellement la nouvelle base législative pour 5 ans
+avec ajustement au 1\er janvier. À l'échéance de la loi de 1993, en 1998, le système est prolongé,
+à l'exception d'un coup de pouce supplémentaire en 1999. La réforme de 2003 confirme l'indexation
+sur les prix des pensions.
+A partir de 2009, les pensions sont revalorisées au 1er avril. La réforme de 2014 prévoit un nouveau décalage de la revalorisation au 1er octobre.
+
+
+
+\section{Les régimes complémentaires}
+
+Comme la pension de la Cnav ne pouvait dépasser 40~\% (puis 50~\%) du montant du plafond de la
+sécurité sociale, les régimes complémentaires ont émergé pour apporter un revenu supplémentaire à
+la pension du régime général. Ces régimes reposent d'abord sur le volontariat avant de devenir
+obligatoires dans les années 1970.
+
+\subsection{Historique}
+Ce sont d'abord les cadres qui créent en 1947\footnote{Convention interprofessionnelle du 14 mars
+1947.} l'Association générale des institutions de retraite des cadres (Agirc) sur la base du
+volontariat \cite{Agirc1983}. Puis des régimes spéciaux complémentaires apparaissent dans le
+secteur bancaire, pour le régime de la Sécurité sociale (CPPOSS) ou pour les agents non titulaires
+de l'État\footnote{Deux régimes, pour les agents contractuels (Ipacte) et pour les non-titulaires
+(Igrante) fusionnent pour devenir le régime Institution de retraites complémentaires des agents
+non-titulaires de l'État et des collectivités locales (Ircatec).}. Des grandes entreprises cherchent
+à fidéliser la main-d'\oe uvre et favorisent l'émergence de retraites complémentaire \og
+maisons\fg\ comme Renault avec un accord d'établissement le 15 septembre 1955 qui servira de
+modèle. Dès lors le besoin de regroupement pour préserver les droits des salariés en cas de
+mutation nécessite un effort d'harmonisation. Par l'accord du 15 mai 1957 est créée l'Union
+nationale des institutions de retraite de salarié (Unirs) qui institue un régime complémentaire
+pour les non-cadres. D'autres régimes complémentaires sont créés suivant un regroupement
+professionnel. Par exemple, la Caisse nationale de retraite des ouvriers du bâtiment et des travaux
+publics (CNRO) est mise en place dans le bâtiment par l'accord collectif national du 13 mai
+1959\footnote{En fusionnant avec les autres régimes du bâtiments, la CNRO deviendra en 1997
+BTP-retraite.}. On compte plus de 180 régimes complémentaires différents, chacun ayant leurs
+paramètres propres. Pour faciliter le traitement des pensions complémentaires est créé par l'accord
+interprofessionnel du 8 décembre 1961 l'Association des régimes de retraite complémentaire (Arrco),
+l'association réunissant les nombreux régimes complémentaires des non-cadres \cite{Arrco1990}.
+
+Un changement majeur intervient au début des années 1970 avec l'obligation d'adhérer à un régime de
+retraite complémentaire, en 1972 pour l'Arrco et en 1974 pour l'Agirc\footnote{Loi \no 72-1223 du 29
+décembre 1972.}. Jusqu'en 1972, les régimes Arrco ont été réservés aux non-cadres, mais depuis cette
+date, les cadres cotisent aussi sur la tranche en dessous du plafond. Les taux de cotisation sont
+relativement libres (simplement bornés) jusqu'en 1983 pour l'Agirc et jusqu'en 1993 pour l'Arrco.
+Depuis, un taux unique et obligatoire a été progressivement instauré.
+
+L'abaissement de l'âge de la retraite dans le régime général en 1983 a conduit à des négociations
+au sein des régimes complémentaires. Devant le refus des représentants des employeurs de mettre en
+place une réforme similaire dans les régimes Arrco et Agirc et donc de prendre en charge le
+financement de l'abaissement de l'âge de la retraite pour ces régimes, l'État propose de participer
+au financement. Avec l'accord du 4 février 1983, une Association pour la gestion de la structure
+financière (ASF) est créée afin de prendre en charge le surcoût de la retraite à 60 ans pour les
+régimes complémentaires. Cette structure est alimentée par deux points de cotisation Unedic
+représentant le coût des Garanties de ressources et une contribution de l'État de 10 milliards de
+Francs.
+
+Les réformes des années 1990 mènent progressivement vers l'unification des régimes et la
+suppression de la distinction cadre/non-cadre. L'accord Arrco du 10 février 1993 supprime les taux
+de cotisation facultatifs et impose un unique taux plus élevé. L'accord Agirc du 9 février 1994
+réduit le rendement et augmente les taux de cotisation pour les cadres. Enfin, l'accord Agirc-Arrco
+du 25 avril 1996 vise à unifier les deux régimes, à supprimer la distinction cadre/non-cadre, et à
+augmenter les taux de cotisation. L'accord prévoit un régime unique Arrco à partir du 1\er janvier
+1999. L'Arrco regroupait en effet 67 régimes de retraite différents. L'Arrco se renomme sous le
+titre d'Association pour le Régime de Retraite Complémentaire. Les différents régimes se compensent
+entre eux, en particulier de l'Arrco vers l'Agirc en raison de la progression plus rapide du
+plafond de la sécurité sociale que les salaires des cadres.
+
+De plus, depuis le milieu des années quatre-vingt, les régimes complémentaires ont amorcé une
+baisse du rendement de leur prestation par la hausse du salaire de référence, la baisse de la
+valeur du point et la mise en place d'une valeur d'appel aux cotisations qui détermine des
+cotisations n'apportant pas de points (voir le paragraphe \ref{sssAssiettecotisation}).
+
+Depuis 2001, une Association pour la gestion du fonds de financement de l'Arrco et l'Agirc (AGFF)
+remplace l'ASF et est alimentée par une cotisation propre.
+
+\subsection{Calcul des droits}
+Les régimes complémentaires sont des régimes à contributions définies, gérés par répartition. Ils
+sont régis par un système de points, inscrits sur un compte individuel de chaque salarié. La
+pension versée $P$ est égale au nombre de points $N$ acquis par le salarié, multiplié par la valeur
+du point $V$. Le nombre de points acquis correspond au produit du salaire $W$ par le taux de
+cotisation $TX$ et divisé par le salaire de référence fixé par le régime $SR$, le prix d'achat du
+point. Il est possible d'obtenir une pension complète à partir de 65 ans et une pension partielle
+dès 55 ans en appliquant un coefficient de minoration $C(age, cotisation)$, qui dépend de l'âge de
+liquidation et de la durée de cotisation\footnote{Voir onglet \og Coefficient de minoration ARRCO \fg{}des barèmes IPP}. La pension peut donc s'exprimer sous la forme:
+\begin{equation} P=\frac{(W*TX)}{SR}*V*C(age,cotisation)
+\end{equation}
+Le taux de cotisation $TX$ inclut les cotisations patronales et salariales. De plus, des points
+gratuits peuvent être obtenus pour des périodes d'emploi avant l'adhésion de l'employeur au régime
+complémentaire ou pour des périodes de guerre, de maternité, de maladie, de chômage indemnisé ou de
+préretraite (voir chapitre \ref{non-contributif}).
+
+Entre 1947 et 1955, des coefficients d'ajournement pour liquidation après 65 ans sont en vigueur.
+Ils majorent la pension de 5~\% par année d'ajournement. Les coefficients de minoration en cas de
+départ anticipé sont de même montant. Pendant cette période, on ne peut partir avant 60 ans. En
+1955 les coefficients d'ajournement sont supprimés. Puis, à partir de 1964, les cadres peuvent
+liquider leur retraite complémentaire dès 55 ans. Les coefficients de minoration sont modifiés,
+diminués entre 60 et 64 ans, ils sont beaucoup plus importants avant 60 ans.
+
+Le mode de revalorisation des pensions Arrco et Agirc dépend de la revalorisation de la valeur du
+point\footnote{On peut trouver en annexe ces valeurs pour l'Agirc (tableau \ref{point-agirc}, page
+\pageref{point-agirc}) et pour l'Arrco (tableau \ref{pointArrco}, page \pageref{pointArrco}).}.
+Selon les accords Arrco-Agirc du 25 avril 1996, la revalorisation des pensions est calculée suivant
+le taux d'augmentation du salaire net moyen diminué de un pour cent pour l'Arrco et le taux
+d'augmentation du salaire net médian diminué de un pour cent pour l'Agirc. La revalorisation est
+toutefois limitée et ne peut dépasser l'évolution des prix.
+
+\subsection{Assiette des cotisations et plafonds \label{sssAssiettecotisation}}
+Les régimes complémentaires font une distinction institutionnelle entre les cadres et les
+non-cadres, donnant lieu à un avantage au statut de cadre jusqu'en 1999
+\cite{AssousBonnetColin2001}. Les réformes récentes visent à supprimer cette distinction en
+égalisant les taux de cotisation dans les deux régimes.
+
+Les non-cadres cotisent uniquement à l'Arrco dans la limite de trois fois le plafond de la sécurité
+sociale (voir le tableau \ref{plafondSS}). On appelle généralement tranche 1 la tranche jusqu'au
+plafond, puis tranche 2 la tranche du plafond à trois fois le plafond. Le taux varie selon que
+l'assiette est en-dessous ou au-dessus du plafond. Il faut en outre distinguer le taux contractuel,
+qui sert au calcul des points, et le taux effectif (ou appelé) sur lequel se basent véritablement
+les cotisations. Les régimes de retraite complémentaire ont utilisé la différence entre ces deux
+taux pour établir l'équilibre des régimes en faisant baisser leur rendement. Le paramètre du taux
+d'appel détermine ce rapport entre taux contractuel et taux effectif. Inférieur à 100~\% à la
+création des régimes, il a été progressivement augmenté dans les années soixante-dix et
+quatre-vingt pour dépasser 100~\% et même atteindre aujourd'hui 125~\%.
+
+Les non-cadres bénéficiaient avec l'association Arrco de régimes très différents selon les
+branches. Un taux minimum était obligatoire (opérations obligatoires) et les entreprises pouvaient
+décider individuellement ou par branche de cotiser au-dessus de ce taux obligatoire (opérations
+supplémentaires) dans les limites d'un taux maximum. Jusqu'au début des années quatre-vingt-dix,
+deux taux d'appel coexistaient, l'un pour les opérations obligatoires, l'autre pour les opérations
+supplémentaires.
+
+Jusqu'en 1973, les cadres ne payaient des cotisations qu'à l'Agirc sur le salaire au-dessus du
+plafond de la sécurité sociale\footnote{Protocole d'accord du 6 juin 1973.}. On appelle
+généralement tranche A la tranche du salaire jusqu'au plafond, puis tranche B de un à quatre
+plafonds et enfin tranche C de quatre fois à huit fois le plafond. A l'origine, l'assiette de cotisation des
+cadres se limitait à la tranche B. À partir de 1973, les cadres cotisent aussi à l'Arrco sur la
+tranche A au niveau de la cotisation minimale, puis unique. Suite à l'accord du 24 mars 1988, la
+tranche C fait aussi l'objet d'un taux minimum obligatoire de cotisation. Progressivement, les taux
+minimums sont élevés au niveau des taux obligatoires pour ne laisser qu'un taux unique.
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi

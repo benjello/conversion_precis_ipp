@@ -1,0 +1,331 @@
+---
+title: "Glossaire"
+---
+
+AAH
+
+:   Allocation adulte handicapé
+
+AEEH
+
+:   Allocation d'éducation de l'enfant handicapé
+
+AES
+
+:   Allocation d'éducation spéciale
+
+AF
+
+:   Allocation familiale
+
+AJPP
+
+:   Allocation journalière de présence parentale
+
+AL
+
+:   Allocation logement
+
+ALF
+
+:   Allocation de logement familiale
+
+ALS
+
+:   Allocation de logement sociale
+
+AMF
+
+:   Allocation aux mères de famille
+
+APE
+
+:   Allocation parentale d'éducation
+
+API
+
+:   Allocation parent isolé
+
+APL
+
+:   Allocation personnalisée au logement
+
+APJE
+
+:   Allocation pour jeune enfant
+
+APP
+
+:   Allocation de présence parentale
+
+APU
+
+:   Administrations publiques
+
+ARS
+
+:   Allocation de rentrée scolaire
+
+ASDGFIP
+
+:   Annuaire statistique de la Direction générale des finances publiques
+
+ASF
+
+:   Allocation de soutien familial
+
+ASPA
+
+:   Allocation de solidarité aux personnes âgées
+
+AVTS
+
+:   Allocation aux vieux travailleurs salariés
+
+AVTNS
+
+:   Allocation aux vieux travailleurs non salariés
+
+ASS
+
+:   Allocation de solidarité spécifique
+
+BIC
+
+:   Bénéfices industriels et commerciaux
+
+BNC
+
+:   Bénéfices non commerciaux
+
+CAE
+
+:   Conseil d'analyse économique
+
+CASF
+
+:   Code de l'action sociale et des familles
+
+CCSS
+
+:   Commission des comptes de la Sécurité sociale
+
+CEL
+
+:   Compte d'épargne logement
+
+CF
+
+:   Complément familial
+
+CFE
+
+:   Cotisation foncière des entreprises
+
+CGA
+
+:   Centre de gestion agréé
+
+CGI
+
+:   Code général des impôts
+
+CLCA
+
+:   Complément de libre choix d'activité
+
+CLCMG
+
+:   Complément de libre choix de mode de garde
+
+CN
+
+:   Comptabilité nationale
+
+CPO
+
+:   Conseil des prélèvements obligatoires
+
+CRDS
+
+:   Contribution pour le remboursement de la dette sociale
+
+CREST
+
+:   Centre de recherche en économie et statistique
+
+CSG
+
+:   Contribution sociale généralisée
+
+CSP
+
+:   Catégorie socio-professionnelle
+
+CSS
+
+:   Code de la Sécurité sociale
+
+CVA
+
+:   Cotisation sur la valeur ajoutée
+
+DGFIP
+
+:   Direction générale des Finances publiques
+
+DMTG
+
+:   Droit de mutation à titre gratuit
+
+EBE
+
+:   Excédent brut d'exploitation
+
+ERF
+
+:   Enquête revenus fiscaux
+
+ERFS
+
+:   Enquête revenus fiscaux et sociaux
+
+ESA
+
+:   European System of Accounts
+
+EVM
+
+:   Evaluations des voies et moyens
+
+FNAL
+
+:   Fonds national d'aide au logement
+
+FSV
+
+:   Fonds de solidarité vieillesse
+
+GMR
+
+:   Garanties minimales de ressources
+
+IPP
+
+:   Institut des politiques publiques
+
+IRPP
+
+:   Impôt sur le revenu des personnes physiques
+
+IS
+
+:   Impôt sur les sociétés
+
+ISF
+
+:   Impôt sur la fortune
+
+MV
+
+:   Minimum vieillesse
+
+PAJE
+
+:   Prestation d'accueil du jeune enfant
+
+PEA
+
+:   Plan d'épargne en actions
+
+PEL
+
+:   Plan épargne logement
+
+PFL
+
+:   Prélèvement forfaitaire libératoire
+
+PIPG
+
+:   Principaux impôts par catégorie
+
+PLF
+
+:   Projet de loi de finances
+
+PLFSS
+
+:   Projet de loi de financement de la Sécurité sociale
+
+PPE
+
+:   Prime pour l'emploi
+
+PSE
+
+:   Paris School of Economics
+
+PSS
+
+:   Plafond de la Sécurité sociale
+
+QF
+
+:   Quotient familial
+
+RESF
+
+:   Rapport économique, social et financier
+
+RFR
+
+:   Revenu fiscal de référence
+
+RMI
+
+:   Revenu minimum d'insertion
+
+RPO
+
+:   Rapport sur les prélèvements obligatoires
+
+RSA
+
+:   Revenu de solidarité active
+
+SEC
+
+:   Système européen des comptes
+
+SNF
+
+:   Sociétés non financières
+
+TEOM
+
+:   Taxe sur les ordures ménagères
+
+TF
+
+:   Taxe foncière
+
+TH
+
+:   Taxe d'habitation
+
+TIPP
+
+:   Taxe intérieure sur les produits pétroliers
+
+TP
+
+:   Taxe professionnelle
+
+TS
+
+:   Taxe sur les salaires
+
+TVA
+
+:   Taxe sur la valeur ajoutée

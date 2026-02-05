@@ -1,0 +1,938 @@
+\documentclass[a4paper, 12pt]{article}
+
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+\usepackage{graphics}
+\usepackage[english,frenchb]{babel}
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{a4wide}
+\usepackage[pdftex]{graphicx}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{subfigure}
+\usepackage{flafter}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{eurosym}
+\usepackage{breakcites}
+\usepackage{datetime}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{slashbox}
+\usepackage{lscape}
+\usepackage[usenames]{color}
+\usepackage{indentfirst} % mise en retrait de la première ligne après un titre.
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage[lmargin=1.3in,rmargin=1.3in,textheight=25cm,tmargin=3.5cm,bmargin=3.5cm]{geometry}
+\usepackage {changepage}
+\usepackage {color}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1\textwidth}|}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{threeparttable}
+
+%\usepackage{setspace}
+\bibliographystyle{agsm}
+
+\renewcommand{\contentsname}{Sommaire}
+\newcommand{\e}{\textsuperscript{e}}
+\newcommand{\eme}{\textsuperscript{ème}}
+\newcommand{\er}{\textsuperscript{er}}
+\setcounter{tocdepth}{2}
+\DeclareRobustCommand\refmark[1]{\textsuperscript{\ref{#1}}}
+
+\begin{document}
+
+
+
+
+\begin{titlepage}
+
+\begin{center}
+\Large {\sc Institut des Politiques Publiques} \normalsize \\
+\end{center}
+\vspace{1.5cm}
+
+\begin{center}
+\LARGE{\textbf{Guide de l'impôt sur le revenu \\ pour un économiste}} \\
+\vspace{1cm}
+\Large{Jonathan \sc{GOUPILLE}}\\
+\vspace{0.75cm}
+\end{center}
+
+\vspace{1cm}
+
+ \begin{center}
+ \begin{minipage}{.8\textwidth} \begin{center}   \section*{Résumé}
+\end{center}
+{ \small
+Ce guide a été conçu pour répondre à un simple besoin des économistes : comprendre en quelques pages comment est et a été calculé l'impôt sur le revenu au cours du temps. Pour cela, il décompose les différentes étapes permettant de passer des revenus catégoriels nets à l'impôt effectivement payé par les foyers fiscaux.\\ \\
+Trois types de sources ont été utilisés :
+\begin{itemize}
+\item	les guides pratiques du contribuable qui fournissent une lecture détaillée de l'ensemble des dispositifs afférents au calcul de l'impôt sur le revenu,
+\item	les notices de calcul téléchargeables sur\texttt{ www.impôt.gouv.fr} qui expliquent comment calculer son impôt sur le revenu à partir d'une déclaration,
+\item	le code général des impôts consultable sur légifrance.fr qui permet de connaître la législation en vigueur à une date donnée.\\
+\end{itemize}
+Tout au long de ce guide, aucune valeur de paramètres n'est donnée. Nous les remplaçons par le nom des variables utilisées dans le simulateur \texttt{TAXIPP}. Par exemple, la valeur du plafonnement de quotient familial pour l'imposition des revenus de 2010 est de \mbox{2 336 \euro}{}, nous la nommons toutefois plaf\_qf. Pour connaître l'évolution de l'ensemble des paramètres fiscaux au cours du temps, le lecteur pourra se reporter au fichier Excel \mbox{\og Barèmes IPP - paramètres\_IR \fg{}}.}\\
+\end{minipage}
+
+\vspace{2cm}
+
+\end{center}
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Calcul et description des différentes notions de revenus :}
+
+Il existe quatres grandes familles de revenus catégoriels :
+\begin{itemize}
+\item les traitements, salaires, pensions et rentes ;
+\item les revenus des valeurs et capitaux mobiliers (RCM) ;
+\item les revenus fonciers;
+\item les revenus des professions non salariés.\\
+\end{itemize}
+
+Le revenu total représente la somme des revenus catégoriels nets imposables. Pour le calculer, il faut donc imputer aux différents types de revenus les déductions, abattements et déficit selon des règles qui leur sont propres. On obtient ensuite le revenu brut global (rbg) en déduisant du revenu total les déficits globaux des années antérieurs non imputés.
+\\ \\
+Le revenu net imposable (RNI) constitue l'assiette sur laquelle est appliquée le barème de l'impôt sur le revenu (IR). Il est obtenu en déduisant du revenu brut global, les charges déductibles, la CSG déductible sur les revenus des capitaux et certains abattements spéciaux.
+
+\begin{table}
+\centering
+\caption{Calcul des différents revenus}
+\vspace{0.2cm}
+\begin{adjustwidth}{-0.5 cm}{}
+\begin{tabular} {|ll|}
+\hline
+Somme des revenus catégoriels imposables & - Déductions et déficits catégoriels \\
+= Revenu total ou Déficit total          & - Déficits globaux des années antérieures \\
+= Revenu brut global ou Déficit global   & - CSG déductible (revenus du capital)     \\
+                                         & - Charges déductibles \\
+= Revenu annuel net Global               & - Abattements spéciaux \\
+= Revenu net imposable (RNI)             &                          \\
+\hline
+\end{tabular}
+\end{adjustwidth}
+\end{table}
+
+\subsection{Détermination des revenus catégoriels nets imposables :}
+
+
+
+\subsubsection {Traitements, salaires, pensions et rentes viagères :}
+
+Le contribuable a le choix entre déduire ses frais réels ou se voir appliquer un abattement de 10\% (tx\_abt\_sal) sur ses revenus imposables. Ces déductions ne peuvent excéder un certain plafond (max\_abtsal pour les salaires et max\_abtpen pour les pensions et retraites\footnote{Le plafonnement de l'abattement est calculé à l'échelle du foyer pour les pensions et retraites alors qu'il est calculé au niveau individuel pour les salaires et les allocations chômages.}), ni aller en-deçà d'un certain plancher (min\_abtsal pour les salaires, min\_abtsal\_chom pour les demandeurs d'emploi de plus d'un an\footnote{Ce plancher s'applique pour la première fois en 1998.} et min\_abatpen pour les pensions et les retraites).\\
+
+Jusqu'en 2006 (inclus), un second abattement de 20\% (tx\_ded\_sal) était appliqué sur la somme des salaires et des pensions (nets de l'abattement de 10\%) de chacun des membres du foyer fiscal. Il ne pouvait excéder un certain plancher (max\_abat\_dedsal).\\
+
+Seule une fraction des rentes viagères à titre onéreux sont imposables. Cette fraction dépend de l'âge du bénéficiaire.\footnote{70\% pour les moins de 50 ans, 50\% pour les 50-59 ans, 40\% pour les 60-69 ans, et 30\% à partir de 70 ans.}
+
+\subsubsection {Revenus des valeurs et capitaux mobiliers (RCM)}
+
+Il existe trois types de RCM : les produits des contrats d'assurance-vie, les RCM ouvrant droit à abattement et ceux n'ouvrant pas droit à abattement. \\
+\begin{itemize}
+\item Pour les produits d'assurance-vie, le contribuable a le choix du mode d'imposition. Il peut choisir l'imposition au titre du prélèvement forfaitaire libératoire (PFL), dont le taux dépend de la durée de détention du contrat\footnote{Voir \og Barèmes IPP-revenus capitaux.xls \fg~onglet PFL-AV pour plus de détails sur les taux d'impositions.}, ou l'imposition au barème. Dans le cas de l'imposition au barème, le contribuable bénéficie d'un abattement\footnote{A doubler dans le cas d'un couple soumis à imposition commune.\label{double}} (abt\_av) si le contrat a été souscrit au moins 6 années avant, pour les contrats conclus entre le 01/01/1983 et le 31/12/1989, et au moins 8 années avant, pour les contrats conclus après le 31/12/1989.  A noter, les contrats souscrits avant le 01/01/1983 sont complètement exonérés d'impôt sur le revenu. \\
+\item Les RCM ouvrant droit à abattement constituent l'ensemble des revenus distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent et ayant signé une convention fiscale avec la France. Depuis le 01/01/2008, le contribuable peut choisir son mode d'imposition (PFL ou barème). Dans le cas d'une imposition au barème,on commence d'abord par déduire l'abattement tx\_abt\_rcm des RCM. On applique ensuite un abattement forfaitaire (abt\_rcm)\refmark{double}. Jusqu'au 1\er janvier 2011, un crédit d'impôt de 50\% des revenus perçus éligibles était également accordé dans la limite de plaf\_creditRCM\refmark{double}.
+
+   \textit{ Note :}
+   \begin{description}
+\item Ce mode d'imposition n'est effectif que depuis le 1\er janvier 2005. Avant la loi de finances pour 2004, l'abattement tx\_abt\_rcm était remplacé par un avoir fiscal de 50\% des dividendes versés. Par ailleurs, le crédit d'impôt n'existait pas.
+
+\item Depuis 2001, les contribuables imposés à la dernière tranche du barème de l'IR ne bénéficient pas de l'abattement abt\_rcm. \textcolor{red}{regarder si dispositif s'applique toujours} \\
+     \end{description}
+\item Les RCM n'ouvrant pas droit à abattement sont majorés de 25\% du fait de la suppression de l'abattement tx\_ded\_sal de 20\% et de son intégration dans le barème depuis 2007.
+\end{itemize}
+
+\subsubsection {Revenus fonciers :}
+
+Il existe deux régimes d'imposition différents des revenus fonciers : le régime foncier normal et le régime micro-foncier. \\
+\begin{enumerate}[a)]
+\item Dans le régime foncier normal, le contribuable peut déduire de ses revenus bruts un ensemble de charges déductibles. Il existe également un nombre conséquent de dispositifs permettant de déduire des charges spécifiques supplémentaires (dispositifs \og Besson ancien \fg, \og Robien \fg, \og Scellier \fg, \og Borloo neuf \fg \dots).
+    \begin{description}
+    \item Si le solde est positif, il peut imputer les déficits antérieurs à ses revenus fonciers.
+    \item Si le solde est négatif, ce déficit foncier peut être imputé sur le revenu global dans la limite de plaf\_def\_foncier.\footnote{Le montant du plafond peut différer pour certains dispositifs. Dans le cadre du dispositif Perissol, le plafond est un peu plus élevé. Pour les monuments historiques, il n'y a aucun plafonnement\dots Par ailleurs, le contribuable devra déclarer un revenu foncier positif ou nul au titre des trois années suivantes consécutivement, c'est à dire qu'il sera obliger de louer le bien immobilier pendant 3 ans.} La part du déficit constaté excédant le plafond ou résultant d'intérêts d'emprunt n'est imputable que sur les revenus fonciers des 10 années suivantes.\footnote{Depuis 1997, \textcolor{red} {trouver plus de détails sur ce sujet.}}\\
+        \end{description}
+\item Dans le régime micro-foncier, le contribuable bénéficie d'un abattement \\ d'abt\_micro\_fon sur ses revenus bruts en lieu et place de la déduction des charges et des déficits. Les revenus fonciers bruts du contribuable ne peuvent excéder plaf\_micro\_fonc pour relever du régime micro-foncier.\footnote{Ce régime a été crée par la loi de finances de 1998. Un contribuable relevant du régime micro-foncier peut toutefois opter pour le régime réel. Il s'engage alors dans ce régime pour une durée minimale de 3 ans. A l'issue de ces trois ans, il aura alors le choix chaque année entre rester dans le régime réel ou changer pour le régime micro-foncier.}
+   \begin{displaymath}
+ \left\{ \begin{array}{ll}
+\textrm{revenu micro-foncier net} = \textrm{revenu foncier brut} \times (1-\textrm{abt\_micro\_fon}) & \\
+\textrm{ssi revenu brut} < \textrm{plaf\_micro\_fonc} &
+\end{array} \right.
+\end{displaymath}
+\end{enumerate}
+
+\subsubsection {Revenu des professions non salariées :}
+
+Le régime et les modalités d'imposition des revenus des professions non salariés dépendent de la nature de l'activité de l'entreprise (activités professionnelles/non professionnelles), son secteur d'activité (ventes de marchandises/ prestations de services/ non commerciale/ agriculture) ainsi que de son chiffre d'affaires hors taxe.\\
+
+Deux grands régimes d'imposition existent : le régime du bénéfice réel et le régime micro-entreprise. L'appartenance aux différents régimes est défini en fonction du chiffre d'affaires hors taxe des entreprises.
+
+\begin{enumerate} [a)]
+\item régime micro-entreprise : \\
+Pour bénéficier du régime micro-entreprise, les entreprises ne doivent pas réaliser d'opérations soumises à la TVA  et ne pas dépasser un certain chiffre d'affaire (HT). Le contribuable doit également être un entrepreneur individuel dans le cas des bénéfices industriels commerciaux (BIC). Si les entreprises remplissent ces trois conditions,  les revenus bruts imposables du contribuable bénéficient alors d'un abattement. Le taux de l'abattement ainsi que les conditions portant sur le chiffre d'affaire des entreprises dépendent du type de micro-régime de l'entreprise. Le tableau \ref{micro} indique les paramètres et critères d'imposition du régime micro-foncier par type d'entreprises.
+
+\begin{table} [ht!]
+\centering
+\caption{Paramètres fiscaux des régimes micro-entreprises \label{micro}}
+\vspace{0.2cm}
+\begin{adjustwidth}{-1.5cm}{}
+
+\begin{tabular}{|c|c|c|c|}
+  \hline
+                                  & \multicolumn{3}{c|}{Type de micro-entreprises} \\
+\hline
+                                  & BIC (marchandises) & BIC (services)& BNC \\
+     \hline
+   Taux de l'abattement           & txabt\_micro & Tx\_abt\_micro\_ service & tx\_abt\_microbnc \\
+   \hline
+   abattement plancher            & \multicolumn{3}{c|}{abtmin\_ micro}  \\
+   \hline
+   limite de chiffre d'affaires   & limit\_micro & \multicolumn{2}{c|}{limit\_micro\_service} \\
+  \hline
+\end{tabular}
+\end{adjustwidth}
+\end{table}
+
+\item régime général : \\
+Le contribuable peut déduire les déficits de l'année courante et des années antérieures de ces revenus imposables.
+\end{enumerate}
+
+\noindent Notes :
+Depuis la déclaration des revenus de 2006 et la suppression de l'abattement de 20\%, les exploitants non adhérents d'un centre de gestion agréé voit leurs bénéfices déclarés multipliés par un coefficient de 1,25.\\
+
+\noindent Règle spécifique d'imputation des bénéfices :
+\begin{itemize}
+\item Dans le cas des agriculteurs, les déficits agricoles constatés sont imputables sur le revenu global sous certaines conditions.
+\item Dans le cas des BIC exercés à titre non professionnels, les déficits sont imputables sur les seuls BIC exercés à titre non professionnels et réalisés au cours de la même année ou des six années suivantes.
+\end{itemize}
+
+\subsubsection{Détermination du revenu brut global}
+
+Le revenu brut global est obtenu en additionnant l'ensemble des revenus net catégoriels duquel on retranche les déficits antérieurs.
+Lorsque le revenu brut global n'est pas suffisant pour que l'imputation des déficits puissent être intégralement opérée, l'excédent de déficit est reporté successivement sur le revenu brut global des années suivantes jusqu'à la sixième année inclusivement.
+
+\subsection{Détermination du revenu net global}
+
+Le revenu net global est obtenu en déduisant du revenu brut global un certain nombre de charges ainsi que la CSG déductible. L'ensemble des charges déductibles du revenu net global est présenté ci-dessous.\\
+
+\begin{itemize}
+\item [CSG déductible :] Une partie de la CSG acquittée à la source sur les revenus est admise en déduction du revenu brut global. Le taux de déductibilité de la CSG dépend du type de revenus (tx\_csg\_ded pour les salariés, tx\_csg\_ded\_nonsal pour les non-salariés, tx\_csg\_ded\_pens pour les retraites). Une partie de la CSG acquittée sur les revenus du patrimoine imposable au barème progressif de l'IR est également déductible depuis la déclaration des revenus de 1997 selon le taux tx\_csg\_ded\_rk. \\
+
+
+\item [Pension alimentaire :] Le contribuable peut déduire de son revenu brut global les pensions alimentaires qu'ils versent à ses ascendants ou à ses enfants (sous certaines conditions) dans la limite de plaf\_penalim.\footnote{Suite à la suppression de l'abattement de 20\% pour l'imposition des revenus de 2006, les déductions sur les pensions alimentaires résultant d'une décision de justice rendu avant 2006 sont majorées de 25\%.}\\
+
+\item [Frais d'accueil des personnes âgées de plus de 75 ans :] Le contribuable peut déduire de son revenu brut global le montant des avantages en nature consentis aux personnes âgées de plus de 75 ans (sous certaines conditions) dans la limite de plaf\_frais.\\
+
+\item [Plan d'épargne retraite populaire :] Chaque membre du foyer fiscal peut déduire du revenu brut global les cotisations versées dans le cadre d'un PERP, PREFON, COREM et C.G.O.S. dans la limite de 10\% d'une somme égale à 8 fois le plafond annuel de la sécurité sociale (maxdeduc\_perp) et au minimum à 10\% du plafond annuel de la sécurité sociale (minideduc\_perp). La différence entre le plafond et les cotisations déduites peut être utilisée sur l'une des trois années suivantes.\footnote{Depuis l'imposition des revenus de 2007, les membres d'un couple marié ou pacsé peuvent déduire les cotisations versées dans la limite annuelle égale au total des montants déductibles pour chaque membre.}\\
+
+\item [SOFICA\footnote{souscription en faveur du cinéma et de l'audiovisuel} :] Les sommes versées de 1994 jusqu'au 31 décembre 2005 étaient déductibles du revenu global. Depuis le 1\er janvier 2006, ces déductions sont transformées en réductions d'impôts.\\
+
+\item [SOFIPECHE :] Depuis l'imposition des revenus de 2009, les souscriptions au capital de SOFIPECHE ne sont plus déductibles du revenu global mais donnent droit à une réduction d'impôt.
+\end{itemize}
+
+\subsection{Détermination du revenu net imposable}
+Le revenu net imposable est obtenu en déduisant du revenu net global deux types d'abattements : les abattements en faveur des personnes âgées ou invalides et ceux au titre des enfants à charge ayant fondé un foyer distinct.\\
+
+\begin{itemize}
+\item [Abattement en faveur des personnes âgées ou invalides :] Si le contribuable est âgé de plus de 65 ans ou invalides, il bénéficie d'un abattement de \\ abt\_pers\_age1 à condition que son revenu net global n'excède pas \\ plaf\_pers\_age1 ou de abt\_pers\_age2 (la moitié de abt\_pers\_age1) si son revenu net global est compris entre plaf\_pers\_age1 et plaf\_pers\_age2. Les foyers dans lesquels les époux sont tous deux âgés de plus de 65 ans ou invalides ont droit à une déduction double.\\
+
+\item [Abattement pour les enfants à charge ayant fondé un foyer distinct :] Si le \\ contribuable a accepté le rattachement de ses enfants mariés ou pacsés ou de ses enfants célibataires, veufs, divorcés, séparés ou chargés de famille, il bénéficie d'un abattement sur son revenu imposable de abt\_enf par personne ainsi rattachée. Si l'enfant de la personne rattachée est réputé à charge de l'un et l'autre de ses parents (garde alternée), cet abattement est divisé par deux.\\
+
+\item [Condition d'exonération de l'IR :] Les contribuables dont le revenu net de frais professionnels n'excède pas exo\_IR-65 pour les moins de 65 ans et exo\_IR+65 pour les plus de 65 ans sont exonérés d'impôts sur le revenu.
+\end{itemize}
+
+\section{Détermination du quotient familial}
+\subsection{Règles générales de rattachement}
+Il est possible de compter à charge :
+\begin{itemize}
+\item Ses enfants ou ceux de son conjoint légitimes, adoptifs, naturels (filiation légalement établie) ou recueillis (si vous en assurez l'entretien exclusif) âgés de moins de 18 ans au
+1\er janvier de l'année de declaration des revenus,
+\item Ses enfants handicapés quel que soit leur âge s'ils sont hors d'état de subvenir à leurs besoins ;
+\item Les personnes invalides autres que vos enfants si elles vivent en permanence sous votre toit et si elles sont titulaires de la carte d'invalidité d'au moins 80\% sans conditions d'âge ou de revenus.~\\
+\end{itemize}
+
+\underline{Cas des enfants majeurs :}\\
+
+Les enfants âgés de plus de 18 ans au 1\er janvier de l'année d'imposition, quelles que soient leur situation et leurs charges de famille, peuvent renoncer à être imposés personnellement et demander à être rattachés au foyer fiscal dont ils faisaient partie avant leur majorité.
+L'option pour le rattachement est réservée aux enfants qui remplissent l'une des conditions suivantes :
+\begin{itemize}
+\item être âgés de moins de 21 ans ;
+\item être âgés de moins de 25 ans s'ils justifient de la poursuite de leurs études ;
+\item quel que soit leur âge, lorsqu'ils effectuent leur service militaire ou sont atteints d'une infirmité.\\
+\end{itemize}
+
+L'option pour le rattachement\footnote{L'article 74 de la loi de finances pour 2001 (\no 2000-1352 du 30 décembre 2000) étend cette option aux personnes majeures devenues orphelines de père et de mère après leur majorité en autorisant leur rattachement au foyer fiscal du contribuable qui les a recueillies.} ouvre droit au contribuable qui accepte ce rattachement, soit à une majoration de quotient familial lorsque l'enfant rattaché est célibataire sans charge de famille, soit à un abattement sur son revenu net global par personne prise en charge en cas de rattachement d'un enfant marié ou d'un enfant célibataire, veuf, divorcé ou séparé avec des enfants à charge (abt\_enfmaries).
+Corrélativement, les revenus perçus pendant l'année entière par la ou les personnes rattachées sont inclus dans le revenu imposable du foyer fiscal de rattachement.
+
+\subsection{Détermination du nombre de parts}
+
+Pour plus d'informations, se reporter au formulaire 2041 GT téléchargeable sur impôt.gouv.fr.\\
+
+\underline{Calcul des parts :}
+\begin{itemize}
+\item deux parts pour les contribuables mariés ou liés par un PACS ;
+\item une part pour les contribuables veufs, célibataires, divorcés, séparés soumis à une imposition distincte.\\
+\end{itemize}
+
+\underline{Ajout de demi-parts  additionnelles au foyer fiscal en raison :}
+\begin{itemize}
+\item des personnes à charge (1/2 part pour les deux premières personnes à charge, 1 part à compter de la 3\eme personne) ;
+\item de situations particulières. (voir formulaire 2041\_GT)
+\end{itemize}
+
+ \begin{table} [H]
+\caption{Calcul du nombre de parts}
+\vspace{0.2cm}
+\centering
+\begin{adjustwidth}{-1cm}{}
+\begin{tabular}{|c|c|c |P{0.08}P{0.08}P{0.08}P{0.08}}
+\hline
+\multirow{2}{*}{\backslashbox{Vous êtes}{Vous avez}}	&	\multicolumn{2}{c}{Aucune personne à charge} & \multicolumn{4}{|c|}{Nbre de personnes à charge}  \\
+\hline
+                                                        &        Cas général	&  Cas  particulier        &  1   & 2        & 3  & n  \\
+ \hline
+Marié ou Pacsé 	                                        &           2	        &       2,5 ou 3	       &  2,5 &  	3	 &  4 & $n+1$                     \\
+\hline
+Veuf  	                                                &           1	        &        1,5 ou 2	       &  1,5 &  	2	 &  3 & n                       \\
+\hline
+Célibataire, divorcé(e), 	                    &       \multirow{2}{*}{1}           &         \multirow{2}{*}{1,5}       	   &  \multirow{2}{*}{1,5} &	    \multirow{2}{*}{2}	 &  \multirow{2}{*}{3}&\multirow{2}{*}{n} \\
+  separé(e)                                     &                                   &                                          &                       &                             &                     &   \\
+  \hline
+\end{tabular}
+\end{adjustwidth}
+ \end{table}
+
+
+\underline{Ajout  de demi-parts en raison de situations particulières :}\\
+\begin{enumerate}
+
+\item Si vous êtes mariés ou pacsés : \\
+    \begin{itemize}
+    \renewcommand{\labelitemi}{$\bullet$}
+    \renewcommand{\labelitemii}{$\centerdot$}
+    \item Vous bénéficiez d'une demi-part supplémentaire si vous ou votre conjoint :	
+            \begin{itemize}
+            \renewcommand{\labelitemi}{$\bullet$}
+            \item percevez une pension d'invalidité (militaire, accident du travail) pour une invalidité d'au moins 40\% ;
+            \item	ou avez une carte d'invalidité d'au moins 80\%.\\
+            \end{itemize}
+    \item Vous bénéficiez de deux demi-parts supplémentaires si vous et votre conjoint (ou partenaire) :
+            \begin{itemize}
+            \item percevez une pension d'invalidité (militaire, accident du travail) pour une invalidité d'au moins 40\% ;
+            \item	ou avez une carte d'invalidité d'au moins 80\%.\\
+            \end{itemize}
+    \item	plafonnement de la demi-part : plaf\_qf\_inv \\
+    \end{itemize}
+
+\item Si vous êtes célibataire, divorcé(e), séparé(e), veuf(ve) ou si votre partenaire lié par un pacs est décédé, et que vous n'avez pas de personne à charge : \\
+      \begin{enumerate}
+       \renewcommand{\labelitemi}{$\bullet$}
+       \renewcommand{\labelitemii}{$\centerdot$}
+      \item Vous viviez seul(e)au 01/01 de l'année de déclaration des revenus sans aucune personne à charge : \\
+              \begin{itemize}
+              \item	Vous bénéficiez d'une demi-part supplémentaire (plaf\_qf\_persseule) si vous remplissez en outre les conditions suivantes :\\
+                      \begin{itemize}
+                      \item	vous avez eu un enfant décédé après l'âge de 16 ans ou par suite de faits de guerre,
+                      \item	\textbf{ou} vos enfants (majeurs ou mariés, mineurs imposés en leur nom propre) ne sont pas comptés à votre charge ou n'ont pas demandé leur rattachement,
+                      \item	\textbf{ou} vous avez adopté un enfant, à condition que, si l'adoption a eu lieu alors que l'enfant était âgé de plus de 10 ans, il ait été depuis l'âge de 10 ans à votre charge comme enfant recueilli et que cet enfant adopté ne soit pas décédé avant d'avoir atteint l'âge de 16 ans ;
+                      \item \textbf{et} vous avez compté fiscalement à votre charge l'un au moins de ces enfants dont vous avez supporté la charge à titre exclusif ou principal, lorsqu'il était mineur et/ou, par rattachement, lorsqu'il était majeur (quel que soit son âge pour un enfant handicapé) pendant au moins 5 années au cours desquelles vous viviez seul(e). \\
+                      \end{itemize}
+                      \end{itemize}
+
+      \item Vous ne viviez pas seul(e)au 01/01 de l'année de déclaration des revenus :\\
+                    \begin{itemize}
+                    \item Vous ne bénéficiez pas de cette demi-part supplémentaire. \\
+                     \end{itemize}
+
+      \item	Vous bénéficiez d'une demi-part supplémentaire  (plaf\_qf\_inv) si vous remplissez l'une des conditions suivantes :\\
+                  \begin{itemize}
+                  \item Vous percevez une pension d'invalidité (militaire, accident du travail) pour une invalidité d'au moins 40\% ou avez une carte d'invalidité d'au moins 80\%;
+                  \item \textbf{OU} vous avez une pension de veuve de guerre;
+                  \item \textbf{OU} vous êtes âgé de plus de 75 ans et titulaire de la carte du combattant ou d'une pension servie en vertu du Code des pensions militaires d'invalidité et des victimes de guerre;
+                  \item \textbf{OU} vous êtes veuve, âgée de plus de 75 ans et votre conjoint ou partenaire était titulaire de la carte du combattant ou d'une pension servie en vertu du Code des pensions militaires d'invalidité et des victimes de guerre;
+                  \item \textbf{OU} votre conjoint ou votre partenaire est décédé l'année de déclaration des revenus, il percevait une pension d'invalidité (militaire, accident du travail) pour une invalidité d'au moins 40\% ou avait une carte d'invalidité d'au moins 80\%;
+                  \item	\textbf{OU} votre conjoint ou votre partenaire est décédé l'année de déclaration des revenus, il était titulaire de la carte du combattant ou d'une pension servie en vertu du Code des pensions militaires d'invalidité et des victimes de guerre.
+                  \item	Remarque : Vous ne pouvez pas bénéficier de plus d'une demi-part supplémentaire.\\
+                  \end{itemize}
+      \end{enumerate}
+
+\item Vous êtes célibataire, divorcé(e), séparé(e), vous vivez et assurez seul(e) la charge de votre ( vos) enfant(s) :\\
+        \begin {itemize}
+        \renewcommand{\labelitemi}{$\bullet$}
+        \renewcommand{\labelitemii}{$\centerdot$}
+        \item Si vous avez la charge principale et exclusive de vos enfants : Vous bénéficiez d'une part supplémentaire pour la première personne à charge (plaf\_qf\_parentisole), même si vous percevez une pension alimentaire pour l'entretien de vos enfants.
+        \item Si vous avez uniquement des enfants à charge partagée dans le cadre de la résidence alternée : Vous bénéficiez pour chacun des deux premiers enfants d'une demi-part (plaf\_qf\_parentisole/2), ainsi que pour chaque enfant au-delà du 2ème (plaf\_qf/2).
+        \item	Si vous avez des enfants à charge principale et des enfants à charge partagée :	Le 1\er enfant retenu est un enfant à charge principale, il ouvre donc droit à deux demi-parts, chacun des autres enfants ouvrant droit selon le cas à une demi-part ou à un quart de part.\\
+        \end{itemize}
+
+\item Si vous êtes veuf(ve) avec des enfants à charge issus ou non du mariage avec le conjoint (partenaire) prédécédé ou des personnes invalides à charge : \\
+
+        \begin {itemize}
+        \renewcommand{\labelitemi}{$\bullet$}
+        \item Vous bénéficiez du même quotient familial que les contribuables mariés ou pacsés.\\
+        \end{itemize}
+
+\item Personne seule ou contribuables mariés ou pacsés ayant des personnes à charge titulaires de la carte d'invalidité : \\
+        \begin {itemize}
+        \renewcommand{\labelitemi}{$\bullet$}
+       \renewcommand{\labelitemii}{$\centerdot$}
+    	\item Vous bénéficiez d'une demi-part supplémentaire (plaf\_qf\_inv) pour chaque personne à charge titulaire de la carte d'invalidité prévue à cet article. Il s'agit des cas suivants :\\
+                 \begin{itemize}
+                	\item vous avez à charge exclusive un ou plusieurs enfant(s) titulaire(s) d'une carte d'invalidité ;
+                	\item vous avez à charge une ou plusieurs personne(s) vivant sous votre toit et titulaire(s) d'une carte d'invalidité d'au moins 80 %.
+                	\item Cas particulier : dans le cadre de la résidence alternée, vous bénéficiez d'un quart de part supplémentaire pour chacun de vos enfants titulaire de la carte d'invalidité dont la charge est partagée.
+                \end{itemize}
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Modification du calcul du nombre de parts au cours du temps :}
+
+
+
+\begin {enumerate}
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\centerdot$}
+
+\item Résidence alternée (voir qf\_2004, boi \no11 du 20/01/2004) :
+
+Depuis l'imposition des revenus de 2003, lorsque des enfants mineurs vivent en alternance au domicile de l'un et l'autre de leurs parents, divorcés ou séparés, la majoration de quotient familial à laquelle les enfants ouvrent droit est en principe partagée entre les deux parents, chacun bénéficiant d'un avantage fiscal égal à la moitié de celui prévu pour les enfants dont la charge n'est pas partagée (soit 1/4 de part pour les 2 premiers enfants, 1/2 part à compter du 3\eme). Par conséquent, l'avantage en impôt que procure chaque quart de part est également divisé par deux.\\
+
+\item Célibataires, divorcés, veufs ayant des enfants imposés distinctement :
+
+La demi-part supplémentaire est réservée depuis l'imposition des revenus de 2003 aux personnes qui vivent seules. Par conséquent, les personnes vivant en concubinage ne peuvent pas bénéficier de cette demi-part.
+
+Avant la loi de finances de 2009, le plafond de cette demi-part dépendait de l'âge du plus jeune des enfants. Si le dernier enfant a moins de 26 ans, le plafonnement est égal à
+Plaf\_qf\_inv (à partir de la loi de finances 1999) . Si le dernier enfant a moins de 26 ans, le plafonnement est égal à plaf\_qf\_persseule (à partir de la loi de finances 1998). A partir de la loi de finances de 2009, le plafonnement est égal à plaf\_qf\_persseule.
+
+L'article 92 de la loi de finances de 2009 restreint, à compter de l'imposition des revenus de 2009, le champ des bénéficiaires de cette demi-part supplémentaire en subordonnant son bénéfice à la condition d'avoir supporté la charge de ces enfants à titre exclusif ou principal pendant au moins cinq années au cours desquelles ils vivaient seuls. Par ailleurs, il prévoit un dispositif transitoire pour les contribuables ayant bénéficié de la demi-part supplémentaire au titre de l'imposition des revenus de 2008 mais ne répondant pas à la nouvelle condition (règle des 5 années) à partir de 2009. La loi de finances 2010 aménage ensuite ce dispositif transitoire.
+
+Modalité du dispositif transitoire : plaf\_qf\_persseule = 855 \euro~(imposition revenus 2009), 680\euro~ (revenus 2010), 400\euro~ (revenus 2011) et 120\euro~(revenus 2012).\\
+
+\item Veuf (voirqf\_2009.pdf, boi \no52 du 15/05/2009):\\
+
+
+\begin{itemize}
+\renewcommand{\labelitemi}{$\bullet$}
+
+\item Situation depuis 2009 :
+
+Depuis l'imposition des revenus de l'année 2008, les veufs ayant des enfants ou des personnes invalides à charge sont assimilés, pour le calcul du quotient familial, aux contribuables mariés ayant le même nombre d'enfants ou de personnes à charge, que les enfants soient ou non issus de leur mariage avec le conjoint décédé.
+
+Conséquences sur le nombre de parts : une personne veuve ayant une personne à charge bénéficie désormais d'un nombre de parts fixé à 2,5, quelle que soit la qualité de la personne qu'elle compte à sa charge. Ce nombre de parts peut être majoré, dans les conditions habituelles, en fonction du nombre des autres personnes à charge et, le cas échéant, au titre de la situation de handicap
+
+Précision sur les parents isolés : la situation fiscale de \og parent isolé \fg ne trouve plus à s'appliquer aux contribuables veufs vivant seuls avec un ou plusieurs enfants à charge.\\
+
+\item Situation avant 2009 :
+
+Trois cas de figure étaient distingués :
+\begin{itemize}
+\item	les contribuables veufs ayant un ou plusieurs enfants à charge non issus du mariage avec le conjoint décédé sont considérés comme des contribuables célibataires ayant à leur charge le même nombre d'enfants.
+\item	Les contribuables veufs avec des enfants issus du mariage avec le conjoint décédé bénéficient du même nombre de parts qu'un contribuable marié.
+\item	les contribuables veufs qui ont des personnes à charge autres que des enfants sont également considérés comme des célibataires ayant à leur charge le même nombre de personnes à charge.
+    \end{itemize}
+\end{itemize}
+\end{enumerate}
+\subsection{Calcul du plafonnement :}
+
+Pour calculer la réduction d'impôts induite par le quotient familial, il faut comparer deux termes :
+\begin{description}
+\item 1\er terme : impôt calculé en fonction du quotient familial réel de l'intéressé sans plafonnement.
+\item 2\eme terme : impôt calculé sur la base d'un quotient familial de deux parts si vous êtes mariés ou liés par un pacs ou d'une part si vous êtes veuf(ve), célibataire, divorcé(e) ou séparé(e).
+\end{description}
+La réduction d'impôt au titre du quotient familial (avant plafonnement) correspond à la différence entre le premier et le second terme et est à comparer avec le montant du plafond correspondant à l'ensemble des demi-parts ou quart de parts additionnelles spécifique à la situation de famille du contribuable.
+Si cette différence est inférieure au montant du plafonnement, la réduction d'impôt n'est pas plafonné. Au contraire, si elle est supérieure au plafonnement, la réduction d'impôt sera limité au montant du plafonnement.
+
+
+\section{Calcul de l'impôt :}
+
+\subsection{Détermination de l'impôt brut :}
+
+On divise le revenu net imposable (R) par le nombre de part de quotient familial (qf). On applique ensuite le barème progressif de l'IR à R/qf. On obtient ainsi l'impôt par part de quotient familial (T/qf). Il est nécessaire de tenir compte des plafonnements éventuels des parts de quotient familial. On multiplie enfin T/qf par qf afin d'obtenir l'impôt dû.
+
+\subsection{Calcul de la décote :}
+
+Si le montant de l'impôt dû est inférieur à param\_decote, le contribuable peut déduire le montant de la décote égale à $(param\_decote - impôt dû)/2$ depuis l'imposition des revenus de 2000.
+
+Avant 2001, le montant de la décote était égale à $(param\_decote-impôt dû)$.
+
+\subsection{Détermination des réductions d'impôts :}
+
+Le contribuable peut également déduire de son impôt un ensemble de réductions d'impôts. Ces réductions sont décrites ci-dessous.\\
+\begin{itemize}	
+
+\item Cotisation syndicales\footnote{Cette réduction ne s'applique pas aux contribuables qui auraient opté pour la déduction de leurs frais professionnels. }  : La réduction d'impôt est de txcotsynd \% du montant de la cotisation syndicale dans la limite de plafcotsynd (en \% du revenu brut (salaire et pension)).\\
+
+\item Dons effectués à des organismes d'aide aux personnes en difficulté : La réduction d'impôt est de txColuche \% du montant des dons dans la limite de plafColuche.  Le montant des dons excédant plafColuche est considéré comme un don aux autres \oe uvres.\\
+
+\item	Autres Dons\footnote{Voir p57 guide du contribuable 2011 pour le champ d'application de cette réduction d'impôt.}  : La réduction d'impôt est de txDons \% du montant des dons dans la limite de plafdons (en \% du revenu imposable).  Lorsque le montant de dons excède plafdons \% du revenu imposable, l'excédent peut être reporté sur les cinq années suivantes.\\
+
+\item	Investissements et travaux forestiers : La réduction d'impôt est de txforet \% de la base globale (investissements et travaux) dans la limite annuelle de plafforet (à doubler pour couple marié ou pacsé).\footnote{Depuis l'imposition des revenus de 2006, le dispositif s'est étendu aux travaux forestiers.}\\
+
+\item	Souscriptions de parts de fonds communs de placement dans l'innovation, fonds d'investissement de proximité :
+Les souscriptions à compter du 1\er janvier 1997 de parts de fonds communs de placement dans l'innovation ou de fonds d'investissement de proximité  ouvre droit à une réduction d'impôt de txFCP\_1 \% des sommes versées dans la limite de plafFCP (à doubler par couple marié ou pacsé). En contrepartie, le souscripteur s'engage à conserver ses parts pendant 5 ans au moins. Si le fonds est situé en Corse, le taux de réduction est de txFCP\_2 \% depuis l'imposition des revenus de 2007.\\
+
+\item Souscriptions au capital de SOFICA\footnote{Société ayant pour activité exclusive le financement en capital d\oe uvres cinématographiques ou audiovisuelles agréées.}  : La réduction d'impôt est égale à txSOFICA\_1 \% des sommes versées au capital de SOFICA dans la double limite de base\_SOFICA \% du revenu net global et de plaf\_SOFICA. Ce taux passe à txSOFICA\_2 \% lorsque la société s'engage à réaliser au moins 10\% de ses investissements dans des sociétés de production avant le 31 décembre de l'année suivant celle de la souscription.\footnote{Modification : Depuis la loi de finances rectificative de 2006, les déductions du revenu global net au titre des souscriptions au capital des SOFICA deviennent des réductions d'impôt. Notes : Attention le report ne s'effectue qu'au niveau des versements et non pas de la réduction d'impôt. Ainsi, si l'impôt n'est pas suffisant pour absorber la réduction d'impôt issue des versements reportés, le solde sera définitivement perdu.}\\
+
+\item Souscriptions au capital des PME : Les souscriptions en numéraire au capital des PME ouvrent droit à une réduction d'impôt de tx\_PME \% du montant des versements effectués au cours de l'année d'imposition. Ces versements sont retenus dans la limite de plafPME (à doubler si couple marié ou pacsé). La fraction des versements annuels qui excèdent les limites ouvrent droit à la réduction d'impôt au titre des 4 années suivantes dans les mêmes limites annuelles.\footnote{Modifications : A partir de 2002, il est institué un mécanisme de report sur les trois années suivantes. A partir de 2007, la période d'imputation des versements excédentaires passent de 3 à 4 ans.}\\
+
+\item Investissement locatif dans le secteur touristique :
+\begin{enumerate} [a)]
+\item Logement acquis ou achevé l'année d'imposition des revenus :\\
+La réduction d'impôt est égale à Txtourismeneuf \% du prix de revient ou du prix d'achat.
+
+\item Résidence hôtelière à vocation sociale :\\
+La réduction d'impôt est égale à Txtourismeneuf \% du prix de revient ou du prix d'achat.
+
+\item	Logement réhabilité achevé avant le 01/01/1989 :\\
+La réduction d'impôt est égale à Txtourismereconstruction2 \% du prix de revient ou du prix d'achat.
+
+\item Travaux de reconstruction, d'agrandissement, de réparations ou de d'amélioration :
+        \begin{itemize}
+        \renewcommand{\labelitemii}{$\centerdot$}
+        \item La réduction d'impôt est égale à Txtourismereconstruction2 \% des montants des travaux dans un logement faisant partie d'une résidence de tourisme ou destinés à la location en la qualité de meublé de tourisme.
+        \item La réduction d'impôt est égale à Txtourismereconstruction1 \% des montants des travaux faisant partie d'un village résidentiel de tourisme situé dans une ORIL.\footnote{Opération de Réhabilitation de l'Immobilier de Loisir} L'ensemble de ces réductions s'effectuent dans la limite de limittourisme (à doubler pour les couples mariés ou pacsés). Elle est répartie sur 6 ans. L'imputation est effectuée la première année à raison de 1/6 de limittourisme.\\
+        \end{itemize}
+
+Modifications (voir BO 5 B-14-06 renommé inv\_loc\_2006 pour plus de détails) :
+
+La réduction d'impôt est étendue aux logements achevés ou acquis à compter du 1\er janvier 2001 , qui font partie d'une résidence de tourisme classée située dans une zone rurale.
+
+A compter du 1\er janvier 2004, la réduction d'impôt est étendue aux acquisitions de logements achevés avant le 1\er janvier 1989 et qui font l'objet de travaux de réhabilitation. La réduction d'impôt applicable aux acquisitions de logements en vue d'être réhabilités s'étale sur six ans et non sur quatre ans. Son taux est de 20 \%. Le taux applicable aux acquisitions de logements neufs ou en état futur d'achèvement est relevé de 15 \% à 25 \% et le taux applicable aux travaux réalisés sur ces logements est relevé de 10 \% à 20 \%. Les plafonds sont également relevés de 45 760 \euro à 50 000 \euro pour une personne célibataire, veuve ou divorcée et de 91 520 \euro à 100 000 \euro pour un couple marié.
+
+Par ailleurs, le champs d'application de ces réductions d'impôt a été modifié au cours des années (voir BO).\\
+
+\end{enumerate}
+
+
+\item	Investissements Outre-mer (crée par loi de finance 2001) :\\
+Cette réduction a été créée par la loi de finances de 2001. Les modalités de calculs de cette réduction diffèrent selon le secteur d'activité (logement, logement social, investissement productif pour entreprise). Pour une même année d'imposition, le montant total de réduction d'impôt est limité pour un foyer fiscal à plafglobalOutremer ou si ce montant est plus élevé à plafglobalOutremer2 (qui correspond à un pourcentage du revenu net global du foyer).
+
+La réduction d'impôt est étalée sur 5 ans. Chaque année, la base de la réduction d'impôt est donc égale à 20 \% des sommes payées.
+
+La réduction d'impôt est égale à txOutremer\_2 \% de la base pour les acquisitions ou constructions d'habitation principale du contribuable et pour les travaux de réhabilitation dans des logements achevés depuis plus de 40 ans pour les investissements réalisés avant le 27 mai 2009 ou depuis plus de 20 ans pour ceux réalisés après cette date.
+
+La réduction d'impôt est égale à txOutremer\_1 \%  de la base retenue, pour les acquisitions ou constructions de logements neufs donnés en location nue dans le secteur libre, pour les souscriptions au capital de sociétés dont l'objet réel est de construire des logements neufs ou de SCPI. On ne retient que 50\% de la base retenue pour les investissements réalisés dans les autres secteurs d'activité.
+
+\textcolor{red}{A développer car il existe des changements chaque année + niche fiscale complexe}\\
+
+\item	Scolarisation d'enfants à charge :\\
+La réduction d'impôt est de collège pour les enfants scolarisés au collège, de lycée pour ceux scolarisés au lycée et d'université pour ceux scolarisés à l'université.\\
+
+\item Dépenses d'accueil dans un établissement pour personnes âgées dépendantes : \\
+25\% des sommes versées limitées à 10 000 \euro~par personne hébergée depuis l'imposition des revenus de 2010.\\
+\end{itemize}
+
+
+\section{Calcul de l'impôt net}
+
+Pour obtenir l'impôt net, il faut déduire de l'impôt brut la décote et les réductions d'impôt. On ajoute ensuite à celui-ci l'impôt au titre des plus-values. Enfin, on déduit la prime pour l'emploi (après imputation du RSA) ainsi que les crédits d'impôt. Si les crédits d'impôts et la prime pour l'emploi sont supérieurs à l'impôt dû, l'excédent sera restitué au contribuable. Par ailleurs, depuis l'imposition des revenus des revenus de 2010, certaines niches fiscales font l'objet d'un plafonnement global.
+
+\subsection{Imposition des plus-values}
+
+Les gains nets résultant de la cession de valeurs mobilières sont  imposés au taux forfaitaire de tx\_pv dès lors que le montant des cessions excède le seuil  seuil\_pv\footnote{Cases VG ou VH de la déclaration des revenus de 2009.}. A noter, les pertes subies au cours d'une même année sont imputables uniquement sur les gains de même nature réalisés au cours de cette année ou des dix années suivantes.\\
+
+Modification :
+A compter du 1\er janvier 2012, le seuil seuil\_pv est supprimé.\\
+A compter de 2011, un dispositif transitoire est mis en place. \\
+A partir du 1\er janvier 2002, le délai d'imputation des pertes sur les gains de même nature passe de 5 ans à 10 ans.\\
+
+\underline{Gains résultant de la levée d'options :}
+
+Trois prix doivent être pris en compte dans le calcul de l'imposition des gains d'options : le prix de souscription de l'option, le prix au moment de la levée de l'option et le prix au moment de la vente. La levée d'option permet en effet d'acheter des actions à un prix fixé à l'avance. Le bénéficiaire de ces options n'est toutefois pas obligé de les revendre immédiatement. Dans ce cas, la différence entre le prix au moment de la levée d'option et le prix de souscription de l'option est imposée au titre des gains résultant de la levée d'options. Au contraire, la différence entre le prix de vente  et le prix de la levée d'option est imposée au titre des gains de cession de valeurs mobilières.\\
+
+Délai d'indisponibilité = 4 ans à compter de la date d'attribution de l'option (5 ans pour les options attribués avant le 27/04/2000).\\
+Si le délai d'indisponibilité n'est pas achevé, les gains résultant de la levée d'option sont imposables à l'IR au titre des salaires et traitements.\\
+Si le délai d'indisponibilité est achevé :
+\begin{itemize}
+
+\item	Pour les actions acquises avant le 01/01/90 : exonération complète d'IR des gains résultant de la levée d'option. La différence entre le prix de vente et le prix de la levée d'option est imposée au titre des gains  de cessions des valeurs mobilières.
+\item	Pour les actions acquises après le 01/01/90, le gain est imposable selon les règles applicables aux plus-values mobilières
+\item	Pour les options attribuées à compter du 20/09/95 et avant le 27/04/20000, les gains résultant de la levée d'option sont imposables au taux tx\_pv2 ou suivant les règles applicables aux traitements et salaires (choix du contribuable).
+\item	Pour les options attribuées à compter du 27/04/2000, les gains résultant de la levée d'option sont imposables au taux tx\_pv2 pour la fraction n'excédant pas seuil\_pv1 et tx\_pv1 pour la fraction supérieure. Toutefois ces taux sont réduits respectivement à tx\_pv et tx\_pv2 lorsque les actions sont conservées deux ans au moins au-delà du délai d'indisponibilité.
+\end{itemize}
+
+
+\subsection{Détermination des crédits d'impôts :}
+
+\begin{itemize}
+\item Crédit d'impot exceptionnelle en 2009 pour contribuables modestes\footnote{Art. 1\er de la loi de finances rectificative du 20/04/2009} :\\
+Pour les contribuables dont le revenu net imposable par part n'excède pas 11~673~\euro, l'impôt brut après décote est réduit des 2/3. Au-delà de ce seuil, une réduction linéaire décroissante est appliquée. Elle devient nulle pour les contribuables disposant d'un revenu par part supérieur à 12~475~\euro.\\
+
+\item Frais de garde des enfants :\\
+La réduction d'impôt est accordée aux contribuables célibataires, veufs, divorcés ou séparés, domiciliés en France et qui exercent une activité professionnelle. La même possibilité est accordée aux foyers fiscaux dans lesquels chacun des conjoints, soit occupe un emploi au moins à mi-temps, soit ne peut exercer cette activité du fait d'une longue maladie ou d'une infirmité ou poursuit des études dans l'enseignement supérieur. Les enfants ouvrant droits à réduction d'impôt sont ceux âgés de moins de 6 ans au 1\er janvier de l'année d'imposition.
+
+La réduction est de txgardenf \% des dépenses pour frais de garde hors du domicile dans la limite de plafgardenf\footnote{Après déductions éventuelles de l'allocation mensuelle versée par la CAF et des indemnités pour frais de garde d'enfant reçues de l'employeur.}  par enfants. Le plafond est à diviser par deux en cas de garde alternée.\footnote{Modifications : A partir de l'imposition des revenus de 2005, la réduction d'impôt peut devenir un crédit d'impôt.}\\
+
+\item Sommes versées pour l'emploi d'un salarié à domicile :\\
+ La réduction d'impôt est égale à txsaldomicile \% des dépenses effectivement supportées par le contribuable dans la limite de plafsaldomicile majorée de increment\_plafsaldomicile par enfant à charge et au titre de chacun des membres du foyer fiscal ou ascendants âgés de plus de 65 ans. Ce plafond augmenté des majorations ne peut toutefois pas excéder superplafsaldom. Le plafond des dépenses passe à plafsaldominvalide pour les contribuables dont l'un des membres du foyer fiscal est invalide.\footnote{Modification : A compter de l'imposition des revenus de 2007, la réduction d'impôt peut également devenir un crédit d'impôt. A compter de l'imposition des revenus de 2009, le plafond des dépenses passe de 12 000 \euro à 15 000 \euro et de 15 000 \euro à 18000 \euro  pour les invalides lors de la première utilisation de l'avantage fiscal.}
+
+\end{itemize}
+
+
+\subsection{Plafonnement global des niches :}
+Depuis la loi de finances 2010, le montant global d'un certain nombre d'avantages fiscaux est plafonné à la somme d'un montant forfaitaire (plaf\_nich) et d'un taux du revenu net imposable (tx\_nich). Ce plafonnement est déterminé au niveau du foyer fiscal. Certains avantages ne sont pas soumis au plafonnement : adhésion CGA, cotisations syndicales, frais de scolarité, dons aux \oe uvres, équipement personnes âgées et PPE.
+
+\[\textrm{plafonnement global} = \textrm{plaf\_nich} + \textrm{tx\_nich} \times \textrm{revenu net imposable} \]
+
+
+
+\subsection{Changement de statut matrimonial :}
+Ce dispositif a été supprimé à compter de l'imposition des revenus de 2010.
+\begin{itemize}
+\item Dans le cas d'un mariage ou d'un pacs intervenu au cours de l'année de déclaration des revenus, trois déclarations doivent être remplies. Chacun des époux remplit une déclaration de ses revenus personnels réalisés du 1\er janvier à la date du mariage, puis une déclaration commune des  revenus dont ils ont disposé de la date du mariage au 31 décembre de l'année.
+\item	Dans le cas d'un divorce, trois déclarations doivent également être remplies. Une déclaration commune du 1\er janvier à la date du divorce puis deux déclarations séparées de la date du divorce au 31 décembre.
+\item	Dans le cas d'un décès, deux déclarations doivent être remplies. Une déclaration commune du 1\er janvier à la date du décès puis la déclaration des seuls revenus du veuf ou de la veuve de la date du décès au 31 décembre.\footnote{Modification : Depuis le 1er janvier 2005, les personnes ayant souscrit un Pacs sont fiscalement considérées comme des personnes mariées.}
+\end{itemize}
+
+\subsection{Prime pour l'emploi}
+
+La prime pour l'emploi a été créée par la loi \no 2001-458 du 30 mai 2001, codifiée à l'article 200 sexies du CGI.\footnote{(Voir bulletin officiel des impôts rebaptisé \og création PPE 2001 \fg), Pour connaitre l'ensemble des modifications intervenues depuis 2001 : voir modif\_annéeconsidérée}\\
+Son but est d'inciter au retour à l'emploi ou au maintien de l'activité, en compensant une partie des prélèvements pesant sur les revenus d'activité et en améliorant ainsi la rémunération que procure le travail.
+
+\subsubsection{Conditions d'éligibilité :}
+\begin{itemize}
+\item	Le revenu fiscal de référence ne doit pas dépasser un certain seuil qui dépend du nombre de parts fiscales du foyer.
+\item	L'un des membres du foyer au moins doit exercer une activité professionnelle. L'activité peut être salariée ou non-salariée (artisans, commerçants, agriculteurs, professions libérales,\ldots), exercée à temps plein, à temps partiel ou une partie de l'année
+\item	le revenu procuré par l'activité professionnelle doit être compris entre certaines limites.
+\end{itemize}
+
+\begin{enumerate} [a)]
+\item Revenu fiscal de référence :
+
+ \begin{table} [ht!]
+ \centering
+\caption{Condition portant sur le seuil fiscal de référence (rfr) }
+\begin{threeparttable}
+\vspace{0.1cm}
+\begin{tabular}  {|c|c|c|c|}
+\hline
+   & \multicolumn{3}{c|}{Seuil d'éligibilité à la PPE (seuil du rfr)} \\
+\hline
+ \multirow{2}{*}{année}       & personne  & pour un couple   & augmentation du seuil   \\
+        & seule     &    marié ou pacsé         & par demi-part de QF \\
+\hline
+2000	&11 586 \euro	   & 23 172 \euro	         &    3 201 \euro           \\
+2001	&11 772 \euro	   & 23 544 \euro	         &    3 253 \euro           \\
+2002	&11 972 \euro	   & 23 944 \euro	         &    3 308 \euro           \\
+2003	&12 176 \euro	   & 24 351 \euro	         &    3 364 \euro           \\
+2004	&12 383 \euro	   & 24 765 \euro	         &    3 421 \euro           \\
+2005	&15 758 \euro	   & 31 514 \euro	         &    4 354 \euro           \\
+2006	&16 042 \euro	   & 32 081 \euro	         &    4 432 \euro           \\
+2007	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+2008	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+2009	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+2010	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+\hline
+\end{tabular}
+\begin{tablenotes} \footnotesize
+\item Pour toucher la PPE en 2001, le revenu fiscal de référence de l'année 2000 d'un couple marié avec deux enfants ne devaient pas dépasser 29 575 \euro (23 172 + 3201*2).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+
+\item Revenu d'activité professionnel \\
+\end{enumerate}
+\underline{Nature des revenus professionels :}\\
+\begin{itemize}
+\item L'activité professionnelle exercée doit procurer des revenus imposables en traitements et salaires, ainsi que dans la catégorie des gérants et associés de sociétés visée à l'article 62 du code général des impôts et dans celle des bénéfices professionnels agricoles, industriels et commerciaux ou non commerciaux.\\
+
+\item Sont par conséquent exclus du champ d'application de la prime pour l'emploi les revenus déclarés en pensions, retraites et rentes, ainsi que dans les catégories des revenus fonciers, des revenus de capitaux mobiliers ou des plus-values.\\
+
+\item De même, sont exclus les revenus non professionnels imposés dans les catégories des bénéfices agricoles, des bénéfices industriels et commerciaux ou des bénéfices non commerciaux (ex. : loueurs en meublés non professionnels, \ldots).\\
+
+\item Sont également exclus les prestations sociales légales (allocations familiales, allocations logement, allocation de parent isolé, allocation de rentrée scolaire, allocation aux adultes handicapés, \ldots) ainsi que le revenu minimum d'insertion.\\
+\end{itemize}
+\underline{Prise en compte des revenus professionnels :}\\
+        \begin{itemize}
+        \item Les revenus d'activité professionnelle retenus pour le calcul de la prime pour l'emploi sont ceux déclarés par chaque membre du foyer fiscal sur la déclaration d'ensemble des revenus. Ainsi, les revenus salariaux doivent être retenus pour leur montant brut, c'est-à-dire avant toute déduction de frais professionnels (déduction forfaitaire de 10\% ou frais réels) et imputation de l'abattement de 20\%. Pour les personnes qui exercent plusieurs activités (salariées ou non-salariées), le revenu à prendre en compte est égal à la somme des différents revenus d'activité professionnelle déclarés, convertis le cas échéant en équivalent temps plein sur l'année entière.\\
+
+        \item Les déficits constatés au titre d'une activité professionnelle ne sont pas retenus pour le calcul de la prime pour l'emploi. Toutefois, en cas d'activités multiples exercées par une même personne, il est fait masse des sommes déclarées à son nom d'une part en revenu et d'autre part en déficit pour déterminer l'assiette de la prime pour l'emploi\\
+
+        \item Par exception, pour les contribuables relevant du régime micro-entreprise ou du régime déclaratif spécial, le revenu d'activité pris en compte correspond au bénéfice tiré de cette activité. Ce bénéfice net est égal au montant porté sur la déclaration d'ensemble des revenus diminué des abattements forfaitaires de 70\% (activités de ventes de marchandises ou assimilées), de 50\% (activités de prestations de services) ou de 35\% (activités imposées dans la catégorie des bénéfices non commerciaux).\\
+
+        \item afin d'assurer une égalité de traitement avec les salariés pour lesquels le calcul de la prime pour l'emploi est assis sur le salaire déclaré avant déduction des frais professionnels (déduction forfaitaire de 10\% ou frais réels), le total des bénéfices non-salariés déclarés, après application des abattements pour les contribuables relevant du régime micro-entreprise ou du régime déclaratif spécial (cf. ci-dessus) et imputation éventuelle des
+        déficits constatés au titre de l'année résultant d'autres activités non-salariées professionnelles, est majoré de 11,11\%.\footnote{Pour plus de détails, voir document \og creation PPE 2001.pdf \fg}\\
+        \end{itemize}
+
+
+\begin{table} [H]
+ \centering
+\caption{Conditions portant sur le revenu d'activité}
+\begin{threeparttable}
+\vspace{0.1cm}
+\begin{tabular}  {|c|c|c|c|}
+\hline
+   & \multicolumn{3}{c|}{Seuil d'éligibilité à la PPE (revenu d'activité)} \\
+\hline
+ année      &   Seuil\_ppe\_min    & Seuil\_ppe\_max & seuil\_ppe\_max\_coup   \\
+        \hline
+2000 &	3 137 \euro &	14 638 \euro &	22 297 \euro       \\
+2001	&3 187 \euro 	&14 872 \euro 	&22 654 \euro       \\
+2002	&3 265 \euro 	&15 235 \euro 	&23 207 \euro       \\
+2003	&3 372 \euro 	&15 735 \euro 	&23 968 \euro       \\
+2004	&3 507 \euro 	&16 364 \euro 	&24 927 \euro       \\
+2005	&3 570 \euro 	&16 659 \euro 	&25 376 \euro       \\
+2006	&3 695 \euro 	&17 227 \euro 	&26 231 \euro       \\
+2007	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+2008	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+2009	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+2010	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+\hline
+\end{tabular}
+\begin{tablenotes} \footnotesize
+\item Seuil\_ppe\_min :\\
+Pour bénéficier de la prime pour l'emploi, le total des revenus d'activité professionnelle déclarés doit être supérieur ou égal à ce seuil.\\
+
+\item Seuil\_ppe\_max :\\
+Ce montant équivaut à un revenu d'activité professionnelle exercée à temps plein.
+Cette limite s'applique :
+            \begin{itemize}
+              \renewcommand{\labelitemi}{$\centerdot$}
+            \item aux personnes célibataires, veuves ou divorcées sans enfants ou avec des enfants qu'elles n'élèvent pas seules (en pratique, le second cas correspond à celui des personnes seules n'ayant pas coché la case T de la déclaration de revenus) ;
+            \item aux personnes mariées soumises à imposition commune lorsque chacun des membres du couple exerce une activité professionnelle procurant des revenus d'un montant au moins égal à seuil\_ppe\_min.\\
+            \end{itemize}
+
+\item Seuil\_ppe\_max\_coup :\\
+Cette limite s'applique :
+        \begin{itemize}
+          \renewcommand{\labelitemi}{$\centerdot$}
+         \item aux personnes mariées soumises à imposition commune lorsque l'un des conjoints n'exerce aucune activité professionnelle ou dispose de revenus d'activité professionnelle d'un montant inférieur à seuil\_ppe\_min.
+        \item aux personnes célibataires, veuves ou divorcées élevant seules un ou plusieurs enfants à charge.
+        \end{itemize}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{table}
+
+
+\underline{Conversion temps partiel / temps plein :}\\
+
+Lorsque l'activité professionnelle n'est pas exercée à temps plein (temps partiel, début ou fin d'activité en cours d'année), les revenus d'activité professionnelle déclarés doivent être convertis en équivalent temps plein pour apprécier les limites citées plus haut.\\
+
+\begin{tabular} {ll}
+Taux de conversion &= 1820 / nb heures déclarées pour salariés \\
+	               &= 360 / nb de jours travaillés pour non salariés \\
+\end{tabular}
+
+
+Si le coefficent est inférieur à 1, on ne fait pas la conversion.
+Exemple : une personne a exercé une activité salariée à temps partiel au cours de l'année 2000. Elle a effectué 1 400 heures rémunérées et déclare pour seul revenu 55 000 F de salaire au titre de cette activité.
+Afin d'apprécier si le revenu déclaré entre dans le champ d'application de la prime pour l'emploi, il doit être converti en équivalent temps plein de la manière suivante :
+$55 000 F \times 1 820/1400 = 71 500 F$.
+Ce montant étant inférieur à la limite de 96 016 F, cette personne peut bénéficier de la prime pour l'emploi.
+
+Toutefois, afin de ne pas attribuer la prime pour l'emploi à des activités occasionnelles ou saisonnières ou à des temps partiels très limités, la limite inférieure de seuil\_ppe\_min est intangible : les revenus d'activité professionnelle inférieurs à cette limite, que cette activité soit exercée à temps plein, à temps partiel ou sur une partie de l'année seulement, sont exclus du champ d'application de la prime pour l'emploi. Par conséquent, la conversion en équivalent temps plein du revenu d'activité professionnelle ne doit pas être effectuée lorsque la totalité du revenu d'activité professionnelle est inférieure à seuil\_ppe\_min.
+
+Depuis l'imposition des revenus de 2002, institution une majoration de la PPE en faveur des personnes qui travaillent à temps partiel ou une partie de l'année seulement, afin de rendre l'exercice d'une telle activité plus incitatif.(voir modifPPE\_2003).
+\begin{itemize}
+\item Lorsque ce coefficient est égal ou supérieur à 2 (activité exercée entre 30\% et 50\% d'un temps plein annuel), le montant de la prime correspondant à la durée effective d'activité est majoré de maj\_ppe\_tp\%.
+\item Lorsque le coefficient de conversion est compris entre 1 et 2 (activité exercée au delà de 50\% d'un temps plein annuel), le montant de la prime majorée est obtenu en opérant l'addition des deux termes suivants :
+le premier est égal à maj\_ppe\_tpbis\% du montant de la PPE correspondant à la durée effective d'activité
+le second est égal à maj\_ppe\_tp\% du montant de la prime \og équivalent temps plein \fg
+\end{itemize}
+
+\begin{table} [ht!]
+ \centering
+\caption{calcul du temps partiel}
+\begin{tabular}  {|c|c|c|c|}
+\hline
+année	& maj\_ppe\_tp	& maj\_ppe\_tpbis \\
+\hline
+2000	& 	            &                  \\
+2001	& 	            &                    \\
+2002	&45\%	        &55\%                   \\
+2003	&45\%	        &55\%                     \\
+2004	&45\%	        &55\%              \\
+2005	&65\%	        &35\%              \\
+2006	&85\%	        &15\%                \\
+2007	&85\%	        &15\%                  \\
+2008	&85\%	        &15\%                    \\
+2009	&85\%	        &15\%                    \\
+2010	&85\%	        &15\%                      \\
+\hline
+ \end{tabular}
+ \end{table}
+
+
+
+\subsubsection{	Calcul de la PPE}
+\begin{enumerate} [a)]
+
+\item Cas général :\\
+A noter, le montant de la PPE résultant du calcul théorique et devant être versé en 2000 est doublé cette année.
+
+\begin{table} [ht!]
+ \centering
+\caption{Paramètre de calcul de la PPE : cas général}
+\begin{tabular}  {|c|c|c|c|c|c|}
+\hline
+année	    & 	tx\_ppe	     &   tx\_ret\_ppe   &	supp\_ppe\_coup    &	supp\_ppe\_enf	       &     ppe\_min                  \\
+\hline
+2000		&        2.2\%    &	5.5\%	      &   76 \euro	     &               30 \euro      &   	24 \euro             \\
+2001		&        4.4\%    &	11.0\%         &   	78 \euro     &          	31 \euro	   &25 \euro                      \\
+2002		&        4.4\%    &	11.0\%         &   	79 \euro     &          	32 \euro	   &25 \euro                        \\
+2003		&        4.6\%    &	11.5\%         &   	80 \euro     &          	33 \euro	   &25 \euro                  \\
+2004		&        4.6\%    &	11.5\%         &   	81 \euro     &          	34 \euro	   &25 \euro                  \\
+2005		&        6.8\%    &	17.0\%         &   	81 \euro     &          	35 \euro	   &30 \euro                   \\
+2006		&        7.7\%    &	19.3\%         &   	82 \euro     &          	36 \euro	   &30 \euro                     \\
+2007		&        7.7\%    &	19.3\%         &   	83 \euro     &          	36 \euro	   &30 \euro                       \\
+2008		&        7.7\%    &	19.3\%         &   	83 \euro     &          	36 \euro	   &30 \euro                       \\
+2009		&        7.7\%    &	19.3\%         &   	83 \euro     &          	36 \euro	   &30 \euro                         \\
+2010		&        7.7\%    &	19.3\%         &   	83 \euro     &          	36 \euro	   &30 \euro                         \\
+\hline
+\end{tabular}
+\end{table}
+
+La  prime pour l'emploi est égale à tx\_ppe \% du revenu d'activité professionnelle déclaré  jusqu'à un montant ne dépassant pas seuilppe.
+Au-delà de ce niveau de revenu, la prime pour l'emploi est dégressive : elle est égale à tx\_ret\_ppe \%  de la différence entre seuil\_ppe\_max et le montant du revenu d'activité professionnelle déclaré.
+
+Ex : Pour un revenu déclaré de 4000 \euro en 2001, la PPE est de 0.04*4000 = 160 \euro
+Pour un revenu déclaré de 12 000 \euro en 2001, la PPE est de (12 000 - 10 623)*0.11 = 151.47 \euro
+
+La prime accordée au foyer fiscal est égale au total des primes accordées à chaque membre du foyer fiscal exerçant une activité professionnelle (d'un montant supérieur à seuil\_ppe\_min).
+
+\item cas du temps partiel :\\
+
+Lorsque l'activité professionnelle est exercée à temps partiel ou sur une partie de l'année seulement, la prime pour l'emploi est calculée sur un revenu d'activité professionnelle converti en équivalent temps plein.
+Le montant de la prime ainsi calculé est ensuite divisé par le coefficient de conversion retenu pour apprécier le revenu d'activité professionnelle déclaré en équivalent temps plein.
+
+\item cas des foyers mono-actifs :\\
+
+\begin{table} [ht!]
+ \centering
+\caption{Paramètres de calcul de la PPE : cas des foyers mono-actifs}
+\begin{tabular}  {|c|c|c|c|}
+\hline
+année 	&seuil\_ppe\_coup	  &    seuil\_ppe\_coup\_max     & 	tx\_ret\_ppe\_coup     \\
+\hline
+2000    &	20 911 \euro	  &  22 297 \euro	             &   5.5\%                     \\
+2001	&21 246 \euro	      &  22 654 \euro	             &   5.5\%                      \\
+2002	&21 764 \euro	      &  23 207 \euro	             &   5.5\%                        \\
+2003	&22 478 \euro	      &  23 968 \euro	             &   5.5\%                          \\
+2004	&23 377 \euro	      &  24 927 \euro	             &   5.5\%                          \\
+2005	&23 798 \euro	      &  25 376 \euro	             &   5.5\%                            \\
+2006	&24 630 \euro	      &  26 231 \euro	             &   5.1\%                            \\
+2007	&24 950 \euro	      &  26 572 \euro	             &   5.1\%                      \\
+2008	&24 950 \euro	      &  26 572 \euro	             &   5.1\%                      \\
+2009	&24 950 \euro	      &  26 572 \euro	             &   5.1\%                       \\
+2010	&24 950 \euro	      &  26 572 \euro	             &   5.1\%                         \\
+\hline
+\end{tabular}
+\end{table}
+
+Un couple soumis à imposition commune est considéré comme mono-actif lorsque l'un des deux membres du couple n'exerce aucune activité professionnelle ou déclare des revenus d'activité professionnelle pour un montant inférieur à seuil\_ppe\_min.
+
+Pour un revenu d'activité professionnel inférieur ou égal à seuil\_ppe\_max, le calcul de la PPE ne change pas du cas général. Une majoration de sup\_ppe\_coup est toutefois accordée.
+
+ Lorsque le revenu d'activité professionnelle est supérieur à seuil\_ppe\_max mais inférieur à seuil\_ppe\_coup, le montant de la prime pour l'emploi est fixé forfaitairement à sup\_ppe\_coup.
+
+Lorsque le revenu d'activité professionnelle est supérieur à seuil\_ppe\_coup et inférieur à seuil\_ppe\_max\_coup, la prime est égale à taux\_ret\_ppe \% de la différence entre seuil\_ppe\_max\_coup et le montant des revenus d'activité professionnelle déclarés ou convertis en équivalent temps plein.
+
+Quelque soit le cas de figure, sup\_ppe\_coup n'a pas à être proratisé en fonction du temps effectivement travaillé.
+
+\item majoration accordée pour charge de famille : \\
+
+Des majorations sont accordées pour tenir compte de la présence de personnes à charge au sein du foyer fiscal. Il suffit que le total des revenus d'activité d'un seul des deux conjoints d'un couple marié soumis à imposition commune soit inférieur à seuil\_ppe\_max pour que le foyer fiscal bénéficie des majorations accordées pour charges de famille.
+
+\underline{Définition des personnes à charge ouvrant droit à une majoration :}
+
+enfants mineurs ou infirmes, enfants recueillis au foyer du contribuable, personnes titulaires de la
+carte d'invalidité de 80 \% et vivant sous le toit du contribuable, enfants majeurs ayant demandé leur rattachement au foyer fiscal lorsque ces personnes n'exercent aucune activité professionnelle ou disposent de revenus d'activité professionnelle inférieurs à seuil\_ppe\_min. En cas de changement de situation de famille en cours d'année (mariage, divorce, décès), la majoration est accordée à chaque foyer fiscal comptant les personnes à charge. Ces majorations s'appliquent même lorsque ces personnes ne sont à la charge du foyer qu'une fraction de l'année.
+
+La majoration est de sup\_ppe\_enf par personne à charge.
+Pour les contribuables célibataires ou divorcés qui vivent seuls et supportent effectivement la charge d'un ou de plusieurs enfants, la majoration pour charges de famille est fixée à $2\times sup\_ppe\_enf$ pour la première personne à charge puis à sup\_ppe\_enf par personne à charge à compter de la deuxième.
+
+\underline{Cas particulier : foyer mono-actif  et personne vivant seule avec des enfants}
+
+Lorsque les revenus d'activité professionnelle sont supérieures à seuil\_ppe\_max et inférieurs à seuil\_ppe\_max\_coup le montant de la majoration pour charges de famille est fixé forfaitairement, quel que soit le nombre des personnes à charge, à sup\_ppe\_coup pour les couples mono-actifs et à $2\times sup\_ppe\_coup$ pour les personnes célibataires ou divorcées qui vivent seules et supportent effectivement la charge d'un ou de plusieurs enfants (même si elles ne touchent pas de PPE).
+
+Le montant total de la prime accordée à un même foyer fiscal ne peut être inférieur à ppe\_min.
+Ex : si la prime à verser est de 23 euros et que ppe\_min = 25 euros, on versera 25 euros à la personne.
+A partir du 1\er janvier 2006 (revenu de 2005), la logique est inversée  : aucune prime n'est versée si son montant n'est pas au moins égal à ppe\_min \euro.
+
+
+
+\underline{Tableaux récapitulatifs de la PPE}\\
+
+
+\begin{table} [ht!]
+ \centering
+\begin{adjustwidth}{-1cm}{}
+\caption{Calcul de la PPE :}
+\begin{threeparttable}
+\begin{tabular}  {|r c l|c|}
+\hline
+\multicolumn{3}{|c|}{si le revenu d'activité R}                  &     Formule de calcul de la prime                              \\
+\multicolumn{3}{|c|}{est compris entre :}                        &       sans majoration :	                                      \\
+\hline
+                                            \multicolumn{4}{|c|}{\textbf{Cas général}} 	                          \\
+\hline
+seuil\_ppe\_min & $\leq  R \leq$ & seuil\_ppe                   &      $R\times tx\_ppe$                                                   \\
+\hline
+seuil\_ppe      & $\leq R \leq$  & seuil\_ppe\_max	            &   $(seuil\_ppe\_max - R)\times tx\_ret\_ppe$                             \\
+\hline
+                                             \multicolumn{4}{|c|}{\textbf{mariés mono-actifs}}   \\
+\hline
+seuil\_ppe\_min & $\leq R \leq$ & seuil\_ppe	                &       $R\times tx\_ppe + sup\_ppe\_coup$                                 \\
+\hline
+\multicolumn{3}{|c|}{seuil\_ppe  $\leq R \leq$  seuil\_ppe\_max}	&       $(seuil\_ppe\_max - R)\times tx\_ret\_ppe$        \\
+           &               &                                      &       $+ sup\_ppe\_coup$ \\
+\hline
+seuil\_ppe\_max & $\leq R \leq$ &seuil\_ppe\_coup	            &          $sup\_ppe\_coup$                                      \\
+\hline
+seuil\_ppe\_coup & $\leq R \leq$ & seuil\_ppe\_max\_coup	   &   $(seuil\_ppe\_max\_coup - R)\times tx\_ret\_ppe$               \\
+\hline
+   \end{tabular}
+
+   \begin{tablenotes} \footnotesize
+   \item Le cas général représente les célibataires, veufs, divorcés , mariés bi-actifs ou personnes à charge du foyer
+exerçant une activité professionnelle au moins rémunérée à seuil\_ppe\_min.
+
+   \end{tablenotes}
+
+\end{threeparttable}
+   \end{adjustwidth}
+   \end{table}
+
+\begin{table} [ht!]
+ \centering
+\begin{adjustwidth}{-1.5cm}{}
+\caption{Majoration en fonction de la situation de famille :}
+\begin{tabular}  {|r c l|c|}
+\hline
+\multicolumn{3}{|c|}{si le revenu d'activité R}                  &     Montant de la majoration                                \\
+\multicolumn{3}{|c|}{est compris entre :}                        &       (Avec n personnes à charge)	                                      \\
+\hline
+                                    \multicolumn{4}{|c|}{\textbf{Célibataire, veuf, divorcé (ne vivant pas seuls) ou mariés bi-actifs}} 	                          \\
+\hline
+seuil\_ppe\_min &$\leq  R \leq$ & seuil\_ppe\_max	                      &  $n\times sup\_ppe\_enf$                 \\
+\hline
+		                            \multicolumn{4}{|c|}{\textbf{mariés mono-actifs}} \\
+\hline
+seuil\_ppe\_min & $\leq  R \leq$ & seuil\_ppe\_max	                      &  $n\times sup\_ppe\_enf$ \\
+seuil\_ppe\_max & $\leq R \leq$  & seuil\_ppe\_max\_coup	              & sup\_ppe\_enf       \\
+\hline
+            \multicolumn{4}{|c|}{\textbf{Célibataire veufs, divorcés (vivant seuls)}} \\
+\hline
+seuil\_ppe\_min & $\leq  R \leq$ & seuil\_ppe\_max	                      &  $2 \times sup\_ppe\_enf + (n-1) \times sup\_ppe\_enf$ \\
+seuil\_ppe\_max & $\leq R \leq$  & seuil\_ppe\_max\_coup	              &  $2 \times sup\_ppe\_enf$ \\
+ \hline
+\end{tabular}
+
+   \end{adjustwidth}
+   \end{table}		
+
+		
+\end{enumerate}
+
+ \end{document} 

@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                              PARAMÈTRES À DÉFINIR ICI                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Préciser si on veut la version pour impression (avec marges intérieures plus larges) ou la version pour la mise en ligne (avec marges symétriques)
+% Mettre "print" pour la version impression et "online" pour la version en ligne (valeur par défaut)
+%\def\version{online}
+\def\version{print}
+
+% Indiquer ici le titre qui s'affichera dans l'en-tête des pages paires
+\newcommand{\entetegauche}{Les prestations sociales en France: historique et législation}
+
+% Indiquer ici les meta-données du pdf (titre, auteur)
+\newcommand{\pdftitle}{Les prestations sociales en France: historique et législation}
+\newcommand{\auteurs}{Institut des Politiques Publiques}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         CHARGEMENT DES PACKAGES ET MACROS                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\isEmbedded}{true}
+
+% Chargement des packages
+\input{Style/ipp-packages}
+
+% Chargement des macros
+\input{Style/ipp-macros}
+
+% Meta-données du PDF
+\usepackage[pdftitle={\pdftitle},
+            pdfauthor={\auteurs},
+            colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}  %pour que le fichier PDF contiennent des liens hypertexte mais sans couleur
+
+%Chargement du package longtable
+\usepackage{ltxtable}
+\usepackage{lscape}
+
+
+% Chargement de la charte graphique
+\input{Style/ipp-charte}
+
+% Chargement du style de la bibliographie
+\bibliographystyle{Style/ipp-bibliostyle}
+
+\begin{document}
+
+% Profondeur de la numérotation des sections (sous-sous sections)
+\setcounter{secnumdepth}{3}
+% Profondeur de la table des matières (sous-sections)
+\setcounter{tocdepth}{2}
+
+% Pour changer la couleur des bullets dans les liste à puce %
+\renewcommand{\labelitemi}{${\color{ippdark}\bullet}$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                       COUVERTURE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion des deux pages de couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture1.pdf}
+\pagevide
+
+\includepdf[pages=1]{Couverture/couverture2.pdf}
+\pagevide
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                       AUTEURS                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\setstretch{1.7}
+
+\noindent \textcolor{ipplight}{\huge \fontfamily{pag} \textbf{\textsc{Les auteurs du
+rapport}}}\\\\
+
+\noindent \textcolor{ipplight}{\textbf{Auteur 1}} \lipsum[66]
+\noindent Page personnelle: \textcolor{ipplight}{http\string://www.ipp.eu/auteur1}\\
+
+\noindent \textcolor{ipplight}{\textbf{Auteur 2}} \lipsum[66]
+\noindent Page personnelle: \textcolor{ipplight}{http\string://www.ipp.eu/auteur2}\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    REMERCIEMENTS                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\pagestyle{headings}
+% La numérotation commence
+\setcounter{page}{1}
+
+\entetetwo{\entetegauche}{Remerciements}
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+
+\lipsum[1-2]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                        SYNTHÈSE                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Résumé}
+\cfchapter*{\label{Synthese}Résumé}{Sections/0-Synthese}{Synthese.tex}
+\addcontentsline{toc}{chapter}{Résumé}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                      SOMMAIRE                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Sommaire} \setstretch{1.2}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                CHAPITRES DU RAPPORT                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\setstretch{1.7}
+\entetetwo{\entetegauche}{Présentation générale}
+\cfchapter{\label{Présentation}Présentation générale}{Sections/1-Présentation}{Présentation.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~2 -- Les prestations familiales}
+\cfchapter{\label{Familles}Les prestations familiales}{Sections/2-Familles}{Familles.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~3 -- Les prestations logement}
+\cfchapter{\label{Logement}Les prestations logement}{Sections/3-Logement}{Logement.tex}
+
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~4 -- Les minima sociaux}
+\cfchapter{\label{Minima}Les minima sociaux}{Sections/4-Minima}{Minima.tex}
+
+\entetetwo{\entetegauche}{Conclusion générale}
+\chapter*{Conclusion générale}
+\addcontentsline{toc}{chapter}{Conclusion générale}
+\input{Sections/6-Conclusion/Conclusion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                    ANNEXE                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\entetetwo{\entetegauche}{Annexes}
+%\setcounter{chapter}{1}% Equivalent to "letter A"
+%\renewcommand{\thechapter}{\Alph{chapter}}%
+%\chapter*{Annexe : \\Variantes de date de transition \label{annexe}}
+%\addcontentsline{toc}{chapter}{Annexe : Variantes de date de transition}
+%\input{Chapitres/1-Synthese.tex}
+
+\entetetwo{\entetegauche}{Annexe A}
+\chapter*{Annexe A}
+\addcontentsline{toc}{chapter}{Annexe A}
+\input{Sections/7-AnnexeA/AnnexeA.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    BIBLIOGRAPHIE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\phantomsection
+\entetetwo{\entetegauche}{Références}
+\addcontentsline{toc}{chapter}{Références}
+\bibliography{Biblio/biblio-rapport}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                LISTE DES TABLEAUX                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\phantomsection
+\entetetwo{\entetegauche}{Liste des tableaux}
+\addcontentsline{toc}{chapter}{Liste des tableaux}
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                LISTE DES FIGURES                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Liste des figures}
+\entetetwo{\entetegauche}{Liste des figures}
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    4E de COUV                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagevide \pagevide
+% Inclusion du dos de la couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture4.pdf}
+
+\end{document}

@@ -1,0 +1,15 @@
+﻿Erreur dans les formules page 33 donnant les heures mensuelles pour les salariés au forfait
+Il faut retirer le 52/12 pour le forfait jours/année
+
+
+Il faut enlever le 151.67 pour le forfait heures/année
+
+Section dispositf unifié des allégemetns fillon (4.4.2 page 107 dans al version de septemrbe 2014)
+
+Erreur dans l'équation qui vient modifier la formule de la réduction (erreur dans les références également):
+  
+le terme de droite semble devoir être Smic horaire proratisé plutôt que SBM
+
+
+
+SMIC annuel au lieu de SMIC mensuel mentionné page 108 équation 4.8

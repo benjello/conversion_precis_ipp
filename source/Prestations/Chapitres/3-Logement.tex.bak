@@ -1,0 +1,63 @@
+Nous ne prenons pour l'instant en compte que l'allocation de logement à caractère familial (ALF), laissant de côté l'aide personnalisée au logement (APL) et l'allocation de logement à caractère social.
+
+\section{L'Allocation de logement à caractère familial (ALF)}
+
+L'ALF est une prestation familiale à affectation spécialisée qui vise à couvrir une partie des dépenses de logement d'un ménage, soit au titre d'une installation récente soit au titre de la présence de personnes à charge. Elle comporte l'avantage annexe de la prime au déménagement que nous ne modélisons pas.
+
+\subsection{Conditions d'éligibilité}
+
+\subsubsection{Titre auquel l'allocation est due}
+
+L'ALF peut être due à trois titres. Sont éligibles à l'ALF les personnes qui:
+\\soit premièrement bénéficient déjà de l'une des prestations familiales suivantes: allocations familiales, complément familial, allocation pour jeune enfant, allocation de soutien familial ou allocation d'éducation spéciale;
+\\soit deuxièmement ont une ou plusieurs personnes à charge;
+\\soit troisièmement sont chef de famille sans enfants si les époux ont moins de 40 ans au moment du mariage, l'allocation est  alors due pour cinq ans à compter du mariage.
+\\Nous ne prenons pas en compte L'ALF au titre du  mariage, ni au titre d'un ascendant à charge, ni au titre d'un ascendant ou d'un descendant éloigné infirme.
+
+\subsubsection{Statut d'occupation du logement}
+
+Pour avoir droit à l'ALF, il faut être locataire, sous locataire ou accédant de la propriété pour son logement principal.
+
+\subsubsection{Conditions relatives au logement}
+
+Le logement doit répondre à des conditions de peuplement et de salubrité pour ouvrir droit à l'ALF. Le logement doit être d'une surface au moins égale à 25m\up{2} pour deux personnes, plus 9m\up{2} supplémentaires pour chaque personne en plus, avec une limite de 79m\up{2} pour 8 personnes. Le logement doit aussi répondre à des exigences de salubrité, il doit en effet comporter un poste d'eau potable, de WC et d'un moyen de chauffage. Nous ne sommes pas en mesure de prendre cette condition en compte dans notre modèle.
+
+\subsubsection{Loyer minimum}
+
+Enfin, pour avoir droit à l'ALF, les personnes la demandant doivent consacrer au loyer ou au remboursement de leur emprunt un certaine proportion des revenus du foyer, appelée loyer minimum. Ce loyer minimum annuel est exprimé en pourcentage des ressources du foyer, et représente la fraction du loyer (ou remboursement de l'emprunt) qui doit obligatoirement être pris en charge par l'allocataire. Le pourcentage progresse par tranches avec les ressources, et prend en compte le nombre d'enfants vivant habituellement au foyer. Les limites supérieures et inférieures de ces tranches sont affectées d'un coefficient calculé à l'aide d'un système de nombre de parts. Les ressources sont par ailleurs diminuées d'un abattement fixe pour les couples biactifs dont les revenus des deux conjoints ont chacun été au moins égal à douze fois la base de calcul des allocations familiales pour l'année de référence. Un abattement est appliqué aux ressources des personnes ayant un ou deux enfants ou personnes à charge, et un autre abattement plus important est appliqué aux personnes ayant trois ou plus enfants ou personnes à charge. Enfin, le loyer annuel minimum obtenu après ces calculs est majoré d'un montant fixe.
+
+\subsection{Calcul et montant}
+
+Jusqu'en 2001, l'ALF mensuelle se calcule en appliquant un coefficient à la différence entre le loyer principal (ou le remboursement) et le loyer minimm mensuel. Ce coefficient ne peut pas dépasser 90\%. Après 2001, ce système reste en vigueur pour les accédants à la propriété et les étudiants logés par le CROUS, mais change pour les locataires, pour qui l'ALF est égale à la différence entre le loyer et une participation personnelle du foyer.
+
+\subsubsection{Loyer à prendre en considération}
+
+Pour les locataires, le loyer pris en compte pour le calcul de l'ALF est le loyer principal afférent au local à nu, à l'exclusion des taxes, prestations et fournitures. Pour les accédants à la propriété, il s'agit du douzième des versements annuels affectés au remboursement de la dette contractée pour l'accession à la propriété. Lorsque le montant du loyer ou du remboursement dépassent un plafond, il n'est pas tenu compte de la fraction excédant ce plafond pour le calcul de l'ALF. Le loyer principal est augmenté d'une majoration pour prendre en compte les charges de logement.
+
+\subsubsection{Zones géographiques}
+
+Les plafonds des loyers sont définis différemment selon la zone géographique. La zone 1 avec les plafonds les plus hauts, correspond à l'agglomération parisienne. La zone 2 inclut le reste de l'île de France et les communes de plus de 100 000 habitants. La zone 3 rassemble les villes de moins de 100 000 habitants.
+
+\subsubsection{Formule de calcul pour les accédants à la propriété}
+
+La formule de calcul de l'ALF n'a pas changé pour les accédants à la propriété. Elle s'exprime de la façon suivante:
+\vspace{0.5cm}
+\\$AL=K(L+C-Lo)$
+\vspace{0.5cm}
+\\$K=Cst-\frac{R}{M\times N}$
+\vspace{0.5cm}
+
+Avec AL le montant de l'ALF, K le coefficient, L le loyer, C la majoration pour charges et Lo le loyer minimum. Pour le calcul de K, Cst est une constante valant 0,9, R représente les ressources prises en considération, M est un coefficient fixé par décret, et N est le nombre de parts.
+
+\subsubsection{Formule de calcul pour les locataires}
+
+Pour les locataires, la formules est la même que pour les accédants à la propriété jusqu'en 2001, et change ensuite. Elle devient alors:
+\vspace{0.5cm}
+\\$AL=L+C-Pp$
+\vspace{0.5cm}
+\\$Pp=Po+Tp\times Rp$
+\vspace{0.5cm}
+\\$Tp=Tf+Tl$
+\vspace{0.5cm}
+
+Avec Pp la participation personnelle, exprimée comme la somme de Po, la fraction forfaitaire, et du produit de Tp le taux de participation personnelle et de Rp la différence entre les ressources du bénéficiaire et un montant forfaitaire. Le taux de participation personnelle Tp est lui même égal à la somme de Tf un taux fonction de la taille du ménage et de Tl un taux complémentaire fixé par arrêté en fonction de la valeur du rapport entre le loyer retenu dans la limite du plafond et un loyer de référence. 

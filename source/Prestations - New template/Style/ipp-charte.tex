@@ -1,0 +1,60 @@
+% Taille des marges : dépend du mode sélectionné (commande \version = impression / en ligne) %
+
+\def\printversion{print}
+\def\onlineversion{online}
+
+\ifx\version\printversion
+% Version impression
+\geometry{a4paper, vmargin=2.5cm, hmargin=2.5cm, top=1.3in,headheight=15pt,bindingoffset=0.8cm, twoside}
+\else
+% Version online
+\ifx\version\onlineversion
+\geometry{a4paper, vmargin=2.5cm, hmargin=2.9cm, top=1.3in, headheight=15pt, twoside}
+\else
+% Par défaut, version online
+\geometry{a4paper, vmargin=2.5cm, hmargin=2.9cm, top=1.3in, headheight=15pt, twoside}
+\fi
+\fi
+
+% Chargement des couleurs de la charte graphique de l'IPP %
+\definecolor{ippdark}{RGB}{0,81,101}
+\definecolor{ipplight}{RGB}{0,138,155}
+
+% Pour sélectionner la police "sans serif" de la classe "Charter" %
+\fontfamily{sffamily}\fontseries{m}\selectfont
+
+% Style des chapitres, sections, etc. %
+\chapterfont{\color{ipplight}{}\fontfamily{pag}\fontseries{b}\fontshape{sc}\selectfont}
+\sectionfont{\color{ippdark}{}\fontfamily{pag}\fontseries{b}\fontshape{n}\selectfont}
+\subsectionfont{\color{ippdark}{}\fontfamily{pag}\fontseries{b}\fontshape{n}\selectfont}
+\subsubsectionfont{\color{ippdark}{}\fontfamily{pag}\fontseries{b}\fontshape{n}\selectfont}
+
+% Style des en-tête %
+\newcommand{\enteteone}[2][]{\pagestyle{fancy}\fancyhead{#1} \lhead[\textsl{#2}]{} \rhead[]{\textsl{#2}}}
+\newcommand{\entetetwo}[3][]{\pagestyle{fancy}\fancyhead{#1} \lhead[\textsl{#2}]{} \rhead[]{\textsl{#3}}}
+
+% Style des pied-de-page %
+%\newcommand{\footertwo}{\pagestyle{fancy}\fancyfoot{} \lfoot[Institut des politiques publiques]{\thepage} \rfoot[\thepage]{Institut des politiques publiques}}
+
+% Style des captions et subcaptions
+\captionsetup[figure]{textfont={bf},font={color=ippdark,stretch=1.3}}
+\captionsetup[table]{textfont={bf},font={color=ippdark,stretch=1.3}}
+\captionsetup[subfigure]{labelfont=normalfont,textfont=normalfont,font={color=ippdark}}
+
+% Espacement entre les figures/tableaux et le texte
+\setlength{\floatsep}{25pt plus 4.0pt minus 4.0pt}
+\setlength{\textfloatsep}{25pt plus 4.0pt minus 4.0pt}
+\setlength{\intextsep}{25pt plus 4.0pt minus 4.0pt}
+
+% Modification du libellé de la table des matières et des listes de tableaux et figures %
+\addto\captionsfrench{%
+  \renewcommand{\tablename}{\bf \color{ippdark} \textsc{Tableau}}%
+  \renewcommand{\figurename}{\bf \color{ippdark} \textsc{Figure}}%
+  \renewcommand{\contentsname}{Sommaire}%
+  \renewcommand{\listfigurename}{Liste des figures}%
+  \renewcommand{\listtablename}{Liste des tableaux}%
+  \renewcommand{\bibname}{Références}%
+}
+
+% Pour éviter le message de warning sur l'inclusion de certains fichiers pdf
+\pdfoptionpdfinclusionerrorlevel=0 \pdfoptionpdfminorversion=6

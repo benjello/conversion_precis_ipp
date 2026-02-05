@@ -1,0 +1,910 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{2}
+\chapter{\label{Chapitre3}Les prélèvements sociaux}
+\else \fi
+
+Depuis les années 1990, la France connaît un taux de chômage élevé, alimentant des débats passionnés sur le coût du travail et sa responsabilité dans les difficultés des entreprises françaises à créer de l'emploi. Les gouvernements qui se sont succédés en France depuis le début des années 1990 ont mis en place des réductions de cotisations sociales patronales. L'idée sous-jacente était qu'en baissant le coût du travail pour les employeurs, cette politique stimulerait la création d'emplois, ou du moins éviterait des destructions de postes. La baisse des cotisations patronales a clairement un coût pour les finances publiques à court terme, les branches de Sécurité sociale collectant moins de contributions. Cependant, l'effet de moyen et long terme attendu est que la reprise de l'emploi et de la croissance permise par la baisse de cotisations permette de générer un surcroît de recettes fiscales, tant pour la Sécurité sociale que pour le budget général de l'État (\textit{via} une croissance des impôts perçus et une baisse des transferts sociaux).
+
+Ces dispositifs de baisse de \og charges \fg, initialement concentrés au Smic et à des niveaux très proches, touchent depuis le début des années 2000 à une plus large frange de salariés. L'objectif initial était de réduire les cotisations patronales pour les moins qualifiés, afin de réduire la contrainte imposée par l'existence du salaire minimum en termes de coûts du travail, et de favoriser leur employabilité. Les années les plus récentes ont vu le débat politique et social mettre davantage l'accent sur l'importance du coût du travail des salariés français à tous les niveaux de qualification, relativement aux partenaires et concurrents commerciaux (dont l'Allemagne).
+
+La présente Section décrit les différents dispositifs qui ont été successivement mis en oeuvre. Il se focalise sur les allégements dits généraux, destinés soit à l'ensemble des entreprises françaises soit aux bas salaires; aussi, il ne présente pas l'ensemble des dispositifs bénéficiant à certaines catégories spécifiques d'employeurs ou de salariés. Les formules de calcul des réductions sont explicitées et les références législatives (décrets, lois) définissant ces règles sont rappelées. Par ailleurs, seront fournis quelques éléments de contexte, qui permettent d'avoir une vue d'ensemble des politiques de réduction de \og charges \fg  françaises.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+\section{Les exonérations de cotisations \og famille \fg}
+
+Les mesures de réduction de cotisations sociales ont commencé au tout début des années 1990, avec la baisse des cotisations finançant la branche famille de la Sécurité sociale. Le taux des cotisations employeurs a été abaissé au 1\up{er} février 1992 de 7,00~\% à 5,40~\% \footnote{La baisse des taux de cotisations famille remonte en fait aux années 1960. Par ailleurs, en 1989, la cotisation a été déplafonnée, et son taux (global) a été ramené de 9 à 8~\%.}. Afin de compenser la perte de ressources de la branche famille, une partie de la CSG\footnote{La Contribution sociale généralisée a été instaurée au 1\up{er} février 1991.} est affectée au financement des allocations familiales.
+
+Après une baisse du taux statutaire, la politique de baisse des charges patronales du début des années 1990 a mis en place une exonération totale ou partielle de la cotisation sociale famille, à compter du 1\up{er} juillet 1993.
+
+En 1995 et 1996, ce dispositif s'est cumulé avec la ristourne Juppé jusqu'au 30 septembre 1996, date à laquelle il a été supprimé. Les phases successives des exonérations de cotisations famille sont décrites ci-dessous.
+
+\subsubsection*{Du 1\up{er} juillet 1993 au 30 juin 1994}
+
+Au 1\up{er} juillet 1993, les employeurs ont été totalement exonérés de cotisations famille pour leurs employés payés moins de 1,1 fois le Smic, et à hauteur de moitié pour les salariés rémunérés entre 1,1 et 1,2 fois le Smic (le taux applicable passant de 5,4~\% à 2,7~\%).
+
+\texttt{Références législatives:} Loi 93-953 du 27/07/1993; BSP \no 22, juillet 1993.
+
+\subsubsection*{Du 1\up{er} juillet 1994 au 30 décembre 1994}
+
+Une loi entrée en vigueur en janvier 1994 prévoyait d'augmenter le plafond de l'exonération de cotisations (à 1,5 Smic pour une exonération totale et à 1,6 Smic pour une exonération partielle). L'augmentation des plafonds devait se mettre en place progressivement sur 5 ans. Toutefois, les nouveaux plafonds ont été appliqués dès janvier 1994 aux entreprises nouvellement créées.
+
+\begin{description}
+  \item[Cas général:]
+  Entre 1 and 1,1 Smic : Exonération totale (5,4~\%)\\
+  Entre 1,1 and 1,3 Smic: Exonération partielle (2,7~\%)	\\
+
+  \item[Nouvelles entreprises:]
+  Entre 1 and 1,5 Smic : Exonération totale (5,4~\%)\\
+  Entre 1,5 and 1,6 Smic: Exonération partielle (2,7~\%)	\\
+\end{description}
+
+Par ailleurs, l'exonération a été étendue à des catégories professionnelles affiliées aux régimes spéciaux de Sécurité sociale. \\
+
+A la suite de l'instauration de l'exonération, certains acteurs se sont inquiétés du potentiel effet de ralentissement de la progression des salaires qu'elle pouvait entraîner. En effet, payer un salarié en dessous du plafond d'exonération coûte (environ 2,7\%) moins cher à la marge que le rémunérer au-dessus du plafond. Afin de limiter l'incitation des employeurs à maintenir les salaires à proximité du Smic, l'augmentation du plafond a été prévue et mise en place dès 1994. \\
+
+\texttt{Références législatives:} Loi quinquennale relative au travail, à l'emploi et à la formation professionnelle (loi 93-1313 du 12/20/1993 (JO du 12/21/1993)).
+
+\subsubsection*{Du 1\up{er} juillet 1995 au 31 août 1995}
+
+En application de la loi 93-1313 citée précédemment, les plafonds ont été augmentés au 1\up{er} janvier 1995 (pour les entreprises ne bénéficiant pas des plafonds applicables aux nouvelles entreprises).
+
+\begin{description}
+\item[Cas général:]
+  Entre 1 and 1,2 Smic : Exonération totale (5,4~\%)\\
+  Entre 1,3 and 1,3 Smic: Exonération partielle (2,7~\%)	\\
+
+\item[Nouvelles entreprises:]
+  Entre 1 and 1,5 Smic : Exonération totale (5,4~\%)\\
+  Entre 1,5 and 1,6 Smic: Exonération partielle (2,7~\%)	\\	
+\end{description}
+
+A compter du 1\up{er} septembre 1995, l'exonération était cumulée avec la \og ristourne Juppé \fg {}(voir ci-dessous) pour les employés du régime général. Contrairement à ce qui était prévu par la loi 93-1313, les plafonds de l'exonération n'ont plus été augmentés après 1995, et le dispositif a été supprimé au 1\up{er} octobre 1996.\newline
+
+\texttt{Références législatives:} Loi quinquennale relative au travail, à l'emploi et à la formation professionnelle (loi 93-1313 du 12/20/1993 (JO du 12/21/1993))
+
+\subsection{Evolutions récentes}
+
+Certaines entreprises ont continué de bénéficier (voire bénéficient encore en 2014) d'exonérations de cotisations famille, de manière temporaire ou pérenne. Il s'agit notamment des entreprises implantées dans des bassins d'emploi à revitaliser, dans les zones de redynamisation urbaine ou des jeunes entreprises dites innovantes (JEI). Les réductions de cotisations patronales dues au titre de la branche famille induites par ces dispositifs spécifiques sont marginales à l'heure actuelle (en termes de coût pour les finances publiques): en 1997 déjà, elles ne représentaient pas plus que 0,35 milliards de francs, alors que les exonérations de cotisations \og Juppé \fg{} s'élevaient à 44,7 milliards (\citet{css1998}).
+
+L'idée d'une réduction du taux statutaire de la cotisation famille a été remise au goût du jour à l'occasion des débats sur le coût du travail et l'emploi lors de la campagne présidentielle de 2012. La majorité du président sortant avait voté une exonération de cotisation famille (totale pour les salaires compris entre 1,6 et 2,1 Smic, partielle pour les salaires entre 2,1 et 2,4 Smic), mesure qui avait été inscrite dans la première loi de finances rectificative pour 2012. Cette mesure, sensée être financée par une hausse de la TVA, devait permettre d'alléger le coût du travail pour les salariés qui ne bénéficiaient pas des réductions Fillon. La nouvelle majorité présidentielle a toutefois annulé cette mesure (deuxième loi de finances rectificative pour 2012), qui n'a donc pas eu le temps d'entrer en vigueur.
+
+Cependant, le gouvernement Ayrault a finalement proposé une légère baisse de la cotisation famille dans la loi de finances pour 2014, afin de renforcer la baisse du coût du travail induite par le CICE\footnote{Voir Section 6.}. Le taux de cotisation a ainsi été ramené de 5,40~\% à 5,25~\% au 1\up{er} janvier 2014, quel que soit le taux horaire du salaire.\newline
+
+\texttt{Références législatives:} loi 2012-354 (LFR pour 2012 (1)) du 14/03/2012 (JO du 15/03/2012), art. 2; décret 2012-664 du 04/05/2012 (JO du 06/05/2012), art. 2 (titre II, B.), rétablissant l'art. L 241-6-1 du CSS; loi 2012-958 (LFR pour 2012 (2)) du 16/08/2012 (JO du 17/08/2012), art. 2 (titre II, A.).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%
+\section{Réduction dégressive des cotisations employeur, dite \og ristourne Juppé \fg }
+
+La ristourne Juppé consistait en une réduction décroissante des cotisations payées par l'employeur au titre de l'assurance pour les risques maladie, accidents du travail et famille. Elle a été introduite au 1\up{er} septembre 1995 et pouvait se cumuler avec l'exonération de cotisations familiales (voir plus haut), jusqu'à la disparation de cette dernière au 1\up{er} octobre 1996.
+
+\subsection{Septembre 1995 - Septembre 1996 (Ristourne Juppé I)}
+
+La formule de calcul de la réduction est la suivante ($RED$ désignant le montant de la réduction accordée:)
+
+$$ RED = (plafond - salaire~brut) \times 0,64 $$ pour un salaire compris entre 1 et 1,2 SMIC;
+$$ RED = 0,128 \times salaire~brut $$ pour un salaire inférieur ou égal au Smic. \\
+
+Le plafond est égal à 120~\% du Smic horaire multiplié par la durée légale du travail (soit 169 heures), quel que soit le temps de travail du salarié (même si celui-ci effectue un temps partiel, part ou arrive dans l'entreprise en cours de mois). Un montant maximal de réduction est fixé, et est calculé comme la réduction ouverte pour un salarié rémunéré au Smic et travaillant à temps plein (le nombre d'heures rémunérées étant défini sur la base de la durée légale du travail). Le montant maximal de la réduction de cotisation a donc évolué au fur et à mesure des revalorisations du Smic. \newline
+
+Le taux de 12,8~\% est égal au taux de cotisations maladie-maternité-invalidité-décès payées par un employeur au titre d'un salarié rémunéré au Smic. Cumulé à l'exonération de cotisations famille, la ristourne Juppé permettait aux employeurs de bénéficier d'une réduction de 12,8 + 5,4, soit 18,2~\% sur les rémunérations de leurs employés au Smic. \newline
+
+\begin{table}[h!]\label{tab:7_1}
+\centering
+\caption{Taux de la réduction ouverte par le cumul ristourne Juppé I et exonération de cotisations famille}
+\vspace{0.2cm}
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Taux de réduction \\ \hline
+Au niveau du Smic & Exonération maximale de 18,2\% \\
+Entre 1 et 1,2 Smic & Taux dégressif compris entre 18,2 \% et 5,4\% \\
+Entre 1,2 et 1,3 Smic & Exonération de 2,7\%  \\
+Au dessus de 1,3 Smic & Aucune exonération  \\
+\hline
+\end{tabular}
+\end{table}
+
+Pour les salariés à temps partiel, la ristourne est ensuite proratisée en fonction du nombre d'heures travaillées (à titre d'exemple, un salarié à mi-temps bénéficiera d'une réduction de cotisations de 50\% du montant de la ristourne calculée sur la base de la formule ci-dessus). \newline
+
+\underline{Cas particuliers:}
+\begin{itemize}
+\item Pour les salariés dont la rémunération ne peut être déterminée en fonction du nombre d'heures de travail effectuées, la réduction de cotisations est calculée en fonction d'un plafond et d'une limite de réduction spécifiques (fixés dans les conditions définies à l'art. R 241-6 du CSS);
+\item Des règles spécifiques s'appliquent pour certaines catégories de personnels;
+\item A partir de juillet 1996, pour les salariés affiliés à une caisse de congés payés, la réduction était majorée de 10~
+    \% (la réduction maximale autorisée étant majorée d'autant). \\
+\end{itemize}
+
+Les employeurs sont tenus de calculer eux-mêmes la réduction de cotisations auxquels ils ont droit, d'en indiquer le montant sur la fiche de paie de chaque employé, et d'effectuer leurs paiements à l'Urssaf  en déduisant au préalable la réduction des cotisations dues. \newline
+
+\texttt{Période d'application:} Du 01/09/1995 au 30/09/1996.
+
+\texttt{Références législatives:} Loi 95-882 du 04/08/95 (JO du 05/08/95); Décrets 95-942 et 95-943 du 25/08/95 (JO du 26/08/95).
+
+
+\subsection{Octobre 1996 - Décembre 1997 (Ristourne Juppé II)}
+
+La Loi de finance pour 1996 a introduit une fusion temporaire des deux dispositifs de réductions de cotisations au niveau des bas salaires (ristourne Juppé et exonération de cotisations famille), pour la période allant d'octobre 1996 à décembre 1997. Le dispositif temporaire consiste en une réduction unique de cotisations s'appliquant sur les salaires compris en dessous de 1,33 Smic.
+La réduction maximale au niveau du Smic s'élève toujours à 18,2~\%, soit le même taux que celui résultant du cumul de la ristourne Juppé et de l'exonération de cotisations famille.
+
+\begin{table}[h!]\label{tab:7_2}
+\centering
+\caption{Montant de la réduction ouverte par la ristourne Juppé II - cas général}
+\vspace{0.2cm}
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Montant de la réduction \\
+\hline
+En dessous du Smic mensuel: &$Salaire~brut \times 0,182 $ \\
+Entre 1 et 1,33 Smic mensuel: &  ($1,33.Smic - Salaire~brut) \times 0,55$ \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\underline{Cas particuliers:} ils restent les mêmes que ceux applicables à la ristourne Juppé I (voir plus haut). \newline
+
+\underline{Règles de cumul:} la ristourne Juppé II ne pouvait être cumulée avec d'autres dispositifs de réductions des contributions patronales ou l'application de taux réduits. Toutefois, certaines réductions sont cumulables avec le dispositif Juppé. C'est le cas notamment:
+\begin{itemize}
+\item De l'abattement de cotisations accordées pour les salariés à temps partiel;
+\item De la réduction octroyée en cas de diminution du temps du travail et d'embauches (dispositif Robien ; voir plus bas);
+\item Des réductions de contributions plus favorables prévues dans certaines situations (entreprises situées dans des zones de revitalisation rurale, nouvelles entreprises, certains salariés agricoles).
+\end{itemize}
+
+Par ailleurs, les exonérations de contributions famille sont restées en vigueur pour les salaires entre 1,2 et 1,5 SMIC (pour l'exonération totale) et compris entre 1,5 et 1,6 SMIC (pour l'exonération partielle) des entreprises nouvelles ou situées dans une zone de revitalisation urbaine. Le barème de réduction qui leur est applicable est présenté dans la Tableau \ref{tab:7_3}.
+
+\begin{table}[h!]\label{tab:7_3}
+\centering
+\caption{Montant de la réduction ouverte par la risourne Juppé II - entreprises nouvelles ou en zones de revitalisation urbaine}
+\vspace{0.2cm}
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Montant de la réduction \\
+\hline
+En dessous du Smic mensuel: &$Salaire~brut \times 0,182 $ \\
+Entre 1 et 1,2 Smic mensuel: &  ($1,33.Smic - Salaire~brut) \times 0,55$ \\
+\multicolumn{1}{|c|}{\multirow{2}{*}{Entre 1,2 et 1,33 Smic mensuel:}} & ($1,33.Smic - Salaire~brut) \times 0,55$ \\
+\multicolumn{1}{|c|}{}     & $ + ~Salaire~brut \times 0,054 $ \\
+Entre 1,33 et 1,5 Smic mensuel: & $Salaire~brut \times 0,054 $ \\
+Entre 1,5 et 1,6 Smic mensuel: & $Salaire~brut \times 0,027 $ \\
+\hline
+\end{tabular}
+\end{table}
+
+On notera que, sauf erreur de notre part, ce barème induit une \emph{hausse} discontinue du taux de réduction au niveau de 1,2 Smic, seuil auquel les salariés continuent de bénéficier de la réduction (dégressive) des cotisations sociales Juppé II tout en ayant droit à l'exonération de cotisations famille.\newline
+
+\texttt{Période d'application:} 01/10/1996 - 31/12/1997.
+
+\texttt{Références législatives:} Loi 95-1236 (Loi de finances pour 1996) du 30/12/1995 (JO 31/12/1995); Décret 96-835 du 20/09/1996 (JO 22/09/1996); Loi de finances pour 1998 (JO du 31/12/1997).
+
+\subsection{Janvier 1998 - Juin 2003 (Ristourne Juppé III)}
+
+La fusion de l'exonération de cotisations famille et la ristourne Juppé est maintenue dans les mêmes conditions que précédemment, à la différence que le plafond de la réduction a été ramené de 1,33 à 1,3 Smic. Le coefficient de réduction a été ajusté en conséquence, de manière à ce que la réduction maximale au niveau du Smic soit maintenue à son niveau précédent de 18,2\%. La formule de calcul de la réduction devient la suivante:
+
+\begin{table}[h!]\label{tab:7_4}
+\centering
+\caption{Montant de la réduction ouverte par la ristourne Juppé III}
+\vspace{0.2cm}
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Montant de la réduction \\
+\hline
+En dessous du Smic mensuel: &$Salaire~brut \times 0,182 $ \\
+Entre 1 et 1,3 Smic mensuel: &  ($1,3.Smic - Salaire~brut) \times 0,607$ \\
+\hline
+\end{tabular}
+\end{table}
+
+La ristourne Juppé III, comme la ristourne Juppé II, est cumulable avec les exonérations de cotisations famille qui continuent d'être accordées aux nouvelles entreprises et aux entreprises employant des salariés dans des zones de revitalisation rurale (au taux de 2,7\% d'exonération pour les salaires inférieurs à 1,5 Smic et de 5,4\% pour les salaires compris entre 1,5 et 1,6 Smic), ainsi qu'avec les allégements prévus par la loi Robien (voir plus bas)\footnote{En pratique, pour calculer l'allégement lorsqu'un salarié ouvre droit à une réduction de charges au titre des exonérations de cotisations famille et au titre du dispositif Robien, la réduction de cotisations famille doit être calculée sur le montant des cotisations restant dues après l'exonération de 40 ou 50\% prévue par la loi Robien.}.\\
+
+\texttt{Période d'application:} 01/01/1998 - 30/06/2003.
+
+\texttt{Références législatives:} Loi 97-1269 (Loi de finances pour 1998) du 30/12/1997 (JO 31/12/1997); Décret 97-1330 du 31/12/97 (JO du 03/01/1998)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%
+\section{Les dispositifs de réduction du temps de travail (RTT)}
+
+
+\subsection{Dispositif Robien (Juillet 1996 - Juin 1998)}
+
+Une loi de juin 1996, dite loi Robien, a institué un système d'aide incitant les entreprises à mettre en \oe uvre une réduction collective du temps de travail, afin de lutter contre le chômage en \og partageant le travail \fg. Afin d'être octroyée, l'aide doit prendre la forme d'une convention entre l'entreprise et l'État. Au préalable, un accord entre les partenaires sociaux doit être obtenu, au niveau de l'entreprise elle-même ou de la branche. La loi prévoit que le coût de cette mesure pour la Sécurité sociale soit entièrement compensé par l'État. \newline
+
+Le dispositif accorde aux entreprises qui réduisent d'au moins 10~\% la durée du travail de l'ensemble ou d'une partie de ses effectifs un allégement de cotisations patronales (versées sur les salaires des employés concernés) de 40~\% la première année et de 30~\% les six années suivantes. Lorsque la réduction du temps de travail est supérieure ou égale à 15~\%, ces taux sont majorés de 10 points de pourcentage. Les réductions de charges prévues par le dispositif Robien sont cumulables avec la ristourne dégressive sur les bas salaires (ristourne Juppé).
+
+Le dispositif comporte deux volets. Le volet défensif doit permettre d'éviter des destructions d'emplois, tandis que le volet offensif vise à inciter les entreprises à embaucher. Dans le volet défensif, les allégements de charges sont conditionnés par un engagement de l'entreprise à utiliser la réduction du temps de travail pour éviter des licenciements prévus et maintenir les effectifs concernés pendant une durée déterminée par la convention. Dans le volet offensif, les allégements sont accordés lorsque l'entreprise augmente ses effectifs de 10~\% (resp. 15~\%) lorsque la réduction du temps de travail est de 10~\% (resp. de 15~\%) au moins. Afin de limiter les effets d'aubaine que pourrait entraîner cette mesure, la loi stipule que le nouveau niveau d'emploi doit être maintenu pendant au moins deux ans pour que l'entreprise continue de bénéficier d'allégements.\newline
+
+Environ 3 000 entreprises ou établissements ont bénéficié de ce dispositif, pour environ  280 000 salariés. Le dispositif Robien a été abrogé au 1\up{er} juillet 1998, par la première loi Aubry.\newline
+
+{Période d'application:} du 01/07/1996 - 30/06/1998 pour la conclusion d'accords. Même après le remplacement du dispositif Robien par les mesures Aubry I (\textit{cf. infra}), les conventions conclues jusqu'au 30/06/1998 ont continué de s'appliquer, jusqu'à leur terme\footnote{Les allégements Robien bénéficiant à l'employeur pendant 7 années suivant la conclusion d'une convention de RTT, certaines entreprises ont bénéficié des réductions Robien jusqu'à 2005.}.
+
+\texttt{Références législatives:} Loi 96-502 du 11/06/1996 (JO du 12/06/1996); loi 98-461 du 13/06/1998 (14/06/1996).
+
+
+\subsection{Dispositif Aubry I (Juillet 1998 - Janvier 2000)}
+
+La loi 98-461 d'orientation et d'incitation relative \`a la r\'eduction du temps de travail du 13 juin 1998 (dite loi Aubry I) a poursuivi l'objectif de réduction du temps de travail fixé par la loi Robien de 1996. La loi prévoyait de ramener la durée hebdomadaire légale de travail dans les entreprises privées de 39 à 35 heures, à partir du 1\up{er} janvier 2000 pour les entreprises de 20 salariés et plus, et à compter du 1\up{er} janvier 2002 pour les entreprises de moins de 20 salariés. D'autre part, l'article 3 de la loi a reconduit le principe d'une aide financière à la réduction du temps de travail introduit par la loi Robien. Le gouvernement Jospin a désiré reconduire le principe d'un dispositif incitatif, accordant une aide financière spécifique aux entreprises mettant en \oe uvre de manière volontaire un accord de réduction du temps de travail. Les entreprises étaient autorisées à conserver l'horaire collectif de travail de 39 heures hebdomadaires, mais ne bénéficiaient alors pas (dans le cas général) de réductions de charges au-delà de la réduction dégressive Juppé. \\
+
+\textbf{Entreprises ayant réduit leur horaire de travail collectif à 35 heures hebdomadaires}:
+
+La loi Aubry I prévoit une réduction forfaitaire des cotisations sociales pour chacun des salariés bénéficiant d'une réduction du temps travaillé, conditionnée par le respect par l'employeur bénéficiaire d'une cible d'embauches ou de maintien d'effectifs, dans le même esprit que le dispositif Robien. Le montant de la réduction est majoré lorsque l'entreprise met en \oe uvre une réduction du temps de travail supérieure à la cible des 10~\%. En outre, le montant de la réduction varie avec la date à laquelle a été conclu l'accord entre l'entreprise et l'État, et diminue dans le temps (le montant de l'aide devient nul 6 ans après la conclusion de l'accord).
+
+Les montants des réductions et des majorations sont définis par décret. Les réductions forfaitaires du dispositif Aubry I se cumulent avec la réduction dégressive sur les bas salaires Juppé. \\
+
+\textbf{Entreprises ayant maintenu leur horaire de travail collectif à 39 heures hebdomadaires}:
+
+Pour les entreprises ayant maintenu inchangé leur horaire de travail collectif à 39 heures, la ristourne Juppé a continué de s'appliquer aux salariés percevant une rémunération inférieure à 1,3 Smic. La formule de calcul de la réduction reste donc telle que décrite au Tableau \ref{tab:7_5}.
+
+\vspace{0.01cm}
+\begin{table}[h!]\label{tab:7_5}
+\begin{center}
+\centering
+\caption{Montant de la réduction due au dispositif Aubry II}
+\vspace{0.2cm}
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Montant de la réduction \\
+\hline
+En dessous du Smic mensuel: &$Salaire~brut \times 0,182 $ \\
+Entre 1 et 1,3 Smic mensuel: &  ($1,3.Smic - Salaire~brut) \times 0,607$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\vspace{1cm}
+
+\texttt{Période d'application:} du 01/01/2000 au 30/06/2003.
+
+\texttt{Références législatives:} Annexes des décrets 98-494 du 22/06/1998 et 2000-84 du 31/01/2000; \textit{Mémento pratique Social}, Ed. Francis Lefebvre, 2003 - \S 9590. \\
+
+
+\subsection{Dispositif Aubry II (Février 2000 - Juin 2003)}
+
+La loi 2000-37 du 19/01/2000, dite \fg Aubry II \og, a mis en place le cadré général de la transition des entreprises vers les 35 heures, prévue par la loi \fg Aubry I \og. Pour les salariés au niveau du Smic, la loi prévoit une garantie de ressources leur permettant de ne pas subir une baisse de leur rémunération brute mensuelle lors du passage aux 35 heures. Pour les employeurs ayant conclu un accord majoritaire de RTT, la loi prévoit un nouveau dispositif pérenne d'allégements de cotisations, maintenant le principe d'un passage aux 35 heures réalisé sur une base volontaire.
+
+
+\subsubsection*{Réduction du temps de travail et garantie mensuelle de rémunération (GMR)}
+
+Afin que la réduction du temps de travail (RTT) ne se traduise pas pour les salariés rémunérés au Smic horaire par une baisse de pouvoir d'achat, le principe d'une garantie mensuelle de rémunération (GMR) a été introduit par le gouvernement Jospin (Loi 2000-37 du 19/01/2000, dite loi \og Aubry II \fg). Cette garantie introduit dans les faits des salaires minimum spécifiques pour les salariés passés aux 35 heures.
+
+La GMR applicable à un salarié est calculée comme le produit du Smic horaire \textit{en vigueur au moment où la RTT a été adoptée par l'employeur}, par 169 heures (soit le nombre d'heures travaillées dans le mois pour une semaine de 39 heures). Le Smic ayant été réévalué à plusieurs reprises\footnote{Aux 1\up{er} juillet 1998, 1999, 2000, 2001 et 2002.}) entre l'instauration de la loi Aubry II et la sortie du dispositif, 5 différentes GMR ont été définies, en fonction de la date de passage aux 35 heures. Comme le Smic, les GMR ont été réévaluées périodiquement sur la base de l'évolution du pouvoir d'achat du salaire horaire de base ouvrier. \newline
+
+%\begin{figure}[h!]
+%\centering
+%\caption{Valeurs des garanties mensuelles de rémunération (GMR) - loi Aubry II}
+%\begin{center}
+%\includegraphics[scale = 0.55, angle=-90]{GMR_SMIC_Aubry2.pdf}
+%\end{center}
+%\end{figure}
+
+\begin{table}[h!]
+\begin{center}
+\centering
+\caption{Valeurs des garanties mensuelles de rémunération (GMR) - loi Aubry II}
+\vspace{0.2cm}
+\small
+\begin{tabular}{|>{\centering\arraybackslash}m{2.3cm}|| >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm} | >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm} |}
+\hline
+Date d'entrée en vigueur   &  GMR 1 \emph{(RTT avant 30/06/ 1999)}    & GMR 2 \emph{(RTT avant 30/06/ 2000)}    & GMR 3 \emph{(RTT avant 30/06/ 2001)}    & GMR 4 \emph{(RTT avant 30/06/ 2002)}    & GMR 5 \emph{(RTT après 01/07/ 2002)}  & Smic à 39h & Smic à 35h \\
+\hline
+\hline
+01/07/2005 & - & - & - & - & - & 1357,07 \euro & 1217,91 \euro \\
+\hline
+01/07/2004 & 1178,54 \euro & 1183,40 \euro & 1190,14 \euro & 1 195,03 \euro & 1197,37 \euro & 1286,09 \euro & 1154,21 \euro \\
+01/07/ 003 & 1136,15 \euro & 1145,54 \euro & 1158,52 \euro & 1 168,16 \euro & 1172,74 \euro & 1215,11 \euro & 1090,51 \euro \\
+01/07/2002 & 1100,67 \mbox{\euro} & 1114,35 \mbox{\euro} & 1133,49 \mbox{\euro} & 1 147,52 \mbox{\euro} & 1154,27 \mbox{\euro} & 1154,27 \mbox{\euro} & 1035,91 \mbox{\euro} \\
+01/01/2002 & 1081,26 \mbox{\euro} & 1094,65 \mbox{\euro} & 1113,45 \mbox{\euro} & 1 127,23 \mbox{\euro} & -  & 1127,23 \mbox{\euro} & 1011,64 \mbox{\euro} \\
+01/07/2001 & 7092,27 FRF & 7180,83 FRF & 7303,97 FRF  & 7388,68 FRF & - & 7388,68 & FRF 6631,01 FRF \\
+01/07/ 2000 & 6895,74 FRF & 6981,46 FRF & 7101,38 FRF & - & - & 7101,38 FRF &  6373,17 FRF \\
+01/01/2000 & 6797,18 FRF & 6881,68 FRF & - & - & - & 6881,68 FRF & 6176,00 FRF \\
+\hline
+\end{tabular}
+\end{center}
+{\footnotesize \textsc{Note:} La valeur de la GMR 1 en vigueur entre le 1\up{er} janvier 2000 et le 30 juin 2000 correspond au Smic horaire appliqué entre le 1\up{er} juillet 1998 et le 30 juin 1999, multiplié par 169 heures.}
+\end{table}
+
+
+\texttt{Références législatives:} Loi 2000-37 du 19/01/2000 (JO du 20/01/2000).
+
+\subsubsection*{Les réductions de cotisations sociales \og Aubry II \fg}
+
+Pour les salaires versés à partir du 1\up{er} février 2000, un nouveau dispositif de réduction des charges patronales a été mis en place par la loi  \og (Loi 2000-37 du 19/01/2000). Comme les aides forfaitaires du dispositif Aubry I, les réductions de cotisations sociales prévues par le dispositif Aubry II ouvrent un taux de réduction dégressive pour les bas salaires plus important que la réduction Juppé (avec laquelle le cumul n'est pas possible). L'objectif de ce supplément d'exonérations était de compenser la hausse du coût du travail horaire induite par le passage de 39 heures à 35 heures de travail associé à un maintien des salaires.
+
+Contrairement à ce que prévoyait la loi Aubry I, les allégements de charges prévus par le dispositif Aubry II n'étaient pas conditionnés à une baisse effective de la durée du travail ni au respect d'un volume d'emploi cible, mais à la simple existence d'un accord majoritaire ou adopté par référendum au sein de l'entreprise prévoyant le passage aux 35 heures. \\
+
+\textbf{Entreprises ayant réduit leur horaire de travail collectif à 35 heures hebdomadaires}:
+
+La formule générale de la réduction est la suivante:
+
+\begin{equation} \nonumber
+  REDUCTION = \frac{1}{12} \times \Big[\frac{Param~1 \times Param~2}{SBM} - Param~3\Big]
+\end{equation}
+\begin{equation} \nonumber
+  si~salaire~brut\leq 1,73 \times Param~2
+\end{equation}
+\begin{equation} \nonumber
+  REDUCTION = Param~4~si~~~~~salaire~brut > 1,73 \times Param~2
+\end{equation}
+
+où SBM correspond au salaire brut mensuel, et $Param j$ correspond au Paramètre $j$. Le Paramètre 2 correspond à la GMR2 (salaire minimum pour les salariés ayant bénéficié d'une RTT entre le 1\up{er} juillet 1999 et le 30 juin 2000 (\textit{cf.} tableau \emph{infra}).
+
+Durant la période d'application du dispositif, les différents paramètres ont évolué en fonction des revalorisations du Smic.
+
+Au premier semestre 2000, la réduction mensuelle ouverte s'échelonne entre 4 000 FRF (pour les salariés percevant plus de 1,73 fois la GMR2 et 21 470 FRF (soit une réduction de cotisations équivalente à 27~\% du salaire brut au maximum, pour les salariés rémunérés au niveau de la GMR 1). Alors que le dispositif Juppé prévoyait un plafond de salaire au-delà duquel aucune réduction de cotisations patronales n'était ouverte, le dispositif Aubry II prévoit d'accorder une réduction même aux salariés dans le milieu et le haut de la distribution des salaires. La réduction accordée devenant forfaitaire au-delà de 1,73 Smic, le taux de réduction décroît de manière continue à mesure que le salaire brut augmente.
+
+%\begin{figure}[h!]
+%\caption{Réduction de cotisations patronales Aubry II: paramètres de calcul}
+%\centering
+%\includegraphics[scale = 0.55, angle=-90]{Aubry2_cut.pdf}
+%\end{figure}
+
+\begin{table}[h!]
+\begin{center}
+\centering
+\caption{Réduction de cotisations patronales Aubry II: paramètres de calcul}
+\vspace{0.2cm}
+\small
+\begin{tabular}{|m{2.8cm}|| >{\centering}m{1.7cm}| >{\centering\arraybackslash}m{1.7cm}| >{\centering\arraybackslash}m{1.7cm}| >{\centering\arraybackslash}m{1.7cm}| >{\centering\arraybackslash}m{1.7cm}|>{\centering\arraybackslash}m{1.7cm}|}
+\hline
+Date d'application  &  Paramètre 1    & Paramètre 2 (Smic mensuel)   & Paramètre 3   & Exonération annuelle minimale    & Majoration 1  & Majoration 2 \\
+\hline
+\hline
+Du 01/07/2002 au 30/06/2003 & 6720,17 \mbox{\euro}    & 1 114,35 \mbox{\euro}     & 3 238,57 \mbox{\euro}     & 6 47,77 \mbox{\euro}   & 226,59 \mbox{\euro}   & 566,76 \mbox{\euro}  \\
+\hline
+Du 01/07/2001 au 30/06/2002 & 6 601,35 \mbox{\euro} & 1 094,65 \mbox{\euro} & 3 181,31 \mbox{\euro} & 636,32 \mbox{\euro} & 222,58 \mbox{\euro} & 556,74 \mbox{\euro} \\
+\hline
+Du 01/07/2000 au 30/06/2001 & 42 102 FRF & 6 981 FRF & 20 290 FRF & 4 058 FRF & 1 420 FRF & 3 551 FRF \\
+\hline
+Du 01/02/2000 au 30/06/2000 & 41 500 FRF & 6 882 FRF & 20 000 FRF & 4 000 FRF & 1 400 FRF & 3 500 FRF \\
+\hline
+\end{tabular}
+\end{center}
+{\footnotesize \textsc{Note:} La majoration 1 s'applique aux entreprises employant des salariés en zone de revitalisation rurale; la majoration 2 s'applique aux entreprises qui en outre ont réduit leur temps de travail collectif à 32 heures par semaine.}
+\end{table}
+
+En plus de ces exonérations générales, la loi Aubry II prévoit des majorations de contributions pour certaines entreprises, notamment celles employant des salariés dans des zones de revitalisation rurale ou appliquant un horaire collectif de travail de 32 heures hebdomadaires.
+
+La loi de finances pour 2004 du 30 décembre 2003 a supprimé la possibilité de cumul entre la réduction Aubry II et l'aide incitative prévue par la loi Aubry I à compter du 1\up{er} janvier 2004. Avant cette date, les entreprises passées aux 35 heures pouvaient bénéficier à la fois de la réduction forfaitaire et de la réduction proportionnelle de cotisations sociales. \newline
+
+
+\textbf{Entreprises ayant maintenu leur horaire de travail collectif à 39 heures hebdomadaires}:
+
+Pour les entreprises ayant maintenu inchangé leur horaire de travail collectif à 39 heures, la ristourne Juppé a continué de s'appliquer aux salariés percevant une rémunération inférieure à 1,3 Smic. La formule de calcul de la réduction reste donc telle que décrite au Tableau \ref{tab:7_6}.
+
+\vspace{0.01cm}
+\begin{table}\label{tab:7_6}
+\centering
+\caption{Dispositif Aubry II : réductions accordées aux entreprises restées à 39h hebdomadaires}
+\vspace{0.2cm}
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Montant de la réduction \\
+\hline
+En dessous du Smic mensuel: &$Salaire~brut \times 0,182 $ \\
+Entre 1 et 1,3 Smic mensuel: &  ($1,3.Smic - Salaire~brut) \times 0,607$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+
+\texttt{Période d'application:} Du 01/02/2000 au 30/06/2003.
+
+\texttt{Références légisatives:} Loi 2000-37 du 19/01/2000 (JO du 20/01/2000); Décret 2000-73 du 28/06/2000 - art. 1 (JO du 29/06/2000); Loi 2003-1311 (Loi de finances pour 2004) du 30/12/2003 (JO du 31/12/2003); Article D241-13 du CSS.
+
+
+\subsubsection{Taux d'allégements de cotisations au niveau des différentes garanties mensuelles de rémunération}
+
+Le barème des réductions Aubry II implique des taux de réduction des cotisations sociales au niveau du salaire minimum qui varient avec la date d'entrée en vigueur de la RTT, pour les entreprises qui sont passées aux 35 heures.
+
+\begin{table}[h!]\label{tab:7_7}
+\begin{center}
+\centering
+\caption{Dispositif Aubry II :  taux de réduction des cotisations patronales au niveau des différentes GMR}
+\vspace{0.2cm}
+\small
+\begin{tabular}{|>{\centering\arraybackslash}m{2cm}|>{\centering\arraybackslash}m{2cm} |>{\centering\arraybackslash}m{2cm} |>{\centering\arraybackslash}m{2cm} |>{\centering\arraybackslash}m{2cm}|}
+\hline
+GMR1 & GRM2 & GMR3 & GMR4 & GMR5 \\
+\hline
+27,0~\% & 26,0~\% & 24,8~\% & 23,9~\% & 23,5~\%  \\
+\hline
+\end{tabular}
+\end{center}
+\footnotesize \textsc{Note:} Calculs des auteurs.
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%
+\section{Les exonérations Fillon}\label{Exonération Fillon}
+
+
+Le nouveau dispositif d'allégement dit \fg Fillon \og vise à remplacer les réductions Juppé (applicable aux entreprises n'ayant pas conclu un accord de RTT) et Aubry II. Le nouveau dispositif visait à terme à accorder à toutes les entreprises une réduction de charges s'élevant à 26\% de la rémunération brute pour les salariés rémunérés au niveau du Smic, à partir du 1\up{er} juillet 2005. A partir de cette date, le coût horaire du travail au niveau du salaire minimum serait ainsi le même pour toutes les entreprises, qu'elles aient choisi ou non de passer aux 35 heures.
+
+
+\subsection{Du 1\up{er} juillet 2003 au 30 juin 2005: les mesures de transition}
+
+
+\subsubsection*{Convergence des salaires minima (Smic et GMR)}
+
+Afin de supprimer la multiplicité de salaires minima, la loi 2003-47 du 17 janvier 2003 (dite loi \fg Fillon \og) a prévu la convergence des différents montants. L'instauration des GMR a abouti à ce que le salaire horaire au niveau le plus bas de la hiérarchie salariale varie avec la date d'entrée en vigueur de la RTT\footnote{A titre d'exemple, un salarié employé au niveau du salaire minimum en août 2001 ayant bénéficié d'un accord de RTT avant le 30 juin 1999 percevra un salaire de 46,8 francs par heure travaillée, tandis qu'un même salarié travaillant dans une entreprise ayant mis en \oe uvre une RTT au premier semestre 2001 perçoit une rémunération horaire de 48,2 francs.}. L'unification progressive des montants des GMR et du Smic devait aboutir à ce que, à partir du 1\up{er} juillet 2005, tous les salariés employés au niveau du Smic perçoivent le même salaire brut (pour une même durée de travail), égal au Smic horaire multiplié par le nombre d'heures travaillées.\newline
+
+En pratique, la convergence a été organisée grâce à plusieurs éléments:
+\begin{enumerate}
+    \item Plus de création de nouvelles GMR après le 1\up{er} juillet 2002. Si la durée de travail d'un salarié passe de 39h à 35h hebdomadaires entre juillet 2002 et juin 2005, la rémunération du salarié correspond à la GMR5;
+    \item Revalorisation annuelle différentielle des GMR, maximale pour la GMR1, minimale pour la GMR5. Le taux de revalorisation de la GMR5 est égale à l'évolution de l'indice des prix à la consommation des ménages urbains dont le chef de famille est ouvrier ou employé. Les taux pour les GMR1 à 4 sont obtenus par l'application de majorations décroissantes à ce taux de base;
+    \item Le Smic horaire est lui aussi revalorisé sur la base de l'indice des prix d'un ménage ouvrier ou employé, mais afin qu'il croisse plus rapidement que le montant horaire des GMR et converge, des \og coups de pouce \fg~ spécifiques lui ont été appliqués.
+\end{enumerate}
+
+Du fait de ces mesures, le salaire horaire des salariés bénéficiant des GMR a augmenté entre juillet 2003 et juin 2005 de 5,5~\% pour les bénéficiaires de la GMR5 et jusqu'à 10,7\% pour les salariés bénéficiant de la GMR1. Ce sont les salariés n'ayant pas bénéficié d'un accord de RTT qui ont connu la plus forte hausse de rémunération brute horaire, puisque le montant du Smic horaire a augmenté de 17~\% entre 2003 et 2005.
+
+\begin{fig}[15cm]{Evolution des montants horaires des GMR et du Smic entre 1999 et 2005. \label{GMR}}
+{\graphique[1.2]{evolution_GMR_SMIC.pdf}}
+{\footnotesize \textsc{Source:}~calculs des auteurs.}
+\end{fig}
+
+\texttt{Références législatives:} Loi 2003-47 du 17/01/2003 (JO du 18/01/2003), art. 1.
+
+
+\subsubsection*{Les différents barèmes de réductions de cotisations sociales}
+
+En plus de prévoir la convergence des GMR et du Smic horaire, la loi 2003-47 du 17 janvier 2003 visait également à unifier les mesures d'allégements de cotisations sociales. Afin de compenser la hausse du coût du travail induite par l'harmonisation des GMR et du Smic (d'autant plus forte que le montant horaire de la GMR était proche du niveau du Smic horaire), le nouveau dispositif prévoyait d'organiser progressivement la transition des barèmes Aubry II et Juppé vers une réduction de charges s'élevant à 26\% de la rémunération brute pour les salariés rémunérés au niveau du Smic, quelque soit le temps de travail collectif dans l'entreprise. En pratique, la convergence du taux de réductions (plafonné à 18,2~\% dans les entreprises restées aux 35 heures et pouvant monter jusqu'à 27~\% dans les entreprises passées aux 35 heures) s'est réalisé par l'application, entre 2003 et 2005, de barèmes de réduction différents selon que l'entreprise était engagée dans un accord de RTT.\\
+
+\textbf{Entreprises ayant bénéficié des réductions de cotisations Aubry II}: \\
+
+\underline{Formule de calcul applicable entre le 01/07/2003 et le 31/12/2004:}\newline
+
+La formule de calcul de la réduction est la suivante:\\
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,7}\Big]\times \Big[1,7 \times \frac{GMR~2~horaire \times NBHR}{SBM} - 1\Big] \\
+\end{equation}
+
+où SBM est le salaire brut mensuel, GMR2 horaire est le montant horaire de la Garantie mensuelle de ressources 2, et NBHR le nombre d'heures rémunérées.
+
+La réduction maximale était ainsi de 26~\% (pour la GMR2, soit comme le prévoyait le dispositif Aubry II). Les salariés rémunérés au desssus de 1,7 fois le GMR 2 horaire ne bénéficiait d'aucune réduction. Pour rappel, sous le dispositif Aubry II, l'existence d'un montant minimum de réduction permettait aux employeurs de bénéficier d'une réduction de cotisations patronales sur l'ensemble des salaires, le taux de réduction en fonction du salaire brut tendant vers 0 pour les hauts salaires.\newline
+
+\underline{Formule de calcul applicable entre le 01/01/2005 et le 01/07/2005:}\newline
+
+La formule de calcul de la réduction est la suivante:\\
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{GMR~2~horaire \times NBHR}{SBM} - 1\Big] \\
+\end{equation}
+
+où, comme précédemment, SBM est le salaire brut mensuel, GMR2 horaire est le montant horaire de la Garantie mensuelle de ressources 2, et NBHR le nombre d'heures rémunérées. \newline
+
+
+\textbf{Entreprises n'ayant pas bénéficié des réductions de cotisations Aubry II}:\newline
+
+Les entreprises n'étant pas passées au 35 heures avant l'entrée en vigueur de la Loi Fillon ont vu leurs réductions de cotisations augmenter, comparativement aux exonérations dont elles bénéficiaient avec la ristourne Juppé. L'augmentation s'est faite en deux phases: \\
+
+\underline{Formule de calcul applicable entre le 01/07/2003 et le 30/06/2004:}
+
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,208}{0,5}\Big]\times \Big[1,5 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel, \textit{Smic horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées. \\
+
+\underline{Formule de calcul applicable entre le 01/07/2004 et le 30/06/2005:}
+
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,234}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où, comme précédemment, SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du SMIC, et NBHR le nombre d'heures rémunérées.\newline
+
+\texttt{Références législatives:} Décret 2003-487 du 11/06/2003 (JO du 12/06/2003) portant application du titre III de la loi 2003-47 du 17/01/2003 (JO du 18/01/2003) relative aux salaires, au temps de travail et au dévelopement de l'emploi et modifiant le code de la Sécurité sociale (modifié par le décret 2005-88 du 04/02/2005 (JO du 06/02/2005);
+
+Décret 2004-821 du 18/08/2004 (JO du 20/08/2004) portant application à certains régimes spéciaux de sécurité sociale du titre III dela loi 2003-47 du 17/01/2003 (JO du 18/01/2003) relative aux salaires, au temps de travail et au développement de l'emploi (modifié par le décret 2005-88 du 04/02/2005 (JO du 06/02/2005); Loi 2004-1484 (Loi de finances pour 2005) du 30/12/2004 (JO du 31/12/2004), art. 129; Lettre circulaire 2005-068 du 11/04/2005 ; Article D241-13 du CSS.
+
+
+\subsection{Dispositif unifié (depuis le 1\up{er} juillet 2005)}
+
+Au 1\up{er} juillet 2005, toutes les entreprises se sont vu appliquer la même formule de calcul de la réduction \og Fillon \fg:
+
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où, comme précédemment, SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées.\newline
+
+Il avait été initialement prévu de porter le plafond de l'exonération à 1,7 fois le Smic horaire, mais il a finalement ramené à 1,6 Smic. Les entreprises qui avaient été bénéficiaires de l'allégement Aubry II ont donc perdu, entre le 30/06/2005 (fin des mesures de transition) et le 01/07/2005 (entrée en vigueur du dispositif unique) le bénéfice d'exonérations de charges pour les salariés dont la rémunération horaire était comprise entre 1,6 et 1,7 fois le Smic.
+
+Le dispositif Fillon est toujours en vigueur, et la formule générale de calcul n'a subi que de légères modifications depuis 2005, qui sont décrites dans les paragraphes qui suivent.\newline
+
+\textbf{Application de la formule aux salariés à temps partiel ou n'étant pas employés toute l'année}
+
+Pour calculer le coefficient de réduction de cotisations dont peut bénéficier un salarié à temps partiel, le Smic mensuel reporté dans la formule doit être proratisé en fonction du nombre d'heures mensuelles prévue par le contrat de travail (hors heures complémentaires). Dans la formule (5.5) reportée ci-dessus, on a:
+\begin{equation}\nonumber
+  SBM = Smic~horaire \times 151,67 \times \Big[\frac{NHMCT}{151,67}\Big]
+\end{equation}
+
+où NHMCT correspond au nombre d'heures de travail mensuelles prévues par le contrat de travail. \newline
+
+\texttt{Références législatives:} Article L.241-13 du CSS, III.
+
+\subsection{Majoration de taux pour les petites entreprises (Depuis le 1\up{er} janvier 2007)}
+
+Au 1\up{er} janvier 2007, une majoration du taux de réduction a été instaurée pour les entreprises de moins de 20 salariés. \newline
+
+\textbf{Entreprises de 20 salariés ou plus:} \\
+La formule est inchangée:
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées.\newline
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées.\newline
+
+\texttt{Références législatives:} Loi 2006-1666 (Loi de finances pour 2007) du 21/12/2006 (JO du 27/12/2006), article 41-V; loi 2007-290 du 05/03/2007 (JO du 06/03/2007) instituant le droit au logement opposable et portant diverses mesures en faveur de la cohésion sociale, article 53-VII.\newline
+
+\textbf{Application de la formule aux salariés à temps partie ou n'étant pas employés toute l'année}
+
+Le calcul de la réduction pour les salariés à temps partiel continue de se faire en calculant un Smic mensuel proratisé, quelque soit la taille de l'entreprise.
+
+
+\subsection{Les changements des modalités de calcul de la réduction (2007, 2011 et 2012)}
+
+\subsubsection*{Modification introduite au 1\up{er} octobre 2007}
+
+Une modification de formule a été introduite au 1\up{er} octobre 2007 par la loi \og TEPA \fg, proposée par le Président Nicolas Sarkozy et le gouvernement Fillon. Elle remplace la référence au Smic horaire par la référence au Smic mensuel (défini sur la base de la durée légale du travail) et la référence à la rémunération du salarié par sa rémunération mensuelle \textit{hors rémumération des heures complémentaires et supplémentaires}. Cette modification conduit donc les employeurs de salariés dont la rémunération mensuelle est augmentée par la réalisation d'heures supplémentaires à bénéficier d'un taux de réduction plus important après l'introduction de la modification. Cette disposition vient ainsi en complément des mesures de réduction des cotisations sociales et d'exonération de l'impôt sur le revenu des heures supplémentaires prévues, en garantissant que le recours aux heures supplémentaires ne fera pas perdre aux employeurs une partie du bénéfice du dispositif Fillon d'allégement général des cotisations.
+
+Les formules de calcul deviennent:\newline
+
+\textbf{Entreprises de 20 salariés ou plus:} \\
+La formule est inchangée:
+\begin{equation}\label{eq:20sal}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~mensuel}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC \textit{annuel} est le Smic horaire multiplié par la durée légale du travail (1820 heures).\newline
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}\label{eq:119sal}
+  REDUCTION = SBM \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~mensuel}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC mensuel est le Smic horaire multiplié par la durée légale du travail (151,67 heures).\newline
+
+\texttt{Références législatives:} Loi 2007-1223 du 21/08/2007 (JO du 22/08/2007) en faveur du travail, de l'emploi et du pouvoir d'achat, art. 1-V.\newline
+
+\textbf{Application de la formule aux salariés à temps partiel ou n'étant pas employés toute l'année}
+
+Pour calculer le coefficient de réduction de cotisations dont peut bénéficier un salarié à temps partiel, le Smic mensuel reporté dans la formule doit être proratisé en fonction du nombre d'heures mensuelles prévue par le contrat de travail (hors heures complémentaires). Dans les formules \ref{eq:20sal} et \ref{eq:119sal} reportées ci-dessus, on a:
+\begin{equation}\nonumber
+  SBM = Smic~horaire \times 151,67 \times \Big[\frac{NHMCT}{151,67}\Big]
+\end{equation}
+
+où NHMCT correspond au nombre d'heures de travail prévues par le contrat de travail sur le mois considéré. \newline
+
+\texttt{Références législatives:} Article L.241-13 du CSS, III.
+
+\subsubsection*{Modification introduite au 1\up{er} janvier 2011}
+
+Afin de diminuer les comportements d'optimisation induits par la référence à la rémunération salariale et au salaire minimum \textit{mensuels}, une modification de la formule de la réduction \fg Fillon \og{}a été introduite au 1\up{er} janvier 2011. La référence à la rémunération salariale et au salaire minimum \textit{annuels} permet de rendre neutre en termes de réductions de cotisations sociales la distribution d'un même salaire annuel sur les mois de l'année, et supprime donc l'incitation qu'avaient les employeurs à distribuer inégalement les salaires versées aux différents mois afin de maximiser la réduction de cotisations ouverte.
+
+Les formules de calcul deviennent:\newline
+
+\textbf{Entreprises de 20 salariés ou plus:}
+
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel}{SBA} - 1\Big]
+\end{equation}
+
+où SBA est le salaire brut annuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC annuel est le Smic horaire multiplié par la durée légale du travail (1820 heures).\newline
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel}{SBA} - 1\Big]
+\end{equation}
+
+où SBA est le salaire brut annuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC \textit{annuel} est le Smic horaire multiplié par la durée légale du travail (1 820 heures).\newline
+
+Cette modification aurait permis de faire gagner aux finances publiques 1 Md d'euros par an.\newline
+
+\texttt{Références législatives:} Loi 2010-1594 (LFSS pour 2011) du 20/12/2010 (JO du 21/12/2010).\newline
+
+\textbf{Application de la formule aux salariés à temps partiel ou n'étant pas employés toute l'année}
+
+Pour calculer le coefficient de réduction de cotisations dont peut bénéficier un salarié à temps partiel, le Smic mensuel reporté dans la formule doit être proratisé en fonction du nombre d'heures mensuelles prévu par le contrat de travail (hors heures complémentaires). Dans la formule (5.5) reportée ci-dessus, on a:
+\begin{equation}\nonumber
+  Smic~annuel = Smic~horaire \times 1820 \times \Big[\frac{NHACT}{1820}\Big]
+  \end{equation}
+
+où NHACT correspond au nombre d'heures de travail prévues par le contrat de travail sur l'ensemble de l'année. \newline
+
+\texttt{Références législatives:} L.241-13 du CSS, III.
+
+\subsubsection*{Modification introduite au 1\up{er}janvier 2012}
+
+Afin de diminuer le coût pour les finances publiques du dispositif de défiscalisation des heures  supplémentaires et complémentaires\footnote{Pour rappel, les heures supplémentaires concernent des salariés à temps plein travaillant au-delà de la durée légale de 35 heures hebdomadaires, tandis que les heures complémentaires concernent les salariés à temps partiel effectuant des heures au-delà de la durée de travail prévue par leur contrat de travail.} prévue par la loi TEPA de 2007, la majorité parlementaire a voté une modification du calcul de la réduction Fillon, applicable au 1\up{er} janvier 2012. Le changement conduit à intégrer la rémunération des heures supplémentaires et complémentaires dans le salaire brut annuel pris en compte, et à calculer le Smic annuel comme le produit du Smic horaire par le nombre d'heures travaillées dans l'année, incluant le nombre d'heures supplémentaires ou complémentaires.
+
+Les formules de calcul deviennent:\newline
+
+\textbf{Entreprises de 20 salariés ou plus:}
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel} {SBA} - 1\Big]
+\end{equation}
+
+où SMIC annuel est égal au $=$ Smic horaire $\times$ nombre d'heures travaillées (le nombre d'heures travaillées étant égal au nombre d'heures contractuelles majoré du nombre d'heures complémentaires ou supplémentaires), et SBA correspond au salaire brut annuel, incluant la rémunération des heures supplémentaires. \newline
+
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel}{SBA} - 1\Big]
+\end{equation}
+
+où SMIC annuel est égal au $=$ Smic horaire $\times$ nombre d'heures travaillées (le nombre d'heures travaillées étant égal au nombre d'heures contractuelles majoré du nombre d'heures complémentaires ou supplémentaires), et SBA correspond au salaire brut mensuel, incluant la rémunération des heures supplémentaires.
+\newline
+
+Du fait de la majoration de rémunération des heures supplémentaires, la modification introduite conduit à diminuer le taux de la réduction de cotisations patronales lorsque le salarié effectue des heures supplémentaires ou complémentaires.\newline
+
+\textbf{Exemple chiffré}
+
+Prenons l'exemple d'un salarié rémunéré 10 euros de l'heure, employé à temps plein toute l'année. Le Smic est supposé fixé à 9 euros de l'heure. Le tableau suivant compare la réduction ouverte pour ce salarié selon l'ancien mode de calcul et la réduction ouverte avec la modification de calcul introduite au 1\up{er} janvier 2012.
+
+\begin{table}\label{tab:7_8}
+\centering
+\caption{Exonérations Fillon: exemple de calcul}
+\vspace{0.2cm}
+\small
+\begin{tabular}{|p{4.5cm}||p{5.5cm}|p{5.5cm}|}
+\hline
+\emph{Valeur à prendre en compte}  & Calcul jusqu'au 31/12/2011 & Calcul depuis le 01/01/2012 \\
+\hline
+\hline
+Rémunération annuelle & $10 \times 1820 = 18200 $ \euro &  $10 \times 1820 + 12,5 \times 100 = 19450 $ \euro \\
+\hline
+Smic annuel & $9 \times 1820 = 16380 $ \euro  & $9 \times (1820 + 100) = 17280 $ \euro  \\
+\hline
+Calcul du coefficient & $\frac{0,26}{0,6} \times (1,6 \times \frac{16380}{18200} - 1)$   & $\frac{0,26}{0,6} \times (1,6 \times \frac{17280}{19450} - 1)$ \\
+\hline
+\hline
+Réduction    & 19,1~\%    & 18,3~\% \\
+\hline
+\end{tabular}
+\end{table}
+
+\texttt{Références législatives:}  Loi 2011-1906 (LFSS pour 2012)  du 21/12/2011 (JO du 22/12/2011), art. 16.\newline
+
+\textbf{Application de la formule aux salariés à temps partiel ou n'étant pas employés toute l'année}
+
+Pour calculer le coefficient de réduction de cotisations dont peut bénéficier un salarié à temps partiel, la même proratisation du Smic est appliquée qu'avant la modification de formule de janvier 2012. Le Smic mensuel reporté dans la formule doit être proratisé en fonction du nombre d'heures annuelles prévu par le contrat de travail (hors heures complémentaires). Dans la formule (5.5) reportée ci-dessus, on a:
+\begin{equation}\nonumber
+  Smic~annuel = Smic~horaire \times 1820 \times \Big[\frac{NHACT}{1820}\Big]
+  \end{equation}
+
+où NHACT correspond au nombre d'heures de travail mensuelles prévues par le contrat de travail sur l'ensemble de l'année. \newline
+
+\texttt{Références législatives:} L.241-13 du CSS, III.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%
+\section{Mesures récentes}\label{Mesures recentes}
+
+
+\subsection{Le Credit d'Impôt pour la Compétitivité et l'Emploi - CICE (depuis le 1\up{er} janvier 2013)}
+
+Conçu comme un piller majeur de la politique de lutte contre le chômage du gouvernement Ayrault, le Crédit d'impôt pour la compétitivité et l'emploi (CICE) a été mis en place en 2013. Si formellement il consiste actuellement en une réduction ou un crédit sur l'impôt sur les sociétés, il fonctionne en pratique comme une réduction de cotisations patronales. Tout employeur redevable de l'impôt sur les sociétés (IS) ou de l'impôt sur le revenu (IR) d'après son bénéfice réel peut obtenir un abattement sur le montant de son impôt égal proportionnel aux salaires inférieurs à 2,5 fois le salaire minimum. Le taux de la réduction, de 4~\% sur les salaires versés en 2013, a été porté à 6~\% depuis le 1\up{er} janvier 2014. Le CICE est cumulable avec le dispositif Fillon.\newline
+
+Pour un salarié à temps plein toute l'année, la réduction est calculée comme le taux applicable multiplié par la rémunération brute du salarié, sous réserve que celle-ci soit inférieure à une rémunération inférieure ou égale à 2,5 Smic calculée comme suit:
+\begin{equation} \nonumber
+  REMUNERATION~PLAFOND = 2,5 \times SMIC~horaire \times (1 820 + NHSA)
+\end{equation}
+
+où NHSA est le nombre d'heures supplémentaires effectuées dans l'année et 1 820 est le nombre d'heures correspondant à la durée légale du travail.\newline
+
+Le CICE permet à un certain nombre d'entreprises ne bénéficiant pas ou bénéficiant peu des mesures d'exonérations concentrées sur les bas salaires (\textit{cf. supra}) d'obtenir à leur tour une réduction de cotisations patronales. Ce nouveau dispositif visait à réduire le coût du travail d'une part plus grande de la main d'\oe uvre française et à favoriser l'emploi. Ses objectifs et son efficacité ont été discutés par les partenaires sociaux et les économistes depuis son annonce fin 2012. Ce dispositif a en effet été mis en avant par le gouvernement comme une réponse à deux défis économiques: la création d'emplois d'une part, le soutien à l'industrie et, plus largement, aux entreprises exportatrices. Le premier rapport du Comité de suivi du CICE a souligné que le CICE bénéficie pour l'heure davantage aux entreprises du secteur tertiaire, du fait de leur structure salariale moins qualifiée que celle de l'industrie. Tandis que certains défenseurs du CICE déplorent le manque de ciblage du dispositif sur les salaires plus élevés, plus fréquents parmi les entreprises exportatrices, d'autres voix s'élèvent pour invoquer la nécessité d'une plus grande concentration des réductions de cotisations sur les plus bas salaires afin de diminuer le chômage des moins qualifiés.\newline
+
+\texttt{Références législatives:} Loi 2012-1510 (LFR pour 2012) du 29/12/2012 (JO du 30/12/2012), art. 66.
+
+\subsection{Débats récents et évolutions à venir}
+
+Malgré les critiques qui l'ont accueilli, notamment concernant la forte discontinuité (de 6~\%) qu'il induit dans le coût du travail au niveau du plafond de l'exonération, le CICE a été conçu comme un dispositif permanent. Il pourrait toutefois être converti en simple réduction de cotisations patronales, afin de simplifier le dispositif pour les employeurs et d'en faire bénéficier les structures non assujetties à l'impôt sur les sociétés.
+
+Le gouvernement prévoit aussi une réduction graduelle de la cotisation de la branche famille de la Sécurité sociale. Cette cotisation n'étant pas plafonnée, sa réduction permettrait de réduire le coût du travail pour l'ensemble des salariés du privé. Déjà réduit de 5,40~\% à 5,25~\% le taux devrait progressivement décroître pour devenir nul en 2017.
+
+Par ailleurs, au lendemain de sa prise de fonction, le premier ministre Manuel Valls a annoncé son intention non seulement de mettre en place  des réductions de cotisations patronales supplémentaires, mais également d'introduire une réduction substantielle des cotisations salariales au niveau du Smic. Un dispositif de baisse dégressive des cotisations salariales entre 1 et 1,3 Smic a été présenté dans le Projet de loi de financement de la Sécurité sociale pour 2015. La mesure a toutefois été censurée par le Conseil Constitutionnel en août 2014, au motif qu'elle ne respecte pas le `principe d'égalité' face à l'obligation de participer au financement de la Sécurité sociale. Cette décision met en lumière l'importance accordée au caractère contributif des cotisations sociales, qui les distingue des impôts et taxes dont le paiement n'ouvre pas de droits sociaux spécifiques.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%
+\section{Les exonérations de cotisations employeur: vue d'ensemble}\label{Vue d'ensemble}
+
+
+\subsection{Evolution des taux d'exonération au cours du temps}
+
+Les dispositifs qui se sont succédés depuis la fin des années 1990 ont progressivement augmenté le taux d'exonérations de cotisations patronales au niveau du Smic. Mis à part le dispositif Aubry II, qui rendait éligibles tous les salariés, quel que soit leur niveau de salaire, à une réduction de cotisations patronales pour compenser la hausse du coût horaire du travail induite par le passage aux 35 heures, ces dispositifs se sont centrés sur les \og bas salaires \fg. La tendance a toutefois été à un élargissement progressif du champ des exonérations: fixées à 1,2 Smic horaire par la ristourne Juppé I, les exonérations de cotisations patronales s'appliquent aux salariés gagnant jusqu'à 1,6 Smic avec la réduction Fillon (QUEL PERCENTILE?).
+
+Le CICE induit une rupture dans la logique de mesures de baisse du coût du travail réservées aux bas salaires puisqu'il est ouvert également pour les salaires représentant jusqu'à 2,5 Smic, bénéficiant ainsi à plus de 70~\% des salariés du privé à temps complet\footnote{Le CICE n'est toutefois pas ouvert aux employés des institutions et des fondations à but non lucratif.}.
+
+
+\subsubsection*{Entreprises n'ayant pas passé un accord de RTT entre 1999 et 2003}
+
+\begin{table} [h!]
+\begin{center}
+\centering
+\caption {Comparaison du taux maximal et de la limite des réductions.}\label{tab:7_9}
+\small
+\begin{tabular}{|l|c|c|}
+\cline{2-3}
+\multicolumn{1}{c}{} {\multirow{2}{*}{}} & \multicolumn{1}{|c|} {Taux maximum de} & Salaire horaire maximal  \\
+\multicolumn{1}{c}{} {\multirow{2}{*}{}} & \multicolumn{1}{|c|} {la réduction} & ouvrant droit à réduction \\
+\hline
+Du 01/09/1995 au 30/09/1996 & 12,8~\% & 1,2 Smic horaire \\
+Du 01/10/1996 au 31/12/1997 & 18,2~\% & 1,33 Smic horaire \\
+Du 01/01/1998 au 30/06/2003 & 18,2~\% & 1,3 Smic horaire \\
+Du 01/07/2003 au 30/06/2004 & 20,8~\% & 1,5 Smic horaire \\
+Du 01/07/2004 au 30/06/2005 & 23,4~\% & 1,6 Smic horaire \\
+Du 01/07/2005 au 31/12/2006 & 26,0~\%  & 1,6 Smic horaire \\
+Du 01/01/2007 au 31/12/2012 & 28,1~\%  & 1,6 Smic horaire \\
+Du 01/01/2013 au 31/12/2013 & 32,1~\% & 2,5 Smic horaire \\
+Depuis le 01/01/2014        & 34,1~\% & 2,5 Smic horaire \\
+\hline
+\end{tabular}
+\end{center}
+{\footnotesize \textsc{Note:} Les taux maximaux sont indiqués pour les entreprises n'ayant pas conclu d'accord de RTT avant le 30 juin 2003.}
+\end{table}
+
+
+\begin{fig}[15cm]{Taux d'exonérations de cotisations patronales à différents niveaux de salaire - entreprises restées aux 39 heures \label{evol_tx_exo}}
+{\graphique[0.9]{Exocharges_entr39heures_cut.pdf}}
+{\footnotesize \textsc{Source:}~calculs des auteurs.}
+\end{fig}
+
+
+\subsubsection*{Entreprises ayant passé un accord de RTT entre 1999 et 2003}
+
+\begin{table}[h!]\label{tab:7_10}
+\begin{center}
+\centering
+\caption {Comparaison du taux maximal et de la limite des réductions Juppé, Aubry II et Fillon : cas des entreprises ayant conclu un accord de RTT}
+\small
+\begin{tabular}{|l|c|c|}
+\cline{2-3}
+\multicolumn{1}{c}{} {\multirow{2}{*}{}}& \multicolumn{1}{|c|} {Taux maximum de}  & Salaire horaire maximal  \\
+\multicolumn{1}{c}{} {\multirow{2}{*}{}} & \multicolumn{1}{|c|} {la réduction} & ouvrant droit à réduction \\
+\hline
+Du 01/09/1995 au 30/09/1996 & 12,8\% & 1,2 SMIC horaire \\
+Du 01/10/1996 au 31/12/1997 & 18,2\% & 1,33 SMIC horaire \\
+Du 01/01/1998 au 31/01/2000 & 18,2\% & 1,3 SMIC horaire \\
+Du 01/02/2000 au 30/06/2003 & 26,0\% & - \\
+Du 01/07/2003 au 31/12/2004 & 26,0\% & 1,7 GMR2 horaire \\
+Du 01/01/2005 au 30/07/2005 & 26,0\% & 1,6 GMR2 horaire \\
+A compter du 01/07/2005     & 26,0\%  & 1,6 SMIC horaire \\
+\hline
+\end{tabular}
+\end{center}
+{\footnotesize \textsc{Note:} Les taux reportés ont été calculés en faisant l'hypothèse que l'entreprise a conclu un accord de RTT entre le 1\up{er} juillet 1999 et le 30 juin 2000. Sa Garantie mensuelle de rémunération telle que prévue par la loi Aubry II correspond à la GMR 2.}
+\end{table}
+
+\subsection{L'évolution du coût du travail sous les dispositifs Aubry II et Fillon}
+
+La loi Aubry II de janvier 2000 a prévu que soit maintenu le salaire brut mensuel des salariés dont les entreprises passent à un horaire collectif hebdomadaire de 35 heures. L'instauration de la garantie mensuelle de ressources (GMR) a donc eu pour conséquence d'induire une hausse immédiate de 11,4~\% (39/35 - 1) du salaire horaire brut pour les employés d'entreprises passant de 39 heures à 35 heures.
+
+Les réductions de cotisations patronales Aubry II, plus généreuses (tant en termes de réduction maximale que d'éligibilité), visaient en partie à atténuer la hausse du coût horaire du travail induite par la hausse du salaire horaire brut. Cependant, le passage aux 35 heures s'est tout de même traduit par une hausse du coût horaire du travail, de l'ordre de 6 à 7\%  pour les salariés rémunérés au niveau du salaire minimum (c'est-à-dire, pour les entreprises passées aux 35 heures, aux niveau d'une GMR horaire)
+
+\subsubsection*{Evolutions à proximité du Smic}
+
+Si entre 2000 et 2003 les entreprises ayant conclu un accord de RTT ont connu une hausse significative du coût du travail, plus faible pour les bas salaires et plus élevée pour les salaires les plus élevés, la mise en place progressive des exonérations Fillon entre 2003 et 2005 a conduit les entreprises restées aux 39 heures à connaître une \textit{hausse} plus importante de leur coût du travail pour leurs salariés rémunérés autour du salaire minimum. La hausse différentielle du coût du travail entre entreprises passées aux 35 heures et entreprises n'ayant pas conclu un accord de RTT a permis d'aboutir à un coût du travail horaire identique pour toutes les entreprises, à tous les niveaux de salaire, au 1\up{er} juillet 2005.
+
+
+\begin{fig}[15cm]{Evolution du salaire horaire brut et du coût horaire du travail au niveau du salaire minimum (1998 - 2007). \label{evol_salh_cdt}}
+{\graphique[0.9]{Coutdutravail_hausseSmicGmr3_cut.pdf}}
+{\footnotesize \textsc{Note:}~Le calcul du coût du travail a été réalisé à l'aide du modèle \TAXIPP.}
+\end{fig}
+
+
+\textbf{RAJOUTER GRAPHE: coût du travail avant et après exonérations de charges au niveau du Smic, 1976-2010}
+
+\subsubsection*{Evolutions autour du salaire médian}
+
+L'unification progressive des réductions de cotisations patronales a permis aux entreprises qui n'étaient pas passées aux 35 heures en 2003 de bénéficier d'une baisse des cotisations pour les salariés rémunérés au-dessus de 1,3 Smic, pour lesquels la ristourne Juppé III n'ouvrait pas d'exonération. Malgré la hausse du salaire minimum et sa diffusion dans la distribution des salaires, la mise en place du dispositif Fillon a entraîné une baisse du coût du travail au niveau du salaire médian pour toutes les entreprises, cette baisse ayant été plus forte pour les entreprises n'ayant pas conclu d'accord de RTT \citep{bunel2012}.
+
+
+\subsubsection*{Cas des petites entreprises}
+
+Depuis le 1\up{er} juillet 2007 cependant, le taux de réduction des cotisations patronales pour les petites entreprises (de 1 à 19 salariés) est majoré (de 2 points de pourcentage au niveau du Smic). L'objectif est de contenir le coût du travail dans ces structures de production, généralement plus intensives en facteur travail que les moyennes et grandes entreprises, afin de favoriser leur développement et l'emploi.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{La défiscalisation des heures supplémentaires}
+
+En règle générale, les rémunérations perçues au titre de la réalisation d'heures supplémentaires sont soumises aux mêmes règles fiscales et sociales que la rémunération perçue en contrepartie des heures inscrites dans le contrat de travail. Toutefois, entre 2007 et 2012, les heures supplémentaires et complémentaires se sont vues appliquer un régime social et fiscal particulier.
+
+%\subsection{Les heures supplémentaires : majoration de la rémunération horaire}
+%
+%Dans le cas général, la rémunération à laquelle donne lieu la réalisation d'heures supplémentaires est soumise au même régime social et fiscal que le salaire de base perçu suite à la réalisation des heures de travail normales prévues par le contrat de travail. Il convient cependant de noter que les heures supplémentaires effectuées au-delà de la durée légale du travail donnent obligatoirement lieu à une majoration de la rémunération brute et, par conséquent, à un surplus de prélèvements sociaux relativement aux heures contractuelles. \newline
+%
+%\underline{Jusqu'au 31 janvier 1982 :}
+%
+%La durée légale du travail est fixée à 40 heures par semaine. Les heures effectuées au delà de 40 heures donne lieu à majoration. \newline
+%
+%\underline{Entre le 1\up{er} février 1982 et le 31 décembre 1999 :}
+%
+%La durée légale du travail est fixée à 39 heures par semaine. Toutefois, dès 1996 les dispositifs Robien puis Aubry ont voulu inciter les entreprises à passer à un horaire collectif de 35 heures. Le seuil de déclenchement de la majoration des rémunérations des heures supplémentaires restait toutefois 39 heures. Le taux de majoration des heures supplémentaires était alors de:
+%\begin{itemize}
+%\item 25\% pour les 8 premières heures supplémentaires (soit pour les heures entre la 40\up{ème} et la 47\up{ème} heures incluses);
+%\item 50\% à partir de la 48\up{ème} heure. \newline
+%\end{itemize}
+%
+%\underline{Entre le 1\up{er} janvier 2000 et le 31 décembre 2001 :}
+%
+%La durée légale du travail est fixée à 35 heures par semaine seulement pour les entreprises de plus de 20 salariés. Les entreprises de 20 salariés et moins continuent d'être soumises à une durée légale de 39 heures hebdomadaires. \newline
+%
+%\underline{Depuis le 1\up{er} janvier 2002 :}
+%
+%La durée légale du travail est fixée à 35 heures par semaine pour toutes les entreprises, quelque soit leur taille.
+%
+%Le taux de majoration des heures supplémentaires est de:
+%\begin{itemize}
+%\item 25\% pour les 8 premières heures supplémentaires (soit pour les heures entre la 36\up{ème} et la 43\up{ème} heure incluses);
+%\item 50\% à partir de la 44\up{ème} heure.
+%\end{itemize}
+%
+%Pour les entreprises appliquant un horaire collectif de travail inférieur à 35 heures, les heures supplémentaires en deçà de la 36\up{ème} heure ne donnent pas lieu à majoration. Par ailleurs, les entreprises employant 20 salariés ou moins étaient autorisés à majorer les 8 premières heures supplémentaires de 10\% seulement jusqu'au 1\up{er} octobre 2007.
+
+\subsection{La loi \og TEPA \fg~(2007 - 2012)}
+
+Introduite par le gouvernement Fillon, la loi en faveur du travail, de l'emploi et du pouvoir d'achat (dite loi TEPA) met en place un régime social et fiscal dérogatoire pour les heures supplémentaires (réalisées par les salariés à temps plein) et pour les heures complémentaires (effectuées par les salariés à temps partiel)\footnote{Les heures complémentaires ne doivent pas être effectuées de manière régulière et systématique.}. Pour le salarié, la loi TEPA prévoit une réduction des cotisations sociales salariales versées sur le temps de travail supplémentaire ainsi qu'une exonération totale d'impôt sur le revenu perçu au titre des heures supplémentaires. Pour l'employeur, la loi introduit une déduction forfaitaire patronale qui réduit le surcoût des heures supplémentaires. Les salariés rémunérés au forfait (en heures ou en jours) bénéficient également des mesures de défiscalisation. Enfin, la loi prévoit que l'État compensera le moins-perçu par les caisses de Sécurité sociale des régimes concernés par les exonérations de cotisations. Les dispositions se sont appliquées aux heures supplémentaires effectuées à compter du 1\up{er} octobre 2007 et jusqu'à la fin du mois de juillet 2012 (une disposition en faveur des petites entreprises ayant été toutefois maintenue au-delà).\newline
+
+\texttt{Références législatives:} {Loi 2007-1223 du 21/08/2007 en faveur du travail, de l'emploi et du pouvoir d'achat (loi TEPA, JO du 22/08/2007), art. 1.}
+
+\subsubsection*{Exonération d'impôt sur le revenu}
+
+Pendant la durée d'application de la loi TEPA, les sommes versées aux salariés au titre du temps supplémentaire ne sont pas à déclarer en tant que revenu imposable. Cette disposition s'applique à tous les salariés du privé, mais également aux agents publics titulaires et non titulaires. La défiscalisation ne concerne toutefois que l'impôt sur le revenu (IR) au sens strict, dans la mesure où:
+\begin{itemize}
+\item Les salaires perçus au titre du temps de travail supplémentaire sont pris en compte pour le revenu fiscal de référence (RFR), dont le montant détermine l'accès à certaines prestations sociales\footnote{Tarif de la crèche, accès au centre aéré de la commune, etc.} et l'exonération ou la réduction de certaines taxes locales;
+\item Les sommes perçues et les heures effectuées au titre du temps de travail supplémentaire sont prises en compte pour la détermination de l'éligibilité à la prime pour l'emploi (PPE) et de son montant.
+\end{itemize}
+
+Ainsi, si la réalisation d'heures supplémentaires ne peut pas augmenter l'impôt sur le revenu dû, elle peut en revanche induire une augmentation de certains impôts locaux, à la perte de certains bénéfices sociaux et à une diminution du montant de la PPE.
+
+\subsubsection*{Réduction de cotisations sociales salariales}
+
+La \texttt{Loi 2007-1223 (art. 2-IV)} introduit une réduction de cotisations de Sécurité sociale proportionnelle à la rémunération perçue au titre des heures supplémentaires ou complémentaires. Le taux maximal de la réduction est fixé par décret, et ne peut excéder le taux des cotisations salariales conventionnelles obligatoires. Le taux de réduction est fixé à 21,5~\% par un décret paru en septembre 2007 \footnote{Soit la somme des taux des cotisations maladie, d'assurance vieillesse, de retraite complémentaire, d'assurance chômage, de la CSG et de la CRDS pour les salaires en dessous du PSS.}. La réduction de cotisations est consentie sous réserve que l'heure supplémentaire ou complémentaire soit rémunérée à un taux au moins égal au taux de rémunération d'une heure normale.\newline
+
+\texttt{Références législatives:} {art. L.241-17 du CSS; Décret 2007-138 du 24/09/2007 (JO du 25/09/2007), art. 1, sous-section 7.}
+
+\subsubsection*{Réduction forfaitaire des cotisations sociales employeur}
+
+En parallèle, la loi prévoit une réduction forfaitaire des cotisations employeur pour chaque heure supplémentaire. Un décret de septembre 2007 fixe la réduction à 0,50 euros par heure supplémentaire pour les entreprises de plus de 20 salariés, et de 1,50 euro pour les entreprises de 20 salariés et moins. Toutefois, en parallèle, l'art. 1 (XI) de la loi TEPA a mis fin à la dérogation temporaire permettant de majorer les heures supplémentaires de 10\% (et non de 25\%) pour les entreprises employant 20 salariés et moins.
+
+Le caractère forfaitaire de la réduction rend le recours aux heures supplémentaires pour l'employeur relativement plus intéressant pour les salariés ayant une faible rémunération.  Cette réduction se cumule avec l'exonération Fillon sur les bas salaires.
+
+\underline{Nota bene:} La réduction de cotisations patronales ne s'applique pas aux heures complémentaires effectuées par les salariés à temps partiel. \newline
+
+\texttt{Références législatives:} {art. L.241-18 du CSS; Décret 2007-138 du 24/09/2007 (JO du 25/09/2007), art. 1, sous-section 7} \newline
+
+\subsection{Modification au 1\up{er} janvier 2012}
+
+La défiscalisation des heures supplémentaires a été critiquée tant pour son coût pour les finances publiques (de l'ordre de 5 milliards d'euros par an) que pour son manque d'efficacité supposé \footnote{Le débat à ce sujet a été intense: pour certains, notamment \citet{Heyer2011}, l'augmentation constatée dans les heures supplémentaires déclarées serait en grande partie due à des effets de déclaration et d'aubaine. Son application dans un contexte de crise économique aurait par ailleurs eu des effets dépressifs sur l'emploi, dans la mesure où le coût du travail plus faible des heures supplémentaires par rapport aux heures normales aurait incité les employeurs à allonger le temps de travail de leurs salariés et non à embaucher. Une évaluation s'appuyant sur l'évolution du nombre d'heures travaillées soutient que la défiscalisation a principalement conduit à une plus grande déclaration des heures supplémentaires (\citet{cahuc2012}).}. Dès le 1\up{er} janvier 2012, la modification de la formule de calcul de la réduction de cotisations patronales Fillon a réduit l'avantage financier pour les employeurs à recourir aux heures supplémentaires: en effet, celles-ci sont incluses dans la rémunération annuelle brute du salarié, tandis que le montant du Smic pris en compte est augmenté des heures supplémentaires ou complémentaires\footnote{A titre d'exemple, prenons le cas d'un salarié rémunéré au Smic à temps plein toute l'année. Pour simplifier, on suppose que le Smic horaire est de 10 euros. Si ce salarié n'effectue aucune heure supplémentaire, le taux de réduction des cotisations patronales dont son employeur bénéficie est de 26~\% du salaire brut. Supposons maintenant que ce salarié effectue 20 heures supplémentaires dans l'année, rémunérées au Smic horaire majoré de 25\% (soit 12,5 euros). C'est maintenant le ratio des deux éléments suivants: du Smic calculé pour un an de travail (Smic horaire x (durée légale du travail annuelle + nombre d'heures supplémentaires)) soit $10 \times (1 820 + 20) = 18 400$, et de la rémunération annuelle brute du salarié, soit $10 \times 1 820 + 12,5 \times 20 = 18 450$. Ce ratio étant inférieur à 1, la réduction de cotisations patronales sera inférieure à 26~\%.}.
+
+\subsection{Abrogation partielle de la loi au 1\up{er} août 2012}
+
+La nouvelle majorité gouvernementale issue des élections de 2012 a voté la suppression de la défiscalisation des heures supplémentaires à l'été 2012. L'exonération d'IR des heures supplémentaires et complémentaires a pris fin pour les heures réalisées à partir du 1\up{er} août 2012, et les exonérations de cotisations sociales salariales n'ont plus été octroyées pour les heures réalisées au-delà du 1\up{er} septembre 2012.
+
+En revanche, la réduction forfaitaire de cotisations patronales dans les entreprises de moins de 20 salariés a été maintenue. \newline
+
+\texttt{Références législatives:} {Loi 2012-958 (LFR pour 2012) du 16/08/2012 (JO du 17/08/2012), art. 3; Décret 2012-1074 du 21/09/2012 (JO du 23/09/2012)}.
+
+
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi
+

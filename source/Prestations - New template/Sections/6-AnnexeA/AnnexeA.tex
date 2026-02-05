@@ -1,0 +1,45 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\chapter*{Annexe A\label{annexeA}}
+\else \fi
+
+\lipsum[66]
+
+Le tableau~\ref{tab:annexeA}.
+
+\renewcommand\thetable{A\arabic{table}}
+\setcounter{table}{0}
+
+% Tableau en annexe %
+
+\begin{tab}
+[8cm]                                                                           % Argument 1 [8 cm] : largeur du tableau (mettre 15 cm comme taille maximale)
+{
+Exemple de tableau en annexe.\label{tab:annexeA}                                 % Argument 2 : titre du tableau
+} {
+\begin{tabular}{lccc} \toprule                                                  % Argument 3 : contenu du tableau
+Échantillon             & Contrôle     & Traitement  & Différence \\
+                        & (1)          & (2)         & (3)          \\
+\midrule
+coeff1                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+coeff2                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+\\
+Nombre d'observations   & 1~023        &  999        &             \\
+\bottomrule
+\end{tabular}
+} {
+\textsc{Notes:} bla bla bla bla bla bla bla bla bla bla bla                     % Argument 4 : notes du tableau
+bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla.\\
+\textsc{Sources:} bla bla bla bla bla bla bla bla bla bla bla. }
+\end{tab}
+
+\lipsum[66]
+
+\ifx\isEmbedded\undefined
+%\newpage
+%\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi

@@ -1,0 +1,74 @@
+% MACROS %
+
+% Macro d'inclusion de graphiques pdf %
+\newcommand{\graphique}[2][1]{\begin{minipage}{\linewidth}\begin{center}\includegraphics[width=#1\linewidth,clip]{Figures/#2}\end{center}\end{minipage}}
+
+% Macro pour créer une figure (avec notes optionnelles) dans le corps du texte %
+\newenvironment{fig}[4][1]{
+\begin{figure}[!ht]
+\begin{center}
+\begin{minipage}{14cm}
+\caption{#2}
+\end{minipage}
+\end{center}
+\begin{center}
+\begin{minipage}{#1}
+\begin{center}#3
+\end{center}
+\end{minipage}
+\if!#4!\empty \else \\
+\begin{scriptsize}
+\begin{minipage}{#1}\vspace{0.2cm} \par #4
+\end{minipage}
+\end{scriptsize} \fi }
+{\end{center}
+\end{figure}}
+
+% Macro pour créer une figure (avec notes) sur une page séparée %
+\newenvironment{figp}[4][1]{
+\begin{figure}[p]
+\begin{center}
+\begin{minipage}{14cm}
+\caption{#2}
+\end{minipage}
+\end{center}
+\begin{center}
+\begin{minipage}{#1}
+\begin{center}#3
+\end{center}
+\end{minipage}
+\if!#4!\empty \else \\
+\begin{scriptsize}
+\begin{minipage}{#1}\vspace{0.2cm} \par #4
+\end{minipage}
+\end{scriptsize} \fi }
+{\end{center}
+\end{figure}}
+
+% Macro pour créer un tableau (avec notes optionnelles) %
+\newenvironment{tab}[4][1]
+{\def\TMP{#3}\newdimen\TMPsize\settowidth{\TMPsize}{\TMP}
+\begin{table}[!ht]
+\begin{center}
+\begin{minipage}{14cm}
+\caption{#2}
+\end{minipage}
+\end{center}
+\begin{center}
+\begin{minipage}{#1}
+\resizebox{\textwidth}{!}{#3}
+\end{minipage}
+\if!#4!\empty \else \\
+\begin{scriptsize}
+\begin{minipage}{#1}\vspace{0.2cm} \par #4
+\end{minipage}
+\end{scriptsize} \fi }
+{\end{center}
+\end{table}}
+
+% Pour permettre de répartir du texte sur plusieurs lignes dans un tableau %
+\newcommand{\minitab}[2][c]{\begin{tabular}{#1}#2\end{tabular}}
+
+% Macro variables %
+\newcommand{\eme}{\textsuperscript{e}}
+\newcommand{\er}{\textsuperscript{er}}

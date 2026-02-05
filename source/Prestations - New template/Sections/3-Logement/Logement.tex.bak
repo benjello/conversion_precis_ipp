@@ -1,0 +1,290 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{0}
+\chapter{\label{Chapitre3}Les prestations logement}
+\else \fi
+
+
+% Préciser qui sont les bénéficiaires? 
+% Exemple des étudiants
+% Réforme des APL et changements à inclure dans le chapitre
+
+Les aides personnelles au logement sont des prestations versées par l'\'Etat sous conditions de ressources. Elles ont pour vocation à soutenir les personnes et les familles aux ressources limitées dans leur effort financier consacré au logement. Elles constituent une intervention de l'\'Etat visant à soutenir la demande de logement, contrairement aux dispositifs d'aide à l'accession, qui agissent, quant à eux, plutôt sur l'offre de logement.
+
+
+\section{Définitions préliminaires}
+
+\subsection{Les différentes prestations logement}
+
+Trois types d'aide au logement co-existent: l'Allocation de logement familiale (ALF), financée par le Fonds national des prestations familiales de la sécurité sociale, l'Allocation de logement sociale (ALS) et l'Allocation personnalisée au logement (APL) qui relèvent toutes deux du Fonds national d'aide au logement. On peut les regrouper en deux catégories avec l'APL d'une part, et l'Allocation logement (AL) de type familial ou social (ALF ou ALS) d'autre part.
+
+Historiquement, l'ALF est la plus ancienne des aides au logement toujours en vigueur puisqu'elle a été créée en 1948 dans le but d'aider les familles à faire face à la hausse des prix du loyer à la suite de la reconstruction d'après-guerre. Cette aide s'adresse aujourd'hui aux familles ayant des enfants ou des proches infirmes à charge, ainsi qu'aux jeunes couples mariés sans enfant qui ne sont pas éligibles aux APL. Est ensuite créée l'ALS en 1971 initialement pour aider les personnes âgées de plus de 65 ans, les personnes handicapées et les jeunes travailleurs de moins de 25 ans. À partir de 1991, elle a été étendue à toute personne non éligible à l'ALF ou à l'APL. Enfin, l'APL, créée en 1977, s'adresse à toute personne locataire d'un logement neuf ou ancien faisant l'objet d'une convention entre le propriétaire et l'\'Etat, ainsi qu'aux accédants à la propriété uniquement s'ils remboursent un prêt aidé par l'\'Etat (PAP) ou un prêt conventionné (PC), dont les prêts à l'accession sociale (PAS) font partie jusqu'en 2014. En effet, les APL pour les accédants à la propriété ont été uniquement conservées pour les ménages dont les ressources perçues représentent moins de 30~\% du montant des ressources évaluées à la date de signature.
+
+Le tableau\ref{tab:logcond} résume à quel type d'individus/ménages s'adressent les différentes aides au logement selon leur situation.
+
+\begin{fig}[16cm]{Récapitulatif des conditions d'allocation des aides au logement \label{tab:logcond}}
+{\graphique [1]{recapcond}}
+{\small}
+\end{fig}
+
+
+\subsection{Définition de l'entité considérée}
+
+En ce qui concerne les prestations logement, l'entité considérée est la famille avec le rattachement des enfants de moins de 21 ans depuis du 1\up{er} janvier 2000.
+Sont également considérées comme personnes à charge les proches parents hébergés s'ils sont retraités ou handicapés à plus de 80~\% et si leurs ressources de l'année de référence ne dépassent pas un seuil exprimé en pourcentage de la BMAF.
+
+\texttt{Références législatives:} {Décret 2007-1081, art. 4 du 10/07/2007, Décret 2000-72, art. 1 du 28/01/2000 et Décret 91-1159, art. 1 du 08/11/1991 modifiant l'art. D542-4 du CSS}
+
+\subsection{Les différents types de logement}
+
+La distinction entre les différentes aides au logement est essentiellement une distinction administrative selon le type de financement et la population ciblée. Les différences de barème des aides au logement varient en revanche selon le type de logement. On peut distinguer trois cas: les logements ordinaires des parcs social et privé (dits \og~hors-foyers\fg{}), les logements collectifs comme les foyers, maisons de retraite et résidences universitaires (dit \og~en foyers\fg{}) et les logements dont l'occupant est un propriétaire accédant jusqu'à la réforme des APL accession prévue pour 2016.
+Depuis la réforme de 2001, la formule de calcul des APL et des AL est identique pour les logements ordinaires (logement hors-foyers), mais elle continue de différer pour les logements-foyers ainsi que pour les ménages accédants.
+
+
+\section{Spécificités des aides au logement}
+
+\subsection{Zones géographiques}
+
+Afin de prendre en compte le niveau de vie de la zone géographique du bénéficiaire pour le calcul des droits, les plafonds de loyers sont définis différemment selon la zone géographique du logement. Ils sont plus élevés dans les zones géographiques dans lesquelles les loyers sont les plus élevés. Trois zones sont ainsi distinguées: la zone 1, avec les plafonds les plus hauts et qui correspond à l'agglomération parisienne; la zone 2 inclut le reste de l'Ile-de-France et les communes de plus de $100 000$ habitants; enfin, la zone 3 rassemble les villes de moins de $100 000$ habitants.
+
+
+\subsection{Conditions sur le logement}
+
+Pour ouvrir droit à l'aide au logement, le logement du potentiel bénéficiaire doit répondre aux caractéristiques de décence et de conditions minimales d'occupation. Le logement doit être d'une surface au moins égale à 25m\up{2} pour deux personnes, et à plus 9m\up{2} supplémentaires pour chaque personne en plus, avec une limite de 79m\up{2} pour 8 personnes. Le logement doit aussi répondre à des exigences de salubrité. Il doit en effet comporter un poste d'eau potable, un WC et un moyen de chauffage\footnote{Tout le détail des conditions que le logement doit remplir est énuméré sur: \url{http://vosdroits.service-public.fr/particuliers/F2042.xhtml}}.
+
+
+\section{Le calcul du montant des aides au logement}
+
+Le calcul du montant des aides au logement est relativement complexe et dépend de nombreux paramètres.
+
+Les modalités de calcul des aides dépendent du type de logement dans lequel se trouve le bénéficiaire potentiel. Pour les ménages du secteur locatif hors foyer, la formule et les paramètres de calcul sont les mêmes pour les APL et les AL depuis le 1\up{er} janvier 2001. Avant cette aide, deux barèmes d'aide coexistaient, celui des APL et celui des AL, conduisant à des situations dans lesquelles les ménages ayant des revenus et des dépenses de logement identiques ne percevaient pas le même montant d'aide. L'APL, bénéficiant aux ménages locataires d'un logement conventionné était en général d'un montant supérieur à celui de l'AL, qui bénéficie majoritairement à des locataires du parc privé.
+En secteur accession, il existe en revanche deux barèmes distincts pour les APL et pour les AL. Enfin, en secteur foyer, il y a deux barèmes d'APL (APL 1 et APL 2) et le barème AL est identique au barème des AL en accession dont la réforme est prévue pour 2016. Le tableau \ref{tab:logbar} récapitule les formules de calcul du montant des aides au logement.
+
+% Faut-il mettre à jour avec une législation plus récente? 
+\begin{fig}[16cm]{Récapitulatif des formules de calcul des aides au logement (législation 2013) \label{tab:logbar}}
+{\graphique [1]{recapbar}}
+{\small}
+\end{fig}
+
+
+\subsection{La formule générale}
+
+Le montant des aides au logement perçu par un ménage ($AL$) est déterminé principalement par
+quatre variables: la composition du ménage ($m$), ses ressources ($R$), son loyer ($L_1$) et la zone géographique dans laquelle se trouve le logement ($z$). Les modalités de calcul des aides varient légèrement selon le type de logement dans lequel se trouve le bénéficiaire potentiel
+(secteur locatif hors-foyer, foyer ou accédant à la propriété), mais la formule peut se
+résumer ainsi:
+
+\begin{center}
+$ AL(z,m,L_1,R)  = L(z,m,L_1) + C(m) - P_p(R,m,L_1)$
+\end{center}
+
+$L(z,m,L_1)$ désigne le loyer de référence, $C(m)$ désigne un forfait de charges locatives et $P_p$ représente la participation personnelle du ménage à la dépense de logement. Chacun de ces paramètres est détaillé ci-dessous.
+
+\subsubsection{Le loyer et les charges locatives}
+
+Le paramètre ($L(z,m)$) est soit le loyer réel hors charge ($L_1$), soit le loyer plafond ($L_2(z,m)$) qui varie en fonction de la zone géographique dans laquelle se trouve le logement et de la composition du ménage. S'ajoute un forfait des charges de location ($C(m)$), qui est fonction de la composition du ménage. La somme de ces deux termes correspond à la dépense éligible $E$:
+
+$$ E(z,m,L_1) = L(z,m,L_1) + C(m) = \min[L_1;L_2(z,m)] + C(m) $$
+
+Pour le secteur locatif en foyer, est utilisée une équivalence de loyer et de charges locatives afin d'obtenir la dépense éligible.
+
+\subsubsection{La participation personnelle}
+
+La participation personnelle ($P_p$) est exprimée comme la somme d'une participation minimale ($P_0$) et d'une participation proportionnelle ($T_p$) aux ressources des bénéficiaires ($R_p$). La formule de calcul de $P_p$ est la suivante:
+\begin{center}
+$P_p = P_0 + T_p*R_p.$
+\end{center}
+
+\noindent Plus précisément :
+\begin{itemize}
+  \item $P_0$ est égal soit à un montant forfaitaire (34,53 euros en 2013), soit à un pourcentage (8,5~\% en 2013) de la dépense de logement éligible si ce dernier est le plus élevé:
+                         $$ P_0 = \max[34,53 ~; 0,085*E] $$
+  \item $T_p$ est le taux de participation personnelle, égal à la somme de $T_f$, un taux qui dépend de la taille du ménage, et de $T_l$, un taux complémentaire dont le calcul est détaillé ci-dessous:
+      $$ T_p(z,m,L_1) = T_f(m)+T_l(z,m,L_1)$$
+  \item $T_l$ est une fonction du loyer plafonné et d'un loyer de référence $L_{ref}$ qui dépend du nombre de personnes à charge et qui est égal au plafond de loyer de la zone 2. On peut présenter ce paramètre de la façon suivante:
+$$ T_l=\left\{
+    \begin{array}{ll}
+    0 & \mbox{si } L/L_{ref} \in [0;45~\%[ \\
+    {[(L/L_{ref})*100*45-20,2]}/100 & \mbox{si } L/L_{ref} \in [45~\%;75~\%[ \\
+    {[(L/L_{ref})*100*45-37,5]}/100 & \mbox{si } L/L_{ref} \geq 75~\%
+    \end{array}
+\right. $$
+  \item $R_p$ est la différence entre les ressources du bénéficiaire $R$ et un montant forfaitaire $R_0$. Dans le cas où la différence est négative, on retient alors une valeur nulle:
+  $$R_p = max[R-R_0;0]$$
+  \item Le montant forfaitaire $R_0$ est la différence entre un pourcentage du RSA socle ($R_1$) et un pourcentage de la Base mensuelle de calcul des allocations familiales ($R_2$). Ces pourcentages sont fonction de la composition du ménage:
+      $$ R_0 = 90\%*12*[R_1(m)-R_2(m)]$$
+\end{itemize}
+
+
+\subsection{Les ressources à prendre en compte}
+
+Depuis le 1\up{er} janvier 2013, les ressources ($R$) à prendre en considération pour le calcul des droits pour l'année N sont celles perçues pendant l'année N-2 (appelée année civile de référence) par l'allocataire, son conjoint ou concubin, ainsi que par toute autre personne ayant vécu au moins six mois au sein du foyer du bénéficiaire au cours de l'année N-1 et y vivant toujours au moment de la demande d'aide au logement.
+
+\subsubsection{Détermination des ressources à prendre en compte}
+
+Par ressource, on entend ici le total des revenus nets catégoriels (RNC) retenus pour le calcul du montant de l'impôt sur le revenu (IR), après prise en compte de certaines déductions, abattements et majorations afférant à chacune des catégories de revenus listées ci-dessous\footnote{Notamment l'abattement de 10~\% pour les salariés, pensionnés ou retraités ; les abattements supplémentaires propres à certaines professions et aux revenus de non-salariés tels que les auto-entrepreneurs, les artistes-auteurs ou encore les vendeurs à domicile indépendants. Voir détails sur le site de la Caisse des allocations familiales \url{https://wwwd.caf.fr/wre-dtrsa-web/PopupDtRsaAideResNonSal.jsp?modeAffichage=null.}}:
+
+\begin{itemize}
+\item Les revenus fonciers;
+\item les bénéfices industriels et commerciaux;
+\item les bénéfices de l'exploitation agricole;
+\item les traitements,  salaires, indemnités, émoluments, pensions et rentres viagères;
+\item les revenus de capitaux mobiliers;
+\item les plus-values de cession à titre onéreux de biens ou de droits;
+\item rémunérations de certains gérants majoritaires de SARL.\\
+\end{itemize}
+
+\noindent Aux revenus nets catégoriels mentionnés ci-dessus s'ajoutent:
+\begin{itemize}
+\item Les revenus perçus hors de France ou versés par une organisation internationale pendant l'année de référence (RHF);
+\item les revenus taxés à un taux proportionnel ou soumis à un prélèvement libératoire sur le revenu (RTP);
+\item les indemnités journalières d'accidents du travail et maladie professionnelle (IJ);
+\item les rémunérations des heures supplémentaires travaillées et exonérées au titre de l'IR (HSE);
+\item les majorations de retraites des personnes ayant élevé au moins 3 enfants si elles sont soumises à l'IR (MR);
+\item les reports de déficits constatés au cours d'une année antérieure à l'année de référence (RD).
+\end{itemize}
+
+
+\subsubsection{Situations spéciales donnant droit à des déductions, abattements et majorations supplémentaires}
+
+Pour que l'allocation des aides au logement reflète au mieux la situation de chacun des bénéficiaires, le droit français reconnaît un certain nombre de cas particuliers donnant droit à des déductions, abattements ou majorations supplémentaires.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Vérifier les chiffres %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Les charges déductibles}: Seuls trois types de charges peuvent être déduits du revenu, tel qu'il est défini dans la section précédente: les pensions alimentaires, un abattement pour les personnes âgées nées avant le $1^{er}$ janvier 1931 ainsi que pour les personnes invalides. Cet abattement s'élève à  2\,312 euros pour les revenus globaux nets\footnote{Le revenu global net est égal au revenu global brut auquel on retranche les charges déductibles que sont le déficit foncier, les pensions alimentaires aux descendants et ascendants et les pertes de capital liées à la création d'entreprise.} inférieurs à 14\,220 euros et à 1156 euros pour les revenus compris entre 14\,220 euros et 22\,930 euros. \\
+
+\textbf{Les différents abattements}:
+\noindent \textit{Sur les ressources de certaines personnes}: Les ressources de l'année de référence des enfants, des ascendants âgés d'au moins 65 ans \footnote{Ou d'au moins 60 ans en cas d'inaptitude au travail.}, des ascendants, descendants ou collatéraux déclarés grands infirmes, de l'allocataire ou du conjoint peuvent bénéficier d'un abattement supplémentaire de 11\,134,18 euros si elles vivent toujours au sein du foyer.
+
+\noindent \textit{Pour double activité}: Un abattement forfaitaire de 95 euros s'applique lorsque les deux conjoints ont exercé une activité durant l'année de référence, et si chacun des deux revenus a été inférieur à 4\,740,48 euros \footnote{Ce montant est égal à 12 fois la Base mensuelle de calcul des allocations familiales de l'année 2011.}.\\
+
+\noindent \textit{En raison de certains évènements}: Un abattement de 30~\% supplémentaire est appliqué sur les revenus d'activité professionnelle \footnote{Cela concerne les revenus d'activité salariée et non salariée ainsi que les indemnités journalières de Sécurité Sociale.} dans les cas où l'individu perçoit des allocations chômage ou de formation \footnote{L'abattement s'applique seulement à partir du deuxième mois d'indemnisation.}. Cet abattement s'applique aussi aux indemnités chômage de l'individu lorsque celui-ci bénéficie d'un avantage de vieillesse ou d'invalidité, d'une rente d'accident du travail, de l'Allocation aux adultes handicapés (AAH) ou en cas d'arrêt maladie d'une durée supérieure à six mois.\\
+
+\noindent \textit{En cas de double résidence pour raisons professionnelles}: Lorsque l'individu (ou son conjoint) est contraint pour raisons professionnelles de disposer de deux résidences principales, un abattement forfaitaire de 2 589 euros est effectué sur les ressources de l'année de référence. \\
+
+\textbf{La neutralisation des ressources}:
+Certaines situations permettent de ne pas prendre en compte les ressources du conjoint ou concubin du bénéficiaire lors du calcul des ressources. C'est le cas notamment en cas de décès, de divorce ou d'absence du foyer pour séparation de fait. Les ressources professionnelles et indemnités chômage et journalière de l'allocataire ou du conjoint ne sont pas non plus prises en compte lorsqu'un des deux membres cesse son activité pour s'occuper d'un enfant de moins de trois ans, ou a plusieurs enfants. Enfin, pour les bénéficiaires du Revenu de solidarité active (RSA), si les ressources du foyer entrant dans le calcul des droits au RSA sont inférieures au RSA socle, les revenus d'activité professionnelle et les indemnités chômage et de sécurité sociale ne sont pas prises en compte. \\
+
+\textbf{L'évaluation forfaitaire des ressources}:
+Ce dispositif permet de prendre en compte certains changements de situation qui ont pu se produire entre l'année de référence N-2 et l'année de demande d'ouverture des droits afin de refléter au mieux la situation financière des bénéficiaires au moment où l'aide est versée, notamment quand les revenus de l'année N-2 ne sont pas représentatifs de la situation actuelle. Les ressources de l'individu sont évaluées de manière forfaitaire lorsque ce dernier a repris une activité entre l'année N-2 et l'année N et que ses revenus étaient très faible ou nuls pour l'année de référence\footnote{Les ressources du bénéficiaire ou des deux membres du couple sont déclarées faibles lorsqu'elles sont inférieures à 9 328 euros, ce qui représente 1\,015 fois le SMIC horaire brut au 31 décembre de l'année de référence.}. Pour les salariés, l'estimation des ressources est égale à 12 fois le salaire mensuel du mois qui précède la demande d'allocation, et pour les employeurs et travailleurs indépendants, la base retenue est celle de 1\,500 fois le SMIC horaire au 1\ier{} juillet qui précède la demande d'allocation.
+Lors du premier renouvellement de droits, les ressources des ménages qui ont été sujets à une évaluation forfaitaire sont à nouveau estimées forfaitairement en utilisant la rémunération du mois de novembre précédant la demande. Enfin, ce dispositif ne s'applique pas aux jeunes de moins de 25 ans (ou au couple dont l'un des deux membres a moins de 25 ans) s'il perçoit un salaire mensuel net fiscal inférieur à un montant fixé par arrêté interministériel. \\
+
+\textbf{Les  planchers de ressources}
+Lorsque les ressources déclarées sont trop faibles et inférieures à un certain montant, on retient alors un montant plancher comme ressources pour l'année de référence afin de calculer le montant des APL et des AL. Ce dispositif concerne uniquement les étudiants dans le secteur locatif ou en foyer, et les montants de ces planchers varient en fonction de leurs situations (boursiers ou non). Voir le tableau \ref{tab:plancher1} pour le détail des planchers.
+
+%%% A actualiser %%%
+\begin{table}[ht]
+\caption{Planchers de ressources selon les situations des étudiants (en \euro, législation 2013)}
+\centering
+\begin{tabular}{c c c}
+\hline
+ & Locatif & Foyer\\ [0.5ex]
+ \hline
+ Etudiant boursier & 6\,000 & 4\,900\\
+ Etudiant non boursier & 7\,500 & 5\,800\\ [1ex]
+ \hline
+ \end{tabular}
+ \label{tab:plancher1}
+ \end{table}
+
+
+Les planchers concernant le secteur accession sont résumés dans le tableau \ref{tab:plancher2}. Toutefois, certaines dérogations sont applicables lorsque les individus se retrouvent dans une des situations décrites dans la section 3.1.1.2. postérieurement à l'opération d'accession. Une dérogation s'applique aussi quand le bénéficiaire ou son conjoint se voit dans l'obligation d'arrêter son activité professionnelle et bénéficie d'une pension d'invalidité, d'une rente d'accident du travail ou de l'Allocation aux adultes handicapés. 
+%Cependant, depuis le 1\up{er} janvier 2015, ne peuvent bénéficier des APL accession uniquement les ménages dont le montant total des ressources perçues est inférieur de plus de 30~\% au montant des ressources du ménage évaluées à la date de signature.
+% Pas de réforme des APL accession finalement  
+
+\begin{table}[ht]
+\caption{Planchers de ressources pour le secteur accession - législation 2013}
+\centering
+\begin{tabular}{c| m{5cm}| m{4cm}}
+\toprule
+Allocation concernée & Bénéficiaires & Plancher appliqué\\ [0.5ex]
+\midrule
+AL &Propriétaires occupant dont le prêt a été signé entre le 01/10/92 et le 30/09/94 & 3\,900 euros\\
+AL & Autres cas & 16,25 fois la mensualité réelle non plafonnée\\
+APL & Propriétaires accédants dont le prêt a été signé entre le 01/01/1983 et le 30/06/87 & 8\,000 euros\\
+APL & Autres cas & 16,25 fois la mensualité réelle non plafonnée\\[1ex]
+\bottomrule
+\end{tabular}
+\label{tab:plancher2}
+\end{table}
+
+A compter du 1\up{er} octobre 2016, les enfants et étudiants des familles assujetties à l'impôt de solidarité sur la fortune (ISF) ne pourront plus bénéficier des aides au logement. La valeur du patrimoine entrera également dans le calcul des droits aux aides au logement. 
+
+\texttt{Références législatives:} {Loi 2015-1785 du 29/12/2015, article 55}
+% Voir s'il ne faut pas créer une partie spéciale, pas nécessairement le bon endroit
+
+
+\subsection{Dispositifs spécifiques}
+
+\subsubsection{Dispositif spécifique à l'APL}
+
+Les personnes isolées résidant dans un logement foyer bénéficient d'un abattement forfaitaire de 2\,589 euros si elles apportent la preuve qu'elles assurent ou contribuent à assumer financièrement des charges familiales.
+
+\subsubsection{Dispositif spécifique à l'AL}
+
+Les personnes seules en accession ou en foyer bénéficient d'un abattement forfaitaire sur les ressources de l'année de référence si elles assurent la charge d'un ou plusieurs enfants ou personnes\footnote{Cet abattement est d'un montant de 901 euros pour un ou deux enfants ou personnes à charge, et de 1350 pour 3 personnes ou plus.}.
+
+\subsection{Récapitulatif pour le calcul des ressources}
+
+Le tableau \ref{tab:récap} résume le mode de calcul des ressources à prendre en compte pour le paramètre $R$, nécessaire au calcul des droits aux prestations logement.
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{Tableau récapitulatif des ressources à prendre en compte pour le calcul des aides au logement (paramètre R)}
+    \begin{tabular}{m{5cm}|m{8cm}}
+    \midrule
+    \multicolumn{1}{c}{\textbf{Montant à prendre en compte}} & \multicolumn{1}{c}{\textbf{Remarques/Conditions d'application}} \\
+    \hline\hline
+    \multicolumn{2}{c}{\textit{Ressources à prendre en compte dans le cas général}} \\
+    \hline
+    \multicolumn{1}{l}{Revenus nets catégoriels RNC} & Après prise en compte des éventuels abattements, déductions et majorations. \\
+    \multicolumn{1}{l}{+ Revenus de l'étranger RHF} &  \\
+    \multicolumn{1}{l}{+ Revenus prélèvement libératoire RTP} &  \\
+    \multicolumn{1}{l}{+ Indemnités journalières IJ} &  \\
+    \multicolumn{1}{l}{+ Heures supplémentaires HSE} &  \\
+    \multicolumn{1}{l}{+ Majoration retraite MR} &  \\
+    \multicolumn{1}{l}{+ Report déficit RD} &  \\
+    \hline
+    \multicolumn{2}{c}{\textit{Charges déductibles}} \\
+    \hline
+    - pensions alimentaires &  \\
+    - 2312 \euro & si personnes nées avant le 01/01/31 ou invalide ET revenu net global < 14 220 \euro.  \\
+    - 1156 \euro & si personnes nées avant le 01/01/31 ou invalide ET 14 220 < revenu net global < 22 930 \euro.  \\
+    \hline
+    \multicolumn{2}{c}{\textit{Abattements}} \\
+    \hline
+    - 11 134,18 \euro & sur ressources enfants; ascendants > 65 ans; grand infirme, si vivent au foyer  \\
+    - 95 \euro & si les 2 conjoints ont eu une activité professionnelle et chaque revenu < 4740,48 \euro \\
+    - 2589 \euro & si le bénéficiaire a 2 logements pour des raisons professionnelles. \\
+    - 30~\% du revenu d'activité pro. (+indemnités chômage) & si individu perçoit des allocations chômage ou formation (si avantage vieillesse, invalidité, accident du travail) \\
+    \hline
+    \multicolumn{2}{c}{\textit{Neutralisation des ressources}} \\
+    \hline
+    -ressources conjoint & si décès, divorce ou séparation de fait \\
+    -(ressources pro. + indemnisations chômage) de l'allocataire ou concubin & si un des 2 membres cesse son activité pour garde enfants< 3 ans; ou plusieurs enfants. \\
+    -(ressources pro. + indemnisations chômage) de l'allocataire ou concubin & si ressources foyers prises en compte pour RSA<RSA-socle. \\
+    \hline
+    \multicolumn{2}{c}{\textit{Dispositifs spécifiques}} \\
+    \hline
+    -2589 \euro (APL) & si personne isolée vivant en foyer assume une charge familiale \\
+    -901 \euro (AL) & si personne isolée en accession ou en foyer a 1 ou 2 personnes à charge. \\
+    -1350 \euro (AL) & si personne isolée en accession ou en foyer a > = 3 personnes à charge.  \\
+    \hline
+    \multicolumn{2}{c}{\textit{Cas Particuliers}} \\
+    \hline
+    Les planchers & Consulter les tableaux lorsque les ressources sont trop faibles. \\
+    L'évaluation forfaitaire des ressources  & Si ressources N-2 < (1015*SMIC Brut/h) et que l'individu a repris une activité, R= 12*(salaire du mois précédent) pour les salariés, ou R=1500*SMIC/h pour les employeurs et travailleurs indépendants. \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:récap}%
+\end{table}%
+
+
+
+
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi

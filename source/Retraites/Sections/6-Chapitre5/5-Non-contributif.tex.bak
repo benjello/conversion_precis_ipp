@@ -1,0 +1,388 @@
+Dans les parties précédentes, nous avons présenté le c\oe ur du système de retraite par répartition, en détaillant régime par régime
+les formules générales de calcul des pensions. La pension perçue est principalement le reflet
+des trajectoires professionnelles et donc des cotisations versées au cours de la vie active.
+Cependant, les revenus des retraités ne sont pas uniquement la contrepartie de contributions versées
+sous forme de cotisations. Il existe dans le système français d'assurance vieillesse de nombreux dispositifs
+non-contributifs, que nous présentons dans cette partie.
+
+Dans la mesure où ces dispositifs peuvent être transversaux aux différents régimes de retraite,
+nous les regroupons dans une même partie, tout en soulignant les différences entre les régimes.
+
+\section{Le minimum vieillesse \label{minimum_vieillesse}}
+
+Historiquement le souhait de réduire la pauvreté des personnes âgées est
+antérieur à la mise en place des système de retraite. C'est en effet la charité ou les secours aux
+indigents qui ont d'abord pris en charge les pauvres hors d'état de travailler en raison de leur
+âge. Le minimum vieillesse est d'ailleurs le point central des systèmes de retraite des pays en
+voie de développement, et il a été pour la France essentiel jusqu'à la maturation des régimes dans
+les années soixante. Aujourd'hui, avec l'importance des régimes contributifs, le nombre d'affiliés
+au minimum vieillesse n'a cessé de décroître.
+
+\subsection{Historique}
+Les origines du minium vieillesse sont à trouver dans la loi du 30 avril 1930 qui introduit une
+pension minimum.
+
+\subsection{L'Allocation aux vieux travailleurs salariés (AVTS)}
+C'est le régime de Vichy avec la loi du 14 mars 1941  qui crée l'Allocation aux vieux travailleurs
+salariés (AVTS) et le dispositif sera maintenu en 1945.\footnote{Ordonnance \no 45-170 du 2 février
+1945.} C'est en fait l'aboutissement de plusieurs projets commencés dès 1938 et on cite alors à son
+propos la phrase du Maréchal Pétain : \og Je tiens mes promesses, mêmes celles des
+autres.\fg\footnote{\emph{Sécurité sociale. Son Histoire à travers les textes - 1870-1945},
+p.~692.}
+
+L'exposé des motifs de la loi est particulièrement intéressant sur les motivations du régime de
+Vichy. D'abord il est souligné que l'institution d'une véritable retraite est une illusion et les
+motifs sociaux et économiques de l'institution de l'AVTS sont ensuite précisés: atténuer le chômage
+et encourager le retour à la terre des ouvriers âgés.
+
+\begin{quotation}
+  \small
+  \og On a fait espérer aux français qu'ils pourraient tous prétendre, du seul fait de leur âge, à une
+  véritable retraite. C'est une illusion que ne peut entretenir un pays ruiné par la guerre et de
+  natalité fléchissante. (...)\\
+  L'obligation temporaire faite aux bénéficiaires de la loi de renoncer à tout emploi salarié dans
+  l'industrie et le commerce, doit atténuer le chômage dans certains secteurs de l'économie
+  nationale, en dégageant le marché de la main-d'\oe uvre des travailleurs trop âgés ou inaptes.
+  (...)\\
+  Par la bonification du taux de l'allocation (...), les ouvriers des villes sont, par ailleurs,
+  incités à se fixer à la campagne.\fg
+\end{quotation}
+
+L'âge minimum est fixé à 65 ans et la pension minimum varie selon la région, la taille de la ville
+et attribue une majoration pour les conjoints et les parents de cinq enfants ou plus.\footnote{Voir
+les barèmes au tableau \ref{Avts-1941-61} page \pageref{Avts-1941-61}.} À partir de 1962, le
+montant est unifié pour toute la France. Le montant est accordé sous condition de ressources et
+sous condition de cinq ans de travail salarié avant 50 ans, puis sept ans en 1948 et 15 ans en
+1956. À partir de 1948, une allocation vieillesse est instituée pour les non-salariés non agricoles
+avec un minimum correspondant à la moitié de l'AVTS.\footnote{Loi \no 48-101 du 17 janvier 1948.}
+
+Ces deux dispositifs sont intégrés aux régimes de base et nécessitent une période d'activité
+rémunérée d'au moins 25 ans. Comme un certain nombre de personnes ne pouvaient bénéficier de ces
+avantages non contributifs, il a été créé en 1952 une allocation spéciale pour ceux qui ne relèvent
+d'aucun organisme de retraite et la demi-allocation vieillesse des non-salariés est étendue aux non
+salariés agricoles.\footnote{Loi \no 52-799 du 10 juillet 1952 qui crée le Fonds spécial.} Le montant
+de cette allocation est portée au niveau de l'AVTS.
+
+%\begin{figure}[htb] \caption{Évolution du minimum vieillesse par rapport au salaire moyen et au salaire minimum %(1941-2004)}
+%\label{min-vieil}
+%\includegraphics[width=14cm,height=8cm]{min-vieil}\\
+%\footnotesize{\textsc{Légende}: \textcolor{RoyalBlue}{$\circ$} Minimum vieillesse rapporté au
+%salaire moyen \textcolor{Green}{$\blacksquare$} Minimum vieillesse rapporté au salaire minimum \vspace{0.2cm} \\
+%\textsc{Note:} On calcule le minimum vieillesse de façon annuelle en additionnant au 1\er janvier
+%de chaque année le montant de l'AVTS et de l'allocation supplémentaire (depuis 1956), sans prendre
+%en compte les majorations exceptionnelles. \vspace{0.2cm}\\
+%\textsc{Sources:} Cnav et calculs de l'auteur pour le minimum vieillesse (voir en annexe les
+%tableau \ref{avts} et \ref{Avts-1941-61} à la page \pageref{avts}). Le salaire moyen est issu de
+%Piketty (2001) et la série est reproduite au tableau \ref{txeconomie} page \pageref{txeconomie}.}
+%\end{figure}
+
+\subsection{Le Fonds national de solidarité (1956)}
+
+Dès le début des années cinquante, il apparaît que la pauvreté des personnes âgés est un problème
+de premier ordre. L'AVTS reste d'un montant faible et est conditionnée par des durées de travail.
+De nombreux bénéficiaires ne perçoivent que la demi-allocation. En 1956 le gouvernement de Guy
+Mollet décide à la fois une majoration de 10~\% de l'AVTS et la création du Fonds national de solidarité
+(FNS).\footnote{Lois \no 56-331 du 27 mars 1956 et \no 56-639 du 30 juin 1956.} Le financement est
+assuré par la voie fiscale (hausse d'un décime de la taxe proportionnelle de l'impôt sur le revenu,
+taxe sur les alcools et institution de la vignette automobile) et la gestion est donnée à la Caisse
+des dépôts et consignations. Une des particularités de cette loi est donc le financement fiscal
+affecté, qui s'oppose au principe de non-affectation des ressources. Le fonds permet d'accorder à
+toute personne de nationalité française une allocation supplémentaire sous condition de ressources.
+L'allocation vient en complément des autres ressources. Il faut être âgé de 65 ans et bénéficier
+d'un avantage vieillesse quelconque. L'allocation peut aussi être attribuée dès 60 ans en cas
+d'inaptitude. Les organisations syndicales de l'époque critiquent le texte car il met sur un pied
+d'égalité les salariés et les non-salariés.
+
+
+\subsection{Les réformes récentes}
+La réforme Balladur de juillet 1993 crée aussi le Fonds de solidarité vieillesse (FSV) qui remplace
+le FNS et prend à sa charge une partie des allocations. Ces différentes réformes ont donné lieu à
+un système complexe, à plusieurs étages, qui sont censés se compléter. C'est le Fonds de solidarité
+vieillesse qui finance ces avantages non contributifs et celui-ci est alimenté par des ressources
+fiscales dédiées: 1,3 point de CSG et les taxes sur les alcools jusqu'en 1999, puis 1,15 point de
+CSG, le financement des majorations pour enfants par la CNAF et une partie du prélèvement social
+sur les capitaux (tandis que les droits sur les alcools sont transférés au FOREC).
+En 2004\footnote{ordonnance \no 2004-605 du 24 juin 2004.}, le minimum vieillesse est remis à plat et simplifié.
+L'allocation de solidarité aux personnes âgées (APSA) remplace toutes les allocations existantes.
+
+\subsection{Architecture}
+Avant la refonte du dispositif, le minimum vieillesse est divisé en deux étages, chaque étage pouvant être complété par une
+allocation différente. Ainsi, il existe sept allocations différentes qui peuvent être majorées pour
+atteindre le niveau de l'AVTS: \begin{description}
+    \item[L'allocation aux vieux travailleurs salariés
+(AVTS):] Elle est accordée aux personnes âgées de 65 ans au moins (ou 60 ans en cas d'inaptitude au
+travail) qui ont insuffisamment cotisé pour bénéficier d'une pension du régime de base dont ils
+relèvent, de nationalité française ou résidant en France de manière régulière et qui ont occupé un
+emploi salarié pendant au moins cinq ans après l'âge de 50 ans, ou pendant au moins 25 années au
+total.
+    \item[L'allocation aux vieux travailleurs non salariés (AVTNS):] Elle correspond à l'extension de l'AVTS
+aux personnes relevant des régimes de non salariés des professions
+artisanales, industrielles et commerciales.
+    \item[L'allocation vieillesse des exploitants agricoles:]  Elle est égale au montant de l'AVTS, qui est attribuée aux exploitants de la métropole ayant exercé leur
+profession pendant au moins quinze ans, mais qui ont insuffisamment
+cotisé pour bénéficier d'une pension minimale. Du fait de
+l'assouplissement des conditions d'attribution du droit à la
+retraite pour ces bénéficiaires, cette allocation n'est plus
+liquidée et seul le service des allocations en cours de versement
+avant ces aménagements continue d'être assuré.
+    \item[Le secours viager:]
+Il est égal au montant de l'AVTS et est attribué, sous condition de ressources, au conjoint
+survivant de plus de 55 ans d'un bénéficiaire de l'AVTS ou d'une personne susceptible d'en avoir
+bénéficié au jour de son décès.
+    \item[L'allocation aux mères de famille de cinq enfants (AMF):]
+Elle est de même montant que l'AVTS et est versée aux femmes séparées, divorcées ou veuves d'un
+salarié, artisan, industriel ou commerçant, sous réserve qu'elles remplissent les conditions de
+ressources de l'AVTS, d'avoir 65 ans, qu'elles ne disposent d'aucun avantage vieillesse à titre
+personnel et qu'elles aient élevé au moins cinq enfants.
+    \item[L'allocation spéciale de vieillesse:]
+Elle est égale au montant de l'AVTS et vise les personnes de plus de 65 ans qui n'ont droit à
+aucune prestation vieillesse. Elle peut ainsi être attribuée aux personnes ne relevant d'aucun
+régime de vieillesse de base (toutes les dépenses qui se rattachent au service de cette allocation
+sont également prises en charge par le FSV).
+    \item[Aide sociale aux personnes âgées:]
+Il s'agit d'offrir le montant de l'AVTS aux personnes de plus de 65 ans qui ne peuvent bénéficier
+d'aucune autre pension ou retraite non contributive.
+\end{description}
+
+Ensuite, comme deuxième étage, se rajoute l'Allocation supplémentaire qui complète les ressources
+des personnes jusqu'à concurrence du minimum vieillesse (qui est en fait la somme de l'AVTS et de
+l'allocation supplémentaire maximale). Aux tableaux \ref{avts} et \ref{Avts-1941-61}, on reprend
+l'ensemble des barèmes de l'AVTS et de l'allocation supplémentaire, qui composent ainsi le minimum
+vieillesse.
+
+
+
+A partir de 2006, date d'entrée en vigueur de l'ordonnance de 2004, le minimum vieillesse est attribué
+sous la forme d'une allocation unique, l'ASPA, après liquidation de l'ensemble des droits à pension
+et sous condition de résidence stable sur le sol français.
+
+
+\section{Les minima de pension \label{minima pension}}
+
+
+\subsection{Le minimum du secteur privé: le minimum contributif}
+
+En 1983\footnote{Loi \no 83-430 du 31 juin 1983, ratifiant l'ordonnance du 26 mars 1982}
+est crée le minimum contributif ("MICO") pour le régime général et les régimes alignés. La logique est un petit
+peu différente de celle du minimum vieillesse, qui vise à garantir un niveau de vie minimal au seniors. Le MICO
+vise à relever les montants de pensions d'individus qui, même s'ils réunissent les conditions d'accès au taux
+plein, bénéficient d'une pension faible (en raison de salaires portés au compte peu élevés).
+
+Le MICO est donc une prestation différentielle, qui complète la pension jusqu'à un montant fixé par décret.
+Il faut noter que l'accès au minimum contributif est réservé  aux individus qui ont liquidé au taux plein.
+Comme son nom l'indique, le MICO comporte une part de contributivité, car son montant est calculé au prorata de
+la durée validée dans le régime général, par rapport à la durée cible pour l'obtention du taux plein.
+
+Dans sa version initiale, le ciblage du dispositif a été critiqué\footnote{Rapport de la Cour de Comptes sur la Sécurité Sociale de 2008} : le MICO ne bénéficie pas seulement aux individus ayant
+ des carrières longues et mal rémunérées, mais également aux personnes à carrière incomplète et aux polypensionnés
+ (qui ont une faible pension dans un régime donné et peuvent donc bénéficier du MICO, proratisé).
+
+En conséquence, la LFSS pour 2009\footnote{Loi \no 2008-1330 du 17 décembre 2008 de financement de la sécurité sociale pour 2009}
+prévoit des modifications importante du dispositif. Tout d'abord la contributivité du dispositif est renforcée avec la distinction
+établie entre le minimum contributif de base et le minimum contributif majoré, accessible sous condition de durée cotisée (et non
+simplement validée) minimale. De plus, à compter du 1er janvier 2012, la pension comparée au MICO n'est pas la pension au régime
+général mais la pension totale (condition de ressource tous régimes). Le but est ainsi d'éviter l'accès au dispositif aux polypensionnés
+disposant de retraites confortables. \\
+
+Enfin, il existe un dispositif similaire dans les régimes complémentaires: la garantie minimale de point de l'AGIRC.
+Mise en place en 1989, la garantie minimale de points (GMP) vise à assurer aux cadres dont le salaire est inférieur ou peu
+supérieur à la limite de cotisation un nombre minimum de points de retraite complémentaire
+
+
+\subsection{Le minimum de la fonction publique: le minimum garanti}
+
+Le pendant du minimum contributif pour le régime de retraite du secteur public est le minimum garanti.
+Le dispositif est crée en 1975 \footnote{Loi \no 75-1242 du 27 décembre 1975}. A l'origine, il prévoit que
+la pension servie doit être supérieure à un certain seuil.
+L'accès au dispositif est moins restrictif que pour le minimum garanti:  il n'est pas nécessaire de bénéficier
+d'une retraite au taux plein pour accèder au dispostif. Il n'y a ni de condition d'âge, ni de condition de durée
+d'assurance. Le montant du minimum garanti est toutefois moins important si la durée de service est inférieure à 25 ans.
+
+En 2003, le dispositif est modifié. Une règle de proratisation est instaurée, comme pour le minimum contributif.
+Cependant la proratisation est plus faible que pour le minimum contributif : avec 15 ans de service, il est possible de
+bénéficier de 57,5\% du montant maximal (avec une règle de proratisation simple, et une durée d'assurance cible de 40 ans,
+on obtient 15/40 = 37,5\% du montant maximal).
+
+La loi de 2010 portant réforme des retraite\footnote{Loi \no  du  9 novembre 2010} modifie encore
+le dispositif, dans le but de rapprocher le régime de la fonction publique du régime général. Des conditions d'éligibilité
+sont ajoutées : comme pour le MICO, l'attribution du minimum de pension est réservée aux individus qui liquident leur
+pension au taux plein (sous condition d'âge ou de durée). En outre, comme pour le MICO, une règle de condition de ressource
+tout régime est instaurée (entre en vigueur à partir du 1er juillet 2012). En revanche, les montants et les modes de
+proratisation du minimum garantis, plus généreux, ne sont pas alignés sur ceux du minimum contributif.
+
+
+\section{Les avantages familiaux \label{avantages_familiaux}}
+
+Au sein du système de retraite français se trouvent des dispositif spécifiques qui s'insèrent dans le cadre
+d'une politique familiale, soit pour favoriser les parents ayant élevé des enfants, soit pour
+favoriser les personnes ayant des conjoints à charge. Les pensions de réversion sont évoquées plus
+loin à la sous-partie \ref{reversion}.
+Les avantages familiaux sont une partie importante du dispositif de retraite français et représentent un coût non négligeable \cite{BonnetChambaz2000}.
+On peut décrire en particulier trois mécanismes non contributifs principaux visant à favoriser les familles:
+les bonifications de pension pour enfant, les majorations de durée d'assurance pour les femmes
+ayant élevé des enfants, et l'Allocation vieillesse des parents au foyer (AVPF).
+Des différences sensibles dans les avantages familiaux peuvent exister entre les différents régimes de retraites.
+
+
+\subsection{Les majorations du montant de pension}
+
+Dans le régime général, la bonification de la pension pour enfants est instaurée peu après la création du
+régime.\footnote{Ordonnance \no 45-2454 du 19 octobre 1945, article 68, modifiée par la loi du 23
+août 1948.} Elle correspond à 10~\% du montant de la pension sous condition d'avoir eu trois
+enfants ou de les avoir élevé pendant neuf ans avant leur seizième anniversaire.
+
+Les régimes complémentaires des salariés du privé ARRCO et AGIRC appliquent le même taux de 10~\%  depuis 2012 \footnote{Accord du 18 mars 2011.}
+(avant cela, le taux à l'ARRCO était de 5~\% pour trois enfants ou plus, à l'AGIRC 8~\% pour le troisième enfant et 4~\% par enfant supplémentaire).
+Avant l'unification des régimes complémentaires de 1999, il existait d'importantes différences entre les régimes.
+
+Des dispositifs similaires de majorations du montant de pension existent dans la plupart des régimes de non-salariés.
+
+Dans la fonction publique, dans la majorité des autres régimes spéciaux, ainsi que pour le régime complémentaire de l'IRCANTEC, la majoration est de 10~\% pour le troisième enfant puis de 5~\% par enfant supplémentaire (avec une limite à 30~\%, à partir du 7e enfant)
+
+
+\subsection{Les majorations de durée d'assurance (MDA)}
+
+Dans la plupart des régimes de base, des majorations de durée d'assurance sont accordées aux mères, ou aux pères, pour la naissance (ou l'adoption) et la prise en charge de chaque enfant.
+
+Dans le régime général, la majoration de la durée d'assurance est instaurée par la loi Boulin de 1971. A l'origine, elle prévoit une
+majoration d'un an de la durée d'assurance par enfant pour les femmes ayant élevé au moins deux
+enfants. En 1975, un loi porte la majoration à deux ans par enfant et l'étend au premier
+enfant.\footnote{Article 9 de la loi \no 75-3 du 3 janvier 1975.}
+Depuis 2010, la MDA pour enfants, auparavant réservée aux femmes, est scindée en deux : une MDA maternité, d'un an, réservée à la mère, et une MDA éducation d'un an également, pouvant être répartie entre les deux parents, par défaut attribuée à la mère. Existe également une MDA pour congé parental, qui permet de valider jusqu'à trois années de durée d'assurance en cas d'interruption d'activité (la MDA pour enfant ne peut se cumuler avec d'autres dispositifs comme la MDA pour congé parental ou l'AVPF. Le dispositif est similaire dans les régimes de retraite des non-salariés alignés sur le régime général.
+
+Dans la fonction publique, les majorations de durée d'assurance (MDA) correspondent à une année par enfant élevé.\footnote{Décret \no 65-773 du 9
+septembre 1965.} Le dispositif a été modifiée en 2003 au nom de l'égalité de traitement entre les hommes et les femmes, avec une extension du dispositif aux pères. Pour les enfants nés avant 2004, une majoration de un an par enfant peut être attribuée pour le père ou la mère, sous condition d'interruption d'activité pendant au moins quatre mois. Pour les enfants nés à partir du 1er janvier 2004, est accordée une majoration de six mois pour la mère au titre de l'accouchement, et les périodes d'interruptions ou de réductions d'activité, sont prises en compte, pour les pères et les mères, jusqu'à trois ans par enfant.
+
+Les régimes complémentaires n'accordent pas de points gratuits de ce type. Une exception notable est le cas de l'IRCANTEC, qui accorde des points gratuits pour des interruptions d'activité pour élever un enfant, dans la limite d'un an.
+
+
+\subsection{L'Assurance vieillesse des parents au foyer (AVPF)}
+
+
+
+Créée en 1972 par la loi du 3 janvier 1972, l'assurance vieillesse des parents au foyer (AVPF) est un dispositif qui permet de compter les périodes que les mères (ou les pères) ont passées au foyer, pour élever leurs enfants, comme des périodes d'assurance, avec salaire versé au compte (versement de la Cnaf à la Cnav
+de l'équivalent des cotisations vieillesse, sur la base du SMIC, et en fonction de la réduction d'activité).
+Les bénéficiaires sont automatiquement affiliées à la Cnav.
+
+L'AVPF est accordée sous trois conditions : pouvoir bénéficier d'une prestation familiale (complément familial, prestation d'accueil du jeune enfant, complément de libre choix d'activité), avoir des ressources inférieures à un seuil, et avoir une activité réduite. Les conditions (niveau du plafond de ressources, limitation d'activité) dépendent des caractéristiques des affiliés (parent isolé ou non) et des motifs d'affiliation.
+
+Il n'existe pas de dispositifs équivalents dans les régimes complémentaires.
+
+
+
+\subsection{Autres dispositifs}
+
+- MAJO POUR CONJOINT
+- DEPART ANTICIPE POUR 3 ENFANTS
+
+
+\section{Les périodes assimilées \label{Périodes_assimilées}}
+
+Parmi les dispositifs qui permettent aux assurés de bénéficier de droits à retraite sans contrepartie
+sous forme de cotisations, il faut mentionner les périodes qui ne correspondent pas à des épisodes d'emploi,
+mais qui sont assimilées à périodes de cotisation dans le calcul des droits. L'idée de prendre en compte dans
+les droits à la retraite les interruptions de carrières involontaires ou d'intérêt général.
+
+\paragraph*{Régime de la fonction publique}
+Dans la fonction publique, les congés de maladie ou de maternité sont assimilées à des périodes de services effectifs.
+
+\paragraph*{Régime général}
+Le régime général (et le régime aligné des salariés agricoles) assimile à des périodes de cotisations
+des périodes de maladie, de maternité, d'accident du travail, d'invalidité, de chômage, de service national, de détention
+provisoire. Ces périodes sont comptabilisées dans le calcul des pensions, dans la limite de 4 trimestres par an, mais sans
+salaire versé au compte. Le nombre de jours passés dans l'état donnant droit à un trimestre validé varie selon le type de période assimilée: 50 jours pour le chômage, 60 jours pour la maladie. 
+Les périodes assimilées au titre du chômage le sont principalement pour le chômage indemnisé, la première période de
+chômage non indemnisé pouvant tout de même être prise en compte dans la limite d'un an et demi depuis 2011 \footnote{Décret 2011-934 du 1er août 2011.} (la limite
+était de un an auparavant). De plus, pour les individus de plus de 55 ans et ayant une durée de cotisation (ie d'emploi effectif) au moins égal à 20 ans,
+les périodes de chômage non indemnisé peuvent être prises en compte jusqu'à 5 années \footnote{Circulaire CNAV n° 2002/36 du 14 juin 2002.}.
+
+Dans les régimes complémentaires, des dispositifs similaires existent \footnote{Les droits non contributifs dans les régimes complémentaire, document 7 de la séance du COR du 25 mai 2011}.
+Ainsi certaines périodes peuvent également donner lieu à l'octroi de points (sur la
+base des rémunérations antérieures) : les périodes de chômage (indemnisé uniquement), de préretraites,
+de maladie, de maternité, d'accident du travail et d'invalidité.
+
+\paragraph*{Régimes des non-salariés}
+Enfin, pour les régimes des non-salariés, des droits peuvent être accordés au titre de l'invalidité (pour la plupart des régimes, complémentaires inclus),
+de la maladie (régimes de base du RSI, du MSA, des professions libérales), des accidents du travail (régime de base du RSI), de la maternité (régimes de base du RSI et des
+professions libérales), ou encore de service national ou de détention (régime de base MSA).
+
+
+\section{Les pensions de réversion \label{reversion}}
+
+\subsection{Secteur public}
+La possibilité d'obtenir une pension de réversion a d'abord été réservée aux femmes veuves d'un
+fonctionnaire. Avec la loi du 9 juin 1853, sous condition d'un mariage antérieur de 6 ans à la fin
+de service du fonctionnaire, sa veuve peut toucher une pension de réversion d'un montant égal au
+tiers de la pension de retraite de l'agent décédé. En 1924, la pension de réversion est portée à
+50~\%. La pension de réversion est versée après le décès de l'agent sans condition d'âge ni de ressource,
+contrairement au cas du régime général. Si le conjoint survivant se remarie, se pacse ou vit en concubinage,
+la pension de réversion est suspendue.
+
+À partir de 1948, les veufs inaptes au travail ont pu en bénéficier avant qu'en 1973 une loi vienne
+donner aux veufs un droit à une pension de réversion.\footnote{Loi \no 73-1128 du 21 décembre 1973.}
+
+\subsection{Régime général du secteur privé et alignés}
+
+C'est un droit dérivé (à la différence des pensions de droit direct) qui permet au conjoint
+survivant de toucher une retraite égale à une fraction de la pension dont bénéficiait ou eut
+bénéficié son conjoint décédé. Quatre conditions sont posées pour pouvoir toucher cette pension de
+réversion: une condition de mariage, une condition d'âge, une condition de ressources et une
+condition de cumul. Toutes ont été assouplies progressivement depuis 1945. La réforme de 2003
+effectue une refonte en profondeur du dispositif.
+
+\begin{enumerate}
+    \item Condition de mariage: à l'origine, il fallait quatre ans de mariage avant le décès du conjoint (ou deux ans
+    avant la date d'entrée en jouissance). Avec la loi du 3 janvier 1975, deux ans seulement sont
+    nécessaires. La loi du 11 juillet 1975 accorde le bénéfice de la pension de réversion si le
+    divorce est prononcé pour rupture de vie commune, puis à tous les types de divorce (17 juillet
+    1978). La loi du 17 juillet 1980 supprime toute condition de durée si un enfant est né
+    du mariage. La loi du 13 juillet 1982 met fin au caractère définitif du partage de la
+    pension de réversion.
+    La réforme Fillon de 2003 supprime la condition de non remariage présente jusqu'alors.
+    \item Condition d'âge: à l'origine, il faut avoir 65 ans pour pouvoir bénéficier de la pension
+    de réversion et cet âge est abaissé à 55 ans avec le décret du 11 décembre 1972. Avant 55 ans,
+    la veuve peut éventuellement bénéficier de l'assurance veuvage. La réforme Fillon prévoit la
+    suppression progressive de la condition d'âge (et de l'assurance veuvage). Ainsi, le seuil est abaissé à 52 ans à partir de
+    juillet 2005, 51 ans à partir de juillet 2007, 50 ans à partir de juillet 2009 et toute
+    condition d'âge devait disparaître à partir de 2011. Mais en 2009 \footnote{loi 2008-1330 du 17 décembre 2008 de financement de la sécurité sociale pour 2009}
+    la condition d'âge est rétablie, à 55 ans.
+    \item Condition de ressources: à l'origine, le plafond de ressource était le même que celui de
+    l'AVTS. Les ressources prises en compte consistaient uniquement dans les ressources propres du
+    bénéficiaire (en excluant ainsi les revenus mobiliers et immobiliers hérités du conjoint décédé
+    et les pensions de droit dérivé versées par d'autres régimes). Depuis 1971,
+    la condition de ressource a été relevée au quart du Smic annuel.\footnote{Décret du 11 février 1971.} Depuis 2003,
+    les pensions de droit dérivé versées par d'autres régimes sont prises en compte dans les ressources.
+    La pension de reversion vient donc compléter les ressources du conjoint survivant, avec écrêtement du montant de la pension
+    de réversion au plafond de ressource.
+    \item Condition de cumul: le cumul entre les droits propres
+    directs et les droits dérivés a été progressivement
+    élargi. À l'origine, le cumul était interdit. Puis divers dispositions\footnote{Loi du 3 janvier 1975 et
+    décret \no 75-109 du 24 février 1975.} ont permis un cumul jusqu'à 50~\% du total des droits propres du couple avec un plafond
+    minimum égal à la somme de la pension minimum du régime général et l'allocation supplémentaire du fond national de
+    solidarité. De juillet 1977 à juillet 1978 le plafond minimum passe à 60~\% de la pension maximum, puis 70~\% à partir
+    du 1\er juillet 1978.\footnote{Loi \no 77-768 du 12 juillet 1977.} En 1982 avec l'augmentation du taux de la pension de réversion
+    le cumul passe aussi à 52~\% du total des droits propres et à 73~\% du maximum de pension.\footnote{Loi \no 82-599 du 13 juillet
+    1982 et décret \no 82-1035 du 6 décembre 1982.} À partir de 2003, les conditions pour le cumul sont supprimées.
+\end{enumerate}
+
+À l'origine le taux de réversion était de 50~\% de l'avantage dont bénéficiait (ou eu bénéficié) l'assuré
+décédé, puis a été élevé à 52~\%, et enfin 54~\%.\footnote{Décret \no 94-1140 du 27 décembre 1994.}
+En 2009\footnote{loi 2008-1330 du 17 décembre 2008 de financement de la sécurité sociale pour 2009},
+une majoration de pension de réversion est instaurée. Il s'agit de porter le taux de reversion à 60\%
+pour les plus modestes. Cette majoration est allouée sous triple condition d'âge (l'âge du taux plein, soit 67 ans
+à partir de la génération 1955), de niveau de retraite (la somme des droits personnels et dérivés doit être inférieure
+à un seuil, 841,45€ au 1er avril 2012) et de liquidation de l'ensemble des droits de retraite.
+Le montant de la pension ne peut être inférieur à un montant minimum, fixé chaque année, si le
+conjoint décédé justifie d'au moins 15 ans de durée d'assurance.
+
+\subsection{Régimes complémentaires}
+
+À l'Agirc, les conjoints survivants non remariés (hommes ou femmes) ont droit à partir de 60 ans à
+une pension de réversion sur la base de 60~\% des points du participant décédé. Cette pension de
+réversion peut être liquidée  dès 55 ans mais avec un taux minoré à 52~\% (53,6~\% à 56 ans,
+55,2~\% à 57 ans, 56,8~\% à 58 ans et 58,4~\% à 59 ans). Le taux de 60~\% est aussi accordé dès 55
+ans aux bénéficiaires de la pension de réversion du régime général et aux bénéficiaires ayant deux
+enfants à charge au moment du décès. À l'Arrco, les règles fixant le droit à une pension de
+réversion ont longtemps été disparates. À partir de 1996, la règle fixe 55 ans comme âge minimum et
+60~\% des points du conjoint décédé comme base de la pension de réversion.
+

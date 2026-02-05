@@ -1,0 +1,120 @@
+\documentclass[a4paper, 12pt]{article}
+
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{graphics}
+\usepackage[english,french]{babel}
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{a4wide}
+\usepackage[pdftex]{graphicx}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{subfigure}
+\usepackage{flafter}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{eurosym}
+\usepackage{breakcites}
+\usepackage{datetime}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{slashbox}
+\usepackage{lscape}
+\usepackage[usenames]{color}
+\usepackage{indentfirst} % mise en retrait de la première ligne après un titre.
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage[lmargin=1.3in,rmargin=1.3in,textheight=25cm,tmargin=3.5cm,bmargin=3.5cm]{geometry}
+\usepackage {color}
+\usepackage{numprint}
+%\usepackage{setspace}
+\bibliographystyle{agsm}
+
+\renewcommand{\contentsname}{Sommaire}
+\newcommand{\e}{\textsuperscript{e}}
+\newcommand{\eme}{\textsuperscript{ème}}
+\newcommand{\er}{\textsuperscript{er}}
+\setcounter{tocdepth}{2}
+\DeclareRobustCommand\refmark[1]{\textsuperscript{\ref{#1}}}
+
+\begin{document}
+
+
+
+\vspace{1.5cm}
+
+
+\begin{center}
+\Large {\sc Institut des Politiques Publiques} \normalsize \\
+\end{center}
+\vspace{3cm}
+
+\begin{center}
+\LARGE{\textbf{Guide de l'Impôt de Solidarité \\ sur la Fortune (ISF)}\footnote{Pour une description plus détaillée de la législation de l'ISF, se reporter à Zucman(2008), section : Caractéristiques de l'ISF} } \\
+\vspace{1cm}
+\Large{Jonathan \sc{GOUPILLE}}\\
+\vspace{0.75cm}
+\end{center}
+
+\vspace{1cm}
+
+ 
+
+
+
+\tableofcontents
+\newpage
+\section{Evolution de la législation sur l'ISF de 1997 à 2012}
+
+\subsection{Changements pris en compte dans le simulateur entre 1997 et 2010}
+
+\begin{description}
+
+\item [majoration de 10\% de l'ISF entre 1995 et 1998 :]~\\
+Cette majoration est appliqué sur l'impôt dû (après application des réductions et du plafonnement). Cette majoration a ensuite été intégré au barème de l'ISF.
+\item [abattement sur la résidence principale :] ~\\
+Créé en 1999 pour une valeur de 20\%, passage de 20\% à 30\% à partir de l'année 2008 (loi TEPA)
+\item [changement de taux et de seuils :] ~\\
+Voir le fichier \texttt{Barèmes IPP - paramètres\_ISF}
+\end{description}
+
+\subsection{Plafonnement à 85\%}
+
+Il existe un plafonnement des impôts à 85\% des revenus. Les impôts prises en compte ici sont la somme de l'ISF, de l'impôt sur le revenu ainsi que les prélèvements sociaux et la CSG-CRDS. Depuis 1996, un plafonnement du plafonnement a été mis en place. La réduction d'impôt au titre du plafonnement ne peut excéder au maximum :
+\begin{itemize}
+\item la moitié de l'impôt dû
+\item ou si ce montant est plus important, l'impôt correspondant à un patrimoine taxable égal à la limite supérieure de la 2\eme tranche du barème (patrimoine taxable égal à \hbox{2 450 000 \euro} en 2011 pour un ISF dû de \hbox{11 000 \euro}).
+\end{itemize}
+
+Cela signifie que les contribuables dont la patrimoine est inférieur à la limite supérieure de la 2\eme tranche du barème bénéficient intégralement du plafonnement. Pour les contribuables dont la patrimoine taxable est compris en 2008 entre \hbox{2 450 000 \euro} et \hbox{3 620 000 \euro}, le plafonnement est limité à \hbox{11 000 \euro}. Enfin, pour les contribuables dont le patrimoine est supérieur à \hbox{3 620 000 \euro}, le plafonnement est limité à la moitié de l'ISF dû.
+
+Pour l'année 2012, comme la méthode de calcul de l'ISF a été radicalement modifié, le plafonnement est supprimé.
+
+
+\subsection{Loi de finances rectificatives pour 2011}
+
+\begin{description}
+\item[Pour 2011 :] les patrimoines imposables inférieurs à 1 300 000 \euro~sont exonérés d'ISF.  \\
+\item[Pour 2012 :] L'ISF ne comprendra plus que deux tranches et l'imposition se fait dès le premier euro. Par ailleurs, une décote est appliquée sur le montant d'impôt dû pour les patrimoines taxables situés aux alentours des deux seuils (1 300 000 \euro~et 3 000 000\euro)\footnote{Très bonnes explications de cette réforme sur : http://www.net-iris.fr/veille-juridique/actualite/27791/la-reforme-de-isf-est-adoptee-le-point-sur-les-nouvelles-regles.php}.\\ \\
+\end{description}
+
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Barème d'imposition de l'ISF pour 2012}}\\
+\multicolumn{3}{|c|}{\textit{(imposition des le premier euro)}}\\
+\hline
+Tranches                                                                          & Taux   &             Décote (en \euro)  \\
+\hline
+$\leq$ \nombre{1300000} \euro                                                       & 0\%    &       \_                      \\
+$\left[\nombre{1300000}~\textrm{\euro}~;~\nombre{1400000}~\textrm{\euro}\right]$    & 0.25\% & $\nombre{24500}-(7*0.25\%*P)$ \\
+$\left[\nombre{1400000}~\textrm{\euro}~;~\nombre{3000000}~\textrm{\euro}\right]$    & 0.25\% &  \_                           \\
+$\left[\nombre{3000000}~\textrm{\euro}~;~\nombre{3200000}~\textrm{\euro}\right]$    & 0.5\%  & $\nombre{120000}-(7.5*0.25\%*P)$  \\
+$\geq$ 3200000 \textrm{\euro}                                                       & 0.5\%  &  \_                               \\
+\hline
+\multicolumn{3}{l}{\textit{Avec P, la valeur taxable nette du patrimoine}}\\
+\end{tabular}
+\end{document} 

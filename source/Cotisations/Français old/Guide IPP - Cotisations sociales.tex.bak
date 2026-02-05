@@ -1,0 +1,99 @@
+\input{Style/ipp-packages}
+\input{Style/ipp-macros}
+\bibliographystyle{Style/ipp-bibliostyle}
+
+\usepackage{multirow}
+\usepackage{array}
+
+\begin{document}
+
+% Profondeur de la numérotation des sections (sous-sous sections)
+\setcounter{secnumdepth}{3}
+% Profondeur de la table des matières (sous-sections)
+\setcounter{tocdepth}{2}
+
+% Pour changer la couleur des bullets dans les liste à puce %
+\renewcommand{\labelitemi}{${\color{ippdark}\bullet}$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                       COUVERTURE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion des deux pages de couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture1.pdf}
+\includepdf[pages=1]{Couverture/couverture2.pdf}
+
+% La numérotation commence
+\setcounter{page}{1}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                      SOMMAIRE                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\entetetwo{Cotisations sociales et prélèvements sur les salaires en France}{Sommaire}
+\setstretch{1.2}
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                CHAPITRES DU GUIDE                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\entetetwo{Cotisations sociales et prélèvements sociaux en France}{Introduction}
+\chapter*{\label{Introduction}Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+\input{Chapitres/1-Introduction.tex}
+
+\entetetwo{Cotisations sociales et prélèvements sociaux en France}{Description générale}
+
+
+\chapter{\label{Description generale}Description générale du système d'assurance sociale français}
+\input{Chapitres/2-Description_generale.tex}
+
+\entetetwo{Cotisations sociales et prélèvements sociaux en France}{Assiettes des prélèvements}
+\chapter{\label{Assiette} Détermination des assiettes}
+\input{Chapitres/3-Assiette.tex}
+
+
+\entetetwo{Cotisations sociales et prélèvements sociaux en France}{}
+\chapter{\label{Pres_detail} Les prélèvements sociaux: présentation détaillée}
+\input{Chapitres/4-Presentation_ps.tex}
+
+
+\entetetwo{Cotisations sociales et prélèvements sociaux en France}{Les exonérations de cotisations patronales}
+\chapter{\label{Exonerations} Les mesures de réduction des cotisations sociales}
+\input{Chapitres/5-Exonerations.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               BIBLIOGRAPHIE                                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\entetetwo{Le système fiscal français: historique et législation}{Bibliographie}
+\bibliography{biblio-guide}
+\addcontentsline{toc}{chapter}{Bibliographie}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                GLOSSAIRE                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\entetetwo{Cotisations sociales et prélèvements sociaux en France}{Abréviations}
+\chapter*{Liste des abréviations \label{Abreviations}}
+\input{Chapitres/6-Abreviations.tex}
+\addcontentsline{toc}{chapter}{Abréviations}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               4E de COUV                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion du dos de la couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture4.pdf}
+
+\end{document} 

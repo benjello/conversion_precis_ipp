@@ -1,0 +1,10 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\chapter*{Synthèse des résultats\label{Synthese}}
+\else \fi
+
+
+
+\ifx\isEmbedded\undefined
+\end{document}
+\else \fi

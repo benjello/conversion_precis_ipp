@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="fr-FR" class="numeric">
+  <info>
+    <title>Fiscalité IPP – bibliographie (titres, dates, notes)</title>
+    <id>fiscalite-references</id>
+    <summary>Style pour afficher titre, date (issued) et note des entrées législation et misc.</summary>
+  </info>
+  <locale xml:lang="fr">
+    <terms>
+      <term name="no date">
+        <single>s.d.</single>
+      </term>
+    </terms>
+  </locale>
+  <citation>
+    <layout prefix="[" suffix="]">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <sort>
+      <key variable="title"/>
+      <key variable="issued"/>
+    </sort>
+    <layout suffix=".">
+      <choose>
+        <!-- Livres : auteur, titre, année, éditeur -->
+        <if type="book">
+          <group delimiter=". ">
+            <names variable="author">
+              <name name-as-sort-order="all" sort-separator=" " delimiter=", " delimiter-precedes-last="always" initialize-with="."/>
+            </names>
+            <text variable="title" font-style="italic"/>
+            <group delimiter=", ">
+              <choose>
+                <if variable="issued">
+                  <date variable="issued">
+                    <date-part name="year"/>
+                  </date>
+                </if>
+              </choose>
+              <text variable="publisher"/>
+              <text variable="publisher-place"/>
+            </group>
+          </group>
+        </if>
+        <!-- Législation / misc et autres : titre, date (issued), note, url (Légifrance) -->
+        <else>
+          <group delimiter=". ">
+            <text variable="title" font-style="italic"/>
+            <choose>
+              <if variable="issued">
+                <date variable="issued" form="text" date-parts="year-month-day" prefix=" (" suffix=")"/>
+              </if>
+            </choose>
+            <choose>
+              <if variable="note">
+                <text variable="note" prefix=". — "/>
+              </if>
+            </choose>
+            <choose>
+              <if variable="url">
+                <text variable="url" prefix=" Légifrance : "/>
+              </if>
+            </choose>
+          </group>
+        </else>
+      </choose>
+    </layout>
+  </bibliography>
+</style>

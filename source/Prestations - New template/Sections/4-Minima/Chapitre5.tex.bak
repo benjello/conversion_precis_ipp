@@ -1,0 +1,15 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{0}
+\chapter{\label{Chapitre1}Titre du chapitre 1}
+\else \fi
+
+
+
+
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi

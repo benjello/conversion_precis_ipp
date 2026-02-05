@@ -1,0 +1,101 @@
+
+La ristourne Juppé consistait en une réduction décroissante des cotisations payées par l'employeur au titre de l'assurance pour les risques maladie, accidents du travail et famille. Elle a été introduite au 1\up{er} septembre 1995 et pouvait se cumuler avec l'exonération de cotisations familiales (voir plus haut), jusqu'à la disparation de cette dernière au 1\up{er} octobre 1996.
+
+\section{Septembre 1995 - Septembre 1996 (Ristourne Juppé I)}
+
+La formule de calcul de la réduction est la suivante:
+
+$$ REDUCTION = (plafond - salaire~brut) \times 0,64 $$ pour un salaire compris entre 1 et 1,2 SMIC;
+$$ REDUCTION = 0,128 \times salaire~brut $$ pour un salaire inférieur ou égal au Smic. \\
+
+Le plafond est égal à 120\% du Smic horaire multiplié par la durée légale du travail (soit 169 heures), quelque soit le temps de travail du salarié (même si celui-ci effectue un temps partiel, part ou en arrive dans l'entreprise en cours de mois). Un montant maximal de réduction est fixé, et est calculé comme la réduction ouverte pour un salarié rémunéré au Smic et travaillant à temps plein (le nombre d'heures rémunérées étant défini sur la base de la durée légale du travail). Le montant maximal de la réduction de cotisation a donc évolué au fur et à mesure des revalorisations du Smic. \newline
+
+Le taux de 12,8\% est égal au taux de cotisations maladie-maternité-invalidité-décès payées par un employeur au titre d'un salarié rémunéré au Smic. Cumulé à l'exonération de cotisations famille, la ristourne Juppé permettait aux employeurs de bénéficier d'une réduction de 12,8 + 5,4, soit 18,2\% sur les rémunérations de leurs employés au Smic. \newline
+
+Taux de réduction ouvert par le cumul ristourne Juppé et exonération de cotisations famille:
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Taux de réduction \\ \hline
+Au niveau du Smic & Exonération maximale de 18,2\% \\
+Entre 1 et 1,2 Smic & Taux dégressif compris entre 18,2 \% et 5,4\% \\
+Entre 1,2 et 1,3 Smic & Exonération de 2,7\%  \\
+Au dessus de 1,3 Smic & Aucune exonération  \\
+\hline
+\end{tabular}
+\end{center}
+
+Pour les salariés à temps partiel, la ristourne est ensuite proratisée en fonction du nombre d'heures travaillées (à titre d'exemple, un salarié à mi-temps bénéficiera d'une réduction de cotisations de 50\% du montant de la ristourne calculée sur la base de la formule ci-dessus). \newline
+
+\textbf{Cas particuliers:}
+
+\begin{itemize}
+\item Pour les salariés dont la rémunération ne peut être déterminée en fonction du nombre d'heures de travail effectuées, la réduction de cotisations est calculée en fonction d'un plafond et d'une limite de réduction spécifiques (fixés dans les conditions définies à l'art. R 241-6 du CSS);
+\item Des règles spécifiques s'appliquent pour certaines catégories de personnels;
+\item A partir de juillet 1996,pour les salariés affiliés à une caisse de congés payés, la réduction était majorée de 10\% (la réduction maximale autorisée étant majorée d'autant). \\
+\end{itemize}
+
+Les employeurs sont tenus de calculer eux-mêmes la réduction de cotisations auxquels ils ont droit, d'en indiquer le montant sur la fiche de paie de chaque employé, et d'effectuer leurs paiements à l'Urssaf  en déduisant au préalable la réduction des cotisations dues. \newline
+
+\textsc{Période d'application:} Du 01/09/1995 au 30/09/1996.
+
+\textsc{Référence:} Loi 95-882 du 04/08/95 (JO du 05/08/95). Décrets 95-942 et 95-943 du 25/08/95 (JO du 26/08/95).
+
+
+\section{Octobre 1996 - Décembre 1997 (Ristourne Juppé II)}
+
+La Loi de finance pour 1996 a introduit une fusion temporaire des deux dispositifs de réductions de cotisations au niveau des bas salaires (ristourne Juppé et exonération de cotisations famille), pour la période allant d'octobre 1996 à décembre 1997. Le dispositif temporaire consiste en une réduction unique de cotisations s'appliquant sur les salaires compris en dessous de 1,33 Smic.
+La réduction maximale au niveau du Smic s'élève toujours à 18,2\%, soit le même taux que celui résultant du cumul de la ristourne Juppé et de l'exonération de cotisations famille. \newline
+
+La formule de calcul de la réduction est la suivante: \\
+
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Montant de la réduction \\
+\hline
+En dessous du Smic mensuel: &$Salaire~brut \times 0,182 $ \\
+Entre 1 et 1,33 Smic mensuel: &  ($1,33.Smic - Salaire~brut) \times 0,55$ \\
+\hline
+\end{tabular} \\
+
+\underline{Cas particuliers:} ils restent les mêmes que celles applicables à la ristourne Juppé I (voir plus haut). \newline
+
+Règles de cumul: la ristourne Juppé II ne pouvait être cumulée avec d'autres dispositifs de réductions des contributions patronales ou l'application de taux réduits. Toutefois, certaines réductions sont cumulables avec le dispositif Juppé. C'est le cas notamment:
+\begin{itemize}
+\item De l'abattement de cotisations accordées pour les salariés à temps partiel;
+\item De la réduction octroyée en cas de diminution du temps du travail et d'embauches (dispositif Robien ; voir plus bas);
+\item Des réductions de contributions plus favorables prévues dans certaines situations (entreprises situées dans des zones de revitalisation rurale, nouvelles entreprises, certains salariés agricoles).
+\end{itemize}
+Par ailleurs, les exonérations de contributions famille sont restées en vigueur pour les salaires jusqu'à 1,5 SMIC (pour l'exonération partielle) et compris entre 1,5 et 1,6 SMIC (pour l'exonération totale) des entreprises nouvelles. \newline
+A VERIFIER (me semble étrange qu'il n'y ait pas l'exo totale sous 1,2 smic \newline
+% The scheme was the following:
+% - Single decreasing reduction below 1.2 Smic (the same as the general reduction)\\
+% - Total exemption between 1,2 and 1,5 Smic\\
+% - Half-exemption (rate of 2,7\% instead of 5,4\%) between 1,5 and 1,6 Smic\newline
+
+\textsc{Période d'application:} 01/10/1996 - 31/12/1997.
+
+\textsc{Référence:} Loi 95-1236 (Loi de Finances pour 1996) du 30/12/1995 (JO 31/12/1995); Décret 96-835 du 20/09/1996 (JO 22/09/1996); Loi de finances pour 1998 (JO du 31/12/1997). \newline
+
+\section{Janvier 1998 - Juin 2003 (Ristourne Juppé III)}
+
+La fusion de l'exonération de cotisations famille et la ristourne Juppé est maintenue dans les mêmes conditions que précédemment, à la différence que le plafond de la réduction a été ramené de 1,33 à 1,3 Smic. Le coefficient de réduction a été ajusté en conséquence, de manière à ce que la réduction maximale au niveau du Smic soit maintenue à son niveau précédent de 18,2\%.
+
+La formule de calcul de la réduction devient la suivante: \\
+
+\begin{tabular}{|c|c|}
+\hline
+Niveau du salaire & Montant de la réduction \\
+\hline
+En dessous du Smic mensuel: &$Salaire~brut \times 0,182 $ \\
+Entre 1 et 1,3 Smic mensuel: &  ($1,3.Smic - Salaire~brut) \times 0,607$ \\
+\hline
+\end{tabular} \\
+
+La ristourne Juppé III, comme la ristourne Juppé II, est cumulable avec les exonérations de cotisations famille qui continuent d'être accordées aux nouvelles entreprises et aux entreprises employant des salariés dans des zones de revitalisation rurale (au taux de 2,7\% d'exonération pour les salaires inférieurs à 1,5 Smic et de 5,4\% pour les salaires compris entre 1,5 et 1,6 Smic), ainsi qu'avec les allégements prévus par la loi Robien (voir plus bas)\footnote{En pratique, pour calculer l'allégement lorsqu'un salarié ouvre droit à une réduction de charges au titre des exonérations de cotisations famille et au titre du dispositif Robien, la réduction de cotisations famille doit être calculée sur le montant des cotisations restant dues après l'exonération de 40 ou 50\% prévue par la loi Robien.}.\\
+
+
+\textsc{Période d'application:} 01/01/1998 - 30/06/2003.
+
+\textsc{Références :} Loi 97-1269 (Loi de Finance pour 1998) du 30/12/1997 (JO 31/12/1997). Décret 97-1330 du 31/12/97 (JO du 03/01/1998)

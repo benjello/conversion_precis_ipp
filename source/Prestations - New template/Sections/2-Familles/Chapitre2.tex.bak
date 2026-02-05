@@ -1,0 +1,11 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\chapter*{Introduction\label{introduction}}
+\else \fi
+
+
+\ifx\isEmbedded\undefined
+%\newpage
+%\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi

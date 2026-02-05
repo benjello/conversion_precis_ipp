@@ -1,0 +1,117 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\chapter{Présentation générale\label{Chapitre1}}
+\else \fi
+
+% A reprendre
+
+Ce \textit{Précis de législation} a vocation à présenter les différents transferts sociaux dont peuvent bénéficier les ménages.
+Ces derniers, qu'ils soient monétaires ou en nature, sont liés à un besoin ou à un risque social et ont pour objectif d'alléger la charge financière qu'ils représentent.
+
+L'éligibilité ainsi que le montant des transferts versés sont calculés à l'échelle du \textbf{foyer social} et non pas à l'échelle du foyer fiscal, comme c'est le cas pour l'impôt sur le revenu. Le foyer social se compose d'une personne ou d'un couple de référence ainsi que des personnes à charge. À la différence du foyer fiscal, les membres du couple de référence ne doivent pas obligatoirement être mariés ou pacsés pour faire partie du même foyer social. Ils peuvent être simplement concubins. Quant au rattachement des personnes à charge, les conditions, notamment d'âge, varient selon la prestation considérée.
+
+L'objet de ce \textit{Précis} est de décrire certains des transferts sociaux versés en France, en se concentrant principalement sur les prestations familiales (Partie~\ref{sec_prest}), les prestations logement (Partie~\ref{sec_logt}) et enfin, sur les minima sociaux (Partie~\ref{sec_minima}). Les allocations chômage ainsi que les retraites, qui constituent également des transferts sociaux, font l'objet de deux autres \textit{Précis de législation} de l'IPP. Ces transferts ne seront par conséquent pas abordés dans ce \textit{Précis}.
+
+
+\section{Historique des transferts sociaux en France}
+
+\subsection{Définition des transferts sociaux}
+
+Les transferts sociaux, qu'ils soient monétaires ou en nature, visent à protéger les individus contre les différents risques sociaux et à limiter la charge financière que représentent ces risques.
+Selon la définition de l'Insee, les transferts sociaux comprennent à la fois les prestations sociales relavant du champ de la protection sociale mais aussi les transferts de biens et services non marchands des administrations publiques vers les ménages. C'est ainsi le cas de la santé ou de l'éducation par exemple qui constituent des services fournis par l'État.
+
+Ainsi, les risques sociaux auxquels sont associés les transferts peuvent être regroupés en six grandes catégories que sont la vieillesse, la santé, la famille, le chômage, le logement et la pauvreté.
+
+Dans le système français, les transferts sociaux reposent sur deux logiques différentes, une logique d'assurance et une logique d'assistance.
+La logique d'assurance implique une cotisation préalable pour pouvoir bénéficier d'un transfert. La logique d'assistance, au contraire, relève de la solidarité nationale et le transfert ne dépend que de la situation de l'individu bénéficiaire.
+% Nommer les deux logiques? Détailler les deux systèmes?
+
+Une même prestation peut reposer sur ces deux logiques. C'est ainsi le cas des transferts visant à protéger les individus contre le risque chômage. Si des cotisations ouvrent droit à une allocation chômage, des prestations visent à assurer un revenu aux personnes même lorsque leur droit à l'Assurance chômage sont épuisés.
+
+
+
+\subsection{La genèse de la protection sociale et sa progressive extension}
+
+% Déterminer le niveau de détail que l'on souhaite
+
+Les débuts de la protection sociale ont vu le jour avec le processus d'industrialisation. En effet, un système, reposant principalement sur une logique d'assistance, est progressivement né avec notamment la mise en place d'un système d'aide sociale dont l'objectif était de permettre aux individus de faire face à des besoins spécifiques. Le bénéfice de cette aide était conditionné aux ressources de l'individu ainsi qu'à celles des membres de son foyer.
+A ces dispositifs va s'ajouter, au cours des années suivantes, un système d'assurance obligatoire afin de couvrir certains risques sociaux dont notamment les accidents du travail, la vieillesse, la maladie ainsi que les charges familiales.
+% Est-ce qu'il est nécessaire de développer davantage en précisant les dates ?
+
+\begin{comment}
+Les mutuelles, basées sur le volontariat, et l’aide sociale, droit à appréciation subjective et spécialisée, n’ont bénéficié qu’à une frange limitée de la population. Aussi, dès le début du XXème siècle, apparaissent des tentatives en faveur de l’assurance obligatoire de certains risques sociaux.
+En matière d’accidents du travail, la loi du 9 avril 1898 reconnaît la responsabilité sans faute de l’employeur qui peut s’assurer pour y faire face.
+En matière d’assurance vieillesse, la loi du 5 avril 1910, dont l’application a été limitée, institue un régime d’assurance obligatoire pour les salariés du commerce et de l’industrie.
+Les lois du 5 avril 1928 et du 30 avril 1930 instituent pour les salariés titulaires d’un contrat de travail une assurance pour les risques maladie, maternité, invalidité, vieillesse et décès et la loi du 30 avril 1928 un régime spécial pour les agriculteurs.
+La loi du 11 mars 1932 prévoit des allocations couvrant les charges familiales financées par des versements patronaux.
+A la veille de la deuxième guerre mondiale, la France dispose, dans les textes, d’un système de protection complet mais fragile qui sera profondément renouvelé après les hostilités.
+\end{comment}
+% Est-ce que l'on reprend les dates de l'extension?
+% La loi du 15 juillet 1893 institue ainsi l’assistance médicale gratuite, la loi du 27 juin 1904 le service départemental d’aide sociale à l’enfance et la loi du 14 juillet 1905 l’assistance aux vieillards infirmes et incurables.
+%Pour les différentes étapes de l'extension: http://www.securite-sociale.fr/Historique-du-systeme-francais-de-Securite-sociale
+
+Ainsi, avant la Seconde guerre mondiale, la France disposait déjà d'un système de protection sociale relativement complet. Ce dernier sera en revanche profondément remanié avec la mise en place de la Sécurité sociale aux lendemains de la guerre. L'objectif est alors d'instaurer une prise en charge collective des risques individuels mais aussi de corriger les inégalités de niveau de vie pouvant exister entre les ménages du fait de leurs différences de structure.
+
+Progressivement, le système de la Sécurité sociale s'est généralisé à l'ensemble de la population. C'est ainsi que par exemple, en 1975, l'assurance vieillesse devient obligatoire pour tous.
+
+
+\subsection{La dynamique des transferts sociaux}
+
+% Est-ce que cette partie concerne seulement le solde budgétaire de la Sécu?
+
+La mutation des structures de l'économie française a affecté et déterminé en partie la dynamique des transferts sociaux. Ces derniers ont en effet acquis un poids croissant dans l'économie et représentent aujourd'hui une part importante du PIB français, soit 31,7\% en 2013.
+
+Pendant longtemps, le système de transferts sociaux a été équilibré financièrement grâce à la forte croissance économique. La croissance des prestations suivait alors celle du PIB. L'équilibre financier du système de protection sociale dépend très fortement de la conjoncture économique. Les recettes augmentent comme la masse salariales puisqu'elles sont principalement composées de cotisations. Les dépenses sociales ont, quant à elles, un caractère irréversible puisqu'il est en effet très difficile de supprimer des prestations existantes.
+
+Le système de protection sociale a ainsi très bien fonctionné et a été financièrement équilibré pendant les "30 Glorieuses" du fait de la croissance économique. Cependant, après 1973, le ralentissement de la croissance avec le premier choc pétrolier a contribué à la hausse de la part des transferts sociaux dans le PIB. En effet, le déficit de croissance économique et l'accentuation de son caractère cyclique ont remis en cause la stabilité financière du système français de protection sociale.
+Le ralentissement de la croissance a entraîné une hausse des prestations liées au chômage. Les changements de la structure démographique française ont quant à eux contribué à augmenter les prestations santé et vieillesse.
+
+Afin de faire face à ces changements et surtout au creusement progressif du déficit de la Sécurité sociale, à partir de 1983, on note la fin de l'extension de la protection sociale et une moindre revalorisation des prestations sociales. Ainsi, par exemple, les dépenses de santé sont moins remboursées. En ce qui concerne les prestations familiales, on constate le développement des prestations accordées sous conditions de ressources ainsi que la mise en place de plafonds de ressources.
+
+Depuis cette période, les différents gouvernements ont cherché à équilibrer les comptes sociaux, refusant implicitement que la protection sociale joue un rôle de stabilisateur de l'économie.
+
+
+
+% Est-ce que l'on détaille l'évolution par type de transferts (Vieillesse, maladie...)?
+% Est-ce que l'on aborde le financement de la Sécurité sociale?
+% Structure des recettes du système français? CSG, CRDS, cotisations...? 
+
+
+
+\section{Architecture institutionnelle}
+
+- Quel organisme pour chacune des prestations? Quel échelon? Détailler les différentes caisses? 
+
+RSI, régime agricole, régime spéciaux
+L'organisation et les différentes caisses sont très liées à l'histoire de la protection sociale en France. 
+
+
+% Que voulons-nous exactement?
+- aborder les questions du financement des différentes prestations sociales? Dans une autre partie?
+
+\begin{comment}
+La principale ressource = les cotisations
+sociales (salariés et employeurs) perçues par
+l’URSSAF Union pour le Recouvrement des
+cotisations de Sécurité Sociale et d’Allocations
+Familiales.
+• Contribution Sociale Généralisée (CSG) perçue
+par l’état sur l’ensemble des revenus
+\end{comment}
+
+FSV créé en 1993 lors de la réforme des retraites pour financer les prestations vieillesse dont le minimum vieillesse par exemple mais aussi les périodes de chômage indemnisées par l'Etat dans les régimes complémentaires. 
+Le FSV a pour mission de gérer les dépenses de retraite relevant d'une logique de solidarité nationale, et n'étaient alors pas financées par des cotisations sociales préalables. 
+
+\begin{comment}
+Avec la création du Fonds de Solidarité Vieillesse, la réforme de retraites de 1993 a introduit une distinction majeure entre les dépenses relevant d'une logique assurantielle, imputables à l'assurance vieillesse et financées par les cotisations sociales, et les dépenses de retraite à caractère non contributif relevant de la solidarité nationale, dont le financement doit être assuré par l'impôt.
+\end{comment}
+
+
+
+
+
+
+
+\ifx\isEmbedded\undefined
+\end{document}
+\else \fi

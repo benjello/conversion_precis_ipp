@@ -1,0 +1,50 @@
+Mémo pour rédaction d'une partie sur les cotisations sur les heures supplémentaires ou complémentaires
+
+Heures complémentaires = heures supplémentaires quand temps partiel. 
+
+2007 loi TEPA
+- (défiscalisation -IR- des heures supplémentaires)
+- salaire de référence pour les allègements généraux de cotisations ne comprend plus les heures supplémentaires (NB : dans le Précis, pourquoi remettre à cet endroit le changement de formule avec le taux à 28% pour les entreprises de moins de 20 salariés ?)
+- "dé-socialisation" des heures supplémentaires : exonération de cotisations salarié et employeur sur les heures supplémentaires.
+	NB : aucun endroit dans le Précis où on aborde les réductions de cotisations _salarié_ ?
+Références :
+Loi n° 2007-1223 du 21 août 2007 en faveur du travail, de l'emploi et du pouvoir d'achat
+
+
+
+
+2012
+- re-fiscalisation et re-socialisation des heures supplémentaires pour les entreprises de + de 20 salariés
+- le salaire pris en compte pour le calcul des allègements généraux inclut de nouveau les heures supplémentaires (art. 16, I de la LOI n° 2011-1906 du 21 décembre 2011 de financement de la sécurité sociale pour 2012)
+
+
+1er janvier 2019
+- exonération des cotisations salariales vieillesse (régime de base + complémentaire) des heures supplémentaires et complémentaires 
+Références :
+- article 7 du PLFSS pour 2019 (LOI n° 2018-1203 du 22 décembre 2018 de financement de la sécurité sociale pour 2019), créé l'article L 241-17 du CSS
+- Décret n° 2019-40 du 24 janvier 2019 relatif à l'exonération de cotisations salariales des heures supplémentaires et complémentaires, précise le taux maximal
+
+
+
+CSS
+- L241-18 : réduction de cotisation pour heures mentionnées au 1° à 3° du L241-17, càd une partie des heures supplémentaires auxquelles s'applique la réduction de cotisation salariale (cela exclut les jours de repos renoncés quand forfait jours, les heures complémentaires, les travailleurs à domicile (particuliers employeurs), les assistants maternels...)
+Uniquement pour entreprises de 19 salariés ou moins
+	Historique : 
+Institué par l'article 1 de la loi n° 2007-1223 (TEPA), sans condition sur le nombre de salariés.
+Puis (2012) conditionnement.
+En 2015, l'article 15 de la loi n° 2015-1785 (PLF) stipule que l'employeur conserve le  bénéfice de cet allègement s'il dépasse le seuil en 2016, 2017 ou 2018.
+- L241-17 : réduction de cotisation salariale, s'applique aux cas abordés dans la circulaire questions-réponses (INSTRUCTION INTERMINISTERIELLE N° DSS/5B/2019/71 du 29 mars 2019).
+	Historique :
+Institué par l'article 1 de la loi n° 2007-1223 (TEPA)
+Abrogé par l'article 3 de la loi n° 2012-958 du 16 août 2012 de finances rectificative pour 2012
+Rétabli (rédigé autrement : précise les cas concernés) par l'article 7 de la loi n° 2018-1203
+
+
+Normalement quand on fait le ratio revenus d'activité / SMIC annuel pour le calcul des allègements, on doit calculer ce SMIC annuel en tenant compte des heures supplémentaires (en leur affectant le Smic horaire, sans prendre en compte les majorations donc). cf Article L241-13 du CSS, 2è alinea du III
+(loi pour 2012, art. 16, II)
+Quid avec la réforme de 2019 ?
+
+
+
+Autres remarques :
+- sur l'annualisation du salaire pour le calcul des allègements (2011), quand temps partiel, pourquoi au prorata de 1820h annuelles ? Temps complet à 35h => 1607h (car jours fériés, week-ends, et congés payés), cf. L 3121-41 du CSS, institué par l'article 8 de la loi n° 2016-1088 du 8 août 2016 relative au travail, à la modernisation du dialogue social et à la sécurisation des parcours professionnels. C'était peut-être différent avant 2016 ? Checker dans les Lefebvre

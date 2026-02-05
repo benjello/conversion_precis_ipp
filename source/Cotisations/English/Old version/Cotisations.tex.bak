@@ -1,0 +1,813 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[english,french]{babel}
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{a4wide}
+\usepackage[pdftex]{graphicx}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{subfigure}
+\usepackage{flafter}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{eurosym}
+\usepackage{breakcites}
+\usepackage{datetime}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{slashbox}
+\usepackage{lscape}
+\usepackage[usenames]{color}
+\usepackage{indentfirst}
+\usepackage{url}
+\usepackage{enumerate}
+
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=Latex.dll}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=BibTeX}
+%TCIDATA{LastRevised=Saturday, August 14, 2010 15:41:10}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+
+\newcommand{\e}{\textsuperscript{e}}
+\newcommand{\eme}{\textsuperscript{ï¿½me}}
+\newcommand{\er}{\textsuperscript{er}}
+\newcommand{\thh}{\textsuperscript{th}}
+\newcommand{\cy}{\citeyear}
+\setlength{\doublerulesep}{\arrayrulewidth}
+
+% Macro d'inclusion de graphiques pdf %
+\newcommand{\graphique}[2][1]{\begin{minipage}{\linewidth}\begin{center}\includegraphics[width=#1\linewidth,clip]{Figures/#2}\end{center}\end{minipage}}
+
+% Pour permettre de répartir du texte sur plusieurs lignes dans un tableau %
+\newcommand{\minitab}[2][c]{\begin{tabular}{#1}#2\end{tabular}}
+
+% Macro pour créer un tableau (avec notes optionnelles) %
+\newenvironment{tab}[4][1]
+{\def\TMP{#3}\newdimen\TMPsize\settowidth{\TMPsize}{\TMP}
+\begin{table}[!ht]
+\begin{center}
+\begin{minipage}{14cm}
+\caption{#2}
+\end{minipage}
+\end{center}
+\begin{center}
+\begin{minipage}{#1}
+\resizebox{\textwidth}{!}{#3}
+\end{minipage}
+\if!#4!\empty \else \\
+\begin{scriptsize}
+\begin{minipage}{#1}\vspace{0.2cm} \par #4
+\end{minipage}
+\end{scriptsize} \fi }
+{\end{center}
+\end{table}}
+
+% Macro pour créer une figure (avec notes optionnelles) dans le corps du texte %
+\newenvironment{fig}[4][1]{
+\begin{figure}[!ht]
+\begin{center}
+\begin{minipage}{14cm}
+\caption{#2}
+\end{minipage}
+\end{center}
+\begin{center}
+\begin{minipage}{#1}
+\begin{center}#3
+\end{center}
+\end{minipage}
+\if!#4!\empty \else \\
+\begin{scriptsize}
+\begin{minipage}{#1}\vspace{0.2cm} \par #4
+\end{minipage}
+\end{scriptsize} \fi }
+{\end{center}
+\end{figure}}
+
+\bibliographystyle{agsm}
+\onehalfspace
+\renewcommand{\floatpagefraction}{.9}
+\renewcommand{\textfraction}{.1}
+\renewcommand{\d}{\text{\rm d}}
+\newcommand{\ta}{\hspace{-.8em}\left.\phantom{\frac{\alpha}{\alpha}}\right|}
+
+\renewcommand{\contentsname}{Sommaire}
+\setcounter{tocdepth}{2}
+
+\begin{document}
+
+\title{Social security contributions and payroll taxes in France}
+\author{Antoine Bozio, Julien Grenet and Laura Khoury }
+\date{}
+\maketitle
+
+\begin{center}
+\textsc{Preliminary version}
+\end{center}
+
+\begin{abstract}
+This document aims at presenting Social security contributions (SSC) in France with an historical perspective. Rules for SSC are described including the definition of tax base, changes in employer and employee SSC, the introduction of flat rate income taxes (CSG and CRDS) in replacement of SSC and the specific payroll taxes -- employer SSC which fall on specific firms.
+\end{abstract}
+\vspace{1cm}
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+Social security legislation was first introduced at the end of the 19th century in France, with a law, passed in 1898, protecting workers against work accidents, and granting them damages by recognizing the employers' responsibility. More comprehensive systems then developed: first old-age insurance for industry and agriculture workers was created in 1910, and a broader system of insurance against risks of sickness, maternity, disability and old-age was created for wage-earners of trade and industry in 1930.\\
+Beside these general measures and even before the drafting of the first legislation, autonomous initiatives from workers or employers emerged for some types of occupations (public firms such as the electricity and gas firm, the public company for Parisian transportation, self-employed workers, farm workers, civil-servants, etc.) in the form of mutual insurance organizations. Proper pension systems were established in the 19$^{th}$ century, whose membership was related to the occupation of workers: for employees of the \textit{Banque de France} (French central bank) (1806), for actors at the \textit{Com\'edie fran\c{c}aise}, a theater company (1812), for civil servants (1853), for railways' employees (1855), and for miners (1894). They were sometimes linked with the introduction of sickness insurance.\\
+This variety of schemes has been maintained even after the development of a general system encompassing the majority of the population, and helps understanding the current shape of the social security system in France.\newline
+
+The social security system has mainly been implemented after the Second World War. A general scheme was created in October, 1945 to protect workers and their family, and has been progressively extended to almost the whole population. The main objectives of the scheme were specified in the law as being to guarantee the workers and their family against the risk of reduction of their earning capacity, and to cover, for any resident unit, family, sickness or maternity and paternity-related expenditures. Autonomous schemes have been introduced in 1948 for non-farm non-wage-earners who did not want to be integrated into the general scheme. The farm scheme has developed through a social agricultural mutual insurance system protecting against traditional risks, and through mutual agricultural insurances at the margin of the system, to protect against farm-specific risks. Other special schemes have been added for certain socio-professional categories, in keeping with what existed before. From this juxtaposition of components, we see that the French social security system has reached its initial goal of generalization, but not necessarily of unity.\newline
+
+The social security system can be divided into four branches, each one being managed by specific bodies: sickness, old-age, work accidents and family. The first one consists in a set of social insurances covering the risk of sickness, maternity, and disability, then, the other ones are a protection against work accidents, an old-age insurance and pension system, and a set of familial allowances. These branches are administered by social security funds which have a status of private law organizations with a public service assignment. The State relates to them through the Social security management. \newline
+
+ This organization has been supplemented with complementary pension schemes to provide an additional support to the one offered by the general scheme: the two main organizations are the ARRCO (\textit{Association pour le r\'egime de retraite compl\'ementaire des salari\'es}, i.e. complementary pension schemes for wage-earners) and the AGIRC (\textit{Association g\'en\'erale des institutions de retraite des cadres}, i.e. complementary pension schemes for white-collar workers), which have been implemented by national inter-professional agreements, and work as a pay-as-you-go systems with contributions, voluntary at the beginning, and which became mandatory in 1970. However, they do not belong to the social security system under the supervision of the State, but are private and mandatory schemes managed by employers' and employees' representatives. Their revenues from social contributions and their spending are registered into the national accounts under public administration, but the State has no entitlement to control them.\newline
+
+Another body has been added in 1958 to cover unemployed people, in a perspective of insurance and not of assistance, managed by the UNEDIC (\textit{Union nationale interprofessionnelle pour l'emploi dans l'industrie et le commerce}, i.e. national union for industrial and commercial employment) and \textit{P\^ole Emploi} which offers to unemployed people benefits, placement and redirection services.\newline
+
+All these schemes are financed by social contributions, which are collected by the URSSAF (\textit{Union de recouvrement des cotisations de s\'ecurit\'e sociale et d'allocations familiales}, i.e. Union of collection of social security contributions and family allowances) and the ACOSS (\textit{Agence centrale des organisations de s\'ecurit\'e sociale}, i.e. Central agency of social security organizations) is in charge of the treasury. The management of these spending and revenues is ruled by a budget law passed each year: \textit{la Loi de financement de la Sécurité sociale}. ACOSS differs from the proper French tax administration, the DGFIP (\textit{Direction g\'en\'erale des finances publiques}, i.e. General management of public finances), which deals with the French taxes in accordance with what has been decided in the annual finance act. Then, the social security budget is different from the State budget.  \newline
+
+We can measure the importance of the different social security schemes and the different branches mentioned above in terms of spending and revenues for 2012. The general scheme has the most important weight, and also the most important imbalance between expenditures and revenues. The funding of the base schemes of the social security rests mostly upon social security contributions, but also more and more upon tax sources.\newpage
+
+\begin{fig}[12cm]{Social security scheme's spending by branch (in billion euros). \label{spending}}
+{\graphique{spendingbranch.pdf}} {\emph{Source:}~Les chiffres clés de la loi de financement de la sécurité sociale 2012.}
+\end{fig}
+
+\begin{fig}[12cm]{Social security scheme's revenues (in \% GDP). \label{revenues}}
+{\graphique{revenuesSS.pdf}} {\emph{Source:}~Les comptes de la sécurité sociale en France en 2012.}
+\end{fig}
+
+\begin{fig}[12cm]{Social security scheme's revenues by source (in billion euros). \label{revenuessource}}
+{\graphique{revenuessource.pdf}} {\emph{Source:}~Les chiffres clés de la loi de financement de la sécurité sociale 2012.}
+\end{fig}
+
+The graph here after captures the general architecture of the social security scheme, and the financial weight of its different components.
+
+\begin{fig}[18cm]{Social security scheme's organization \label{organisation}}
+{\graphique{organisationSS.pdf}} {\emph{}}
+\end{fig}
+
+
+
+
+\section{Social security contributions}
+
+\subsection{Main social security scheme}
+
+Social security contributions for the general scheme are compulsory for all the recipient persons, that are the wage-earners and allied non-farm workers, and are meant to finance the four branches of the social security: sickness, old-age insurance, family allowances and work accidents and diseases. The first two branches are nominally funded both by employers and employees, while the others are financed only by employers. Social security contributions are hypothecated, each contribution being dedicated for a particular social security expenditures purpose, which explains the coexistence of different budgets for the different branches of the scheme. It is also true for other taxes financing social security schemes, such as the CSG and the CRDS: a proportion of the tax revenues funding each part of the scheme is inscribed in the law.\newline
+
+\textbf{Social security contributions tax base}\newline
+
+\indent The social security contribution (SSC) tax base includes all forms of labour income: earnings, bonuses, benefits in kind. We will examine the composition of the tax base in further details:
+\begin{itemize}
+\item the first part of the income subjected to the SSC is the earnings, variable or fixed, including the increase for special work (by night or on Sunday), and overtime hours \footnote{which are no more deductible since August, 2012}.
+\item Cash benefits and bonus granted to employees for their working conditions, a personal event (marriage, birth), or their affiliation to the company (end-of-the-year bonus) are subjected to social security contributions, excepted for professional expenses or damages.
+\item Tips are subjected to SSC on a fixed amount basis or on their actual value if they are registered.
+\item In kind benefits are in general subjected to social security contributions and the value used for the computation is either a fixed amount or the value according to the recipient worker, that is the difference between the price of the advantage and what he pays for it. These in kind benefits include the provision of food, housing, car, computer hardware, leisure travel. \\
+For the provision of food, a minimal fixed-amount is used for the computation of the SSC, excepted when employees eat at the workplace canteen: if they contribute to its financing by more than 50\%, this in-kind benefit is not included in the contribution tax base. For hotels', cafes' and restaurants' employees, the value of the food provided is equal to a fixed-amount determined each year, in line with the minimum wage (called the \textit{minimum garanti}). It was equal to 3.49 \euro in July, 2012. Employers can choose the \textit{ticket restaurant} solution, which are luncheon vouchers used to pay lunch outside the workplace. In that case, their contribution is excluded from the tax base up to a limit of 5.29\euro per lunch and per worker in 2013. The luncheon vouchers are financed by employers in a proportion varying between 50 and 60\%, the rest being paid by employees .\\
+For the provision of housing, it is considered an in-kind benefit if it is offered for free or for a small contribution not counted as a rent. Then, it is part of the tax base on the actual value or on a fixed-amount basis.\\
+If the employer provides a car to his employees for free, the private use of the car is considered an in-kind benefit, and its value (according to a fixed-amount or to the actual expenditures undertaken) is included in the tax base. Regarding the home-workplace ride, it is excluded from the tax base only if it is proven that it is impossible to use public transportation, and if the employee's house is not located abnormally far from his workplace.\\
+The provision of hardware and software is not part of the tax base if it does not exceed a limit of \euro2000 per worker per year. However, if it is made available permanently, the private use of this equipment is counted in the tax base.
+\item Professional expenses, which include luncheon voucher or transportation allowance, are excluded on the basis of their actual value or of a fixed amount. Some occupations have a specific rate for the deduction of professional expenses, such as artists, bus drivers, or journalists for example.
+\item Concerning the benefits for the breach of the work contract, those considered an income are subjected to social security contributions, and those payed as damages are exempt.
+\item Employers' contributions for mandatory complementary pension schemes are excluded from the tax base, and employers' contributions for additional pension schemes, made on a voluntary basis, are excluded from the tax base under some general conditions: benefits have to be paid by one of these organizations: a contingency institution, a mutual fund, an insurance company, or a supplementary pension institution; the pension scheme has to be implemented through a collective agreement, or a ratification of the majority, or a one-sided decision from the employer, specified to all the employees; all the workers must necessarily be affiliated; and employers' contributions must not replace any other form of salary removed for less than twelve months.
+\item Social security transfers for sickness, maternity, disability and death insurance, for work accident, for family allowances and for unemployment are excluded from social security contributions, whereas additional benefits paid for family protection or during a temporary inability period are subjected to social security contributions.\newline
+\end{itemize}
+
+\textbf{Computation of the social security contributions}\newline
+
+SSC are computed by applying the legal rate to the gross wage before any deduction for other contributions (unemployment insurance, complementary pensions...). The gross earnings represent the legal basis inscribed on the work contract, generally paid monthly in France, and is used for the computation of both employers' and employees' contributions, to obtain the super-gross wage, or labour cost paid by employers, and the taxable earnings received by employees:\newline
+\begin{eqnarray}
+z=(1+t_r)w \\
+n=(1-t_e)w
+\end{eqnarray}
+with z being the labour cost, w the gross earnings, $t_r$ employers' SSC rate, n the net earnings before income tax, and $t_e$ employees' SSC rate.\\
+To understand the different definitions of earnings, let's take the example of a non-executive employee with \euro2000 as his gross earnings (around the middle of the distribution in France), who is single, without children, working in a company located in Paris, and with more than 20 employees:\newline
+
+\begin{fig}[12cm]{Different definitions of earnings \label{earnings}}
+{\graphique{Salairedef3.pdf}} {\emph{Note:} Non-executive employee with \euro2000 as his gross earnings, single, without children, working in a company located in Paris, and with more than 20 employees}
+\end{fig}
+
+The income to take into account for the calculation of the social security contributions is bounded by a an upper-limit. If there is no lower-limit - employees and employers contribute from the first euro they earn or pay - there is a minimum tax base, which is equal to the minimum wage (computed proportionally to the number of hours worked). It means that people paid below the minimum wage compute their SSC on a tax base equal to the minimum wage, excepted for people regarded as wage-earners according to the social security but not according to the labour law (students doing an internship or some managers), and for people whose contribution is computed on a fixed-amount basis. This rule applies for example to employees whose special tax base reduction for professional expenses would have reduce their tax base below the minimum wage: in that case, they pay contributions on the minimum wage. The upper-threshold can be a factor of social security ceilings, that is an amount recomputed every year and above which the income is no more subjected to the social security contributions. This amount depends on the time period chosen as a reference (an hour, a day, a month...) and corresponds to the average wage. Here are the ceilings computed for 2013:\newline
+
+\begin{tab}[12cm]{2013 Social security ceilings\label{SSCeilings}}
+{\begin{tabular}{c|c|c|c}
+\textbf{Number of SSCeilings} & \textbf{Year} & \textbf{Month} & \textbf{Week}  \\
+\hline
+1 SSCeiling & \euro37,032	& \euro3,086 & \euro712 \\
+\hline
+3 SSCeilings & \euro111,096 & \euro9,258 & \euro2,136 \\
+\hline
+4 SSCeilings & \euro148,128 & \euro12,344 & \euro2,848 \\
+\hline
+8 SSCeilings & \euro296,256 & \euro24,688 & \euro5,696 \\
+\end{tabular}}
+{\emph{}}
+\end{tab}
+
+Different contribution rates are used for each scheme (unemployment, pension, health, family, housing, etc.). They apply to the whole income, computed following the rules mentioned above, or only to a part calculated in terms of social security ceiling.\\
+These rates have evolved over time: before the 1967 reform, SSC were paid to a single national social security fund, according to a rate of 6\% for the workers aged less than 65, 2\% for the workers above 65, and 15\% for the employers. Since 1967, the three branches of the Social security scheme (sickness, family and old-age) have been managed by separated bodies, and different contribution rates have been enforced. These rates have largely increased in the 1970's and the 1980's and then decreased for employers hiring low-wage workers in the 1990's, as part of a job-creation policy. An autonomy and solidarity contribution has also been created in 2004 for old-age and disabled people, and is nominally paid by employers.
+\begin{itemize}
+\item Sickness insurance and family allowances: the contribution rates vary according to the nature of the risk covered. Since 1980, the contribution rate for the sickness insurance branch only applies to the total income without upper-limit, and has largely increased until 1997, and then decreased down to 0.75\% for the employees in 1998, due to a transfer of the tax burden from social security contributions to the CSG. A same upward evolution is observed for employers' contributions that have reached the level of 12.8\% in 1998, without any change ever since.
+    Since 1990, the contribution basis for the family allowances is no more limited by a ceiling, and the rate has decreased from 7\% in 1990 to 5.40\% in 1991, without any change ever since. Family allowances contributions are entirely paid by employers.
+\item Work accidents: the contribution rate is reviewed every year and determined at the company level.
+\end{itemize}
+
+Here are summarized the current rates for social security contributions:\newline
+
+
+\begin{tab}[18cm]{Social security contributions\label{SSC}}
+{\begin{tabular}{c|c|c|c|c}
+\textbf{Branch} & \textbf{Global rate} & \textbf{Employee's rate} & \textbf{Employer's rate} & \textbf{Contribution basis} \\
+\hline
+Sickness (sickness, maternity, disability, death)	& 13,55\%	& 0,75\%	& 12,80\%	& Total income \\
+\hline
+Family & 5,40\% &  & 5,40\% & Total income \\
+\hline
+Old-age & 14,95\% & 6,65\% & 8,30\% &	1 Social security ceiling \\
+\hline
+Old-age & 1,70\% & 0,10\% & 1,60\% & Total income \\
+\hline
+Autonomy and solidarity contribution & 0,30\% & & 0,30\% & Total income \\
+\end{tabular}}
+{\emph{}}
+\end{tab}
+
+\textbf{Alsace-Moselle special scheme}\newline
+
+The annexation of the French territory of Alsace-Moselle to the German Empire in 1871 made if benefit from a mandatory social protection scheme from the end of the 19$^{th}$ century, with sickness, work accidents, disability and old-age insurances. When the Alsace-Moselle was reintegrated into the French territory in 1918, the German legislation for social protection was maintained, and throughout the 20$^{th}$ century the local scheme has been progressively aligned with the general scheme. However, some special rates have remained, especially for sickness insurance and work accidents: for inhabitants of Alsace-Moselle, additional contributions for sickness protection are due, to the extent of 1.6\% of the total income for employees.\newline
+
+\textbf{Regularisation and Payment}\newline
+
+Social security contributions are paid every month for companies employing more than nine workers, simultaneously with the payment of the wage. A regularization has to be made every month or year to account for the variation of the income from one salary to the other, if the employee is temporarily absent from work or if he is hired in the course of the year. In that case, the social security ceiling has to be reviewed downward to account for the period the employee has been unpaid.
+The payment of the contribution is made by employers to a single organization, the URSSAF (\textit{Union de recouvrement des cotisations de s\'ecurit\'e sociale et d'allocations familiales}, i.e. Union of collection of social security contributions and family allowances) of the district corresponding to the company address. The ACOSS (\textit{Agence centrale des organismes de s\'ecurit\'e sociale}, i.e. the national fund of the Urssaf) is in charge of the social security contributions treasury.
+
+
+\subsection{Unemployment insurance scheme}
+
+Unemployed people are eligible for receiving benefits from a conventional unemployment insurance scheme, financed by contributions, and from a solidarity scheme financed by the State. To set up an unemployment insurance scheme, trade and employers' unions regularly engage in bargaining to reach an agreement about the reglementation of the unemployment insurance, which is managed by the UNEDIC at the national level, in charge of the unemployment insurance, and \textit{P\^ole emploi} locally, which is the name for the job centers located throughout the country, working for the financial compensation, the training and the integration of unemployed people.\\
+Unemployment insurance is mandatory for all employers working in France (mainland France, DOM and Saint-Pierre-et-Miquelon) and employing wage-earners in the private sector. \footnote{it includes those working abroad, those from France or the European Union who are expatriate, and those in a block-release training.} \newline
+
+\textbf{Contribution tax base}\newline
+
+The contribution tax base is the same as for the social security contributions, with the exceptions of the income of wage-earners above 65 and the part of the income above four social security ceilings, which are excluded from the contribution tax base.\newline
+
+\textbf{Computation of the unemployment insurance contributions}\newline
+
+Since 2002, the whole part of the income below four social security ceilings is subjected to the same contribution rate, whereas before this date, we distinguished between a first bracket of income corresponding to the earnings below the social security ceiling, and a second bracket corresponding to the earnings between one and four social security ceilings, with different rates applying to each bracket.\\
+The rate to use for the computation of the contribution is the one applicable at the time of the payment of the earnings. Historically, the contribution rate has increased from the creation of the insurance in 1958 to 2003, and then has stabilized, as observed in the following graph:
+
+\begin{fig}[12cm]{Unemployment insurance contributions (1975-2007)). \label{Unemp}}
+{\graphique{graphchomage.pdf}} {\emph{}}
+\end{fig}
+
+
+The important rise in 1984 was introduced at a time of crisis for the general scheme of the social security, and of continuous increase of unemployment. In 1993, another sharp  increase has been decided in a context of deep financial troubles: an economic crisis weakened economic growth and the payroll which finances the contributions has very little increased.\newline
+
+In addition to this unemployment insurance, each employer has to pay a contribution to the AGS (Association pour la gestion du r\'egime de garantie des cr\'eances des salari\'es), to guarantee his employees the payment of what he owes to them in case of tax adjustment or compulsory liquidation.
+
+\subsection{Complementary pension schemes}
+
+It is mandatory for all the wage-earners belonging to the general pension scheme to become affiliated to a complementary pension scheme that provides supplement to the old-age insurance of the general scheme. The first scheme, Arrco (\textit{Association pour le r\'egime de retraite compl\'ementaire des salari\'es}, i.e. Association for the wage-earners' complementary pension scheme), created in 1961, is designed for blue-collar workers, and for the bracket A of executives' earnings (the part of the earnings below the social security ceiling). The second scheme, Agirc (\textit{Association g\'en\'erale des institutions de retraite des cadres}, i.e. General association of the institutions of executives' pensions), introduced in 1947, is financed by contributions paid on the bracket B of executives' earnings (between one and four social security ceilings), and on the bracket C of executives' earnings (between four and eight social security ceilings). More specifically, the Agirc scheme is designed for executives and allied occupations, engineers, and some managers and doctors. Each company must join a complementary pension institution member of Agirc and Arrco in a three-months delay after its creation. Here is the list of these institutions:\newline
+
+\begin{tab}[18cm]{Agirc and Arrco institutions \label{AgircArrco}}
+{\begin{tabular}{c|c|c|c}
+\textbf{Institutions} & \textbf{Arrco fund} & \textbf{Agirc fund} & \textbf{Sector of activity} \\
+\hline
+AG2R La mondiale & AG2R Retraite Arrco & AG2R Retraite Agric & Not specific \\
+\hline
+Agrica & Camarca & Agrica Retraite Agirc & Farming sector \\
+\hline
+Apicil & Agira Retraite des salariÃ©s & Agira Retraite des cadres & Not specific \\
+\hline
+Audiens & Audiens Retraite Arrco & Audiens Retraite Agirc & Media and entertainment industry \\
+\hline
+B2V & Ciresa & Iricasa & Insurance and private teaching \\
+\hline
+BTPR & CRR-BTP & & Building and public works sector of West Indies and French Guiana \\
+\hline
+CGRR & CGRR & & Guadeloupe \\
+\hline
+CRC & CRC & & Reunion\\
+\hline
+Humanis & Abelio; CRE; Irneo; Novalis Retraite Arrco & Altea; CGRCR; Ircafex; Novalis Retraite Agirc & Not specific \\
+\hline
+Ircem & Ircem Retraite & & Self-employed \\
+\hline
+IRP Auto & IRP Auto Retraite Arrco & IRP Auto Retraite Agirc & car, cycle and motorcycle industry \\
+\hline
+Klesia & Klesia Retraite Arrco; Carcept & Klesia Retraite Agirc & transportation sector \\
+\hline
+Lourmel & Carpilig & & Book printing and graphic industry \\
+\hline
+Malakoff Mederic & Malakoff Mederic Retraite Arrco & Malakoff Mederic Retraite Agirc & Not specific \\
+\hline
+Pro BTP & BTP Retraite & CNRBTPIG & Building and public works industry, graphic industry \\
+\hline
+Reunica & Reuni Retraire Salari\'es & Reuni Retraite Cadres & Not specific \\
+\end{tabular}}
+{\emph{Source:} Agirc and Arrco website}
+\end{tab}
+
+
+These institutions are called \textit{Groupes paritaires de protection sociale}, i.e. social protection groups equally managed by employees' and employers' representatives, and which are made of Agirc or Arrco funds, non-profit-making organizations such as contingency funds, and, sometimes, profit-making organizations such as insurance companies. They are 16 in total, with 29 different funds.\\
+These mandatory complementary schemes can be completed by a supplementary pension scheme.\newline
+
+Arrco and Agirc are part of a pension system working with points attributed to each employee, and converted, at the end of his career, into euros, by multiplying the number of points by the service value of a point. Employees pay contributions according to an effective rate, but the computation of their points is made according to a contractual rate that is lower: the amount of contribution they pay each year is divided by the unit buying price of a point (or reference income) to convert the contributions into points. The effective rate is calculated by multiplying the contractual rate by a calling rate (greater than 100\%), and helps to finance the scheme. Indeed, the calling rate has been adjusted upward from the 1960's to the 2000's to account for the extension of life expectancy.\\
+If we call V$_b$ the buying price of a point, V$_s$ the service value of a point, W the wage, TX the effective contribution rate (including employers' and employees' parts), and C a reduction factor which depends on the age and on the number of years the worker paid contribution to the scheme: workers can retire early, from the age of 55, but they will earn their full pension only starting from the age of 65. Before 65, the computation of the pension is made with a reduction coefficient C. Then, the computation of the pension is made as follows:
+
+\begin{equation}
+P=\frac{W\times TX}{V_b} \times V_s \times C(age, contribution)
+\end{equation}
+
+
+The Arrco and Agirc schemes have undergone several reforms in the 1990's to face their funding issue due to the slowing growth rate of the payroll. The 1993 and 1994 agreements consisted in a rise in the contribution rate, a suppression of the optional supplementary rates (until this date, the employers could contribute more than the compulsory rate, in a limit of 8\% for bracket 1 and 16\% for bracket 2), a reduction of the contribution return by setting the growth path of the buying price of a point higher than the growth path of the income (a point becomes proportionally more expensive to buy) and by reducing the service value of the points that were given for free according to the number of children. As shown in the preceding equation, if $V_b$ increases more than W, and if $V_s$ is reduced, the pension will be lower.\\
+The 1996 agreement introduced a financial solidarity between the two schemes, as Agirc was facing more difficulty than Arrco.
+
+\begin{description}
+\item[Pensions contributions.]
+The contribution tax base, since 1996, is the same as for SSC, with three differences: employer's contributions paid to Arrco and Agirc contributions do not enter into the contribution tax base for these schemes. In addition, complementary pension schemes contributions are always computed on the actual earnings, even when SSC are computed on a fixed amount basis for some specific occupations such as artists of the entertainment industry and models for occasional employers, vacation center employees, etc. Finally, a third difference is that employees can pay a contribution on a fictive income, in cases such as expatriation and some inactivity situations (mobility leave, parental leave for education, reduction of the income or the working time for example).
+
+\item[Arrco: bracket and rate.]
+Blue collar workers pay contributions to the Arrco scheme for bracket 1 (below one social security ceiling) and for bracket 2 (between one and three social security ceilings) whereas executives and allied workers pay contributions to the Arrco scheme only for bracket 1 of their wage.\newline
+Since 2005, the contractual rate is equal to 6.0\% on bracket 1, and 16.0\% on bracket 2, with an effective rate of respectively 7.5\% and 20.0\% for bracket 1 and 2 (the calling rate is 125.0\% since 1992). These different rates have all increased since the 1960's, making the amount of compulsory contributions greater and greater. In particular, in 1997, the contractual rate on the second bracket has been raised up to 14\% versus 4.5\% before, for the companies whose convention has been agreed on after 1997.\\
+The contribution effort is distributed among employers and employees at a rate of 60\% for employers and 40\% for employees, excepted if the company has been created before the 1st of January, 1999 and wants to maintain the previous distribution; if the company's convention is prior to the 25$^{th}$ of April, 1996; if the company agrees on a distribution more favorable to the employees.
+
+\item[Agirc: bracket and rate.]
+Executives and allied workers pay contributions to the Agirc scheme for bracket B (between one and four social security ceilings) and, since 1988, for bracket C (between four and eight social security schemes) and enjoy a guaranteed minimum of points.\\
+Since 2006, the contractual rate is equal to 16.24\% for brackets B and C, and then, the effective rate is 20.3\% for brackets B and C. The distribution between employers and employees is equal to 7.70\% for the employees and 12.60\% for the employers for bracket B. Bracket C contributions effort can be distributed differently, depending on what the company agrees on, even if the last increase in the rate has necessarily been distributed as follows: +0.20 percentage points for the employees, and +0.10 percentage points for the employers.\newline
+
+A minimum amount of contribution must be paid by the employers to the Agirc institution for each executive to obtain a minimum of 120 points. This guaranteed minimum is useful for workers whose wage is under the social security ceiling, or whose part of the wage included in bracket B is not sufficient to acquire these 120 points.
+
+\item[AGFF contribution.]
+Employers must pay a contribution to the AGFF (Association for the management of the financing fund of Agirc and Arrco) for all the workers affiliated to Agirc or Arrco, even for those aged above 65. It has replaced in 2001 another contribution, the ASF, and its rate is equal to 0.80\% and 1.20\% for bracket 1, and 0.90\% and 1.30\% for bracket 2 and B, respectively for employees and employers.
+
+\item[Apec scheme.]
+Apec (\textit{Association pour l'emploi des cadres}) is an association for the employment of executives, engineers and technicians working on the placement of unemployed workers. It is financed by a contribution paid by employers for each wage-earner affiliated to a pension scheme for executives, on the same tax base than for social security contributions. Its rate is equal to 0.06\% on the part of the wage under four social security ceilings, and it is divided into two parts: 0.024\% for the employee, and 0.036\% for the employer. In addition to this contribution, the executive and his employer had to pay a yearly fixed-amount of respectively \euro8.31 and \euro12.46. \footnote{It is no more the case since January, 2011}
+
+\item[\textit{Contribution exceptionnelle temporaire} (CET)]
+It is a contribution that must be paid by the workers affiliated to the Agirc scheme according to a single rate of 0.35\% (0.22\% for the employers, and 0.13\% for the employees), on a tax base corresponding to the Agirc contribution tax base, from one euro to an upper-bound of eight social security ceilings.
+
+\end{description}
+
+
+
+
+\subsection{Public sector}
+
+Civil servants benefit from a different social security scheme, and are subjected to different contributions. There are four types of civil servants within the public sector: the State, the hospital, the local authorities or the military civil servants. They are all affiliated to the general scheme for family benefits - they pay the same rate as private sector employees and receive the same benefits - whereas they pay a different SSC but receive the same in-kind benefits for sickness insurance. Non-permanent civil servants have a specific status: they are affiliated to the general regime for sickness and family branches, but they have their own scheme for old-age insurance.\newline
+
+\textbf{Sickness, maternity and disability contributions}\newline
+
+Civil servants are paid according to a base pay (called \textit{traitement}) and bonuses (called \textit{primes}) which are grade-related. The contribution tax base is made up of the base pay of civil servants which depends on their position into the hierarchy, and the bonus which is granted to some civil servants when they do a work requiring a specific skill or responsibility (called \textit{nouvelle bonification indiciaire}).\\
+The contribution rate differs according to the occupation:
+\begin{itemize}
+\item For State's employees, it is equal to 9.70\% since 1998, and is entirely supported by the employer.
+\item For hospital and local authorities public sector, the rate, entirely taken on by the employer since 1998, is equal to 11.50\%. This rate has been the same since 1984, but before 1997, the employee added also his own contribution part.\newline
+\end{itemize}
+
+\textbf{Deduction for pensions}\newline
+
+Civil servants must pay a contribution to have a right to receive a pension. The contribution tax base is the same as for sickness, maternity, and disability insurance, and a 2010 law has planned a gradual increase of the rate, entirely supported by the employees, until 2020. It is equal in 2012 to 8.39\% and should reach 10.55\% in 2020.\newline
+
+\textbf{Employer-State's contributions for pensions}\newline
+
+The State also pays for civil servants pensions: until 2006, it directly funded the pension scheme by a transfer from the State's budget to get the accounts balanced. In 2006, a special fund, the \textit{Compte d'affectation sp\'ecial pensions} (CAS) has been created to clarify the link between the pension paid to each public sector employee, and the contributions to finance it. From now on, each public sector employer must pay SSC for his employees' pensions. The tax base is only made up of the gross base pay (bonus excluded). The civil pensions correspond to a rate of 68.59\% in 2012, and for the military pensions, the State pays according to a rate of 121.55\%, both rates having followed an upward trend for several years.\\
+In addition, since 2006, the State contributes to a temporary disability allowance granted to civil servants in case of work accident or professional disease, to a rate of 0.33\%.\newline
+
+\textbf{Additional pension scheme for public sector employees}\newline
+
+A 2003 law, enforced in 2005, has created an additional mandatory scheme for State's, local authorities' and hospitals' employees (the \textit{r\'egime additionnel de la fonction publique}, RAFP). It works according to a point system: employees and employers both contribute with a 5\% rate and the contribution tax base is made up of the whole income (bonus included) minus the base pay and the \textit{nouvelle bonification indiciaire}, bounded by the upper-limit of 20\% of the base pay. This scheme provides an additional transfer to agents above the age of 60 and who receive their base pension.\newline
+
+\textbf{Contributions to the national pension fund for local authorities agents}\newline
+
+This scheme, the CNRACL (\textit{Caisse nationale de retraite des agents des collectivit\'es locales}), has been created on September 1947, and is the base pension scheme for civil servants in local authorities and hospitals, which provides retirement and disability pensions. The contribution tax base corresponds to the base pay and the \textit{nouvelle bonification indiciaire}, and the rate is equal to 8.39\% for employees, and 27.30\% for employers. The rate corresponding to the disability allowance part is equal to 0.50\%.\\
+
+A special fund for hospital employment has been created in 1995 to compensate the expenditures faced by hospital employers when they grant to their employees authorizations to work part-time, professional training leave, exceptional mobility damages in case of change of the workplace, etc. It is financed by a 1\% contribution.\newline
+
+\textbf{Contributions to the complementary pension scheme for non-permanent staff of the public service and locally elected representatives}\newline
+
+IRCANTEC (\textit{Institution de retraite compl\'ementaire des agents non titulaires de l'Etat et des collectivit\'es publiques}) is a mandatory complementary pension scheme, created in 1971, which works according to a point system.\\
+ Its members are non-permanent agents of the State, territorial and hospital public service (e.g. doctors in public hospitals %%% ajouter exemples %%%
+ ), contract agents of the French central bank, of EDF-GDF (French electricity and gas industry), of public industrial and commercial firms, and also civil-servants not working full-time and not affiliated to the CNRACL, civil servants with no right to pension, mayors, deputy-mayors and other local representatives.\\
+As for the Arrco and Agirc schemes, employees and employers pay an effective rate but their points are calculated on the basis of a lower theoretical rate. In 2013, on the bracket A, that is under one social security ceiling, employers pay 3.68\% (theoretical rate of 2.94\%) and employees 2.45\% (theoretical rate of 1.96\%), whereas on bracket B, that is between one and eight social security ceilings since 1992, employers pay 11.83\% (theoretical rate of 9.46\%) and employees pay 6.23\% (theoretical rate of 4.98\%).\\
+
+The contribution tax base depends on the professional category:
+\begin{itemize}
+\item Wage-earners: the tax base is made up of the gross wage, any bonus related to the employment, overtime hours, in-kind benefits, work honor medal.
+\item Hospital employees: the total remuneration with some bonus (or 70\% of earnings for some part-time employees).
+\item Elected representatives: the same as the wage-earners.\newline
+\end{itemize}
+
+\textbf{Solidarity fund}\newline
+
+Created in 1982, it is a national public and administrative establishment designed to collect contributions in favor of unemployed people.\\
+The contribution tax base is composed of the net income, that is the gross income (the base pay + the new grade-related bonus + other additional revenues), minus the SSC, plus the residence allowance. If the net income exceeds a certain level computed every year, the person is subjected to the contribution. In that case, other elements such as some bonuses and overtime hours are added to the contribution tax base.\\
+ Once the tax base is calculated, the worker must contribute at a rate of 1\%.
+
+\section{Flat-rate income taxes}
+
+The CSG (\textit{Contribution sociale g\'en\'eralis\'ee}, i.e. Generalized social contribution) and the CRDS (\textit{Contribution au remboursement de la dette sociale}, i.e. contribution to the repayment of the social debt) are flat-rate income tax collected on the gross earnings (cf. figure \ref{earnings} at page \pageref{earnings}). Then, these income taxes differ from the main income tax (the IRPP, \textit{imp\^ot sur le revenu des personnes physiques}) in two dimensions: the main income tax has a progressive rate, and it is collected on the taxable income. The CRDS is not deductible from main income tax, whereas the CSG is partly deductible, to a rate that varies depending on the tax base.\\
+Theoretically, the CSG and the CRDS are different from social security contributions as their payment does not open any entitlement to social transfers and social security affiliation, but on the other hand, they are pay-as-you-earn taxes, and are meant to finance social security. Indeed, they have been created in order to diversify the sources of funding of the social security scheme, and to reduce its deficit. Their rates have progressively increased, simultaneously with a decrease of the social security contributions rates, in a general movement of shifting from social security contributions to income taxation for the financing of the social security scheme. They are collected on labour and transfers incomes and on capital income, according to different conditions. The CSG has been introduced permanently whereas the CRDS was meant to be provisional. However, concerning the part on the labour and transfer incomes, the CSG and CRDS are designed to fund social security scheme, and then, are closely related to social security contributions. For the part on capital income, they have the same status as a tax and are collected by the French Treasury.\newline
+
+\textbf{Contribution tax base}\newline
+
+Regarding the labour income and the transfer income, the contribution tax base is almost the same as for the social security contributions, with a few differences. A deduction for professional expenses equivalent to 1.75\% is possible on some types of revenues, if they do not exceed four social security ceilings.
+
+\begin{tab}[13cm]{CSG-CRDS tax base \label{CSGCRDS}}
+{\begin{tabular}{p{9cm}|p{9cm}}
+\textbf{Elements both in the SSC and CSG-CRDS tax bases} & \textbf{Elements specific to the CSG-CRDS tax base} \\
+\hline \hline
+Gross earnings, including increase for special work (on Sunday, by night) and tips & Benefits paid by social security in case of sickness, maternity or paternity leave, or work accident and disease \\
+\hline
+Bonuses for personal event (marriage, birth...), for working conditions, for affiliation to the company (end-of-the-year bonus) & Employers' contributions to supplementary and voluntary pension schemes and contingency funds \\
+\hline
+Transfers to employees in case of sickness and maternity leave, or work accidents, paid in addition to the social security benefits. The contribution is proportional to the part of the transfers financed by employers & Bonuses paid as part of a profit-sharing agreement \\
+\hline
+Supplementary family allowances paid by employers in addition to social security benefits  & Company's contribution to a company savings scheme or to the buying of shares \\
+\hline
+In-kind benefits (see SSC tax base for the details) & Employers' contribution to the buying of \textit{ch\`eques vacances}. The \textit{ch\`eques vacances} are vouchers partly subsidized by employers that can be used by employees to pay their leisure travel's expenditures. In companies with less than 50 employees and no work council, the benefit enjoyed by employees from these vouchers (the difference between what they pay for them and their face value) is part of the CSG-CRDS tax base (but excluded from the SSC tax base). \\
+\hline
+Benefits enjoyed from the handing-out of free shares, or from the possibility to buy shares & Transfer income \\
+\hline
+Bonuses earned from the modification or the breach of the work contract, if they exceed the amount agreed on in the collective convention & \euro1,500 bonus granted to employees in overseas regions \\
+\end{tabular}}
+{\emph{}}
+\end{tab}
+
+If all the earnings are in the form of in-kind benefits, the person is exempt from CSG and CRDS. For self-employed occupations, the tax base is determined as follows:
+\begin{itemize}
+\item Self-employed income is subjected to the CSG and CRDS in the same conditions as for the social security contributions. We add to the contribution tax base the cash benefits received for sickness and maternity.
+\item For farming occupations, the contribution tax base is almost the same as for the social security contributions.
+\end{itemize}
+
+
+\subsection{The CRDS}
+
+In 1996 was created the CADES (\textit{Caisse d'amortissement de la dette sociale}, i.e. a fund for the paying off of the the social debt), for a period of eighteen years, and was designed to work on the repayment of the social security debt. Indeed, as the contributions' revenues were not sufficient to finance all the benefits provided by the social security scheme, it has accumulated deficits that have been partly transferred to the CADES.  The fund works under the supervision of the Finance, Economy and Industry Minister. The CADES takes out loans that it repays mainly through the resources of the CRDS that has been created at the same time, and is meant to last until the extinction of the debt.\newline
+Since 2001, the contribution tax base is the same that for the CSG, excepted that family, housing benefits and the minimum income are subjected to the CRDS and not to the CSG. The contribution rate is equal to 0.5\% since the creation of the CRDS, ans has never changed.
+
+\subsection{The CSG}
+
+Created in 1991, the CSG is part of a general reflection on the way to finance the social security scheme not only relying on the social security contributions. In the mid-1980's, the removal of the ceiling on social security contributions was completed, but other solutions were needed to raise the social security revenues: the CSG was created as a tax on the income from work and from capital, to have a larger tax base.\newline
+The CSG is also deductible from the income tax, to a certain extent that depends on the type of income taxed. Since its creation, the contribution rate has largely increased, from 1.10\% in 1991 to 7.5\% in 1998 on the activity income, and the amount deductible for professional expenses has been reduced from 3\% to 1.75\% in 2011.\newline
+
+\begin{tab}[16cm]{CSG rates \label{CSG}}
+{\begin{tabular}{p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}}
+\textbf{Activity income: global rate} & \textbf{Activity income: deductible rate} & \textbf{Unemployment benefits: global rate} & \textbf{Unemployment benefits: deductible rate} & \textbf{Abatement: under 4 social security ceilings} & \textbf{Abatement: Above 4 social security ceilings} & \textbf{Pensions and disability allowance: global rate} \\
+\hline
+7.50\% & 5.10\% & 6.20\% & 3.80\% & 1.75\% & 0.00\% & 6.60\%  \\
+\hline
+\textbf{Pensions and disability allowance: deductible rate} & \textbf{Pensions and disability allowance: reduced rate} & \textbf{Early retirement pension: global rate} & \textbf{Early retirement pension: deductible rate} & \textbf{Early retirement pension: reduced rate} & \textbf{Daily allowances: global rate} & \textbf{Daily allowances: deductible rate} \\
+\hline
+ 4.20\% & 3.80\% & 7.50\% & 4.20\% & 3.80\% & 6.20\% & 3.80\% \\
+\end{tabular}}
+{\emph{}}
+\end{tab}
+
+
+
+\section{Payroll taxes}
+
+Some taxes paid by employers are collected on their employees' earnings, but are different from social security contributions as they are not designed to finance the social security scheme, and do not trigger any right to social transfers.
+
+\subsection{Wage tax}
+
+Employers must pay the wage tax in case they are not subjected to the Value added tax. Typically, it concerns insurance companies, banks, non profit-making organizations...etc. The rate is equal to 4.25\%, with a supplement of 4.25\% for the part of the individual wage between \euro7,604 and \euro15,185, and another supplement of 9.35\% for the part of the individual wage above \euro15,185. In French Guiana, the rate falls to 2.55\%, and to 2.95\% in Guadeloupe, Martinique and Reunion.\\
+ Since 2000, the tax base has been aligned with the social security contribution tax base. The different rates have remained unchanged since the creation of the tax, but the wage brackets are revised each year in accordance with the brackets for the income tax.
+
+\subsection{House-building effort}
+
+Employers of at least twenty employees must participate in the funding of house building or related operations. The rate is at least equal to 0.45\% of the wage bill, earnings being computed in gross terms, on the same tax base as for the social security contributions. This participation often takes the form of direct investment in housing, and is calculated on the past year earnings.\\
+Initially, the tax was imposed to any employer with ten or more workers, with a higher tax rate, but this has been revised in 1992.
+
+\subsection{National fund for housing aid (FNAL: Fonds national d'aide au logement)}
+
+The contribution to the FNAL is due by any employer of at least one employee. It represents 0.1\% of the earnings of all employees paying SSC on their actual wage or on a fixed amount basis, but not of employees paying a fixed amount as a contribution. For employers of twenty workers or more the rate goes up to 0.50\% for the fraction of the wage above the social security ceiling, and 0.40\% for the fraction of the wage below. The computation of the FNAL tax base is the same as for social security contributions.
+
+\subsection{Industrial accidents' contributions}
+
+Companies belonging to the general scheme of the social security must insure their employees for professional risks (accidents, diseases) according to a rate that is determined by the nature of the activity and the size of the company, to create a direct link between the level of risk and the amount of the contribution. For companies with less than ten employees, the rate is collective, and depends on the activity; for companies with 10 to 199 employees, the rate is a mix of a collective rate related to the activity, and the specific rate of the establishment. Above 199 employees, the rate depends entirely on the establishment and its security parameters. It is calculated by dividing the cost of work accident and professional diseases by the payroll.
+
+\subsection{Employer's participation in in-house training}
+
+Every employer (excepted the State, local authorities and public administrative establishments) settled in France must participate in the financing of in-house training at a rate of 0.55\% for companies with less than ten employees, 1.05\% for companies with ten to twenty employees, and 1.60\% for companies with more than twenty employees. This last category of companies must also meet some conditions on the way this participation is realized: it should be used to finance training leave, contracts and periods of professionalisation.\\
+The payment falls into two parts: one to finance contracts and periods of professionalisation and individual right to training, and one to finance training projects of the company. No matter the number of employees, employers should pay a complementary tax of 1\% in case of fixed-term contract (for this additional contribution, the tax base is the wage bill of employees on a fixed-term contract).
+
+\subsection{Apprenticeship tax}
+
+Introduced in 1925 to finance apprenticeship, this tax is due by all employers of a commercial, industrial or arts and craft company at a rate of 0.5\% of the payroll, with the income being computed on the same tax base than for social security contributions. This rate is raised up to 0.6\% for companies employing more than 250 workers and which do not respect the minimum quotas of trainees (4\%). Two additional contributions have been created on the same tax base: the first in 2004 for the development and the financing of the regional funds for apprenticeship, of a rate of 0.18\%, and the second in 2010 as a supplementary contribution for apprenticeship, of a rate of 0.10\%.\\
+If the rate of the contribution for the development of apprenticeship has increased since its creation, the rate of the initial tax of 1925 has remained quite stable, between 0.50\% and 0.60\%.
+
+\subsection{Transportation payment}
+
+Designed to finance the system of public transports, it is due by employers whose company is located in the region Ile-de-France and in other French cities, and who employs a minimum number of workers, with the exception of the foundations or associations recognized as promoting the public interest, non profit-making, with social activity.\\
+The subjected companies are the ones employing at least nine wage-earners according to the social security, whose workplace is located in a zone where this payment has been introduced. Itinerant workers and students doing an internship should not be taken into account. If a company owns several establishments in different zones, it is subjected to the payment only in the zones where it has more than nine employees.\newline
+
+\textbf{Tax base and rate}\newline
+
+The tax base is the same as for social security contributions. The wages to integrate in the computation of the payment are only those of the employees working in the zone where the tax is enforced.\\
+The tax rate depends on the geographical zone that is concerned:
+
+\begin{tab}[13cm]{Transportation payment \label{VT}}
+{\begin{tabular}{c|c|c|c|c}
+\textbf{Paris} & \textbf{Essonne} & \textbf{Hauts-de-Seine} & \textbf{Seine-Saint-Denis} & \textbf{Val-de-Marne} \\
+\hline
+2.60\% & 1.40\% & 2.60\% & 1.70\% & 1.70\% \\
+\hline
+\textbf{Val-d'Oise} & \textbf{Lyon} & \textbf{Marseille} & \textbf{Toulouse} & \textbf{Bourg-en-Bresse} \\
+\hline
+ 1.40\% & 1.75\% & 1.80\% & 1.80\% & 0.50\% \\
+\end{tabular}}
+{\emph{}}
+\end{tab}
+
+\subsection{Special tax on employer's contributions to contingency funds}
+
+The contributions paid by employers or representative institutions for wage-earners to contingency funds, in order to provide them additional benefits, are subjected to a tax entirely supported by employers and equivalent to 8\% of these contributions. However, pension contributions do not enter the tax base, and companies with less than nine employees are exempt since 1997. A 2010 law has also integrated into the tax base the contributions paid for former employees.\newpage
+
+The following table gives a clear view of the tax base and the rate of all social security contributions and payroll taxes mentioned above:
+
+\begin{fig}[12cm]{SSC and payroll taxes: tax base and rates. \label{tableall}}
+{\graphique{tableSSCtax.pdf}} {\emph{}}
+\end{fig}
+
+\newpage
+\section{General reduction of employer's contributions}
+
+\subsection{Family benefits contributions' reduction}
+
+In a context of rising unemployment, the successive governments have designed policies to reduce employers' contributions for family allowances in order to urge on hiring of new people by reducing the labour cost. If the revenues of the social security would be reduced in the short-run, the idea is to make them increase in the long-run by the expansion of the labourforce and then of the payroll determining the amount of contributions to be paid. Another way to achieve the same goal is to make the funding of family benefits rest upon taxes and not only employers' contributions. It is in this perspective that the CSG has been created in 1991, whose tax base is broader than the SSC tax base. \\
+
+Moreover, the upper-bound on the contribution tax base has been removed in 1990, the employers paying now contributions on the whole income but at a lower rate. It has decreased again in 1991 from 7.00\% to 5.40\%.
+
+\subsubsection{From July 1993 to July 1994}
+
+Since July 1$^{st}$, 1993, employers have been totally exempt from family benefits contributions for their employees paid below 1.1 minimum wage (called SMIC, i.e. \textit{Salaire minimum interprofessionnel de croissance}), and their contributions have been reduced by half (the rate of 5.4\% became 2.7\%) for their employees paid between 1.1 and 1.2 minimum wage.\newline
+
+\textsc{Reference:} Law 93-353 in 07/27/1993.\\
+\textsc{Source:} BSP no 22 on July 1993
+
+\subsubsection{From July 1994 to December 1994}
+
+A law enforced in January 1994 planned to rise the exemption ceiling up to 1.5 minimum wage for a total exemption (and 1.6 for a partial one) progressively on a period of five years. These new ceilings applied immediately for newly created companies.
+
+\begin{description}
+  \item[General case:]
+  Between 1 and 1,1 Smic : Total exemption for family benefits (= 5,4\%)\\
+  Between 1,1 and 1,3 Smic : 2,7\% exemption for family benefits	
+
+  \item[New firms]
+Between 1 and 1,5 Smic : total exemption for famiily benefits (= 5,4\%)\\
+Between 1,5 and 1,6 Smic : 2,7\% exemption for family benefits	\\
+\end{description}
+
+The widening of the exemption plan was part of a movement of inclusion in the budget of the family benefits funding. Concerns have been raised about a possible freeze of the earnings triggered by the first exemption law of 1993: indeed, if the employers pay less or no contributions on low wages, they have less interest to increase the wage above the exemption level. A response to that is to progressively raise the exemption ceiling, which has been made in 1994.\\
+The exemption has also been extended to employers whose employees are affiliated to special schemes of the social security.
+
+\textsc{Reference:} Five-year law on employment and professional training 93-1313 in 12/20/1993 (JO 12/21/1993)
+
+\subsubsection{January 1995 - August 1995}
+
+As a consequence of the preceding law, the exemption level was raised in January, 1995, up to the maximum authorized for new firms.
+
+\begin{description}
+
+\item[General case:]
+Between 1 and 1,2 Smic: Total exemption for family benefits (= 5,4\%)
+Between 1,2 and 1,3 Smic: 2,7\% exemption for family benefits	
+
+\item [New firms]
+Between 1 and 1,5 Smic: total exemption for family benefits (= 5,4\%)
+Between 1,5 et 1,6 Smic: 2,7\% exemption for family benefits\newline	
+\end{description}
+
+\textsc{Reference:} Five-year law 93-1313 in 12/20/93 (JO 12/21/93)
+
+\subsubsection{Septembre 1995 - septembre 1996}
+
+BSP, entrï¿½e "SECURITE SOCIALE"
+
+Cas gï¿½nï¿½ral :
+Entre 1 et 1,2 Smic : exonï¿½ration totale d'allocations familiales (= 5,4\%)
+Entre 1,2 et 1,3 Smic : exonï¿½ration de 2,7\% d'allocations familiales	
+
+Entreprises nouvelles
+Entre 1 et 1,5 Smic : exonï¿½ration totale d'allocations familiales (= 5,4\%)
+Entre 1,5 et 1,6 Smic : exonï¿½ration de 2,7\% d'allocations familiales\newline	
+
+\textsc{Reference:} Loi quinquennale 93-1313 du 20/12/93 (JO 21/12/93)
+
+\subsection{Gradually decreasing reduction on low wages, said \og ristourne Jupp\'e \fg}
+
+\subsubsection{Septembre 1995 - septembre 1996}
+
+The new plan introduced a decreasing reduction of the contributions paid by the employers for sickness insurance, work accidents and family benefits, on earnings between 1 and 1.2 minimum wage paid since September 1$^{st}$, 1995. The income ceiling was equal to 7 500 F/month on January 1996, 7 650 F/month on April 1996 and 7 688 F/month on July 1996, which corresponded to 1.2 Smic. \\
+
+This reduction could be doubled up with the exemption of family benefits contributions implemented before for employees affiliated to the general social security scheme.
+The computation of the reduction is detailed here after:
+
+$$ REDUCTION = (CEILING - Gross~wage) \times 0,64 $$
+
+Then, the maximal reduction authorized depended on the ceiling: it was equal to 800 F on January 1996, 816F on April 1996, and 820 F on July 1996  for a full-time worker earning the minimum wage. It represented the sickness, maternity, disability and death contributions paid by the employers for an employee working 169 hours a month and earning 1 smic, that is (36,98 x 169) x 0,128 in January 1996, (37,72 x 169) x 0,128 in April 1996, and (37,91 x 169) x 0,128 in July 1996. It means that for a worker earning the minimum wage, the reduction on social security contributions added to the exemption on family contributions represented 18.2\% of his wage.  \newline
+
+From July 1996 : for companies affiliated to paid leave funds, the reduction increased by 10\% (the maximal reduction became 902 F)\\
+For employees with incomplete hours, contract adjournment, or belonging to certain categories, specific methods were used.\\
+Employers should indicate the amount of the reduction on the pay slip, and should directly calculate the reduction amount to exclude it from the payments they make to the URSSAF.\newline
+
+\textsc{Reference:} Law 95-882 of the 08/04/95 (JO 08/05/95). Decrees 95-942 and 943 of the 08/25/95 (JO 08/26/95)
+
+
+\subsection{October 1996 - December 1997}
+
+The 1996 Finance Act introduced a temporary merger of the two reduction and exemption packages in the period between October 1996 and December 1997,  into a single reduction for the wages paid since 10/01/1996 and between 1 and 1.33 minimum wage. The reduction was still equal to 18.2\% of the wage when the worker earned the Smic. The upper-bound wage for the reduction was equal to 8521,03 F/month, which corresponded to 1.33 Smic on October, 1996.\newline
+The computation of the reduction was made as follows:\\
+
+\begin{tabular}{ll}
+  Earnings below the monthly Smic & $R = \text{Earnings} \times 0,182 $ \\
+  Earnings between 1 and 1.33 Smic &  $R = (1,33.Smic - Earnings) \times 0,55$ \\
+\end{tabular}\newline
+
+The reduction increased by 10\% for companies affiliated to a paid leave fund. The maximal reduction equal to 1 166F became 1238F in that case. It corresponded to the case of full-time worker earning the minimum wage.
+
+This reduction could not be held concurrently with other employers' contributions exemptions or the enforcement of specific rates, excepted for the abatement of part-time contributions and for the reduction granted in case of diminution or adjustment of the working time.\newline
+
+
+\textsc{Reference:} 1996 Finance act 95-1236 of the 12/30/95 (JO 12/31/95). Decree 96-835 of the 09/20/96 (JO 09/22/96)\newline
+
+However, contributions exemptions more favorable than in the general law are maintained: it was the case for some rural areas, for new companies, and for some farming wage-earners. Then, family contributions exemption remained implemented for wages up to 1.5 smic (total exemption) and between 1.5 and 1.6 smic (partial exemption) for new companies.\\
+The scheme was the following:\\
+- Single decreasing reduction below 1.2 Smic (the same as the general reduction)\\
+- Total exemption between 1,2 and 1,5 Smic\\
+- Half-exemption (rate of 2,7\% instead of 5,4\%) between 1,5 and 1,6 Smic\newline
+
+
+Source: 1998 Finance Act (JO 12/31/97)	
+
+\subsection{January 1998 to December 1999}
+
+
+\subsubsection{Single decreasing reduction}
+
+The previous merger of the reduction of social security contributions and the family contributions exemption had been maintained, according to the same conditions as before, excepted that the wage upper-bound has been brought down to 1.3 Smic, which corresponded to 8 946,18 F/month in January 1998. The computation of the reduction was made as follows:\\
+
+-	Earnings below the monthly minimum wage: $R= \text{Earnings} \times 0,182$\\
+-	Earnings between 1 and 1.3 Smic: $R= (1,3.Smic - Earnings) \times 0,607$\\
+
+The reduction increased by 10\% for companies affiliated to a paid leave fund. In case that the employee worked part-time, the computation was made proportionaly to the number of hours worked. The maximal reduction, for a full-time worker earning the minimum wage, was equal to 1 252,45 F.\newline
+
+Source : 1998 Finance Act 97-1269 of the 12/30/1997 (JO 12/31/97). Decree 97-1330 of the 12/31/97 (JO 01/03/98)\newline
+
+The family contributions exemption has been maintained for companies in some rural areas and new tax exempt companies, as specified below:\\
+- Total exemption for wages below 1,5 Smic\\
+- Half-exemption (rate of 2,7\% instead of 5,4\%) between 1,5 and 1,6 Smic\\
+
+In 2000, the same system prevailed for companies which have not adopted the 35 hours-system.
+
+
+
+\subsubsection{35 hours reduction, said \og Aubry I\fg}
+
+Article 3 of \textit{loi 98-461 d'orientation et d'incitation relative \`a la r\'eduction du temps de travail} of June 13$^{th}$ 1998 (called law Aubry I) introduced a fixed-amount aid which declined over time. The aid got more important when the company had agreed on a diminution of the working time, and when the diminution is large. Then, the pay scale varied according to the time of the agreement, its nature and the time passed since the agreement.\newline
+
+\textsc{References:} Decrees' annex 98-494 of the 06/22/1998 and 2000-84 of the 01/31/2000
+Lefebvre Social 2003, no 9590.
+
+\subsection{January 2000 to July 2003}
+
+A new exemption system had been implemented by the law 2000-37 of January 19$^{th}$ 2000. Companies which had agreed on a working time of at most 35 hours a week or 1600 hours a year and committed to create or preserve employment could benefit from social security contributions reduction.
+
+\subsubsection{Companies which have kept the 39 hours}
+
+Companies which had kept the 39 hours working week were still benefitting from the previous reduction decided by Jupp\'e.
+
+\subsubsection{35 hours reduction, said \og Aubry II\fg}
+
+The amount of the reduction should be calculated using the following formula, according to the pay scale of January 29$^{th}$:
+
+\begin{equation}
+  REDUCTION = \frac{1}{12} \times \Big[\frac{41,500~FRF \times 6881,68~FRF}{MGE} - 20,000~FRF\Big]
+\end{equation}
+
+with MGE meaning monthly gross earnings, and 6881.68 FRF being the level of the minimum wage in 2000.\\
+ The minimal reduction was a fixed-amount equal to 4000 FRF per year for workers earning 1.73 Smic, and the maximal one was for workers earning the minimum wage, with a reduction equal to 26\% of their wage (21 500  FRF).\newline
+
+
+\textsc{Reference:} Decree 2000-73 of January 28$^{th}$ 2000 - art. 1 JORF January 29$^{th}$ 2000; Article D241-13 of the social security Code.
+
+
+In 2003, the formula has been revised:
+\begin{equation}
+  REDUCTION = \frac{1}{12} \times \Big[\frac{\euro6,720~ \times \text{Monthly~SMIC}}{MGE} - \euro3238,57~ \Big]
+\end{equation}
+
+\textsc{Sources:} Lefebvre Social 2000, p. 95; Lefebvre Social 2003, p. 84
+
+\subsection{Fillon exemptions}
+
+In the 2003-2005 period, the minimum wage had been harmonized, and, as a consequence, to treat all the companies fairly, and to make them pay exactly the same minimum wage, the minimal cost of labor should also be harmonized between the companies, whatever the working time system they chose (35 or 39 hours). It was in this perspective that a new plan for employer's contributions reduction on low wages had been designed.
+
+\subsubsection{Measures on July 1$^{st}$, 2003}
+
+The new system of contributions exemption replaced the former measures of the single decreasing reduction and the law Aubry II. It was a system of decreasing reduction of employers' social security contributions, for wages below 1.7 Smic. It was enforced for employers paying for a mandatory unemployment insurance scheme, for employers of workers in public companies, public industrial and commercial firms, local authorities, and employers affiliated to specific schemes of mines, sailors, clerk and notary employee.\\
+The reduction was equal to the monthly gross income multiplied by a coefficient. Until June, 30$^{th}$, the companies used a different coefficient depending on whether or not they previously benefitted from the reduction of the contributions granted by the law Aubry II. If they benefitted from it, the formula was as follows:\\
+
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,26}{0,7}\Big]\times \Big[1,7 \times \frac{Hourly~SMIC \times NBHP}{MGE} - 1\Big]
+\end{equation}
+
+with NBHP being the number of hours paid (the one mentioned in the pay slip). The reduction had an upper-bound equal to 0.26 MGI.\newline
+
+If the company did not benefitted from the Aubry II contributions reduction, the formula to use was this one:\\
+
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,208}{0,5}\Big]\times \Big[1,5 \times \frac{Hourly~SMIC \times NBHP}{MGE} - 1\Big]
+\end{equation}
+ for wages paid between July 1$^{st}$ 2003 and June 30$^{th}$ 2004, and:\\
+
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,234}{0,6}\Big]\times \Big[1,6 \times \frac{Hourly~SMIC \times NBHP}{MGE} - 1\Big]
+\end{equation}
+
+ for wages paid between July 1$^{st}$ 2004 and June 30$^{th}$ 2005.\newline
+
+
+\textsc{Sources:} Decree 2003-487 of June 11$^{th}$ 2003 enforcing title III of the law 2003-47 of January 17$^{th}$ 2003
+related to wages, working time, employment development and modifying social security code (modified by the decree 2005-88 of February 4$^{th}$ 2005).\\
+
+Decree 2004-821 of august 18$^{th}$ 2004 enforcing  some special social security schemes of title III of the January 17$^{th}$ 2003 law 2003-47
+related to wages, working time, employment development and modifying the social security code (modified by the decree 2005-948 of August 2$^{nd}$ 2005).\\
+
+\subsubsection{Measures on July 1$^{st}$, 2005}
+
+Starting from July 2005, all the companies applied the same following formula:
+
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{Hourly~SMIC \times NBHP}{MGE} - 1\Big]
+\end{equation}
+
+\subsubsection{Measures on July 1$^{st}$, 2007}
+
+The measure had been slightly revised to apply to wages below 1.6 Smic, following the same conditions as before. The formula to compute the reduction amount had also been modified, depending on the company's number of employees.\newline
+
+\textbf{Companies with more than 20 employees:}
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{Hourly~SMIC \times NBHP}{MGE} - 1\Big]
+\end{equation}
+
+\textbf{Companies with 1 to 19 employees:}
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{Hourly~SMIC \times NBHP}{MGE} - 1\Big]
+\end{equation}
+
+References: article 41-V of the 2007 finance act 2006-1666 of December 21$^{st}$ 2006 and article 53-VII of the law 2007-290
+of March 5$^{th}$ 2007 establishing the enforceable right to housing and related to different measures promoting social cohesion.
+
+\subsubsection{Measure on October 1$^{st}$, 2007}
+
+The reference to the hourly minimum wage into the formula was replaced by the use of the monthly minimum wage (overtime hours excluded). The formula became:\newline
+
+\textbf{Companies with more than 20 employees:}
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{Monthly~SMIC}{MGE} - 1\Big]
+\end{equation}
+
+\textbf{Companies with 1 to 19 employees:}
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{Monthly~SMIC}{MGE} - 1\Big]
+\end{equation}
+
+
+References: law 2007-1223 of August 21$^{st}$ 2007 in favor of work, employment and purchasing power.
+
+\subsubsection{Measures on January 1$^{st}$ 2011}
+
+The 2011 modification of the Fillon exemption had replaced the reference to the monthly minimum wage by a yearly minimum wage, in order to avoid some optimization that made employers pay different contributions amounts for a same annual earnings but with a different distribution over the year.\newline
+
+\textbf{Companies with more than 20 employees:}
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{Yearly~SMIC}{YGE} - 1\Big]
+\end{equation}
+
+with YGE the yearly gross earnings\newline
+
+\textbf{Companies with 1 to 19 employees:}
+\begin{equation}
+  REDUCTION = MGE \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{Yearly~SMIC}{YGE} - 1\Big]
+\end{equation}
+
+with YGE the yearly gross earnings\newline
+
+Reference: 2011 Bill for the financing of the social security
+
+\end{document}

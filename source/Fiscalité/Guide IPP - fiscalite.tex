@@ -1,0 +1,109 @@
+\input{Style/ipp-packages}
+\input{Style/ipp-macros}
+\bibliographystyle{Style/ipp-bibliostyle}
+
+\begin{document}
+
+% Profondeur de la numérotation des sections (sous-sous sections)
+\setcounter{secnumdepth}{3}
+% Profondeur de la table des matières (sous-sections)
+\setcounter{tocdepth}{2}
+
+% Pour changer la couleur des bullets dans les liste à puce %
+\renewcommand{\labelitemi}{${\color{ippdark}\bullet}$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                       COUVERTURE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion des deux pages de couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture1.pdf}
+\includepdf[pages=1]{Couverture/couverture2.pdf}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    RÉSUMÉ                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\pagestyle{headings}
+\setstretch{1.7}
+% La numérotation commence
+\setcounter{page}{1}
+
+\entetetwo{Le système fiscal français: historique et législation}{Résumé}
+\chapter*{Résumé}
+
+\noindent \noindent Ce \textit{Guide législatif IPP} décrit la législation des prélèvements obligatoires en France, depuis 1945 jusqu'en 2012. Le premier objectif est de présenter un panorama complet de la législation fiscale afin de pouvoir simuler son impact redistributif ou de ses possibles modifications. Ce document sert donc de base aux paramètres qui sont utilisés dans le modèle de micro-simulation de l'IPP, \TAXIPP.
+Pour autant, ce document ne se limite pas à une suite de formules et de paramètre et vise à présenter au lecteur l'architecture du système et, dans la mesure du possible, les débats qui ont présidé à son évolution.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                      SOMMAIRE                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\entetetwo{Le système fiscal français: historique et législation}{Sommaire}
+\setstretch{1.2}
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                CHAPITRES DU GUIDE                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\setstretch{1.7} \entetetwo{Le système fiscal français: historique et législation}{Présentation générale}
+\chapter{\label{Présentation}Présentation générale}
+\input{Chapitres/1-Presentation.tex}
+
+\entetetwo{Le système fiscal français: historique et législation}{Les cotisations sociales}
+\chapter{Les cotisations sociales \label{Cotisations}}
+\input{Chapitres/2-Cotisations.tex}
+
+\entetetwo{Le système fiscal français: historique et législation}{Les impôts sur le revenu}
+\chapter{Les impôts sur le revenu \label{Revenu}}
+\input{Chapitres/3-Revenu.tex}
+
+\entetetwo{Le système fiscal français: historique et législation}{Les impôts sur le patrimoine}
+\chapter{Les impôts sur le patrimoine \label{Patrimoine}}
+\input{Chapitres/4-Patrimoine.tex}
+
+\entetetwo{Le système fiscal français: historique et législation}{La fiscalité indirecte}
+\chapter{La fiscalité indirecte \label{Indirecte}}
+\input{Chapitres/5-Indirecte.tex}
+
+\entetetwo{Le système fiscal français: historique et législation}{La fiscalité locale}
+\chapter{La fiscalité locale \label{Locale}}
+%\input{Chapitres/6-Locale.tex}
+
+\entetetwo{Le système fiscal français: historique et législation}{La fiscalité des entreprises}
+\chapter{La fiscalité des entreprises \label{Entreprises}}
+%\input{Chapitres/7-Entreprises.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               BIBLIOGRAPHIE                                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\entetetwo{Le système fiscal français: historique et législation}{Bibliographie}
+\bibliography{biblio-guide}
+\addcontentsline{toc}{chapter}{Bibliographie}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                GLOSSAIRE                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\entetetwo{Le système fiscal français: historique et législation}{Glossaire}
+\chapter*{Glossaire \label{Glossaire}}
+\input{Chapitres/8-Glossaire.tex}
+%\addcontentsline{toc}{chapter}{Glossaire}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    4E de COUV                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion du dos de la couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture4.pdf}
+
+\end{document} 

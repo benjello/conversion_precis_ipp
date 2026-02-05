@@ -1,0 +1,101 @@
+\documentclass[a4paper, 12pt]{article}
+
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+\usepackage{graphics}
+\usepackage[english,frenchb]{babel}
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{a4wide}
+\usepackage[pdftex]{graphicx}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{subfigure}
+\usepackage{flafter}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{eurosym}
+\usepackage{breakcites}
+\usepackage{datetime}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{slashbox}
+\usepackage{lscape}
+\usepackage[usenames]{color}
+\usepackage{indentfirst} % mise en retrait de la première ligne après un titre.
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage[lmargin=1.3in,rmargin=1.3in,textheight=25cm,tmargin=3.5cm,bmargin=3.5cm]{geometry}
+\usepackage {changepage}
+\usepackage {color}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1\textwidth}|}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{threeparttable}
+
+%\usepackage{setspace}
+\bibliographystyle{agsm}
+
+\renewcommand{\contentsname}{Sommaire}
+\newcommand{\e}{\textsuperscript{e}}
+\newcommand{\eme}{\textsuperscript{ème}}
+\newcommand{\er}{\textsuperscript{er}}
+\setcounter{tocdepth}{2}
+\DeclareRobustCommand\refmark[1]{\textsuperscript{\ref{#1}}}
+
+\begin{document}
+
+
+
+
+\begin{titlepage}
+
+\begin{center}
+\Large {\sc Institut des Politiques Publiques} \normalsize \\
+\end{center}
+\vspace{1.5cm}
+
+\begin{center}
+\LARGE{\textbf{Construction du salaire brut dans\\ TAXIPP 0.2}} \\
+\vspace{1cm}
+\Large{Jeremy \sc{BOCCANFUSO}}\\
+\vspace{0.75cm}
+\end{center}
+
+\vspace{1cm}
+
+ \begin{center}
+ \begin{minipage}{.8\textwidth} \begin{center}   \section*{Résumé}
+\end{center}
+
+\small
+Ce petit guide décrit la méthode utilisée dans la version 0.2 de TAXIPP afin de reconstruire le salaire brut soit à partir du modèle TAXIPP "classique" soit à partir de l'enquête Budget des familles (BdF) de l'INSEE.
+A ce titre, deux remarques préliminaires doivent être mentionnées: \\
+Premièrement, en utilisant les différentes bases de données de TAXIPP 0.2 ( et versions antérieures), nous devons supposer que tous les individus salariés dans le secteur privé sont des cadres. Cette hypothèse qui peut, à premiere vue, sembler dommageable à notre étude, nous permet toutefois d'avoir des résultats très satisfaisants puisque le modèle prédit 102 p.c de la masse totale des salaires brut du secteur privé.\\
+Deuxièmement, les données contenues dans TAXIPP 0.2 ne nous permettent pas de différencier les fonctionnaires de l'État des fonctionnaires territoriaux et hospitaliers. Ainsi le modèle repose sur l'idée que tous les fonctionnaires sont des fonctionnaires de l'État. Une fois de plus, malgré cette hypothèse importante, les résultats restent très satisfaisants.\\
+Toutefois, puisque les données issues de l'enquête BdF nous permettent de différencier ces categories en reconstruisant le salaire brut à partir du salaire net, nous présenterons également cette deuxième méthode.
+\end{minipage}
+
+\vspace{2cm}
+\section {Passage du salaire IRPP au salaire brut}
+\subsection {Généralités}
+Le salaire au sens IRPP se définit comme le salaire brut déduit des cotisations salariales, de la Contribution pour le Remboursement de la Dette Sociale (CRDS) et de la partie déductible de la contribution sociale généralisée($CSG\textunderscore ded$). Ainsi en dénotant cot_sal les cotisations salariales et respectivement sal_irpp et sal_brut le salaire IRPP et le salaire Brut, la relation ci-dessus mentionnée peut se réécrire: \\
+\begin{equation}
+sal_brut= sal_irpp + cot_sal + CRDS + CSG_ded
+\end{equation}
+
+\end{center}
+
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+		
+
+
+ \end{document} 

@@ -1,0 +1,517 @@
+\documentclass[french]{article}
+\usepackage[left=3.5cm,right=4cm,top=3.5cm,bottom=3.5cm]{geometry}
+\usepackage[francais]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\definecolor{cyan1}{cmyk}{0.7,0,0,0.2} % juste histoire d'avoir une autre couleur que les basiques
+\usepackage{framed}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{esint}
+\usepackage{eurosym}
+
+\usepackage[colorlinks=true, allcolors = cyan1]{hyperref} % ATTENTION: doit être le dernier package absolument pour marcher. colorlinks=true pour que les hyperliens soient colorés au lieu d'être encadrés (sachant que de toute façon une fois imprimé ça ne se voit pas), et allcolors pour dire qu'on les veut tous de la même couleur (on peut différencier sinon selon que c'est un url ou autre). La couleur par défaut est le rouge.
+
+
+
+\begin{document}
+
+% Le code ci-dessous crée la commande \subsubsubsection. Je l'ai copié de la page web http://forum.mathematex.net/latex-f6/definir-un-subsubsubsection-t4031.html Par contre, pb : apparemment, ce code ne marche pas bien si l'on veut mettre des bookmarks dans le pdf sous adobe. Dans le forum est proposé un autre code qui permet de régler ce pb. Mais il y a un package non dispo dans latex qui nous empêche de l'executer correctement.
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@alph\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{3}{10.0em}{4.1em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+\begin{center}
+\Large {\sc Institut des Politiques Publiques} \normalsize \\
+\vspace{0.5cm}
+\Large {\sc Ecole d'Economie de Paris} \normalsize
+\end{center}
+\vspace{1.5cm}
+
+\begin{center}
+\LARGE{\textbf{Guide sur la législation des transferts}} \\
+\vspace{1cm}
+\Large{Brice FABRE} \\
+\vspace{0.75cm}
+\end{center}
+
+\begin{center}
+\Large{Juin 2012}
+\end{center}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+Le présent chapitre présente les transferts sociaux dont peuvent bénéficier les ménages. Ces transferts se calculent à l'échelle du \textbf{foyer social} (et non pas à l'échelle du foyer fiscal comme c'est le cas pour l'IRPP). Cette entité se compose d'une personne ou d'un couple de référence ainsi que des personnes à charge. À la différence du foyer fiscal, les membres du couple de référence ne doivent pas obligatoirement être mariés ou pacsés pour faire partir du même foyer social. Ils peuvent être concubins. Quant à la définition de la notion de personnes à charge, elle varie selon les transferts.
+
+Dans ce qui suit, nous décrivons les règles de calcul des transferts sociaux. Les transferts peuvent être divisés en trois catégories que nous présentons successivement : les prestations familiales (Partie~\ref{sec_prest}), les allocations logement (Partie~\ref{sec_logt}) et les minima sociaux (Partie~\ref{sec_minima}).
+
+
+\section{Les prestations familiales} \label{sec_prest}
+
+
+\subsection{Définitions préliminaires}
+
+On recense un certain nombre de notions qui sont utilisées dans le calcul de plusieurs prestations et que l'on définit ci-dessous. \\
+
+\subsubsection{La Base Mensuelle de Calcul des Prestations Familiales (BMAF)}
+
+La Base Mensuelle de Calcul des Prestations Familiales (BMAF) est un montant mensuel de référence sur lequel se base le calcul des montants des différentes prestations. Plus exactement, la législation définit le montant des prestations en pourcentage de cette base. Ainsi, en l'absence de réforme des prestations, une revalorisation annuelle des montants nécessite juste une revalorisation de la BMAF. Cette base mensuelle est régulièrement revalorisée (d'abord deux fois par ans, puis depuis 1993 tous les janviers, et à partir de 2013 le premier avril de chaque année). Sa revalorisation est fonction de l'inflation constatée de mars à mars jusqu'en 1984, puis fonction de l'évolution des prix à la consommation (hors tabac). 
+
+\subsubsection{Le nombre d'enfants à charge} \label{sec_nenf}
+
+Le nombre d'enfants à charge est le nombre d'enfants dans le foyer social comptabilisés dans le calcul des allocations. Sont comptés comme enfants à charges les enfants ne dépassant pas un âge limite et dont les revenus sont inférieurs à 55~\% du SMIC. L'âge limite est passé de 17 à 18 ans en 1990, puis de 18 à 19 ans en 1998 et de 19 à 20 ans en 1999. A noter que de 1985 à 1999, cet âge était de 20 ans pour les enfants en apprentissage, en stage de formation ou donnant droit à l'Allocation d'Education Spéciale (AES)\footnote{l'AES était une allocation pour les familles ayant un ou plusieurs enfants handicapés. Elle a été remplacé par l'Allocation d'Education de l'Enfant Handicapé (AEEH) en 2005. Voir ~\ref{sec_aeeh}}. Il était de 18 ans de 1963 à 1990.
+
+
+
+Néanmoins, certaines prestations familiales dérogent à cette définition du nombre d'enfants à charge. C'est le cas du complément familial (CF, voir ~\ref{sec_cf}) ou encore, de la majoration des allocations familiales pour les enfants de plus de 20 ans (cf. infra).
+
+\subsubsection{Les conditions de ressources} \label{subsec_ress_prest}
+
+Un certain nombre de prestations familiales sont soumises à des conditions de ressources. En d'autres termes, pour certaines prestations, un foyer ne peut être éligible que si ses ressources sont inférieures à un plafond. Il est important de définir la notion de "ressources" et la notion de "plafond". \\
+
+\textbf{Les ressources} prises en compte dans le calcul des prestations familiales correspondent à la somme des revenus nets catégoriels retenus pour l'établissement de l'impôt sur le revenu (\emph{voir la partie sur l'IRPP}). Les revenus des enfants ayant fait l'objet d'une imposition commune ne sont pas pris en compte. Par contre, pour les couples concubins, les revenus des deux membres du couple sont pris en compte, même s'ils renvoient à deux foyers fiscaux différents.
+
+Les ressources prises en compte sont celles perçues au titre de \og l'année de référence \fg. Avant le mois de juillet 2008, le droit aux prestations était calculé chaque année au mois de juillet. L'année de référence était celle précédant l'année de calcul des droits. Par conséquent, si l'on se situe en janvier de chaque année, l'année de référence était l'avant dernière année. Depuis juillet 2008, les droits aux prestations sont calculées au mois de janvier et l'année de référence est l'avant dernière année précédant la période de paiement.
+
+Le Revenu Minimum d'Insertion (RMI) éventuellement perçu par le foyer n'était pas pris en compte dans les ressources. Cette disposition ne s'applique plus pour le Revenu de Solidarité Active (RSA). De plus, pour les allocataires du RMI puis du RSA socle\footnote{le RSA a remplacé le RMI en juillet 2009. Le RSA socle est la composante du RSA qui correspond à l'ancien RMI (\emph{voir partie sur le RSA pour plus d'explication de cette notion}).}, les revenus professionnels et les indemnités de chômage perçus au titre de l'année de référence ne sont pas pris en compte. \\
+
+\textbf{Les plafonds de ressources} dépendent de la structure du foyer social. Ils comprennent une composante de base à laquelle s'ajoute :
+\begin{itemize}
+  \item une majoration qui dépend du nombre d'enfants à charge;
+  \item une majoration pour les foyers avec un parent isolé ou avec un "\textbf{couple biactif"}\footnote{Cette majoration n'existe pas pour l'Allocation de Rentrée Scolaire (ARS)}
+\end{itemize}
+
+Un couple est dit "\textbf{biactif}" si chaque membre exerce une activité et que leur revenu au titre de cette activité a été au moins égal, pendant l'année de référence, à 12 fois la BMAF de ladite année.
+
+Chaque prestation a ses propres barèmes pour le calcul des différentes composantes des plafonds de ressources. \\
+
+Dans la plupart des cas, les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'allocation auquel ils auraient pu avoir droit peuvent toucher un \textbf{montant différentiel}. Ce montant est égal à la différence entre la somme du plafond et de l'allocation potentielle d'une part, et les ressources d'autre part. Autrement dit, si l'on note $Ress$ les ressources d'un foyer, $Plaf$ le plafond auquel il est soumis, $AP$ le montant potentielle d'allocation que le foyer peut toucher si la condition de ressources est remplie, et $Alloc$ l'allocation finale, on a :
+$$
+Alloc=\left\{ \begin{array}{ll}
+AP & \mbox{si} \quad Ress \leq Plaf\\
+Plaf+AP-Ress & \mbox{si} \quad Ress>Plaf \quad \mbox{et} \quad Ress-Plaf \leq AP\\
+0 & \mbox{si} \quad Ress-Plaf>AP\end{array}\right.
+$$
+
+
+\subsection{ Les prestations générales d'entretien}
+\subsubsection{Les allocations familiales} \label{sec_af}
+
+Les allocations familiales sont des aides financières mensuelles accordées aux foyers comprenant deux enfants ou plus. Elles ne sont soumises à aucune condition de ressources, exceptées pour l'année 1998. Ces prestations mensuelles sont composées d'une \textbf{allocation de base}, de plusieurs \textbf{majorations} ainsi que d'une allocation forfaitaire pour les enfants venant de sortir de l'éligibilité de l'allocation de base. \\
+
+Concernant le montant mensuel de base, le deuxième enfant donne droit à 32~\% de la BMAF et chaque enfant supplémentaire donne droit à 41~\% de la BMAF. \\
+
+Les majorations ont été modifiées plusieurs fois sur la période 1979 - 2012:
+\begin{description}
+  \item[1964-1998] Chaque enfant de 10 à 15 ans donne droit à 9 points de BMAF supplémentaires. 
+  \item[1965-1998]Chaque enfant de plus de 15 ans donne droit à 16 points supplémentaires.
+  \item[199-2008] Chaque enfant de 11 à 16 ans donne droit à 9 points supplémentaires, et les plus de 16 ans à 16 points 
+  \item[2008-] Pour les enfants nés après le 31 avril 1997, il n'y a plus qu'une majoration à 16\% pour les 14 ans et plus. La réforme ne concerne donc que ceux qui atteignent l'âge de 11 ans au 1\up{er} mai 2008, autrement dit pour les nouveaux bénéficiaires de l'ancien système.
+
+\end{description}
+
+Depuis 1957, l'aîné ne donne droit à une majoration que si le foyer comporte au moins trois enfants à charge ~\cite{buttner}.\\
+
+Par ailleurs, depuis le mois de juillet 2003, une \textbf{allocation forfaitaire} est due au titre des enfants de plus de 20 ans (c'est à dire au titre des enfants sortant de l'éligibilité de l'allocation de base). Cette allocation est due pendant un an. Pour y être éligible, le foyer doit avoir eu droit aux allocations familiales au titre de trois enfants le moins précédent les 20 ans de l'enfant ou des enfants donnant potentiellement droit à l'allocation forfaitaire. Par exemple, un enfant qui arrive au foyer le mois de ses 20 ans (ou après) n'ouvre pas droit à l'allocation. Le montant de cette allocation forfaitaire est égal à 20,234~\% de la BMAF pour chaque enfant de plus de 20 ans respectant ces conditions l'éligibilité. \\
+
+En 1998, les allocations familiales étaient soumises à une condition de ressources. Autrement dit, seuls les foyers dont les ressources étaient inférieures à un certain plafond étaient éligibles aux allocations familiales. Ce plafond consistait en un montant de base, majoré en fonction du nombre d'enfants à charge et majoré également pour les parents isolés et les couples biactifs (cf. Partie~\ref{subsec_ress_prest} pour une définition de cette notion).
+
+Néanmoins, les foyers dont les ressources dépassaient le plafond d'un montant inférieur au montant d'allocation auquel ils auraient pu avoir droit sinon peuvent toucher un montant différentiel (cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept).
+
+
+
+\subsubsection{Le complément familial} \label{sec_cf}
+
+Le complément familial (CF) est une prestation mensuelle destinée \`a aider les familles nombreuses \`a revenus modestes et n'ayant plus droit aux aides \`a la petite enfance (destin\'ees aux enfants de moins de 3 ans, voir la section~\ref{enfants}). Elle est créée en 1978.
+
+Sont éligibles au CF, depuis le 1\up{er} janvier 1985, les familles  comprenant au moins 3 enfants âgés de plus de 3 ans. Les autres enfants doivent être en-deç\`a d'un âge limite. De 1997 \`a 1999 inclus, la limite maximale est de 20 ans. Elle est de 21 ans depuis 2000\footnote{Cet âge limite déroge à
+ la notion d'enfant \`a charge prise en compte pour les autres prestations}.\\
+
+
+Avant cette date le Complément Familial était une aide aux familles ayant de jeunes enfants. En effet de 1978 à 1984 les familles éligibles sont celles ayant au moins un enfant de moins de 3 ans. Chaque enfant de moins de 3 ans donnait droit à une allocation, de sorte que le cumul de plusieurs CF était possible. Avec la réforme de 1985 le nombre d'allocations est réduit à une par famille quel que soit le nombre d'enfants respectant les conditions d'âge.
+
+
+Le montant mensuel du CF est égal \`a 41,65~\% de la BMAF, arrondi au franc supérieur. \\
+
+Le CF est soumis \`a condition de ressources. Les foyers doivent avoir des ressources inférieures \`a un plafond. Ce plafond est le même que celui de l'APJE, et ce jusqu'\`a 2006 (jusqu'\`a la suppression de cette allocation). Après 2006, le CF a ses propres barèmes de plafond de ressources. Mais la formule générale de calcul du plafond reste la même, \`a savoir\footnote{Voir la Partie~\ref{sec_apje} pour plus de détails.} :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant du CF peuvent toucher un montant différentiel (Cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept).
+
+
+
+\subsubsection{L'Allocation de Soutien Familial}\label{sec_asf}
+
+L'Allocation de Soutien Familial (ASF) est une aide financière mensuelle due au titre :
+\begin{itemize}
+  \item des enfants orphelins de père ou de mère ou des deux parents;
+  \item des enfants dont l'un des parents ou les deux sont hors d'état de les entretenir ou hors d'état de payer la pension alimentaire qu'ils doivent (ces enfants sont alors dits "assimilés \`a des orphelins").
+\end{itemize}
+
+L'ASF est due \`a compter du premier jour du mois civil au cours duquel la situation donnant droit \`a l'allocation débute.
+
+La personne recevant l'allocation est le père, la mère ou la personne physique qui assume la charge effective et permanente de l'enfant.
+
+Si le bénéficiaire de l'allocation est le père ou la mère et qu'il se marie, conclut un PACS ou se déclare en concubinage, l'allocation n'est plus versée. \\
+
+Le montant mensuel de l'ASF par enfant est égal \`a :
+\begin{itemize}
+  \item 22.50~\% de la BMAF si l'enfant est orphelin (ou assimilé \`a un orphelin) d'un seul parent;
+  \item 30~\% de la BMAF si l'enfant est orphelin (ou assimilé \`a un orphelin) de ses deux parents.
+\end{itemize}
+\vspace{0.5cm} % Pas sur que 0.5cm soit exactement la même distance que quand on fait \\. Mais, \\ ne peut pas être utilisée après un itemize.
+
+L'ASF n'est soumise \`a aucune condition de ressources.
+
+Il existe quand même une "allocation différentielle". Le sens de ce terme est différent de celui évoqué dans la Partie~\ref{subsec_ress_prest}. L'ASF différentielle est versée lorsqu'un parent isolé ne reçoit que partiellement la pension alimentaire de l'autre parent, celui-ci étant dans l'incapacité de la verser totalement. Dans ces conditions, le parent isolé reçoit une allocation égale \`a la différence entre le montant de la pension alimentaire qu'il aurait dû recevoir et le montant déj\`a versé par le parent défaillant, et ce dans la limite du montant de l'ASF qu'il aurait pu toucher s'il était éligible \`a taux plein (si la pension alimentaire ne lui avait pas du tout été versée). Si l'on note $ASF\_diff$ l'ASF différentielle, $Pens$ la pension alimentaire qui devrait être versée, $Pens\_vers$ le montant de pension qui a été effectivement versé et $ASF_plein$ l'ASF que le parent aurait pu recevoir s'il était éligible \`a taux plein, on a :
+$$
+ASF\_diff=\left\{ \begin{array}{ll}
+min(Pens-Pens\_vers;ASF\_plein) & \mbox{si } Pens\_vers>0 \\
+0 & \mbox{sinon}\end{array}\right.
+$$
+
+
+
+\subsection{Les aides pour les enfants à naître ou âgées de moins de 3 ans} \label{enfants}
+
+\subsubsection{Les dispositifs en vigueur avant 2004} \label{jeunes_enf_avt_2004}
+
+Les prestations présentées dans cette section ont été remplacées en 2004 par la Prestation d'Accueil du Jeune Enfant (PAJE). Cette transition a néanmoins été progressive\footnote{Pour le détail concernant cette transition, voir la Partie~\ref{sec_paje}}.
+
+\subsubsubsection{Les  Allocations prénatales et post-natales} \label{sec_apn}
+\textcolor[rgb]{0.00,0.00,1.00}{
+Les deux allocations sont remplacées en 1985 par l'Allocation au Jeune Enfant (voir sous-section ~\ref{sec_aje}) pour les enfants conçus après le 31 décembre 1984.}
+
+\textcolor[rgb]{0.00,0.00,1.00}{Créée en 1975, l'allocation post-natale est destinée à tout ménage attendant un enfant, sous unique condition de passer trois examens médicaux (un au huitième jour, un au neuvième mois puis un au vingt-quatrième mois de l'enfant). Elle n'est soumise à aucune condition de ressources. A chaque examen est associé une fraction de l'allocation totale, qui s'élève à 260\% de la base mensuelle de calcul des allocations familiales jusqu'en 1982, puis à 242\%. Depuis 1979 il existe une majoration en cas de naissances multiples (198,0\% de la BMAF), et depuis 1980 une majoration à partir du troisième enfant (457,0 \%). Ces taux sont tous deux abaissés en 1983 \`a respectivement 184.50\% et 213\% de la BMAF. Une majoration est cependant créée la même année pour la naissance d'un deuxième enfant (184.5\% de la BMAF).} \\
+
+
+L'allocation prénatale, créée en 1946 \cite{buttner} est aussi soumise \'a la condition de passer trois examens. L'allocation est de ce fait aussi divisée en trois fractions suivant trois examens. D'abord réservée aux salariés et travailleurs indépendants, elle est étendue en 1954 \`a toutes les femmes enceintes. L'allocation prénatale n'est plus cumulable depuis juillet 1953 avec l'allocation de logement familiale: durant la période pr\'enatale cette dernière n'est plus perçue. Elle n'est pas cumulable non plus avec l'allocation de logement familiale depuis 1983: durant la période prénatale l'allocation de logement n'est plus perçue.\\
+
+A partir du 1\up{er} janvier 1985, les allocations prénatales et postnatales ne sont servies que pour les enfants conçus après cette date. La majoration pour troisième naissance ou plus est supprimée pour les enfants nés après le 31 décembre 1884. Ceux-ci ouvrent droit à l'AJE.
+
+
+
+\subsubsubsection{L'Allocation au Jeune Enfant (AJE)} \label{sec_aje}
+
+L'Allocation Jeune Enfant (AJE) remplace les allocations précédentes en 1985, mais disparaît à son tour en 1987 avec la création l'Allocation Pour Jeune Enfant (voire la sous section ~\ref{sec_apje}). Elle remplace les allocation pré et post-natales pour les enfants conçus après le 31 décembre 1984.
+
+Réservée aux enfants \`a naître ou de moins de 3 ans, elle est versée sans condition de ressources pendant neuf mois (jusqu'au dernier jour du mois civil au cours duquel l'enfant atteint l'âge de trois mois, \cite{buttner}). A partir du premier jour du mois civil suivant le troisième mois de l'enfant l'allocation est soumise \`a des conditions de ressources, par ailleurs les mêmes que pour le complément famiial (la section ~\ref{secc_cf}). Si celles-ci sont remplies, l'allocation est versée jusqu'au dernier jour du mois civil précédant celui au cours duquel l'enfant atteint l'âge de trois ans. L'allocation correspond \`a 45.95\% de la BMAF, arrondi au franc le plus proche).
+
+\subsubsubsection{L'Allocation Pour Jeune Enfant (APJE)} \label{sec_apje}
+
+L'Allocation Pour Jeune Enfant (APJE), remplacée par la PAJE en 2004, est une allocation mensuelle visant \`a aider les familles \`a revenus modestes ayant des enfants \`a naître ou âgés de moins de 3 ans. On distingue deux composantes de l'APJE :
+\begin{itemize}
+  \item \textbf{L'APJE dite "courte"} : elle est due \`a compter du premier jour du mois civil suivant le troisième mois de grossesse, et ce jusqu'au dernier jour du mois civil au cours duquel l'enfant atteint l'âge de trois mois
+  \item \textbf{L'APJE dite "longue"} : elle est due \`a compter du premier jour du mois civil au cours duquel l'enfant atteint l'âge de quatre mois, et ce jusqu'au dernier jour du mois civil précédant celui au cours duquel l'enfant ou le plus jeune des enfants \`a charge atteint l'âge de trois ans.
+\end{itemize}
+
+Le cumul de plusieurs APJE courtes ou de plusieurs APJE longues n'est possible qu'en cas de naissances simultanées (jumeaux, triplés, etc.). En revanche, un foyer peut cumuler ses APJE longues avec ses APJE courtes: si le ménage a un enfant de moins de 3 ans et en attend un autre, elle peut cumuler les APJE jusqu'au troisième mois du cadet. L'APJE diffère en cela de l'AJE, où l'allocation était accordée par enfant et sans condition de ressources jusqu'au troisième mois.
+
+L'APJE "longue" n'est pas cumulable avec le Complément Familial et l'Allocation Parentale d'Education. En revanche l'APJE "courte" est cumulable avec les deux allocations. \\
+
+Le montant mensuel de l'APJE (qu'elle soit courte ou longue) est de 45,95~\% de la BMAF pour chaque enfant donnant droit \`a l'allocation. \\
+
+L'APJE longue est soumise \`a des conditions de ressources. Les foyers doivent avoir des ressources inférieures \`a un plafond. Ce plafond est composé d'un montant de base (noté $Plaf\_base$), d'une majoration dépendant du statut du couple ou de la personne de référence du foyer (cette majoration, notée $Maj\_ref$, est due si le foyer comporte un parent isolé ou un couple biactif\footnote{cf. Partie~\ref{subsec_ress_prest} pour une définition de ce terme}), et d'une majoration dépendant du nombre d'enfant (il existe un montant de majoration par enfant pour le premier et le deuxième enfant, noté $Maj\_enf1\_2$, et un autre pour les enfants supplémentaires, noté $Maj\_enf\_supp$). Si l'on note $nenf$ le nombre d'enfants \`a charge tel qu'il est définit dans la Partie~\ref{sec_nenf}, on a :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'APJE auquel ils auraient pu avoir droit peuvent toucher un montant différentiel (cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept).
+
+\subsubsubsection{L'Allocation d'Adoption}
+
+L'allocation d'adoption, remplacée par la PAJE en 2004, est une allocation mensuelle due au titre des enfants \`a charge adoptés. Elle est due \`a compter du premier jour du mois civil qui suit l'arrivée au foyer du ou des enfants concernés. Elle est du même montant et est soumise aux mêmes conditions de ressources que l'APJE (les plafonds sont les mêmes). De plus, comme pour l'APJE, les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'allocation auquel ils auraient pu avoir droit peuvent toucher un montant différentiel. \\
+
+L'allocation d'adoption est versée pendant 21 mois.
+
+En cas d'adoptions multiples simultanées, un foyer peut cumuler plusieurs allocations d'adoption. Par contre, lors de l'arrivée d'un enfant adopté, s'il existait un autre enfant adopté précédemment et donnant droit \`a une allocation d'adoption, le cumul ne peut se faire que pendant 9 mois.
+
+L'allocation d'adoption peut également se cumuler avec l'APJE pendant 9 mois.
+
+L'allocation d'adoption n'est cumulable ni avec le Complément Familial (CF), ni avec l'Allocation de Soutien Familial (ASF).
+
+\subsubsubsection{L'Allocation Parentale d'Education (APE)} \label{sec_ape}
+
+Destinée aux parents arrêtant complètement ou partiellement leurs activités professionnelles à la naissance, l'adoption ou l'accueil d'un jeune enfant, l'Allocation Parentale d'Education est crée en 1986 avant d'être remplacée par la PAJE (voir la sous section~\ref{sec_paje}) en 2004. \\
+
+Depuis 1987, l'allocation est de 142,57\% de la BMAF en cas d'arrêt complet. Depuis 1994, elle est de 94,27\% en cas d'activité inférieure \`a 50\% de la durée légale de travail, et de 71,29\% en cas d'activité comprise entre 50 et 80 \% de la durée légale.\\
+
+L'allocation est réservée aux parents avec un enfant \`a charge âgé de moins de 3 ans. Jusqu'en 1994, l'allocation est réservée aux familles ayant 3 ou plus enfants à charge en comptant le nouvel enfant. Depuis le minimum est passé à deux enfants.
+
+Pour les naissances triplés ou plus, l'âge limite est repoussé \`a 6 ans en 1996.
+
+Le parent doit justifier de deux ans d'activité professionnelle, le chômage étant comptabilisé, sur les dix ans précédants la demande d'allocation lorsqu'elle concerne un troisième enfant depuis 1987 (cette période était de cinq ans avant 1987). Quant aux demandes concernant un deuxième enfant, elles doivent pouvoir justifier de deux ans d'activité professionnelle sur les cinq dernières années. Une activité est prise en compte quand elle assure un revenu moyen annuel d'au moins 40~\% de 2.028 fois le SMIC horaire en vigueur le premier janvier de l'année de la demande.\\
+
+Pour les enfants nés après le 1\up{er} juillet 1994, une allocation partielle peut être versée \`a chacun des membres d'un couple travaillant \`a temps partiel si le montant cumulé des deux allocations ne dépasse pas la prestation \`a taux plein. \\
+
+En cas de reprise d'activité professionnelle, il est possible de cumuler ses revenus avec l'APE pendant deux mois si l'enfant a entre 18 et 30 mois, 60 mois dans le cas de triplés ou plus.\\
+
+L'APE n'est pas cumulable avec les indemnités journalières de maternité, d'adoption, de maladie ou d'accident du travail. Elle n'est pas non plus cumulable avec les allocations chômage, allocations adultes handicapés, AJE, CF et AJPE. Les indemnités journalières et le chômage indemnisé peut en revanche être comptabilisé dans la période d'activité professionnelle.
+
+\subsubsection{Le dispositif en vigueur après 2004 : la Prestation d'Accueil du Jeune Enfant (PAJE)} \label{sec_paje}
+
+La Prestation d'Accueil du Jeune Enfant (PAJE) remplace en 2004 les dispositifs décrits dans la Partie~\ref{jeunes_enf_avt_2004}. Cependant, l'application de la PAJE se fait progressivement entre janvier 2004 et décembre 2006. La PAJE s'applique aux enfants nés après le 31 décembre 2003 (parmi les enfants de moins de 3 ans). Les enfants plus âgés (et ayant moins de 3 ans) donnent droit aux anciens dispositifs.
+
+\subsubsubsection{La prime \`a la naissance ou \`a l'adoption}
+
+Il s'agit d'une prime (versée une seule fois) aux familles \`a revenus modestes \`a l'occasion d'une naissance ou de l'arrivée au foyer d'un enfant adopté (qui entre dans la définition d'enfant \`a charge mentionnée dans la Partie~\ref{sec_nenf}).
+
+Le montant de la prime \`a la naissance est de 229,75~\% de la BMAF. La prime \`a l'adoption était du même montant jusqu'en juin 2005 inclus. Depuis juillet 2005, la prime \`a l'adoption est égale au double de la prime \`a la naissance, \`a savoir \`a 459,50~\% de la BMAF.
+
+Cette prime est soumise \`a des conditions de ressources. Les barèmes servant au calcul des plafonds de ressources sont fixés par décret et figurent dans le document Excel \emph{Barèmes IPP - transferts.xlsx}. Quant \`a la formule générale permettant de déterminer les plafonds de ressources, elle est la même que pour l'APJE, \`a savoir\footnote{Voir la Partie~\ref{sec_apje} pour plus de détails.} :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Il n'existe pas d'allocation différentielle pour les foyers dont les ressources dépassent le plafond. \\
+
+La prime \`a la naissance est versée avant la fin du dernier jour du mois civil suivant le sixième mois de la grossesse. Quant \`a la prime \`a l'adoption, elle est versée au plus tard le deuxième mois qui suit l'arrivée des enfants au foyer des adoptants.
+
+
+\subsubsubsection{L'Allocation de base}
+
+L'allocation de base de la PAJE est une aide financière mensuelle due au titre des enfants non adoptés de moins de trois ans et des enfants adoptés.
+
+Pour les enfants non adoptés, elle était jusqu'en 2006 versée à
+ compter du premier jour du mois de naissance. Depuis 2007, elle est versée \`a compter du jour de naissance (et l'allocation au titre du mois de naissance est calculée au prorata).
+
+Elle est versée jusqu'au dernier jour du mois avant celui des trois ans de l'enfant. \\
+
+Les enfants adoptés peuvent, à
+ leur arrivée au foyer, ouvrir droit \`a l'allocation de base. Pour cela, ils doivent être considérés comme enfants à
+  charge selon la définition décrite dans la Partie~\ref{sec_nenf}. L'allocation de base est versée mensuellement pendant une durée maximale de trois ans (le versement s'arrête avant les trois ans si l'enfant ne respecte plus les conditions pour être considérés comme enfant \`a charge).
+
+Pour les enfants adoptés, l'allocation était jusqu'en 2006 versée \`a compter du premier jour du mois d'arrivée au foyer. Depuis 2007, elle est versée \`a compter du jour d'arrivée (et l'allocation au titre du mois d'arrivée est calculée au prorata). \\
+
+Le montant mensuel de l'allocation de base de la PAJE est égal \`a 45,95~\% de la BMAF. \\
+
+L'allcation de base est soumise \`a des conditions de ressources. Ces conditions sont les mêmes que pour la prime \`a la naissance ou \`a l'adoption. Les plafonds sont identiques : les barèmes servant \`a leur calcul figurent dans le document Excel \emph{Barèmes IPP - transferts.xlsx} et la formule générale permettant de déterminer les plafonds est\footnote{voir la Partie~\ref{sec_apje} pour plus de détails} :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Comme pour la prime à
+ la naissance ou à
+  l'adoption, il n'existe pas d'allocation différentielle. \\
+
+Un foyer ne peut cumuler plusieurs allocations de base qu'en cas de naissances multiples ou d'adoptions multiples simultanées.
+
+L'allocation de base de la PAJE n'est pas cumulable avec le Complément Familial (CF). De plus, jusqu'en 2006 inclus, elle n'était pas non plus cumulable avec l'ASF si l'enfant donnant droit \`a l'allocation était adopté.
+
+
+\subsubsubsection{Le Complément de Libre Choix de Mode de Garde (CLCMG)}
+pour les enfants de moins de 6 ans par une assistante maternelle ou une employée de maison ou une micro-crèche (2009).  Les cotisations sociales pour l'assistant ou l'employé sont pris en charge (100\% pour le premier, 50\% pour le 2e) ; prise en charge partielle de la rémunération versée à
+ la personne assurant la garde en fonction des ressources de la famille, du nombre et de l'âge des enfants. Max 85\% du salaire net et des indemnités d'entretien
+
+\subsubsubsection{Le complément de Libre Choix d'Activité (CLCA)}
+en cas d'interruption d'activité ou de travail \`a temps réduit pour élever un enfant de moins de 3 ans (6 ans en cas de multiples) sous les mêmes conditions de ressources. Il peut être attribué dès le premier enfant mais pour 6 mois seulement \`a la suite du congé de mater/paternité. Il faut que le parent ait travaillé 2 ans dans les 5 ans précédant la naissance pour un rang3, 2 ans dans les 4 ans pour un rang 2 et 2 ans dans les 2 ans pour un premier enfant.
+
+\subsubsubsection{Le complément Optionnel de Libre Choix d'Activité (COLCA)}
+
+
+\subsection{Les prestations au titre des enfants handicapés}
+
+\subsubsection{Les dispositifs avant 2005}
+
+\subsubsubsection{l'Allocation d'Education Spéciale (AES)} \label{sec_aes}
+Créée en  1975, l'allocation d'éducation spéciale (AES) est destinée aux ménages ayant un enfant handicapé \`a charge âgé de moins de 20 ans. Elle remplace l'allocation d'éducation spécialisée, l'allocation au mineurs handicapés et l'allocation spéciale aux parents de mineur grands infirmes de moins de 15 ans. Afin d'ouvrir droit à l'AES l'enfant doit correspondre aux critères suivants :
+\begin{enumerate}
+  \item le handicap correspond à une incapacité permanente d'au moins 80\%, et l'enfant n'est pas pris en charge par un établissement d'éducation spéciale ou pris en charge au titre de l'éducation spéciale. Par a
+  \item le handicap correspond à une incapacité permanent d'au moins 50\%  et n'a pas été admis dans un établissement ou pris un charge par un service d'éducation spéciale ou de soins à domicile.
+\end{enumerate}
+
+ Il n'y a pas de conditions de ressources.\\
+
+ L'allocation est constituée d'une \textbf{allocation de base} (32 \% de la bmaf)et d'un \textbf{complément} dépendant du degré de handicap. Le niveau de handicap est divisé en catégories déterminé par le niveau d'aide indispensable à l'enfant (aide constante d'une tierce personne, niveau de dépense). Il existe six compléments depuis 2002 (trois auparavant). Le montant du complément de la sixième catégorie de l'allocation d'éducation de l'enfant handicapé est égal au montant de la majoration pour tierce personne accordée aux invalides de la 3e catégorie définis \`a l'article L. 341-4. \\
+
+
+L'AES est remplacée par l'Allocation d'Education de l'Enfant Handicapé en 2006 (voir la sous section ~\ref{sec_aeeh})
+
+\subsubsubsection{L'Allocation de Présence Parentale (APP)} \label{sec_app}
+Mise en place en janvier 2001, l'Allocation de Présence Parentale est destinée aux parents arrêtant tout ou partie de leur activité professionnelle pour s'occuper d'un enfant atteint d'une maladie grave, d'un handicap grave, ou victime d'un accident grave nécessitant une présence soutenue ou des soins contraignants pendant une durée prévisible minimale fixée par décret qui peut varier selon les pathologies. En cas d'arrêt complet, l'allocataire a droit à l'APP "pleine". Il existe ensuite deux allocation partielles, selon que le demandeur travaille entre 50\% et 80\% de la durée légale ou moins de 50\%.
+
+Le montant équivaut au salaire net perçu par un salarié rémunéré au SMIC. L'allocation est versée pendant minimum 4 mois, renouvelable deux fois. En cas d'affection prénatale, la durée est aussi de deux mois. En tout il y a donc au plus versement pendant un an de l'APP par enfant et par maladie. \\
+
+L'allocation ayant vocation à remplacer un revenu, le demandeur doit être actif. S'il est chômeur indemnisé, ou en formation rémunérée, il peut recevoir l'APP pleine uniquement. Par ailleurs l'APP n'est pas cumulable avec le congé maternité, l'APE, les indemnités journalières, l'allocation chômage, l'Allocation Adulte Handicapé, le minimum vieillesse, la pension de retraite et les compléments AES (plus de détails sur l'AES dans la section ~\ref{sec_aes} ci-avant). Elle est en revanche cumulable avec l'AES de base. Enfin, l'APP entre en compte dans le calcul des montants d'Allocation Parent Isolé et de Revenu Minimum d'Insertion.\\
+
+L'APP est remplacée en 2006 par l'Allocation Journalière de Présence Parentale.
+
+
+\subsubsection{Les dispositifs après 2005}
+
+\subsubsubsection{L'Allocation d'Education de l'Enfant Handicapé (AEEH)} \label{sec_aeeh}
+L'AEEH n'est soumise \`a aucune condition de ressources. Elle est destinée \`a toute personne assurant la charge d'un enfant handicapé de moins de 20 ans, au moins \`a 50\%, entra^^inant des contraintes financières particulièrement lourdes. Il peut s'agir de dépenses réelles comme du renoncement \`a tout ou partie de l'activité professionnelle d'un des parents.
+
+L'Allocation d'Education de l'Enfant Handicapé verse comme l'AES une allocation de base et un complément selon le degré de handicap de l'enfant \`a charge. Il existe de plus une majoration pour parent isolé, dépendante elle aussi du niveau de handicap. Cependant, un parent isolé en charge d'un enfant handicapé de 1\up{ère} catégorie ne reçoit pas de majoration. Par contre le recours \`a une tierce personne, si elle est nécessaire, donne aussi droit \`a la majoration. L'allocation de base est toujours \`a 32\%, les compléments allant de 24\% \`a 264.42\% de la bmaf. Les majoration vont elles de 92\% \`a 107\% de la bmaf. \\
+
+L'AEEH n'est pas cumulable avec une pension alimentaire, mais elle peut être séparée en deux si les parents sont séparés. Si l'enfant travaille, il doit satisfaire les conditions habituelles, \`a savoir ne pas dépasser 55\% du SMIC.
+
+\subsubsubsection{L'Allocation Journalière de Présence Parentale (AJPP)} \label{sec_ajpp}
+L'Allocation Journalière de Présence Parentale (AJPP) remplace l'APP depuis juin 2006. Elle est destinée \`a tout parent cessant ponctuellement son activité professionnelle pour s'occuper d'un enfant \`a sa charge. Cette enfant doit être atteint d'une maladie, être handicapé ou victime d'un accident grave nécessitant la présence d'un parent \`a ses côtés. Les congés de présence parentale sont des jours d'absence. Le nombre de congé est limité \`a un maximum de 310 jours ouvrés sur 3 ans. De plus, les parents ne peuvent demander plus de 22 allocations journalières par mois.\\
+
+L'allocation journalière est de 10.63\%. Elle est majorée \`a 12.63\% pour un parent seul.
+
+
+\subsection{L'Allocation de Rentrée Scolaire (ARS)} \label{sec_ars}
+
+L'Allocation de Rentrée Scolaire (ARS), créée en 1974, est une allocation visant \`a aider une fois par an, au moment de la rentrée scolaire, les familles \`a revenus modestes ayant des enfants scolarisés. Initialement réservée aux familles allocataires de prestations familiales ayant des enfants entre 6 et 16 ans, elle est étendue aux familles ayant des enfants de 6 à 18 ans en 1990. \\
+
+Les familles touchent l'ARS pour chaque enfant scolarisé ayant plus de 6 ans avant le 1\textsuperscript{er} février de l'année suivant celle la rentrée scolaire et n'ayant pas atteint 18 ans au 15 septembre de l'année considérée. Si de 6 \`a 16 ans l'ARS est automatiquement versée si les conditions sont satisfaites, de 16 \`a 18 ans un justificatif de scolarité ou d'apprentissage est demandé.
+
+Jusqu'\`a la rentrée 1998 incluse, les foyers devaient au préalable être bénéficiaires d'une autre aide (une prestation familiale, une allocation logement, l'Allocation Adulte Handicapé ou le Revenu Minimum d'Insertion) au titre de chaque enfant ouvrant droit \`a l'ARS, et ce au mois de juillet précédent la rentrée scolaire considérée. \\
+
+
+De 1999 \`a 2000 inclus, chaque enfant respectant ces conditions donnaient droit \`a une allocation égale \`a 20~\% de la BMAF. De plus, une "majoration exceptionnelle" était accordée pendant cette période. Cette majoration était la même quelque soit le nombre d'enfants donnant droit \`a l'ARS.
+
+En 2001, la majoration exceptionnelle a été supprimée. En revanche, chaque enfant respectant les conditions d'éligibilité donnait droit \`a 73,22~\% de la BMAF.
+
+Depuis la rentrée 2008, le montant d'ARS dépend de l'âge des enfants. Les enfants de 6 \`a 11 ans\footnote{Les enfants sortent de cette catégorie s'ils atteignent leur 11 ans "au cours de l'année civile de la rentrée scolaire.} donnent droit \`a 72.50~\% de la BMAF, ceux de 11 \`a 15 ans\footnote{les enfants sortent de cette catégorie s'ils atteignent leur 15 ans "au cours de l'année civile de la rentrée scolaire} \`a 76,49~\% et ceux de 15 \`a 18 ans \`a 79,15~\%. \\
+
+L'ARS est soumises \`a des conditions de ressources. Les plafond de ressources sont seulement composés d'un montant de base et d'une majoration par enfant. Cette majoration par enfant est la même quelque soit le nombre d'enfants \`a charge (contrairement \`a l'APJE, \`a la PAJE ou au CF). Il n'existe pas de majoration pour les parents isolés ou les couples biactifs. Ainsi, si l'on note $Plaf\_base$ le montant de base du plafond, $Maj\_par\_enf$ la majoration par enfant et $nenf$ le nombre d'enfant tel qu'il est définit dans la Partie~\ref{sec_nenf}, on a :
+$$
+Plafond=Plaf\_base+Maj\_par\_enf*nenf
+$$
+
+Jusqu'\`a la rentrée 1997 incluse, les ressources prises en compte étaient celles de l'année précédent la rentrée scolaire considérée. Depuis la rentrée 2008, l'année de référence est l'avant dernière année précédant la rentrée scolaire.
+
+Depuis 2002, les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'ARS auquel ils auraient pu avoir droit peuvent toucher un montant différentiel (Cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept.).
+
+L'instauration en 2002 de l'ARS différentielle s'est accompagnée de la fixation d'un montant minimum d'ARS, qui est de 15 euros. Autrement dit, les ARS inférieures \`a ce montant ne sont pas versées.
+n
+\section{Minima sociaux} \label{sec_ms}
+\subsection{Minimum Vieillesse} \label{sec_mv}
+\subsubsection{Allocation aux vieux travailleurs salariés (AVTS)} \label{sec_avts}
+
+L'Allocation aux Vieux Travailleurs Salariés existe depuis 1941. Elle est remplacée par l'ASPA (Allocation de Solidarité aux Personnes Agées) le 1\up{er} janvier 2006. Toutefois les bénéficiaires de l'AVTS peuvent continuer à recevoir celle-ci s'ils le souhaitent. Ils peuvent aussi passer à l'ASPA. \\
+
+L'AVTS est ouverte aux travailleurs français ayant au moins 65 ans, ou 60 ans en cas d'inaptitude au travail. Les ressortissants deq l'Espace Economique Europ\'een bénéficient aussi de l'AVTS. Depuis le 1\up{er} juin 1998, l'AVTS n'est plus soumise à la condition de nationalité, cependant auparavant les travailleurs étrangers ne pouvaient bénéficier de l'allocation que s'il existait un accord spécifique de réciprocité avec leur pays d'origine ou s'ils étaient réfugiés.
+
+Les allocataires doivent résider en France. La durée minimale d'activité est de 25 ans, dont au moins 15 ans à compter de leurs 50 ans. Cependant les conditions sont quelques peu modifiées durant les première et seconde guerre mondiale pour ceux qui vivaient en territoire occupé (chômage forcé...).
+
+L'allocation est soumise à des conditions de ressources. Le plafonds de ressource diffère selon que le bénéficiaire vit seul, est marié (ou pacsé ou vit en concubinage).
+
+Le montant est décidé par décret. Il est revalorisé deux fois par an, une fois en janvier et une fois en juillet. Il existe une majoration en cas de conjoint à charge ou d'enfants à charge :
+\begin{description}
+  \item[Majoration pour enfants] Si l'allocataire a 3 enfants (enfants morts-nés pris en compte). Les enfants recueillis ouvrent droit à la majoration s'ils ont été élevés chez l'allocataire avant d'avoir 16 ans, et ce pendant au moins 9 ans. Ils doivent aussi avoir été à la charge soit de l'allocataire soit de son conjoint. Le taux de majoration est de 10\%.
+  \item[Majoration pour conjoint à charge] Si le conjoint de l'allocataire remplit les conditions de ressources et d'âge, celui-ci peut bénéficier de cette majoration. En cas de séparation, le titulaire peut toujours être considéré comme ayant un individu à charge s'il lui verse une pension alimentaire. Le montant de la majoration est de 609.80 \euro ( 4000 Frcs avant 2002).
+\end{description}
+
+Avant le 1\up{er} avril 1962, le montant de l'allocation différait selon que la ville dans laquelle résidait l'allocataire avait plus ou moins de 5 000 habitants.
+
+\paragraph{Cas des vieux travailleurs non salariés (AVTNS)} Bien que réservée aux salariés à l'origine, les travailleurs de l'artisanat, de l'industrie, du commerce ainsi que leur conjoint ou veuve peuvent également bénéficier en 1993 de l'AVTS.
+\subsubsection{Allocation Spéciale} \label{sec_as}
+\subsubsection{Allocations Supplémentaires} \label{sec_asup}
+Comme l'AVTS, l'Allocation Supplémentaire est réservée aux travailleurs français de 65 ans, ou 60 ans en cas d'inaptitude au travail. L'allocation supplémentaire ne compte pas dans le calcul des ressources du ménage pour l'AVTS.
+
+Soumise elle aussi à des conditions de ressources, l'Allocation supplémentaire ne prend pas en compte:
+\begin{itemize}
+  \item les prestations familiales
+  \item la valeurs des locaux d'habitation servant de résidence principale au bénéficiaire
+  \item les majorations dues à une invalidité nécessitant l'aide constante d'une tierce personne (pensions militaires d'invalidité, d'accident du travail, aide sociale, etc.)
+  \item la retraite du combattant
+  \item l'allocation logement
+\end{itemize}
+
+Si le bénéficiaire est marié, les ressources du conjoint sont également prises en compte dans le calcul. Le montant de l'allocation est fixé par décret et dépend de la situation matrimoniale de l'allocataire (à savoir que le montant diffère selon que le ménage comprend un ou deux allocataires).
+
+
+\newpage
+\section{Annexe}
+\appendix
+
+
+\begin{table}[h!] \centering
+\caption{\label{chrono} Tableau chronologique des prestations familiales}
+\begin{tabular}{|p{4 cm}|l|c|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  Familles nombreuses & Allocations familiales & 1932 -  \\ \cline{2-3}
+   & Complément familial & 1978 -  \\
+   & Allocation de frais de garde & 1975 - 1978 \\
+   & Allocation mère au foyer & 1974 - 1978 \\
+    & Allocation salaire unique & 1972 - 1978 \\
+     & Indemnité compensatrice des avantages fiscaux & 1958 - 1978 \\ \cline{2-3}
+   & Prime de déménagement & 1958 -  \\ \cline{2-3} \hline
+  Jeunes ménages & Prêt aux jeunes ménages & 1973 - 1987 \\ \hline
+  Familles \`a revenus modestes & Allocation de rentrée scolaire & 1976 -  \\ \hline
+  Jeunes enfants & Prestation d'accueil du jeune enfant & 2004 - \\ \cline{2-3}
+   & Allocation pour jeune enfant & 1987 - 2006 \\
+   & Allocation Jeune enfant & 1985 - 1987 \\
+   & Allocation prénatale et postnatale & 1975 -  1987\\ \hline
+  Parents actifs & Allocation parentale d'éducation & 1986 - 2004 \\
+   & Allocation garde d'enfant \`a domicile & 1987 - 2004 \\
+   & Aide \`a la famille pour l'emploi d'une assistante maternelle agréée & 1991 - 2004 \\ \hline
+  Adoption / parent seul & Allocation d'adoption & 1995 - 2004 \\ \cline{2-3} \cline{2-3}
+   & Allocation de Soutien familial & 1984 - 2009 \\
+   & Allocation d'orphelin & 1970 - 1984 \\ \hline
+  Enfant handicapé & Allocation journalière de présence parentale & 2006 - \\
+   & Allocation de présence parentale & 2001 - 2006 \\ \cline{2-3} \cline{2-3}
+   & Allocation d'éducatqion de l'enfant handicapé & 2006- \\
+   & Allocation éducation spéciale & 1976 - 2005 \\
+  \hline
+\end{tabular}
+\end{table}
+\newpage
+
+\bibliographystyle{plainnat}
+%\bibliographystyle{alpha-fr}
+\bibliography{Biblio}
+
+\end{document} 

@@ -1,0 +1,209 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{0}
+\chapter{\label{Chapitre1}Titre du chapitre 1}
+\else \fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lipsum[1] (sections \ref{section:sec1} et \ref{section:sec2}).
+
+\section{\label{section:sec1}Titre de la section 1}
+
+\lipsum[66]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Environnement FIG: insertion d'une figure dans le corps du texte %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Figure avec notes %
+
+\begin{fig}
+[15cm]                                                                          % Argument 1 (15 cm) : largeur du titre de la figure
+{                                                                               % Argument 2 : titre de la figure
+Exemple de figure avec notes insérée dans le corps du texte.\label{fig:test1}
+}
+{                                                                               % Argument 3 : lien vers le fichier pdf de la figure (à stocker impérativement dans le dossier \Sections\3-Section1\Figures\)
+\graphique{fig1.pdf}
+}
+{                                                                               % Argument 4 : notes de la figure
+\textsc{Lecture:} bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla.\\
+\textsc{Sources:} bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla.
+}
+\end{fig}
+
+
+\lipsum[66]
+
+\subsection{Titre de la sous-section 1.1}
+
+\lipsum[1]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Environnement FIG: insertion d'une figure dans le corps du texte %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Figure sans notes %
+
+\begin{fig}
+[15cm]                                                                          % Argument 1 (15 cm) : largeur de la figure
+{                                                                               % Argument 2 : titre de la figure
+Exemple de figure sans notes insérée dans le corps du texte.\label{fig:test2}
+}
+{                                                                               % Argument 3 : lien vers le fichier pdf de la figure (à stocker impérativement dans le dossier \Sections\3-Section1\Figures\)
+\graphique{fig2.pdf}
+}
+{}                                                                              % Argument 4 : notes de la figure (vide)
+\end{fig}
+
+\lipsum[66]
+
+
+\subsection{Titre de la sous-section 1.2}
+
+\lipsum[1]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Environnement FIGP: insertion d'une figure sur une page séparée %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Figure avec notes %
+
+\begin{figp}
+[15cm]                                                                          % Argument 1 (15 cm) : largeur du titre de la figure
+{                                                                               % Argument 2 : titre de la figure
+Exemple de figure avec notes insérée dans une page séparée.\label{fig:test3}
+}
+{                                                                               % Argument 3 : lien vers le fichier pdf de la figure (à stocker impérativement dans le dossier \Sections\3-Section1\Figures\)
+\graphique{fig3.pdf}
+}
+{                                                                               % Argument 4 : notes de la figure
+\textsc{Lecture:} bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla.\\
+\textsc{Sources:} bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla.
+}
+\end{figp}
+
+
+\section{\label{section:sec2}Titre de la section 2}
+
+\lipsum[66]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Environnement TAB: insertion d'un tableau dans le corps du texte %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Tableau avec notes %
+
+\begin{tab}
+[8cm]                                                                           % Argument 1 [8 cm] : largeur du tableau (mettre 15 cm comme taille maximale)
+{
+Exemple de tableau (avec notes) inséré dans le corps du texte.\label{tab:test1} % Argument 2 : titre du tableau
+}
+{
+\begin{tabular}{lccc} \toprule                                                  % Argument 3 : contenu du tableau
+Échantillon             & Contrôle     & Traitement  & Différence \\
+                        & (1)          & (2)         & (3)          \\
+\midrule
+coeff1                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+coeff2                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+\\
+Nombre d'observations   & 1~023        &  999        &             \\
+\bottomrule
+\end{tabular}
+}
+{
+\textsc{Notes:} bla bla bla bla bla bla bla bla bla bla bla                     % Argument 4 : notes du tableau
+bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla.\\
+\textsc{Sources:} bla bla bla bla bla bla bla bla bla bla bla.
+}
+\end{tab}
+
+\lipsum[66]
+
+\subsection{Titre de la sous-section 2.1}
+
+\lipsum[1]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Environnement TAB: insertion d'un tableau dans le corps du texte %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Tableau sans notes %
+
+\begin{tab}
+[8cm]                                                                           %  Argument 1 [8 cm] : largeur du tableau (mettre 15 cm comme taille maximale)
+{
+Exemple de tableau (sans notes) inséré dans le corps du texte.\label{tab:test2} % Argument 2 : titre du tableau
+}
+{
+\begin{tabular}{lccc} \toprule                                                  % Argument 3 : contenu du tableau
+Échantillon             & Contrôle     & Traitement  & Différence \\
+                        & (1)          & (2)         & (3)          \\
+\midrule
+coeff1                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+coeff2                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+\\
+Nombre d'observations   & 1~023        &  999        &             \\
+\bottomrule
+\end{tabular}
+}
+{}                                                                              % Argument 4 : notes du tableau (vide)
+\end{tab}
+
+\lipsum[66]
+
+
+\subsection{Titre de la sous-section 2.2}
+
+\lipsum[1]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Environnement TABP: insertion d'un tableau sur une page séparée %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Tableau avec notes %
+
+\begin{tabp}
+[12cm]                                                                          % Argument 1 [12 cm] : largeur du tableau (mettre 15 cm comme taille maximale)
+{
+Exemple de tableau (avec notes) inséré dans une page séparée.\label{tab:test3}  % Argument 2 : titre du tableau
+}
+{
+\begin{tabular}{lccc} \toprule                                                  % Argument 3 : contenu du tableau
+Échantillon             & Contrôle     & Traitement  & Différence \\
+                        & (1)          & (2)         & (3)          \\
+\midrule
+coeff1                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+coeff2                  & 0,01         & 0,05        & 0,04        \\
+                        & (0,001)      & (0,001)     & (0,001)     \\
+\\
+Nombre d'observations   & 1~023        &  999        &             \\
+\bottomrule
+\end{tabular}
+}
+{
+\textsc{Notes:} bla bla bla bla bla bla bla bla bla bla bla                     % Argument 4 : notes du tableau
+bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla.\\
+\textsc{Sources:} bla bla bla bla bla bla bla bla bla bla bla.
+}
+\end{tabp}
+
+
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi

@@ -1,0 +1,506 @@
+\documentclass{article}
+
+\usepackage[francais]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{framed}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{esint}
+\usepackage{eurosym}
+
+
+\begin{document}
+
+% Le code ci-dessous crée la commande \subsubsubsection. Je l'ai copié de la page web http://forum.mathematex.net/latex-f6/definir-un-subsubsubsection-t4031.html Par contre, pb : apparemment, ce code ne marche pas bien si l'on veut mettre des bookmarks dans le pdf sous adobe. Dans le forum est proposé un autre code qui permet de régler ce pb. Mais il y a un package non dispo dans latex qui nous empêche de l'executer correctement.
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@alph\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{3}{10.0em}{4.1em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+\begin{center}
+\Large {\sc Institut des Politiques Publiques} \normalsize \\
+\vspace{0.5cm}
+\Large {\sc Ecole d'Economie de Paris} \normalsize
+\end{center}
+\vspace{1.5cm}
+
+\begin{center}
+\LARGE{\textbf{Guide sur la législation des transferts}} \\
+\vspace{1cm}
+\Large{Brice \sc{FABRE}} \\
+\vspace{0.75cm}
+\end{center}
+
+\begin{center}
+\Large{Juin 2012}
+\end{center}
+
+\tableofcontents
+
+\newpage
+Le présent chapitre présente les transferts sociaux dont peuvent bénéficier les ménages. Ces transferts se calculent à l'échelle du \textbf{foyer social} (et non pas à l'échelle du foyer fiscal comme c'est le cas pour l'IRPP). Cette entité se compose d'une personne ou d'un couple de référence ainsi que des personnes à charge. À la différence du foyer fiscal, les membres du couple de référence ne doivent pas obligatoirement être mariés ou pacsés pour faire partir du même foyer social. Ils peuvent être concubins. Quant à la définition de la notion de personnes à charge, elle varie selon les transferts.
+
+Dans ce qui suit, nous décrivons les règles de calcul des transferts sociaux. Les transferts peuvent être divisés en trois catégories que nous présentons successivement : les prestations familiales (Partie~\ref{sec_prest}), les allocations logement (Partie~\ref{sec_logt}) et les minima sociaux (Partie~\ref{sec_minima}).
+
+
+\section{Les prestations familiales} \label{sec_prest}
+
+
+\subsection{Définitions préliminaires}
+
+On recense un certain nombre de notions qui sont utilisées dans le calcul de plusieurs prestations et que l'on définit ci-dessous. \\
+
+\subsubsection{La Base Mensuelle de Calcul des Prestations Familiales (BMAF)}
+
+La Base Mensuelle de Calcul des Prestations Familiales (BMAF) est un montant mensuel de référence sur lequel se base le calcul des montants des différentes prestations. Plus exactement, la législation définit le montant des prestations en pourcentage de cette base. Ainsi, en l'absence de réforme des prestations, une revalorisation annuelle des montant nécessite juste une revalorisation de la BMAF. Cette base mensuelle est régulièrement revalorisée en fonction de l'évolution des prix à la consommation.
+
+\subsubsection{Le nombre d'enfants à charge} \label{sec_nenf}
+
+Le nombre d'enfants à charge est le nombre d'enfant dans le foyer social qui ne dépassent pas un âge limite et dont les revenus sont inférieurs à 55~\% du SMIC. L'âge limite est passé de 18 à 19 ans en 1998 et de 19 à 20 ans en 1999. En revanche, de 1997 à 1999, cet âge était de 20 ans pour les enfants en apprentissage, en stage de formation ou donnant droit à l'Allocation d'Education Spéciale (AES)\footnote{l'AES était une allocation pour les familles ayant un ou plusieurs enfants handicapés. Elle a été remplacé par l'Allocation d'Education de l'Enfant Handicapé (AEEH) en 2005. Nous ne décrivons pas ces allocations dans notre document.}. Néanmoins, certaines prestations familiales dérogent à cette définition du nombre d'enfants à charge. C'est le cas du complément familial (CF) ou encore, de la majoration des allocations familiales pour les enfants de plus de 20 ans (cf. infra).
+
+\subsubsection{Les conditions de ressources} \label{subsec_ress_prest}
+
+Un certain nombre de prestations familiales sont soumises à des conditions de ressources. En d'autres termes, pour certaines prestations, un foyer ne peut être éligible que si ses ressources sont inférieures à un plafond. Il est important de définir la notion de "ressources" et la notion de "plafond" \\
+
+\textbf{Les ressources} prises en compte dans le calcul des prestations familiales correspondent à la somme des revenus nets catégoriels retenus pour l'établissement de l'impôt sur le revenu (\emph{voir la partie sur l'IRPP}). Les revenus des enfants ayant fait l'objet d'une imposition commune ne sont pas pris en compte. Par contre, pour les couples concubins, les revenus des deux membres du couple sont pris en compte, même s'ils renvoient à deux foyers fiscaux différents.
+
+Les ressources prises en compte sont celles perçues au titre de \og l'année de référence \fg. Avant le mois de juillet 2008, le droit aux prestations était calculé chaque année au mois de juillet. L'année de référence était celle précédant l'année de calcul des droits. Par conséquent, si l'on se situe en janvier de chaque année, l'année de référence était l'avant dernière année. Depuis juillet 2008, les droits aux prestations sont calculées au mois de janvier et l'année de référence est l'avant dernière année précédant la période de paiement.
+
+Le Revenu Minimum d'Insertion (RMI) éventuellement perçu par le foyer n'était pas pris en compte dans les ressources. Cette disposition ne s'applique plus pour le Revenu de Solidarité Active (RSA). De plus, pour les allocataires du RMI puis du RSA socle\footnote{le RSA a remplacé le RMI en juillet 2009. Le RSA socle est la composante du RSA qui correspond à l'ancien RMI (\emph{voir partie sur le RSA pour plus d'explication de cette notion}).}, les revenus professionnels et les indemnités de chômage perçus au titre de l'année de référence ne sont pas pris en compte. \\
+
+\textbf{Les plafonds de ressources} dépendent de la structure du foyer social. Ils comprennent une composante de base à laquelle s'ajoute :
+\begin{itemize}
+  \item une majoration qui dépend du nombre d'enfants à charge;
+  \item une majoration pour les foyers avec un parent isolé ou avec un "\textbf{couple biactif"}\footnote{Cette majoration n'existe pas pour l'Allocation de Rentrée Scolaire (ARS)}
+\end{itemize}
+
+Un couple est dit "\textbf{biactif}" si chaque membre exerce une activité et que leur revenu au titre de cette activité a été au moins égal, pendant l'année de référence, à 12 fois la BMAF de ladite année.
+
+Chaque prestation a ses propres barèmes pour le calcul des différentes composantes des plafonds de ressources. \\
+
+Dans la plupart des cas, les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'allocation auquel ils auraient pu avoir droit peuvent toucher un \textbf{montant différentiel}. Ce montant est égal à la différence entre la somme du plafond et de l'allocation potentielle d'une part, et les ressources d'autre part. Autrement dit, si l'on note $Ress$ les ressources d'un foyer, $Plaf$ le plafond auquel il est soumis, $AP$ le montant potentielle d'allocation que le foyer peut toucher si la condition de ressources est remplie, et $Alloc$ l'allocation finale, on a :
+$$
+Alloc=\left\{ \begin{array}{ll}
+AP & \mbox{si} \quad Ress \leq Plaf\\
+Plaf+AP-Ress & \mbox{si} \quad Ress>Plaf \quad \mbox{et} \quad Ress-Plaf \leq AP\\
+0 & \mbox{si} \quad Ress-Plaf>AP\end{array}\right.
+$$
+
+
+\subsection{Les allocations familiales}
+
+Les allocations familiales sont des aides financières mensuelles accordées aux foyers comprenant deux enfants ou plus. Elles ne sont soumises à aucune condition de ressources, excepté pour l'année 1998. Ces prestations mensuelles sont composées d'une \textbf{allocation de base}, de plusieurs \textbf{majorations} ainsi que d'une allocation forfaitaire pour les enfants venant de sortir de l'éligibilité de l'allocation de base. \\
+
+Concernant le montant mensuel de base, le deuxième enfant donne droit à 32~\% de la BMAF et chaque enfant supplémentaire donne droit à 41~\% de la BMAF. \\
+
+De 1997 à 1998 inclus, chaque enfant de 10 à 15 ans donnaient droit à 9 points de BMAF supplémentaires et les enfants de plus de 15 ans à 16 points. De 1999 à 2008, ces deux majorations s'appliquaient respectivement aux enfants de 11 à 15 ans et aux enfants de plus de 16 ans. Depuis mai 2008, il n'existe plus qu'une seule majoration. Elle est de 16\% de la BMAF et s'applique pour chaque enfant de plus de 14 ans. En revanche, cette réforme des majorations ne s'applique que pour les enfants nés après le 31 avril 1997 (que pour ceux qui atteignent l'âge de 11 ans au 1\textsuperscript{er} mai 2008, autrement dit pour les nouveaux bénéficiaires de l'ancien système).
+
+L'aîné ne donne droit à une majoration que si le foyer comporte au moins trois enfants à charge.
+
+Depuis le mois de juillet 2003, une allocation forfaitaire est due au titre des enfants de plus de 20 ans (c'est à dire au titre des enfants sortant de l'éligibilité de l'allocation de base). Cette allocation est due pendant un an. Pour y être éligible, le foyer doit avoir eu droit aux allocations familiales au titre de trois enfants le moins précédent les 20 ans de l'enfant ou des enfants donnant potentiellement droit à l'allocation forfaitaire. Par exemple, un enfant qui arrive au foyer le mois de ses 20 ans (ou après) n'ouvre pas droit à l'allocation. Le montant de cette allocation forfaitaire est égal à 20,234~\% de la BMAF pour chaque enfant de plus de 20 ans respectant ces conditions l'éligibilité. \\
+
+En 1998, les allocations familiales étaient soumises à une condition de ressources. Autrement dit, seuls les foyers dont les ressources étaient inférieures à un certain plafond étaient éligibles aux allocations familiales. Ces plafonds étaient composés d'un montant de base, majoré en fonction du nombre d'enfants à charge et majoré également pour les parents isolés et les couples biactifs (cf. Partie~\ref{subsec_ress_prest} pour une définition de cette notion).
+
+Néanmoins, les foyers dont les ressources dépassaient le plafond d'un montant inférieur au montant d'allocation auquel ils auraient pu avoir droit peuvent toucher un montant différentiel (cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept).
+
+\subsection{Les aides pour les enfants à naître ou âgés de moins de 3 ans}
+
+\subsubsection{Les dispositifs en vigueur avant 2004} \label{jeunes_enf_avt_2004}
+
+Les prestations présentées dans cette section ont été remplacées en 2004 par la Prestation d'Acceuil du Jeune Enfant (PAJE). Cette transition a néanmoins été progressive\footnote{Pour le détail concernant cette transition, voir la Partie~\ref{sec_paje}}.
+
+
+
+\subsubsubsection{L'Allocation Pour Jeune Enfant (APJE)} \label{sec_apje}
+
+L'Allocation Pour Jeune Enfant (APJE), remplacée par la PAJE en 2004, est une allocation mensuelle visant à aider les familles à revenus modestes ayant des enfants à naître ou âgés de moins de 3 ans. On distingue deux composantes de l'APJE :
+\begin{itemize}
+  \item \textbf{L'APJE dite "courte"} : elle est due à compter du premier jour du mois civil suivant le troisième mois de grossesse, et ce jusqu'au dernier jour du mois civil au cours duquel l'enfant atteint l'âge de trois mois
+  \item \textbf{L'APJE dite "longue"} : elle est due à compter du premier jour du mois civil au cours duquel l'enfant atteint l'âge de quatre mois, et ce jusqu'au dernier jour du mois civil précédant celui au cours duquel l'enfant ou le plus jeune des enfants à charge atteint l'âge de trois ans.
+\end{itemize}
+
+Le cumul de plusieurs APJE courtes ou de plusieurs APJE longues n'est possible qu'en cas de naissances simultanées (jumeaux, triplés, etc.). En revanche, un foyer peut cumuler ses APJE longues avec ses APJE courtes. \\
+
+Le montant mensuel de l'APJE (qu'elle soit courte ou longue) est de 45,95~\% de la BMAF pour chaque enfant donnant droit à l'allocation. \\
+
+L'APJE est soumise à condition de ressources. Les foyers doivent avoir des ressources inférieures à un plafond. Ce plafond est composé d'un montant de base (noté $Plaf\_base$), d'une majoration dépendant du statut du couple ou de la personne de référence du foyer (cette majoration, notée $Maj\_ref$, est due si le foyer comporte un parent isolé ou un couple biactif\footnote{cf. Partie~\ref{subsec_ress_prest} pour une définition de ce terme}), et d'une majoration dépendant du nombre d'enfants (il existe un montant de majoration par enfant pour le premier et le deuxième enfant, noté $Maj\_enf1\_2$, et un autre pour les enfants supplémentaires, noté $Maj\_enf\_supp$). Si l'on note $nenf$ le nombre d'enfants à charge tel qu'il est défini dans la Partie~\ref{sec_nenf}, on a :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'APJE auquel ils auraient pu avoir droit peuvent toucher un montant différentiel (cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept).
+
+\subsubsubsection{L'Allocation d'Adoption}
+
+L'allocation d'adoption, remplacée par la PAJE en 2004, est une allocation mensuelle due au titre des enfants à charge adoptés. Elle est due à compter du premier jour du mois civil qui suit l'arrivée au foyer du ou des enfants concernés. Elle est du même montant et est soumise aux mêmes conditions de ressources que l'APJE (les plafonds sont les mêmes). De plus, comme pour l'APJE, les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'allocation auquel ils auraient pu avoir droit peuvent toucher un montant différentiel. \\
+
+L'allocation d'adoption est versée pendant 21 mois.
+
+En cas d'adoptions multiples simultanées, un foyer peut cumuler plusieurs allocations d'adoption. Par contre, lors de l'arrivée d'un enfant adopté, s'il existait un autre enfant adopté précédemment et donnant droit à une allocation d'adoption, le cumul ne peut se faire que pendant 9 mois.
+
+L'allocation d'adoption peut également se cumuler avec l'APJE pendant 9 mois.
+
+L'allocation d'adoption n'est cumulable ni avec le Complément Familial (CF), ni avec l'Allocation de Soutien Familial (ASF).
+
+\subsubsubsection{L'Allocation Parentale d'Education (APE)}
+
+
+
+\subsubsection{Le dispositif en vigueur après 2004 : la Prestation d'Accueil du Jeune Enfant (PAJE)} \label{sec_paje}
+
+La Prestation d'Accueil du Jeune Enfant (PAJE) remplace en 2004 les dispositifs décrits dans la Partie~\ref{jeunes_enf_avt_2004}. Cependant, l'application de la PAJE se fait progressivement entre janvier 2004 et décembre 2006. La PAJE s'applique aux enfants nés après le 31 décembre 2003 (parmi les enfants de moins de 3 ans). Les enfants plus âgés (et ayant moins de 3 ans) donnent droit aux anciens dispositifs.
+
+\subsubsubsection{La prime à la naissance ou à l'adoption}
+
+Il s'agit d'une prime (versée une seule fois) aux familles à revenus modestes à l'occasion d'une naissance ou de l'arrivée au foyer d'un enfant adopté (qui entre dans la définition d'enfant à charge mentionnée dans la Partie~\ref{sec_nenf}).
+
+Le montant de la prime à la naissance est de 229,75~\% de la BMAF. La prime à l'adoption était du même montant jusqu'en juin 2005 inclus. Depuis juillet 2005, la prime à l'adoption est égale au double de la prime à la naissance, à savoir à 459,50~\% de la BMAF.
+
+Cette prime est soumise à des conditions de ressources. Les barèmes servant au calcul des plafonds de ressources sont fixés par décret et figurent dans le document Excel \emph{Barèmes IPP - transferts.xlsx}. Quant à la formule générale permettant de déterminer les plafonds de ressources, elle est la même que pour l'APJE, à savoir\footnote{Voir la Partie~\ref{sec_apje} pour plus de détails.} :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Il n'existe pas d'allocation différentielle pour les foyers dont les ressources dépassent le plafond. \\
+
+La prime à la naissance est versée avant la fin du dernier jour du mois civil suivant le sixième mois de la grossesse. Quant à la prime à l'adoption, elle est versée au plus tard le deuxième mois qui suit l'arrivée des enfants au foyer des adoptants.
+
+
+\subsubsubsection{L'Allocation de base}
+
+L'allocation de base de la PAJE est une aide financière mensuelle due au titre des enfants non adoptés de moins de trois ans et des enfants adoptés.
+
+Pour les enfants non adoptés, elle était jusqu'en 2006 versée à compter du premier jour du mois de naissance. Depuis 2007, elle est versée à compter du jour de naissance (et l'allocation au titre du mois de naissance est calculée au prorata).
+
+Elle est versée jusqu'au dernier jour du mois avant celui des trois ans de l'enfant. \\
+
+Les enfants adoptés peuvent, à leur arrivée au foyer, ouvrir droit à l'allocation de base. Pour cela, ils doivent être considérés comme enfants à charge selon la définition décrite dans la Partie~\ref{sec_nenf}. L'allocation de base est versée mensuellement pendant une durée maximale de trois ans (le versement s'arrête avant les trois ans si l'enfant ne respecte plus les conditions pour être considéré comme enfant à charge).
+
+Pour les enfants adoptés, l'allocation était jusqu'en 2006 versée à compter du premier jour du mois d'arrivée au foyer. Depuis 2007, elle est versée à compter du jour d'arrivée (et l'allocation au titre du mois d'arrivée est calculée au prorata). \\
+
+Le montant mensuel de l'allocation de base de la PAJE est égal à 45,95~\% de la BMAF. \\
+
+L'allcation de base est soumise à des conditions de ressources. Ces conditions sont les mêmes que pour la prime à la naissance ou à l'adoption. Les plafonds sont identiques : les barèmes servant à leur calcul figurent dans le document Excel \emph{Barèmes IPP - transferts.xlsx} et la formule générale permettant de déterminer les plafonds est\footnote{voir la Partie~\ref{sec_apje} pour plus de détails} :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Comme pour la prime à la naissance ou à l'adoption, il n'existe pas d'allocation différentielle. \\
+
+Un foyer ne peut cumuler plusieurs allocations de base qu'en cas de naissances multiples ou d'adoptions multiples simultanées.
+
+L'allocation de base de la PAJE n'est pas cumulable avec le Complément Familial (CF). De plus, jusqu'en 2006 inclus, elle n'était pas non plus cumulable avec l'ASF si l'enfant donnant droit à l'allocation était adopté.
+
+
+\subsubsubsection{Le Complément de Libre Choix de Mode de Garde (CLCMG)}
+
+\subsubsubsection{Le complément de Libre Choix d'Activité (CLCA)}
+
+\subsubsubsection{Le complément Optionnel de Libre Choix d'Activité (COLCA)}
+
+
+\subsection{Le complément familial}
+
+Le complément familial (CF) est une prestation monétaire mensuelle destinée à aider les familles nombreuses à revenus modestes et n'ayant plus droit aux aides à la petite enfance (destinées aux enfants de moins de 3 ans).
+
+Sont éligibles au CF les familles comprenant au moins 3 enfants âgés de plus de 3 ans mais ne dépassant pas un âge limite. De 1997 à 1999 inclus, cet âge limite est de 20 ans. Il est de 21 ans depuis 2000\footnote{Cet âge limite déroge à la notion d'enfant à charge prise en compte pour les autres prestations}. \\
+
+Le montant mensuel du CF est égal à 41,65~\% de la BMAF, et ce quelque soit le nombre d'enfants respectant les conditions d'âge mentionnées ci-dessus (pourvu qu'il y en ait au moins trois dans le foyer). \\
+
+Le CF est soumis à condition de ressources. Les foyers doivent avoir des ressources inférieures à un plafond. Ce plafond est le même que celui de l'APJE, et ce jusqu'à 2006 (jusqu'à la suppression de cette allocation). Après 2006, le CF a ses propres barèmes de plafond de ressources. Mais la formule générale de calcul du plafond reste la même, à savoir\footnote{Voir la Partie~\ref{sec_apje} pour plus de détails.} :
+$$
+Plafond=Plaf\_ref+Maj\_enf
+$$
+où
+$$
+Plaf\_ref=\left\{ \begin{array}{ll}
+Plaf\_base+Maj\_ref & \mbox{si parent isolé ou couple biactif} \\
+Plaf\_base & \mbox{sinon}\end{array}\right.
+$$
+et
+$$
+Maj\_enf=Maj\_enf1\_2*min(nenf,2)+Maj\_enf\_supp*max(nenf-2,0)
+$$
+
+Les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant du CF peuvent toucher un montant différentiel (Cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept).
+
+
+
+\subsection{L'Allocation de Soutien Familial}
+
+L'Allocation de Soutien Familial (ASF) est une aide financière mensuelle due au titre :
+\begin{itemize}
+  \item des enfants orphelins de père ou de mère ou des deux parents;
+  \item des enfants dont l'un des parents ou les deux sont hors d'état de les entretenir ou hors d'état de payer la pension alimentaire qu'ils doivent (ces enfants sont alors dits "assimilés à des orphelins").
+\end{itemize}
+
+L'ASF est due à compter du premier jour du mois civil au cours duquel la situation donnant droit à l'allocation débute.
+
+La personne recevant l'allocation est le père, la mère ou la personne physique qui assume la charge effective et permanente de l'enfant.
+
+Si le bénéficiaire de l'allocation est le père ou la mère et qu'il se marie, conclut un PACS ou se déclare en concubinage, l'allocation n'est plus versée. \\
+
+Le montant mensuel de l'ASF par enfant est égal à :
+\begin{itemize}
+  \item 22.50~\% de la BMAF si l'enfant est orphelin (ou assimilé à un orphelin) d'un seul parent;
+  \item 30~\% de la BMAF si l'enfant est orphelin (ou assimilé à un orphelin) de ses deux parents.
+\end{itemize}
+\vspace{0.5cm} % Pas sur que 0.5cm soit exactement la même distance que quand on fait \\. Mais, \\ ne peut pas être utilisée après un itemize.
+
+L'ASF n'est soumise à aucune condition de ressources.
+
+Il existe quand même une "allocation différentielle". Le sens de ce terme est différent de celui évoqué dans la Partie~\ref{subsec_ress_prest}. L'ASF différentielle est versée lorsqu'un parent isolé ne reçoit que partiellement la pension alimentaire de l'autre parent, celui-ci étant dans l'incapacité de la verser totalement. Dans ces conditions, le parent isolé reçoit une allocation égale à la différence entre le montant de la pension alimentaire qu'il aurait dû recevoir et le montant déjà versé par le parent défaillant, et ce dans la limite du montant de l'ASF qu'il aurait pu toucher s'il était éligible à taux plein (si la pension alimentaire ne lui avait pas du tout été versée). Si l'on note $ASF\_diff$ l'ASF différentielle, $Pens$ la pension alimentaire qui devrait être versée, $Pens\_vers$ le montant de pension qui a été effectivement versé et $ASF_plein$ l'ASF que le parent aurait pu recevoir s'il était éligible à taux plein, on a :
+$$
+ASF\_diff=\left\{ \begin{array}{ll}
+min(Pens-Pens\_vers;ASF\_plein) & \mbox{si } Pens\_vers>0 \\
+0 & \mbox{sinon}\end{array}\right.
+$$
+
+
+
+\subsection{L'Allocation de Rentrée Scolaire (ARS)}
+
+L'Allocation de Rentrée Scolaire (ARS) est une allocation visant à aider une fois par an, au moment de la rentrée scolaire, les familles à revenus modestes ayant des enfants scolarisés.
+Les familles touchent l'ARS pour chaque enfant scolarisé ayant plus de 6 ans avant le 1\textsuperscript{er} février de l'année suivant celle la rentrée scolaire et n'ayant pas atteint 18 ans au 15 septembre de l'année considérée.
+
+Jusqu'à la rentrée 1998 incluse, les foyers devaient au préalable être bénéficiaires d'une autre aide (une prestation familiale, une allocation logement, l'Allocation Adulte Handicapé ou le Revenu Minimim d'Insertion) au titre de chaque enfant ouvrant droit à l'ARS, et ce au mois de juillet précédent la rentrée scolaire considérée. \\
+
+De 1999 à 2000 inclus, chaque enfant respectant ces conditions donnaient droit à une allocation égale à 20~\% de la BMAF. De plus, une "majoration exceptionnelle" était accordée pendant cette période. Cette majoration était la même quelque soit le nombre d'enfants donnant droit à l'ARS.
+
+En 2001, la majoration exceptionnelle a été supprimée. En revanche, chaque enfant respectant les conditions d'éligibilité donnaient droit à 73,22~\% de la BMAF.
+
+Depuis la rentrée 2008, le montant d'ARS dépend de l'âge des enfants. Les enfants de 6 à 11 ans\footnote{Les enfants sortent de cette catégorie s'ils atteignent leur 11 ans "au cours de l'année civile de la rentrée scolaire.} donnent droit à 72.50~\% de la BMAF, ceux de 11 à 15 ans\footnote{les enfants sortent de cette catégorie s'ils atteignent leur 15 ans "au cours de l'année civile de la rentrée scolaire} à 76,49~\% et ceux de 15 à 18 ans à 79,15~\%. \\
+
+L'ARS est soumises à des conditions de ressources. Les plafonds de ressources sont seulement composés d'un montant de base et d'une majoration par enfant. Cette majoration par enfant est la même quel que soit le nombre d'enfants à charge (contrairement à l'APJE, à la PAJE ou au CF). Il n'existe pas de majoration pour les parents isolés ou les couples biactifs. Ainsi, si l'on note $Plaf\_base$ le montant de base du plafond, $Maj\_par\_enf$ la majoration par enfant et $nenf$ le nombre d'enfant tel qu'il est définit dans la Partie~\ref{sec_nenf}, on a :
+$$
+Plafond=Plaf\_base+Maj\_par\_enf*nenf
+$$
+
+Jusqu'à la rentrée 1997 incluse, les ressources prises en compte étaient celles de l'année précédant la rentrée scolaire considérée. Depuis la rentrée 2008, l'année de référence est l'avant-dernière année précédant la rentrée scolaire.
+
+Depuis 2002, les foyers dont les ressources dépassent le plafond d'un montant inférieur au montant d'ARS auquel ils auraient pu avoir droit peuvent toucher un montant différentiel (Cf. Partie~\ref{subsec_ress_prest} pour la définition de ce concept.).
+
+L'instauration en 2002 de l'ARS différentielle s'est accompagnée de la fixation d'un montant minimum d'ARS, qui est de 15 euros. Autrement dit, les ARS inférieures à ce montant ne sont pas versées.
+
+\subsection{Les prestations au titre des enfants handicapés}
+
+\subsubsection{Les dispositifs avant 2005}
+
+\subsubsubsection{l'Allocation d'Education Spéciale (AES)}
+
+\subsubsubsection{L'Allocation de Présence Parentale (APP)}
+
+\subsubsection{Les dispositifs après 2005}
+
+\subsubsubsection{L'Allocation d'Education de l'Enfant Handicapé (AEEH)}
+
+\subsubsubsection{L'Allocation Journalière de Présence Parentale (AJPP)}
+
+
+
+
+\section{Les allocations logement} \label{sec_logt}
+
+Nous ne prenons pour l'instant en compte que l'allocation de logement à caractère familial (ALF), laissant de côté l'aide personnalisée au logement (APL) et l'allocation de logement à caractère social.
+
+\subsection{L'Allocation de logement à caractère familial (ALF)}
+
+L'ALF est une prestation familiale à affectation spécialisée qui vise à couvrir une partie des dépenses de logement d'un ménage, soit au titre d'une installation récente soit au titre de la présence de personnes à charge. Elle comporte l'avantage annexe de la prime au déménagement que nous ne modélisons pas.
+
+\subsubsection{Conditions d'éligibilité}
+
+\subsubsubsection{Titre auquel l'allocation est due}
+
+L'ALF peut être due à trois titres. Sont éligibles à l'ALF les personnes qui:
+\\soit premièrement bénéficient déjà de l'une des prestations familiales suivantes: allocations familiales, complément familial, allocation pour jeune enfant, allocation de soutien familial ou allocation d'éducation spéciale;
+\\soit deuxièmement ont une ou plusieurs personnes à charge;
+\\soit troisièmement sont chef de famille sans enfants si les époux ont moins de 40 ans au moment du mariage, l'allocation est  alors due pour cinq ans à compter du mariage.
+\\Nous ne prenons pas en compte L'ALF au titre du  mariage, ni au titre d'un ascendant à charge, ni au titre d'un ascendant ou d'un descendant éloigné infirme.
+
+\subsubsubsection{Statut d'occupation du logement}
+
+Pour avoir droit à l'ALF, il faut être locataire, sous locataire ou accédant de la propriété pour son logement principal.
+
+\subsubsubsection{Conditions relatives au logement}
+
+Le logement doit répondre à des conditions de peuplement et de salubrité pour ouvrir droit à l'ALF. Le logement doit être d'une surface au moins égale à 25m\up{2} pour deux personnes, plus 9m\up{2} supplémentaires pour chaque personne en plus, avec une limite de 79m\up{2} pour 8 personnes. Le logement doit aussi répondre à des exigences de salubrité, il doit en effet comporter un poste d'eau potable, de WC et d'un moyen de chauffage. Nous ne sommes pas en mesure de prendre cette condition en compte dans notre modèle.
+
+\subsubsubsection{Loyer minimum}
+
+Enfin, pour avoir droit à l'ALF, les personnes la demandant doivent consacrer au loyer ou au remboursement de leur emprunt un certaine proportion des revenus du foyer, appelée loyer minimum. Ce loyer minimum annuel est exprimé en pourcentage des ressources du foyer, et représente la fraction du loyer (ou remboursement de l'emprunt) qui doit obligatoirement être pris en charge par l'allocataire. Le pourcentage progresse par tranches avec les ressources, et prend en compte le nombre d'enfants vivant habituellement au foyer. Les limites supérieures et inférieures de ces tranches sont affectées d'un coefficient calculé à l'aide d'un système de nombre de parts. Les ressources sont par ailleurs diminuées d'un abattement fixe pour les couples biactifs dont les revenus des deux conjoints ont chacun été au moins égal à douze fois la base de calcul des allocations familiales pour l'année de référence. Un abattement est appliqué aux ressources des personnes ayant un ou deux enfants ou personnes à charge, et un autre abattement plus important est appliqué aux personnes ayant trois ou plus enfants ou personnes à charge. Enfin, le loyer annuel minimum obtenu après ces calculs est majoré d'un montant fixe.
+
+\subsubsection{Calcul et montant}
+
+Jusqu'en 2001, l'ALF mensuelle se calcule en appliquant un coefficient à la différence entre le loyer principal (ou le remboursement) et le loyer minimm mensuel. Ce coefficient ne peut pas dépasser 90\%. Après 2001, ce système reste en vigueur pour les accédants à la propriété et les étudiants logés par le CROUS, mais change pour les locataires, pour qui l'ALF est égale à la différence entre le loyer et une participation personnelle du foyer.
+
+\subsubsubsection{Loyer à prendre en considération}
+
+Pour les locataires, le loyer pris en compte pour le calcul de l'ALF est le loyer principal afférent au local à nu, à l'exclusion des taxes, prestations et fournitures. Pour les accédants à la propriété, il s'agit du douzième des versements annuels affectés au remboursement de la dette contractée pour l'accession à la propriété. Lorsque le montant du loyer ou du remboursement dépassent un plafond, il n'est pas tenu compte de la fraction excédant ce plafond pour le calcul de l'ALF. Le loyer principal est augmenté d'une majoration pour prendre en compte les charges de logement.
+
+\subsubsubsection{Zones géographiques}
+
+Les plafonds des loyers sont définis différemment selon la zone géographique. La zone 1 avec les plafonds les plus hauts, correspond à l'agglomération parisienne. La zone 2 inclut le reste de l'île de France et les communes de plus de 100 000 habitants. La zone 3 rassemble les villes de moins de 100 000 habitants.
+
+\subsubsubsection{Formule de calcul pour les accédants à la propriété}
+
+La formule de calcul de l'ALF n'a pas changé pour les accédants à la propriété. Elle s'exprime de la façon suivante:
+\vspace{0.5cm}
+\\$AL=K(L+C-Lo)$
+\vspace{0.5cm}
+\\$K=Cst-\frac{R}{M\times N}$
+\vspace{0.5cm}
+
+Avec AL le montant de l'ALF, K le coefficient, L le loyer, C la majoration pour charges et Lo le loyer minimum. Pour le calcul de K, Cst est une constante valant 0,9, R représente les ressources prises en considération, M est un coefficient fixé par décret, et N est le nombre de parts.
+
+\subsubsubsection{Formule de calcul pour les locataires}
+
+Pour les locataires, la formules est la même que pour les accédants à la propriété jusqu'en 2001, et change ensuite. Elle devient alors:
+\vspace{0.5cm}
+\\$AL=L+C-Pp$
+\vspace{0.5cm}
+\\$Pp=Po+Tp\times Rp$
+\vspace{0.5cm}
+\\$Tp=Tf+Tl$
+\vspace{0.5cm}
+
+Avec Pp la participation personnelle, exprimée comme la somme de Po, la fraction forfaitaire, et du produit de Tp le taux de participation personnelle et de Rp la différence entre les ressources du bénéficiaire et un montant forfaitaire. Le taux de participation personnelle Tp est lui même égal à la somme de Tf un taux fonction de la taille du ménage et de Tl un taux complémentaire fixé par arrêté en fonction de la valeur du rapport entre le loyer retenu dans la limite du plafond et un loyer de référence.
+
+\section{Les minima sociaux} \label{sec_minima}
+
+\subsection{L'Allocation Parent Isolé (API)}
+
+\subsection{Le Revenu Minimum d'insertion (RMI)}
+
+Le RMI est une mesure qui consiste à verser une allocation garantissant un revenu minimum à certaines personnes. Il a été créé en  1988 et remplacé en 2010 par le RSA. Le bénéficiaire doit en faire la demande et signer un contrat d'insertion par lequel il s'engage à participer à des actions d'insertion, l'allocation est alors versée mensuellement et exonérée d'impôt sur le revenu.
+
+\subsubsection{Bénéficiaires}
+
+Pour avoir droit au RMI, il faut : avoir plus de 25 ans ou avoir un ou plusieurs enfants à charge, résider en France et avoir des ressources inférieures à un revenu fixé par décret.
+
+\subsubsection{Montant}
+
+L'allocation est calculée comme la différence entre les revenus du bénéficiaire et le revenu minimum fixé par décret. Le revenu minimum est majoré de 50~\% pour la deuxième personne au foyer et de 30~\% pour les suivantes. A partir du troisième enfant cette majoration est de 30~\% jusqu'en 1990 et de 40~\% après.
+
+\subsection{Le Revenu de Solidarité Active (RSA)}
+
+Le RSA remplace le RMI, l'API et les mesures d'intéressement à la reprise d'activité à partir du 01/06/2009, avec pour objectif de compléter ces mesures pour renforcer les incitations à la reprise d'activité. Comme le RMI il comporte un volet de minimum social pour les personnes sans activité, appelé RSA socle, auquel s'ajoute un volet d'intéressement qui fournit un complément de revenu à ceux qui reprennent un emploi, le RSA complément.
+
+\subsubsection{Bénéficiaires}
+
+Les conditions pour avoir droit au RSA sont les mêmes que pour le RMI : Avoir plus de 25 ans ou avoir un ou plusieurs enfants à charge, résider en France et avoir des ressources inférieures à un revenu garanti.
+
+\subsubsection{Calcul et montant}
+
+Pour avoir droit au RSA il faut avoir des ressources inférieures à un seuil dit "Revenu garanti". Celui-ci est la somme d'un montant forfaitaire fixé par décret, fonction de la composition du ménage et du nombre d'enfants à charge, et d'une fraction des revenus professionnels des membres du foyer. Ainsi il est possible de toucher le RSA tout en travaillant si on a des ressources inférieures à un seuil. L'allocation de RSA vise donc à porter les ressources des bénéficiaires au niveau du revenu garanti. Les personnes n'ayant pas d'activité professionnelle touchent le revenu garanti dans son intégralité (RSA socle), tandis que les personnes qui reprennent le travail ou qui gagnent moins qu'un seuil cumulent leurs revenus avec le montant forfaitaire du RSA (RSA complément).
+
+\subsubsection{Accompagnement social}
+
+Les bénéficiaires du RSA ont droit à un accompagnement social et professionnel visant à le réinsérer dans le marché du travail, et peuvent recevoir une aide personnalisée au retour à l'emploi pour couvrir les frais occasionnés par la reprise id'activité. Si leurs ressources sont inférieures à un certains seuil et qu'ils n'exercent pas d'activité professionnelle, les allocataires du RSA doivent en contrepartie chercher un emploi ou réaliser les démarches nécessaires à la création de leur propre activité.
+
+\subsection{Le Minimum vieillesse}
+
+\subsubsection{Allocation aux vieux travailleurs salariés (AVTS)} \label{sec_avts}
+
+L'Allocation aux Vieux Travailleurs Salariés existe depuis 1941. Elle est remplacée par l'ASPA (Allocation de Solidarité aux Personnes Agées) le 1\up{er} janvier 2006. Toutefois les bénéficiaires de l'AVTS peuvent continuer à recevoir celle-ci s'ils le souhaitent. Ils peuvent aussi passer à l'ASPA. \\
+
+L'AVTS est ouverte aux travailleurs français ayant au moins 65 ans, ou 60 ans en cas d'inaptitude au travail. Les ressortissants deq l'Espace Economique Europ\'een bénéficient aussi de l'AVTS. Depuis le 1\up{er} juin 1998, l'AVTS n'est plus soumise à la condition de nationalité, cependant auparavant les travailleurs étrangers ne pouvaient bénéficier de l'allocation que s'il existait un accord spécifique de réciprocité avec leur pays d'origine ou s'ils étaient réfugiés.
+
+Les allocataires doivent résider en France. La durée minimale d'activité est de 25 ans, dont au moins 15 ans à compter de leurs 50 ans. Cependant les conditions sont quelques peu modifiées durant les première et seconde guerre mondiale pour ceux qui vivaient en territoire occupé (chômage forcé...).
+
+L'allocation est soumise à des conditions de ressources. Le plafonds de ressource diffère selon que le bénéficiaire vit seul, est marié (ou pacsé ou vit en concubinage).
+
+Le montant est décidé par décret. Il est revalorisé deux fois par an, une fois en janvier et une fois en juillet. Il existe une majoration en cas de conjoint à charge ou d'enfants à charge :
+\begin{description}
+  \item[Majoration pour enfants] Si l'allocataire a 3 enfants (enfants morts-nés pris en compte). Les enfants recueillis ouvrent droit à la majoration s'ils ont été élevés chez l'allocataire avant d'avoir 16 ans, et ce pendant au moins 9 ans. Ils doivent aussi avoir été à la charge soit de l'allocataire soit de son conjoint. Le taux de majoration est de 10\%.
+  \item[Majoration pour conjoint à charge] Si le conjoint de l'allocataire remplit les conditions de ressources et d'âge, celui-ci peut bénéficier de cette majoration. En cas de séparation, le titulaire peut toujours être considéré comme ayant un individu à charge s'il lui verse une pension alimentaire. Le montant de la majoration est de 609.80 \euro ( 4000 Frcs avant 2002).
+\end{description}
+
+Avant le 1\up{er} avril 1962, le montant de l'allocation différait selon que la ville dans laquelle résidait l'allocataire avait plus ou moins de 5 000 habitants.
+
+\paragraph{Cas des vieux travailleurs non salariés (AVTNS)} Bien que réservée aux salariés à l'origine, les travailleurs de l'artisanat, de l'industrie, du commerce ainsi que leur conjoint ou veuve peuvent également bénéficier en 1993 de l'AVTS.
+
+\subsubsection{Allocation Spéciale} \label{sec_as}
+
+L'Allocation Spéciale est destinée aux personnes qui ne relèvent d'aucun autre régime d'assurance vieillesse. Elle est calculée et attribuée de la même façon que l'AVTS.
+
+\subsubsection{Allocation aux Mères de Famille (AMF)}
+
+L'AMF est versée aux femmes qui ont élevéau moins 5 enfants à charge pendant 9 ans avant leur 16e anniversaire et qui ne bénéficient d'aucune autre retraite, pension ou allocation vieillesse. Leur mari doit avoir eu une activivté salariée ou être (ou avoir été) titulaire d'une pension, rente ou allocation d'un régime de sécurité sociale. Son montant est le même que l'AVTS.
+
+\subsubsection{Le secours viager}
+
+Le secours viager est accordé aux personnes dont le conjoint décédé aurait eu droit à l'AVTS. Le conjoint survivant doit être marié depuis au moins 2 ans à la date du décès, avoir au moins 55 ans. Les conditions de ressources et le montant du secours viager sont alors calés sur l'AVTS.
+
+\subsubsection{Allocations Supplémentaires} \label{sec_asup}
+
+Comme l'AVTS, l'Allocation Supplémentaire est réservée aux travailleurs français de 65 ans, ou 60 ans en cas d'inaptitude au travail. L'allocation supplémentaire ne compte pas dans le calcul des ressources du ménage pour l'AVTS.
+
+Soumise elle aussi à des conditions de ressources, l'Allocation supplémentaire ne prend pas en compte:
+\begin{itemize}
+  \item les prestations familiales
+  \item la valeurs des locaux d'habitation servant de résidence principale au bénéficiaire
+  \item les majorations dues à une invalidité nécessitant l'aide constante d'une tierce personne (pensions militaires d'invalidité, d'accident du travail, aide sociale, etc.)
+  \item la retraite du combattant
+  \item l'allocation logement
+\end{itemize}
+
+Si le bénéficiaire est marié, les ressources du conjoint sont également prises en compte dans le calcul. Le montant de l'allocation est fixé par décret et dépend de la situation matrimoniale de l'allocataire (à savoir que le montant diffère selon que le ménage comprend un ou deux allocataires).
+
+\subsubsection{L'Allocation de Solidarité aux Personnes Agées (ASPA)}
+
+L'ASPA remplace l'ensemble des dispostions précédentes et unifie le minimum vieillesse en 2006.
+
+\subsubsection{Bénéficiaires}
+
+Le bénéficiaire de l'ASPA doit résider principalement sur le territoire français, être âgé d'au moins 65 ans ou 60 ans en cas d'inaptitude au travail, et avoir des ressources inférieures à un seuil tout en ne bénéficiant pas d'autre régime de retraite.
+
+\subsubsection{Calcul et montants}
+
+L'allocation est versée à taux plein quand les ressources pendant les 12 derniers mois sont infétieures au plafond annuel. Si les ressources dépassent le plafond, l'allocation devient différentielle et complète les ressources jusqu'à une limite donnée de ressources.
+
+\subsection{L'Allocation Supplémentaire d'Invalidité (ASI)}
+
+
+\end{document} 

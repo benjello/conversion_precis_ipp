@@ -1,0 +1,66 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{0}
+\chapter{\label{Chapitre1}Titre du chapitre 1}
+\else \fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+L'ambition de ce \emph{Guide législatif IPP} est de présenter de façon exhaustive et cohérente l'ensemble de la
+législation du système de retraite français\footnote{Ce document reprend en partie le chapitre 2 de la thèse d'Antoine Bozio \citep{Bozio2006} qui s'arrêtait à la législation de 2006.}. Nous nous limitons aux dispositifs obligatoires, en excluant donc de l'analyse des dispositifs d'épargne retraite.
+
+Nous avons cherché à mettre en évidence les motivations du législateur ou les débats qui ont précédé les grandes réformes. L'histoire politique des systèmes de retraite est, en soi, un champ de recherche passionnant. Et si ce document est loin d'épuiser ce domaine, il permet de mettre en perspective les politiques publiques des systèmes de retraite.
+
+Nous n'abordons pas dans la présente note les dispositifs de cessation anticipée d'activité et le traitement spécifique du chômage des vieux travailleurs, qui sont des éléments essentiels de la législation de la cessation d'activité en France.
+
+Pour la rédaction du présent guide, nous avons utilisé en premier lieu les lois et décrets parus au \emph{Journal Officiel} et les documents publiés par les administrations compétentes,\footnote{Parfois non publiés. Qu'ici soient remerciés pour leur diligence à nous
+fournir les informations recherchées tous les personnels des administrations que nous avons contactés. Citons particulièrement la Cnav, l'Arrco, l'Agirc, les Assedic, l'Unedic, la Cancava, l'Organic, la Dares, le Ministère des Affaires sociales et le Conseil d'orientation des retraites.}
+mais nous avons aussi consulté deux manuels sur les politiques sociales, de Join-Lambert \cy{Join-Lambert97} et Huteau \cy{Huteau2001}, la série des Précis de droit de la sécurité sociale de J-J. Dupeyroux \cy{Dupeyroux2005}, la série des mémento Social Francis Lefebvre
+\cy{FLefebvre2005}, quelques ouvrages spécialisés (Flesch \cy{Flesch67}, Charpentier \cy{Charpentier1997}, Greciano \cy{Greciano2002} et Dupuis et El Moudden \cy{DupuisElMoudden2002}), les rapports et documents du Conseil d'Orientation des Retraites, les rapports de la Cour des Comptes sur l'exécution des lois de financement de la Sécurité Sociale et les ouvrages \emph{La Sécurité sociale. Son histoire à travers les textes}. Les références plus spécifiques seront citées dans chaque sous-partie. \\
+
+Après une présentation générale du système de retraite français (partie 1), nous en détaillons les différentes composantes. Nous commencerons par le système de retraite du secteur public (partie 2), le plus ancien, avant de détailler celui du secteur privé (partie 3). Les systèmes de retraite des non-salariés feront l'objet d'une brève description (partie 4), dès lors qu'ils ont été pour partie rattachés au régime général.
+Pour chaque catégorie, nous nous sommes employés à retracer l'historique du régime, l'évolution des droits à pension et le financement du régime. Nous traiterons à part la question des avantages non-contributifs, dans la mesure où leur application est dans une certaine mesure transversale à tous les régimes (partie 5).
+
+Le système de retraite français est particulièrement complexe et déroute plus d'une personne souhaitant en comprendre le fonctionnement. Cette partie introductive a pour but de présenter de façon synthétique l'ensemble des dispositifs institutionnels du système de retraite français.
+
+\section{Architecture du système de retraite}
+
+Historiquement, le système de retraite français s'est construit par catégories professionnelles. Il en résulte un système très fragmenté, composé d'une multitude de régimes distincts. Les systèmes sont différents pour les trois grandes catégories de travailleurs que sont les salariés du public, les salariés du privé et les non-salariés, mais il y a aussi des différences d'affiliation au sein même de ces différentes catégories (par exemple entre salariés cadre et non-cadres).
+
+On détaille dans le tableau récapitulatif ci-dessous la majorité des dispositions institutionnelles de retraite (retraite de base et régimes complémentaires) en France. \\
+
+Au sein du système coexistent deux types de régimes. Les régimes de base, qui sont part intégrante du système français de Sécurité Sociale. Ils sont obligatoires et sous contrôle de l'Assemblée Nationale, la loi annuelle de financement de la Sécurité Sociale déterminant les conditions d'équilibre financier des régimes de base. Les régimes complémentaires sont gérés par les organismes prestataires, mais sont depuis 1970 des régimes privés obligatoires.
+
+Ces différences institutionnelles s'accompagnent de différences de fonctionnement. Les régimes de bases fonctionnent par annuité:
+le calcul de la pension dépend de la durée de cotisation de l'assuré dans le régime de base. Les régimes en annuité sont dits à ''prestations définies'', le montant de la pension versée au moment du départ est défini par une formule connue à l'avance.
+Les régimes complémentaires sont des systèmes par points. Les individus accumulent des points \textit{via} des cotisations au cours de leur carrière, et ces points sont traduits en montant de pension au moment du départ en retraite, en multipliant le nombre de points par la valeur du point de l'année en cours, qui est fixé par le régime. Il s'agit donc de régimes à ''cotisations définies'', le calcul des cotisations versées est défini, mais le montant de la pension ne peut être connu avant liquidation.
+
+\begin{fig}[13cm]{Architecture générale du système de retraite français. \label{Architecture}}
+{\graphique{Architecture.pdf}} {\emph{Source:}~GIP info retraite.}
+\end{fig}
+
+\section{Les dépenses de retraites en France}
+
+La mise en place et la montée en régime du système de retraite actuels à partir de la deuxième moitié du XX\eme siècle. Une part croissante des individus bénéficie d'une pension de retraite après la vie active. Ainsi les dépenses de retraite représentent une part de plus en plus conséquente de la richesse nationale. Le graphique \ref{partPIB} présente l'évolution de 1959 à 2010 de la part des dépenses du risque vieillesse-survie (qui regroupe les pensions de droits directs, les pensions de réversion, les droits non contributifs comme le minimum vieillesse et des prestations comme l'assurance veuvage ou l'allocation personnalisée d'autonomie). Sur toute la période, la part des prestations du risque vieillesse-survie dans le PIB a presque triplé, et passe de 5,14\% à 14,41\%.
+
+\begin{fig}[13cm]{Evolution de la part des prestations du risque vieillesse-survie dans le PIB en France. \label{partPIB}} {\graphique{partPIB.pdf}} {\emph{Source:}~Drees, Les comptes de la protection sociale en France et en Europe en 2010.}
+\end{fig}
+
+Par rapport aux autres pays de l'Union européenne, la France se situe dans la moyenne haute pour ce qui est de l'importance des dépenses de retraite, relativement au produit intérieur brut. Le graphique \ref{compint} présente la part des dépenses pour le risque vieillesse pour les pays de l'Europe des quinze pour 2009. Avec 14,41\%, la France se situe au-dessus de la moyenne UE15 (12,97\%). Seules l'Italie et l'Autriche ont un niveau de dépenses plus important.
+
+\begin{fig}[13cm]{Dépenses pour le risque vieillesse-survie en 2009 dans l'Europe des 15 (en \% du PIB). \label{compint}}
+{\graphique{compint.pdf}} {\emph{Source:}~Drees, Les comptes de la protection sociale en France et en Europe en 2010.}
+\end{fig}
+
+En 2010, les prestations vieillesse versées (droits propres et dérivés) représentent environ 263 milliards d'euros. Le secteur le plus important en termes de masse des prestations versées est le régime des salariés du privé, qui représente près des deux tiers du total des prestations versées. Le tableau \ref{repartition} présente les prestations vieillesses versées au cours de l'année 2010 pour les différents régimes de retraite. L'ensemble des régimes complémentaires et supplémentaires représente environ 27\% des dépenses totales.
+
+\begin{fig}[13cm]{Répartition des dépenses de prestations vieillesse en 2010 selon le secteur (en milliards d'euros, et en pourcentage des dépenses totales). \label{repartition}}
+{\graphique{repartitionsimple.pdf}} {\emph{Source:}~Les comptes de la sécurité sociale, résultats 2010.\\ \emph{Lecture:} Les dépenses de prestations vieillesse versées par les régimes complémentaires du secteur privé représentent en 2010 66 milliards d'euros, soit 25\% des dépenses totales.}
+\end{fig}
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-rapport}
+\end{document}
+\else \fi

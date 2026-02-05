@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipp-quarto"
+version = "0.1.0"
+description = "Generate Quarto books from LaTeX sources (fiscalité des ménages)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openfisca-france>=131",
+    "pyyaml>=6.0",
+    "pandas>=2.0",
+    "jupyter>=1.0",
+]
+
+[project.scripts]
+tex2qmd-fiscalite = "tex2qmd.fiscalite:main"
+
+[tool.setuptools.packages.find]
+where = ["quarto"]
+include = ["tex2qmd*"]

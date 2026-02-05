@@ -1,0 +1,258 @@
+
+Le nouveau dispositif d'allégement dit \fg Fillon \og vise à remplacer les réductions Juppé (applicable aux entreprises n'ayant pas conclu un accord de RTT) et Aubry II. Le nouveau dispositif visait à terme à accorder à toutes les entreprises une réduction de charges s'élevant à 26\% de la rémunération brute pour les salariés rémunérés au niveau du Smic, à partir du 1\up{er} juillet 2005. A partir de cette date, le coût horaire du travail au niveau du salaire minimum serait ainsi le même pour toutes les entreprises, qu'elles aient choisi ou non de passer aux 35 heures.
+
+
+\section{Du 1\up{er} juillet 2003 au 30 juin 2005: les mesures de transition}
+
+
+\subsection{Convergence des salaires minima (Smic et GMR)}
+
+Afin de supprimer la multiplicité de salaires minima, la loi 2003-47 du 17 janvier 2003 (dite loi \fg Fillon \og) a prévu la convergence des différents montants. L'instauration des GMR a abouti à ce que le salaire horaire au niveau le plus bas de la hiérarchie salariale varie avec la date d'entrée en vigueur de la RTT\footnote{A titre d'exemple, un salarié employé au niveau du salaire minimum en août 2001 ayant bénéficié d'un accord de RTT avant le 30 juin 1999 percevra un salaire de 46,8 francs par heure travaillée, tandis qu'un même salarié travaillant dans une entreprise ayant mis en oeuvre une RTT au premier semestre 2001 perçoit une rémunération horaire de 48,2 francs.} . L'unification progressive des montants des GMR et du Smic devait aboutir à ce que, à partir du 1\up{er} juillet 2005, tous les salariés employés au niveau du Smic perçoivent le même salaire brut (pour une même durée de travail), égal au Smic horaire multiplié par le nombre d'heures travaillées.\newline
+
+En pratique, la convergence a été organisée grâce à plusieurs éléments:
+\begin{enumerate}
+    \item Plus de création de nouvelles GMR après le 1\up{er} juillet 2002. Si la durée de travail d'un salarié passe de 39h à 35h hebdomadaires entre juillet 2002 et juin 2005, la rémunération du salarié correspond à la GMR5;
+    \item Revalorisation annuelle différentielle des GMR, maximale pour la GMR1, minimale pour la GMR5. Le taux de revalorisation de la GMR5 est égale à l'évolution de l'indice des prix à la consommation des ménages urbains dont le chef de famille est ouvrier ou employé. Les taux pour les GMR1 à 4 sont obtenus par l'application de majorations décroissantes à ce taux de base;
+    \item Le Smic horaire est lui aussi revalorisé sur la base de l'indice des prix d'un ménage ouvrier ou employé, mais afin qu'il croisse plus rapidement que le montant horaire des GMR et converge, des \fg coups de pouce \og spécifiques lui ont été appliqués.
+\end{enumerate}
+
+Du fait de ces mesures, le salaire horaire des salariés bénéficiant des GMR a augmenté entre juillet 2003 et juin 2005 de 5,5\% pour les bénéficiaires de la GMR5 et jusqu'à 10,7\% pour les salariés bénéficiant de la GMR1. Ce sont les salariés n'ayant pas bénéficié d'un accord de RTT qui ont connu la plus forte hausse de rémunération brute horaire, puisque le montant du Smic horaire a augmenté de 17\% entre 2003 et 2005.
+
+%\begin{figure}[h!]
+%\begin{center}
+\includegraphics[scale = 0.55]{evolution_GMR_SMIC.pdf}
+%\end{center}
+%\end{figure}
+
+
+\textsc{Références:} Loi 2003-47 du 17/01/2003 (JO du 18/01/2003), art. 1.
+
+
+\subsection{Les différents barèmes de réductions de cotisations sociales}
+
+En plus de prévoir la convergence des GMR et du Smic horaire, la loi 2003-47 du 17 janvier 2003 visait également à unifier les mesures d'allégements de cotisations sociales. Afin de compenser la hausse du coût du travail induite par l'harmonisation des GMR et du Smic (d'autant plus forte que le montant horaire de la GMR était proche du niveau du Smic horaire), le nouveau dispositif prévoyait d'organiser progressivement la transition des barèmes Aubry II et Juppé vers une réduction de charges s'élevant à 26\% de la rémunération brute pour les salariés rémunérés au niveau du Smic, quelque soit le temps de travail collectif dans l'entreprise. En pratique, la convergence du taux de réductions (plafonné à 18,2\% dans les entreprises restées aux 35 heures et pouvant monter jusqu'à 27\% dans les entreprises passées aux 35 heures) s'est réalisé par l'application, entre 2003 et 2005, de barèmes de réduction différents selon que l'entreprise était engagée dans un accord de RTT.\\
+
+\textbf{Entreprises ayant bénéficié des réductions de cotisations Aubry II}: \\
+
+\underline{Formule de calcul applicable entre le 01/07/2003 et le 31/12/2004:}
+
+La formule de calcul de la réduction est la suivante:\\
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,7}\Big]\times \Big[1,7 \times \frac{GMR~2~horaire \times NBHR}{SBM} - 1\Big] \\
+\end{equation}
+
+où SBM est le salaire brut mensuel, GMR2 horaire est le montant horaire de la Garantie mensuelle de ressources 2, et NBHR le nombre d'heures rémunérées.
+
+La réduction maximale était ainsi de 26\% (pour la GMR2, soit comme le prévoyait le dispositif Aubry II). Les salariés rémunérés au desssus de 1,7 fois le GMR 2 horaire ne bénéficiait d'aucune réduction. Pour rappel, sous le dispositif Aubry II, l'existence d'un montant minimum de réduction permettait aux employeurs de bénéficier d'une réduction de cotisations patronales sur l'ensemble des salaires, le taux de réduction en fonction du salaire brut tendant vers 0 pour les hauts salaires.\newline
+
+\underline{Formule de calcul applicable entre le 01/01/2005 et le 01/07/2005:}
+
+La formule de calcul de la réduction est la suivante:\\
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{GMR~2~horaire \times NBHR}{SBM} - 1\Big] \\
+\end{equation}
+
+où, comme précédemment, SBM est le salaire brut mensuel, GMR2 horaire est le montant horaire de la Garantie mensuelle de ressources 2, et NBHR le nombre d'heures rémunérées. \\
+
+
+\textbf{Entreprises n'ayant pas bénéficié des réductions de cotisations Aubry II}: \\
+
+Les entreprises n'étant pas passées au 35 heures avant l'entrée en vigueur de la Loi Fillon ont vu leurs réductions de cotisations augmenter, comparativement aux exonérations dont elles bénéficiaient avec la ristourne Juppé. L'augmentation s'est faite en deux phases: \\
+
+\underline{Formule de calcul applicable entre le 01/07/2003 et le 30/06/2004:}
+
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,208}{0,5}\Big]\times \Big[1,5 \times \frac{~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel, \textit{Smic horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées. \\
+
+\underline{Formule de calcul applicable entre le 01/07/2004 et le 30/06/2005:}
+
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,234}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où, comme précédemment, SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du SMIC, et NBHR le nombre d'heures rémunérées.\newline
+
+\textsc{Références:} Décret 2003-487 du 11/06/2003 (JO du 12/06/2003) portant application du titre III de la loi 2003-47 du 17/01/2003 (JO du 18/01/2003) relative aux salaires, au temps de travail et au dévelopement de l'emploi et modifiant le code de la Sécurité sociale (modifié par le décret 2005-88 du 04/02/2005 (JO du 06/02/2005);
+
+Décret 2004-821 du 18/08/2004 (JO du 20/08/2004) portant application à certains régimes spéciaux de sécurité sociale du titre III dela loi 2003-47 du 17/01/2003 (JO du 18/01/2003) relative aux salaires, au temps de travail et au développement de l'emploi (modifié par le décret 2005-88 du 04/02/2005 (JO du 06/02/2005); Loi 2004-1484 (Loi de finances pour 2005) du 30/12/2004 (JO du 31/12/2004), art. 129; Lettre circulaire 2005-068 du 11/04/2005 ; Article D241-13 du CSS.
+
+
+\section{Dispositif unifié (Depuis le 1\up{er} juillet 2005)}
+
+Au 1\up{er} juillet 2005, toutes les entreprises se sont vu appliquer la même formule de calcul de la réduction \fg Fillon \og:
+
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où, comme précédemment, SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées.\newline
+
+Il avait été initialement prévu de porter le plafond de l'exonération à 1,7 fois le Smic horaire, mais il a finalement ramené à 1,6 Smic. Les entreprises qui avaient été bénéficiaires de l'allégement Aubry II ont donc perdu, entre le 30/06/2005 (fin des mesures de transition) et le 01/07/2005 (entrée en vigueur du dispositif unique) le bénéfice d'exonérations de charges pour les salariés dont la rémunération horaire était comprise entre 1,6 et 1,7 fois le Smic.
+
+Le dispositif Fillon est toujours en vigueur, et la formule générale de calcul n'a subi que de légères modifications depuis 2005, qui sont décrites dans les paragraphes qui suivent.\newline
+
+\textbf{Application de la formule aux salariés à temps partiel:}
+
+?? A VERIFIER!
+
+\textsc{Références:} Art. L.241-7 et L.241-13 du CSS.
+
+\section{Majoration de taux pour les petites entreprises (Depuis le 1\up{er} janvier 2007)}
+
+Au 1\up{er} janvier 2007, une majoration du taux de réduction a été instaurée pour les entreprises de moins de 20 salariés. \newline
+
+\textbf{Entreprises de 20 salariés ou plus:} \\
+La formule est inchangée:
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées.\newline
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~horaire \times NBHR}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel, \textit{SMIC horaire} est le montant horaire du Smic, et NBHR le nombre d'heures rémunérées.\newline
+
+\textsc{Références:} Loi 2006-1666 (Loi de finances pour 2007) du 21/12/2006 (JO du 27/12/2006), article 41-V; loi 2007-290 du 05/03/2007 (JO du 06/03/2007) instituant le droit au logement opposable et portant diverses mesures en faveur de la cohésion sociale, article 53-VII.\newline
+
+\textbf{Application de la formule aux salariés à temps partiel:}
+
+Le calcul de la réduction pour les salariés à temps partiel continue de se faire en calculant un Smic mensuel proratisé (voir section précédente).
+
+
+\section{Les changements des modalités de calcul de la réduction (2007, 2011 et 2012)}
+
+\subsection{Modification introduite au 1\up{er} octobre 2007}
+
+Une modification de formule a été introduite au 1\up{er} octobre 2007, remplaçant la référence au Smic horaire par la référence au Smic mensuel (défini sur la base de la durée légale du travail). Cette modification conduit donc les employeurs de salariés dont la rémunération mensuelle est augmentée par la réalisation d'heures supplémentaires à bénéficier d'un taux de réduction plus faible après l'introduction de la modification.
+
+Les formules de calcul deviennent:\newline
+
+\textbf{Entreprises de 20 salariés ou plus:} \\
+La formule est inchangée:
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~mensuel}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC \textit{annuel} est le Smic horaire multiplié par la durée légale du travail (151,67 heures).\newline
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}
+  REDUCTION = SBM \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~mensuel}{SBM} - 1\Big]
+\end{equation}
+
+où SBM est le salaire brut mensuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC \textit{annuel} est le Smic horaire multiplié par la durée légale du travail (151,67 heures).\newline
+
+\textsc{Références:} Loi 2007-1223 du 21/08/2007 (JO du 22/08/2007) en faveur du travail, de l'emploi et du pouvoir d'achat.
+
+%
+%\textbf{Application de la formule aux salariés à temps partiel:}
+%
+%Pour calculer le coefficient de réduction de cotisations dont peut bénéficier un salarié à temps partiel, le Smic mensuel reporté dans la formule doit être proratisé en fonction du nombre d'heures mensuelles prévue par le contrat de travail (hors heures complémentaires). Dans la formule (5.5) reportée ci-dessus, on a:
+%\begin{equation}\nonumber
+%  SBM = Smic~horaire \times 151,67 \times \Big[\frac{NBHMCT}{151,67}]
+%  \end{equation}
+%
+%où NBHMCT correspond au nombre d'heures de travail mensuelles prévues par le contrat de travail. \newline
+%
+%\textsc{Références:} Art. L.241-7 et L.241-13 du CSS.
+
+\subsection{Modification introduite au 1\up{er}janvier 2011}
+
+Afin de diminuer les comportements d'optimisation induits par la référence à la rémunération salariale et au salaire minimum mensuels, une modification de la formule de la réduction \fg Fillon \og a été introduite au 1\up{er} janvier 2011. La référence à la rémunération salariale et au salaire minimum annuels permet de rendre neutre en termes de réductions de cotisations sociales la distribution d'un même salaire annuel sur les mois de l'année, et supprime donc l'incitation qu'avaient les employeurs à distribuer inégalement les salaires versées aux différents mois afin de maximiser la réduction de cotisations ouverte.
+
+Les formules de calcul deviennent:\newline
+
+\textbf{Entreprises de 20 salariés ou plus:}
+
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel}{SBA} - 1\Big]
+\end{equation}
+
+où SBA est le salaire brut annuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC \textit{annuel} est le Smic horaire multiplié par la durée légale du travail (1820 heures).\newline
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel}{SBA} - 1\Big]
+\end{equation}
+
+où SBA est le salaire brut annuel (hors rémunération des heures supplémentaires et complémentaires) et SMIC \textit{annuel} est le Smic horaire multiplié par la durée légale du travail (1 820 heures).\newline
+
+Cette modification aurait permis de faire gagner aux finances publiques 1 Md d'euros par an.\newline
+
+\textsc{Références:} Loi 2010-1594 (LFSS pour 2011) du 20/12/2010 (JO du 21/12/2010).\newline
+
+\textbf{Application de la formule aux salariés à temps partiel}
+
+Pour calculer le coefficient de réduction de cotisations dont peut bénéficier un salarié à temps partiel, le Smic mensuel reporté dans la formule doit être proratisé en fonction du nombre d'heures mensuelles prévu par le contrat de travail (hors heures complémentaires). Dans la formule (5.5) reportée ci-dessus, on a:
+\begin{equation}\nonumber
+  Smic~annuel = Smic~horaire \times 1820 \times \Big[\frac{NHACT}{151,67}]
+  \end{equation}
+
+où NHACT correspond au nombre d'heures de travail mensuelles prévues par le contrat de travail. \newline
+
+
+\subsection{Modification introduite au 1\up{er}janvier 2012}
+
+Afin de diminuer le coût pour les finances publiques du dispositif de défiscalisation des heures  supplémentaires et complémentaires\footnote{Pour rappel, les heures supplémentaires concernent des salariés à temps plein travaillant au-delà de la durée légale de 35 heures hebdomadaires, tandis que les heures complémentaires concernent les salariés à temps partiel effectuant des heures au-delà de la durée de travail prévue par leur contrat de travail.} prévue par la loi TEPA de 2007, la majorité parlementaire a voté une modification du calcul de la réduction Fillon, applicable au 1\up{er} janvier 2012. Le changement conduit à intégrer la rémunération des heures supplémentaires et complémentaires dans le salaire brut annuel pris en compte, et à calculer le Smic annuel comme le produit du Smic horaire par le nombre d'heures travaillées dans l'année, incluant le nombre d'heures supplémentaires ou complémentaires.
+
+Les formules de calcul deviennent:\newline
+
+\textbf{Entreprises de 20 salariés ou plus:}
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,26}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel} {SBA} - 1\Big]
+\end{equation}
+
+où SMIC annuel est égal au $=$ Smic horaire $\times$ nombre d'heures travaillées (le nombre d'heures travaillées étant égal au nombre d'heures contractuelles majoré du nombre d'heures complémentaires ou supplémentaires), et SBA correspond au salaire brut annuel, incluant la rémunération des heures supplémentaires. \newline
+
+
+\textbf{Entreprises de 1 à 19 salariés:}
+\begin{equation}
+  REDUCTION = SBA \times \Big[\frac{0,281}{0,6}\Big]\times \Big[1,6 \times \frac{SMIC~annuel}{SBA} - 1\Big]
+\end{equation}
+
+où SMIC annuel est égal au $=$ Smic horaire $\times$ nombre d'heures travaillées (le nombre d'heures travaillées étant égal au nombre d'heures contractuelles majoré du nombre d'heures complémentaires ou supplémentaires), et SBA correspond au salaire brut mensuel, incluant la rémunération des heures supplémentaires.
+\newline
+
+Du fait de la majoration de rémunération des heures supplémentaires, la modification introduite conduit à diminuer le taux de la réduction de cotisations patronales lorsque le salarié effectue des heures supplémentaires ou complémentaires.\newline
+
+\textbf{Exemple chiffré}
+
+Prenons l'exemple d'un salarié rémunéré 10 euros de l'heure, employé à temps plein toute l'année. Le Smic est supposé fixé à 9 euros de l'heure. Le tableau suivant compare la réduction ouverte pour ce salarié selon l'ancien mode de calcul et la réduction ouverte avec la modification de calcul introduite au 1\up{er} janvier 2012.
+
+\begin{center}
+\begin{tabular}{|p{4.5cm}||p{5.5cm}|p{5.5cm}|}
+\hline
+Valeur à prendre en compte  & Calcul jusqu'au 31/12/2011 & Calcul depuis le 01/01/2012 \\
+\hline
+\hline
+Rémunération annuelle & $10 \times 1820 = 18200 $ \euro &  $10 \times 1820 + 12,5 \times 100 = 19450 $ \euro \\
+\hline
+Smic annuel & $9 \times 1820 = 16380 $ \euro  & $9 \times (1820 + 100) = 17280 $ \euro  \\
+\hline
+Calcul du coefficient & $\frac{0,26}{0,6} \times (1,6 \times \frac{16380}{18200} - 1)$   & $\frac{0,26}{0,6} \times (1,6 \times \frac{17280}{19450} - 1)$ \\
+\hline
+Réduction    & 19,1\%    & 18,3\% \\
+\hline
+\end{tabular} \\
+\end{center}
+
+\textsc{Références:}  Loi 2011-1906 (LFSS pour 2012)  du 21/12/2011 (JO du 22/12/2011), art. 16.\newline
+
+\textbf{Application de la formule aux salariés à temps partiel:}
+
+Pour calculer le coefficient de réduction de cotisations dont peut bénéficier un salarié à temps partiel, le Smic mensuel reporté dans la formule doit être proratisé en fonction du nombre d'heures annuelles prévu par le contrat de travail (hors heures complémentaires). Dans la formule (5.5) reportée ci-dessus, on a:
+\begin{equation}\nonumber
+  SBA = Smic~horaire \times 1820 \times \Big[\frac{NHACT}{151,67}]
+  \end{equation}
+
+où NHACT correspond au nombre d'heures de travail annuelles prévues par le contrat de travail. \newline
+
+
+

@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                              PARAMÈTRES À DÉFINIR ICI                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Préciser si on veut la version pour impression (avec marges intérieures plus larges) ou la version pour la mise en ligne (avec marges symétriques)
+% Mettre "print" pour la version impression et "online" pour la version en ligne (valeur par défaut)
+%\def\version{online}
+\def\version{print}
+
+% Indiquer ici le titre qui s'affichera dans l'en-tête des pages paires
+\newcommand{\entetegauche}{Le système de retraite français}
+
+% Indiquer ici les meta-données du pdf (titre, auteur)
+\newcommand{\pdftitle}{Le système de retraite français: historique et législation}
+\newcommand{\auteurs}{Institut des politiques publiques}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         CHARGEMENT DES PACKAGES ET MACROS                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\isEmbedded}{true}
+
+% Chargement des packages
+\input{Style/ipp-packages}
+
+% Chargement des macros
+\input{Style/ipp-macros}
+
+% Meta-données du PDF
+\usepackage[pdftitle={\pdftitle},
+            pdfauthor={\auteurs},
+            colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}  %pour que le fichier PDF contiennent des liens hypertexte mais sans couleur
+
+% Chargement de la charte graphique
+\input{Style/ipp-charte}
+
+% Chargement du style de la bibliographie
+\bibliographystyle{Style/ipp-bibliostyle}
+
+\begin{document}
+
+% Profondeur de la numérotation des sections (sous-sous sections)
+\setcounter{secnumdepth}{3}
+% Profondeur de la table des matières (sous-sections)
+\setcounter{tocdepth}{2}
+
+% Pour changer la couleur des bullets dans les liste à puce %
+\renewcommand{\labelitemi}{${\color{ippdark}\bullet}$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                       COUVERTURE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion des deux pages de couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture1.pdf}
+\pagevide
+
+\includepdf[pages=1]{Couverture/couverture2.pdf}
+\pagevide
+
+\includepdf[pages=1]{Couverture/couverture1b.pdf}
+%\pagevide
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                      SOMMAIRE                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Sommaire} \setstretch{1.2}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                CHAPITRES DU RAPPORT                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\setstretch{1.3}
+\addcontentsline{toc}{chapter}{Introduction}
+\entetetwo{\entetegauche}{Introduction}
+\cfchapter*{\label{Introduction}Introduction}{Sections/1-Introduction}{Introduction.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~1 -- Présentation générale}
+\cfchapter{\label{Chapitre1}Présentation générale}{Sections/2-Chapitre1}{1-Presentation.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~2 -- Le secteur public}
+\cfchapter{\label{Chapitre2}Le secteur public}{Sections/3-Chapitre2}{2-Public.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~3 -- Le secteur privé}
+\cfchapter{\label{Chapitre3}Le secteur privé}{Sections/4-Chapitre3}{3-Prive.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~4 -- Les indépendants}
+\cfchapter{\label{Chapitre4}Les indépendants}{Sections/5-Chapitre4}{4-Non-salaries.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~5 -- Les avantages non-contributifs}
+\cfchapter{\label{Chapitre5}Les avantages non-contributifs}{Sections/6-Chapitre5}{5-Non-contributif.tex}
+
+\cleardoublepage
+\entetetwo{\entetegauche}{Chap.~6 -- La coordination du système}
+\cfchapter{\label{Chapitre6}La coordination du système}{Sections/7-Chapitre6}{6-coordination.tex}
+
+
+\entetetwo{\entetegauche}{Conclusion générale}
+\chapter*{Conclusion générale}
+\addcontentsline{toc}{chapter}{Conclusion générale}
+%\input{Sections/8-Conclusion/Conclusion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    BIBLIOGRAPHIE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\phantomsection
+\entetetwo{\entetegauche}{Références}
+\addcontentsline{toc}{chapter}{Références}
+\bibliography{Biblio/biblio-guide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                GLOSSAIRE                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\entetetwo{\entetegauche}{Glossaire}
+\chapter*{Glossaire \label{glossaire}}
+\input{Sections/9-Glossaire/Glossaire.tex}
+\addcontentsline{toc}{chapter}{Glossaire}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    4E de COUV                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagevide \pagevide
+% Inclusion du dos de la couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture4.pdf}
+
+\end{document}

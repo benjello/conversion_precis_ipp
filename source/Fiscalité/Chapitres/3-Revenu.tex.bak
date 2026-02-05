@@ -1,0 +1,979 @@
+\section{Comment sont imposés les revenus en France depuis 1914 ?}
+
+Si les impôts sur le revenu sont un sujet sensible dans le débat public, leur principe est aujourd'hui quasiment incontesté. Pourtant, une telle unanimité est loin d'avoir toujours existé dans la population et parmi les dirigeants politiques français. Cette partie vise à retracer brièvement l'histoire des impôts assis sur les revenus dans le paysage fiscal hexagonal. Pour davantage de détails, un lecteur intéressé pourra se référer aux ouvrages de~\cite{Ardant1971} et de~\cite{Piketty1999}.
+
+\paragraph*{Genèse du premier impôt sur le revenu}
+La mémoire collective retient que l'impôt sur le revenu est institué en France par la loi du 15 juillet 1914. En réalité, le nouvel impôt instauré au début du XX\eme siècle repose sur une logique duale: d'un côté l'impôt général sur le revenu (IGR), de l'autre un ensemble d'impôts \og cédulaires~\fg~(car reposant sur les différentes catégories de revenus) instauré le 31 juillet 1917.
+
+Le principe d'un impôt assis sur les revenus a été étudié dès 1848 pendant la II\eme République, puis mis en sommeil sous le Second Empire et les premiers moments de la III\eme République, davantage occupée à la consolidation de ses institutions que soucieuse de nourrir un débat fiscal clivant. Le processus de création d'un IR est amorcé au cours de la décennie 1890, dans une République consolidée mais parcourue de tensions politiques et sociales, et essentiellement porté par des orateurs du Parti Radical (comme P. Doumer, et surtout J. Caillaux). La Chambre des députés accepte le principe d'un impôt sur le revenu progressif et déclaratif dès 1909 qui reprend un projet déposé par le député Joseph Caillaux en 1907. C'est au Sénat, plus conservateur que la Chambre, que le projet est bloqué par une droite peu encline à perturber les mécanismes de libre concurrence, ni à accepter que des dispositifs de protection sociale soient financés par les revenus des riches contribuables. Ce n'est qu'après la victoire de la gauche aux élections législatives de 1914 (dont le thème principal fut \dots~l'instauration de l'IGR~!) et la menace d'un conflit armé de grande ampleur avec l'Empire Allemand que le principe de l'impôt sur le revenu fut reconnu par le Sénat : dans un esprit d' \og Union sacrée~\fg~avant l'heure, le Sénat cède en échange d'une loi portant à trois ans la durée du service militaire en France -- sans doute pour financer cette mesure coûteuse .
+
+Ce nouvel impôt n'est pas à proprement parler révolutionnaire. Deux autres impôts de conception ``moderne'' l'ont précédé : un impôt proportionnel sur le revenu des valeurs mobilières créé en 1872, et même un impôt progressif sur les successions voté en 1901. Par moderne, nous entendons deux choses. D'abord, que l'impôt repose non plus sur une conception ``indiciaire'' (La richesse de chacun est estimée en fonction d'éléments extérieurs censés être des indices\footnote{Par exemple, la contribution sur les portes et fenêtres estime la valeur locative des logements en fonction du nombre d'ouvertures.}) de la capacité contributive de chacun mais sur une les valeurs effectives, selon une logique déclarative. Ensuite, il ne s'agit plus d'impôt par ``répartition'' (un montant global attendu est annoncé par le gouvernement central, puis réparti au sein de chaque département, puis de chaque commune et enfin de chaque contribuable) mais par ``quotité'' (assis sur un taux d'imposition applicable à une assiette déterminée). Les taux d'imposition de l'IGR ne sont pas non plus différents de ceux jugés acceptables par l'opinion publique de l'époque: le taux marginal supérieur lors de l'imposition des revenus de 1915 n'excède pas 2\%. Le point le plus novateur du projet de l'IGR est indubitablement la déclaration annuelle par chaque contribuable de l'ensemble des revenus perçus dans son foyer au cours de l'année passée. En revanche, il faut attendre les amendements du Sénat pour qu'une composante familiale soit introduite dès 1914 dans le calcul de l'impôt. Il est prévu que les couples mariés font une déclaration conjointe au nom du chef de famille, et un système de double réduction d'impôt (déduction forfaitaire en fonction des personnes à charge et réduction proportionnelle) est mis en place.
+
+L'application de l'impôt est retardée d'un an, ce qui fait que les premiers revenus imposés au titre de l'IGR sont ceux de 1915. Dès 1917, l'autre composante de l'impôt sur le revenu est votée: une série de six impôts \og cédulaires~\fg, taxes globalement proportionnelles (dont le taux n'excède pas 6\%) pesant séparément sur les différentes catégories de revenu \footnote{Ces catégories sont encore en usage dans la législation contemporaine: BIC, BA, BNC, traitements-salaires-pensions, RCM, revenus immobiliers.}. Ce nouvel impôt remplace les quatre contributions héritées de l'Ancien Régime encore en vigueur jusque là\footnote{Pour leur part concernant l'État central seulement. Au niveau local, certaines contributions ont changé de nom mais restent en vigueur aujourd'hui encore.}. Les mêmes réductions d'impôt que l'IGR s'appliquent au titre des personnes à charge. L'assiette de cet impôt proportionnel est en revanche légèrement plus étroite que celle de l'IGR (en particulier, elle permet la déductibilité des revenus des intérêts de la dette publique). La dualité de l'impôt répond à une division du travail fiscal claire: l'impôt cédulaire sert à fournir des ressources fiscales, et l'IGR à redistribuer de l'argent des contribuables les plus riches vers les autres. Les contribuables soumis à l'IGR sont donc imposés deux fois sur leur revenu.
+
+\paragraph*{L'IR dans la Grande Guerre}
+Le fait marquant de l'histoire de l'IR à cette période est la hausse rapide des taux d'imposition. Dès le barème s'appliquant aux revenus de 1916, l'abattement général est abaissé de 5~000~FF à 3~000~FF, le taux marginal supérieur est porté à 10\%. D'une année sur l'autre, les revenus taxés au taux marginal supérieur de 2\% (au titre de 1915) sont taxés \textit{a minima} à hauteur de 5\% l'année suivante. S'il est difficile d'expliquer ce fait avec précision, l'idée générale est que dans une guerre ``totale'' et perçue comme telle, la totalité des Français doivent participer à l'effort de guerre. Ceux qui ne combattent pas au front doivent soutenir l'effort de guerre d'une autre manière. L'Union sacrée des années 1914-1918 s'est sans doute étendue au domaine de la fiscalité: les riches contribuables -- souvent aussi trop vieux pour être mobilisés -- acceptent de payer davantage d'impôts pour compenser le fait d'être exempté ou trop vieux pour combattre. Pour l'opinion publique et notamment pour le moral des soldats au front, percevoir un soutien financier et symbolique a dû effectivement pu avoir une certaine importance.
+
+Du point de vue de la technique fiscale utilisée, l'autre nouveauté à souligner est l'apparition de barèmes définis en taux moyens dès l'imposition des revenus de 1917 et 1918, avec une graduation plus fine des taux moyens en fonction des montants déclarés. L'utilisation de ce type de barème accentue davantage la pression fiscale sur les hauts revenus, pression encore renforcée par le relèvement du taux moyen supérieur à 20\%.
+
+\paragraph*{La pérennisation de l'IR dans l'entre-deux guerres}
+Un paradoxe dans l'histoire de l'IR est que c'est la chambre \og Bleu horizon~\fg, une des plus à droite de l'histoire de la III\eme République, qui pérennise ce dispositif fiscal en 1920. La loi du 25 juin 1920 va encadrer l'IR pendant quinze ans, en fixant un barème intangible (taux et tranches) auquel il suffit d'appliquer un taux unique applicable voté chaque année. Pour les revenus de 1919, ce système conduit à un taux marginal supérieur de 50\%. D'autant que la dimension nataliste de cet impôt est renforcée, avec un renversement de la logique: jusqu'alors, il existait une incitation à avoir des enfants ; mais à présent, ne pas en avoir est susceptible de pénalisation.
+
+Pourquoi avoir accentué la pression fiscale sur les revenus ? La situation catastrophique des finances publiques est évidemment un argument à prendre en compte, d'autant que dans l'euphorie de la victoire des engagements très dispendieux ont été pris par l'État pour les pensions des combattants et des veuves de guerre. Mais cette réponse est insatisfaisante, car l'IR ne constitue pas une source de rentrées d'argent importante. Ce qui permettre à la France de régler ses dettes de guerre, c'est essentiellement l'inflation du début des années 1920. Peut-être que ce choix fiscal vise avant tout à ne pas rompre totalement l'Union sacrée des années de guerre, voire à acheter symboliquement la paix sociale dans un contexte de montée du socialisme et du communisme en France\footnote{La gauche marxiste est divisée sur la question de l'IR. Selon l'analyse commune de l'époque, si cet impôt semble un dispositif efficace pour exproprier partiellement les revenus de la ``bourgeoisie'', la redistribution des revenus a un effet contre-productif sur le processus de paupérisation qui doit déboucher sur la révolution prolétarienne.}. Cela permet aussi de continuer à faire contribuer à l'effort de reconstruction ceux qui n'ont pu combattre. Il faut toutefois noter que la coloration clairement nataliste de cet IR permet de faire accepter à l'électorat de droite ce choix fiscal. Ce régime perdure de 1920 jusqu'au Front populaire. Seuls sont utilisables comme outils de politique budgétaire les taux applicables (et d'une manière qui indexe les évolutions du barème à l'ensemble de la population) et les majorations exceptionnelles. La pression fiscale connaît un pic juste avant le Cartel des gauches, avec un taux marginal atteignant 72\% hors dispositifs pénalisants), et amorce ensuite un mouvement de baisse continue sous l'impulsion de R.Poincaré, mouvement poursuivi pendant les années 1930.
+
+Le Front populaire est le premier gouvernement osant réformer cet IR en refondant son barème, exprimé désormais en taux moyens s'échelonnant jusqu'à 40\%. Cet outil devient plus efficace dans une perspective de rendement fiscal, mais le Front populaire échoue à supprimer le dispositif honni par la gauche de déduction des impôts payés l'année passée du revenu imposable l'année courante. En revanche, le Front populaire infléchit la politique de natalité en l'arrimant à des considérations sociales: les abattements ne sont plus forfaitaires par enfant à charge, mais dégressifs en fonction du revenu. Après le Front populaire, des contributions exceptionnelles pour financer la guerre imminente font remonter les taux supérieurs à des niveaux importants, supérieurs à 50\%.
+
+Contrairement à ce que l'on pourrait penser, l'usage fait de l'IR par le gouvernement de Vichy est davantage marqué par des continuités que par des ruptures avec l'usage du Front populaire. Avant la loi d'octobre 1942, le barème reste sensiblement identique. En revanche, un retour à une politique nataliste plus affirmée est à souligner. Vichy choisit pour cela de forger un outil fiscal indépendant de l'IR : la taxe de compensation familiale (TCF) qui frappe les célibataires. Il faut dire que par idéologie (la taxation des hauts revenus détenus par des \og~capitalistes \fg~et des \og~apatrides~\fg~ennemis de la Nation n'est pas regardé trop négativement par les hauts fonctionnaires du régime), par pragmatisme économique et pour des raisons de cohésion sociale, Vichy n'est pas forcément un régime si hostile à l'IR. Toutefois, un nouveau barème directement inspiré de celui de 1920 est voté en octobre 1942, et l'abattement général est relevé à 20~000~FF.
+
+\paragraph*{La refonte de l'IR à la Libération et ses évolutions contemporaines}
+À la Libération, une refonte totale de l'IR est entreprise. L'impôt sur le revenu va progressivement prendre la forme qui est la sienne aujourd'hui encore. Trois éléments le définissent:
+\begin{itemize}
+\item \textbf{Le quotient familial (QF)}: le principe de lier l'impôt sur le revenu à la composition du foyer fiscal est réaffirmé et n'a pas été mis en cause depuis 1945. La prise en compte de la structure du foyer fiscal est pris en compte lors du calcul du revenu imposable, qui est divisé par le nombre de parts fiscales du foyer fiscal avant d'y appliquer le barème de l'IR\footnote{Pour un descriptif plus précis du calcul des parts fiscales d'un foyer fiscal, se référer aux parties \og quotient conjugal~\fg~et \og quotient familial~\fg.}. Le montant ainsi obtenu correspond au montant d'IR que le foyer fiscal doit payer \textit{par part fiscale}. Ce mode de calcul est avantageux dans la mesure où, le barème de l'IR étant progressif, la fonction $T$ qui le modélise est concave. Par définition de la fonction concave, $ \forall QF, \, R\, >\,0 \ , \, QF \times T(\frac{R}{QF}) \, \leq \, T(R) $.\\
+\item \textbf{La forme du barème en taux marginaux}: Si le nombre de tranches employé varie fortement dans le temps entre 1945 et 2013, l'allure générale du barème est assez comparable au cours de cette période. Deux mouvements opposés sont à souligner, avec le milieu des années 1980 comme charnière: avant cette date, le nombre de tranches tend à croître et celui des taux marginaux supérieurs est stable au-dessus de 60\%. Par la suite, le nombre de tranches tend à se contracter et les taux marginaux supérieurs connaissent un recul, passant de 60\% environ à 40\%. La variation du nombre de tranches n'a pas d'autre objectif que le lissage du barème mais est sans réelle incidence sur le profil des taux moyens d'imposition. Quant aux taux marginaux, il ont longtemps gravité autour de 55\%-65\% et il faut attendre les années 2000 pour les voir descendre sous 40\%. La crise économique débutée en 2008 semble avoir incité les dirigeants français à inverser la tendance, mais jusqu'à présent la revalorisation des taux marginaux n'atteint ``que'' 45\%, un niveau historiquement plutôt faible pour un taux marginal supérieur\footnote{Il existe plusieurs explications à ce mouvement de baisse des taux marginaux d'imposition. L'une d'elle est le couplage de l'IR avec des contributions exceptionnelles sur les hauts revenus. Mais l'imposition du patrimoine est aussi un poids fiscal qui cible plus particulièrement les contribuables les plus fortunés. Enfin, depuis le début des années 1990, un impôt alternatif sur les revenus voit le jour : la CSG.}.
+\item \textbf{La non-déduction de l'impôt de l'année précédente du revenu imposable}: Étant donné la composition\footnote{Certainement la Chambre la plus à gauche de l'histoire de la République, avec le PCF comme premier parti de France et une majorité absolue détenue par le tandem PC -- SFIO, partis se réclamant du marxisme dans leurs statuts.} de l'Assemblée nationale à la Libération, on peut s'étonner que le barème voté pour les revenus de 1945 soit aussi "sage" (avec cinq tranches, et un taux marginal supérieur s'élevant à 60\%). Ce choix relève d'une négociation entre la droite et le PCF, ce dernier acceptant un tel barème à condition que le principe de déduction de l'impôt acquitté l'année précédente des revenus imposables soit abandonné. En réalité, la déduction a d'abord été de 50\% du montant total acquitté, mais l'abandon total eut lieu dès 1946.
+
+\end{itemize}
+
+Ces trois éléments se sont imposés, pendant près de soixante-dix ans, comme la matrice identitaire de l'IR français. \\
+
+Malgré plusieurs changement de nom de l'impôt depuis 1945, peu de réformes d'ampleur sont donc à noter. Les modifications significatives sont habituellement le fait de la droite, qui diminue les taux marginaux supérieurs lorsqu'elle est aux affaires. Ce fut notamment le cas lors de l'alternance de 1986, sous le gouvernement Chirac. Il en fut de même en 1993 (Balladur) puis en 1995 (Juppé). Un mouvement de plus grande ampleur s'est constitué dans les années 2000, pendant lesquelles le taux est descendu pour la première fois depuis la Libération sous 40\%. Il faut remarquer également que la gauche ne rehausse pas les taux marginaux lorsqu'elle est aux affaires après 1984, à l'exception de 2012 sous le gouvernement Ayrault et dans un contexte marqué par une dégradation importante des comptes publics.\\
+
+Le système dual de l'IR est officiellement supprimé en 1948, date à laquelle l'impôt cédulaire (alors renommé \og taxe proportionnelle~\fg)est abrogé. Toutefois, un système de surtaxe touchant certains types de revenus (revenus non-salariaux, revenus du capital par exemple) compense la suppression de l'impôt cédulaire. Les surtaxes ne seront complètement abolies qu'au début des années 1970 -- sans pour autant que les revenus soient considérés de la même manière par ailleurs. Derrière cet objectif de simplification du système fiscal se cache une question de première importance: comment incorporer davantage de contribuables dans l'assiette de l'IR afin d'accroître les recettes perdues par la suppression des impôts cédulaires ? En d'autres termes, comment effectuer la ``transition fiscale'' entre un impôt secondaire payé par peu de contribuables et un impôt large touchant beaucoup de contribuables ? La méthode employée a consisté à jouer sur le différentiel qui existe entre la progression des revenus et la revalorisation des tranches du barème. Tous les ans, le seuil des tranches du barème applicable aux revenus de l'année courante est fixé par une loi. Si la revalorisation des tranches progresse moins vite que les revenus, plus de contribuables sont imposables chaque année. Cette stratégie est une tendance lourde, appliquée continuellement depuis 1945. Depuis 2007, une loi précise les règles de revalorisation des seuils en précisant que la revalorisation se fait au rythme de l'inflation (l'inflation est en moyenne plus basse d'un point de pourcentage que la progression moyenne des revenus depuis les années 1990). L'essentiel de cette transition fiscale a eu lieu au cours des années 1960-1980, avec un taux de contribuables imposables à l'IR dépassant 50\%.\\
+
+Un autre enjeu de réforme de l'IR est l'inégalité de traitement entre revenus salariaux et non-salariaux dans l'IR. Dans les années 1950, les revenus salariaux ont même été exonérés de taxe proportionnelle d'IR et imposables seulement au titre du barème progressif. Cette différence de traitement est justifiée par divers arguments, mais s'explique \textit{in fine} par des considérations de justice sociale qui ne sont pas toujours exemptes de clientélisme politique: comme on pouvait s'y attendre, les tenants de l'inégalité de traitement entre salaires et revenus non-salariaux ont longtemps été les partis de gauche (PC et PS), tandis que la droite, sous couvert d'égalité devant l'impôt, s'est faite le héraut des artisans, commerçants et travailleurs libéraux.
+
+La convergence entre le traitement des différents revenus est initiée dans les années 1960 mais les résultats n'apparaissent que graduellement. Par exemple, un abattement de 20\% sur les salaires et traitement existe jusque 2006, au motif que ces revenus ne peuvent pas être dissimulés lors de la déclaration de revenus. Implicitement, cela revient à offrir une compensation aux détenteurs de ces revenus qui ne peuvent pas frauder, alors que de la fraude est postulée pour les revenus non-salariaux et les revenus du capital. Si le dispositif d'abattement a été supprimé, des mesures correctives minorent les abattements et majorent les revenus et déductions d'autre nature déclarés par les contribuables (pensions, revenus des indépendants non-adhérents d'un organisme agréé, revenus des capitaux mobiliers, etc.). L'imparfaite égalité de traitement entre les différents revenus reste donc une question ouverte.
+
+Le traitement accordé aux revenus du capital mobilier est un autre exemple de l'inégalité de traitement qui existe entre les les divers revenus. Parmi cette catégorie, seuls les dividendes sont imposés au barème de l'IR. Pour le reste, l'arbitrage est laissé pour le contribuable entre l'imposition au barème et l'imposition à un taux proportionnel d'environ 20\%, en vertu du prélèvement forfaitaire libératoire (PFL). Il n'y a donc pas de progressivité dans les modalités de taxation de ces revenus.\\
+
+Un dernier élément doit être mentionné, qui complexifie encore davantage le tableau de la fiscalité sur les revenus. La fiscalité due au titre de l'impôt sur le revenu ne se limite plus, depuis février 1991, à l'IR. Des contributions sociales globalement proportionnelles ont progressivement vu le jour au cours des années 1990 et 2000 et prennent une importance croissante au fil du temps. Il s'agit de la contribution sociale généralisée (CSG), de la contribution au remboursement de la dette sociale (CRDS), et des contributions additionnelles sur les revenus du capital. L'essor de ces nouveaux impôts proportionnels n'est pas sans rappeler, par l'ordre de grandeur de ses taux et ses variations en fonction de la nature des revenus, les impôts cédulaires de la première moité du XX\eme siècle, sur une assiette plus large\footnote{Pour un historique détaillé des taux de ces contributions, se référer à la partie \og Contributions sociales~\fg.}. Ce phénomène explique en particulier le mouvement de baisse des taux du barème de l'IR à partir des années 1990 et pendant les années 2000.
+
+Il complexifie en outre les comparaisons sur le traitement des différents revenus par l'impôt sur le revenu: les revenus du capital mobilier, par exemple, sont soumis à un taux de PFL d'environ 20\% auquel s'ajoute une imposition de 16\% au titre de la CSG, CRDS et prélèvement supplémentaires. Les revenus salariaux sont soumis au barème de l'IR mais les contributions sociales sur ce type de revenu ne s'élèvent qu'à 8\% environ. \\
+
+Au début des années 2010, les impôts sur le revenu en France ont atteint un niveau de complexité qui empêche d'avoir une vision claire sur le niveau d'imposition des différents types de revenus. La tendance à la baisse des taux et à la réduction du nombre de tranches est contrecarrée par la montée en puissance de la CSG-CRDS, nouvel avatar de l'impôt cédulaire appliquant un taux distinct aux différents types de revenus. L'impôt apparaît opaque, mal connu, et partant mal accepté.
+
+\section{L'impôt sur le revenu (IRPP)}
+
+Nous présentons ici les étapes successives permettant de calculer l'impôt sur le revenu des contribuables français. Ce mode de calcul correspond à la législation en vigueur pour les revenus perçus en 2012, après prise en compte des réformes fiscales menées à l'été 2012 par le gouvernement Ayrault.
+
+En raison du décalage d'un an entre l'année à laquelle les revenus sont déclarés et l'année à laquelle l'impôt sur ces revenus est perçu, nous précisons que les années font référence -- sauf mention explicite -- à l'année pour laquelle l'impôt est ou sera perçu.
+
+\subsection{Détermination des revenus catégoriels nets imposables}
+Il existe quatre sortes de revenus catégoriels: les \textbf{traitements, salaires, pensions et rentes viagères}; les \textbf{revenus des valeurs et capitaux mobiliers} (RMC); les \textbf{revenus fonciers}; les \textbf{revenus des professions non salariées}.
+
+Toutefois, la prise en compte de ces revenus répond à une définition \textbf{propre à l'IRPP} des salaires, des pensions de retraite, des allocations chômage, des préretraites et des pensions d'invalidité. Selon cette définition, ces revenus correspondent aux revenus bruts déduits des cotisations salariales et de la CSG déductible (cf le tableau~\ref{micro} de la partie 1 sur les différents éléments entrant dans le calcul du salaire)\footnote{La CSG est composée d'une part déductible et d'une part non déductible. Cette spécificité se justifie par la nature de la CSG qui est à la fois un impôt et une cotisation sociale (JO Sénat du 16/12/2004).}.\\
+
+Ces revenus permettent le calcul du revenu brut global (RBG), le revenu intermédiaire indispensable à la détermination de l'assiette sur laquelle sera calculée l'impôt sur le revenu de chaque foyer fiscal. Le RBG est obtenu en additionnant l'ensemble des revenus nets catégoriels, desquels on retranche les déficits antérieurs. Lorsque le RBG n'est pas suffisant pour que l'imputation des déficits puisse être intégralement opérée, l'excédent de déficit est reporté successivement sur le RBG des années suivantes jusqu'à la sixième année incluse.
+
+\subsubsection{Traitements, salaires, pensions et rentes viagères}
+
+Le contribuable a le choix de déduire ses frais réels ou bien de se voir appliquer un abattement forfaitaire de 10\% sur ses revenus imposables. Ces déductions ne peuvent excéder un certain plafond (en 2013, 12~000~euros pour les salaires et 3~660~euros pour les pensions et retraites\footnote{Le plafonnement de l'abattement est calculé à l'échelle du foyer pour les pensions et retraites alors qu'il est calculé au niveau individuel pour les salaires et les allocations chômages.}), ni aller en-deçà d'un certain plancher (en 2013 toujours, 421~euros pour les salaires, 924~euros pour les demandeurs d'emploi de plus d'un an\footnote{Ce plancher s'applique pour la première fois en 1998.} et 374~euros pour les pensions et les retraites).\\
+
+Jusqu'à la fin de 2006 un second abattement de 20\% était appliqué sur la somme des salaires et des pensions (après prise en compte de l'abattement de 10\%) de chacun des membres du foyer fiscal. Il ne pouvait descendre sous un certain plancher (24~040~euros en 2006). Ce second abattement a été supprimé. \\
+
+Seule une fraction des rentes viagères à titre onéreux est imposable. Cette fraction dépend de l'âge du bénéficiaire: 70\% pour les moins de 50 ans, 50\% pour les 50-59 ans, 40\% pour les 60-69 ans, et 30\% à partir de 70 ans.
+
+\subsubsection{Revenus des valeurs et capitaux mobiliers (RCM)}
+
+Il existe trois types de RCM : les produits des contrats d'assurance-vie, les RCM ouvrant droit à abattement et ceux n'ouvrant pas droit à abattement. \\
+\begin{itemize}
+\item Pour les produits d'assurance-vie, le contribuable a le choix du mode d'imposition. Il peut choisir l'imposition au titre du prélèvement forfaitaire libératoire (PFL) dont le taux dépend de la durée de détention du contrat et de la date de souscription\footnote{Les réformes sur la fiscalité des contrats n'étant pas rétroactives, toute réforme des taux d'imposition surperpose un cas supplémentaire aux cas déjà existants.}, ou l'imposition au barème. Dans les deux cas, le contribuable bénéficie d'un abattement  (4~600~euros, à doubler dans le cas d'un couple soumis à imposition commune) si le contrat a été souscrit au moins 6 années avant, pour les contrats conclus entre le 01/01/1983 et le 31/12/1989, et au moins 8 années avant, pour les contrats conclus après le 31/12/1989.  Les contrats souscrits avant le 01/01/1983 sont pour leur part complètement exonérés d'impôt sur le revenu. \\Depuis 1998 (loi 97-1269 de fiannces pour 1998), alors qu'ils bénéficiaient auparavant d'une exonération, les produits acquis au-delà de 6 ans de souscription pour les contrats émis entre le 01/01/1983 et le 31/12/198 et au-delà de 8 ans pour les contrats émis depuis  le 31/12/1989, sont imposables au prélèvement libératoire de 7,5\% ou à l'impôt sur le revenu. Cependant l'exonération est maintenue pour ces mêmes contrats en ce qui concerne les primes versées avant le 01/01/1998 et les produits afférents acquis après cette date.
+    \\Pour les contrats d'assurance-vie souscrits après le 25 septembre 1997, le taux d'imposition au PFL dépend de la durée du contrat au moment du retrait. Si le contrat a été détenu au moment du retrait:
+    \\ - moins de 4 ans : les revenus du contrat sont imposés à 35\%;
+    \\ - entre 4 et 8 ans : les revenus sont imposés à 15\%;
+    \\ - plus de 8 ans : les revenus sont imposés à 7,5\% après abattement.
+
+ \vspace{0,5cm}
+\item Les RCM ouvrant droit à abattement constituent l'ensemble des dividendes distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent et ayant signé une convention fiscale avec la France. Ces revenus  proviennent ainsi de produits de placement à revenu variable. Du 01/01/2008 au 31/12/2012, le contribuable pouvait choisir son mode d'imposition entre PFL et barème.
+    \\Dans le cas d'une imposition au barème, on commence d'abord par déduire l'abattement (40\% depuis 2007) des RCM. Jusqu'au 1\er janvier 2013, on applique ensuite un abattement forfaitaire (de 1~525~euros en 2012, à doubler dans le cas d'un couple soumis à imposition commune). Cet abattement a été supprimé dans la LFI pour 2012. Jusqu'au 1\er janvier 2011, un crédit d'impôt de 50\% des revenus perçus éligibles était également accordé dans la limite de 115 euros, à doubler dans le cas d'un couple soumis à imposition commune. Avant le 1\er janvier 2005, le crédit d'impôt n'existait pas et l'abattement proportionnel était remplacé par un avoir fiscal de 50\% des dividendes versés, justifié par le fait de ne pas imposer en totalité les dividendes versés par les sociétés, ces dernières ayant déjà payé un impôt sur les bénéfices.
+      \vspace{0,5cm}
+    \\ De 2008 à 2012, l'option pour le prélèvement libératoire était applicable aux dividendes éligibles à l'abattement de 40\%. Le taux du prélèvement libératoire a progressivement augmenté de 18\% en 2008 à 21\% en 2012. En optant pour le PFL, le contribuable renonçait au bénéfice des abattements et du crédit d'impôt, même pour les autres dividendes imposés au barême dans le cas d'une option partielle. Le prélèvement forfaitaire n'est plus libératoire depuis le 1\er janvier 2013 à l'exception des contribuables justifiant de moins de 2~000\euro~d'intérêts annuels. Le prélèvement subsiste au taux de 21\% et constitue un acompte sur l'impôt sur le revenu.
+
+
+
+\vspace{0,5cm}
+\item Les RCM n'ouvrant pas droit à abattement sont les revenus issus de placements à revenu fixe : obligations, titres participatifs, fonds salariaux, bons de caisse des banques, bons du Trésor, bons d'épargne des PTT, comptes sur livrets, créances, dépôts, cautionnements et comptes courants. L'expression "placement à revenu fixe" utilisée par le CGI doit être comprise au sens large puisqu'elle inclut les obligations à taux variable ou les titres participatifs. Elle sert en premier lieu à distinguer ces revenus des dividendes distribués par les sociétés.
+    \\Jusqu'en janvier 2013, le prélèvement forfaitaire libératoire était susceptible de s'appliquer aux produits des placements à revenu fixe. En 2012, ce taux était de 24\% pour les obligations, les titres particpatifs, les titres de créances négociables, ainis que pour les bons de caisse, les bons du Trésor, les créances, dépôts et cautionnements émis depuis 1995. A ce taux s'ajoutaient les prélèvements sociaux. Certains types de placements étaient soumis à des taux libératoires particuliers dépendant de la date d'émission et du caractère anonyme ou non de la détention pour les bons, ou de la période sur laquelle les produits sont courus pour les autres types de placement.
+     \\ Le prélèvement forfaitaire cesse d'être libératoire (au-delà de 2 000\euro~ d'intérêts annuels) à compter du 1\er janvier 2013. Il est remplacé par le barême progressif de l'impôt sur le revenu : la réforme de 2013 aligne donc l'imposition des revenus du capital sur ceux du travail. Toutefois des prélèvements à la source subsistent (de 24\% pour l'ensemble des RCM, 42\% si la détention est anonyme), qui correspondent à des acomptes imputés ensuite à l'IR. Le prélèvement forfaitaire s'impute ainsi sur l'impôt sur le revenu dû au titre de l'année au cours de laquelle il a été opéré. S'il excède l'impôt dû, l'excédent est restitué.%%%% sont majorés de 25\% du fait de la suppression de l'abattement de 20\% sur les salaires et de son intégration dans le barème depuis 2007. Un coefficient multiplicateur de 1,25 leur est donc appliqué au moment de déterminer l'assiette de cette catégorie de revenu. NON cf http://bofip.impots.gouv.fr/bofip/963-PGP
+%%%% PAS CLAIR CETTE PARTIE. DEMANDER A JO
+\item Les revenus des placements suivants sont exonérés d'impôt sur le revenu et de prélèvements sociaux :
+    \begin{itemize}
+    \item livret A,
+    \item livret jeune,
+    \item livret d'épargne populaire (LEP),
+    \item livret de développement durable (LDD).
+    \end{itemize}
+
+\end{itemize}
+
+\subsubsection{Revenus fonciers}
+
+Il existe deux régimes d'imposition différents des revenus fonciers : le régime foncier normal et le régime micro-foncier. Ce second régime a été crée par la loi de finances de 1998 et concerne les foyers fiscaux qui perçoivent moins de 15~000~euros de revenus fonciers bruts par an. Un contribuable relevant du régime micro-foncier peut toutefois opter pour le régime réel. Il s'engage alors dans ce régime pour une durée minimale de 3 ans. À l'issue de ces trois ans, il aura à nouveau le choix entre rester dans le régime réel ou changer pour le régime micro-foncier.\\
+\begin{enumerate}
+\item Dans le régime foncier normal, le contribuable peut déduire de ses revenus bruts un ensemble de charges déductibles. Il existe également un nombre conséquent de dispositifs permettant de déduire des charges spécifiques supplémentaires (dispositifs \og Besson ancien \fg, \og Robien \fg, \og Scellier \fg, \og Borloo neuf \fg~,etc.).
+    \begin{description}
+    \item -- Si le solde est positif, il peut imputer d'éventuels déficits antérieurs à ses revenus fonciers.
+    \item -- Si le solde est négatif, ce déficit foncier peut être imputé sur le revenu global dans la limite de 10~700~euros (en 2013)\footnote{Ce plafond a été mis en place pour l'imposition des revenus de 1992. Le montant du plafond peut différer pour certains dispositifs. Dans le cadre du dispositif Perissol, le plafond est un peu plus élevé. Pour les monuments historiques, il n'y a aucun plafonnement. Par ailleurs, le contribuable devra déclarer un revenu foncier positif ou nul au titre des trois années suivantes consécutivement, c'est à dire qu'il sera obliger de louer le bien immobilier pendant 3 ans.}. La part du déficit constaté excédant le plafond ou résultant d'intérêts d'emprunt n'est imputable que sur les revenus fonciers des 10 années suivantes.\footnote{Il est à noter que toute imputation sur le revenu global d'un deficit foncier oblige le propriétaire à louer l'immeuble jusqu'au 31 décembre de la 3\eme \ année qui suit l'imputation (sauf en cas de décès, d'invalidité ou licenciement). Il en est de même pour les propriétaires de titres de sociétés non soumises à l'impôt sur les sociétés si le souscripteur conserve les titres pendant 3 ans et la société loue l'immeuble pendant cette même période. }\\
+        \end{description}
+\item Dans le régime micro-foncier, le contribuable bénéficie d'un abattement de 30\% sur ses revenus bruts à la place de la déduction des charges et des déficits.
+   \begin{displaymath}
+ \left\{ \begin{array}{ll}
+\textrm{Si revenu brut} < \textrm{plafond de revenu foncier brut} & \\
+\textrm{revenu micro-foncier net} = \textrm{revenu foncier brut} \times (1-\texttt{abattement}) &
+\end{array} \right.
+\end{displaymath}
+\end{enumerate}
+
+\subsubsection{Revenu des professions non salariées}
+
+Le régime et les modalités d'imposition des revenus des professions non salariés dépendent de la nature de l'activité de l'entreprise (activités professionnelles ou non professionnelles), son secteur d'activité (ventes de marchandises, prestations de services, activité non commerciale, agriculture) ainsi que de son chiffre d'affaires hors taxe.\\
+
+Deux grands régimes d'imposition existent : le régime du bénéfice réel et le régime micro-entreprise. L'appartenance aux différents régimes est définie en fonction du chiffre d'affaires hors taxe des entreprises.
+\begin{enumerate}
+\item Régime micro-entreprise : \\
+Pour bénéficier du régime micro-entreprise, les entreprises ne doivent pas réaliser d'opérations soumises à la TVA  et ne pas dépasser un certain chiffre d'affaire (HT). Le contribuable doit également être un entrepreneur individuel dans le cas des bénéfices industriels commerciaux (BIC). Si les entreprises remplissent ces trois conditions,  les revenus bruts imposables du contribuable bénéficient alors d'un abattement. Le taux de l'abattement ainsi que les conditions portant sur le chiffre d'affaire des entreprises dépendent du type de micro-régime de l'entreprise. Le tableau \ref{micro2} indique les paramètres et critères d'imposition du régime micro-foncier par type d'entreprises.
+
+\begin{tab}[13cm]{Paramètres fiscaux des régimes micro-entreprises en 2013 \label{micro2}}
+{\begin{tabular}{|l|c|c|c|}
+\cline{2-4} \multicolumn{1}{c|}{} & \multicolumn{3}{c|}{\textbf{Type de micro-entreprises}} \\
+ \multicolumn{1}{c|}{} & \multicolumn{1}{c}{BIC (marchandises)} & \multicolumn{1}{c}{BIC (services)} & \multicolumn{1}{c|}{BNC} \\
+\hline
+\textbf{Taux de l'abattement}           & 71\% & 50\% & 34\% \\
+\hline
+\textbf{Abattement plancher}            & \multicolumn{3}{c|}{305~ \euro}  \\
+\hline
+\textbf{Limite de chiffre d'affaires}   & 81~500~ \euro & \multicolumn{2}{c|}{32~600~ \euro} \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+\item Régime général : \\
+Dans ce régime le contribuable peut déduire les déficits de l'année courante et des années antérieures de ces revenus imposables. Les règles spécifiques d'imputation des bénéfices sont les suivantes:
+\end{enumerate}
+\begin{itemize}
+\item Dans le cas des agriculteurs, les déficits agricoles constatés sont imputables sur le revenu global sous certaines conditions.
+\item Dans le cas des BIC exercés à titre non professionnels, les déficits sont imputables sur les seuls BIC exercés à titre non professionnels et réalisés au cours de la même année ou des six années suivantes.
+\end{itemize}
+
+IMPORTANT: Depuis la déclaration des revenus de 2006 et la suppression de l'abattement de 20\% sur les salaires, les exploitants non adhérents d'un centre de gestion agréé voit leurs bénéfices déclarés multipliés par un coefficient de 1,25, pour aligner le régime d'imposition des différents types de revenus. \\
+
+\subsection{Détermination du revenu net global}
+
+Le revenu net global est obtenu en déduisant du revenu brut global un certain nombre de charges, ainsi que la CSG déductible. L'ensemble des charges déductibles du revenu net global est présenté ci-dessous.\\
+
+\begin{itemize}
+\item [\textbf{CSG déductible :}] (Cf \textit{infra} la partie consacrée à la CSG). Une partie de la CSG acquittée à la source sur les revenus est admise en déduction du revenu brut global. Le taux de déductibilité de la CSG dépend du type de revenus (en 2013, 5,1\% pour les salariés et pour les non-salariés, 4,2\% pour les retraites et pré-retraites, 3,8\% pour les allocations de chômage). Une partie de la CSG acquittée sur les revenus du patrimoine imposés au barème progressif de l'IR est également déductible depuis la déclaration des revenus de 1997 selon le taux de 5,8\%. \\
+
+\item [\textbf{Pensions alimentaires :}] Le contribuable peut déduire de son revenu brut global les pensions alimentaires qu'il verse à ses ascendants ou à ses enfants dont la somme est plafonnée (en 2013, 5~698~euros par enfant, doublé si l'enfant est marié ou pacsé sans revenus. Pour les ascendants, il n'y a pas de plafond mais la somme doit être justifiée). Suite à la suppression de l'abattement de 20\% pour l'imposition des revenus de 2006, les déductions sur les pensions alimentaires résultant d'une décision de justice rendu avant 2006 sont majorées de 25\%.\\
+
+\item [\textbf{Frais d'accueil des personnes âgées de plus de 75 ans :}] Le contribuable peut déduire de son revenu brut global le montant des avantages en nature consentis aux personnes âgées de plus de 75 ans (sous certaines conditions) jusqu'à un certain plafond (3~359~euros en 2012).\\
+
+\item [\textbf{Plan d'épargne retraite populaire :}] Chaque membre du foyer fiscal peut déduire du revenu brut global les cotisations versées dans le cadre d'un PERP, PREFON, COREM et CGOS dans la limite de 10\% d'une somme égale à 8 fois le plafond annuel de la Sécurité Sociale (environ 296~000~euros en 2013) et au minimum à 10\% du plafond annuel de la sécurité sociale (environ 3~700~euros). La différence entre le plafond et les cotisations déduites peut être utilisée sur l'une des trois années suivantes. Depuis l'imposition des revenus de 2007, les membres d'un couple marié ou pacsé peuvent déduire les cotisations versées dans la limite annuelle égale au total des montants déductibles pour chaque membre.\\
+
+\item [\textbf{SOFICA :}] Les sommes versées de 1994 jusqu'au 31 décembre 2005 étaient déductibles du revenu global. Depuis le 1\er janvier 2006, ces déductions du revenu sont transformées en réductions d'impôts.\\
+
+\item [\textbf{SOFIPECHE :}] Depuis l'imposition des revenus de 2009, les souscriptions au capital de SOFIPECHE ne sont plus déductibles du revenu global mais donnent droit à une réduction d'impôt.
+\end{itemize}
+
+\subsection{Détermination du revenu net imposable}
+Le revenu net imposable est obtenu en déduisant du revenu net global deux types d'abattements: les abattements en faveur des personnes âgées ou invalides et ceux au titre des enfants à charge ayant fondé un foyer distinct.\\
+
+\begin{itemize}
+\item [\textbf{Abattement en faveur des personnes âgées ou invalides :}] Si le contribuable est âgé de plus de 65 ans ou invalide, il bénéficie d'un abattement de 2~311~euros à condition que son revenu net global n'excède pas 14~510~euros, ou de 1~156~euros si son revenu net global est compris entre 14~510~euros et 23~390~euros. Les foyers dans lesquels les époux sont tous deux âgés de plus de 65 ans ou invalides ont droit à une déduction double.\\
+
+\item [\textbf{Abattement pour les enfants à charge ayant fondé un foyer distinct :}] Cet abattement est à prendre en compte après l'abattement en faveur des personnes âgées ou invalides. Si le contribuable a accepté le rattachement de ses enfants mariés ou pacsés ou de ses enfants célibataires, veufs, divorcés, séparés ou chargés de famille, il bénéficie (sous certaines conditions) d'un abattement sur son revenu imposable de 11~506~euros par personne ainsi rattachée. Si l'enfant de la personne rattachée est réputé à charge de l'un et l'autre de ses parents (cas de la garde alternée), cet abattement est divisé par deux.\\
+
+\item [\textbf{Condition d'exonération de l'IRPP :}] Les contribuables dont le revenu net de frais professionnels n'excède pas 8~440~euros pour les moins de 65 ans et 9~220~euros pour les plus de 65 ans sont exonérés d'impôts sur le revenu (pour 2012).
+\end{itemize}
+
+\subsection{Détermination du \og quotient conjugal~\fg}
+
+Bien que cette notion n'ait aucune assise juridique, nous distinguons le quotient conjugal du quotient familial. Le quotient conjugal détermine le nombre de parts payées par un foyer fiscal en fonction du statut matrimonial de ses membres. Chaque contribuable remplissant une déclaration d'imposition représente une part. Deux cas de figure sont à distinguer: \begin{itemize}
+\item si deux contribuables sont mariés ou pacsés, ils remplissent une déclaration commune et représentent à eux deux deux parts fiscales, quelle que soient leur éloignement. Depuis le 1er janvier 2005, les personnes ayant souscrit un PACS sont fiscalement considérées comme des personnes mariées;
+\item si deux contribuables vivent en situation de concubinage, ils remplissent chacun une déclaration et représentent chacun une part fiscale relativement à leur propre déclaration. Les veufs, célibataires, divorcés et séparés sont également soumis à une imposition distincte.
+\end{itemize}
+\vspace{0.4cm}
+Deux cas particulier existent toutefois:
+\begin{itemize}
+\item Pour les revenus gagnés l'année de l'union, les déclarants peuvent choisir entre la déclaration commune ou les deux déclarations séparées. Par défaut, la déclaration commune leur est proposée.
+\item Pour les revenus gagnés l'année de la séparation, les déclarants déposent deux déclarations séparées.
+\end{itemize}
+\vspace{0.4cm}
+Avant 2011, en cas de mariage ou PACS intervenu au cours de l'année de déclaration des revenus, trois déclarations doivent être remplies. Chacun des conjoints remplit une déclaration de ses revenus personnels réalisés du 1\er janvier à la date du mariage, puis une déclaration commune des  revenus dont ils ont disposé de la date du mariage au 31 décembre de l'année.
+
+Dans le cas d'un divorce, trois déclarations doivent également être remplies. Une déclaration commune du 1\er janvier à la date du divorce puis deux déclarations séparées de la date du divorce au 31 décembre.
+
+Dans le cas d'un décès, deux déclarations doivent être remplies. Une déclaration commune du 1\er janvier à la date du décès puis la déclaration des seuls revenus du veuf ou de la veuve de la date du décès au 31 décembre.
+
+\subsection{Détermination du quotient familial}
+\subsubsection{Calcul des parts par foyer fiscal}
+Le quotient familial est déterminé par le quotient conjugal, éventuellement majoré en fonction du nombre de personnes rattachées au foyer fiscal\footnote{Pour plus d'informations, se reporter au formulaire 2041 GT téléchargeable sur impot.gouv.fr}.
+
+Il est possible de compter à charge:
+\begin{itemize}
+\item ses enfants légitimes, adoptifs, naturels ou recueillis (si le contribuable en assure l'entretien exclusif) ou ceux de son conjoint  (filiation légalement établie) s'ils sont âgés de moins de 18 ans au 1\er janvier de l'année de déclaration des revenus;
+\item ses enfants handicapés quel que soit leur âge s'ils sont hors d'état de subvenir à leurs besoins;
+\item les personnes invalides autres que vos enfants si elles vivent en permanence sous votre toit et si elles sont titulaires d'une carte d'invalidité d'au moins 80\%, sans conditions d'âge ou de revenu.
+\item les enfants majeurs au 1\er janvier de l'année de déclaration, quelle que soient leur situation et leur charge de famille, peuvent renoncer à être imposés personnellement et demander à être rattachés au foyer fiscal dont ils faisaient partie avant leur majorité sous une de ces trois conditions:
+    \begin{itemize} \item être âgé de moins de 21 ans ;
+    \item être âgé de moins de 25 ans et poursuivre des études ;
+    \item quel que soit leur âge, lorsqu'ils effectuent leur service militaire ou sont atteints d'une infirmité.\\
+    \end{itemize}
+\end{itemize}
+
+L'option pour le rattachement\footnote{L'article 74 de la loi de finances pour 2001 (\no 2000-1352 du 30 décembre 2000) étend cette option aux personnes majeures devenues orphelines de père et de mère après leur majorité en autorisant leurs rattachements au foyer fiscal du contribuable qui les a recueillies.} ouvre droit au contribuable qui accepte ce rattachement soit à une majoration de quotient familial lorsque l'enfant rattaché est célibataire sans charge de famille, soit à un abattement sur son revenu net global par personne prise en charge en cas de rattachement d'un enfant marié ou d'un enfant célibataire, veuf, divorcé ou séparé avec des enfants à charge (5~729~euros par personnes prises en charge en 2013). De plus, les revenus perçus pendant l'année entière par la ou les personnes rattachées sont inclus dans le revenu imposable du foyer fiscal de rattachement.
+
+La détermination du nombre de parts du foyer fiscal s'effectue de la manière suivante :
+\begin{enumerate}
+\item Calcul du quotient conjugal en fonction du statut marital du ou des membres du foyer fiscal;
+\item Sont ensuite ajoutées des demi-parts ou des parts :
+    \begin{itemize}
+    \item en fonction des personnes à charge rattachées au foyer fiscal (1/2 part pour les deux premières personnes à charge, 1 part à compter de la 3\eme \ personne) ;
+    \item en fonction de situations particulières.
+    \end{itemize}
+\end{enumerate}
+
+L'ajout de demi-parts en raison de situations particulières concerne aussi bien les couples que les déclarants seuls. Les plafonds correspondent à l'année d'imposition de 2012.
+\begin{itemize}
+\item [\textbf{Invalidité:}] Le foyer fiscal est majoré d'une demi-part s'il est concerné par une pension d'invalidité (militaire, accident du travail) pour une invalidité d'au moins 40\%, ou une invalidité d'au moins 80\%. Dans le cas d'un couple (marié ou pacsé) dont les deux membres sont concernés, les deux demi-parts se cumulent. Cette demi-part est également accordée dans le cas des veuves de guerre, des personnes (ou conjoints) âgées de plus de 75 ans et titulaire de la carte du combattant ou d'une pension servie en vertu du Code des pensions militaires d'invalidité et des victimes de guerre. Ce dispositif est également élargi aux conjoints concernés morts l'année de déclaration des revenus.\\
+
+    Cette demi-part pour invalidité est plafonnée à 2~000~euros, à laquelle peut s'ajouter une réduction d'impôt de 661~euros si le plafond est atteint. Ces demi-parts ne se cumulant pas, la majoration du QF au titre de l'invalidité ne peut dépasser une part supplémentaire.
+
+\item [\textbf{Personne seule:}] Une personne célibataire, divorcée, séparée, veuve (y compris décès d'un partenaire lié par un PACS) qui n'a pas de personne à charge peut obtenir une demi-part au titre de ``personne seule'' si elle vit seule au 1\er janvier de l'année de déclaration des revenus et que :
+    \begin{itemize}
+    \item elle a eu un enfant décédé après l'âge de 16 ans ou par suite de faits de guerre;
+    \item \textbf{ou} ses enfants (majeurs ou mariés, mineurs imposés en leur nom propre) ne sont pas comptés à sa charge ou n'ont pas demandé leur rattachement;
+    \item \textbf{ou} elle a adopté un enfant, à condition que, si l'adoption a eu lieu alors que l'enfant était âgé de plus de 10 ans, il ait été depuis l'âge de 10 ans à sa charge comme enfant recueilli et que cet enfant adopté ne soit pas décédé avant d'avoir atteint l'âge de 16 ans;
+    \item \textbf{et} elle a compté fiscalement à sa charge au moins l'un de ces enfants, a supporté sa charge à titre exclusif ou principal lorsqu'il était mineur et/ou par rattachement lorsqu'il était majeur (quel que soit son âge pour un enfant handicapé) pendant au moins 5 années au cours desquelles vous viviez seul(e).
+   \end{itemize}
+
+\item [\textbf{Parent isolé:}] Une personne célibataire, divorcée ou séparée, vivant et assurant seule la charge d'enfants peut obtenir au titre de ``parent isolé'':
+    \item une demi-part supplémentaire pour le premier enfant si elle a la charge principale et exclusive de ses enfants, même en cas de pension alimentaire perçue pour l'entretien des enfants. L'avantage associé à cette demi-part est plafonné à 4~040~euros pour le premier enfant et augmenté de 2~000~euros par enfant supplémentaire.
+    \item un quart de part supplémentaire pour chacun des deux premiers enfants, si vous avez uniquement des enfants à charge partagée dans le cadre de la résidence alternée. À partir du troisième enfant, il n'y a plus d'augmentation supplémentaire (un tel enfant en résidence alternée représente une demi-part). L'avantage associé à ces quarts de part est plafonné à 2~020~euros pour chacun des deux premiers enfants et augmenté de 2~000~euros par enfant supplémentaire.
+    \item dans le cas d'enfants à charge principale et d'enfants à charge partagée,	 le premier enfant retenu est un enfant à charge principale, qui ouvre droit à une demi-part supplémentaire (une part au total), chacun des autres enfants ouvrant droit selon le cas à une demi-part ou à un quart de part comme dans le régime normal. L'avantage associé à la demi-part du premier enfant est plafonné à 4~040~euros et augmenté de 2~000~euros ou 1~000~euros par enfant supplémentaire selon s'il est à charge principale ou partagée.
+
+\item [\textbf{Veufs:}] Les veuf(ve) avec des enfants à charge --issus ou non de l'union avec le conjoint décédé-- ou des personnes invalides à charge bénéficient du même QF que les contribuables mariés ou pacsés. L'avantage en impôt est plafonné à 2~000~euros pour chaque demi-part excédant une part.
+
+\item [\textbf{Invalidité des personnes à charge:}] Quel que soit le type de ménage, une demi-part supplémentaire est octroyée pour chaque enfant titulaire de la carte d'invalidité et pour toute personne à charge titulaire(s) d'une carte d'invalidité d'au moins 80\%. Dans le cadre de la résidence alternée, un quart de part supplémentaire est délivré pour chaque enfant titulaire de la carte d'invalidité dont la charge est partagée.
+
+\end{itemize}
+
+\subsubsection{Quelques modifications et réformes qui ont concerné le QF}
+
+\begin {enumerate}
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\centerdot$}
+
+\item Dispositif concernant la résidence alternée \footnote{BOI \no11 du 20/01/2004}:
+
+Depuis l'imposition des revenus de 2003, lorsque des enfants mineurs vivent en alternance au domicile de l'un et l'autre de leurs parents, divorcés ou séparés, l'avantage en impôt que procure chaque quart de part est divisé par deux. La majoration de QF à laquelle les enfants ouvrent droit est partagée entre les deux parents, chacun bénéficiant d'un avantage fiscal égal à la moitié de celui prévu pour les enfants dont la charge n'est pas partagée (soit 1/4 de part pour les deux premiers enfants, 1/2 part à compter du troisième). Avant ce dispositif propre à la garde alternée, un seul des deux parents pouvait déclarer l'enfant comme personne rattachée à son foyer fiscal, quelle que soit le mode de garde réel. \\
+
+\item Les modifications successives du plafonnement du QF:
+
+Le tableau~\ref{plafQF} permet de remarquer que les différents plafonds ne subissent pas le même traitement lors des dix dernières années. Le plafonnement général et le plafonnement du premier enfant pour parent isolé a été revalorisé régulièrement jusqu'en 2011 (revenus perçus en 2010), date à laquelle il a été implicitement désindexé de la progression des revenus. Dans le cas du plafonnement général, le seuil a même été abaissé, de manière à limiter l'avantage fiscal potentiel obtenu à ce titre. Le même mouvement est à observer pour le plafonnement lié aux personnes seules ayant eu des enfants à charge, à la nuance près que ce plafond a connu un déclin marqué au début des années 2000 avant d'augmenter progressivement ensuite et stagner en 2011. À l'inverse, le plafonnement lié à l'invalidité n'a pas été revalorisé depuis 2000 et cet avantage s'est donc implicitement amenuisé à mesure que les revenus progressaient dans la décennie.
+
+\begin{tab}[13cm]{Historique des différents plafonds d'avantage fiscal lié au QF depuis 2000 \label{plafQF}}
+{\begin{tabular}{|c|c|c|c|c|}
+\hline
+ \textbf{Revenus} & \textbf{Plafonnement} & \textbf{Pour le 1\er enfant} & \textbf{Personnes seules ayant} & \multirow{2}{*} {\textbf{Invalidité}}\\
+\textbf{perçus en} & \textbf{général par part}  & \textbf{de parent isolé} & \textbf{eu des enfants à charge} & \\
+\hline
+2000	&1 896 \euro	  & 3 343 \euro	         &    948 \euro  &    661 \euro         \\
+2001	&2 017 \euro	  & 3 490 \euro	         &    964 \euro  &    661 \euro         \\
+2002	&2 051 \euro	  & 3 549 \euro	         &    980 \euro  &    661 \euro         \\
+2003	&2 086 \euro	  & 3 609 \euro	         &    800 \euro  &    661 \euro         \\
+2004	&2 121 \euro	  & 3 670 \euro	         &    814 \euro  &    661 \euro         \\
+2005	&2 159 \euro	  & 3 736 \euro	         &    829 \euro  &    661 \euro         \\
+2006	&2 198 \euro	  & 3 803 \euro	         &    844 \euro  &    661 \euro         \\
+2007	&2 227 \euro	  & 3 852 \euro	         &    855 \euro  &    661 \euro         \\
+2008	&2 292 \euro	  & 3 964 \euro	         &    880 \euro  &    661 \euro         \\
+2009	&2 301 \euro	  & 3 980 \euro	         &    884 \euro  &    661 \euro         \\
+2010	&2 336 \euro	  & 4 040 \euro	         &    897 \euro  &    661 \euro         \\
+2011    &2 336 \euro      & 4 040 \euro          &    897 \euro  &    661 \euro         \\
+2012    &2 000 \euro      & 4 040 \euro          &    897 \euro  &    661 \euro         \\
+\hline
+\end{tabular}}
+{\emph{Lecture:}~L'avantage fiscal accordé au titre de la déclaration de personnes à charge dans la composition du foyer fiscal donnera droit en 2013 à une diminution d'impôt qui ne pourra pas excéder 2~000~euros par part fiscale.\\
+\emph{Note:}~Lorsque c'est nécessaire, la conversion en euros est effectuée avec 6,55957~FF $=$ 1~\euro~et arrondi à l'entier le plus proche.}
+\end{tab}
+
+\item Durcissement des conditions pour bénéficier de la demi-part supplémentaire au titre de ``personne seule'' :
+
+La demi-part supplémentaire est réservée depuis l'imposition des revenus de 2003 aux personnes qui vivent seules. Par conséquent, les personnes vivant en concubinage ne peuvent pas bénéficier de cette demi-part.
+
+Avant la loi de finances de 2009, le plafond de cette demi-part dépendait de l'âge du plus jeune des enfants. L'article 92 de la loi de finances de 2009 restreint, à compter de l'imposition des revenus de 2009, le champ des bénéficiaires de cette demi-part supplémentaire aux contribuables ayant supporté la charge d'enfants à titre exclusif ou principal pendant au moins cinq années au cours desquelles ils vivaient seuls. Pour les ex-bénéficiaires perdant leur droit à la demi-part, un dispositif transitoire permet de lisser dans le temps la perte du bénéfice. La loi de finances 2010 aménage ensuite ce dispositif transitoire.
+
+Les modalités du dispositif transitoire consistent à accorder malgré tout l'avantage au titre ``de personne seule'' aux anciens ayant-droit, mais en abaissant progressivement le plafond jusqu'à extinction de l'avantage. Pour les impôts de 2010, l'avantage est plafonné à 855~euros, 680~euros pour 2011, 400~euros pour 2012) et 120~euros pour 2013).\\
+
+\item Veuvage\footnote{BOI \no52 du 15/05/2009}:
+
+Depuis l'imposition des revenus de l'année 2008, les veufs ayant des enfants ou des personnes invalides à charge sont assimilés, pour le calcul du quotient familial, aux contribuables mariés ayant le même nombre d'enfants ou de personnes à charge, que les enfants soient ou non issus de leur mariage avec le conjoint décédé. Ce nombre de parts peut être majoré, dans les conditions habituelles, en fonction du nombre des autres personnes à charge et, le cas échéant, au titre de la situation de handicap.
+
+En revanche, la situation fiscale de ``parent isolé'' ne s'applique plus aux contribuables veufs vivant seuls avec un ou plusieurs enfants à charge.\\
+
+Avant 2009, trois cas de figure étaient distingués. Les contribuables veufs ayant un ou plusieurs enfants à charge non issus du mariage avec le conjoint décédé sont considérés comme des contribuables célibataires ayant à leur charge le même nombre d'enfants. Les contribuables veufs avec des enfants issus du mariage avec le conjoint décédé bénéficient du même nombre de parts qu'un contribuable marié. Enfin, les contribuables veufs qui ont des personnes à charge autres que des enfants sont également considérés comme des célibataires ayant à leur charge le même nombre de personnes à charge.
+\end{enumerate}
+
+\subsubsection{Calcul du plafonnement}
+
+Pour calculer la réduction d'impôts induite par le quotient familial, il faut comparer l'impôt calculé en fonction du quotient familial réel de l'intéressé sans plafonnement avec l'impôt calculé sur la base d'un quotient familial d'une ou deux parts (en fonction du quotient conjugal).
+
+La réduction d'impôt au titre du quotient familial (avant plafonnement) correspond à la différence entre le premier et le second terme et est à comparer avec le montant du plafond correspondant à l'ensemble des demi-parts ou quart de parts additionnelles spécifiques à la situation familiale du contribuable. Si cette différence est inférieure au montant du plafonnement, la réduction d'impôt n'est pas plafonnée. Au contraire, si elle est supérieure au plafonnement, la réduction d'impôt sera limitée au montant du plafonnement.
+
+\subsection{Calcul de l'impôt}
+
+\subsubsection{Détermination de l'impôt brut}
+
+Le calcul de l'impôt est effectué \textbf{par part fiscale}. Le revenu net imposable (RNI) doit être divisé par le nombre de part de quotient familial (QF). On applique ensuite le barème progressif de l'IRPP (cf tableau~\ref{IRPP}) à $\frac{\textrm{RNI}}{\textrm{QF}}$. On obtient ainsi l'impôt par part de quotient familial $\left( \frac{\textrm{T}}{\textrm{QF}} \right)$ après avoir tenu compte des plafonnements éventuels des parts de QF. Enfin, $\frac{\textrm{T}}{\textrm{QF}}$ est remultiplié par QF afin d'obtenir T, l'impôt dû par le foyer fiscal.
+
+\begin{tab}[10cm]{Barème de l'IRPP pour les revenus de 2013 \label{IRPP}}
+{\begin{tabular}  {|l|c|}
+\hline \textbf{Tranche de revenu} $\frac{\textbf{\textrm{RNI}}}{\textbf{\textrm{QF}}} $ & \textbf{Taux marginal de la tranche} \\
+\hline
+Jusqu'à 5~963~\euro          & 0\%   \\
+De 5~964~\euro à 11~896~\euro & 5,5\%   \\
+De 11~897~\euro à 26~420~\euro & 14\%   \\
+De 26~421~\euro à 70~830~\euro & 30\%   \\
+De 70~831~\euro à 150~000~\euro & 41\%   \\
+Au-delà de 150~000~\euro  &   45\%   \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+
+\begin{tab}[13cm]{Historique des barèmes de l'IRPP depuis 1945\label{HistIRPP}}
+{\begin{tabular}  {|l|ccccccccc|}
+\hline
+\multirow{2}{*}{\textbf{Seuils et taux marginaux du barème}} & \multicolumn{9}{c|}{\textbf{Barème s'appliquant aux revenus de l'année}} \\
+ & 1945 & 1953 & 1973 & 1974 & 1982 & 1986 & 1993 & 2006 & 2012 \\
+Seuil de la tranche 1 & 0~FF & 0~FF & 0~FF & 0~FF & 0~FF & 0~FF & 0~FF & 0~\euro & 0~\euro \\
+Seuil de la tranche 2 & 40~000~FF & 220~000~FF & 4~950~FF & 5~500~FF & 12~620~FF & 16~030~FF & 21~900~FF & 5~614~\euro & 5~963~\euro \\
+Seuil de la tranche 3 & 100000~FF & 350~000~FF & 5~200~FF & 5~825~FF & 13~190~FF &16~760~FF & 47~900~FF &11~198~\euro & 11~896~\euro \\
+Seuil de la tranche 4 & 300~000~FF & 600~000~FF & 6~250~FF & 7~000~FF & 15~640~FF &19~870~FF &84~300~FF &24~972~\euro & 26~420~\euro \\
+Seuil de la tranche 5 & 500~000~FF & 900~000~FF & 9~900~FF & 11~100~FF & 24~740~FF &31~420~FF &136~500~FF & 66~679~\euro &70~830~\euro \\
+Seuil de la tranche 6 & - & 1~500~000~FF & 14~900~FF & 15~050~FF & 31~810~FF &40~390~FF &222~100~FF & - & 150000~\euro \\
+Seuil de la tranche 7 & - & 3~000~000~FF & 22~000~FF & 19~000~FF & 39~970~FF &50~740~FF &273~900~FF & - & - \\
+Seuil de la tranche 8 & - & 6~000~000~FF & 46~325~FF & 24~450~FF & 48~370~FF &61~390~FF & - & - & - \\
+Seuil de la tranche 9 & - & - & 92~125~FF & 26~475~FF & 55~790~FF & 70~830~FF & - & - & - \\
+Seuil de la tranche 10 & - & - & - & 45~825~FF & 92~970~FF &118~020~FF & - & - & - \\
+Seuil de la tranche 11 & - & - & - & 64~900~FF & 127~860~FF &162~310~FF & - & - & - \\
+Seuil de la tranche 12 & - & - & - & 84~000~FF & 151~250~FF &191~990~FF & - & - & - \\
+Seuil de la tranche 13 & - & - & - & 103~150~FF & 172~040~FF &218~400~FF & - & - & - \\
+Seuil de la tranche 14 & - & - & - & - & 195~000~FF & - & - & - & - \\
+\hline
+Taux de la tranche 1 & 0~\% & 0~\% & 0~\% & 0~\% & 0~\% & 0~\% & 0~\% & 0~\% & 0~\% \\
+Taux de la tranche 2 & 12~\% & 10~\% &5~\%&5~\%&5~\%&5~\%&12~\%&5,5~\% & 5,5~\% \\
+Taux de la tranche 3 & 30~\% & 15~\% &10~\%&10~\%&10~\%&10~\%&25~\%&14~\% & 14~\% \\
+Taux de la tranche 4 & 45~\% & 20~\% &15~\%&15~\%&15~\%&15~\%&35~\%&30~\% & 30~\% \\
+Taux de la tranche 5 & 60~\% & 30~\% &20~\%&20~\%&20~\%&20~\%&45~\%&40~\% & 41~\% \\
+Taux de la tranche 6 & - & 40~\% &30~\%&25~\%&25~\%&25~\%&50~\% & - & 45~\% \\
+Taux de la tranche 7 & - & 50~\% &40~\%&30~\%&30~\%&30~\%&56,80~\% & - &- \\
+Taux de la tranche 8 & - & 60~\% &50~\%&35~\%&35~\%&35~\%&-&-&-\\
+Taux de la tranche 9 & - & - &60~\%&40~\%&40~\%&40~\%&-&-&-\\
+Taux de la tranche 10 & - & - &-&45~\%&45~\%&45~\%&-&-&-\\
+Taux de la tranche 11 & - & - &-&50~\%&50~\%&50~\%&-&-&-\\
+Taux de la tranche 12 & - & - &-&55~\%&55~\%&55~\%&-&-&-\\
+Taux de la tranche 13 & - & - &-&60~\%&60~\%&58~\%&-&-&-\\
+Taux de la tranche 14 & - & - &-&-&65~\%&-&-&-&-\\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+\subsubsection{Décote}
+La décote de l'impôt consiste en une réduction du montant d'IRPP à payer pour les contribuables qui, à cause de revenus modestes, paient peu d'impôt sur le revenu. En 2013, si le montant de l'impôt dû par un foyer fiscal est inférieur à 960~euros, le contribuable peut déduire $D = \frac {960 - T}{2}$
+
+Ce mode de calcul de la décote est en place depuis l'imposition des revenus de 2000. Avant 2001, le montant de la décote était défini comme \textit{D = plafond de la décote - T}.
+
+\subsubsection{Application des réductions d'impôts}
+
+Le contribuable déduit également de son impôt un ensemble de réductions d'impôts. Ces réductions sont décrites ci-dessous.\\
+\begin{itemize}	
+\item \textbf{Cotisation syndicales}\footnote{Cette réduction ne s'applique pas aux contribuables en activité qui auraient opté pour la déduction de leurs frais professionnels. }: la réduction d'impôt s'effectue comme un pourcentage (66\% en 2012) du montant de la cotisation syndicale. Celle-ci reste cependant plafonnée à un montant global (1\%) adossé sur les revenus bruts des salaires et pensions bruts du contribuable.\\
+\item \textbf{Dons effectués à des organismes d'aide aux personnes en difficultés}: La réduction d'impôt est égale à une partie des dons effectués (75\% en 2012) sans pouvoir dépasser un plafond (511~euros en 2012). Le montant des dons excédant ce dernier plafond est considéré comme un don aux autres \oe uvres.\\
+\item \textbf{Autres dons pour les \oe uvres d'intérêt géléral ou d'utilité publique}: La réduction d'impôt est de 66\% (en 2012) du montant des dons dans la limite de 20\% du revenu imposable. Lorsque le montant de dons excède ce plafond, l'excédent peut être reporté sur les cinq années suivantes.\\
+\item \textbf{Investissements et travaux forestiers}: La réduction d'impôt est de 25\% de la base globale depuis 2009 (investissements et travaux), dans la limite annuelle de 5~700~euros (à doubler pour un couple marié ou pacsé).\\
+\item \textbf{Souscriptions de parts de fonds communs de placement dans l'innovation et les fonds d'investissement de proximité}:
+Les souscriptions à compter du 1\er janvier 1997 de parts de fonds communs de placement dans l'innovation ou de fonds d'investissement de proximité ouvre droit en 2013 à une réduction d'impôt de 22\% des sommes versées dans la limite de 12~000~euros (à doubler par couple marié ou pacsé). En contrepartie, le souscripteur s'engage à conserver ses parts pendant cinq ans au moins. Si le fonds est situé en Corse, le taux de réduction est de 45\% depuis l'imposition des revenus de 2007.\\
+\item \textbf{Souscriptions au capital de SOFICA}\footnote{Société ayant pour activité exclusive le financement en capital d'\oe uvres cinématographiques ou audiovisuelles agréées.}: La réduction d'impôt est égale en 2013 à 43\% des sommes versées au capital de SOFICA dans la double limite de 25\% du RNG global et de 18~000~euros. Ce taux passe à 36\% lorsque la société s'engage à réaliser au moins 10\% de ses investissements dans des sociétés de production avant le 31 décembre de l'année suivant celle de la souscription.
+
+    Depuis la loi de finances rectificative de 2006, les déductions du revenu global net au titre des souscriptions au capital des SOFICA deviennent des réductions d'impôt.\\
+\item \textbf{Souscriptions au capital des PME}: les souscriptions en numéraire au capital des PME ouvrent droit à une réduction d'impôt de 22\% du montant des versements effectués au cours de l'année d'imposition. Ces versements sont retenus dans la limite de 20~000~euros (à doubler pour les couples mariés ou pacsés). La fraction des versements annuels qui excède les limites ouvrent droit à la réduction d'impôt au titre des 4 années suivantes dans les mêmes limites annuelles depuis 2007. De 2002 à 2007 le mécanisme de report est institué trois ans.\\
+\item \textbf{Investissements locatifs dans le secteur touristique}: ces investissements, dont les taux et les plafonds varient, sont les logements acquis ou achevés l'année d'imposition des revenus, les résidences hôtelières à vocation sociale, les logements réhabilités achevés avant le 01/01/1989, les travaux de reconstruction, d'agrandissement, de réparation ou de d'amélioration.
+
+\item \textbf{Investissements Outre-mer}: cette réduction a été créée par la loi de finances de 2001. Les modalités de calculs de cette réduction diffèrent selon le secteur d'activité (logement, logement social, investissement productif pour entreprise). Pour une même année d'imposition, le montant total de réduction d'impôt est plafonné mais ces réductions d'impôt n'entrent pas dans le calcul du plafonnement global des niches fiscale. La réduction d'impôt est étalée sur 5 ans. Chaque année, la base de la réduction d'impôt est donc égale à 20\% des sommes payées.
+
+Cet ensemble de dispositifs n'est pas présenté en détail car il change pratiquement chaque année.
+\item \textbf{Scolarisation d'enfants à charge} : la réduction d'impôt est de 61~euros pour les enfants scolarisés au collège, de 153~euros pour ceux scolarisés au lycée et de 183~euros pour ceux scolarisés à l'université (en 2012).
+\item \textbf{Dépenses d'accueil dans un établissement pour personnes âgées dépendantes}: 25\% des sommes versées limitées à 10~000~euros par personne hébergée depuis 2011.\\
+\end{itemize}
+
+\subsection{Calcul de l'impôt net}
+
+L'impôt net est obtenu par déduction de la décote et des réductions d'impôt à l'impôt brut $T$. On ajoute ensuite à celui-ci l'impôt au titre des plus-values. Enfin, on déduit la prime pour l'emploi (PPE) après imputation du RSA ainsi que les crédits d'impôt. Si les crédits d'impôts et la prime pour l'emploi sont supérieurs à l'impôt dû, l'excédent est restitué au contribuable. Par ailleurs, depuis l'imposition de 2011 (sur les revenus de 2010) certaines niches fiscales font l'objet d'un plafonnement global.
+
+\subsubsection{Imposition des plus-values}
+
+Sont imposables les transactions effectuées sur une bourse française ou étrangère et les cessions effectuées entre particuliers (ventes, apports en société, échanges de titres, partages autres que des succcessions). 
+Le montant imposable est défini comme la différence entre le prix de cession et le prix d'acquisition -- éventuellement corrigés de frais et taxes spécifiques au produit cédé. Les éventuelles moins-values subies au cours d'une année sont imputables sur les gains de même nature réalisés au cours de cette année, ou des dix années suivantes en cas d'excédent (jusqu'au 31 décembre 2001, le délai n'était que de cinq ans).
+
+La CSG et autres prélèvements sociaux s'appliquent à l'essentiel des plus-values mobilières.
+
+L'année 2013 est une année de transition pour le régime d'imposition des plus-values mobilières : si les plus-values de 2012 sont encore imposées à un taux forfaitaire, celles de 2013 sont soumises à l'impôt sur le revenu.  Ainsi les gains nets résultant de la \textbf{cession de valeurs mobilières} en 2012 (ventes, apports, échanges, etc.) sont imposés au taux forfaitaire de 24\% (majoré par la loi de finances pour 2013). Avant 2011, les plus-values dont le montant total n'excédait pas un certain seuil étaient exonérées. Elles sont depuis imposables dès le premier euro de cession.\\
+
+L'article 10 de la loi de finances pour 2013 prévoyait de soumettre la plus-value imposable brute aux prélèvements sociaux, réduite d'un abattement proportionnel pour durée de détention (de 0\% pour une détention inférieure à deux ans, 40\% pour une durée supérieure à six ans de détention). Après abattement, ces plus-values étaient intégrées au barème progressif de l'IRPP. Si la loi de finances pour 2014 supprime ce régime d'abattement (qui ne sera donc jamais appliqué) pour les cessions opérées depuis le 1\er janvier 2013 et donc imposées en 2014, elle maintient l'imposition au barême.
+
+Un régime dérogatoire pour les ``créateurs d'entreprise'' cédant leurs titres, pour lesquels un taux forfaitaire de taxation à 19\% est prévu. Il n'existe plus sous cette forme dans la loi de finances pour 2014.\\
+
+En remplacement, il sera proposé deux régimes reposant sur un abattement calculé en fonction de la durée de détention des actions de l’entreprise : un régime de droit commun dont l’abattement peut atteindre 65\%, et un régime incitatif dont l’abattement devrait atteindre 85\%.
+
+
+
+Les gains résultant de la \textbf{levée d'options} sont imposés différemment. Trois prix doivent être pris en compte dans le calcul de l'imposition des gains d'options: le prix de souscription de l'option, le prix au moment de la levée de l'option et le prix au moment de la vente. La levée d'option permet en effet d'acheter des actions à un prix fixé à l'avance. Le bénéficiaire de ces options n'est toutefois pas obligé de les revendre immédiatement. Dans ce cas, la différence entre le prix au moment de la levée d'option et le prix de souscription de l'option est imposée au titre des gains résultant de la levée d'options. Au contraire, la différence entre le prix de vente et le prix de la levée d'option est imposée au titre des gains de cession de valeurs mobilières.
+
+Le délai d'indisponibilité est de quatre ans à compter de la date d'attribution de l'option (et cinq ans pour les options attribués avant le 27/04/2000). Si le délai d'indisponibilité n'est pas achevé, les gains résultant de la levée d'option sont imposables à l'IR au titre des salaires et traitements.
+
+Si le délai d'indisponibilité est achevé :
+\begin{itemize}
+\item Pour les actions acquises avant le 01/01/90 : exonération complète d'IR des gains résultant de la levée d'option. La différence entre le prix de vente et le prix de la levée d'option est imposée au titre des gains  de cessions des valeurs mobilières.
+\item Pour les actions acquises après le 01/01/90, le gain est imposable selon les règles applicables aux plus-values mobilières
+\item Pour les options attribuées à compter du 20/09/95 et avant le 27/04/20000 les gains résultant de la levée d'option sont imposables au taux de 30\% ou suivant les règles applicables aux traitements et salaires (arbitrage laissé au choix du contribuable).
+\item Pour les options attribuées à compter du 27/04/2000, les gains résultant de la levée d'option sont imposables au taux de 30\% pour la fraction n'excédant pas 152~500~euros et 41\% pour la fraction supérieure. Toutefois ces taux sont réduits respectivement à 24\% et 30\% lorsque les actions sont conservées deux ans au moins au-delà du délai d'indisponibilité.
+\end{itemize}
+
+Le cas des \textbf{plus-values immobilières} est différent. Est imposable tout vendeur domicilié en France, personne physique ou société immobilière civile (SCI). La détermination de la plus-value imposable est modulé par le statut du bien cédé (exonération en cas de cession de la résidence principale), sa valeur (exonération si la valeur est inférieure à 15~000~euros), et incorpore un abattement pour durée de détention particulier. Cet abattement, réformé en 2011, prévoit une exonération totale d'IRPP sur la vente si la durée de détention dépasse trente ans, après un taux d'abattement qui augmente progressivement avec la durée de détention. Auparavant, l'exonération était totale à partir de 15 ans de détention. Après application des corrections sur les prix de vente et d'acquisition, la plus-value imposable est soumise à un taux proportionnel d'imposition de 19\%, auquel s'ajoutent les contributions sociales obtenues au titre des revenus du capital. \\
+
+La loi de finances initiale pour 2013 prévoit une surtaxe spécifique à la vente de logements pour les plus-values supérieures à 50~000~euros. Cette surtaxe, décrite dans le tableau~\ref{surtaxe}, s'ajoute au montant forfaitaire réclamé au titre de l'IRPP.
+
+\begin{tab}[13cm]{Barème de l'IRPP pour les revenus de 2013 \label{surtaxe}}
+{\begin{tabular}  {|l|c|}
+\hline \textbf{Montant de la plus-value imposable (PVI)} & \textbf{Montant de la surtaxe} \\
+\hline
+De 50~001~\euro à 60~000~\euro & 2\%~$\times$ PVI - (60 000 - PVI)$\times$ 1/20   \\
+De 60~001~\euro à 100~000~\euro & 2\% \\
+De 100~001~\euro à 110~000~\euro & 3\%~$\times$ PVI - (110 000 - PVI)$\times$ 1/10   \\
+De 110~001~\euro à 150~000~\euro & 3\% \\
+De 150~001~\euro à 160~000~\euro & 4\%~$\times$ PVI - (160 000 - PVI)$\times$ 15/100   \\
+De 160~001~\euro à 200~000~\euro & 4\% \\
+De 200~001~\euro à 210~000~\euro & 5\%~$\times$ PVI - (210 000 - PVI)$\times$ 2/10   \\
+De 210~001~\euro à 250~000~\euro & 5\% \\
+De 250~001~\euro à 260~000~\euro & 6\%~$\times$ PVI - (260 000 - PVI)$\times$ 25/100   \\
+De 210~001~\euro à 250~000~\euro & 6\% \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+Un régime particulier pour la fiscalité des terrains à bâtir était prévu dans le projet de loi de finances pour 2013, mais les dispositifs proposés ont été censurés par le Conseil constitutionnel. Ce type de revenus reste donc soumis au régime fiscal général des plus-values immobilières, mais des réformes fiscales sont à prévoir dans les années à venir.
+
+\subsubsection{Détermination des crédits d'impôts :}
+
+Les \textbf{frais de garde des enfants} donnent droit à une réduction d'impôt aux contribuables célibataires, veufs, divorcés ou séparés domiciliés en France et qui exercent une activité professionnelle. Cela concerne aussi les foyers fiscaux dans lesquels chacun des conjoints occupe un emploi au moins à mi-temps, ou bien ne peut exercer cette activité du fait d'une longue maladie ou d'une infirmité ou poursuit des études dans l'enseignement supérieur. Les enfants ouvrant droit à réduction d'impôt sont ceux âgés de moins de six ans au 1\er janvier de l'année d'imposition (après six ans, l'école devient obligatoire).
+
+La réduction est de 50\% des dépenses pour frais de garde hors du domicile dans la limite de 1~150~euros par enfant\footnote{Après déductions éventuelles de l'allocation mensuelle versée par la CAF et des indemnités pour frais de garde d'enfant reçues de l'employeur.}. Le plafond est à diviser par deux en cas de garde alternée\footnote{Modifications : A partir de l'imposition des revenus de 2005, la réduction d'impôt peut devenir un crédit d'impôt.}.\\
+
+Les \textbf{sommes versées pour l'emploi d'un salarié à domicile} donnent droit à une réduction (ou crédit, depuis 2007) d'impôt égale à 50\% des dépenses effectivement supportées par le contribuable dans la limite de 12~000~euros (15~000 la première année) majorée de 1~500~euros par enfant à charge ou membre du foyer fiscal ou ascendant âgés de plus de 65 ans. Ce plafond augmenté des majorations ne peut toutefois pas excéder 15~000~euros (18~000 pour la première année). Le plafond des dépenses passe à 20~000~euros pour les contribuables dont l'un des membres du foyer fiscal est invalide.\\
+
+Un \textbf{crédit d'impôt exceptionnel} a été mis en place en 2009 pour les contribuables modestes\footnote{Art. 1\er de la loi de finances rectificative du 20/04/2009}. Pour les contribuables dont le revenu net imposable par part n'excède pas 11~673~euros, l'impôt brut après décote est divisé par trois. Au-delà de ce seuil, une réduction linéaire est appliquée. Elle s'annule pour les contribuables disposant d'un revenu par part supérieur à 12~475~euros.
+
+\subsubsection{Plafonnement global des niches :}
+Depuis la loi de finances 2010, le montant global d'un certain nombre d'avantages fiscaux est plafonné au niveau du foyer fiscal. Toutefois, certains avantages ne sont pas soumis au plafonnement : ceux qui sont liés à la situation personnelle du contribuable et les dons.\\
+
+\noindent Pour l'impôt de 2010 (en \euro): $\textit{plafonnement global} =  25~000 + 10\% \times \textit{RNI}$ \\
+Pour 2011 (en \euro): $\textit{plafonnement global} =  20~000 + 8\% \times \textit{RNI}$ \\
+Pour 2012 (en \euro): $\textit{plafonnement global} =  18~000 + 6\% \times \textit{RNI}$ \\
+Pour 2013 (en \euro): $\textit{plafonnement global} =  18~000 + 4\% \times \textit{RNI}$ \\
+Pour 2014 (en \euro): $\textit{plafonnement global} =  10~000 $\\
+\footnotesize{\textit {avec RNI le revenu net imposable.}}\\
+
+\normalsize{Le mode de calcul du plafond consiste à comparer le montant d'impôt ``réel'' avec le montant d'impôt hors avantages fiscaux}. La différence des deux donne le montant d'impôt économisé grâce aux ``niches fiscales''. Si ce montant est supérieur au plafond, la différence est imputée au montant d'impôt ``réel''.
+
+\subsubsection{La prime pour l'emploi}
+
+La prime pour l'emploi (PPE) est un crédit d'impôt mis en place sous le gouvernement Jospin \footnote{(Loi \no 2001-458 du 30 mai 2001 codifiée à l'article 200 sexies du CGI. Voir B.O. des impôts rebaptisé \og création PPE 2001 \fg)}, qui a pour objectif d'aider les travailleurs pauvres en réduisant les inégalités de revenus net après impôts. La PPE a également pour vocation d'inciter les travailleurs à temps partiel à augmenter leur temps de travail et d'inciter les chômeurs à retourner sur le marché du travail. Elle est reçue par un quart de la population active et son coût annuel pour l'État est d'environ 4,5 milliards d'euros en 2012.
+
+Comme l'illustre le graphique~\ref{micro} le montant de la PPE est maximal pour les personnes rémunérées au SMIC. Seules les personnes gagnant entre 0,33 SMIC et 1,5 SMIC en ``équivalent temps plein'' sont susceptibles d'être éligibles.
+
+\begin{fig}[13cm]{Montant de la PPE pour l'imposition de 2012 en fonction du revenu (hors sommes forfaitaires complémentaires. \label{micro}} {\graphique{PPE.pdf}} {\emph{Source:}~Calcul des auteurs.\\
+\emph{Note:}~Les montants de la prime indiqués ont été calculés pour le cas général, c'est à dire qu'ils ne prennent pas en compte les éventuelles sommes complémentaires versées par la suite:}
+\end{fig}
+
+\paragraph*{Conditions d'éligibilité}
+\begin{enumerate}
+\item Afin d'être éligible à la PPE l'un des membres du foyer (fiscalement domicilié en France) au moins doit exercer une activité professionnelle. L'activité peut être salariée ou non salariée (artisans, commerçants, agriculteurs, professions libérales, etc.), exercée à temps plein, à temps partiel ou une partie de l'année. Un contribuable imposable au titre de l'ISF n'a pas droit à la PPE.
+\item Le revenu fiscal de référence (RFR, voir la partie 1 pour sa définition) doit répondre au critère suivant:
+
+\begin{tab}[13cm]{Conditions à l'éligibilité de la PPE portant sur le seuil fiscal de référence (RFR).}
+{\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{3}*{\textbf{Revenus perçus en}} & \multicolumn{3}{c|}{\textbf{Seuil d'éligibilité à la PPE (seuil du RFR)}} \\
+   & \multicolumn{1}{c}{personne}  & \multicolumn{1}{c}{pour un couple}   & \multicolumn{1}{c|}{augmentation du seuil} \\
+   & \multicolumn{1}{c}{seule}     & \multicolumn{1}{c}{marié ou pacsé}   & \multicolumn{1}{c|}{par demi-part de QF}  \\
+\hline
+2000	&11 586 \euro	   & 23 172 \euro	         &    3 201 \euro           \\
+2001	&11 772 \euro	   & 23 544 \euro	         &    3 253 \euro           \\
+2002	&11 972 \euro	   & 23 944 \euro	         &    3 308 \euro           \\
+2003	&12 176 \euro	   & 24 351 \euro	         &    3 364 \euro           \\
+2004	&12 383 \euro	   & 24 765 \euro	         &    3 421 \euro           \\
+2005	&15 758 \euro	   & 31 514 \euro	         &    4 354 \euro           \\
+2006	&16 042 \euro	   & 32 081 \euro	         &    4 432 \euro           \\
+2007	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+2008	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+2009	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+2010	&16 251 \euro	   & 32 498 \euro	         &    4 490 \euro           \\
+2011    &16 251 \euro      & 32 498 \euro            &    4 490 \euro           \\
+2012    &16 251 \euro      & 32 498 \euro            &    4 490 \euro           \\
+\hline
+\end{tabular}}
+{\emph{Lecture:}~Pour toucher la PPE en 2013, le RFR de l'année 2012 d'un couple marié avec deux enfants ne devaient pas dépasser 41~478~euros (soit 32~498~euros + 3201\*2 euros).}
+\end{tab}
+
+\item Les revenus d'activités professionnelles doivent répondre au critère suivant :
+
+\begin{tab}[13cm]{Conditions à l'éligibilité de la PPE portant sur le revenu d'activité}
+{\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}*{\textbf{Revenus perçus en}} & \multicolumn{3}{c|}{\textbf{Seuil d'éligibilité à la PPE (revenu d'activité)}} \\
+ &  \multicolumn{1}{c}{Seuil minimum}    & \multicolumn{1}{c}{Seuil maximum} & \multicolumn{1}{c|}{Seuil maximum 2}   \\
+\hline
+2000    &3 137 \euro    &14 638 \euro   &22 297 \euro       \\
+2001	&3 187 \euro 	&14 872 \euro 	&22 654 \euro       \\
+2002	&3 265 \euro 	&15 235 \euro 	&23 207 \euro       \\
+2003	&3 372 \euro 	&15 735 \euro 	&23 968 \euro       \\
+2004	&3 507 \euro 	&16 364 \euro 	&24 927 \euro       \\
+2005	&3 570 \euro 	&16 659 \euro 	&25 376 \euro       \\
+2006	&3 695 \euro 	&17 227 \euro 	&26 231 \euro       \\
+2007	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+2008	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+2009	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+2010	&3 743 \euro 	&17 451 \euro 	&26 572 \euro       \\
+2011    &3 743 \euro    &17 451 \euro   &26 572 \euro       \\
+2012    &3 743 \euro    &17 451 \euro   &26 572 \euro       \\
+\hline
+\end{tabular}}{}
+%{\emph{Note:} Le \og Seuil maximum \fg s'adresse :\\
+%\vspace{-0.2cm}
+%\begin{itemize}
+%              \renewcommand{\labelitemi}{$\centerdot$}
+%            \item Aux personnes célibataires, veuves ou divorcées sans enfants ou avec des enfants qu'elles n'élèvent pas seules (en pratique, le second cas correspond à celui des personnes seules n'ayant pas coché la case T de la déclaration de revenus) ;
+%            \item Aux personnes mariées soumises à imposition commune lorsque chacun des membres du couple exerce une activité professionnelle procurant des revenus d'un montant au moins égal à seuil\_ppe\_min.
+%\end{itemize}
+%\item Le \og Seuil maximum 2 \fg s'adresse :\\
+%        \vspace{-0.2cm}
+%        \begin{itemize}
+%          \renewcommand{\labelitemi}{$\centerdot$}
+%         \item Aux personnes mariées soumises à imposition commune lorsque l'un des conjoints n'exerce aucune activité professionnelle ou dispose de revenus d'activité professionnelle d'un montant inférieur à seuil minimum.
+%        \item Aux personnes célibataires, veuves ou divorcées élevant seules un ou plusieurs enfants à charge.
+%        \end{itemize}
+%\emph{Lecture:}~Pour être éligible à la PPE en 2013, une personne célibataire vivant sans enfants doit avoir un revenu d'activité pour l'année 2012 compris entre 17~451~euros et 26~572~euros. Si cette personne avait eu un ou plusieurs enfants, son revenu aurait dû être compris entre 17~451~euros et 26~572~euros.
+%}
+\end{tab}
+
+\end{enumerate}
+
+Lorsque l'activité professionnelle n'est pas exercée à temps plein (pour cas de temps partiel, ou de début/fin d'activité en cours d'année), les revenus d'activités professionnelles déclarés doivent être convertis en ``équivalent temps plein''. Pour ce faire, on utilise un taux de conversion défini tel que:\\
+
+\begin{center}
+$ Taux\ de\ conversion\  =\ \frac{1820}{\textit{nb heures déclarées pour salariés}}$ \\
+ou bien $\ =\ \frac{360}{\textit{nb de jours travaillés pour non salariés}}$ \\
+\end{center}
+
+Les revenus d'activité ne sont corrigés par ce taux que lorsque pour les salariés le nombres d'heures travaillées est inférieur ou égal à 1820, ou que pour les non salariés le nombre de jours travaillés est inférieur ou égal à 360.
+
+Afin de ne pas attribuer la PPE à des activités occasionnelles, saisonnières ou à des temps partiels très limités, le seuil minimal est intangible. C'est-à-dire que les revenus d'activité professionnelle inférieurs à cette limite, quelle que soit la période ou le temps consacré à cette activité, sont exclus du champ d'application de la PPE. Par conséquent, la conversion en ``équivalent temps plein'' du revenu d'activité professionnelle ne doit pas être effectuée lorsque la totalité du revenu d'activité professionnelle est inférieure au seuil minimum.\\
+
+Depuis l'imposition des revenus de 2002 une majoration de la PPE en faveur des personnes qui travaillent à temps partiel ou une partie de l'année seulement a été instituée, afin d'inciter à l'exercice d'une telle activité. Ainsi lorsque le coefficient correcteur est supérieur ou égal à 2 (activité exercée entre 30\% et 50\% d'un temps plein annuel) le montant de la prime correspondant à la durée effective d'activité est majoré par $85\% \times \texttt{montant de la prime}$.
+
+Lorsque le coefficient est compris entre 1 et 2 le montant de la prime majorée est obtenu en opérant l'addition des deux termes suivants :\\
+Le premier est égal à $15\% \times \texttt{montant de la prime temps partiel}$. \\
+Le second est égal à $85\% \times \texttt{montant de la prime temps plein}$. \\
+
+\paragraph*{Calcul de la PPE}
+
+\begin{tab}[13cm]{Calcul de la PPE.}
+{\begin{tabular}  {|r c l|c|}
+\hline
+\multicolumn{3}{|c|}{\emph{Si le revenu d'activité R}}                  &     \emph{Formule de calcul de la prime}                              \\
+\multicolumn{3}{|c|}{\emph{est compris entre :}}                        &       \emph{sans majoration :}	                                      \\
+\hline
+\multicolumn{4}{|c|}{\textbf{Cas général}} 	                          \\
+\hline
+seuil\_ppe\_min & $\leq  R \leq$ & seuil\_ppe                   &      $R\times tx\_ppe$                                                   \\
+\hline
+seuil\_ppe      & $\leq R \leq$  & seuil\_ppe\_max	            &   $(seuil\_ppe\_max - R)\times tx\_ret\_ppe$                             \\
+\hline
+                                             \multicolumn{4}{|c|}{\textbf{mariés mono-actifs}}   \\
+\hline
+seuil\_ppe\_min & $\leq R \leq$ & seuil\_ppe	                &       $R\times tx\_ppe + sup\_ppe\_coup$                                 \\
+\hline
+\multicolumn{3}{|c|}{seuil\_ppe  $\leq R \leq$  seuil\_ppe\_max}	&       $(seuil\_ppe\_max - R)\times tx\_ret\_ppe$        \\
+           &               &                                      &       $+ sup\_ppe\_coup$ \\
+\hline
+seuil\_ppe\_max & $\leq R \leq$ &seuil\_ppe\_coup	            &          $sup\_ppe\_coup$                                      \\
+\hline
+seuil\_ppe\_coup & $\leq R \leq$ & seuil\_ppe\_max\_coup	   &   $(seuil\_ppe\_max\_coup - R)\times tx\_ret\_ppe$               \\
+\hline
+   \end{tabular}}
+{\emph{Note:} Le cas général représente les célibataires, veufs, divorcés , mariés bi-actifs ou personnes à charge du foyer
+exerçant une activité professionnelle au moins rémunérée au plancher de la PPE.}
+\end{tab}
+
+\begin{table} [ht!]
+ \centering
+\caption{Prise en compte du temps partiel}
+\begin{tabular}  {|l|c|c|c|}
+\hline
+\textbf{Année}	& \textbf{maj\_ppe\_tp}	& \textbf{maj\_ppe\_tpbis} \\
+\hline
+2000	& -	            &-                 \\
+2001	& 	            &                  \\
+2002	&45\%	        &55\%              \\
+2003	&45\%	        &55\%              \\
+2004	&45\%	        &55\%              \\
+2005	&65\%	        &35\%              \\
+2006	&85\%	        &15\%              \\
+2007	&85\%	        &15\%              \\
+2008	&85\%	        &15\%              \\
+2009	&85\%	        &15\%              \\
+2010	&85\%	        &15\%              \\
+2011    &85\%           &15\%              \\
+\hline
+ \end{tabular}
+ \end{table}
+
+\begin{tab}[13cm]{Majoration en fonction de la situation de famille.}
+{\begin{tabular}  {|r c l|c|}
+\hline
+\multicolumn{3}{|c|}{\emph{Si le revenu d'activité R}}                  &     \emph{Montant de la majoration}                                \\
+\multicolumn{3}{|c|}{\emph{est compris entre}}                        &       (\textit{avec n personnes à charge})	                                      \\
+\hline
+                                    \multicolumn{4}{|c|}{\textbf{Célibataire, veuf, divorcé (ne vivant pas seuls) ou mariés bi-actifs}} 	                          \\
+\hline
+seuil\_ppe\_min &$\leq  R \leq$ & seuil\_ppe\_max	                      &  $n\times sup\_ppe\_enf$                 \\
+\hline
+		                            \multicolumn{4}{|c|}{\textbf{mariés mono-actifs}} \\
+\hline
+seuil\_ppe\_min & $\leq  R \leq$ & seuil\_ppe\_max	                      &  $n\times sup\_ppe\_enf$ \\
+seuil\_ppe\_max & $\leq R \leq$  & seuil\_ppe\_max\_coup	              & sup\_ppe\_enf       \\
+\hline
+            \multicolumn{4}{|c|}{\textbf{Célibataire veufs, divorcés (vivant seuls)}} \\
+\hline
+seuil\_ppe\_min & $\leq  R \leq$ & seuil\_ppe\_max	                      &  $2 \times sup\_ppe\_enf + (n-1) \times sup\_ppe\_enf$ \\
+seuil\_ppe\_max & $\leq R \leq$  & seuil\_ppe\_max\_coup	              &  $2 \times sup\_ppe\_enf$ \\
+ \hline
+\end{tabular}}{}
+\end{tab}
+
+Quatre cas sont à distinguer. Dans le \textbf{cas général} la  prime pour l'emploi est égale au produit du taux (7,7\%) de la PPE et du revenu d'activité professionnelle déclaré, tant que ce dernier reste inférieur à un seuil donné. Au-delà de ce seuil de revenu, la PPE est dégressive : elle est égale au produit d'un second taux (19,3\%) et de la différence entre le plafond individuel de la PPE et le montant du revenu d'activité professionnelle déclaré.
+
+La prime accordée au foyer fiscal est égale au total des primes accordées à chaque membre du foyer fiscal exerçant une activité professionnelle).
+
+Dans le \textbf{cas du temps partiel} la PPE est calculée sur un revenu d'activité professionnelle converti en ``équivalent temps plein''. Le montant de la prime ainsi calculé est ensuite divisé par le coefficient de conversion.
+
+Un couple soumis à imposition commune est considéré comme \textbf{foyer mono-actif} lorsque l'un des deux membres du couple n'exerce aucune activité professionnelle ou déclare des revenus d'activité professionnelle pour un montant inférieur au seuil minimum de la PPE. Si le revenu d'activité professionnel du foyer reste inférieur ou égal au  seuil maximum de la PPE, le calcul de la PPE est identique au cas général, auquel une majoration de 83~euros est appliquée. Si le revenu d'activité professionnelle du foyer est supérieur au plafond individuel mais inférieur au seuil de la PPE pour un couple, le montant de la prime pour l'emploi est fixé forfaitairement à 83~euros. Enfin, si le revenu d'activité professionnelle du foyer est compris entre le seuil de la PPE pour un couple et le plafond pour un couple, la prime est égale à 19,3\% de la différence entre le plafond maximal pour un couple et le montant des revenus d'activité professionnelle.
+
+Des \textbf{majorations peuvent être accordées pour charge de famille} pour tenir compte de la présence de personnes à charge au sein du foyer fiscal. Il suffit que le total des revenus d'activité d'un seul des deux conjoints d'un couple marié soumis à imposition commune soit inférieur au plafond de la PPE individuelle pour que le foyer fiscal bénéficie des majorations accordées pour charge de famille. Les personnes à charge ouvrant droit à une majoration sont les enfants mineurs ou infirmes, les enfants recueillis au foyer du contribuable, les personnes titulaires de la carte d'invalidité de 80\% et vivant sous le toit du contribuable, les enfants majeurs ayant demandé leur rattachement au foyer fiscal lorsque ces personnes n'exercent aucune activité professionnelle ou disposent de revenus d'activité professionnelle inférieurs au plancher des revenus de la PPE. En cas de changement de situation de famille en cours d'année (mariage, divorce, décès), la majoration est accordée également l'année de transition. La majoration est de 36~euros par personne à charge. Pour les contribuables célibataires ou divorcés qui vivent seuls et supportent effectivement la charge d'un ou de plusieurs enfants, la majoration pour charges de famille est doublée pour la première personne à charge, ramenée au montant forfaitaire par personne à charge supplémentaire.
+
+Un cas particulier concerne les foyers mono-actifs ou les personnes vivant seules avec des enfants. Lorsque les revenus d'activité professionnelle sont supérieurs au plafond de la PPE individuelle amsi inférieurs au plafond pour couple, le montant de la majoration pour charge de famille est fixé forfaitairement quel que soit le nombre des personnes à charge à 83~euros pour les couples mono-actifs et à 166~euros pour les personnes célibataires ou divorcées vivant seules et supportant effectivement la charge d'un ou de plusieurs enfants (même si elles ne touchent pas de PPE).
+
+Jusqu'en 2006, le montant total de la prime accordée à un même foyer fiscal ne peut être inférieur à un seuil de 30~euros (il est porté à ce seuil si la PPE calculée est inférieure). À partir du 1\er janvier 2006 (pour les revenus de 2005), la logique est inversée : aucune prime n'est versée si son montant n'est pas au moins égal à 30~euros.
+
+\begin{table} [ht!]
+ \centering
+\caption{Paramètre de calcul de la PPE : cas général}
+\begin{tabular}  {|l|c|c|c|c|c|}
+\hline
+\textbf{Année}	    & 	\textbf{tx\_ppe}	     &   \textbf{tx\_ret\_ppe}   &	\textbf{supp\_ppe\_coup}    &	 \textbf{supp\_ppe\_enf}	       &     \textbf{ppe\_min}                  \\
+\hline
+2000		&        2.2\%    &	5.5\%	      &   76 \euro	     &               30 \euro      &   	24 \euro             \\
+2001		&        4.4\%    &	11.0\%         &   	78 \euro     &          	 31 \euro	   &25 \euro                      \\
+2002		&        4.4\%    &	11.0\%         &   	79 \euro     &          	 32 \euro	   &25 \euro                        \\
+2003		&        4.6\%    &	11.5\%         &   	80 \euro     &          	 33 \euro	   &25 \euro                  \\
+2004		&        4.6\%    &	11.5\%         &   	81 \euro     &          	 34 \euro	   &25 \euro                  \\
+2005		&        6.8\%    &	17.0\%         &   	81 \euro     &          	 35 \euro	   &30 \euro                   \\
+2006		&        7.7\%    &	19.3\%         &   	82 \euro     &          	 36 \euro	   &30 \euro                     \\
+2007		&        7.7\%    &	19.3\%         &   	83 \euro     &          	 36 \euro	   &30 \euro                       \\
+2008		&        7.7\%    &	19.3\%         &   	83 \euro     &          	 36 \euro	   &30 \euro                       \\
+2009		&        7.7\%    &	19.3\%         &   	83 \euro     &          	 36 \euro	   &30 \euro                         \\
+2010		&        7.7\%    &	19.3\%         &   	83 \euro     &          	 36 \euro	   &30 \euro                         \\
+2011		&        7.7\%    &	19.3\%         &   	83 \euro     &          	 36 \euro	   &30 \euro                         \\
+2012		&        7.7\%    &	19.3\%         &   	83 \euro     &          	 36 \euro	   &30 \euro                         \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{tab} [13cm]{Paramètres de calcul de la PPE: cas des foyers mono-actifs}
+{\begin{tabular}  {|l|c|c|c|}
+\hline
+\textbf{Année} 	&\textbf{seuil\_ppe\_coup}	  &    \textbf{seuil\_ppe\_coup\_max}     & 	 \textbf{tx\_ret\_ppe\_coup}  \\
+\hline
+2000    &20 911 \euro	  &  22 297 \euro	             &   5,5\%      \\
+2001	&21 246 \euro	  &  22 654 \euro	             &   5,5\%      \\
+2002	&21 764 \euro	  &  23 207 \euro	             &   5,5\%      \\
+2003	&22 478 \euro	  &  23 968 \euro	             &   5,5\%      \\
+2004	&23 377 \euro	  &  24 927 \euro	             &   5,5\%      \\
+2005	&23 798 \euro	  &  25 376 \euro	             &   5,5\%      \\
+2006	&24 630 \euro	  &  26 231 \euro	             &   5,1\%      \\
+2007	&24 950 \euro	  &  26 572 \euro	             &   5,1\%      \\
+2008	&24 950 \euro	  &  26 572 \euro	             &   5,1\%      \\
+2009	&24 950 \euro	  &  26 572 \euro	             &   5,1\%      \\
+2010	&24 950 \euro	  &  26 572 \euro	             &   5,1\%      \\
+2011	&24 950 \euro	  &  26 572 \euro	             &   5,1\%      \\
+2012	&24 950 \euro	  &  26 572 \euro	             &   5,1\%      \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+\subsubsection{Recouvrement de l'impôt}
+Un avis d'imposition est émis à chaque foyer fiscal. Si le montant total de l'impôt net dû est inférieur à 61~euros, l'impôt n'est pas réclamé.
+
+\section{Contribution exceptionnelle sur les hauts revenus}
+Depuis le 1\er janvier 2012, une  contribution exceptionnelle sur les hauts revenus (CHR) est mise en place\footnote{Voir le Code général des impôts, article 223 sexies}. Bien qu'elle soit directement liée à l'IRPP, cette CHR doit être présentée à part en raison de son mode de calcul spécifique.
+
+Cette contribution doit concerner environ 25~000 foyers fiscaux et rapporter environ 400~millions d'euros par an.
+
+\subsection{Personnes concernées et assiette}
+Cette CHR est présentée comme une imposition temporaire. Néanmoins, l'horizon auquel le dispositif est susceptible de disparaître n'est pas explicite : il s'agit de maintenir le dispositif \og à compter de l'imposition des revenus de l'année 2011 et jusqu'à l'imposition des revenus de l'année au titre de laquelle le déficit public des administrations publiques est nul~\fg\footnote{Loi \no 2011-1977 du 28 décembre 2011, article 2 III A.}.\\
+
+Le dispositif concerne les contribuables imposables à l'IRPP disposant d'un revenu fiscal de référence (RFR) supérieur à un seuil de 250~000~euros pour les déclarants non-unis (célibataires, veufs, séparés ou divorcés) et 500~000~euros pour les contribuables soumis à imposition commune. Le \og quotient conjugal~\fg interfère dans le calcul du montant dû au titre de la CHR, contrairement au quotient familial.
+
+\subsection{Calcul de la CHR}
+
+Deux cas de figure sont à distinguer en fonction de la situation maritale des contribuables. Cette distinction permet d'asseoir la CHR sur la base du foyer fiscal et non sur une base individuelle --~qui peut générer des ruptures d'équité horizontale entre les contribuables~--. Ces deux cas de figure sont résumés dans le tableau~\ref{CHR}. Le mode de calcul est un barème par tranche qui comporte deux tranches.
+
+\begin{tab}[13cm]{Tranches et taux applicables au titre de la CHR\label{CHR}}
+{\begin{tabular}{|c|cc|}
+\hline
+\textbf{Revenu fiscal de référence} & \multicolumn{2}{c|}{\textbf{Taux de la contribution}} \\
+\textbf{avant application des règles du QF} & Contribuables déclarant seuls & Contribuables soumis à imposition commune \\
+\textbf{avant application des règles du QF} & Contribuables déclarant seuls & Contribuables soumis à imposition commune \\
+\hline
+De 250 000 à 500 000 euros & 3\% & 0\%  \\
+De 500 000 à 1 000 000 euros & 4\% & 3\% \\
+Au-delà de 1 000 000 euros & 4\% & 4\% \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+\paragraph{Prise en compte des revenus exceptionnels}
+
+Si le RFR de certains contribuables s'est accru rapidement en 2011, un mécanisme d'augmentation de l'impôt est mis en place.
+
+Si le revenu fiscal de référence du contribuable au titre de l'année d'imposition à la CHR est supérieur ou égal à une fois et demie la moyenne des revenus fiscaux de référence des deux années précédentes, la fraction du revenu fiscal de l'année d'imposition supérieure à cette moyenne est divisée par deux, puis le montant ainsi obtenu est ajouté à cette même moyenne. La cotisation supplémentaire est alors multipliée par deux.
+
+Ce dispositif ne s'applique qu'aux contribuables ayant été passibles de l'IRPP les deux années précédentes, pour plus de la moitié de leurs revenus.
+
+\paragraph{Prise en compte des changements de situation matrimoniale}
+Les RFR faisant foi pour le calcul de la CHR sont ceux du couple les années où le foyer fiscal déclare ses revenus en commun, et ceux du contribuable seul les années où il existe deux foyers fiscaux déclarant leurs revenus séparément.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Les contributions sociales}
+La contribution sociale généralisée (CSG) et la contribution au remboursement de la dette sociale (CRDS) sont des prélèvements fiscaux destinés à diversifier les sources de financement de la sécurité sociale. Ces prélèvements sont assis sur les revenus d'activité, les revenus de remplacement et certains revenus du capital. Elles ont la particularité d'être considérées, d'un point de vue législatif, à la fois comme un impôt sur le revenu et comme des cotisations sociales. En effet, comme elles n'ouvrent droit à aucune prestation sociale ni à aucune affiliation, elles ne sont pas à proprement parler reconnues comme des cotisations sociales par le Conseil constitutionnel ; toutefois la Cour de justice de l'Union européenne y voit une cotisation sociale dans la mesure où leurs recettes sont affectées au financement de la Sécurité sociale. \\
+
+D'autres prélèvements que la CSG et la CRDS existent, mais ne concernent que les revenus du capital. Ces prélèvements sont le prélèvement social (PS), la contribution additionnelle au prélèvement social (CAPS) et le prélèvement de solidarité. Dans la mesure où ils sont prélevés sur une assiette identique à celle de la CSG, on peut voir ces contributions comme un supplément de CSG portant sur les seuls revenus du capital dans l'assiette de la CSG, et dont les revenus sont alloués à des caisses spécifiques. Les revenus générés par la CAPS sont par exemple alloués à la caisse nationale de solidarité pour l'autonomie, alors que le prélèvement de solidarité vise à financer le revenu de solidarité active (RSA) et l'allocation parent isolé (API).
+
+Souvent présentés comme des prélèvement purement proportionnels, ils  portent en réalité des éléments de progressivité. L'application de l'abattement sur les revenus d'activité au titre des frais professionnels est appliqué sous condition de ressources ; les revenus de remplacement sont exonérés de CSG et de CRDS si le RFR du foyer fiscal est inférieur à un seuil. D'un autre côté, si les contributions sociales concernant les revenus du capital sont plus élevées que pour les autres revenus, tous les revenus du capital ne sont pas soumis aux contributions sociales. Il est donc finalement difficile de conclure \textit{in fine} quant à la progressivité ou la régressivité de ces contributions sociales.\\
+
+En tout état de cause, les cotisations sociales voient leur place dans le système fiscal et social français croître régulièrement depuis leur mise en place au cours de l'année 1991. Dans le projet de loi de finances pour 2013, les recettes de la CSG seule prévue pour 2013 sont de près de 92~milliards~d'euros, celles de la CRDS de 6,7~milliards d'euros. Les contributions additionnelles sur les revenus du capital apportant ensemble environ 8~milliards d'euros, le montant total des recettes s'élève à environ 107~milliards d'euros. À titre de comparaison, les recettes de l'IRPP prévues pour 2013 (et donc assises sur les revenus de 2012) sont estimées à environ 72,6~milliards d'euros. Par contraste, en 1991, la CSG rapportait seulement 39~milliards de francs en année pleine (6~milliards d'euros environ).
+
+\subsection{Contributions sociales sur les revenus d'activité}
+
+Les prélèvements sociaux auxquels sont soumis les revenus d'activité sont la CSG et la CRDS. Elles sont retenues à la source par l'employeur ou l'organisme en charge du versement. Celui-ci se charge ensuite de reverser les montants dûs au titre de ces deux impôts.
+
+\subsubsection{Personnes imposées et assiette}
+La CSG et la CRDS payées au titre des revenus d'activité concernent tout individu domicilié en France pour l'impôt sur le revenu et à la charge d'un régime obligatoire français d'assurance maladie.\\
+
+Pour les \textbf{revenus salariés}, l'assiette de la CSG et de la CRDS inclut:
+\begin{itemize}
+\item les \underline{salaires et traitements} bruts, les \underline{primes et indemnités diverses} brutes, les \underline{avantages en nature ou en espèces}\footnote{Une rémunération exclusivement constituée d'avantages en nature est en revanche exonérée de CSG et de CRDS.}. Au titre d'une déduction forfaitaire, seuls 98,25\% des salaires et traitements sont pris en compte si leur montant est inférieur à quatre fois le plafond de la sécurité sociale (le PSS est de 37~032~euros annuels en 2013). En revanche depuis le 1\er janvier 2011 la déduction n'est pas prise en compte à partir d'un certain niveau de revenu : 100\% des salaires et traitements sont pris en compte si leur montant total dépasse le seuil de quatre PSS.
+\item les \underline{accessoires du salaire} (indemnités de licenciement ou de mise à la retraite, gains liés à des modifications du contrat de travail, bonus lié à l'intéressement, primes territoriales, etc.) bruts sont pris en compte à hauteur de 10\%. Jusqu'au 31 décembre 2011, ces revenus bénéficiaient également de l'abattement de 1,75\% au titre de frais professionnels.
+\end{itemize}
+\vspace{0.2cm}
+Pour les \textbf{revenus d'activité non salariés}, l'assiette de la CSG et de la CRDS dépend essentiellement du secteur d'activité.
+\begin{itemize}
+\item les \underline{revenus des professions agricoles} sont imposées à la CSG et à la CRDS sur une assiette définie comme celle des cotisations pour la sécurité sociale, majorée des cotisations sociales personnelles de l'exploitant. Cela correspond aux bénéfices agricoles, aux bénéfices industriels et commerciaux obtenus dans le cadre d'activités agricoles, ainsi qu'aux rémunérations des dirigeants de sociétés agricoles.
+
+\item les \underline{revenus des professions non-agricoles} pris en compte pour imposition à la CSG et la CRDS sont ceux qui servent à déterminer la cotisation personnelle d'allocations familiales, majorés des cotisations personnelles de sécurité sociale (si elles sont déductibles de l'assiette IRPP et de celle de la cotisation d'allocations familiales).
+
+Les revenus considérés comme des BIC ou des BNC non soumis à la cotisation personnelle d'allocations familiales sont considérés comme des revenus du patrimoine et imposés comme tels (cf \textit{infra}).
+\end{itemize}
+\vspace{0.2cm}
+Les CSG-CRDS et l'IRPP étant deux impôts sur les revenus, une partie de la CSG payée est déductible des revenus utilisés pour calculer le montant d'IRPP. Ceci répond --~ partiellement~-- au principe implicite de ne pas imposer plusieurs fois la même ressource. Cette portion déductible représente approximativement deux tiers du montant total de la CSG.
+
+En revanche, la CRDS n'est pas du tout déductible du revenu imposable à l'IRPP.
+
+\subsubsection{Calcul de l'impôt et historique des taux}
+
+Les taux de CSG et de CRDS appliqués aux revenus d'activité sont identiques. Le tableau~\ref{activ} retrace l'évolution de ces taux depuis la création de ces prélèvements.
+
+\begin{tab}[13cm]{Historique des taux de CSG et de CRDS pour les revenus d'activité depuis 1990 \label{activ}}
+{\begin{tabular}{|c|ccc|cc|}
+\hline
+\textbf{Date du changement} & \textbf{Taux global} & \textbf{Dont taux} & \textbf{Taux de} & \multicolumn{2}{c|}{\textbf{Abattement}} \\
+ \textbf{législatif} & \textbf{de CSG} & \textbf{déductible} & \textbf{CRDS} & sous 4 PSS & Au-dessus de 4 PSS\\
+ \hline
+01/07/2012 & 7,50\% & 5,10\% & 0,50\% & 1,75\% & 0\% \\
+01/01/2011 & 7,50\% & 5,10\% & 0,50\% & 3\% & 0\% \\
+01/01/2005 & 7,50\% & 5,10\% & 0,50\% & 3\% & 3\% \\
+01/01/1998 & 7,50\% & 5,10\% & 0,50\% & 5\% & 5\% \\
+01/01/1997 & 3,40\% & 1,00\% & 0,50\% & 5\% & 5\% \\
+01/02/1996 & 2,40\% & - & 0,50\% & 5\% & 5\% \\
+01/07/1993 & 2,40\% & - & - & 5\% & 5\% \\
+01/02/1991 & 1,10\% & - & - & 5\% & 5\% \\
+avant le 01/02/1991 & - & - & - & - & - \\
+\hline
+\end{tabular}}{}
+\end{tab}
+
+\subsection{Contributions sociales sur les revenus de remplacement}
+
+\subsubsection{Personnes imposées et assiette}
+
+La CSG et la CRDS payées au titre des revenus de remplacement concernent, comme les revenus de remplacement, tout individu domicilié en France pour l'impôt sur le revenu et à la charge d'un régime obligatoire français d'assurance maladie.
+
+Pour les revenus de remplacement, l'assiette de la CSG et de la CRDS n'est pas exactement la même. De plus, comparativement à celle des revenus d'activité, elle est limitée par certaines exonérations. L'assiette de la CRDS est composée:
+\begin{itemize}
+\item des \underline{pensions de retraite ou d'invalidité}. Ces revenus sont exonérés en totalité si le bénéficiaire perçoit un avantage vieillesse ou invalidité non-contributif attribué sous condition de ressources. Ces revenus sont également exonérés si le RFR du foyer fiscal sur l'avis d'imposition d'il y a deux ans est inférieur aux seuils présentés dans le tableau~\ref{seuil}. De plus, si le montant d'IRPP réclamé au foyer fiscal est inférieur à 61~euros (seuil de non-recouvrement de l'impôt) l'année précédente, le taux réduit de CSG de 3,8\% est appliqué sur les pensions quel que soit le RFR du foyer fiscal.
+
+\begin{tab}[13cm]{Seuils d'exonération de CSG-CRDS en 2011 et 2012 \label{seuil}}
+{\begin{tabular}{|l|cc|}
+\hline
+Nombre de parts (QF) & RFR de 2009 (avis d'imposition & RFR de 2010 (avis d'imposition \\
+pour calculer l'IRPP & 2010, prélèvement CSG-CRDS 2011) & 2011, prélèvement CSG-CRDS 2012) \\
+\hline
+1 part & 9~876~\euro & 10~024~\euro \\
+1,5 part & 12~513~\euro & 12~700~\euro \\
+2 parts & 15~150~\euro & 15~376~\euro \\
+$+$ 1/4 part & 1~319~\euro & 1~338~\euro \\
+$+$ 1/2 part & 2~637~\euro & 2~676~\euro \\ \hline
+\end{tabular}}{\emph{Source}: }
+\end{tab}
+
+\item des \underline{allocations de chômage et de préretraite brutes}. L'exonération sous condition de ressource avec le critère du RFR (et sa modulation pour les montants d'impôt inférieurs à 61~euros) existe également. Par ailleurs, si le prélèvement de la CSG et de la CRDS faisait baisser le montant net de l'allocation en-deçà du Smic brut. Enfin, dans le cas des allocations chômage, le défraiement de 1,75\% est appliqué si le montant brut ne dépasse pas quatre PSS annuels.
+\item des \underline{rentes viagères à titre gratuit} (brutes).
+\item des \underline{indemnités et allocations diverses} (brutes).\\
+
+Sont exonérées les sommes versées dans le cadre d'un ``volontariat'' (volontariat international, volontariat pour l'insertion, volontariat de solidarité internationale), les rémunérations des apprentis, les bourses étudiantes sous condition de ressources, les allocations pour les handicaps (AAH, AEEH, Apa), les retraites des combattants et les pensions militaires d'invalidité, etc.\\
+\end{itemize}
+
+L'assiette de la CSG est presque aussi large que celle de la CRDS. Certaines exonérations supplémentaires sont simplement à prendre en compte:
+\begin{itemize}
+\item des allocations (ALS, ALF, APL);
+\item des prestations (Paje, allocations familiales, complément familial, allocation de logement, ASF, ARS, AJPP);
+\item le revenu de solidarité active (RSA, RMI avant 2009).
+\end{itemize}
+
+\subsubsection{Historique des taux de CSG et CRDS pour les revenus de remplacement}
+
+Les taux de CSG et de CRDS appliqués aux différents revenus de remplacement sont présentés dans le tableau~\ref{rempl}. Les allocations chômage étant soumises au même abattement que les revenus d'activité, se référer au tableau~ref{seuil} pour connaître leur évolution.
+
+\begin{tab}[13cm]{Taux de CSG et de CRDS applicables aux différents revenus de remplacement\label{rempl}}
+{\begin{tabular}{|l|ccc|ccc|}
+\hline
+\multirow{2}{*}{\textbf{Date du changement}} & \multicolumn{3}{c|}{\textbf{Allocations chômage}} & \multicolumn{3}{c|}{Pensions (retraite, invalidité)} \\
+& CSG & CSG déductible & CRDS & CSG & CSG déductible & CRDS \\
+\hline
+ 01/01/2008 & 6,2\% & 3,8\% & 0,5\% & 6,6*\% & 4,2\%   & 0,5\% \\
+ 01/01/2005 & 6,2\% & 3,8\% & 0,5\% & 6,6*\% & 4,2\%   & 0,5\% \\
+ 01/01/1998 & 3,4\% & 3,8\% & 0,5\% & 6,2*\% & 3,8\%   & 0,5\% \\
+ 01/01/1997 & -     & -     & 0,5\% & 3,4\%  & 4,2**\% & 0,5\% \\
+ 01/02/1996 & -     & -     & 0,5\% & 2,4\%  & -       & 0,5\% \\
+ 01/07/1993 & -     & -     & -     & 2,4\%  & -       & -     \\
+ 01/02/1991 & -     & -     & -     & 2,4\%  & -       & -     \\
+\end{tabular}}{Notes XXXXXXXXXXXXXXXXXXXXXXXXXX}
+\end{tab}
+
+\begin{tab}[13cm]{Taux de CSG et de CRDS applicables aux différents revenus de remplacement 2\label{rempl2}}
+{\begin{tabular}{|l|ccc|ccc|}
+\multirow{2}{*}{\textbf{Date du changement}} & \multicolumn{3}{c|}{\textbf{Allocations de préretraite}} & \multicolumn{3}{c|}{\textbf{Indemnités journalières de sécurité sociale}} \\
+& CSG & CSG déductible & CRDS & CSG & CSG déductible & CRDS \\
+\hline
+01/01/2008 & 7,5* (6,6\%)\% & 4,2\% & 0,5\% & 6,2\% & 3,8\% & 0,5\% \\
+01/01/2005 & 6,6\%          & 4,2\% & 0,5\% & 6,2\% & 3,8\% & 0,5\% \\
+01/01/1998 & 6,2\%          & 3,8\% & 0,5\% & 6,2\% & 3,8\% & 0,5\% \\
+01/01/1997 & 3,4\%          & 4,2\% & 0,5\% & 3,4\% & 3,8\% & 0,5\% \\
+01/02/1996 & -              & -     & 0,5\% & -     & -     & 0,5\% \\
+01/07/1993 & -              & -     & -     & -     & -     & -     \\
+01/02/1991 & -              & -     & -     & -     & -     & -     \\
+\hline
+\end{tabular}}{Notes aussi XXXXXXXXXXXXXXXXXXXXXXXXXX}
+\end{tab}
+
+\subsection{Contributions sociales sur les revenus du capital}
+Dans les revenus du capital, on distingue usuellement les revenus du patrimoine et les revenus de placement. Les \textbf{revenus du patrimoine} sont les revenus fonciers, les rentes viagères à titre onéreux, les revenus de capitaux mobiliers et les plus-values de cession de valeurs mobilières. Les \textbf{revenus de placement} sont les plus-values immobilières, les revenus de l'épargne salariale, les intérêts et primes d'épargnes des CEL et PEL, les produits d'assurance-vie, les gains et rentes réalisés lors des PEA.
+
+Ces revenus du capital sont soumis à plusieurs prélèvements sociaux : CSG, CRDS, prélèvement social (PS), contribution additionnelle au prélèvement social (CAPS) et prélèvement de solidarité sur les revenus du patrimoine et les produits de placement. Ce dernier prélèvement remplace depuis le 1\er janvier 2013 l'ancienne ``CAPS-RSA''.
+
+\subsubsection{Personnes imposées et assiette}
+
+Contrairement au cas des revenus de remplacement ou d'activité, toutes les personnes fiscalement domiciliées en France sont redevables des contributions sociales sur les revenus du capital, et ce même si elles ne sont pas soumises à l'impôt sur le revenu.
+
+L'assiette de ces contributions sociales est quasiment identique:
+\begin{itemize}
+\item L'assiette de la \textbf{CSG} regroupe certains revenus du patrimoine tels que les revenus fonciers, les rentes viagères à titre onéreux, les revenus de capitaux mobiliers et les plus-values de cession de valeurs mobilières. S'ajoutent aux revenus du patrimoine certains revenus de placement comme les plus-values immobilières, les revenus de l'épargne salariale, les intérêts et primes d'épargnes des CEL et PEL, les produits d'assurance-vie, les gains et rentes réalisés lors des PEA.
+
+\noindent En revanche, les intérêts acquis grâce aux livrets A, livrets jeunes, livrets d'épargne populaire, livrets de développement durable ou livrets d'épargne-entreprises sont exonérés de toute contribution sociale.
+\item L'assiette du \textbf{PS} , de la \textbf{CAPS} et du \textbf{prélèvement de solidarité sur les revenus du patrimoine et les produits de placement} est rigoureusement identique à celle de la CSG.
+\item L'assiette de la CRDS est légèrement plus large que celle des autres contributions sociales, car elle englobe également le produit des ventes de métaux, d'objets précieux, de bijoux, d'objets d'art ou de collection et les gains provenant des jeux de hasard, des paris hippiques et des casinos.
+\end{itemize}
+\vspace{0.2cm}
+La CSG sur les revenus du capital a également une composante déductible qui s'applique exclusivement aux revenus du patrimoine et de placement imposés au barème de l'IRPP. Les revenus imposés au prélèvement libératoire forfaitaire ou exonérés d'impôt sur le revenu ne sont naturellement pas concernés par ce dispositif de CSG déductible qui atténue la double imposition des revenus.
+
+\subsubsection{Historique des taux}
+Par souci de simplicité, nous présentons séparément les taux des contributions sociales s'appliquant aux revenus du patrimoine et ceux des revenus de placement, dans les tableaux~\ref{patri} et~\ref{plac}
+
+\begin{tab}[13cm]{Taux des contributions sociales sur les revenus du patrimoine \label{patri}}
+{\begin{tabular}{|l|cccccc|}
+\hline
+\textbf{Date du changement} & \textbf{CSG} & \textbf{CSG déductible} & \textbf{CRDS} & \textbf{PS} & \textbf{CAPS} & \textbf{Prélèvement social} \\
+\hline
+01/01/2013 & 8,2\% & 5,1\% & 0,5\% & 5,4\% & 0,3\% & 2\% \\
+01/07/2012 & 8,2\% & 5,8\% & 0,5\% & 5,4\% & 0,3\% & 1,1\% \\
+10/10/2011 & 8,2\% & 5,8\% & 0,5\% & 3,4\% & 0,3\% & 1,1\% \\
+03/01/2011 & 8,2\% & 5,8\% & 0,5\% & 2,2\% & 0,3\% & 1,1\% \\
+01/01/2009 & 8,2\% & 5,8\% & 0,5\% & 2\% & 0,3\% & 1,1\% \\
+01/01/2007 & 8,2\% & 5,8\% & 0,5\% & 2\% & 0,3\% & - \\
+01/07/2004 & 7,5\% & 5,1\% & 0,5\% & 2\% & 0,3\% & - \\
+01/01/2003 & 7,5\% & 5,1\% & 0,5\% & 2\% & 0,15\% & - \\
+01/01/1997 & 7,5\% & 5,1\% & 0,5\% & 2\% & - & - \\
+01/02/1996 & 3,4\% & 1\% & 0,5\% & - & - & - \\
+01/01/1996 & 3,4\% & 1\% & - & - & - & - \\
+01/07/1993 & 2,4\% & - & - & - & - & - \\
+01/02/1991 & 1,1\% & - & - & - & - & - \\
+avant le 01/02/1991 & - & - & - & - & - & - \\
+\hline
+\end{tabular}}{
+Notes à ajouter : *, **, la parenthèse.}
+\end{tab}
+
+\begin{tab}[13cm]{Taux des contributions sociales sur les revenus de placement \label{plac}}
+{\begin{tabular}{|l|cccccc|}
+\hline
+\textbf{Date du changement} & \textbf{CSG} & \textbf{CSG déductible} & \textbf{CRDS} & \textbf{PS} & \textbf{CAPS} & \textbf{Prélèvement social} \\
+\hline
+01/01/2013 & 8,2\% & 5,1\% & 0,5\% & 5,4\% & 0,3\% & 2\% \\
+01/07/2012 & 8,2\% & 5,8\% & 0,5\% & 5,4\% & 0,3\% & 1,1\% \\
+10/10/2011 & 8,2\% & 5,8\% & 0,5\% & 3,4\% & 0,3\% & 1,1\% \\
+03/01/2011 & 8,2\% & 5,8\% & 0,5\% & 2,2\% & 0,3\% & 1,1\% \\
+01/01/2009 & 8,2\% & 5,8\% & 0,5\% & 2\% & 0,3\% & 1,1\% \\
+01/01/2007 & 8,2\% & 5,8\% & 0,5\% & 2\% & 0,3\% & - \\
+01/01/2005 & 8,2\% & - & 0,5\% & 2\% & 0,3\% & - \\
+01/07/2004 & 7,5\% & - & 0,5\% & 2\% & 0,3\% & - \\
+01/01/1998 & 7,5\% & - & 0,5\% & 2\% & - & - \\
+01/01/1997 & 3,4\% & - & 0,5\% & - & - & - \\
+01/02/1996 & 2,4\% & - & 0,5\% & - & - & - \\
+01/07/1993 & 2,4\% & - & - & - & - & - \\
+01/02/1991 & 1,1\% & - & - & - & - & - \\
+avant le 01/02/1991 & - & - & - & - & - & - \\
+ \hline
+\end{tabular}}{Notes à ajouter : *, **, la parenthèse.}
+\end{tab}
+
+\subsubsection{Modalités de recouvrement}
+Certains revenus de placement sont imposés à la source par l'établissement payeur, comme les dividendes, les revenus de placement soumis au PFL ou exonérés d'IRPP.
+
+Pour les autres revenus du capital, un avis d'imposition spécifique -- distinct de l'avis d'imposition sur le revenu -- est reçu par chaque foyer fiscal. Il précise le montant des contributions à payer et le montant de la CSG déductible. Si le montant dû est inférieur à 61~euros, il n'est pas réclamé.
+
+Les foyers mensualisés ou payant leur impôt à l'échéance sont ne sont pas concernés par l'avis d'imposition spécifique, le prélèvement des contributions sociales se faisant automatiquement. 

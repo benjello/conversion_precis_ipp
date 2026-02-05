@@ -1,0 +1,112 @@
+\input{Style/ipp-packages}
+\input{Style/ipp-macros}
+\bibliographystyle{Style/ipp-bibliostyle}
+
+\begin{document}
+
+% Profondeur de la numérotation des sections (sous-sous sections)
+\setcounter{secnumdepth}{3}
+% Profondeur de la table des matières (sous-sections)
+\setcounter{tocdepth}{2}
+
+% Pour changer la couleur des bullets dans les liste à puce %
+\renewcommand{\labelitemi}{${\color{ippdark}\bullet}$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                       COUVERTURE                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion des deux pages de couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture1.pdf}
+\includepdf[pages=1]{Couverture/couverture2.pdf}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    RÉSUMÉ                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\pagestyle{headings}
+\setstretch{1.7}
+% La numérotation commence
+\setcounter{page}{1}
+
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires : historique des dispositifs français}{Résumé}
+\chapter*{Résumé}
+
+\noindent \noindent Les baisses de cotisations sociales patronales constituent un des principaux leviers de la politique de l'emploi des gouvernements français depuis les années 1990. Ce document décrit les différents dispositifs qui ont été successivement mis en oeuvre. Il se focalise sur les allégements dits généraux, destinés soit à l'ensemble des entreprises françaises soit aux bas salaires; aussi, il ne présente pas l'ensemble des dispositifs bénéficiant à certaines catégories spécifiques d'employeurs ou de salariés. Les formules de calcul des réductions sont explicitées et les références législatives (décrets, lois) définissant ces règles sont rappelées. Ce guide vise aussi à fournir quelques éléments de contexte, qui permettent d'avoir une vue d'ensemble des politiques de réduction de \og charges \fg françaises.
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                      SOMMAIRE                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires : historique des dispositifs français}{Sommaire}
+\setstretch{1.2}
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                CHAPITRES DU GUIDE                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\setstretch{1.7} \entetetwo{Les exonérations de cotisations patronales sur les bas salaires}{Introduction}
+\chapter{\label{Introduction}Introduction}
+\input{Chapitres/1-Introduction.tex}
+
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires : historique des dispositifs français}{Réductions de cotisations famille}
+\chapter{\label{Cotisations famille}Les premières réductions de cotisations pour les bas salaires: les exonérations de cotisations "famille"}
+\input{Chapitres/2-Cotisations_famille.tex}
+
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires}{Les ristournes Juppé}
+\chapter{\label{Ristourne Juppé} Réduction dégressive des cotisations patronales, dite \og ristourne Juppé \fg }
+\input{Chapitres/3-Reductions_Juppe.tex}
+
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires}{Exonérations liées aux RTT}
+\chapter{\label{Exonérations liées aux RTT} Les dispositifs de réduction du temps de travail (RTT) }
+\input{Chapitres/4-Reductions_RTT.tex}
+
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires}{Les exonérations Fillon}
+\chapter{\label{Exonération Fillon} Les exonérations Fillon }
+\input{Chapitres/5-Reductions_Fillon.tex}
+
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires}{Mesures récentes}
+\chapter{\label{Mesures recentes} Mesures récentes }
+\input{Chapitres/6-Reductions_recentes.tex}
+
+\entetetwo{Les exonérations de cotisations patronales sur les bas salaires}{Les exonérations de cotisations patronales: vue d'ensemble}
+\chapter{\label{Vue d'ensemble} Les exonérations de cotisations patronales: vue d'ensemble }
+\input{Chapitres/7-Vue_ensemble.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               BIBLIOGRAPHIE                                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\entetetwo{Le système fiscal français: historique et législation}{Bibliographie}
+%\bibliography{biblio-guide}
+%\addcontentsline{toc}{chapter}{Bibliographie}
+%\clearpage
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                GLOSSAIRE                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\entetetwo{Le système fiscal français: historique et législation}{Abréviations}
+\chapter*{Liste des abréviations \label{Abréviations}}
+\input{Chapitres/8-Abreviations.tex}
+\addcontentsline{toc}{chapter}{Abréviations}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    4E de COUV                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Inclusion du dos de la couverture du rapport %
+\includepdf[pages=1]{Couverture/couverture4.pdf}
+
+\end{document} 

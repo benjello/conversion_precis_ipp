@@ -1,0 +1,35 @@
+Sur les cot soc: 
+
+p 43: Jusqu’à l’IR payé en 2013 (sur les revenus de 2012), le salaire imposable était
+égal à : salaire brut - cotisations salariales (CSG et CRDS non comprises) - CSG non
+déductible.
+
+--> remplacer CSG non déductible par CSG déductible
+
+
+p 47: Abondement de l’employeur au plan d’épargne entreprise (Perco)
+L’abondement à un Perco n’est pas soumis aux cotisations sociales dans le cas
+général, mais est pris en compte lorsqu’est calculée la déduction (qui est plafonnée)
+des contributions patronales de prévoyance et de retraite supplémentaire de
+l’assiette des cotisations sociales. Il est soumis au forfait social et à la CSG-CRDS.
+
+--> Changer le titre et mettre abondement de l'employeur au Perco. 
+
+
+p 62: La Retenue sur Pension (RP)
+Instituée en 1925, la retenue pour pension (RP) est une contribution versée
+
+--> Pour ou sur? 
+
+p 74 : Cette affectation a été instaurée par la réforme des retraites de 1993 (dite
+Balladur) ; elle s’élève à un taux de 1,05 % pour les revenus salariaux et de
+1,05 % pour les autres revenus. 
+
+--> 1,03 sur les revenus salariaux (changé dans le doc)
+
+
+p 120: Les sommes perçues et les heures effectuées au titre du temps de travail supplémentaire
+sont pris en compte pour la détermination de l’éligibilité à et du
+montant de la prime pour l’emploi (PPE).
+
+--> Eligibilité à quoi? 

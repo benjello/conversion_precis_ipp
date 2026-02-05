@@ -1,0 +1,437 @@
+\ifx\isEmbedded\undefined
+\input{../../Style/ipp-separate}
+\setcounter{chapter}{0}
+\chapter{\label{Chapitre1}Le financement de la protection sociale en France}
+\else \fi
+
+Ce chapitre vise à fournir un aperçu de l'architecture institutionnelle de la protection sociale en France, qui permet de comprendre la complexité et la structure d'une grande partie des prélèvements assis sur les revenus d'activité. Après un bref aperçu historique de la construction du système de protection sociale français (partie 1.1), l'architecture institutionnelle est présentée en insistant sur les contours variables de la Sécurité sociale et de la protection sociale (partie 1.2). Enfin, la partie 1.3 présente l'ensemble des prélèvements obligatoires sur les revenus d'activité, en discutant leur classification en cotisations sociales ou en impôts.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Aperçu historique}
+
+En France, les débuts de la législation relative à la Sécurité sociale remontent à la fin du XIX\up{ème} siècle. Une première loi a été votée en 1898 pour protéger les travailleurs des conséquences des accidents du travail: elle garantissait aux salariés des compensations financières lorsque la responsabilité de l'employeur pouvait être établie. Cette loi a marqué le point de départ d'une phase de développement de mesures de protection sociale: la première assurance vieillesse pour les salariés agricoles et de l'industrie a été créée en 1910, tandis qu'un système plus global d'assurance sociale contre les risques maladie, maternité, invalidité et vieillesse pour les salariés des secteurs de l'industrie et du commerce a été mis en place en 1930 \citep{SecuriteSociale1988}.
+
+Toutefois, avant que ne soient appliquées ces premières lois de portée nationale, des initiatives privées émanant de certains employeurs ou de travailleurs ont vu le jour dans certaines professions. Les employés des entreprises publiques, travailleurs indépendants, ouvriers agricoles, fonctionnaires, etc. bénéficiaient ainsi d'une couverture partielle contre les risques sociaux. Plus particulièrement, en ce qui concerne les retraites, les premiers régimes à proprement parler ont été mis en place au cours du XIX\up{ème} siècle, mais l'affiliation était conditionnelle à la profession du salarié. Certains de ces régimes de retraite étaient complétés par une assurance maladie. La variété de ces premiers régimes a été maintenue en partie après le développement d'un système plus général couvrant la majorité de la population, active ou non, et permet de comprendre le visage actuel du système de protection sociale français.
+
+Il reste que la majeure partie des caractéristiques du système de Sécurité sociale actuelle ont été mises en place après la Seconde guerre mondiale. Le premier système cohérent et couvrant l'ensemble des grands risques sociaux a été instauré à la Libération, en octobre 1945. Initialement destiné aux travailleurs des secteurs non-agricoles, il a été progressivement étendu à l'ensemble de la population. Les objectifs de ce système de protection sociale étaient de protéger les travailleurs et leur famille contre les risques pouvant induire une incapacité partielle ou totale de travailler, soit les situations de maladie, maternité, et de vieillesse, ou encore en cas d'accident. Selon les mots de Pierre Laroque, de \og garantir à tous les éléments de la population qu'en toutes circonstances ils jouiront de revenus suffisants pour assurer leur subsistance familiale.\fg \citep{Laroque1946}. La loi reconnaissait aussi un droit à une compensation partielle des dépenses supplémentaires liées à la présence d'enfants dans une famille. En parallèle de l'extension du régime général, d'autres régimes autonomes se sont créés: le régime des travailleurs indépendants ne relevant pas du régime agricole a ainsi été créé en 1948; les régimes des professions libérales de façon morcelée; un régime d'assurance chômage en 1958; des régimes complémentaires de retraite, etc.
+
+Le système de Sécurité sociale s'est donc généralisé, sans pour autant atteindre son objectif initial d'unification. Cependant, en dépit de la multiplicité des régimes, le système de protection sociale français repose principalement sur une logique d'assurance: les régimes sont financés essentiellement par des cotisations sociales payées par les travailleurs, lesquelles servent à financer des prestations versées en cas de réalisation du risque couvert. Une autre caractéristique saillante du système français est que la population non-active (pour l'essentiel des enfants et des femmes au foyer, lorsque le système a été pensé) est couverte en tant qu'ayant-droit de travailleurs. Le système de protection sociale français constitue un système qualifié de Bismarckien, à l'image de celui mis en place par le chancelier Bismarck à la fin du XIX\up{ème} siècle en Allemagne; il se distingue du modèle Beveridgien comme celui du Royaume-Uni, où l'essentiel des dépenses de Sécurité sociale sont financées par les taxes et impôts versés au Budget général. Cette distinction, bien que souvent mise en avant, est toutefois réductrice: face à la montée du chômage, l'exigence d'une protection sociale à même de couvrir l'ensemble de la population quelle que soit sa situation au regard du marché du travail a conduit à modifier substantiellement l'architecture originelle de l'assurance sociale en France. Ainsi, pour certaines cotisations sociales, le lien entre les cotisations versées et les droits ouverts est ténu: c'est le cas notamment pour les cotisations à l'Assurance maladie, les remboursements de soins par la Sécurité sociale étant définis sans que soient prises en compte les contributions versées. D'autre part, face à la baisse de la masse salariale et des cotisations sociales recouvrées, la Sécurité sociale a vu son financement se fiscaliser, avec la création de deux contributions, la contribution sociale généralisée (CSG) et la contribution pour le remboursement de la dette sociale (CRDS), également assises sur les revenus du capital et les revenus de remplacement.
+
+Contributivité partielle, fiscalisation du financement de la Sécurité sociale: ce sont en résumé les deux grandes caractéristiques de la Sécurité sociale française à l'heure actuelle qui en font un système hybride.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%
+
+\section{Architecture du système de protection sociale}
+
+Le système de protection social français se caractérise par une grande variété institutionnelle, résultat de sa progressive extension. Avant de présenter chacune de ses composantes, il est utile de dresser un panorama global du système de Sécurité sociale, ou de protection sociale français.
+
+\subsection{Panorama institutionnel}
+
+Au c\oe ur du système se trouve le régime général de la Sécurité sociale qui couvre les salariés du secteur privé. La Sécurité sociale dans son ensemble recouvre, outre le régime général, les autres régimes de base, pour les fonctionnaires, les agriculteurs et les indépendants. Mais la Sécurité sociale ne correspond pas non plus à l'ensemble des régimes de protection sociale obligatoires: il faut y inclure notamment l'assurance chômage et les régimes complémentaires de retraite. Enfin, si on prend une vision extensive de la protection sociale, en incluant les prestations sociales de l'État et les régimes non obligatoires, on obtient un champ encore plus large. Dans ce \textit{Précis de législation IPP}, nous nous concentrons sur l'ensemble du système de protection sociale obligatoire, financé par des prélèvements obligatoires.\\
+
+
+%\begin{fig}[14cm]{Différence de champ entre les comptes de la Sécurité sociale et les comptes de la protection sociale}
+%{\graphique{Securite_sociale_depenses.pdf}}
+%{\footnotesize \textsc{Note:}~Les comptes de la sécurité sociale en France en 2012.}
+%\end{fig}
+ 
+
+
+
+
+%\begin{fig}[14cm]{De la Sécurité sociale à la protection sociale.}
+%{\graphique{Securite_sociale_depenses.pdf}}
+%{\footnotesize \textsc{Note:}~Les comptes de la sécurité sociale en France en 2012.}
+%\end{fig}
+
+\subsubsection{Typologie des institutions de protection sociale}
+
+Pour dresser un panorama du système de protection sociale, il est nécessaire de considérer la variété institutionnelle sous différents critères.
+
+En premier lieu, il faut distinguer les régimes de protection sociale selon la population qui est couverte. Comme la construction s'est effectuée historiquement autour de l'activité professionnelle, les régimes s'organisent autour des différents statuts d'activité: salariés du privé, fonctionnaires, non-titulaires de la fonction publique, indépendants, agriculteurs, professions libérales, salariés d'entreprises publiques, etc.
+
+En second lieu, la couverture de protection sociale peut avoir différents étages. Le socle est constitué d'un régime de base, et celui-ci peut être complété par un régime complémentaire (obligatoire ou non). On appelle aussi régimes supplémentaires les régimes facultatifs qui peuvent se rajouter aux précédents.
+
+Troisièmement, il est utile de faire la distinction entre les risques couverts: maladie, maternité, accidents, vieillesse, chômage, etc. Selon le risque, la couverture pourra se faire au sein de la Sécurité sociale ou non, avec des régimes complémentaires ou non, et être étendue à toutes les catégories professionnelles ou à une sous-partie d'entre elles.
+
+Le tableau \ref{Architecture_SS} présente un panorama d'ensemble des principaux régimes de protection sociale selon la population et le risque couverts.
+
+\begin{fig}[12cm]{Architecture de la protection sociale en France.\label{Architecture_SS}}
+{\graphique[1]{Architecture_SS.png}}
+{\footnotesize \textsc{Note:}~Les régimes des indépendants, des travailleurs agricoles, des étudiants, des parlementaires ainsi que les régimes spéciaux ne sont pas reportés ici.}
+\end{fig}
+
+Un dernier critère mérite d'être évoqué, celui de la nature économique de la protection offerte: assurance sociale, contributive ou redistributive, prestations universelles ou sous conditions de ressources, etc. A ce titre, le découpage institutionnel est loin de recouper les différences économiques entre les régimes. L'assurance chômage, une assurance sociale proprement dite, ne fait pas partie de la Sécurité sociale, alors même que son fonctionnement et son objectif mériterait son inclusion. De même, les régimes complémentaires de retraite, obligatoires et contributifs, participent en réalité pour bonne partie à la réalisation de l'assurance vieillesse française, alors qu'ils sont aussi considérés hors du champs de la Sécurité sociale.
+
+A l'inverse, au sein de la Sécurité sociale, la branche famille offre des prestations universelles ou sous conditions de ressources, sans conditions d'assurance et sans lien contributif, et se rapproche ainsi fortement de prestations sociales classique. Les prestations familiales répondent en effet davantage aujourd'hui à un objectif de redistribution horizontale visant à aplanir les différences de niveau de vie entre ménages avec enfants et ménages sans enfants qu'à un motif d'assurance sociale. Séparer la branche famille de la Sécurité sociale ne serait donc pas \emph{économiquement} infondé. La branche maladie invite à un autre type de discussion. Il ne fait pas de doute qu'il s'agit bien de la couverture d'un risque, mais le fait que la couverture maladie soit devenue \textit{de facto} universelle, avec un financement largement fiscalisé, sans lien contributif, rend discutable son classement comme une assurance sociale. On notera que, du fait de leur caractère non obligatoire, les organismes de complémentaire santé sont mis sur un plan différent des régimes de retraite complémentaire (ils sont hors du champ de la dépense publique et des prélèvements obligatoires). Pour autant, la hausse tendancielle du reste à charge sur un certain nombre de soins médicaux et les actions du législateur pour favoriser la généralisation des contrats de complémentaire santé autorisent à penser que les complémentaires santé sont aujourd'hui un élément important de la couverture maladie de la protection sociale française.
+
+\subsubsection{La statistique publique sur la protection sociale}
+
+Les données officielles sur la protection sociale en France proviennent de différentes sources administratives qui recoupent un champ variable de la protection sociale.
+
+En premier lieu on trouve les données issues des rapports de la Commission des comptes de la sécurité sociale (CCSS). Depuis 1979\footnote{Décret 79-237 du 22 mars 1979, complété par l'article 15 de la loi 94-637 du 25 juillet 1994 relative à la sécurité sociale. Voir le site web de la commission à \texttt{http://www.securite-sociale.fr/-Commission-des-comptes-de-la-Securite-sociale-CCSS-}.}, cette commission a pour mission de présenter les comptes de la Sécurité sociale sous forme de rapport, et depuis 1994 d'y ajouter des éléments concernant les régimes complémentaires de retraite.
+
+Depuis 1997, une loi de financement de la Sécurité sociale (LFSS) est votée par le Parlement. Le contour de la LFSS est plus restreint que le rapport CCSS puisqu'elle ne couvre que les régimes de Sécurité sociale, hors régimes complémentaires de retraite et assurance chômage. Les rapports CCSS servent néanmoins d'appui pour l'élaboration du projet de loi de financement de la Sécurité sociale (PLFSS). L'avantage des PLFSS est de proposer des chiffrages budgétaires de l'évolution à venir des dépenses de Sécurité sociale, à l'instar de ce qui est fait pour le budget de l'État par le projet de loi de finances (PLF).
+
+Une troisième source de données provient des comptes nationaux établis par l'Insee. La comptabilité nationale opère une séparation entre les différents secteurs de l'économie nationale, et les institutions publiques sont réunies au sein du secteur S13 des administrations publiques (APU). Le secteur des APU comprend les administrations publiques centrales (APUC), les administrations publiques locales (APUL) et les administrations de sécurité sociale (ASSO). Les comptes des ASSO recouvrent ainsi une grande partie des comptes du PLFSS (mais pas les régimes propres des fonctionnaires) et incluent les régimes complémentaires de retraite et l'assurance chômage \citep{Dupuis2012}.
+
+Enfin une quatrième source est disponible sous la forme des Comptes de la protection sociale (CPS), réalisés par la Direction de la recherche, des études, de l'évaluation et des statistiques (DREES) au  ministère des affaires sociales. Les CPS retracent un contour large de la protection sociale, incluant non seulement les comptes des ASSO mais aussi la protection sociale réalisée par l'État et les collectivités locales, ainsi que la protection sociale facultative réalisée par les mutuelles, les régimes d'employeur ou les organisations à but non lucratif. Des séries agrées sont ainsi disponibles pour l'ensemble de la protection sociale depuis 1959. Le CPS constitue ainsi un compte satellite des comptes nationaux.
+
+INSERT: sources de données: PLFSS, CCSS, CPS\\
+
+%\begin{fig}[14cm]{Les différents régimes de Sécurité sociale: dépenses en 2012 (en \% du PIB)}
+%{\graphique{Securite_sociale_depenses.pdf}}
+%{\footnotesize \textsc{Note:}~Les comptes de la sécurité sociale en France en 2012.}
+%\end{fig}
+
+Les données macroéconomiques fournies chaque année par les lois de finances de la Sécurité sociale (LFSS) permettent de mesurer l'importance de la Sécurité sociale et de ses différents régimes. Le régime général a le poids financier le plus élevé, puisque ses dépenses représentent plus de 16~\% du PIB (en 2012). C'est aussi lui qui en termes absolus le déficit le plus important (0,70~\% du PIB en 2012). En tout, les recettes des différents régimes de Sécurité sociale, régimes complémentaires obligatoires inclus, représentaient 550 milliards d'euros en 2012, soit plus de 27~\% du PIB.
+
+%\begin{fig}[14cm]{Les différents régimes de Sécurité sociale: dépenses en 2012 (en \% du PIB)}
+%{\graphique{Securite_sociale_depenses.pdf}}
+%{\footnotesize \textsc{Note:}~Les comptes de la sécurité sociale en France en 2012.}
+%\end{fig}
+
+La décomposition des dépenses de l'ensemble des régimes de base met en évidence le poids prédominant des branches de l'assurance-vieillesse et de l'assurance contre les risques maladie, maternité, invalidité et décès. Elles représentent respectivement 45~\% et 39~\% des dépenses, contre 11~\% pour la somme des branches AT-MP et famille.
+
+
+%\begin{fig}[14cm]{Les différents régimes de Sécurité sociale: dépenses en 2012 (en \% du PIB)}
+%{\graphique{Securite_sociale_depenses.pdf}}
+%{\footnotesize \textsc{Note:}~Les comptes de la sécurité sociale en France en 2012.}
+%\end{fig}
+
+\subsection{La Sécurité sociale}
+
+\subsubsection{Le régime général de la Sécurité sociale}
+
+Le régime général, qui couvre la plus grande partie des salariés du privé et, pour partie, les fonctionnaires, constitue par son poids financier et le nombre d'assurés le principal régime de Sécurité sociale. Depuis l'ordonnance de 1967, il est partitionné en quatre branches autonomes selon le risque couvert: maladie, accidents du travail, famille et vieillesse. Ces branches sont administrées par des caisses de Sécurité sociale: Caisse nationale d'assurance maladie des travailleurs salariés (CNAMTS) pour la maladie et les accidents professionnels, Caisse nationale des allocations familiales (CNAF) et Caisse nationale d'assurance vieillesse (CNAV). L'Agence centrale des organismes de sécurité sociale (ACOSS) est en charge du recouvrement des cotisations sociales pour le compte des différentes caisses de Sécurité sociale du régime général, cette mission de recouvrement étant parfois considérée comme la cinquième branche de la Sécurité sociale.
+
+Les caisses nationales de Sécurité sociale ont le statut juridique d'établissement public administratif (EPA), jouissant ainsi de la personnalité juridique et de l'autonomie financière. Elles sont régies par le droit public administratif et leurs personnels sont des agents publics. Les relations entre les caisses de Sécurité sociale et l'État sont régies par le Code de la Sécurité sociale (CSS).
+
+Les caisses nationales gèrent un réseau de caisses de Sécurité sociale, organismes de droit privé, assurant une mission de service public.
+Pour la branche famille, on dénombre ainsi au 1\er{} janvier 2015 102 Caisses d'allocations familiales (CAF)\footnote{A l'origine, il y avait une Caf par département, puis plusieurs dans certains départements. Fin 2011, une opération de fusion des Caisses dites \og infra-départementales\fg{} a eu lieu dans les départements concernés. Le réseau des Allocations familiales est ainsi passé de 123 à 102 Caf.}, chargées de distribuer les prestations sociales et familiales.
+Pour la branche vieillesse, le réseau de la Cnav compte au niveau régional 15 Caisses d'assurance retraite et de la santé au travail (Carsat)\footnote{En Île-de-France, c'est la Cnav qui fait office de caisse régionale. On peut noter que la répartition de ces régions de sécurité sociale ne correspondent pas aux régions françaises, ni dans la carte des 22 régions de 1982, ni dans la carte des 13 nouvelles régions au 1\er{} janvier 2016.}.
+Pour la branche maladie, la CNAMTS s'appuie sur un réseau de 101 Caisses primaires d'assurance maladie (CPAM), organisées au niveau départemental en métropole. Le département de la Lozère fait exception avec une Caisse commune de sécurité sociale (CCSS) regroupant l'ensemble des prestations maladie, famille et recouvrement (mais pas vieillesse).
+Pour la branche recouvrement, l'Acoss s'appuyait à l'origine sur 88 Unions de recouvrement des cotisations de sécurité sociale et d'allocations familiales (URSSAF) organisées au niveau départemental. Depuis le 1\er{} janvier 2014, un regroupement au niveau régional a conduit à la mise en place de 22 Urssaf correspondant à chaque région administrative.
+
+Dans les départements d'outremer (DOM), les organismes de Sécurité sociale sont organisés en quatre Caisses générales de sécurité sociale (CGSS) en Guadeloupe, en Guyane, à La Réunion et en Martinique, et une Caisse de sécurité sociale à Mayotte (CSSM). Les CGSS et la CSSM ont pour compétence la distribution des prestations vieillesses, maladie et le recouvrement (mais pas la famille gérée par des Caf spécifiques aux DOM).\\
+
+INSERT FIG -- Organisation administrative du régime général de la Sécurité sociale.
+
+%\begin{fig}[14cm]{Organisation administrative du régime général de la Sécurité sociale.}
+%{\graphique{Securite_sociale_depenses.pdf}}
+%{\footnotesize \textsc{Note:}~Les comptes de la sécurité sociale en France en 2012.}
+%\end{fig}
+
+\subsubsection{Les régimes de la fonction publique}
+
+Les fonctionnaires disposent de régimes de Sécurité sociale spécifiques, distincts du régime général pour certaines branches. L'exception est en fait la branche famille, gérée pour les fonctionnaires par la Cnaf, comme pour les salariés du secteur privé.
+
+En matière d'assurance-maladie, ce sont les mutuelles de fonctionnaires (auxquelles sont reversées une partie des cotisations maladie prélevées sur les traitements des agents publics) qui assurent les remboursements de dépenses, tandis qu'il appartient aux différentes administrations de verser les prestations en espèces (dans les cas de maintien de salaire). Ce fonctionnement de l'assurance-maladie dans la fonction publique concerne toutefois uniquement les titulaires de la fonction publique d'État (FPE). Les prestations d'assurance santé des titulaires des Fonctions publiques hospitalière (FPH) et territoriale (FPT) sont gérées par les CPAM comme les salariés du secteur privé, et relèvent donc du régime général. Cependant, dans certains départements, des conventions de délégation de gestion sont signées entre la CPAM et les mutuelles de fonctionnaires hospitaliers et territoriaux, lesquelles assurent alors la gestion des prestations santé.
+
+L'assurance vieillesse de base des fonctionnaires d'État est gérée par le Service des retraites de l'État (SRE), créé comme service indépendant et rattaché à la Direction générale des finances publiques (DGFIP) en 2009. C'est en revanche la Caisse nationale des retraites des agents des collectivités locales (CNARCL) qui verse les avantages vieillesse de base auprès des agents de la FPH et de la FPT, et collecte les cotisations correspondantes. Enfin, l'assurance invalidité est gérée par le Fonds d'allocation temporaire d'invalidité des agents des collectivités locales (FATIACL) pour la FPH/FPT, tandis qu'elle relève du SRE pour les agents de la FPE.
+
+Les agents non titulaires de la fonction publique relèvent quant à eux du régime général pour les quatre branches de la Sécurité sociale.
+
+\subsubsection{Les régimes des non-salariés}
+
+Les travailleurs indépendants n'ont pas été intégrés dès l'origine dans le régime général et ont donc bénéficié de régimes de Sécurité sociale distincts. On peut distinguer quatre catégories professionnelles: les artisans, les industriels ou commerçants, les professions libérales et les professions agricoles.
+
+Les individus non salariés non agricoles bénéficient d'un régime propre depuis 1948\footnote{Loi \no 48-101 du 17/01/1948}. C'est un régime spécifique mais qui leur assure les mêmes garanties. Il comprend une assurance maladie-maternité obligatoire, un régime d'assurance vieillesse de base obligatoire, des régimes complémentaires de retraite et de prévoyance obligatoires ou facultatifs, comprenant ou non une assurance invalidité-décès, et une couverture facultative pour les accidents du travail et le risque chômage. Les non-salariés sont aussi affiliés au régime général de la branche famille, via la Cnaf.
+
+Les professions agricoles sont regroupées au sein de la Mutualité sociale agricole (MSA) qui gère l'ensemble des branches de la protection sociale des professions agricoles.
+
+Depuis la réforme de 2006, le Régime sociale des indépendants (RSI) est le régime de base des indépendants, avec des variantes selon les catégories professionnelles, en particulier pour l'assurance vieillesse.\\
+
+\textbf{Les artisans, commerçants et industriels} \\
+
+Dans le domaine de la protection sociale, les artisans, commerçants et industriels sont regroupés en une catégorie relevant du RSI. Y sont donc affiliés:
+\begin{itemize}
+\item Les artisans inscrits au répertoire des métiers ou exerçant une activité rattachée par décret aux professions artisanales;
+\item les industriels et commerçants inscrits au registre du commerce ou exerçant une activité rattachée par décret aux professions industrielles et commerciales ou bien payant la taxe professionnelle en tant que commerçant;
+\item les associés ou dirigeants d'entreprise: gérants et associés d'une entreprise unipersonnelle à responsabilité limitée (EURL), associés de sociétés en nom collectif (SNC), gérants majoritaires de sociétés à responsabilité limitée (SARL), gérants appartenant à un collège de gérance majoritaire ou associés exerçant une activité non salariée au sein d'une SARL, membres de sociétés en participation, associés commandités des sociétés en commandite simple ou par actions ou associés commandités des sociétés d'exercice libéral en commandite par actions, membres de société de fait exerçant une activité artisanale, industrielle ou commerciale.
+\end{itemize}
+
+En revanche, les gérants égalitaires ou minoritaires de SARL ou les dirigeants de SA et SAS relèvent du régime général au même titre que les salariés. De même, dès lors que l'activité implique un lien de subordination, comme dans certaines professions médicales par exemple, les travailleurs sont rattachés au régime général. Ce rattachement peut aussi être décidé par une loi, comme dans le cas des artistes-auteurs, des mannequins, etc.
+
+Les textes régissant le régime de l'assurance vieillesse définissent le type de travailleurs rattachés au régime des non salariés non agricoles. Le champ d'application du régime d'assurance maladie-maternité des non salariés non agricoles est donc défini par référence à l'assurance vieillesse, sauf pour quelques exceptions.
+
+Les travailleurs indépendants ont pour obligation de s'affilier au Régime social des indépendants (RSI). Celui-ci assure la couverture maladie et l'assurance vieillesse de base et complémentaire des artisans-commerçants. Le RSI est géré au niveau régional grâce à un relais de 30 caisses d'assurance maladie pour les artisans-commerçants et des organismes conventionnés auxquels le RSI délègue la gestion des prestation maladie-maternité-indemnités journalières des artisans commerçants.
+
+Certaines branches de la protection sociale sont gérées par d'autres organismes, comme la branche famille pour les commerçants et industriels par exemple, qui doivent dans ce cas s'adresser à l'Urssaf.\\
+
+\textbf{Les professions libérales}\\
+
+La gestion de leur protection sociale est un peu plus complexe que dans le cas des artisans-commerçants car ils ne font pas face à un interlocuteur unique: s'ils dépendent du RSI pour la couverture maladie-maternité-indemnités journalières, ils sont rattachés à l'Urssaf pour la protection familiale et à la Caisse nationale d'assurance vieillesse pour les professions libérales (CNAVPL) pour leur retraite de base ainsi qu'à différentes sections professionnelles gérées par la CNAVPL pour leur retraite complémentaire. Les professionnels libéraux exerçant plusieurs professions rattachées à différentes sections professionnelles ne sont tenus de s'affilier qu'à une seule. \\
+
+\textbf{Les professions agricoles}\\
+
+Les professions agricoles sont regroupées au sein de la MSA qui gère un réseau de 35 caisses régionales, guichet unique pour l'ensemble des risques couverts.
+
+\subsubsection{Les régimes spéciaux}
+
+D'autres régimes de Sécurité sociale sont destinés à couvrir certaines professions de manière spécifique. Ainsi certains établissements publics, entreprises ou professions ont leurs propres régimes, appelés régimes spéciaux ou régimes spéciaux assimilés: RATP, SNCF, Banque de France, CCIP, Opéra, clercs de notaires, etc. Un régime de Sécurité social distinct existe aussi pour les marins, les français de l'étranger, les étudiants et pour les parlementaires. Chaque régime a ses cotisations et des règles de définition des prestations propres, qui ne seront pas présentées dans ce \emph{Précis de législation IPP}\footnote{Le site internet officiel \texttt{www.securite-sociale.fr} contient des informations complémentaires sur les autres régimes français de Sécurité sociale, et notamment un organigramme institutionnel à l'adresse suivante: \texttt{http://www.securite-sociale.fr/Organigramme-institutionnel-de-la-Securite-sociale}.}.
+
+\subsubsection{Le régime local de l'Alsace-Moselle}
+
+Le territoire d'Alsace-Moselle\footnote{L'Alsace-Moselle désigne un ensemble de trois départements (le Bas-Rhin (67), le Haut-Rhin (68) et la Moselle (57)) qui a été rattaché au territoire de l'Allemagne entre 1871 et 1919 suite à la guerre franco-prussienne de 1870-1871.} dispose d'un régime de Sécurité sociale spécifique, dit régime local (RL). Le RL est géré au niveau local de manière autonome depuis 1955 par des représentants de syndicats de salariés. Ce régime constitue en fait un régime complémentaire au régime général national de Sécurité sociale, qui garantit à ses affiliés un complément sur les prestations maladie, maternité, invalidité et décès.
+
+L'affiliation au RL est obligatoire pour :
+\begin{itemize}
+\item les salariés exerçant une activité dans au moins un des départements constitutifs du territoire d'Alsace-Moselle, quel que soit le lieu d'implantation du siège de leur entreprise;
+\item les salariés d'un établissement implanté sur le territoire d'Alsace-Moselle et exerçant une activité itinérante dans d'autres départements.
+\end{itemize}
+
+Par ailleurs, les titulaires d'un avantage vieillesse (pension de retraite ou de préretraite) ainsi que les bénéficiaires d'une allocation chômage peuvent bénéficier des prestations complémentaires du RL sous condition d'avoir été affilié au RL en tant que salarié un certain nombre d'années. En cas d'affiliation, une cotisation est prélevée sur les avantages vieillesse.
+
+Il appartient à l'employeur d'un salarié relevant du RL de mettre en place le versement de la cotisation supplémentaire du régime local (qui est soustraite au salaire brut, puisqu'il s'agit d'une cotisation supplémentaire salariale). Le salarié doit présenter sa fiche de paie présentant la cotisation maladie supplémentaire à sa Caisse primaire d'assurance maladie (CPAM) pour que l'ouverture de ses droits au RL soit effective.
+
+\subsection{Les régimes de retraite complémentaire}
+
+L'organisation première de la Sécurité sociale a été complétée par la mise en place des régimes de retraite complémentaire visant à offrir davantage de prestations aux affiliés à l'assurance vieillesse, dont les pensions étaient considérées comme insuffisantes.
+
+Dans le secteur privé, les deux principales organisations sont l'Association pour le régime de retraite complémentaire des salariés (ARRCO) et l'Association générale des institutions de retraite des cadres (AGIRC), qui ont été mises en place par des accords interprofessionnels conclus au niveau national. Ces régimes fonctionnent comme des régimes de retraite par répartition, financés par des contributions dues par les employeurs et les employés. Ces contributions, facultatives au début, sont devenues obligatoires en 1970. Toutefois, les régimes de retraite complémentaire ne relèvent pas du système de Sécurité sociale placé sous la supervision de l'État, mais sont des systèmes privés bien qu'obligatoires, gérés par les partenaires sociaux. Leurs recettes tirées des contributions sociales et leurs dépenses sont toutefois comptabilisées comme des dépenses des administrations publiques dans les comptes nationaux, même si l'État n'a pas de droit de contrôle direct sur ces organismes.
+
+La fonction publique dispose de son propre régime de retraite complémentaire, le régime de Retraite additionnelle de la fonction publique (RAFP), créé en 2004. Il s'agit d'un système par points permettant aux fonctionnaires (titulaires seulement) des trois fonctions publiques d'acquérir un complément de retraite.
+
+Les agents publics non-titulaires cotisent eux à un régime de retraite complémentaire spécifique, l'Institution de retraite complémentaire des non-titulaires de la fonction publique (IRCANTEC). L'affiliation à ce régime unique, créé en 1971 de la fusion de deux institutions de retraite complémentaire déjà existantes, est devenue obligatoire en 1973.
+
+Enfin, les professions à régimes de base spécifiques (ouvriers et exploitants agricoles, indépendants, cheminots, etc.) ont également leurs propres régimes de retraite complémentaire.
+
+
+\subsection{Le régime d'assurance-chômage}
+
+Une nouvelle entité a été créée en 1958 pour couvrir le risque chômage, dans une logique d'assurance et non plus d'assistance, comme cela avait été le cas jusqu'alors. Ce nouveau régime d'assurance, géré par l'Union nationale interprofessionnelle pour l'emploi dans l'industrie et le commerce (Unedic), a été fusionné avec l'Agence nationale pour l'emploi (ANPE) en 2009, et a donné naissance à Pôle Emploi. La mission de cet organisme est de verser leurs allocations aux personnes au chômage et de leur fournir un service de placement, d'orientation et de formation.
+
+Ce régime n'indemnise que les chômeurs anciennement salariés du privé. Les contractuels de la fonction publique arrivés au terme de leur contrat peuvent solliciter l'Allocation de retour à l'emploi (ARE), fixée par des règles similaires à celles applicables aux salariés du privé, auprès de leur ancienne administration employeur. Les fonctions publiques indemnisent donc leurs anciens agents contractuels sur leurs fonds propres, puisqu'aucune cotisation chômage n'est versée par les non-titulaires.
+
+\section{Les prélèvements obligatoires sur les revenus du travail}
+
+\`{A} l'heure actuelle, un salarié du secteur privé reçoit une fiche de paie qui, outre la mention du salaire net à payer et du salaire net imposable, comporte une vingtaine de lignes correspondant à autant des prélèvements divers, assis sur la rémunération brute. La fiche de paie standard d'un agent du public, si elle est relativement plus simple à comprendre, comporte une ligne pour chacun de la dizaine de prélèvements applicables aux traitements versés dans la fonction publique.
+
+Bien que tous ne servent pas à financer des régimes d'assurance sociale, ce \emph{Précis de législation IPP} vise à présenter l'ensemble des prélèvements obligatoires sur les revenus du travail, qu'ils financent ou non la protection sociale.
+
+\subsection{Typologie des prélèvements obligatoires}
+
+Les différents prélèvements assis sur les revenus d'activité peuvent être classés en cinq grandes catégories:
+
+\begin{itemize}
+\item \textbf{Les cotisations sociales au sens large:} Elles regroupent les cotisations finançant les quatre branches de Sécurité sociale (maladie-maternité-invalidité-décès, vieillesse, famille et accidents du travail). Même si le régime d'assurance chômage est formellement distinct de la Sécurité sociale, les cotisations destinées à son financement sont en pratique assimilées à des cotisations sociales, tout comme les cotisations destinées à financer les régimes de retraite complémentaires ;
+\item \textbf{Les contributions sociales, CSG et CRDS}: prélevées également sur les revenus de remplacement et les revenus du capital et non destinées à financer directement un régime d'assurance sociale spécifique, ces contributions diffèrent des cotisations sociales au sens strict. Bien qu'elles financent les différentes caisses de la Sécurité sociale, elles n'ouvrent pas de droits sociaux spécifiques;
+\item \textbf{Les prélèvements sur les rémunérations non soumises aux contributions sociales (forfait social)}: ces prélèvements d'un type particulier se sont développés depuis la fin des années 1990, pour taxer des éléments de rémunération qui échappaient à la CSG. Souvent créés de manière \emph{ad hoc} pour réduire l'avantage socio-fiscal dont bénéficie un élément de rémunération spécifique, ces contributions restent plus favorables en termes de taux que le régime social de base.
+\item \textbf{Les taxes et participations assises sur les salaires (TPS)}, parfois également appelées taxes sur les salaires et la main d'\oe uvre (TSMO). Elles regroupent des taxes destinées à financer l'apprentissage, la formation continue, la construction de logements, ainsi que la taxe sur les salaires.
+\item \textbf{Les taxes de \og pénalité\fg}: ce sont des contributions imposées aux employeurs en cas de non-respect de certains critères (usage du CDD, non-respect de la parité professionnelle, de l'emploi de salariés handicapés, etc.
+\end{itemize}
+
+INSERT FIG -- Prélèvements sur les salaires selon PLF, PLFSS.\\
+
+
+\subsection{Les questions de typologie}
+
+Les prélèvements sociaux assis sur les salaires peuvent aussi être distingués selon qu'ils ont un caractère contributif ou non-contributif, c'est-à-dire selon qu'ils confèrent ou non aux salariés des droits sociaux spécifiques. L'OCDE (\citet{oecd2011}, Annexe A, \S 35, pp. 325) fait de la contributivité le critère essentiel de distinction entre les cotisations de sécurité sociale (\textit{Social security contributions}) et les taxes sur les salaires et la main d'\oe uvre (\textit{Payroll taxes}). En pratique, le lien entre contributions versées et prestations reçues peut être faible pour les cotisations sociales (notamment dans le cas de l'assurance maladie et des prestations familiales). Toutefois, c'est bien le versement de cotisations sociales qui permet d'ouvrir certains droits sociaux, alors que les taxes et participations sur les salaires ne conditionnent le droit à aucune prestation sociale.
+
+La classification de la CSG et de la CRDS fait débat: l'OCDE les considère comme des impôts directs, alors que la Cour de justice de l'Union européenne (CJUE) les assimile à des cotisations sociales au motif que leurs recettes sont affectées au financement la Sécurité sociale\footnote{La Cour de justice de l'Union européenne a remplacé la Cour de justice des Communautés européennes, qui s'était prononcée en 2000 sur le sujet (CJCE, 15 févr. 2000, aff. C-169/98, Commission c./France).}. Le droit interne français est plus ambigu, dans la mesure où les dispositions relatives à ces contributions relèvent à la fois du Code général des impôts (CGI) et du Code de la Sécurité sociale (CSS). De son côté, le Conseil Constitutionnel considère la CSG et la CRDS comme des impôts proportionnels\footnote{En 2000, le projet de progressivité de la CSG avancé par le gouvernement de Lionel Jospin a été censuré, pour la raison que, la CSG étant un impôt, un barème non proportionnel devrait prendre en compte les revenus des membres du foyer fiscal de l'individu pour évaluer ses capacités contributives.}, tandis que la Cour de Cassation les catégorise comme des cotisations sociales\footnote{Cour de cassation française, 2\up{ème} chambre civile, 8 mars 2005, \no 03-30.700.}.
+
+\subsection{Données de cadrage}
+
+\begin{fig}[14cm]{Les différents régimes de Sécurité sociale: recettes en 2012 (en \% du PIB)}
+{\graphique{Securite_sociale_recettes.pdf}}
+{\footnotesize \textsc{Note:}~Les comptes de la sécurité sociale en France en 2012.}
+\end{fig}
+
+Les cotisations sociales représentent 64~\% des recettes de l'ensemble des régimes de base en 2012; la CSG contribue au financement de la Sécurité sociale à hauteur de 16~\%.
+
+\begin{fig}[14cm]{Recettes de l'ensemble des régimes de base en 2012, par type (en milliards d'euros)}
+{\graphique{Recettes_types.pdf}}
+{\footnotesize \textsc{Source:}~Les chiffres-clefs de la loi de financement de la Sécurité sociale 2012.}
+\end{fig}
+
+
+En 1976, la somme des taux agrégés de cotisations patronales et salariales ($t_e$ + $t_r$) était égale en moyenne à 53~\% pour les 50~\% des salariés les moins bien rémunérés, et de 49~\% pour les 50~\% des salariés les mieux rémunérés. En 2009, ces taux sont respectivement de 67 et 78~\%, et se partagent entre:
+\begin{itemize}
+\item 21 à 22 points de taux de cotisations salariales;
+\item 45 à 56 points de taux de cotisations patronales. \\
+\end{itemize}
+
+
+% Tableau à changer
+
+\begin{table}[h!]
+\begin{center}
+\centering
+\caption {Taux agrégés des cotisations employeur et salarié en 2014.}
+\vspace{0.2cm}
+\small
+\begin{tabular}{|l|c|c|c|c|}
+\cline{2-5}
+\multicolumn{1}{c}{} & \multicolumn{2}{|c|}{Taux de cotisations salarié}  & \multicolumn{2}{c|}{Taux de cotisations employeur} \\
+\hline
+\multicolumn{1}{|c}{Salaire mensuel brut} & \multicolumn{1}{|c|}{Non-cadre} & \multicolumn{1}{c|} {Cadre} & \multicolumn{1}{c|} {Non-cadre}  & \multicolumn{1}{c|} {Cadre}  \\
+\hline
+\hline
+1 445 \euro~(Smic)   & 21,4~\% & 21,6~\% & 22,7~\% & 22,9~\% \\
+2 000 \euro  & 21,4~\% & 21,6~\% & 41,9~\% & 42,2~\% \\
+4 000 \euro  & 19,3~\% & 21,1~\% & 48,5~\% & 48,9~\% \\
+8 000  \euro & 15,5~\% & 20,3~\% & 48,1~\% & 48,8~\% \\
+\hline
+\end{tabular}
+\end{center}
+\footnotesize \textsc{Source:}~Modèle \TAXIPP. \\ \textsc{Note:}~Les taux ont été calculés pour des salariés employés dans le privé à temps complet, travaillant dans une entreprise de plus de 20 salariés non assujettie à la taxe sur les salaires et ne bénéficiant pas du régime local d'Alsace-Moselle.
+\end{table}
+
+\subsubsection{Le circuit des prélèvements sociaux}
+
+Les prélèvements sociaux sont versés par l'employeur. La plupart des prélèvements (cotisations de Sécurité sociale, CSG et CRDS) est collectée par les Urssaf. Ces organismes privés sont constitués en réseau national et ont pour mission principale la collecte des cotisations destinées au financement du régime général de la Sécurité sociale. Les Urssaf sont également chargées de la collecte des prélèvements permettant de financer d'autres organismes de protection sociale, notamment les régimes de retraite complémentaire (Agirc et Arrco), le Fonds national d'aide au logement (FNAL), le Fonds de solidarité vieillesse (FSV) et les Autorités organisatrices des transports urbains (organisées au niveau des communes ou des communautés de communes). Enfin, depuis le 1\up{er} janvier 2011, les cotisations chômage, auparavant collectées par les Associations pour l'emploi dans l'industrie et le commerce (ASSEDIC)\footnote{Créées en 1958, les ASSEDIC ont fusionné avec l'ANPE en 2008 pour former Pôle Emploi.}, sont également collectées par les Urssaf.
+
+Les cotisations sont ensuite reversées par les Urssaf aux différents organismes et caisses de protection sociale. Dans le cas des cotisations destinées au financement du régime général de Sécurité sociale, c'est l'Agence centrale des organismes de Sécurité sociale (Acoss) qui gère la répartition des cotisations entre les différentes branches.
+
+Certains prélèvements, appelés \og taxes et participations sur les salaires \fg{} (TPS), sont au contraire considérés comme des impôts, et recouvrés comme tels par le Trésor Public. Certaines contributions, comme la taxe sur les salaires, abondent le budget général de l'État, tandis que d'autres (notamment la taxe d'apprentissage) sont affectées au financement de dépenses spécifiques (formations professionnelles dans le cas de la taxe d'apprentissage).
+
+
+\subsection{Barèmes des prélèvements sociaux en France}
+
+Comme dans la plupart des pays de l'OCDE, les prélèvements sociaux assis sur les salaires sont en France redevables dès le premier euro de salaire\footnote{Voir \citet{oecd2011}, \emph{Special features: Trends in personal income tax and employee social security contribution schedules}, p. 59. Certains pays ont néanmoins des seuils d'exemptions, comme en Autriche, Belgique, Canada, Irlande, Norvège, Suède et au Royaume-Uni. En-dessous de ces seuils, les salariés ne sont pas redevables de cotisations sociales, mais au-dessus ils sont redevables dès le premier euro de salaire.}. Certains prélèvements, comme les contributions sociales CSG et CRDS ou les cotisations d'assurance-maladie, sont assis sur la totalité du salaire à un taux unique. Mais la plupart ont un barème dont le taux marginal d'imposition \textit{décroît} avec le salaire, du fait de la présence d'un plafond au-delà duquel un taux réduit ou nul est appliqué. Par ailleurs, certaines cotisations de Sécurité sociale sont spécifiques aux cadres (c'est le cas des cotisations recouvertes par l'Agirc).\\
+
+\subsubsection{La référence du plafond de la Sécurité sociale}
+
+En France, le plafond de la Sécurité sociale (PSS) définit les différentes tranches d'imposition des prélèvements sociaux. En effet, si le PSS définissait à l'origine l'assiette des cotisations de Sécurité sociale (dites cotisations sous plafond), les régimes complémentaires ou le régime de l'assurance chômage ont défini leur assiette de cotisation sur des tranches de salaires plus élevées, mais toujours en référence au PSS. Le tableau \ref{SalPSS} présente les tranches de salaire aujourd'hui soumises à des taux différenciés, en fonction des différents multiples de PSS. Ces tranches ne sont pas définies de façon similaire pour les cadres et les non-cadres.
+
+\begin{tab}[10cm]{Définition des tranches de salaire brut en fonction du plafond de la Sécurité sociale.\label{SalPSS}}
+{\begin{tabular}{|l|c|c|} \hline
+Portion du salaire (brut) & Cadres & Non-cadres \\ \hline
+1\up{ère} tranche & en dessous de 1 PSS & en dessous de 1 PSS \\
+2\up{ème} tranche & entre 1 et 4 PSS & entre 1 et 3 PSS \\
+3\up{ème} tranche & entre 4 et 8 PSS & entre 3 et 4 PSS \\
+4\up{ème} tranche & au-dessus de 8 PSS & au-dessus de 4 PSS  \\
+\hline
+\end{tabular}
+}{}
+\end{tab}
+
+Le montant du PSS est fixé chaque année par un arrêté publié au \textit{Journal Officiel}. En 2015, le montant mensuel du PSS est fixé à 3 170 euros. Depuis 1997, il est revalorisé chaque année au 1\up{er} janvier en fonction de l'évolution des salaires à temps plein, le montant du PSS horaire étant du même ordre de grandeur que le salaire horaire moyen français. Entre 1982 et 1997, la revalorisation avait lieu à la fois au 1\up{er} janvier et au 1\up{er} juillet. Entre 1962 et 1982, la revalorisation avait lieu comme pour les années récentes au 1\up{er} janvier uniquement. Le tableau \ref{PSS} présente les valeurs du PSS pour l'année 2015, ainsi que le montant des différentes tranches d'imposition des cotisations sociales.
+
+% Actualisé pour 2015
+
+\begin{tab}[10cm]{Valeurs des plafonds de Sécurité sociale en 2015.\label{PSS}}
+{\begin{tabular}{|l|c|c|} \hline
+Plafond & Valeur mensuelle & Valeur annuelle \\
+\hline
+1 PSS   & 3 170 \euro   & 38 040 \euro  \\
+3 PSS   & 9 510 \euro   & 114 120 \euro \\
+4 PSS   & 12 680 \euro  & 152 160 \euro \\
+8 PSS   & 25 360 \euro  & 304 320 \euro \\
+\hline
+\end{tabular}
+}{}
+\end{tab}
+
+Il est important d'avoir à l'esprit que les individus gagnant un salaire atteignant quatre fois le PSS représentaient en 2010 moins de 2~\% des salariés à temps complet employés toute l'année. Par conséquent, si les dispositions affectant les tranches de salaire peuvent mettre en jeu des sommes importantes pour les comptes de la Sécurité sociale, elles ne concernent directement qu'une petite minorité des salariés français.
+
+
+\subsubsection{Exemple de calcul: la contribution Arrco}
+
+Soit un salarié non-cadre percevant un salaire mensuel brut de \textit{w} égal à 4 000 euros. On a donc 1 PSS < \textit{w} < 3 PSS. Le montant global de la contribution à l'Arrco, régime de retraite complémentaire, est calculé comme suit:
+
+% Les PSS ont été actualisés. Vérifier que les taux de cotis n'ont pas changé. 
+
+\begin{table}[h!]
+\begin{center}
+\small
+\begin{tabular}{|>{\centering\arraybackslash}m{6cm}||>{\centering\arraybackslash}m{6cm}| |>{\centering\arraybackslash}m{6cm}|}
+\hline
+Tranche de salaire                      & Cotisations globales (salarié + employeur) \\
+\hline
+\hline
+Tranche 1 (salaire en dessous de 1 PSS) & $1~PSS \times 0,0763 = 241,87 $ ~\euro \\
+Tranche 2 (salaire entre 1 et 3 PSS)    & $(w -1~PSS) \times 0,2013 = 167,08 $ ~\euro \\
+\hline
+\emph{Total}                            & $ 408,95 $~\euro \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Le taux de cotisation moyen effectif à l'Arrco pour ce salarié est donc de $ \frac{408,95}{4000}$, soit 10,22~\%.
+
+\section{Du coût du travail au salaire net}
+
+\subsection{Les concepts de salaire}
+
+Dans le débat public entourant les cotisations sociales, différents concepts de salaire sont utilisés, concepts qu'il convient d'éclairer.
+
+La référence principale est le \textbf{salaire brut} -- ou traitement brut pour les agents de la fonction publique -- qui est le salaire légal ou contractuel, celui est fait l'objet de négociation salariale, qui sert de référence au calcul des cotisations sociales et qui est inscrit dans le contrat de travail. Il ne correspond ni à ce qui est reçu par le salarié, ni à ce qui est versé par l'employeur.
+
+Le salaire versé par l'employeur est appelé \textbf{salaire super-brut} ou \textbf{coût du travail}. Il est calculé en ajoutant au salaire brut les cotisations employeur et les taxes et participations assises sur les salaires. On doit aussi ajouter aux éléments précédents, la part employeur du financement d'avantages accessoires au salaire (chèque restaurant, frais de transport, intéressement et participation, etc.)
+
+Le salaire reçu par le salarié est le \textbf{salaire net}. Il est calculé en déduisant du salaire brut les cotisations salariales et les contributions sociales (CSG et CRDS).
+
+En notant $t_r(w)$ (respectivement $t_e(w)$) le taux moyen de cotisations employeur (resp. employé) pour un salaire brut de niveau $w$, on obtient un montant de salaire super-brut $z$ et de salaire net $n$:
+\begin{eqnarray}
+z=[1+t_r(w)]w \\
+n=[1-t_e(w)]w
+\end{eqnarray}
+
+Le salaire net n'est pas pour autant un salaire net d'impôt puisque l'impôt sur le revenu (IR) n'étant pas en France prélevé à la source comme les prélèvements sociaux. Le revenu salarial retenu comme assiette pour l'IR est le \textbf{salaire imposable} distinct du salaire net. Pour le calculer il faut ajouter au salaire net le montant de la CSG non déductible ainsi que la CRDS (ou soustraire au salaire brut le montant de la CSG déductible et des cotisations sociales. En effet, les cotisations sociales sont depuis l'origine \og déductibles \fg{} de l'assiette de l'IR, à la différence de la CRDS qui est non-déductible, comme une partie de la CSG.
+
+Un autre concept de salaire mérite alors d'être défini, le \textbf{salaire disponible} ou \textbf{salaire net-net}, qui correspond au salaire net auquel on soustrait le montant d'IR pour obtenir un salaire net d'impôt. Cette notion est peu utilisée en France, mais est nécessaire pour comparer de façon internationale les salaires nets par rapport aux pays qui prélèvent l'impôt sur le revenu à la source.
+
+Enfin, il faut préciser que le \textbf{salaire net à payer}, le salaire reporté sur la feuille de paie, et qui se traduit par le paiement de l'employeur sur le compte du salarié, est différent du salaire net défini ci-dessus. En effet, l'employeur déduit aussi des participations de l'employé à des avantages accessoires au salaire, comme les tickets restaurant, les frais de transport, les chèques vacances, les contributions d'épargne retraite, etc.
+
+% Reprendre
+
+\begin{fig}[15cm]{Relations entre les différents concepts de salaire (2014).\label{cascade}}
+{\graphique[1]{cascade.pdf}}
+{\footnotesize \textsc{Source:}~ Modèle \TAXIPP. \\ \textsc{Note:}~La simulation a été réalisée pour le cas d'un individu travaillant à temps plein dans le secteur privé, percevant un salaire mensuel de 2~000~euros bruts, vivant seul, ne percevant aucune source de revenu complémentaire à son salaire, travaillant dans une entreprise de 20 salariés non assujettie à la taxe sur les salaires. Les valeurs des taux des prélèvements sont celles de 2014.}
+\end{fig}
+
+La figure \ref{cascade} présente la relation entre les différents concepts de salaire décrits au-dessus pour le cas type d'un(e) salarié(e) percevant un salaire brut de 2000 euros mensuel.
+
+\subsection{Du coût du travail au salaire net}
+
+% Mettre à jour pour 2015
+
+Le tableau \ref{brutnet} présente pour différents niveaux de salaire le coût du travail, versé par l'employeur, et le salaire net, reçu par le salarié, et ce pour 2015. Au niveau du Smic, pour un salaire brut mensuel de 1445 euros, le salarié va touché net 1128 euros et l'employeur débourser 1663 euros. A ce niveau de salaire les réductions généralisées de cotisations sociales sont au maximum et le coût pour l'employeur n'inclut donc pas la totalité des cotisations employeurs légales. Au niveau d'un salaire de 2000 euros brut les réductions de cotisations sociales ne sont plus en place, et le ratio entre le coût du travail et le salaire net est plus élevé, avec 1562 euros pour le salaire net contre 2687 euros pour le coût du travail. Pour la moitié des salaires les plus élevés, le coin fiscal (ou \textit{earnings tax wedge}) est de l'ordre de 50~\% (égal au ratio $\frac{(1-t_e)}{(1+t_r)}$), ce qui signifie que le salarié ne perçoit directement que la moitié de ce qu'il coûte à son employeur.
+
+\begin{table}[h!]
+\begin{center}
+\centering
+\caption{Salaire brut, coût du travail et salaire net en 2015.\label{brutnet}}
+\vspace{0.2cm}
+\small
+\begin{tabular}{|l||c|c|c|c|}
+\cline{2-5}
+\multicolumn{1}{c|}{} & \multicolumn{2}{|c|}{Salaire net}  & \multicolumn{2}{c|}{Coût du travail} \\
+\hline
+\multicolumn{1}{|c|}{} {Salaire mensuel brut} & \multicolumn{1}{|c|} {Non-cadre} & \multicolumn{1}{|c|} {Cadre} & \multicolumn{1}{|c|} {Non-cadre}  & \multicolumn{1}{|c|} {Cadre}  \\
+\hline
+\hline
+1 445 \euro~(Smic)   & 1 128 \euro & 1 126 \euro & 1 663 \euro & 1 666 \euro \\
+2 000 \euro  & 1 562 \euro & 1 559 \euro & 2 687 \euro & 2 692 \euro \\
+4 000 \euro  & 3 209 \euro &  3 135 \euro & 5 797 \euro & 5 812 \euro \\
+8 000  \euro & 6 722 \euro & 6 335 \euro & 11 567 \euro & 11 617 \euro \\
+\hline
+\end{tabular}
+\end{center}
+\footnotesize \textsc{Source:}~Modèle \TAXIPP. \\ \textsc{Note:} La simulation a été réalisée pour le cas d'un salarié employé à temps complet, travaillant dans une entreprise de 20 salariés assujettie à la taxe sur les salaires et ne bénéficiant pas du régime local d'Alsace-Moselle.
+\end{table}
+
+La figure \ref{evol-dads} présente l'évolution du taux effectif de prélèvements sociaux sur les salaires depuis 1976 jusqu'à 2009 en simulant la législation sur le panel des Déclarations annuelles de données sociales (DADS) de l'Insee.
+
+\begin{fig}[14cm]{Evolution du taux effectif de prélèvements sociaux par décile (1976-2009).\label{evol-dads}}
+{\graphique{Tx cotis par decile.png}}
+{\textsc{Source:} Déclarations annuelles de données sociales (DADS), Fichier Panel 2010. \\ \textsc{Note:} Les cotisations ont été simulées à l'aide du modèle \TAXIPP, sur les salariés du secteur privé, ayant travaillé à temps plein toute l'année (civile).}
+\end{fig}
+
+Les prélèvements qui ne sont pas calculés à partir d'un taux unique appliqué à l'ensemble de l'assiette ont un barème régressif, du fait de la \textit{décroissance} du taux marginal avec le niveau de salaire. \`{A} mesure que le poids des cotisations sociales en proportion des rémunérations brutes a augmenté, cette caractéristique a été de plus en plus controversée. Afin de faire davantage contribuer les hautes rémunérations au financement de la protection sociale, un certain nombre de prélèvements ont été \og déplafonnés\fg: c'est le cas de l'assurance maladie-maternité-invalidité-décès, dont la cotisation était assise uniquement sur la partie du salaire sous le plafond avant les années 1980, et qui depuis 1980 est prélevée sur la totalité du salaire. Le même changement a été observé pour les cotisations des branches vieillesse, accidents du travail et famille dans les années 1980 et 1990. En instaurant la CSG et la CRDS comme des impôts sur le revenu à taux proportionnel sans plafond (des \textit{flat-rate taxes}), les pouvoirs publics se sont inscrits dans la même tendance. C'est le mouvement de \og déplafonnement\fg{} qui explique la convergence des taux moyens d'imposition par déciles entre la moitié des années 1970 et la moitié des années 1990.
+
+Le déplafonnement des cotisations ne suffit pas cependant à expliquer entièrement le profil globalement redistributif des prélèvements sociaux aujourd'hui, les hauts salaires (notamment ceux au dessus de quatre PSS, soit 1~\% des salaires du privé aujourd'hui) restant soumis à un taux marginal d'imposition plus faible. La réelle baisse du taux de prélèvement moyen sur les premiers déciles de salaires est à chercher dans les politiques de baisses de charges patronales. Face à la persistance d'un chômage de masse frappant essentiellement les moins qualifiés, les gouvernements français ont dès 1991 octroyé des réductions des contributions employeur (voir chapitre \ref{Exonerations}), lesquelles ont abouti à ce que le taux moyen de prélèvements sociaux soit moins élevé pour les bas salaires que pour les hauts salaires, contrairement à ce qui était le cas avant les années 1990.
+
+
+\ifx\isEmbedded\undefined
+\newpage
+\bibliography{../../Biblio/biblio-precis}
+\end{document}
+\else \fi

@@ -1,0 +1,57 @@
+Les aides personnelles au logement constituent l'intervention de l'\'Etat du côté de la demande de logement, des dispositifs d'aide à la pierre étant d'autre part mis en place du côté de l'offre. Nous ne nous intéressons ici qu'à la partie demande de la politique du logement. Les prestations logements se décomposent en deux branches : l'aide personnalisée au logement (APL) d'une part et l'allocation logement (AL) de type familial ou social (ALF ou ALS) d'autre part.
+
+Les différents types d'aide s'appliquent suivant les situations des ménages selon les critères suivant : statut d'occupation du logement, adulte isolé ou en couple, nombre d'enfants. Ensuite le montant de l'aide dépend des caractéristiques précédentes ainsi que des ressources, du loyer et de la zone d'habitation. On distingue plusieurs secteurs suivant le type de situation d'occupation du logement : le secteur accession, le secteur locatif, qui se décompose en locatif hors foyer set secteur foyers.
+
+L'APL est attribuée aux ménages en accession et en secteur locatif sans condition sur la structure familiale. Pour le secteur accession, il faut cependant rembourser un prêt aidé par l'\'Etat (PAP) ou un prêt conventionné (PC), dont les prêts à l'accession sociale (PAS) pour pouvoir y prétendre. Pour le secteur locatif, il faut habiter dans un logement (ordinaire ou foyer) ayant fait l'objet d'une convention entre l'\'Etat et le bailleur. Les ménages dont les caractéristiques du logement ne lui permettent pas de bénéficier de l'APL peuvent prétendre à l'ALF s'ils ont des personnes à charge). Enfin, dans le cas où un ménage n'est éligible ni à l'APL ni ALF, l'ALS s'applique.
+
+Les modalités de calcul des aides dépendent du secteur dans lequel se trouve le bénéficiaire potentiel. Pour les ménages du secteur locatif hors foyer, la formule et les paramètres de calcul est la même en APL et en AL depuis le 1e janvier 2001. En secteur accession il existe deux barèmes différents pour l'APL et pour l'AL. Enfin, en secteur foyer il y a deux barèmes d'APL (APL 1 et APL 2) et le barème AL est identique au barème AL en accession.
+
+Les droits aux aides personnelles au logement ouvre également le droit à une prime de déménagement qui sera néanmoins laissée de côté dans ce guide.
+
+Les tableaux~\ref{logement1} et~\ref{logement2} résument respectivement les conditions d'éligibilité et la législation relatives aux formules et aux barèmes des aides personnelles au logement.
+
+\begin{figure} \label{logement1}
+  % Requires \usepackage{graphicx}
+  \includegraphics{Figures/logement1.png}
+%  \caption{}\label{}
+\end{figure}
+\begin{figure} \label{logement2}
+  % Requires \usepackage{graphicx}
+  \includegraphics{Figures/logement2.png}
+%  \caption{}\label{}
+\end{figure}
+
+
+
+\section{Le secteur locatif hors foyer}
+\subsection{Conditions d'éligibilité : AL et APL}
+Le logement doit répondre à des conditions de peuplement et de salubrité pour ouvrir droit à l'aide au logement. Le logement doit être d'une surface au moins égale à 25m\up{2} pour deux personnes, plus 9m\up{2} supplémentaires pour chaque personne en plus, avec une limite de 79m\up{2} pour 8 personnes. Le logement doit aussi répondre à des exigences de salubrité, il doit en effet comporter un poste d'eau potable, de WC et d'un moyen de chauffage. Nous ne sommes pas en mesure de prendre cette condition en compte dans notre modèle.
+
+\subsubsection{La participation personnelle}
+Ce paramètre intervient dans le calcul de l'APL et l'AL en secteur location avec la nouvelle formule (à partir de 2001). La
+La participation personnelle $Pp$, est exprimée comme la somme d'une participation minimale ($P0$) et d'une participation proportionnelle ($Tp$) à une fonction des ressources du bénéficiaire ($Rp$). La formule de calcul de $Pp$ est la suivante :
+\begin{equation}\label{Pp}
+    P_p = P_0 + T_p * R_p
+\end{equation}
+
+Plus précisément :
+\begin{itemize}
+  \item $P0$ est la participation minimale est égale au minimum entre un paramètre plancher (34.53 \euro en 2013) et un pourcentage de la dépense de logement plafonnée ($8.8\%*(L+C)$)
+  \item $Tp$ est le taux de participation personnelle, égal à ma somme de $Tf$, un taux fonction de la taille du ménage et de $Tl$, un taux complémentaire fixé par arrêté en fonction de la valeur du rapport entre le loyer retenu dans la limite du plafond et un loyer de référence.
+  \item $Rp$ est la différence entre les ressources du bénéficiaire $R$ et un montant forfaitaire $R0$.
+\end{itemize}
+
+
+\subsection{Calcul et montant}
+
+\section{Le secteur accession}
+\subsection{Conditions d'éligibilité}
+
+\subsection{Calcul et montant}
+
+\subsubsection{Barème APL}
+\subsubsection{Barème AL}
+  
+\section{Le secteur foyer} 
+
+\section{Paramètres communs aux formules de calcul}

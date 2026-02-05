@@ -1,0 +1,69 @@
+# Ignore generated PDF output directory
+pdf/
+
+# Ignore PDF files in source directories
+source/**/*.pdf
+source/**/*.PDF
+
+# Ignore LaTeX compilation artifacts
+source/**/*.aux
+source/**/*.bbl
+source/**/*.blg
+source/**/*.log
+source/**/*.toc
+source/**/*.out
+source/**/*.lof
+source/**/*.lot
+source/**/*.synctex
+source/**/*.synctex.gz
+*.synctex
+*.synctex.gz
+
+# Ignore large data files in source
+source/**/*.xlsx
+source/**/*.xls
+source/**/*.xlsm
+source/**/*.zip
+
+# Ignore quarto fiscalite public output
+quarto/fiscalite/public/
+
+# Python / virtualenvs / build artifacts
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.tox/
+dist/
+build/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+.eggs/
+__pypackages__/
+
+# Coverage / test reports
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+
+# Editor directories
+.vscode/
+
+# Ignore generated archive
+precis.zip
+source/precis.zip

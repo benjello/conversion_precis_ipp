@@ -1,0 +1,54 @@
+# Précis IPP - Fiscalité des ménages (source LaTeX: TEX2QMD_SOURCE_DIR ou ipp/source/Fiscalité/Chapitres)
+# Générer les .qmd: depuis ipp/ → tex2qmd-fiscalite (package quarto/tex2qmd)
+# Puis: quarto render (HTML + PDF dans public/)
+
+lang: fr
+
+# Tableau TVA uniquement : true = généré depuis OpenFisca, false = statique (conversion LaTeX).
+# Tous les autres tableaux du livre utilisent toujours la conversion LaTeX (pas OpenFisca).
+params:
+  use_openfisca_tables: true
+
+project:
+  type: book
+  output-dir: public
+
+book:
+  title: "Le système fiscal français"
+  subtitle: "Historique et législation (fiscalité des ménages)"
+  author: "Institut des politiques publiques"
+  date: today
+  chapters:
+    - index.qmd
+    - presentation.qmd
+    - cotisations.qmd
+    - revenu.qmd
+    - patrimoine.qmd
+    - indirecte.qmd
+    - glossaire.qmd
+    - references.qmd
+  downloads: [pdf]
+  repo-url: .
+  repo-actions: []
+
+# Double bibliographie : ouvrages (references.bib) + textes de lois (legislation.bib)
+# Voir docs/citations.md pour les options (une liste vs deux sections).
+bibliography:
+  - references.bib
+  - legislation.bib
+# Style CSL : affiche titre, date (issued) et note pour les entrées misc/législation
+csl: fiscalite-references.csl
+
+format:
+  html:
+    theme: cosmo
+    number-depth: 3
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: xelatex
+    include-in-header:
+      - cover-pages.tex
+      - text: |
+          \usepackage{eurosym}
+          \newcommand{\nombre}[1]{#1}
+    include-after-body: cover-back.tex
