@@ -24,5 +24,14 @@ Sources LaTeX → conversion → `.qmd` → HTML + PDF.
    cd quarto/fiscalite && quarto render
    ```
 
+### GitHub Pages
+
+Pushes to `main` trigger a workflow that renders the Quarto book and deploys it to GitHub Pages. To enable the site:
+
+1. In the repo: **Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+
+The site will be available at `https://<owner>.github.io/<repo>/` (e.g. `https://benjello.github.io/conversion_precis_ipp/`).
+
 - Détails conversion : `quarto/tex2qmd/README.md`
 - Citations et bibliographie (fiscalité) : `quarto/fiscalite/docs/citations.md`
