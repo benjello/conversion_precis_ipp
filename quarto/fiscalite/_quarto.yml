@@ -50,5 +50,5 @@ format:
       - cover-pages.tex
       - text: |
           \usepackage{eurosym}
-          \newcommand{\nombre}[1]{#1}
+          \providecommand{\nombre}[1]{#1}
     include-after-body: cover-back.tex
