@@ -28,8 +28,8 @@ book:
     - glossaire.qmd
     - references.qmd
   downloads: [pdf]
-  repo-url: .
-  repo-actions: []
+  repo-url: https://github.com/benjello/conversion_precis_ipp
+  repo-actions: [edit, issue]
 
 # Double bibliographie : ouvrages (references.bib) + textes de lois (legislation.bib)
 # Voir docs/citations.md pour les options (une liste vs deux sections).
