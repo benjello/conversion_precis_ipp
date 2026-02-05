@@ -5,6 +5,9 @@ pdf/
 source/**/*.pdf
 source/**/*.PDF
 
+# But allow cover page PDFs needed for rendering
+!source/Fiscalité/Couverture/couverture*.pdf
+
 # Ignore LaTeX compilation artifacts
 source/**/*.aux
 source/**/*.bbl
