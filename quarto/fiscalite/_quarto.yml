@@ -29,6 +29,8 @@ book:
     - references.qmd
   downloads: [pdf]
   repo-url: https://github.com/benjello/conversion_precis_ipp
+  repo-subdir: quarto/fiscalite
+  repo-branch: main
   repo-actions: [edit, issue]
 
 # Double bibliographie : ouvrages (references.bib) + textes de lois (legislation.bib)
