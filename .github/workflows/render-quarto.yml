@@ -7,15 +7,16 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  render-quarto-pr:
-    if: github.event_name == 'pull_request'
+  render-quarto:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,9 +27,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v3
+          cache: 'pip'
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -37,82 +36,39 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          uv pip install --system -e .[quarto]
+          python -m pip install --upgrade pip
+          if [ -f quarto/fiscalite/requirements-quarto.txt ]; then
+            pip install -r quarto/fiscalite/requirements-quarto.txt
+          fi
           if [ -f requirements.txt ]; then
-            uv pip install --system -r requirements.txt
+            pip install -r requirements.txt
           fi
 
       - name: Render Quarto project
         run: |
           cd quarto/fiscalite
-          export QUARTO_PYTHON="$(uv python find)"
-          quarto render --to html
+          quarto render
 
-      - name: Debug outputs (HTML)
-        run: |
-          echo "public/ contents:"
-          ls -la quarto/fiscalite/public
-          echo "HTML files:"
-          ls -la quarto/fiscalite/public/*.html || true
-
-      - name: Validate build outputs (HTML)
-        run: |
-          test -s quarto/fiscalite/public/index.html
-
-  render-quarto-main:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v3
-
-      - name: Install Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          tinytex: true
-
-      - name: Install Python dependencies
-        run: |
-          uv pip install --system -e .[quarto]
-          if [ -f requirements.txt ]; then
-            uv pip install --system -r requirements.txt
-          fi
-
-      - name: Render Quarto project
-        run: |
-          cd quarto/fiscalite
-          export QUARTO_PYTHON="$(uv python find)"
-          quarto render --to html
-          quarto render --to pdf
-
-      - name: Debug outputs (HTML + PDF)
-        run: |
-          echo "public/ contents:"
-          ls -la quarto/fiscalite/public
-          echo "HTML files:"
-          ls -la quarto/fiscalite/public/*.html || true
-          echo "PDF files:"
-          ls -la quarto/fiscalite/public/*.pdf || true
-
-      - name: Validate build outputs (HTML + PDF)
-        run: |
-          test -s quarto/fiscalite/public/index.html
-          ls -1 quarto/fiscalite/public/*.pdf >/dev/null
       - name: Add .nojekyll for GitHub Pages
         run: touch quarto/fiscalite/public/.nojekyll
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: quarto/fiscalite/public
-          publish_branch: gh-pages
+          path: 'quarto/fiscalite/public/'
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: render-quarto
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
