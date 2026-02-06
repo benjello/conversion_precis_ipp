@@ -38,11 +38,9 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          if [ -f quarto/fiscalite/requirements-quarto.txt ]; then
-            uv pip install -r quarto/fiscalite/requirements-quarto.txt
-          fi
+          uv pip install --system -e .[quarto]
           if [ -f requirements.txt ]; then
-            uv pip install -r requirements.txt
+            uv pip install --system -r requirements.txt
           fi
 
       - name: Render Quarto project

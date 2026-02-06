@@ -13,7 +13,7 @@ Sources LaTeX → conversion → `.qmd` → HTML + PDF.
 2. Générer les `.qmd` et `legislation.bib` depuis la racine du dépôt (`ipp/`) :  
 
    ```bash
-   uv pip install -e .   # une fois
+   uv pip install -e .[quarto]   # une fois
    tex2qmd-fiscalite
    ```
 

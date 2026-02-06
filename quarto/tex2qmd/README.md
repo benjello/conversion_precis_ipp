@@ -27,4 +27,4 @@ Voir `README.md` à la racine pour le guide complet et un exemple.
 
 ## Installation
 
-À la racine du dépôt : `uv pip install -e .`
+À la racine du dépôt : `uv pip install -e .[quarto]`

@@ -39,7 +39,7 @@ git checkout -b my-improvements
 
 # Install dependencies
 uv sync
-# or: uv pip install -r quarto/fiscalite/requirements-quarto.txt
+# or: uv pip install -e .[quarto]
 
 # Edit the .qmd files (see file structure below)
 # Test locally:
@@ -161,7 +161,7 @@ git checkout -b mes-ameliorations
 
 # Installez les dépendances
 uv sync
-# ou : uv pip install -r quarto/fiscalite/requirements-quarto.txt
+# ou : uv pip install -e .[quarto]
 
 # Éditez les fichiers .qmd (voir la structure des fichiers ci-dessous)
 # Testez localement :
