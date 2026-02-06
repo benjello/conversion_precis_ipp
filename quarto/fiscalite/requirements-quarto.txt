@@ -1,0 +1,5 @@
+# For dynamic tables from OpenFisca parameters (e.g. TVA history in chapters/indirecte/indirecte.qmd)
+openfisca-france>=131
+pyyaml>=6.0
+pandas>=2.0
+jupyter>=1.0
