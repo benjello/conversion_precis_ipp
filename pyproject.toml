@@ -4,11 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ipp-quarto"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate Quarto books from LaTeX sources (fiscalité des ménages)"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = [
+dependencies = []
+
+[project.optional-dependencies]
+quarto = [
     "openfisca-france>=131",
     "pyyaml>=6.0",
     "pandas>=2.0",

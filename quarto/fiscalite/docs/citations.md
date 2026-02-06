@@ -42,7 +42,7 @@ En sortie PDF, utiliser biblatex et afficher deux bibliographies avec des titres
 - Dans `_quarto.yml` :
   - `cite-method: biblatex`
   - `suppress-bibliography: true` (pour ne pas générer la liste automatique)
-- Dans la page des références (ex. `references.qmd`), insérer du LaTeX :
+- Dans la page des références (ex. `chapters/references/references.qmd`), insérer du LaTeX :
 
 ```latex
 # Bibliographie {.unnumbered}
@@ -97,7 +97,7 @@ C'est faisable mais demande de maintenir un script et de gérer les types (book,
 ## Fichiers concernés
 
 - `_quarto.yml` : `bibliography`, éventuellement `csl`, et pour l'option 2 `cite-method` / `suppress-bibliography`
-- `references.qmd` : chapitre « Bibliographie » et, pour l'option 2, le LaTeX ci‑dessus
+- `chapters/references/references.qmd` : chapitre « Bibliographie » et, pour l'option 2, le LaTeX ci‑dessus
 - `references.bib` : ouvrages (Ardant1971, Piketty1999, etc.)
 - `legislation.bib` : **généré par** le package `quarto/tex2qmd` (commande `tex2qmd-fiscalite`) à partir de `LEGISLATION_ENTRIES` dans `quarto/tex2qmd/legislation.py` — ne pas éditer à la main ; ajouter/modifier les lois dans ce module.
 - Si besoin : réutiliser un CSL style juridique (ex. `fiscalite-references.csl` utilisé dans ce projet).

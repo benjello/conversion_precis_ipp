@@ -5,6 +5,7 @@ Thank you for your interest in contributing to the IPP Fiscalité Guide! This do
 ## Ways to Contribute
 
 ### 1. Suggest Changes via GitHub Issues
+
 If you notice an error, have a suggestion, or want to discuss an improvement:
 
 1. Go to the [Issues tab](https://github.com/benjello/conversion_precis_ipp/issues)
@@ -13,6 +14,7 @@ If you notice an error, have a suggestion, or want to discuss an improvement:
 4. We'll review and discuss with you
 
 ### 2. Edit Online (Easiest)
+
 Each page in the rendered book has an "Edit" button in the top-right corner:
 
 1. Click the **Edit** button on any page
@@ -23,6 +25,7 @@ Each page in the rendered book has an "Edit" button in the top-right corner:
 6. A maintainer will review and merge your changes
 
 ### 3. Fork & Clone (For Local Development)
+
 If you want to make substantial changes or test them locally:
 
 ```bash
@@ -36,7 +39,7 @@ git checkout -b my-improvements
 
 # Install dependencies
 uv sync
-# or: pip install -r quarto/fiscalite/requirements-quarto.txt
+# or: uv pip install -e .[quarto]
 
 # Edit the .qmd files (see file structure below)
 # Test locally:
@@ -68,7 +71,7 @@ The book chapters are in `quarto/fiscalite/`:
 
 The book is written in Quarto Markdown format. Basic syntax:
 
-```markdown
+````markdown
 # Heading 1
 ## Heading 2
 
@@ -84,18 +87,19 @@ This is **bold** and this is *italic*.
 
 ![Image alt text](path/to/image.png)
 
-```{r}
+```r
 # R code block (optional)
 ```
 
-```{python}
+```python
 # Python code block (optional)
 ```
 
 You can also use LaTeX math:
+
 - Inline: $E = mc^2$
 - Display: $$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
-```
+````
 
 ## Pull Request Guidelines
 
@@ -116,13 +120,14 @@ Thank you for helping improve this resource! 🙏
 
 ---
 
-# Contribuer au Guide Fiscalité de l'IPP
+## Contribuer au Guide Fiscalité de l'IPP
 
 Merci de votre intérêt pour contribuer au Guide Fiscalité de l'IPP ! Ce document explique comment suggérer des améliorations et effectuer des modifications.
 
 ## Façons de contribuer
 
 ### 1. Suggérer des changements via les issues GitHub
+
 Si vous remarquez une erreur, avez une suggestion ou voulez discuter d'une amélioration :
 
 1. Allez à l'onglet [Issues](https://github.com/benjello/conversion_precis_ipp/issues)
@@ -131,6 +136,7 @@ Si vous remarquez une erreur, avez une suggestion ou voulez discuter d'une amél
 4. Nous examinerons et discuterons avec vous
 
 ### 2. Éditer en ligne (Le plus facile)
+
 Chaque page du livre rendu a un bouton "Edit" en haut à droite :
 
 1. Cliquez sur le bouton **Edit** sur n'importe quelle page
@@ -141,6 +147,7 @@ Chaque page du livre rendu a un bouton "Edit" en haut à droite :
 6. Un mainteneur examinera et fusionnera vos modifications
 
 ### 3. Fork & Clone (Pour le développement local)
+
 Si vous voulez effectuer des changements substantiels ou les tester localement :
 
 ```bash
@@ -154,7 +161,7 @@ git checkout -b mes-ameliorations
 
 # Installez les dépendances
 uv sync
-# ou : pip install -r quarto/fiscalite/requirements-quarto.txt
+# ou : uv pip install -e .[quarto]
 
 # Éditez les fichiers .qmd (voir la structure des fichiers ci-dessous)
 # Testez localement :
@@ -186,7 +193,7 @@ Les chapitres du livre sont dans `quarto/fiscalite/` :
 
 Le livre est écrit au format Quarto Markdown. Syntaxe de base :
 
-```markdown
+````markdown
 # En-tête 1
 ## En-tête 2
 
@@ -202,18 +209,19 @@ Ceci est **gras** et ceci est *italique*.
 
 ![Texte alt de l'image](chemin/vers/image.png)
 
-```{r}
+```r
 # Bloc de code R (optionnel)
 ```
 
-```{python}
+```python
 # Bloc de code Python (optionnel)
 ```
 
 Vous pouvez aussi utiliser les mathématiques LaTeX :
+
 - En ligne : $E = mc^2$
 - Affichage : $$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
-```
+````
 
 ## Directives pour les Pull Requests
 

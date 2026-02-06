@@ -3,6 +3,4 @@ title: "Introduction"
 number: false
 ---
 
-Ce *Guide législatif IPP* décrit la législation des prélèvements obligatoires en France, depuis 1945 jusqu'en 2012. Le premier objectif est de présenter un panorama complet de la législation fiscale afin de pouvoir simuler son impact redistributif ou de ses possibles modifications. Ce document sert donc de base aux paramètres qui sont utilisés dans le modèle de micro-simulation de l'IPP, TAXIPP.
-
-Pour autant, ce document ne se limite pas à une suite de formules et de paramètres et vise à présenter au lecteur l'architecture du système et, dans la mesure du possible, les débats qui ont présidé à son évolution.
+{{< include chapters/index/index.qmd >}}

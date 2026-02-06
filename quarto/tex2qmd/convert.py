@@ -232,6 +232,31 @@ def shift_heading_levels(content: str) -> str:
     return "\n".join(result)
 
 
+FOOTNOTE_DEF_RE = re.compile(r"^\[\^([^\]\s]+)\]:(?=\s|$)", re.MULTILINE)
+FOOTNOTE_REF_RE = re.compile(r"\[\^([^\]\s]+)\]")
+
+
+def prefix_footnote_labels(content: str, prefix: str) -> str:
+    """Prefix footnote labels so they are unique across chapters in a book."""
+    if not prefix:
+        return content
+
+    def _pref(label: str) -> str:
+        if label.startswith(prefix + "-"):
+            return label
+        return f"{prefix}-{label}"
+
+    def _def_repl(m: re.Match) -> str:
+        return f"[^{_pref(m.group(1))}]:"
+
+    def _ref_repl(m: re.Match) -> str:
+        return f"[^{_pref(m.group(1))}]"
+
+    content = FOOTNOTE_DEF_RE.sub(_def_repl, content)
+    content = FOOTNOTE_REF_RE.sub(_ref_repl, content)
+    return content
+
+
 HEADING_RE = re.compile(r"^(#{1,6})\s")
 PLACEHOLDER = "*[À rédiger.]*"
 

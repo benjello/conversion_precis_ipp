@@ -49,7 +49,7 @@ proportionnel sur le revenu des valeurs mobilières créé en 1872, et même
 un impôt progressif sur les successions voté en 1901. Par moderne, nous
 entendons deux choses. D'abord, que l'impôt repose non plus sur une
 conception "indiciaire" (La richesse de chacun est estimée en fonction
-d'éléments extérieurs censés être des indices [^1]) de la capacité
+d'éléments extérieurs censés être des indices [^revenu-1]) de la capacité
 contributive de chacun mais sur une les valeurs effectives, selon une
 logique déclarative. Ensuite, il ne s'agit plus d'impôt par
 "répartition" (un montant global attendu est annoncé par le gouvernement
@@ -74,8 +74,8 @@ premiers revenus imposés au titre de l'IGR sont ceux de 1915. Dès 1917,
 l'autre composante de l'impôt sur le revenu est votée: une série de six
 impôts cédulaires , taxes globalement proportionnelles (dont le taux
 n'excède pas 6%) pesant séparément sur les différentes catégories de
-revenu [^2]. Ce nouvel impôt remplace les quatre contributions héritées
-de l'Ancien Régime encore en vigueur jusque là [^3]. Les mêmes réductions
+revenu [^revenu-2]. Ce nouvel impôt remplace les quatre contributions héritées
+de l'Ancien Régime encore en vigueur jusque là [^revenu-3]. Les mêmes réductions
 d'impôt que l'IGR s'appliquent au titre des personnes à charge.
 L'assiette de cet impôt proportionnel est en revanche légèrement plus
 étroite que celle de l'IGR (en particulier, elle permet la déductibilité
@@ -137,7 +137,7 @@ de guerre, c'est essentiellement l'inflation du début des années 1920.
 Peut-être que ce choix fiscal vise avant tout à ne pas rompre totalement
 l'Union sacrée des années de guerre, voire à acheter symboliquement la
 paix sociale dans un contexte de montée du socialisme et du communisme
-en France [^4]. Cela permet aussi de continuer à faire contribuer à
+en France [^revenu-4]. Cela permet aussi de continuer à faire contribuer à
 l'effort de reconstruction ceux qui n'ont pu combattre. Il faut
 toutefois noter que la coloration clairement nataliste de cet IR permet
 de faire accepter à l'électorat de droite ce choix fiscal. Ce régime
@@ -189,7 +189,7 @@ aujourd'hui encore. Trois éléments le définissent:
     mis en cause depuis 1945. La prise en compte de la structure du
     foyer fiscal est pris en compte lors du calcul du revenu imposable,
     qui est divisé par le nombre de parts fiscales du foyer fiscal avant
-    d'y appliquer le barème de l'IR [^5]. Le montant ainsi obtenu
+    d'y appliquer le barème de l'IR [^revenu-5]. Le montant ainsi obtenu
     correspond au montant d'IR que le foyer fiscal doit payer *par part
     fiscale*. Ce mode de calcul est avantageux dans la mesure où, le
     barème de l'IR étant progressif, la fonction $T$ qui le modélise est
@@ -212,10 +212,10 @@ aujourd'hui encore. Trois éléments le définissent:
     débutée en 2008 semble avoir incité les dirigeants français à
     inverser la tendance, mais jusqu'à présent la revalorisation des
     taux marginaux n'atteint "que" 45%, un niveau historiquement plutôt
-    faible pour un taux marginal supérieur [^6].
+    faible pour un taux marginal supérieur [^revenu-6].
 
 -   **La non-déduction de l'impôt de l'année précédente du revenu
-    imposable**: Étant donné la composition [^7] de l'Assemblée nationale
+    imposable**: Étant donné la composition [^revenu-7] de l'Assemblée nationale
     à la Libération, on peut s'étonner que le barème voté pour les
     revenus de 1945 soit aussi \"sage\" (avec cinq tranches, et un taux
     marginal supérieur s'élevant à 60%). Ce choix relève d'une
@@ -311,7 +311,7 @@ dette sociale (CRDS), et des contributions additionnelles sur les
 revenus du capital. L'essor de ces nouveaux impôts proportionnels n'est
 pas sans rappeler, par l'ordre de grandeur de ses taux et ses variations
 en fonction de la nature des revenus, les impôts cédulaires de la
-première moité du XXsiècle, sur une assiette plus large [^8]. Ce
+première moité du XXsiècle, sur une assiette plus large [^revenu-8]. Ce
 phénomène explique en particulier le mouvement de baisse des taux du
 barème de l'IR à partir des années 1990 et pendant les années 2000.
 
@@ -357,7 +357,7 @@ Selon cette définition, ces revenus correspondent aux revenus bruts
 déduits des cotisations salariales et de la CSG déductible (cf le
 tableau [Montant de la PPE pour l'imposition de 2012 en fonction du revenu (hors sommes forfaitaires complémentaires.](#micro){reference-type="ref" reference="micro"} de
 la partie 1 sur les différents éléments entrant dans le calcul du
-salaire)[^9].\
+salaire)[^revenu-9].\
 Ces revenus permettent le calcul du revenu brut global (RBG), le revenu
 intermédiaire indispensable à la détermination de l'assiette sur
 laquelle sera calculée l'impôt sur le revenu de chaque foyer fiscal. Le
@@ -373,9 +373,9 @@ Le contribuable a le choix de déduire ses frais réels ou bien de se voir
 appliquer un abattement forfaitaire de 10% sur ses revenus imposables.
 Ces déductions ne peuvent excéder un certain plafond (en 2013,
 12 000 euros pour les salaires et 3 660 euros pour les pensions et
-retraites [^10]), ni aller en-deçà d'un certain plancher (en 2013
+retraites [^revenu-10]), ni aller en-deçà d'un certain plancher (en 2013
 toujours, 421 euros pour les salaires, 924 euros pour les demandeurs
-d'emploi de plus d'un an [^11] et 374 euros pour les pensions et les
+d'emploi de plus d'un an [^revenu-11] et 374 euros pour les pensions et les
 retraites).\
 Jusqu'à la fin de 2006 un second abattement de 20% était appliqué sur la
 somme des salaires et des pensions (après prise en compte de
@@ -396,7 +396,7 @@ pas droit à abattement.\
 -   Pour les produits d'assurance-vie, le contribuable a le choix du
     mode d'imposition. Il peut choisir l'imposition au titre du
     prélèvement forfaitaire libératoire (PFL) dont le taux dépend de la
-    durée de détention du contrat et de la date de souscription [^12], ou
+    durée de détention du contrat et de la date de souscription [^revenu-12], ou
     l'imposition au barème. Dans les deux cas, le contribuable bénéficie
     d'un abattement (4 600 euros, à doubler dans le cas d'un couple
     soumis à imposition commune) si le contrat a été souscrit au moins 6
@@ -707,7 +707,7 @@ décembre.
 
 Le quotient familial est déterminé par le quotient conjugal,
 éventuellement majoré en fonction du nombre de personnes rattachées au
-foyer fiscal [^13].
+foyer fiscal [^revenu-13].
 
 Il est possible de compter à charge:
 
@@ -736,7 +736,7 @@ Il est possible de compter à charge:
     -   quel que soit leur âge, lorsqu'ils effectuent leur service
         militaire ou sont atteints d'une infirmité.\
 
-L'option pour le rattachement [^14] ouvre droit au contribuable qui
+L'option pour le rattachement [^revenu-14] ouvre droit au contribuable qui
 accepte ce rattachement soit à une majoration de quotient familial
 lorsque l'enfant rattaché est célibataire sans charge de famille, soit à
 un abattement sur son revenu net global par personne prise en charge en
@@ -846,7 +846,7 @@ correspondent à l'année d'imposition de 2012.
 
 #### Quelques modifications et réformes qui ont concerné le QF
 
-1.  Dispositif concernant la résidence alternée [^15]:
+1.  Dispositif concernant la résidence alternée [^revenu-15]:
 
     Depuis l'imposition des revenus de 2003, lorsque des enfants mineurs
     vivent en alternance au domicile de l'un et l'autre de leurs
@@ -934,7 +934,7 @@ correspondent à l'année d'imposition de 2012.
     plafonné à 855 euros, 680 euros pour 2011, 400 euros pour 2012) et
     120 euros pour 2013).\
 
-4.  Veuvage [^16]:
+4.  Veuvage [^revenu-16]:
 
     Depuis l'imposition des revenus de l'année 2008, les veufs ayant des
     enfants ou des personnes invalides à charge sont assimilés, pour le
@@ -1061,7 +1061,7 @@ revenus de 2000. Avant 2001, le montant de la décote était défini comme
 Le contribuable déduit également de son impôt un ensemble de réductions
 d'impôts. Ces réductions sont décrites ci-dessous.\
 
--   **Cotisation syndicales**[^17]: la réduction d'impôt s'effectue
+-   **Cotisation syndicales**[^revenu-17]: la réduction d'impôt s'effectue
     comme un pourcentage (66% en 2012) du montant de la cotisation
     syndicale. Celle-ci reste cependant plafonnée à un montant global
     (1%) adossé sur les revenus bruts des salaires et pensions bruts du
@@ -1095,7 +1095,7 @@ d'impôts. Ces réductions sont décrites ci-dessous.\
     en Corse, le taux de réduction est de 45% depuis l'imposition des
     revenus de 2007.\
 
--   **Souscriptions au capital de SOFICA**[^18]: La réduction d'impôt
+-   **Souscriptions au capital de SOFICA**[^revenu-18]: La réduction d'impôt
     est égale en 2013 à 43% des sommes versées au capital de SOFICA dans
     la double limite de 25% du RNG global et de 18 000 euros. Ce taux
     passe à 36% lorsque la société s'engage à réaliser au moins 10% de
@@ -1317,8 +1317,8 @@ sont ceux âgés de moins de six ans au 1janvier de l'année d'imposition
 (après six ans, l'école devient obligatoire).
 
 La réduction est de 50% des dépenses pour frais de garde hors du
-domicile dans la limite de 1 150 euros par enfant [^19]. Le plafond est à
-diviser par deux en cas de garde alternée [^20].\
+domicile dans la limite de 1 150 euros par enfant [^revenu-19]. Le plafond est à
+diviser par deux en cas de garde alternée [^revenu-20].\
 Les **sommes versées pour l'emploi d'un salarié à domicile** donnent
 droit à une réduction (ou crédit, depuis 2007) d'impôt égale à 50% des
 dépenses effectivement supportées par le contribuable dans la limite de
@@ -1329,7 +1329,7 @@ excéder 15 000 euros (18 000 pour la première année). Le plafond des
 dépenses passe à 20 000 euros pour les contribuables dont l'un des
 membres du foyer fiscal est invalide.\
 Un **crédit d'impôt exceptionnel** a été mis en place en 2009 pour les
-contribuables modestes [^21]. Pour les contribuables dont le revenu net
+contribuables modestes [^revenu-21]. Pour les contribuables dont le revenu net
 imposable par part n'excède pas 11 673 euros, l'impôt brut après décote
 est divisé par trois. Au-delà de ce seuil, une réduction linéaire est
 appliquée. Elle s'annule pour les contribuables disposant d'un revenu
@@ -1360,7 +1360,7 @@ montant d'impôt "réel".
 #### La prime pour l'emploi
 
 La prime pour l'emploi (PPE) est un crédit d'impôt mis en place sous le
-gouvernement Jospin [^22], qui a pour objectif d'aider les travailleurs
+gouvernement Jospin [^revenu-22], qui a pour objectif d'aider les travailleurs
 pauvres en réduisant les inégalités de revenus net après impôts. La PPE
 a également pour vocation d'inciter les travailleurs à temps partiel à
 augmenter leur temps de travail et d'inciter les chômeurs à retourner
@@ -1658,7 +1658,7 @@ de l'impôt net dû est inférieur à 61 euros, l'impôt n'est pas réclamé.
 ## Contribution exceptionnelle sur les hauts revenus
 
 Depuis le 1janvier 2012, une contribution exceptionnelle sur les hauts
-revenus (CHR) est mise en place [^23]. Bien qu'elle soit directement liée
+revenus (CHR) est mise en place [^revenu-23]. Bien qu'elle soit directement liée
 à l'IRPP, cette CHR doit être présentée à part en raison de son mode de
 calcul spécifique.
 
@@ -1672,7 +1672,7 @@ l'horizon auquel le dispositif est susceptible de disparaître n'est pas
 explicite : il s'agit de maintenir le dispositif à compter de
 l'imposition des revenus de l'année 2011 et jusqu'à l'imposition des
 revenus de l'année au titre de laquelle le déficit public des
-administrations publiques est nul [^24].\
+administrations publiques est nul [^revenu-24].\
 Le dispositif concerne les contribuables imposables à l'IRPP disposant
 d'un revenu fiscal de référence (RFR) supérieur à un seuil de
 250 000 euros pour les déclarants non-unis (célibataires, veufs, séparés
@@ -1795,7 +1795,7 @@ inclut:
 
 -   les [salaires et traitements]{.underline} bruts, les [primes et
     indemnités diverses]{.underline} brutes, les [avantages en nature ou
-    en espèces]{.underline}[^25]. Au titre d'une déduction forfaitaire,
+    en espèces]{.underline}[^revenu-25]. Au titre d'une déduction forfaitaire,
     seuls 98,25% des salaires et traitements sont pris en compte si leur
     montant est inférieur à quatre fois le plafond de la sécurité
     sociale (le PSS est de 37 032 euros annuels en 2013). En revanche
@@ -2117,29 +2117,29 @@ Les foyers mensualisés ou payant leur impôt à l'échéance sont ne sont
 pas concernés par l'avis d'imposition spécifique, le prélèvement des
 contributions sociales se faisant automatiquement.
 
-[^1]: Par exemple, la contribution sur les portes et fenêtres estime la
+[^revenu-1]: Par exemple, la contribution sur les portes et fenêtres estime la
     valeur locative des logements en fonction du nombre d'ouvertures.
 
-[^2]: Ces catégories sont encore en usage dans la législation
+[^revenu-2]: Ces catégories sont encore en usage dans la législation
     contemporaine: BIC, BA, BNC, traitements-salaires-pensions, RCM,
     revenus immobiliers.
 
-[^3]: Pour leur part concernant l'État central seulement. Au niveau
+[^revenu-3]: Pour leur part concernant l'État central seulement. Au niveau
     local, certaines contributions ont changé de nom mais restent en
     vigueur aujourd'hui encore.
 
-[^4]: La gauche marxiste est divisée sur la question de l'IR. Selon
+[^revenu-4]: La gauche marxiste est divisée sur la question de l'IR. Selon
     l'analyse commune de l'époque, si cet impôt semble un dispositif
     efficace pour exproprier partiellement les revenus de la
     "bourgeoisie", la redistribution des revenus a un effet
     contre-productif sur le processus de paupérisation qui doit
     déboucher sur la révolution prolétarienne.
 
-[^5]: Pour un descriptif plus précis du calcul des parts fiscales d'un
+[^revenu-5]: Pour un descriptif plus précis du calcul des parts fiscales d'un
     foyer fiscal, se référer aux parties quotient conjugal  et quotient
     familial .
 
-[^6]: Il existe plusieurs explications à ce mouvement de baisse des taux
+[^revenu-6]: Il existe plusieurs explications à ce mouvement de baisse des taux
     marginaux d'imposition. L'une d'elle est le couplage de l'IR avec
     des contributions exceptionnelles sur les hauts revenus. Mais
     l'imposition du patrimoine est aussi un poids fiscal qui cible plus
@@ -2147,65 +2147,65 @@ contributions sociales se faisant automatiquement.
     le début des années 1990, un impôt alternatif sur les revenus voit
     le jour : la CSG.
 
-[^7]: Certainement la Chambre la plus à gauche de l'histoire de la
+[^revenu-7]: Certainement la Chambre la plus à gauche de l'histoire de la
     République, avec le PCF comme premier parti de France et une
     majorité absolue détenue par le tandem PC -- SFIO, partis se
     réclamant du marxisme dans leurs statuts.
 
-[^8]: Pour un historique détaillé des taux de ces contributions, se
+[^revenu-8]: Pour un historique détaillé des taux de ces contributions, se
     référer à la partie Contributions sociales .
 
-[^9]: La CSG est composée d'une part déductible et d'une part non
+[^revenu-9]: La CSG est composée d'une part déductible et d'une part non
     déductible. Cette spécificité se justifie par la nature de la CSG
     qui est à la fois un impôt et une cotisation sociale (JO Sénat du
     16/12/2004).
 
-[^10]: Le plafonnement de l'abattement est calculé à l'échelle du foyer
+[^revenu-10]: Le plafonnement de l'abattement est calculé à l'échelle du foyer
     pour les pensions et retraites alors qu'il est calculé au niveau
     individuel pour les salaires et les allocations chômages.
 
-[^11]: Ce plancher s'applique pour la première fois en 1998.
+[^revenu-11]: Ce plancher s'applique pour la première fois en 1998.
 
-[^12]: Les réformes sur la fiscalité des contrats n'étant pas
+[^revenu-12]: Les réformes sur la fiscalité des contrats n'étant pas
     rétroactives, toute réforme des taux d'imposition surperpose un cas
     supplémentaire aux cas déjà existants.
 
-[^13]: Pour plus d'informations, se reporter au formulaire 2041 GT
+[^revenu-13]: Pour plus d'informations, se reporter au formulaire 2041 GT
     téléchargeable sur impot.gouv.fr
 
-[^14]: L'article 74 de la loi de finances pour 2001 [@loi2001] (-1352 [@loi2001] du 30
+[^revenu-14]: L'article 74 de la loi de finances pour 2001 [@loi2001] (-1352 [@loi2001] du 30
     décembre 2000) étend cette option aux personnes majeures devenues
     orphelines de père et de mère après leur majorité en autorisant
     leurs rattachements au foyer fiscal du contribuable qui les a
     recueillies.
 
-[^15]: BOI du 20/01/2004
+[^revenu-15]: BOI du 20/01/2004
 
-[^16]: BOI du 15/05/2009
+[^revenu-16]: BOI du 15/05/2009
 
-[^17]: Cette réduction ne s'applique pas aux contribuables en activité
+[^revenu-17]: Cette réduction ne s'applique pas aux contribuables en activité
     qui auraient opté pour la déduction de leurs frais professionnels.
 
-[^18]: Société ayant pour activité exclusive le financement en capital
+[^revenu-18]: Société ayant pour activité exclusive le financement en capital
     d'œuvres cinématographiques ou audiovisuelles agréées.
 
-[^19]: Après déductions éventuelles de l'allocation mensuelle versée par
+[^revenu-19]: Après déductions éventuelles de l'allocation mensuelle versée par
     la CAF et des indemnités pour frais de garde d'enfant reçues de
     l'employeur.
 
-[^20]: Modifications : A partir de l'imposition des revenus de 2005, la
+[^revenu-20]: Modifications : A partir de l'imposition des revenus de 2005, la
     réduction d'impôt peut devenir un crédit d'impôt.
 
-[^21]: Art. 1de la loi de finances rectificative du 20/04/2009 [@loi2009-rectif]
+[^revenu-21]: Art. 1de la loi de finances rectificative du 20/04/2009 [@loi2009-rectif]
 
-[^22]: (Loi -458 du 30 mai 2001 codifiée à l'article 200 sexies du CGI.
+[^revenu-22]: (Loi -458 du 30 mai 2001 codifiée à l'article 200 sexies du CGI.
     Voir B.O. des impôts rebaptisé création PPE 2001 )
 
-[^23]: Voir le Code général des impôts, article 223 sexies
+[^revenu-23]: Voir le Code général des impôts, article 223 sexies
 
-[^24]: Loi -1977 du 28 décembre 2011, article 2 III A.
+[^revenu-24]: Loi -1977 du 28 décembre 2011, article 2 III A.
 
-[^25]: Une rémunération exclusivement constituée d'avantages en nature
+[^revenu-25]: Une rémunération exclusivement constituée d'avantages en nature
     est en revanche exonérée de CSG et de CRDS.
 <!-- {\emph{Note:} Le \og Seuil maximum \fg s'adresse :\\
 \vspace{-0.2cm}
