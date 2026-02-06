@@ -50,6 +50,13 @@ jobs:
           export QUARTO_PYTHON="$(uv python find)"
           quarto render --to html
 
+      - name: Debug outputs (HTML)
+        run: |
+          echo "public/ contents:"
+          ls -la quarto/fiscalite/public
+          echo "HTML files:"
+          ls -la quarto/fiscalite/public/*.html || true
+
       - name: Validate build outputs (HTML)
         run: |
           test -s quarto/fiscalite/public/index.html
