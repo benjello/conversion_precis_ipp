@@ -27,7 +27,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-          cache: 'pip'
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v3
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -36,18 +38,23 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
           if [ -f quarto/fiscalite/requirements-quarto.txt ]; then
-            pip install -r quarto/fiscalite/requirements-quarto.txt
+            uv pip install -r quarto/fiscalite/requirements-quarto.txt
           fi
           if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
+            uv pip install -r requirements.txt
           fi
 
       - name: Render Quarto project
         run: |
           cd quarto/fiscalite
+          export QUARTO_PYTHON="$(uv python find)"
           quarto render
+
+      - name: Validate build outputs (HTML + PDF)
+        run: |
+          test -s quarto/fiscalite/public/index.html
+          test -s quarto/fiscalite/public/index.pdf
 
       - name: Add .nojekyll for GitHub Pages
         run: touch quarto/fiscalite/public/.nojekyll

@@ -2,6 +2,27 @@
 title: "La fiscalité indirecte"
 ---
 
+```{python}
+#| include: false
+# OpenFisca tables import path
+import sys
+from pathlib import Path
+
+cwd = Path.cwd().resolve()
+# Add book folder that contains chapters/
+for candidate in [cwd, *cwd.parents]:
+    if (candidate / "chapters" / "__init__.py").exists():
+        if str(candidate) not in sys.path:
+            sys.path.insert(0, str(candidate))
+        break
+# Add repo root (for quarto.openfisca_tables.core)
+for candidate in [cwd, *cwd.parents]:
+    if (candidate / "quarto" / "openfisca_tables" / "core.py").exists():
+        if str(candidate) not in sys.path:
+            sys.path.insert(0, str(candidate))
+        break
+```
+
 La fiscalité indirecte est habituellement définie comme l'ensemble des
 impôts collectés auprès d'agents économiques qui ne sont pas ceux
 assujettis à l'impôt, alors que la fiscalité directe regroupe les impôts
@@ -89,12 +110,12 @@ La taxe sur la valeur ajoutée est un impôt indirect proportionnel
 inventé en 1954 par Maurice Lauré, haut fonctionnaire à la direction
 générale des impôts. Conçue comme un impôt moderne devant remplacer à
 terme les divers impôts sur la consommation, elle est créée par la loi
-du 10 avril 1954[^1] et progressivement généralisée jusqu'en 1968. Elle
+du 10 avril 1954[^indirecte-1] et progressivement généralisée jusqu'en 1968. Elle
 est rapidement adoptée par d'autres pays membres de la Communauté
 Économique Européenne, comme le Danemark dès 1967, puis imposée à
-l'ensemble des États-membres à partir du 1^er^ janvier 1974 [^2].
+l'ensemble des États-membres à partir du 1^er^ janvier 1974 [^indirecte-2].
 Aujourd'hui, tous les pays développés, à l'exception des États-Unis, qui
-appliquent un système de *sales taxes*[^3] (taxes sur la vente),
+appliquent un système de *sales taxes*[^indirecte-3] (taxes sur la vente),
 disposent d'une TVA.
 
 ### Mode de calcul
@@ -124,7 +145,7 @@ onéreux sont soumises à la taxe sur la valeur ajoutée. Cependant,
 certaines opérations sont exonérées de TVA. C'est le cas notamment des
 activités de pêche maritime,des activités médicales et paramédicales,
 des activités d'enseignement, de certains types de location, des
-activités du commerce extérieur intracommunautaire [^4].
+activités du commerce extérieur intracommunautaire [^indirecte-4].
 
 La base d'imposition sur laquelle le montant de la TVA est calculé
 comprend le prix hors taxe du produit ainsi que tous les impôts, taxes,
@@ -138,7 +159,7 @@ toutes taxes comprises: $$TVA =  \frac{\tau}{1+\tau}~p_{TTC}$$.
 ### Les taux applicables en métropole au 31 décembre 2012
 
 Au 31 décembre 2012, il existait en France métropolitaine quatre taux de
-TVA [^5]:
+TVA [^indirecte-5]:
 
 -   le **taux normal**, fixé à 19,6% s'applique à toutes les opérations
     de ventes de biens ou de services à l'exception de celles soumises à
@@ -219,7 +240,7 @@ Le gouvernement Fillon envisageait d'augmenter le taux normal de TVA de
 baisse des cotisations familiales patronales sur les bas salaires
 (dispositif dit de TVA anti-délocalisations). Ce projet a été abandonné
 par la gouvernement Ayrault, qui prévoit une nouvelle réforme des taux
-de TVA en vigueur à partir du 1^er^ janvier 2014[^6]. Le taux normal de
+de TVA en vigueur à partir du 1^er^ janvier 2014[^indirecte-6]. Le taux normal de
 TVA doit atteindre 20%, le premier taux réduit devient un taux
 intermédiaire de 10%, et le taux réduit est abaissé de 5,5% à 5%. Le
 taux super-réduit reste inchangé à 2,1%.
@@ -234,25 +255,9 @@ ajoutée.
 #| tbl-cap: "Évolution des taux de TVA en France depuis 1972."
 #| cap-location: top
 #| echo: false
-import os
-from pathlib import Path
-import pandas as pd
-
-use_openfisca = os.environ.get("QUARTO_PARAM_USE_OPENFISCA_TABLES", "true").lower() in ("true", "1", "yes")
-if use_openfisca:
-    from openfisca_tables import table_tva_historique_df
-    df = table_tva_historique_df()
-else:
-    text = Path("tables/tva_historique_static.md").read_text(encoding="utf-8")
-    lines = [l.strip() for l in text.strip().split("\n") if l.strip() and not l.strip().startswith("*")]
-    rows = []
-    for line in lines:
-        if line.startswith("|"):
-            cells = [c.strip() for c in line.split("|")[1:-1]]
-            if cells and not all(c == "" or set(c) <= set("-") for c in cells):
-                rows.append(cells)
-    df = pd.DataFrame(rows[1:], columns=rows[0]) if rows else pd.DataFrame()
-df.style.hide(axis="index")
+from quarto.openfisca_tables.core import get_table_or_static
+from chapters.indirecte.openfisca_tables import table_tva_historique_df
+get_table_or_static(table_tva_historique_df, "chapters/indirecte/tables/tva_historique_static.md").style.hide(axis="index")
 ```
 
 ## Droits et taxes sur les carburants
@@ -303,7 +308,7 @@ supercarburants et le gazole.
 ## Droits et taxes sur les cigarettes
 
 En 2013, la fiscalité indirecte applicable aux cigarettes se compose de
-deux taxes [^7]:
+deux taxes [^indirecte-7]:
 
 -   le droit de consommation (noté $DC$);
 
@@ -311,23 +316,17 @@ deux taxes [^7]:
     noté $\tau$).
 
 Le
-tableau [Fiscalité applicable aux tabacs au 1er janvier 2013.](#table:taxes-tabac){reference-type="ref" reference="table:taxes-tabac"} donne un aperçu de la charge fiscale
-portant sur les tabacs.\
+tableau [Évolution des taux normaux du droit de consommation sur les tabacs (par type).](#table:taxes-tabac){reference-type="ref" reference="table:taxes-tabac"} résume les changements intervenus sur les taux.
 
-::: tab
-Fiscalité applicable aux tabacs au 1er janvier 2013. []{#table:taxes-tabac}
-
-  ------------------- ----------------- ------------------------------------------ -------------------------------------
-  **Type de tabac**    **Taux de TVA**   **Taux normal du droit de consommation**   **Part des taxes dans le prix TTC**
-  Cigarettes               19,60%                         64,25%                                  80,64%
-  Cigares                  19,60%                         28,00%                                  44,39%
-  Tabac à rouler           19,60%                         60,00%                                  76,39%
-  ------------------- ----------------- ------------------------------------------ -------------------------------------
-
-*Source*: Article 575 du Code général des impôts.\
-*Note*: La part des taxes dans le prix TTC des cigarettes n'est exacte
-que pour les cigarettes vendues au prix de référence.
-:::
+```{python}
+#| label: taxes-tabac
+#| tbl-cap: "Évolution des taux normaux du droit de consommation sur les tabacs (par type)."
+#| cap-location: top
+#| echo: false
+from quarto.openfisca_tables.core import get_table_or_static
+from chapters.indirecte.openfisca_tables import table_tabac_taux_normal_df
+get_table_or_static(table_tabac_taux_normal_df, "chapters/indirecte/tables/tabac_taux_normal_static.md").style.hide(axis="index")
+```
 
 Dans le cadre de la loi de financement de la Sécurité Sociale, les taux
 normaux pour les cigarettes et le tabac à rouler seront revalorisés au
@@ -338,7 +337,7 @@ pour les cigarettes sera également réévalué de 12,5% à 15%.
 
 La méthode de calcul du droit de consommation sur les cigarettes est
 relativement complexe. Il se calcule en fonction d'un prix de référence
-des cigarettes [^8] et comporte deux parts:
+des cigarettes [^indirecte-8] et comporte deux parts:
 
 -   une part spécifique qui est un droit d'accise;
 
@@ -348,7 +347,7 @@ des cigarettes [^8] et comporte deux parts:
 
 Le droit de consommation total dû sur un paquet de cigarettes vendu au
 prix de référence (noté $DC^{ref}$) est égal au produit du prix TTC du
-paquet et du taux normal du droit de consommation (noté TN)[^9]:\
+paquet et du taux normal du droit de consommation (noté TN)[^indirecte-9]:\
 $$DC^{ref} = TN~p^{ref}_{ttc}$$
 
 ##### Calcul du droit de consommation pour des cigarettes vendues à un autre prix.
@@ -356,7 +355,7 @@ $$DC^{ref} = TN~p^{ref}_{ttc}$$
 La part spécifique du droit de consommation (notée $PS$) due sur les
 cigarettes vendues à un prix différent du prix de référence est égale à
 12% de la charge fiscale totale afférente aux cigarettes vendues au prix
-de référence.[^10]\
+de référence.[^indirecte-10]\
 $$PS = 0,12~\Big(\underbrace{TN . p^{ref}_{ttc}}_{\makebox[0pt][c]{\shortstack{\\ \\ Droit de \\ consommation}}} + \underbrace{\frac{\tau}{1 + \tau} ~ p^{ref}_{ttc}}_{\makebox[0pt][c]{\shortstack{\\ TVA}}}\Big)$$
 La part proportionnelle due sur les cigarettes vendues au prix
 $p^{X}_{ttc}$ (notée $PP^{X}$) se calcule comme ceci:\
@@ -411,9 +410,7 @@ indirectes:
 -   la **taxe sur la valeur ajoutée**.\
 
 Le
-tableau [Fiscalité applicable aux alcools au 1er janvier 2013.](#table:taxes-alcools){reference-type="ref" reference="table:taxes-alcools"} présente les principaux droits
-indirects et taxes applicables aux boissons alcoolisées au 1^er^ janvier
-2013.\
+tableau [Évolution des droits par type de boisson (€/hl ou assimilé).](#table:taxes-alcools){reference-type="ref" reference="table:taxes-alcools"} présente l'évolution des droits applicables aux boissons alcoolisées.
 Par rapport à la fiscalité en vigueur en 2012, le seul changement
 notable concerne les droits de consommation sur les bières, relevés dans
 le cadre de la loi de financement de la Sécurité Sociale pour 2013.
@@ -426,23 +423,15 @@ alcoolisées, à partir de la comptabilité nationale et des rentrées
 fiscales. Ces estimations sont présentées dans le
 tableau [Charge fiscale pesant sur les alcools en 2010.](#table:taxes-alcools2){reference-type="ref" reference="table:taxes-alcools2"}.
 
-::: tab
-Charge fiscale pesant sur les alcools en 2010. []{#table:taxes-alcools2}
-
-          **Type de boisson**           **Consommation annuelle**   **Taxes et droits indirects (sauf TVA)**   **TVA**   **Part des taxes dans la consommation annuelle**
-  ------------------------------------ --------------------------- ------------------------------------------ --------- --------------------------------------------------
-             Vins et cidres                       9497                                119                      1556,4                         17,6%
-                 Bières                           1540                                375                       252,4                         40,7%
-   Alcools et produits intermédiaires             5155                                2734                      844,9                         69,4%
-
-*Note:* Tous les montants sont en milliards d'euros.\
-*Sources*: Comptabilité nationale, Insee, pour la consommation; projet
-de loi de finances 2012, Évaluation des voies et moyens, pour les droits
-de consommation
-(<http://www.performance-publique.budget.gouv.fr/farandole/2012/pap/pdf/VMT1-2012.pdf>);
-calcul des auteurs pour la TVA. La comptabilité nationale ne distingue
-pas les alcools et les produits intermédiaires.
-:::
+```{python}
+#| label: taxes-alcools
+#| tbl-cap: "Évolution des droits par type de boisson (€/hl ou assimilé)."
+#| cap-location: top
+#| echo: false
+from quarto.openfisca_tables.core import get_table_or_static
+from chapters.indirecte.openfisca_tables import table_alcools_droits_df
+get_table_or_static(table_alcools_droits_df, "chapters/indirecte/tables/alcools_droits_static.md").style.hide(axis="index")
+```
 
 ## Taxes et contributions sur les conventions d'assurance
 
@@ -528,7 +517,7 @@ contrats d'assurance santé: la taxe spéciale sur les conventions
 d'assurance, perçue sur *le montant des sommes stipulées au profit de
 l'assureur et de tous les accessoires dont celui-ci bénéficie
 directement ou indirectement du fait de l'assuré*   et la taxe de
-solidarité [^11] destinée à financer la couverture maladie universelle
+solidarité [^indirecte-11] destinée à financer la couverture maladie universelle
 complémentaire. Initialement fixé à 1,75%, le taux de cette dernière est
 passé à 2,5% en 2006, puis à 5,9% en 2009 et enfin à 6,27% en 2011
 (cette hausse étant justifiée par une réduction de l'assiette de la
@@ -553,10 +542,10 @@ santé depuis 1995. []{#table:historique-taxes-sante}
 :::
 
 Par ailleurs, les contrats d'assurance maladie complémentaires
-solidaires [^12]   ont bénéficié d'une exonération totale de TSCA entre
+solidaires [^indirecte-12]   ont bénéficié d'une exonération totale de TSCA entre
 octobre 2003 et janvier 2006, date à laquelle l'exonération a été
 restreinte aux seuls contrats d'assurance maladie complémentaires dits
-solidaires et responsables [^13] . Cette mesure, qui visait à encourager
+solidaires et responsables [^indirecte-13] . Cette mesure, qui visait à encourager
 la souscription de contrats solidaires et responsables , a rempli son
 objectif puisqu'en 2008, la part des contrats de ce type était estimée à
 98% par la direction de la recherche, des études, de l'évaluation et des
@@ -585,7 +574,7 @@ rectificative pour 2011.
 
 ## Les autres taxes indirectes
 
-Enfin, il existe un certain nombre d'autres taxes indirectes [^14] parmi
+Enfin, il existe un certain nombre d'autres taxes indirectes [^indirecte-14] parmi
 lesquelles on peut citer:
 
 -   la taxe spéciale sur les activités polluantes;
@@ -620,58 +609,58 @@ d'élaboration.
 -   Le second vise à créer un droit de consommation sur les boissons
     énergisantes, en plus de la TVA.
 
-[^1]: Edgar Faure est alors Ministre des Finances et des Affaires
+[^indirecte-1]: Edgar Faure est alors Ministre des Finances et des Affaires
     économiques au sein du gouvernement de Joseph Laniel.
 
-[^2]: Le Conseil des ministres de la CEE adopte la directive 67/227/CEE
+[^indirecte-2]: Le Conseil des ministres de la CEE adopte la directive 67/227/CEE
     établissant les fondements et principes du système communautaire des
     taxes sur le chiffre d'affaire le 11 avril 1967. Entrée en vigueur
     le 1^er^ janvier 1970, elle n'est cependant applicable à tous les
     États-membres qu'à partir de 1974.
 
-[^3]: Cette taxe indirecte sur la consommation est calculée en
+[^indirecte-3]: Cette taxe indirecte sur la consommation est calculée en
     multipliant le prix de vente par un taux fixé par chaque État,
     allant de 0% à 12%. La moyenne nationale est d'environ 6% et les
     produits alimentaires sont rarement soumis à cette taxe. Seul le
     consommateur final la paie.
 
-[^4]: Une liste exhaustive est disponible sur le site impots.gouv.fr.
+[^indirecte-4]: Une liste exhaustive est disponible sur le site impots.gouv.fr.
 
-[^5]: Une liste exhaustive des produits par taux de TVA est disponible
+[^indirecte-5]: Une liste exhaustive des produits par taux de TVA est disponible
     sur le site
     <http://vosdroits.service-public.fr/professionnels-entreprises/F23567.xhtml#N100C8>
 
-[^6]: Référence législative: article 68 de la 3^ème^ loi de finances
+[^indirecte-6]: Référence législative: article 68 de la 3^ème^ loi de finances
     rectificative pour 2012 (novembre 2012).
 
-[^7]: Les tabacs ont été assujettis entre 1959 et 2004 à une troisième
+[^indirecte-7]: Les tabacs ont été assujettis entre 1959 et 2004 à une troisième
     taxe perçue au profit du budget annexe des prestations sociales
     agricoles (taxe BAPSA), dont le taux était assez faible (environ
     0.5%). Cette taxe a été supprimée en 2004.
 
-[^8]: Dans le Code général des Impôts, ce prix de référence est appelé
+[^indirecte-8]: Dans le Code général des Impôts, ce prix de référence est appelé
     classe de prix de référence   et est égal à la moyenne pondérée des
     prix de vente TTC des cigarettes.
 
-[^9]: Le taux normal est donné dans l'article 575A du Code général des
+[^indirecte-9]: Le taux normal est donné dans l'article 575A du Code général des
     Impôts.
 
-[^10]: Ce taux était plus faible dans les années 1990, et était de 9%
+[^indirecte-10]: Ce taux était plus faible dans les années 1990, et était de 9%
     jusqu'au 31 décembre 2011.
 
-[^11]: La contribution à la couverture maladie universelle créée par la
+[^indirecte-11]: La contribution à la couverture maladie universelle créée par la
     loi du 27 juillet 1999 [@loi1999] a été transformée en taxe de solidarité par
     larticle 190 de la loi 2010-1657 [@loi2010-1657] du 29 décembre 2010 [@loi2010-1657] de finances
     pour 2011.
 
-[^12]: Créés en 2002, les contrats d'assurance maladie complémentaires
+[^indirecte-12]: Créés en 2002, les contrats d'assurance maladie complémentaires
     sont dits solidaires   lorsque les cotisations ou primes ne sont pas
     fixées en fonction de l'état de santé de l'assuré.
 
-[^13]: Créés en 2004, ils encouragent le respect du parcours de soins
+[^indirecte-13]: Créés en 2004, ils encouragent le respect du parcours de soins
     défini par l'assurance maladie.
 
-[^14]: Une liste de l'ensemble des impôts indirects est disponible dans
+[^indirecte-14]: Une liste de l'ensemble des impôts indirects est disponible dans
     le Rapport sur les prélèvements obligatoires et leur évolution,
     annexé au projet de loi de finances pour 2012.
 <!-- Selon la Fédération Française des Spiritueux, un litre de

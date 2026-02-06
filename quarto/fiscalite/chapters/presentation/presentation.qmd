@@ -29,7 +29,7 @@ title: "Présentation générale"
 >     de retraite) et les revenus du patrimoine soumis à l'impôt (les
 >     revenus des valeurs et capitaux mobiliers, les revenus fonciers).
 >     Tous les montants précédemment cités sont à prendre en compte
->     selon leur définition au sens IRPP [^1] . Ainsi, le revenu brut
+>     selon leur définition au sens IRPP [^presentation-1] . Ainsi, le revenu brut
 >     global est net d'un certain nombre de prélèvements (CSG
 >     déductible, cotisations patronales et salariales et taxes sur les
 >     salaires) S'ajoute également à ces revenus catégoriels les
@@ -46,15 +46,15 @@ title: "Présentation générale"
 >     des contrats d'assurance relatifs à l'assurance obligatoire des
 >     personnes non salariées contre les accidents de la vie privée, les
 >     accidents du travail et les maladies professionnelles dans
->     l'agriculture [^2]), les exonerations prévues par l'article 157 du
+>     l'agriculture [^presentation-2]), les exonerations prévues par l'article 157 du
 >     code général des impôts (CGI), les déductions accordées en
 >     fonction du revenu des personnes de plus de 75 ans ou invalides,
 >     la déduction des frais professionnels sur les salaires et
->     l'abattement sur les pensions et retraites [^3].\
+>     l'abattement sur les pensions et retraites [^presentation-3].\
 >     Il est d'usage de prendre en compte le revenu global net du foyer
 >     fiscal. Dans ce cas, il se définit comme la somme des revenus nets
 >     imposables des individus du foyer fiscal (différent du ménage
->     social [^4]).\
+>     social [^presentation-4]).\
 >
 > -   **Le revenu fiscal de référence (RFR)**: Il est utilisé comme
 >     revenu de référence pour l'attribution de certaines aides et
@@ -64,7 +64,7 @@ title: "Présentation générale"
 >     Pour le calculer, on ajoute au revenu net imposable le montant des
 >     cotisations d'épargne-retraite déduites, de certains revenus
 >     exonérés ou soumis aux prélèvements libératoires et de certains
->     abattements [^5].\
+>     abattements [^presentation-5].\
 >
 > -   **Le revenu professionnel** au sens utilisé pour calculer la PPE
 >     répond à une définition bien précise. L'activité professionnelle
@@ -128,20 +128,20 @@ telles que la prime pour l'emploi et l'exonération des plus-values
 immobilières réalisées par les titulaires de pensions de vieillesse ou
 d'une carte d'invalidité.
 
-[^1]: Voir la table 1 page 4 du présent guide pour plus d'explications
+[^presentation-1]: Voir la table 1 page 4 du présent guide pour plus d'explications
 
-[^2]: Cette liste n'est pas exhaustive. Pour plus d'informations se
+[^presentation-2]: Cette liste n'est pas exhaustive. Pour plus d'informations se
     référer à l'article 156-II du code général des impôts ou à la
     section Détermination du revenu net global  de ce guide
 
-[^3]: Nous n'avons cité ici que les déductions qui nous ont semblé les
+[^presentation-3]: Nous n'avons cité ici que les déductions qui nous ont semblé les
     plus importantes. Pour la liste complètes des déductions permettant
     de calculer le revenu net imposable, se référer aux articles 156 à
     168 du Code général des impôts ou à la section Détermination du
     revenu net global  de ce guide.
 
-[^4]: Le revenu fiscal d'un ménage correspond à l'ensemble des revenus
+[^presentation-4]: Le revenu fiscal d'un ménage correspond à l'ensemble des revenus
     déclarés par les foyers fiscaux qui le composent.
 
-[^5]: Pour la liste complète des éléments à ajouter au revenu net
+[^presentation-5]: Pour la liste complète des éléments à ajouter au revenu net
     imposable, se référer à la page X(PPE) du présent guide.

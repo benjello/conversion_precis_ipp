@@ -1,4 +1,4 @@
-# For dynamic tables from OpenFisca parameters (e.g. TVA history in indirecte.qmd)
+# For dynamic tables from OpenFisca parameters (e.g. TVA history in chapters/indirecte/indirecte.qmd)
 # Also declared in ipp/pyproject.toml; use this file only if installing outside the project.
 openfisca-france>=131
 pyyaml>=6.0

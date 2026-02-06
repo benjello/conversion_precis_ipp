@@ -1,21 +1,8 @@
 """
-Build tables from OpenFisca-France parameters for use in Quarto .qmd.
+Core helpers to build tables from OpenFisca-France parameters for Quarto.
 
-Parameters and units are loaded only from the installed openfisca-france package
-via importlib.resources (no filesystem path). Requires: openfisca-france, pyyaml, pandas.
-
-- Parameter YAMLs declare metadata.unit (e.g. '/1' for percent).
-- units.yaml in the package defines short_label (e.g. '%'), ratio (e.g. True for /1).
-- When format_value is None, table_from_parameters uses these to format cells (e.g. "20 %").
-
-Generic usage:
-  from openfisca_tables import table_from_parameters_df
-  spec = [("parameters/.../taux_normal.yaml", "Normal"), ...]
-  table_from_parameters_df(spec, row_column_name="Type de taux")  # units from package
-
-Predefined TVA table:
-  from openfisca_tables import table_tva_historique_df
-  table_tva_historique_df()
+These helpers load parameters and units from the installed openfisca-france package
+via importlib.resources (no filesystem paths). Requires: openfisca-france, pyyaml, pandas.
 """
 
 from __future__ import annotations
@@ -34,17 +21,8 @@ except ImportError:
     pd = None
 
 
-# Default: first year to show; then only years where at least one value changes
-DEFAULT_TVA_START_YEAR = 1972
-
-# TVA table: (path in openfisca_france package, row label)
-TVA_PARAMETERS_SPEC = [
-    ("parameters/taxation_indirecte/tva/taux_particulier_super_reduit.yaml", "Super réduit"),
-    ("parameters/taxation_indirecte/tva/taux_reduit.yaml", "Réduit"),
-    ("parameters/taxation_indirecte/tva/taux_reduit_2.yaml", "Réduit supérieur"),
-    ("parameters/taxation_indirecte/tva/taux_normal.yaml", "Normal"),
-    ("parameters/taxation_indirecte/tva/taux_majore.yaml", "Majoré"),
-]
+# Type for parameter spec: (package_relative_path, row_label)
+ParameterSpec = tuple[str, str]
 
 
 def load_parameter_from_package(relative_path: str) -> dict[str, Any] | None:
@@ -109,6 +87,7 @@ def _unit_short_label_for_year(unit_info: dict[str, Any] | None, year: int | Non
     if "units" in unit_info and year is not None:
         # Date-dependent unit (e.g. currency): pick sub-unit in effect at start of year
         import datetime
+
         sub_units = unit_info["units"]
         if hasattr(sub_units, "keys"):
             year_start = datetime.date(year, 1, 1)
@@ -179,6 +158,7 @@ def value_at_year(param_data: dict[str, Any], year: int) -> float | None:
 def _max_year_in_param_data(param_data_list: list[tuple[str, dict[str, Any]]]) -> int:
     """Latest year that appears in any of the parameter values."""
     import datetime
+
     out = datetime.date.today().year
     for _label, data in param_data_list:
         if not data or "values" not in data:
@@ -210,10 +190,6 @@ def _years_where_any_change(
     return change_years
 
 
-# Type for parameter spec: (package_relative_path, row_label)
-ParameterSpec = tuple[str, str]
-
-
 def table_from_parameters(
     parameters: list[ParameterSpec],
     row_column_name: str = "Paramètre",
@@ -231,7 +207,7 @@ def table_from_parameters(
         one parameter changes.
     start_year: first year when annees is None (required if annees is None).
     format_value: optional formatter for numeric cells, e.g. lambda v: f"{v*100:.1f}".replace(".", ",").
-        If None, uses str(value).
+        If None, uses parameter units from metadata + units.yaml.
 
     Returns a DataFrame with row_column_name + one column per year. Missing values as "–".
     """
@@ -327,44 +303,39 @@ def _dataframe_to_markdown(df: "pd.DataFrame") -> str:
     return "\n".join(lines)
 
 
-# --- TVA table (predefined use of table_from_parameters) ---
-# Uses metadata.unit and units.yaml from the package for formatting (e.g. "20 %").
-
-
-def table_tva_historique(
-    annees: list[int] | None = None,
-    start_year: int = DEFAULT_TVA_START_YEAR,
-) -> "pd.DataFrame | None":
+def get_table_or_static(
+    openfisca_func: Callable[[], "pd.DataFrame | None"],
+    static_md_path: str,
+    use_openfisca_env_var: str = "QUARTO_PARAM_USE_OPENFISCA_TABLES",
+) -> "pd.DataFrame":
     """
-    Build the "Évolution des taux de TVA en France" table from openfisca-france parameters.
-    Unit formatting (e.g. %) comes from parameter metadata and units.yaml.
+    Return a DataFrame for Quarto: from OpenFisca if param is true, else parse static markdown table.
     """
-    return table_from_parameters(
-        parameters=TVA_PARAMETERS_SPEC,
-        row_column_name="Type de taux",
-        annees=annees,
-        start_year=start_year,
-        format_value=None,  # use units from package
-    )
+    import os
+    from pathlib import Path
+    import sys
 
-
-def table_tva_historique_md(
-    annees: list[int] | None = None,
-    start_year: int = DEFAULT_TVA_START_YEAR,
-) -> str:
-    """Return the TVA historique table as a Markdown pipe table."""
-    return table_from_parameters_md(
-        parameters=TVA_PARAMETERS_SPEC,
-        row_column_name="Type de taux",
-        annees=annees,
-        start_year=start_year,
-        format_value=None,
-    )
-
-
-def table_tva_historique_df(
-    annees: list[int] | None = None,
-    start_year: int = DEFAULT_TVA_START_YEAR,
-) -> "pd.DataFrame | None":
-    """Return the TVA historique table as a pandas DataFrame for Quarto. In a chunk: table_tva_historique_df()"""
-    return table_tva_historique(annees=annees, start_year=start_year)
+    use_of = os.environ.get(use_openfisca_env_var, "true").lower() in ("true", "1", "yes")
+    if use_of:
+        df = openfisca_func()
+        if df is not None:
+            # Use OpenFisca output only if it contains data.
+            if not hasattr(df, "empty") or not df.empty:
+                print(f"[openfisca] using OpenFisca for {static_md_path}", file=sys.stderr)
+                return df
+        print(f"[openfisca] fallback to static table for {static_md_path}", file=sys.stderr)
+    # Parse static markdown table (skip caption/note lines)
+    path = Path(static_md_path)
+    if not path.is_file() or pd is None:
+        return pd.DataFrame() if pd else None  # type: ignore[return-value]
+    text = path.read_text(encoding="utf-8")
+    lines = [l.strip() for l in text.strip().split("\n") if l.strip() and not l.strip().startswith("*")]
+    rows = []
+    for line in lines:
+        if line.startswith("|"):
+            cells = [c.strip() for c in line.split("|")[1:-1]]
+            if cells and not all(c == "" or set(c) <= set("-") for c in cells):
+                rows.append(cells)
+    if rows:
+        return pd.DataFrame(rows[1:], columns=rows[0])
+    return pd.DataFrame()

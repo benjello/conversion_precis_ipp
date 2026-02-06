@@ -20,13 +20,13 @@ book:
   date: today
   chapters:
     - index.qmd
-    - presentation.qmd
-    - cotisations.qmd
-    - revenu.qmd
-    - patrimoine.qmd
-    - indirecte.qmd
-    - glossaire.qmd
-    - references.qmd
+    - chapters/presentation/presentation.qmd
+    - chapters/cotisations/cotisations.qmd
+    - chapters/revenu/revenu.qmd
+    - chapters/patrimoine/patrimoine.qmd
+    - chapters/indirecte/indirecte.qmd
+    - chapters/glossaire/glossaire.qmd
+    - chapters/references/references.qmd
   downloads: [pdf]
   repo-url: https://github.com/benjello/conversion_precis_ipp
   repo-subdir: quarto/fiscalite
@@ -45,6 +45,12 @@ format:
   html:
     theme: cosmo
     number-depth: 3
+    # Élargir au maximum la zone centrale pour les tableaux larges (TVA, tabac, alcools, etc.)
+    grid:
+      body-width: 1600px
+      sidebar-width: 220px
+      margin-width: 200px
+      gutter-width: 1.5em
   pdf:
     documentclass: scrreprt
     pdf-engine: xelatex
