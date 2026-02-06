@@ -16,7 +16,46 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  render-quarto:
+  render-quarto-pr:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Install Python dependencies
+        run: |
+          uv pip install --system -e .[quarto]
+          if [ -f requirements.txt ]; then
+            uv pip install --system -r requirements.txt
+          fi
+
+      - name: Render Quarto project
+        run: |
+          cd quarto/fiscalite
+          export QUARTO_PYTHON="$(uv python find)"
+          quarto render --to html
+
+      - name: Validate build outputs (HTML)
+        run: |
+          test -s quarto/fiscalite/public/index.html
+
+  render-quarto-main:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
@@ -68,7 +107,7 @@ jobs:
 
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    needs: render-quarto
+    needs: render-quarto-main
     runs-on: ubuntu-latest
     environment:
       name: github-pages
