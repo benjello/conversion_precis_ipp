@@ -89,6 +89,15 @@ jobs:
           quarto render --to html
           quarto render --to pdf
 
+      - name: Debug outputs (HTML + PDF)
+        run: |
+          echo "public/ contents:"
+          ls -la quarto/fiscalite/public
+          echo "HTML files:"
+          ls -la quarto/fiscalite/public/*.html || true
+          echo "PDF files:"
+          ls -la quarto/fiscalite/public/*.pdf || true
+
       - name: Validate build outputs (HTML + PDF)
         run: |
           test -s quarto/fiscalite/public/index.html
