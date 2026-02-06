@@ -47,7 +47,8 @@ jobs:
         run: |
           cd quarto/fiscalite
           export QUARTO_PYTHON="$(uv python find)"
-          quarto render
+          quarto render --to html
+          quarto render --to pdf
 
       - name: Validate build outputs (HTML + PDF)
         run: |
