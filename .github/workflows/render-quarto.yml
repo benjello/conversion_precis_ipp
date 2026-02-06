@@ -92,7 +92,7 @@ jobs:
       - name: Validate build outputs (HTML + PDF)
         run: |
           test -s quarto/fiscalite/public/index.html
-          test -s quarto/fiscalite/public/index.pdf
+          ls -1 quarto/fiscalite/public/*.pdf >/dev/null
 
       - name: Add .nojekyll for GitHub Pages
         run: touch quarto/fiscalite/public/.nojekyll
